@@ -1,7 +1,7 @@
 # Context: generated PDF history cleanup
 
 - Goal ID: `20261011-output-pdf-history-cleanup`
-- State: `active`
+- State: `completed`
 - Repository: `https://github.com/Hramgithub/kb_creator.git`
 - Old remote baseline: `91db0491f3fa0876ab0c44d45151f8006f812d5a`
 - Clean root baseline: `141758c2d7e67acde0f4a9f28b2822379e3f5a18`
@@ -35,7 +35,12 @@
 - `kb_creator/output/` now contains three tracked non-PDF historical artifacts;
 - `pdf_raw/` remains unchanged at five tracked paths.
 
-## Current step
+## Completed result
 
-C5: independent review of the exact cleaned root and frozen handoff candidate.
-Remote publication remains pending.
+- independent critic approved exact candidate `ed52f92`;
+- fresh fetch confirmed the old remote lease was still `91db049`;
+- guarded `--force-with-lease` publication replaced GitHub `main` with the
+  cleaned history;
+- fresh remote verification confirmed `main` at `ed52f92` before integration
+  of this administrative receipt/status delta;
+- frozen handoff bytes were not changed after independent approval.

@@ -1,7 +1,7 @@
 # Goal plan: generated PDF history cleanup
 
 - Goal ID: `20261011-output-pdf-history-cleanup`
-- State: `active`
+- State: `completed`
 - Objective: remove two obsolete Innsmouth PDFs from the standalone repository
   and its one-commit history, preserve the historical reports, refresh the
   model handoff for the new baseline, and safely replace remote `main`.
@@ -17,8 +17,8 @@
 | C2 local deletion and root-commit rewrite | main-chat orchestrator | medium | completed |
 | C3 handoff refresh and integration | main-chat orchestrator | medium | completed |
 | C4 bounded repository QA | `gpt-6-luna` QA | medium | completed; v02 pass |
-| C5 independent release review | `gpt-6-astra` critic | high | active |
-| C6 guarded force-with-lease publication | main-chat orchestrator | medium | pending |
+| C5 independent release review | `gpt-6-astra` critic | high | completed; approved |
+| C6 guarded force-with-lease publication | main-chat orchestrator | medium | completed |
 
 The critic must not implement or materially redesign the candidate.
 

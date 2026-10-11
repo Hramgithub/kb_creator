@@ -2,7 +2,7 @@
 
 - Goal ID: `20261011-output-pdf-history-cleanup`
 - Freeze time: `2026-10-11T18:50:49Z`
-- Release state: independent review pending
+- Release state: approved; reviewed candidate published
 - Old remote baseline: `91db0491f3fa0876ab0c44d45151f8006f812d5a`
 - Clean root baseline: `141758c2d7e67acde0f4a9f28b2822379e3f5a18`
 - Publication method: exact `--force-with-lease` against the old remote baseline
@@ -48,4 +48,20 @@ or restoration/removal of unrelated assets.
 
 ## Independent decision
 
-Pending C5 receipt.
+**Approved** for guarded publication by the independent critic in
+`handoffs/C5-release-critic-v01.md`. The reviewed commit is
+`ed52f929d16e6002604c21ad97f26cc3f47cc747`; its parent is the exact clean root
+`141758c2d7e67acde0f4a9f28b2822379e3f5a18`.
+
+## Publication evidence
+
+- A fresh fetch confirmed `origin/main` still equalled the expected old lease
+  `91db0491f3fa0876ab0c44d45151f8006f812d5a`.
+- The reviewed candidate was pushed with the exact lease
+  `refs/heads/main:91db0491f3fa0876ab0c44d45151f8006f812d5a`;
+  plain force was not used.
+- A fresh `ls-remote` and fetch confirmed GitHub `main` at
+  `ed52f929d16e6002604c21ad97f26cc3f47cc747` before this administrative
+  receipt/status commit.
+- This final administrative delta adds the critic receipt and canonical status
+  only; it does not change the cleaned root or frozen handoff bytes.

@@ -1,0 +1,32 @@
+{
+  "schema": "kb_creator.reconstruction_upstream_inventory.v1",
+  "scenario_id": "number-7-dream",
+  "reconstruction_contract_sha256": "A74582B223805E643EB6B7C03BD540DBB90CF2B0B124F9B1E220B6B7251B4A07",
+  "artifacts": [
+    {
+      "role": "reconstructed_en",
+      "path": "content/RECONSTRUCTED_EN.md",
+      "bytes": 76430,
+      "sha256": "B49F8417007425ADAD6C0ED0A1C6E6625A27ED51C182D9164C8D8AC45324DE2A"
+    },
+    {
+      "role": "reconstruction_manifest",
+      "path": "RECONSTRUCTION_MANIFEST.json",
+      "bytes": 58760,
+      "sha256": "9E3D36B88FAED8E9E0845B1E432E4770E9DF863E769DC9E076A36A2CAE094118"
+    },
+    {
+      "role": "reconstruction_qa",
+      "path": "RECONSTRUCTION_QA.json",
+      "bytes": 2009,
+      "sha256": "792EE7A3C3C541C6397B908A4FC9777E3A20DD2B60934F82A0F1C7B3501270C1"
+    },
+    {
+      "role": "source_identity",
+      "path": "SOURCE_IDENTITY.json",
+      "bytes": 803,
+      "sha256": "17EA15D089FDFA672620529CAB9883E025208CF33938819A0D87F29422004432"
+    }
+  ],
+  "inventory_sha256": "27692107ED00C3E4FF5291AD4FB8E88F67F12D7D0BD0015F5709A61EE87FC986"
+}

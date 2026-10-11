@@ -1,0 +1,324 @@
+{
+  "schema": "kb_creator.scenario_artview_decisions.v4",
+  "scenario_id": "number-7-dream",
+  "state": "accepted",
+  "bindings": {
+    "candidate_files_inventory_sha256": "CC7161005A1D88E6D6F97477839DF6511BC12A24BD1FEBBF19EE4760FF8EABFA",
+    "candidate_manifest_sha256": "F33B08B2C7B621B7607381BD36B430430E2C2AC00B24F2D77A650473C4E26CF6",
+    "master_ru_acceptance_sha256": "EE8EA1BCFDC51003A6A2206938008EBA8E73E953DA0D631B2CF258AE3DEF0399",
+    "master_ru_asset_manifest_sha256": "A12565F3B3EC1BE3047C9E660438275E857E1371C502557ABC27EAA18E3B56AD",
+    "master_ru_sha256": "904133D5057172C404D28F3BCF2A5E4C578304A59382512D1B31FC56AE0FDAB2",
+    "profile_sha256": "B2F06CFA1DE52EED496267228F89E48E0DD9B8ED809A7DC52AC48025BA9AE88B",
+    "reconstruction_inventory_sha256": "B37142B8CFB0E85A9BFF157E1DF435D24EDEE13E1F6B755B064E2108CF4E1547",
+    "source_identity_sha256": "17EA15D089FDFA672620529CAB9883E025208CF33938819A0D87F29422004432",
+    "source_pdf_sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0"
+  },
+  "decisions": [
+    {
+      "asset_id": "pdf-page-001-cover",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 100,
+        "alignment": "center",
+        "wrap_text": false,
+        "wrap_tables": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-004-xref-80-gen-0-resource-image100",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-005-xref-80-gen-0-resource-image100",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-006-xref-15-gen-0-resource-image110",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-007-xref-19-gen-0-resource-image112",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-007-xref-21-gen-0-resource-image115",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-008-xref-24-gen-0-resource-image118",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "center",
+        "wrap_text": false,
+        "wrap_tables": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-009-xref-80-gen-0-resource-image100",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-011-xref-31-gen-0-resource-image149",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "center",
+        "wrap_text": false,
+        "wrap_tables": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-013-xref-36-gen-0-resource-image152",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-014-xref-39-gen-0-resource-image159",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-015-xref-42-gen-0-resource-image161",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "center",
+        "wrap_text": false,
+        "wrap_tables": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-017-xref-47-gen-0-resource-image164",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "master-page-020-asset-001",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": false,
+        "wrap_tables": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-021-xref-58-gen-0-resource-image171",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-022-xref-61-gen-0-resource-image174",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-023-xref-64-gen-0-resource-image177",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-024-xref-67-gen-0-resource-image180",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-025-xref-70-gen-0-resource-image183",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "page-026-xref-73-gen-0-resource-image186",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "width_percent": 25,
+        "alignment": "right",
+        "wrap_text": true,
+        "wrap_tables": true
+      },
+      "reviewed": true,
+      "notes": ""
+    }
+  ],
+  "review": {
+    "state": "closed",
+    "reviewed_count": 20,
+    "unresolved_asset_ids": []
+  },
+  "decisions_sha256": "31356F67700550115026241DF017249BF99FD7EF4840ECDDF2DA29DB720005B4"
+}

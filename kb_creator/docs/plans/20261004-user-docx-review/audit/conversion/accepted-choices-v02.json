@@ -1,0 +1,33 @@
+{
+  "schema": "nri.user_conversion_choices.v1",
+  "goal_id": "20261004-user-docx-review",
+  "authority": "Direct user answers on 5 October 2026; supplements immutable v01",
+  "decisions": [
+    {
+      "id": "len-pregen-persuade-consolidation",
+      "entities": ["Леон Стерндейл", "Коллин Палмер"],
+      "source_values": {"Леон Стерндейл": {"Торг":40,"Убеждение":40}, "Коллин Палмер": {"Торг":40,"Убеждение":32}},
+      "target": "One Убеждение 40% per investigator",
+      "user_answer": "Единое Убеждение 40% у обоих сыщиков",
+      "disposition": "approved_local_skill_consolidation",
+      "limitation": "Explicit exception authorizes Colin32->40 and exact duplicate skill-row removal only; no other skill redesign. Preserve unrelated table fields and source evidence."
+    },
+    {
+      "id": "kremlin-potapov-architecture",
+      "entity": "Евгений Потапов",
+      "old": "Архитектура 90%",
+      "new": "Искусство/ремесло (Архитектура) 90%",
+      "user_answer": "Искусство/ремесло (Архитектура) 90%",
+      "disposition": "approved_contextual_reader_label",
+      "limitation": "Canonical accepted parent plus user-approved specialization; standalone CSVreview_required status unchanged."
+    },
+    {
+      "id": "kremlin-language-parent-adaptation",
+      "entities": ["Евгений Потапов", "Иван", "Николай"],
+      "field_map": {"Русский язык":"Родной язык (Русский)", "Английский язык":"Иностранный язык (Английский)", "Немецкий язык":"Иностранный язык (Немецкий)"},
+      "user_answer": "Да, применить предложенные названия без изменения процентов",
+      "disposition": "approved_contextual_reader_label",
+      "limitation": "User-approved nativity presentation, not a claim source explicitly classified all three. Retain every original language percentage."
+    }
+  ]
+}

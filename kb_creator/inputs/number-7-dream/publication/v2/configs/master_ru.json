@@ -1,0 +1,5 @@
+{
+  "schema": "kb_creator.master_ru_adapter.v1",
+  "max_batch_chars": 3000
+}
+

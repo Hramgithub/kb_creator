@@ -1,0 +1,14 @@
+# T6 neutral statblock commit-scope audit
+
+- Scope: read-only Git and repository inventory after replay-21/v33 bounded QA.
+- Verdict: the neutral-statblock correction is present in repository-visible reusable code, tests, specifications, and documentation. The generated candidate is correctly ignored and is not the only copy of the fix.
+- Core reconstruction contract: `kb_creator/pipeline/semantic_structure.py` defines v2 `statblock -> semantic_span|table`, rejects quote syntax inside `semantic_span`, and preserves historical v1 readability.
+- Stage 05/06 consumers: `kb_creator/scripts/materialize_mineru_ai_merge.py` handles nested headings, title downgrades, and image/heading conflicts for `semantic_span`; focused regression coverage is in `kb_creator/tests/test_materialize_mineru_ai_merge.py`, `test_semantic_structure.py`, and `test_author_reviewed_semantic_decisions.py`.
+- Stage 40 projection: `kb_creator/pipeline/publication_adapters.py` requires sealed `semantic_span` authority and derives exact paired `semantic-span-start/end` markers. `kb_creator/tests/test_publication_html_adapter.py` covers valid projection, legacy rejection, ambiguity, and ordinary-quote preservation.
+- Renderer: `translator/translator.py` consumes only paired statblock markers into neutral `section.statblock-card` DOM and fails closed on malformed markers. `translator/tests/test_recovery_support.py` covers valid neutral rendering, malformed pairs, legacy quoted directives, and unaffected ordinary blockquotes.
+- Durable reviewed scenario spec: `handoffs/T6-dream-v2-neutral-statblocks-spec.json`; bounded QA receipt: `handoffs/T6-neutral-candidate-qa-receipt.md`.
+- Documentation: `NRI_OCR_LAYOUT_RULES.md`, `kb_creator/README.md`, canonical goal `plan.md`/`context.md`, and `kb_creator/PROJECT_STATUS.md` describe the same reconstruction-sidecar-publication boundary.
+- Verification: combined affected suite `302 passed, 1 skipped, 2 deselected, 5 subtests passed`; `git diff --check` passed after implementation and documentation updates.
+- Git state: no staged files. The cumulative dirty tree contains 36 modified tracked paths plus existing untracked Number 7 Dream contracts, scripts, tests, plans, and inputs from the dependency chain. Branch `main` was already `ahead 1`; no commit or push was created by this goal. A later authorized commit must stage an explicitly reviewed dependency-consistent file set, not the entire dirty tree.
+- Generated evidence boundary: `kb_creator/working/number-7-dream/reconstruction/20260918-cpu-replay-21/**` is ignored by the repository-wide `*` rule and must not be committed. Replay-19/20 remain ignored failed intermediate evidence.
+- Active gate: replay-21 reconstruction acceptance is not recorded. No MASTER_EN/MASTER_RU/ArtView/HTML successor may be produced until the user explicitly accepts this candidate.

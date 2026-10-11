@@ -1,0 +1,28 @@
+# Handoff Receipt
+
+- goal_id: `20260730-innsmouth-source-to-artifacts`
+- step_id: `batch_04.translation`
+- role: `main-chat orchestrator`
+- model: `gpt-5`
+- effort: `medium`
+- scope: Translate `batch_04.en.json` to `batch_04.ru.json` using only `source_text`, preserving schema fields, metadata, structure, page refs, and CoC mechanics.
+- result: `completed`
+- files_checked:
+  - `kb_creator/README.md`
+  - `kb_creator/PROJECT_STATUS.md`
+  - `docs/governance/nri_goal_governance.md`
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_04.en.json`
+- files_changed:
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_04.ru.json`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/handoffs/batch_04.translation.md`
+- verification_evidence:
+  - Output JSON schema set to `kb_creator.translation_batch_ru.v1`.
+  - Preserved `batch_id`, `source_tasks_json`, `target_ru_json`, every `unit_id`, `page`, and `source_hash`.
+  - Filled `ru_text` for all `6` units.
+  - PowerShell parse verification passed with `ConvertFrom-Json`: `JSON_OK units=6 schema=kb_creator.translation_batch_ru.v1`.
+  - Empty-field check passed: `EMPTY_RU_TEXT=0`.
+- blockers: `none`
+- next_action: Translate the next assigned batch or run downstream batch aggregation/QA when requested.
+- elapsed_time: `approx 18m`
+- token_use: `unavailable`
+- timestamp: `2026-07-30`

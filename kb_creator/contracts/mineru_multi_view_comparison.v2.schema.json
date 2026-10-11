@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.mineru_multi_view_comparison.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "status", "run_identity_sha256", "manifest", "view_set", "required_views", "succeeded_views", "skipped_views", "views", "pairwise", "failures"],
+  "properties": {
+    "schema": {"const": "kb_creator.mineru_multi_view_comparison.v2"},
+    "status": {"enum": ["pass_for_review", "fail"]},
+    "run_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "manifest": {"type": "object"}, "view_set": {"type": "object"},
+    "required_views": {"const": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr"]},
+    "succeeded_views": {"type": "array", "minItems": 3, "uniqueItems": true, "items": {"type": "string"}},
+    "skipped_views": {"type": "array", "items": {"type": "object"}},
+    "views": {"type": "object"}, "pairwise": {"type": "object"}, "failures": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {"sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}}
+}

@@ -1,0 +1,24 @@
+# L1 Full-Scope Line-Flow QA Receipt
+
+- Goal: `20260917-dream-lineflow-fidelity`
+- Step: `L1-QA`
+- Role: bounded QA
+- Model / effort: platform model unavailable; assigned QA policy role is `gpt-5.6-luna` at low effort
+- Orchestrator policy owner: `gpt-5.6-sol`, medium
+- Assignment state: `platform-unverified`
+- Scoped override: none
+- Scope: independently audit the 26 replay-15 per-page Markdown files against Stage04 `original_pipeline_txt` visuals and merge packets for false paragraph boundaries and compact line groups; verify source order within confirmed groups.
+- Result: four analogous false paragraph boundary groups are confirmed on pages 21–24. Page 23 also reverses the source visual order of the principal `STR…SAN` row and `Luck` row. Pages 25–26 already preserve the compact field sequence with hard breaks. No other analogous defect was confirmed in the scanned 26-page scope.
+- Files checked: assigned `plan.md` and `context.md`; `kb_creator/PROJECT_STATUS.md`; `docs/governance/nri_goal_governance.md`; all 26 replay-15 Stage06 `pages/page-NNN.md`; all 26 Stage04 merge packet JSON/Markdown pairs and visual triptychs; selected Stage04 raw-index and bounding-box records for pages 4, 5, 11, 18, and 21–26.
+- Verification / evidence:
+  - Inventory: 26 candidate page Markdown files, 26 merge-packet JSON files, 26 merge-packet Markdown files, and 26 Stage04 triptychs. Candidate and source page coverage is complete (001–026).
+  - Confirmed compact character-field groups: page 21 source raw indices 312–318; page 22 indices 327–333; page 23 indices 341–347; page 24 indices 356–362. Stage04 visuals show tightly stacked fields followed by a larger gap before `Skills:`; replay-15 pages 21–24 insert blank paragraphs between the fields.
+  - Source order: pages 21, 22, and 24 follow visual/raw sequence `STR…SAN`, `Luck`, `HP`, `MP`, `Damage Bonus`, `Build`, `Move` (respectively 312–318, 327–333, and 356–362). Page 23 Stage04 geometry places raw block 342 (`STR…SAN`, y=319–335) before raw block 341 (`Luck`, y=334–349), then blocks 343–347 (`HP` through `Move`); replay-15 instead places `Luck` before `STR…SAN`.
+  - Already-correct analogues: page 25 raw block 371 and page 26 raw block 381 each contain the same compact fields in candidate order with Markdown hard breaks; their visuals confirm tight line flow.
+  - Considered and excluded as false positives: pages 4–5 and 11 use separate bullet-list items, visibly distinct in Stage04 and preserved as separate list entries in Markdown. Page 18’s separate character/stat entities remain separate; its compact rows are hard-break-preserved (raw blocks 271–273 and 275–276), not blank-paragraph-split.
+  - No tests or edits to pipeline, schemas, decisions, generated artifacts, or canonical plan/context/status were performed; verification was read-only apart from this assigned receipt.
+- Blockers: none for L1 QA.
+- Next action: orchestrator may use the confirmed pages 21–24 cases and page 23 ordering defect as L2 contract/implementation inputs; replay-15 and its v26 decisions remain historical evidence.
+- Elapsed time: approximately 8 minutes.
+- Token use: unavailable.
+- Timestamp: 2026-09-17 19:31:55 UTC.

@@ -1,0 +1,24 @@
+{
+  "schema": "innsmouth.reading_order_evidence_build.v1",
+  "generated_at_utc": "2026-07-30T16:16:11.057446+00:00",
+  "assembled_full_en_v6": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_raw_v6.md",
+  "source_manifest": "kb_creator/reports/innsmouth_full_dry_run/reading_order/source_block_manifest.v2.json",
+  "candidate_manifest": "kb_creator/reports/innsmouth_full_dry_run/reading_order/candidate_block_manifest.v2.json",
+  "old_candidate_manifest": "kb_creator/reports/innsmouth_full_dry_run/reading_order/old_full_en_candidate_block_manifest.v2.json",
+  "config": "kb_creator/reports/innsmouth_full_dry_run/reading_order/the_innsmouth_terror.full_dry_run_raw_v6.package.json",
+  "inputs": {
+    "column_report": "kb_creator/working/innsmouth_full_dry_run/column_ocr_reconstruction_report.json",
+    "column_candidate_sha256": "ae99d986b49951d9f400884e99b82efd1e73a65853daf67e03e8d5489837311c",
+    "assembled_full_en_v6_sha256": "02af4ff1a155fe0360a6a52eb4168ccda678e9e01267eceac03140c38f4040fb",
+    "old_full_en_sha256": "02f4d727e37c6b6bf89ffd6457a0dab5d1468adee562fc4b010c52be92f199a8"
+  },
+  "counts": {
+    "source_pages": 46,
+    "candidate_pages": 46,
+    "old_candidate_pages": 46,
+    "source_blocks": 732,
+    "candidate_blocks": 732,
+    "old_candidate_blocks": 345
+  },
+  "decision": "v6_candidate_from_column_ocr_requires_source_review_before_translation_acceptance"
+}

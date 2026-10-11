@@ -1,0 +1,884 @@
+{
+  "decision": {
+    "assets": [],
+    "markdown": "## DO NOT CALL UP THAT WHICH YOU CANNOT PUT DOWN\n\nby brian courtemanche\n\nSEA MONSTER\n\nSUMMONING\n\nCOVER-UP\n\nMARTIN’S BEACH",
+    "overlay_preference": "original_pipeline_txt",
+    "review": {
+      "notes": "prepared from mechanical candidate; visual review remains false",
+      "visual_reviewed": false
+    },
+    "schema": "kb_creator.mineru_ai_page_decision.v1",
+    "selected_blocks": [
+      {
+        "purpose": "text",
+        "view": "raster_pipeline_ocr",
+        "raw_index": 1219
+      },
+      {
+        "purpose": "text",
+        "view": "raster_pipeline_ocr",
+        "raw_index": 1220
+      },
+      {
+        "purpose": "text",
+        "view": "raster_pipeline_ocr",
+        "raw_index": 1221
+      },
+      {
+        "purpose": "text",
+        "view": "original_pipeline_txt",
+        "raw_index": 1222
+      },
+      {
+        "purpose": "text",
+        "view": "original_pipeline_txt",
+        "raw_index": 1223
+      }
+    ],
+    "semantic_role": "body_do_not_call_up",
+    "source_page": 63,
+    "unresolved": [],
+    "reviewed_block_corrections": [
+      {
+        "view": "original_pipeline_txt",
+        "raw_index": 1223,
+        "before": "SE A MONSTER",
+        "after": "SEA MONSTER",
+        "reason": "N109 exact source PDF cover-tag crop inspected: normalize OCR intraword spacing within this label only. Four independent labels retain source order and exact lossless raw fragment ownership.",
+        "original_text_sha256": "A7DC5849F67840D857414D8932D35C2A42D0A951254810DFCA8DB4C6DD745B70"
+      },
+      {
+        "view": "original_pipeline_txt",
+        "raw_index": 1223,
+        "before": "MART IN ’S BEACH",
+        "after": "MARTIN’S BEACH",
+        "reason": "N109 exact source PDF cover-tag crop inspected: normalize OCR intraword spacing within this label only. Four independent labels retain source order and exact lossless raw fragment ownership.",
+        "original_text_sha256": "A7DC5849F67840D857414D8932D35C2A42D0A951254810DFCA8DB4C6DD745B70"
+      }
+    ],
+    "semantic_structure": {
+      "schema": "kb_creator.page_semantic_structure.v2",
+      "profile": "reviewed_role_outline_and_partitions_v2",
+      "role_contract": {
+        "role": "body_do_not_call_up",
+        "group_id": "fear-body_do_not_call_up-p063"
+      },
+      "review": {
+        "state": "complete",
+        "visual": {
+          "path": "outputs/04-visual-merge-bundle/visual/original_pipeline_txt/pages/page-063.png",
+          "bytes": 1695118,
+          "sha256": "294401E727075C0CF43B00BB8ABC2693158B82C9301C38958593F778BC8D5595"
+        }
+      },
+      "units": [
+        {
+          "id": "n143-p063-title-final",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "source_blocks": [
+            {
+              "view": "raster_pipeline_ocr",
+              "raw_index": 1219
+            },
+            {
+              "view": "raster_pipeline_ocr",
+              "raw_index": 1220
+            },
+            {
+              "view": "raster_pipeline_ocr",
+              "raw_index": 1221
+            }
+          ],
+          "markdown_span": {
+            "start_line": 1,
+            "end_line": 1,
+            "sha256": "751CE40627305AD64B50CBAB374ECE77DCDB015ECC048E77010ED91631D85582"
+          },
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": 2,
+          "item_count": null,
+          "source_fragments": [
+            {
+              "view": "raster_pipeline_ocr",
+              "raw_index": 1219,
+              "source_sha256": "C8BF5FE3DC15BC56D62C58260E4DC46278A5228E9E35F1511CF858AF8D575CED",
+              "normalized_sha256": "5097F49879CDB83E4B7E6DD79C99D3B209E9AEFEF45DEE714438F00E27C73111",
+              "start": 0,
+              "end": 36,
+              "fragment_sha256": "C8BF5FE3DC15BC56D62C58260E4DC46278A5228E9E35F1511CF858AF8D575CED"
+            },
+            {
+              "view": "raster_pipeline_ocr",
+              "raw_index": 1220,
+              "source_sha256": "907BF9A40F9CE9967D9811779DF472FAA3C5418D189735E007761E04447E5E19",
+              "normalized_sha256": "373CB2C6D4FE2778441D4F0266505B699FA518D002E5793B87F9B48836DE3F62",
+              "start": 0,
+              "end": 3,
+              "fragment_sha256": "907BF9A40F9CE9967D9811779DF472FAA3C5418D189735E007761E04447E5E19"
+            },
+            {
+              "view": "raster_pipeline_ocr",
+              "raw_index": 1221,
+              "source_sha256": "D45B3383FAF6E04F443C7CA602BA151B533D27C8F7394524AAD4F3480523A71B",
+              "normalized_sha256": "908AEC4512D80FF4FEFB1970899091E9DE8E734B36B8FDB7678E77DC092F6959",
+              "start": 0,
+              "end": 4,
+              "fragment_sha256": "D45B3383FAF6E04F443C7CA602BA151B533D27C8F7394524AAD4F3480523A71B"
+            }
+          ]
+        },
+        {
+          "id": "fear-p063-cover-label-1-n109",
+          "kind": "label",
+          "representation": "semantic_span",
+          "source_blocks": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223
+            }
+          ],
+          "markdown_span": {
+            "start_line": 5,
+            "end_line": 5,
+            "sha256": "DCD6DF2C30049D82B3D997990CEE6B53713A0FED7C4548F903335969A86273C9"
+          },
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": null,
+          "item_count": null,
+          "source_fragments": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223,
+              "source_sha256": "A7DC5849F67840D857414D8932D35C2A42D0A951254810DFCA8DB4C6DD745B70",
+              "normalized_sha256": "BD27C5BD02C25351E3A24D620DB1EB3D9A768AA2A76CCCAAFC3DD550857BBD9A",
+              "start": 0,
+              "end": 13,
+              "fragment_sha256": "80FD8B2FF1FEC37CF417A864047FAB8386306D6D01462DE1807DAF7B4C7302ED"
+            }
+          ]
+        },
+        {
+          "id": "fear-p063-cover-label-2-n109",
+          "kind": "label",
+          "representation": "semantic_span",
+          "source_blocks": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223
+            }
+          ],
+          "markdown_span": {
+            "start_line": 7,
+            "end_line": 7,
+            "sha256": "58396D30114B0E8EF90BFAA11FA4AAE472BB2CC655467F336D8557A311BD0E61"
+          },
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": null,
+          "item_count": null,
+          "source_fragments": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223,
+              "source_sha256": "A7DC5849F67840D857414D8932D35C2A42D0A951254810DFCA8DB4C6DD745B70",
+              "normalized_sha256": "072168A7718B7C3EBA3F03D0BCFB5D3D34D4D710763AD5866FE31DF39D8D8160",
+              "start": 13,
+              "end": 23,
+              "fragment_sha256": "7485A6236C8298DAE36AB3BB6A4941CC21C55D4ADC5CADCD0EE1A5F69D3623B7"
+            }
+          ]
+        },
+        {
+          "id": "fear-p063-cover-label-3-n109",
+          "kind": "label",
+          "representation": "semantic_span",
+          "source_blocks": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223
+            }
+          ],
+          "markdown_span": {
+            "start_line": 9,
+            "end_line": 9,
+            "sha256": "83861233708DC3C8A62694A66F06EC14B38326009BD90DEA8342ABC40CB91B9C"
+          },
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": null,
+          "item_count": null,
+          "source_fragments": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223,
+              "source_sha256": "A7DC5849F67840D857414D8932D35C2A42D0A951254810DFCA8DB4C6DD745B70",
+              "normalized_sha256": "71FA9A024F79155615D0EF7FCB9E134B2D8A2AA76CC977DEF6E94865DF131A99",
+              "start": 23,
+              "end": 32,
+              "fragment_sha256": "01DEE5CE15D2DA1A202304DDD6D7F8DD19D03DC66F2388B467BC26C062E1BAE3"
+            }
+          ]
+        },
+        {
+          "id": "fear-p063-cover-label-4-n109",
+          "kind": "label",
+          "representation": "semantic_span",
+          "source_blocks": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223
+            }
+          ],
+          "markdown_span": {
+            "start_line": 11,
+            "end_line": 11,
+            "sha256": "4C56828B6D08CC608BD0EB198CFD71CF4E06DF105785725A2616BB34A44091C1"
+          },
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": null,
+          "item_count": null,
+          "source_fragments": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1223,
+              "source_sha256": "A7DC5849F67840D857414D8932D35C2A42D0A951254810DFCA8DB4C6DD745B70",
+              "normalized_sha256": "190E609BE4C055D49F6C360F0C7F9DB472CCC17FA358A0FB9CE51B52FB2CFFE0",
+              "start": 32,
+              "end": 48,
+              "fragment_sha256": "72DA1D024CCF958185DEDCA77A924262B19EAC80F6019D5357133AFA89894788"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "packet": {
+    "schema": "kb_creator.mineru_merge_packet.v1",
+    "source_page": 63,
+    "semantic_role": "body_do_not_call_up",
+    "views": {
+      "original_pipeline_txt": {
+        "blocks": [
+          {
+            "raw_index": 1218,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              382.0,
+              161.0,
+              449.0
+            ],
+            "text": "YOU",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              497.0,
+              284.0,
+              563.0
+            ],
+            "text": "CANNOT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1220,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              625.0,
+              160.0,
+              688.0
+            ],
+            "text": "PUT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1221,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              763.0,
+              228.0,
+              829.0
+            ],
+            "text": "DOWN",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1222,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              859.0,
+              344.0,
+              898.0
+            ],
+            "text": "by brian courtemanche",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1223,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              723.0,
+              705.0,
+              921.0,
+              858.0
+            ],
+            "text": "SE A MONSTER SUMMONING COVER-UP MART IN ’S BEACH",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "type_counts": {
+          "text": 6
+        },
+        "text_length": 85,
+        "asset_references": []
+      },
+      "original_pipeline_ocr": {
+        "blocks": [
+          {
+            "raw_index": 1218,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              382.0,
+              161.0,
+              449.0
+            ],
+            "text": "YOU",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              497.0,
+              284.0,
+              563.0
+            ],
+            "text": "CANNOT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1220,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              625.0,
+              160.0,
+              688.0
+            ],
+            "text": "PUT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1221,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              763.0,
+              228.0,
+              829.0
+            ],
+            "text": "DOWN",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1222,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              859.0,
+              344.0,
+              898.0
+            ],
+            "text": "by brian courtemanche",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1223,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              723.0,
+              705.0,
+              921.0,
+              858.0
+            ],
+            "text": "SEA MONSTERSUMMONINGCOVER-UPMARTIN'S BEACH",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": false,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "type_counts": {
+          "text": 6
+        },
+        "text_length": 79,
+        "asset_references": []
+      },
+      "raster_pipeline_ocr": {
+        "blocks": [
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              40.0,
+              35.0,
+              284.0,
+              565.0
+            ],
+            "text": "DO NOT CALL UP THAT WHICH YOU CANNOT",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1220,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              625.0,
+              160.0,
+              688.0
+            ],
+            "text": "PUT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1221,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              765.0,
+              228.0,
+              829.0
+            ],
+            "text": "DOWN",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1222,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              42.0,
+              859.0,
+              344.0,
+              898.0
+            ],
+            "text": "by brian courtemanche",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1223,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              723.0,
+              707.0,
+              921.0,
+              858.0
+            ],
+            "text": "SEA MONSTERSUMMONINGCOVER-UPMARTIN'S BEACH",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": false,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "type_counts": {
+          "text": 5
+        },
+        "text_length": 106,
+        "asset_references": []
+      }
+    },
+    "pairwise": {
+      "original_pipeline_txt__vs__original_pipeline_ocr": {
+        "bbox_matches": [
+          {
+            "left_raw_index": 1218,
+            "right_raw_index": 1218,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1219,
+            "right_raw_index": 1219,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1220,
+            "right_raw_index": 1220,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1221,
+            "right_raw_index": 1221,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1222,
+            "right_raw_index": 1222,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1223,
+            "right_raw_index": 1223,
+            "bbox_iou": 1.0
+          }
+        ],
+        "left_unmatched": [],
+        "right_unmatched": []
+      },
+      "original_pipeline_txt__vs__raster_pipeline_ocr": {
+        "bbox_matches": [
+          {
+            "left_raw_index": 1220,
+            "right_raw_index": 1220,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1221,
+            "right_raw_index": 1221,
+            "bbox_iou": 0.9697
+          },
+          {
+            "left_raw_index": 1222,
+            "right_raw_index": 1222,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1223,
+            "right_raw_index": 1223,
+            "bbox_iou": 0.9869
+          }
+        ],
+        "left_unmatched": [
+          {
+            "raw_index": 1218,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              382.0,
+              161.0,
+              449.0
+            ],
+            "text": "YOU",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              497.0,
+              284.0,
+              563.0
+            ],
+            "text": "CANNOT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "right_unmatched": [
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              40.0,
+              35.0,
+              284.0,
+              565.0
+            ],
+            "text": "DO NOT CALL UP THAT WHICH YOU CANNOT",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ]
+      },
+      "original_pipeline_ocr__vs__raster_pipeline_ocr": {
+        "bbox_matches": [
+          {
+            "left_raw_index": 1220,
+            "right_raw_index": 1220,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1221,
+            "right_raw_index": 1221,
+            "bbox_iou": 0.9697
+          },
+          {
+            "left_raw_index": 1222,
+            "right_raw_index": 1222,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1223,
+            "right_raw_index": 1223,
+            "bbox_iou": 0.9869
+          }
+        ],
+        "left_unmatched": [
+          {
+            "raw_index": 1218,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              382.0,
+              161.0,
+              449.0
+            ],
+            "text": "YOU",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              44.0,
+              497.0,
+              284.0,
+              563.0
+            ],
+            "text": "CANNOT",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "right_unmatched": [
+          {
+            "raw_index": 1219,
+            "page_idx": 62,
+            "source_page": 63,
+            "type": "text",
+            "bbox": [
+              40.0,
+              35.0,
+              284.0,
+              565.0
+            ],
+            "text": "DO NOT CALL UP THAT WHICH YOU CANNOT",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ]
+      }
+    },
+    "review_signals": {
+      "normalized_text_similarity": 0.82,
+      "text_length_divergence": 0.2547,
+      "block_type_divergence": 1,
+      "asset_count_divergence": 0,
+      "missing_overlay_box_candidates": 0,
+      "visual_first": false,
+      "priority_score": 3.4842
+    }
+  }
+}

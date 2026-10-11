@@ -1,0 +1,104 @@
+{
+  "registry_preheading_body_relocations": {
+    "viral-appendix": [
+      "70a9e13d96917244309a9a76922f8ba27b551040a27811beecf83f3e180016be.jpg"
+    ],
+    "viral-appendix-encounters-catacomb": [
+      "53643514b43e23269335df5656ebce5e201bf98fc34591b1211e50e38301f35d.jpg"
+    ],
+    "viral-appendix-new-mythos-horrors": [
+      "2ff7daab27132cad277a1f7e73464f1fd79c9745ca924d91bf4acced6f2f1c6e.jpg"
+    ],
+    "viral-appendix-new-mythos-horrors-hastalyk": [
+      "8e99d6929ef4aa5cc62d603b24317a4c65b22fd9551a8c37c5cfff9aa239436d.jpg"
+    ],
+    "viral-appendix-new-mythos-horrors-plague-monk": [
+      "81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677.jpg"
+    ],
+    "viral-appendix-new-rules-insanity-and-bouts-of-madness": [
+      "baa904e61a23aecf4b6f667d035c9755ff6321c6205caa0d97977704378464aa.jpg"
+    ],
+    "viral-appendix-new-rules-the-taint": [
+      "d03da367941f779022bca6764b8bb259602fbaf7ccb50ea2ba30d7e150ad3279.jpg"
+    ],
+    "viral-epilogue-cinematic-ending": [
+      "1a47e9a1f4a4ef0aba87607b159b901cc1c3898e5bd3a995ea0341d4f52e7cbd.jpg",
+      "2ebda31f091167d0746cefffb0ba817e95c00683579e25b8ff124275717688ec.jpg",
+      "29e9a40a1748fbb06877c65bfbd3c16682e154a09d72a746b2432bdc3c8114f7.jpg"
+    ],
+    "viral-epilogue-expanded-ending": [
+      "ba787578df65b06580708e25f66e319a5d76a80ff5717b05392d2c1c4470b394.jpg",
+      "c708f914e6ddda12e62831135072daa4458f2c87c1a967527e91f55bec2e9591.jpg"
+    ],
+    "viral-history": [
+      "46fe7137e80db64fce723c0f4eede22b676faedca5f1f476e964b8709ccf1449.jpg"
+    ],
+    "viral-hospital-ground-floor-secret-rooms": [
+      "b2744fe4663d98385eaee75a7b134b506b652617dd76356cf2bf717b9a90d152.jpg"
+    ],
+    "viral-introduction": [
+      "4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137.jpg"
+    ],
+    "viral-isola-di-malamente": [
+      "360213a4168164f71a9ff8980d5099fb9e2feccdd37c8f10abef0f67e9e107a1.jpg"
+    ],
+    "viral-isola-hastalyk-awakens": [
+      "87d8a9e48a47663469f8ae771e291ed10f27cb13f6533d80bd3b569ad7c73ffd.jpg"
+    ],
+    "viral-isola-location-03-the-weeping-bridge": [
+      "10c6ced92d46c2b55ec18eb2c0fba3a1c39fcb1bb29c39a8fce8ef24fad8f7a1.jpg"
+    ],
+    "viral-isola-location-07-cremation-pit": [
+      "f0ecf36564122d99452b953117ef61c8ae8aeb306459fd2ea1a2a9934d97c60e.jpg"
+    ],
+    "viral-keeper-maps": [
+      "bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba.jpg"
+    ],
+    "viral-one-night-in-perla": [
+      "290e0d241064519a8e796429310676557b8a7e50bd2224341c7ba3d3de96ec54.jpg"
+    ],
+    "viral-one-night-in-perla-burning-of-the-disease": [
+      "207028087cb3e99a6c0dbe99049ecb40bbd982de2906e0210baf884e95a11d3d.jpg"
+    ],
+    "viral-one-night-in-perla-exploring": [
+      "327bcc22a7c9781d732803ea2fc0e492113453b1a130ab655debb0a1c4c4b24f.jpg"
+    ],
+    "viral-one-night-in-perla-npcs": [
+      "29f2728884eee4feeed62b6ce0e488219c96a5933f9f4cd30a3c46ce56ae0804.jpg"
+    ],
+    "viral-spektral-krew-emily-em-lavigne": [
+      "cfb0587698f77c07987b9d5d50de4bf64d42b0bd5fa13e7276a5163ba787faf1.jpg"
+    ],
+    "viral-spektral-krew-enoch-jeremiah-eakins": [
+      "2a4ae067e92473cdad591d86e4d67066cb82094fc1251c23223a9c6561fb7089.jpg"
+    ],
+    "viral-spektral-krew-gear": [
+      "9bd48830bceb21ed805a645dbeeff5c19b748ac1aecd5336836bb192b12ad746.jpg"
+    ],
+    "viral-timeline": [
+      "7ad2d1b6d60fff832a4fce5ffa008151db46260faa9b29ec8db01d62fdaa1208.jpg"
+    ]
+  },
+  "relocations": {
+    "16f390d7a4c0fc8856f4a878a164b11ec4e922c7df6fbb002e41e285a781d2a3.jpg": "after Signs and Portents table",
+    "2594c936ac511e9594fccbbc79e2a9acdb7ad0475baec5fbf0640a4dfb24ea91.jpg": "viral-keeper-map-isola-location",
+    "2fbd31994da00cc5320dccf115f2aae8da89b5e5997e93ad5f853afbf13bad03.jpg": "after Reliquae heading",
+    "4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137.jpg": "after viral-introduction",
+    "6e1d78ee26178218de74fd8203ef772eb3e8f4951ea6e419a0a00e25051b8237.jpg": "after Reliquae heading",
+    "81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677.jpg": "after Plague Monk heading",
+    "826e5103327297822e6270444f8d57d02a135ffbc2d246ffbdb5788d297fd55a.jpg": "viral-handout-09",
+    "8dfcf412070881aa81b8933eeb329d7409edbe1316329701bb605c9dab835d65.jpg": "viral-handout-10",
+    "bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba.jpg": "viral-handout-39"
+  },
+  "retained_handout_equivalent": "217633ad4ab84de07789ba9c47d7c00ee382de486902cf967330d5d94061e8b5.jpg",
+  "schema": "kb_creator.viral.asset_decisions.v1",
+  "suppressed_duplicate_narrative_art": "222ccd9a31a25cadc0bfab40f4e037eb55b91ca7ee523fc5d9784f30407e4bfa.jpg",
+  "suppressed_phone_facsimile": "8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e.jpg",
+  "suppressed_redundant_text_facsimiles": [
+    "2a60f183499c0a1a5f3bd353949a7efc2a389d5fbd98782e79e53d346d9c390f.jpg",
+    "8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e.jpg",
+    "9ee3d23cac4831e4230386f671d228d7a53b336310983f967eada4f3d2677ad8.jpg",
+    "b1b7888cf28240790d1fd7fdc5621da9fe159c9442ec0f3bfa7f45243319cfea.jpg",
+    "f796716cd86ee8580b1d2cd8552d89cbf29f989bc8eae6be386ffa2528dc078b.jpg"
+  ]
+}

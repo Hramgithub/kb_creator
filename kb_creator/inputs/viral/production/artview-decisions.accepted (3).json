@@ -1,0 +1,1428 @@
+{
+  "schema": "kb_creator.scenario_artview_decisions.v2",
+  "scenario_id": "viral",
+  "state": "accepted",
+  "bindings": {
+    "candidate_files_inventory_sha256": "7567D4525E702C8952F9C545899EE605F42B3B83B65DBB6C30000EC838733F84",
+    "candidate_manifest_sha256": "97E32C102CF76BC1E8522097589C1C187414854E2172E21845C4D1EB99CB41DE",
+    "master_en_sha256": "7DAA2B962687FEA2CBC0D3B7771C48CFE381ED7CB6A4EF79EB630539BCE00E70",
+    "master_ru_sha256": "C5CBEC78579984C63C991D3DF37D531236C9BC5A463DB936F2961A45DC4AC892",
+    "production_asset_decisions_sha256": "4491E8424B460B1FF69A00613B0A6D863CC3FAB677FBF41EB1510B7D5FE3E66A",
+    "production_manifest_sha256": "B12527B8BD6ABEE93C4E1EC02D557331EE528FD44B432658CE0C5FEAF5937D93",
+    "production_master_en_sha256": "5EDB5DB609314E72FE85375D28F7F0B16EFD93F23144032EF907964A5597682A",
+    "production_master_ru_sha256": "36C9937500EDE7639E802EF37982730CCC67FF69B3720EC5FB23245759279A85",
+    "source_pdf_sha256": "0A80B6F389821B87553D26746D2BE171B4482BA9BBC6E3EB3FEC26274EDBED05"
+  },
+  "decisions": [
+    {
+      "asset_id": "viral-accepted-ed4012725c597dbcf6fca51e55faeb883a53f6f1d2c9ee7496c667460d37c860",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-2cd5550af13cbfbdb6b727dc"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-5951272432541ff9acec6107"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-aa51315c65b2339c22c6928a566dd2ade498b2afc817f9632cf30c09c5def4df",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-a7c2cbc6ce1680710e99d1cf"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-d65de690f2341a83f4360d658e72d5fb916e7ae5bae952e366262017959f7fa6",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-cfd499a8dd116c2d57fdbbf1"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2a4ae067e92473cdad591d86e4d67066cb82094fc1251c23223a9c6561fb7089",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-506840738e6326d7b9aa5077"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-1ae78ddfdbcbd36dda84dcf3e34852206355f15827052b2714401493c4765bcb",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-83ec67ad2a5d8e64b6d4c3c4"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-a5a54caa96d84e7f6df573ce0c5faa2e52e03213b89f22da03d043087b797201",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-40b8ff4af12abbb6cc32c680"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-739a84561947691338ea011d7950446144e6156a4b5aba7924ab24a13b2c6d5f",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-98e7afe374018f5b218b08c4"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-f76ae66f2313c44b030bb9cacce1023a95663ed4072a2d93ef8feca74c829004",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-f63b3c588bbefa2ff1e75a97"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-cfb0587698f77c07987b9d5d50de4bf64d42b0bd5fa13e7276a5163ba787faf1",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-d45feb5d036dc40618efeab6"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-44587a041b63942e4703761b2c3065f459e5637a06e790447d0e0899c1d9a3f6",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-e7bd3caddc55aad8dc5fbff1"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-9bd48830bceb21ed805a645dbeeff5c19b748ac1aecd5336836bb192b12ad746",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-f2f4863e71e3a7e5e47867aa"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-7ad2d1b6d60fff832a4fce5ffa008151db46260faa9b29ec8db01d62fdaa1208",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-12ebf38a3f09bee1320390d3"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-46fe7137e80db64fce723c0f4eede22b676faedca5f1f476e964b8709ccf1449",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-165b779aee05ee55e7499270"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-290e0d241064519a8e796429310676557b8a7e50bd2224341c7ba3d3de96ec54",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-0396cb35dc490be8448d7cdf"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-0964f307aef670888c91bfe78498d19a3f55cdd749f113d610a5b68bc64cf070",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-ad5c961d9094b44ff67918e6"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-327bcc22a7c9781d732803ea2fc0e492113453b1a130ab655debb0a1c4c4b24f",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-66fa0c294c7470138d8a1c97"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-16f390d7a4c0fc8856f4a878a164b11ec4e922c7df6fbb002e41e285a781d2a3",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-635bfa3dc7cae54cfce7cbec"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-207028087cb3e99a6c0dbe99049ecb40bbd982de2906e0210baf884e95a11d3d",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-55c1178ab5a67efa5ee9f918"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-29f2728884eee4feeed62b6ce0e488219c96a5933f9f4cd30a3c46ce56ae0804",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-3c35c4305ab89df00db12d12"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-4fd93a36f8650d97b80a9bde287442646eb741abefad7f520761332c4ec28834",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-7ef170624ee46fd3628c6ddf"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-bc2ae2b3751eaf9754f625794f2d4648a03308dc3dc1042add097cc3649306b0",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-4c840bcc81fa987054b1ee4a"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-360213a4168164f71a9ff8980d5099fb9e2feccdd37c8f10abef0f67e9e107a1",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-f87e091cc993679d655126c7"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-b90cb9a3752383888c733905588e9c3859b113e47f1f457057c72e33689a7585",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-ef576b805007d2dbfbac5453"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-da0cac1c9c0c880a75d3be69c59e965d0b7b0f223f16a077072786c8af30083e",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-6b2d0437689750280c7fad31"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-b8b06ff00c57b039a57df97d088b2b256c0cdd6da30e1d8dc2a3629a5d42355c",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-3daa60c73b730102ce6d7e2f"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-10c6ced92d46c2b55ec18eb2c0fba3a1c39fcb1bb29c39a8fce8ef24fad8f7a1",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-898e79c71e6ebf487402f066"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-222ccd9a31a25cadc0bfab40f4e037eb55b91ca7ee523fc5d9784f30407e4bfa",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-bfe5db10c113f367b895489e"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-694c04bf754533fd1ce84a80eb659bbcc7b0a9c314a1102ae0188eb2278618cf",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-468769cd514393c8edcd5b13"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-b2744fe4663d98385eaee75a7b134b506b652617dd76356cf2bf717b9a90d152",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-cb826701f24febaeadca371c"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-7a9686ecb0457b695002ce7b7daddcb9598b27e0d1501e10155e0c51f4eac85b",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-34c2ca791e5d3b3cd89858dc"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-f0ecf36564122d99452b953117ef61c8ae8aeb306459fd2ea1a2a9934d97c60e",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-47ee98c89ed32da14ef1a915"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-1627aa2f652faf9837044b35d8e54bd7ddfc6b6716e7e8141363b65a83f12c4f",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-6f6bd77448af0e66d315b49b"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-87d8a9e48a47663469f8ae771e291ed10f27cb13f6533d80bd3b569ad7c73ffd",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-88a3ce747e7299d63e556b12"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-15de2b653d40f0f520a14e685938d7d58b3bb4c6d5db2f6e420b03d88ed360b0",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-583191fde0c8a636b9842077"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-1a47e9a1f4a4ef0aba87607b159b901cc1c3898e5bd3a995ea0341d4f52e7cbd",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-c3054cdccbc479a34005db48"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2ebda31f091167d0746cefffb0ba817e95c00683579e25b8ff124275717688ec",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-9af8f03a978df5af20fa1bea"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-29e9a40a1748fbb06877c65bfbd3c16682e154a09d72a746b2432bdc3c8114f7",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-0034a1c371c89720526cbe25"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-ba787578df65b06580708e25f66e319a5d76a80ff5717b05392d2c1c4470b394",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-32cb25003b84e9a45fde6680"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-c708f914e6ddda12e62831135072daa4458f2c87c1a967527e91f55bec2e9591",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-b2a65225374d46779201da8d"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-70a9e13d96917244309a9a76922f8ba27b551040a27811beecf83f3e180016be",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-c26c2b96e71ed3dccdff6cf3"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-53643514b43e23269335df5656ebce5e201bf98fc34591b1211e50e38301f35d",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-9ed20a2df09b7e2967904b20"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-d03da367941f779022bca6764b8bb259602fbaf7ccb50ea2ba30d7e150ad3279",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-c2ee62a874dc6fafe0556a42"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-baa904e61a23aecf4b6f667d035c9755ff6321c6205caa0d97977704378464aa",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-d6e4250e40a8cc424ce090fc"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-cca3f437517c905396426e243323b562cfce53af5f2f4ba92a1399c733065124",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-1e5dd36960d7811c4e59345c"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2ff7daab27132cad277a1f7e73464f1fd79c9745ca924d91bf4acced6f2f1c6e",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-dc927a6e4970c5fde315c699"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-8e99d6929ef4aa5cc62d603b24317a4c65b22fd9551a8c37c5cfff9aa239436d",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-b55b1e49752a7d0fab6af8a6"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-d88c61673f211858ae58082f"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-6e1d78ee26178218de74fd8203ef772eb3e8f4951ea6e419a0a00e25051b8237",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-b3b98a786961031eab384ac7"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2fbd31994da00cc5320dccf115f2aae8da89b5e5997e93ad5f853afbf13bad03",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-adaba177c5fb605d24a630ae"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-dbe93023f78f2a8181d333207f407d3ada63c8f33a6f53889b4f3df7bc76a416",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-9cddc3fc484dffdcce7654b3ebc058b362dbb265508a64d64d7485b33dc600c8",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-9ee3d23cac4831e4230386f671d228d7a53b336310983f967eada4f3d2677ad8",
+      "binary": {
+        "choice": "exclude",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-b1b7888cf28240790d1fd7fdc5621da9fe159c9442ec0f3bfa7f45243319cfea",
+      "binary": {
+        "choice": "exclude",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-f796716cd86ee8580b1d2cd8552d89cbf29f989bc8eae6be386ffa2528dc078b",
+      "binary": {
+        "choice": "exclude",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2a60f183499c0a1a5f3bd353949a7efc2a389d5fbd98782e79e53d346d9c390f",
+      "binary": {
+        "choice": "exclude",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e",
+      "binary": {
+        "choice": "exclude",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-826e5103327297822e6270444f8d57d02a135ffbc2d246ffbdb5788d297fd55a",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-574ddc1bea0b48c80e979b84"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-8dfcf412070881aa81b8933eeb329d7409edbe1316329701bb605c9dab835d65",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-f15512c77ac26ce21602a781"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-5246e2c434242d2ddea6226d861d9608f5b6afa86230da5ad3b6d01553bb4ca5",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-aca50fe48f2bb8739622d2c1"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2e49f854b389f6c5cf89bced8318e197b6e79fd53d47dfa5dd64b0dcd697bbcc",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-817e98fc9cf865e64a82acee"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-06a2c68cc38d4904595e16d0153d127eb08ae61c189a613f269a120de5233201",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-7330c1419faa58efd69c20c9"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-affb03a14eabd3ce60d78047279316ebde282a079528b6e00067698ebed92715",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-2542ddb80c7e398d62f9bcf5"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-373a4c9272242f27df9f3410b860e7bc5af602f17d1f08115649653754aad884",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-e5e236d83239e1ad1394b442"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-5c03c3f42abbf1962a78d589d00014a6aac425db8b061cce69995930bd33d8b4",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-a9411198446e09bfa25138a9"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-217633ad4ab84de07789ba9c47d7c00ee382de486902cf967330d5d94061e8b5",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-c47a86f54e4665b00072e95a"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-c34aabc5bd16dfcb318cad3a11df583f9f15d4778f488832af69d182dc9d8201",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-99d4cdd45fcb15671dcb8300"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-faaf56706aeb8cc15c6cfeb89bf7731b313ccdfde78f28b12da65b123d355bcd",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-fb544bbe5c2cfda07ffe31f1"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-84f3fbba13df63026fc147880fa903b708f67969bb85a2e8ffd7ae95bc921172",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-4de06eb2d2cf861baa1f51e9"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-d18f3a9358fcdda6d5f56178aa99b37609c72d286a380e71c4189337c1a9c5ae",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-cf53aa8807f0e4b66587ae2e"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-4e663526a507696636fce7c8f25dcc41586197a215cf2137955b498fc82ca76c",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-cd660398084f791098f01cd4"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-76216221d1c4ed443deccf0a9e64c82ea0084ffc07ae033af3b43e69242b1b84",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-51325262ddc43a0af769840e"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-7b732da96bb80b41f86d73db"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-2594c936ac511e9594fccbbc79e2a9acdb7ad0475baec5fbf0640a4dfb24ea91",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-88e0999e334aba1eb033dbc3"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-b29535e0fb701c4072cd0198c39ef9f101871c5817bdf5b96e42794a14b18335",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-c40070be22b3118eb3eca2bc"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-9edcd9b27c46e8d689d4baeff43a55497376a581d87cf1e9ad8a0ea9dd63c28a",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-16be510f5751ba1c3a13c02e"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-00d84a08f0f7ef0b634da16d22f1832b3e099350a451425c5b2642428fe8f4b9",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-01179210f4d0414c09db47af"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-7eb3303bc8a34e16d5891aa781a21297a022e028c029fa8e0d0549f445703fe5",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-a0cec76c1db001e1f3b3f271"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-74f6d8049985378c8c5cc3f846b06982da3a39de05975dc31880f024e649d7a6",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-3aa66c54d1a98e972f6bf1a0"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-00f35cb2535f45bfce6b8cc61c4bbf9fd5a493f2f63995a5608f14edfabfb782",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-503b71f79951299589682ef3"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-ee6f908e8a15d1ee0f9f8a976427f1050ceef9810642f5ddfe1d172a0189bc3c",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-72065800bd4e39e1cd7e92f7"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-9407122d0650698a811b6096285828cf7fbe43efe74d3476c51995efec9dca01",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-36f0c21da08beb968df25d6f"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-36e2c03c86a9b35dab62baf48f2e1d2e4fc0f77811173ca7acf8d7c44944d070",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-e53173eeb9c9358b147c7468"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-accepted-4b6c6dc23113457bf08f7aacf67bb8f009ab2aa193fbce921509695a6e261f5a",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-36bddfca79ecd2296cbf2c1f"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-render-cover-front",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-map-ground-floor-basement-page-106",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-7fd0af1b4d3cb47bb4952078"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-map-ground-floor-basement-page-107",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-290bc181eb70c93672950bc0"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-pregen-marco-back-page-112",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-e08d77fe80a8246dacbfcf3e"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-pregen-corrina-back-page-114",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-b1217c7046865dc7a89c633a"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-pregen-enoch-back-page-116",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-e1bf72aebd75a424a3f8345c"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-pregen-peter-back-page-118",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-b46576ac2a5842106b97b967"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-pregen-ku-hyeon-back-page-120",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-e42cf03210d91cd010644ba9"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-pregen-blank-back-page-122",
+      "binary": {
+        "choice": "use_candidate",
+        "candidate_id": "candidate-7d8f0a0603d17f9aaca4cc1c"
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    },
+    {
+      "asset_id": "viral-provisional-isola-di-malamente-opening-page-26",
+      "binary": {
+        "choice": "keep_current",
+        "candidate_id": null
+      },
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "reviewed": true,
+      "notes": ""
+    }
+  ]
+}

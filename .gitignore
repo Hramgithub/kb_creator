@@ -1,0 +1,260 @@
+# Default-deny: keep the NRI repository focused on portable project state.
+*
+
+# Repository metadata and guidance.
+!.gitignore
+!.gitattributes
+!AGENTS.md
+!CODEX_CONFIG_APPLIED.md
+!SETUP.md
+
+# Repository-scoped Codex skills.
+!.agents/
+!.agents/skills/
+!.agents/skills/**
+!scripts/
+scripts/*
+!scripts/export_to_yandex_obsidian.py
+!scripts/setup_logs_structure.py
+!scripts/setup-local-pdf-tools.ps1
+
+# Codex project rules.
+!.codex/
+!.codex/config.toml
+!.codex/agents/
+!.codex/agents/*.toml
+!.codex/rules/
+!.codex/rules/default.rules
+
+# NRI-wide governance specifications.
+!docs/
+!docs/governance/
+!docs/governance/**
+
+# Workspace logs.
+!Logs/
+!Logs/**
+
+# CoC active project state.
+!CoC/
+!CoC/AGENTS.md
+!CoC/PROJECT_REFERENCE.md
+!CoC/Project_Reference/
+!CoC/Project_Reference/**
+!CoC/Scripts/
+!CoC/Scripts/**
+!CoC/Output/
+!CoC/Output/**
+!CoC/Working/
+!CoC/Working/**/
+!CoC/Working/**/*.md
+!CoC/Working/**/*.csv
+!CoC/Working/**/*.json
+
+# Dune active project state.
+!Dune/
+!Dune/AGENTS.md
+!Dune/Scripts/
+!Dune/Scripts/**
+!Dune/Working/
+!Dune/Working/**/
+!Dune/Working/**/*.md
+!Dune/Working/**/*.csv
+!Dune/Working/**/*.json
+!Dune/Output/
+!Dune/Output/**
+
+# Reusable translator tooling.
+!translator/
+!translator/README.md
+!translator/PROJECT_STATUS.md
+!translator/AGENTS.md
+!translator/*.py
+!translator/requirements-dev.txt
+!translator/tests/
+!translator/tests/**
+!translator/config/
+!translator/config/**
+!translator/docs/
+!translator/docs/**
+!translator/scripts/
+!translator/scripts/**
+
+# Sourcefold product bootstrap.
+!Sourcefold/
+!Sourcefold/AGENTS.md
+!Sourcefold/README.md
+!Sourcefold/SETUP.md
+!Sourcefold/PROJECT_STATUS.md
+!Sourcefold/.gitignore
+!Sourcefold/package.json
+!Sourcefold/package-lock.json
+!Sourcefold/docs/
+!Sourcefold/docs/**
+!Sourcefold/contracts/
+!Sourcefold/contracts/**
+!Sourcefold/manifests/
+!Sourcefold/manifests/**
+!Sourcefold/fixtures/
+!Sourcefold/fixtures/**
+!Sourcefold/scripts/
+!Sourcefold/scripts/**
+!Sourcefold/tools/
+!Sourcefold/tools/**
+
+# KB Creator product scaffold.
+!kb_creator/
+!kb_creator/README.md
+!kb_creator/PROJECT_STATUS.md
+!kb_creator/__init__.py
+!kb_creator/__main__.py
+!kb_creator/pipeline/
+!kb_creator/pipeline/**
+!kb_creator/contracts/
+!kb_creator/contracts/**
+!kb_creator/reference/
+!kb_creator/reference/**
+!kb_creator/docs/
+!kb_creator/docs/**
+!kb_creator/inputs/
+!kb_creator/inputs/**
+!kb_creator/reports/
+!kb_creator/reports/**
+!kb_creator/scripts/
+!kb_creator/scripts/**
+!kb_creator/tests/
+!kb_creator/tests/**
+!kb_creator/working/
+!kb_creator/working/viral/
+!kb_creator/working/viral/master_en/
+!kb_creator/working/viral/master_en/publication_config_v1.json
+
+# Local Obsidian state is not part of the frozen Viral reader checkpoint.
+kb_creator/inputs/viral/master_en/review_checkpoint_20260904/candidate/.obsidian/
+
+# Dune browser/runtime scratch from local print-preview and QA runs.
+Dune/Output/**/project/QA/Edge_Print_Profile_*/
+Dune/Output/**/project/QA/Edge_Print_Profile_*/**
+Dune/Output/**/project/QA/Pregen_Pdf_Render/
+Dune/Output/**/project/QA/Production_Pdf_Render/
+Dune/Output/**/project/QA/Pdf_Render/
+Dune/Output/**/project/QA/Pregen_Sheet_Approval/edge-print-profile*/
+Dune/Output/**/project/QA/Pregen_Sheet_Approval/edge-print-profile*/**
+Dune/Output/**/project/QA/Pregen_Sheet_Approval/Print_Test_Render/
+Dune/Output/**/project/QA/Pregen_Sheet_Approval/*.html
+
+# Heavy, source, and machine-local files never belong in this repository.
+# Keep original/source PDFs local even when their parent project folders are tracked.
+**/Source/**/*.pdf
+**/Source/**/*.PDF
+**/project/Source/**/*.pdf
+**/project/Source/**/*.PDF
+CoC/**/*.pdf
+CoC/**/*.PDF
+Dune/**/*.pdf
+Dune/**/*.PDF
+*.pdf
+*.PDF
+# Exception: the explicitly accepted Innsmouth PDF release package is tracked.
+!kb_creator/inputs/innsmouth/pdf/**/*.pdf
+!kb_creator/inputs/innsmouth/pdf/**/*.PDF
+# Exception: the manifest-bound Viral production PDF is tracked through LFS.
+!kb_creator/inputs/viral/production/Viral_RU.pdf
+# Exception: the frozen Number 7 Dream production PDF is tracked through LFS.
+!kb_creator/inputs/number-7-dream/production/Number_7_Dream_RU.pdf
+# Exception: the byte-distinct, historically accepted run29 PDF is archived through LFS.
+!kb_creator/inputs/number-7-dream/review-history/run29/Number_7_Dream_RU.pdf
+# Exception: reviewed production PDFs under project/Output may be committed.
+!**/project/Output/**/*Production*.pdf
+!**/project/Output/**/*Production*.PDF
+!**/project/Output/**/*production*.pdf
+!**/project/Output/**/*production*.PDF
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.pyc
+__pycache__/
+.tools/
+Git/
+CoC_beckup_14.06.26/
+.obsidian/workspace.json
+
+# Backup folders are local safety copies, not active project state.
+**/*BACKUP*/
+**/*BACKUP*/**
+**/*backup*/
+**/*backup*/**
+**/*beckup*/
+**/*beckup*/**
+
+# Foundry VTT local integration and git-friendly backups. This block must stay
+# after the generic local-backup ignore rules above.
+!FoundryVTT/
+!FoundryVTT/README.md
+!FoundryVTT/MANUAL.md
+!FoundryVTT/configure-gran-tmy.mjs
+!FoundryVTT/setup-novaya-gran-tmy.mjs
+!FoundryVTT/import-novaya-gran-tmy-content.mjs
+!FoundryVTT/build-pregen-manifest.py
+!FoundryVTT/audit-pregen-manifest.py
+!FoundryVTT/export-pregen-catalog.py
+!FoundryVTT/export-pregen-group-audit.py
+!FoundryVTT/import-novaya-gran-tmy-pregens.mjs
+!FoundryVTT/create-john-wick-test-actor.mjs
+!FoundryVTT/repair-novaya-gran-tmy-scenes-v14.mjs
+!FoundryVTT/world-setups/
+!FoundryVTT/world-setups/**
+FoundryVTT/world-setups/**/pregen-contact-sheets/
+FoundryVTT/world-setups/**/pregen-page-renders/
+FoundryVTT/world-setups/**/pregen-contact-sheets/**
+!FoundryVTT/nri-coc7-toolkit/
+!FoundryVTT/nri-coc7-toolkit/**
+!FoundryVTT/modules/
+!FoundryVTT/modules/nri-coc-library/
+!FoundryVTT/modules/nri-coc-library/README.md
+!FoundryVTT/modules/nri-coc-library/module.json
+!FoundryVTT/modules/nri-coc-library/docs/
+!FoundryVTT/modules/nri-coc-library/docs/**
+!FoundryVTT/modules/nri-coc-library/scripts/
+!FoundryVTT/modules/nri-coc-library/scripts/**
+!FoundryVTT/modules/nri-coc-library/content/
+!FoundryVTT/modules/nri-coc-library/content/**
+!FoundryVTT/modules/nri-coc-library/assets/
+!FoundryVTT/modules/nri-coc-library/assets/**
+FoundryVTT/modules/nri-coc-library/assets/imports/inbox/*
+!FoundryVTT/modules/nri-coc-library/assets/imports/inbox/.gitkeep
+!FoundryVTT/modules/nri-coc-library/assets/imports/inbox/nevada.jpg
+!FoundryVTT/git-backups/
+!FoundryVTT/git-backups/**
+FoundryVTT/git-backups/**/*.zip
+FoundryVTT/git-backups/**/*.db
+FoundryVTT/git-backups/**/*.ldb
+FoundryVTT/git-backups/**/LOCK
+FoundryVTT/git-backups/**/CURRENT
+FoundryVTT/git-backups/**/MANIFEST-*
+FoundryVTT/git-backups/**/LOG
+FoundryVTT/git-backups/**/LOG.old
+
+# Reproducible local MinerU hybrid/high tool. Runtime state and generated
+# outputs stay local; source, launchers, lock file, and LFS models are tracked.
+!MinerU/
+!MinerU/**
+MinerU/.venv/
+MinerU/.runtime/
+MinerU/output/
+MinerU/smoke-output/
+MinerU/**/__pycache__/
+MinerU/**/*.pyc
+MinerU/**/*.pyo
+MinerU/src/*.egg-info/
+MinerU/src/build/
+MinerU/src/dist/
+
+# Immutable source included in the complete Cursed Idol review package.
+!kb_creator/inputs/cursed-idol/candidates/review-02/source/source.pdf
+
+# Explicit user-requested portable preservation of the latest review packages.
+!kb_creator/inputs/number-7-dream/revisions/**/*.pdf
+
+# Requested latest publication files.
+!kb_creator/deliverables/latest/**/*.pdf

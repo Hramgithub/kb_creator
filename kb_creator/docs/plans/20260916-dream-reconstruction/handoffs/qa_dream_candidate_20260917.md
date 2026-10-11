@@ -1,0 +1,21 @@
+# Number 7 Dream candidate QA receipt
+
+- Result: PASS for the assigned candidate checks, with two status synchronization notes below.
+- Scope: read-only verification of `kb_creator/working/number-7-dream/reconstruction/20260917-cpu-replay-05`; no candidate or implementation files changed.
+- Plan/status read before QA: `docs/plans/20260916-dream-reconstruction/plan.md` and `kb_creator/PROJECT_STATUS.md`.
+- Files checked: `result.json`; Stage 05 and Stage 06 manifests; `outputs/05-fidelity-audit/audit.json`; `outputs/06-materialize-candidate/{RECONSTRUCTED_EN.md,MERGE_PROVENANCE.json,ASSET_MANIFEST.json}`; all 26 page Markdown files; `contracts/number-7-dream.reconstruction.json`; supplied source PDF.
+- Evidence:
+  - Stage 06 and merge provenance both report `candidate_ready_for_reconstruction_qa`; provenance says `acceptance_inferred: false`.
+  - Stage 05 result is `fidelity_passed`; audit `passed=true`, `errors=0`, 26 page entries, and completeness `1.0` on every page.
+  - Candidate has 26 page files and 26 `source-page-NNN` markers.
+  - Asset manifest contains 29 unique stored paths. All 29 files exist and match their manifest SHA-256 values.
+  - The candidate contains references to Handouts 1–5. Pages 21–26 contain the six character headings: `JOCEYLN EAVES` (source-faithful spelling), Milton Lowe, Augustine Fraser, Captain Ainsley Hammond, Vincent Tenny, and Camelia Brown.
+  - Candidate scan found 0 TODO/TBD/UNRESOLVED markers, 0 literal `<sup>`/`<sub>` tags, and 0 absolute Windows drive or UNC paths.
+  - Source PDF SHA-256 is `C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0`, matching the contract.
+- Status synchronization notes: run-level `result.json` still says `needs_review` while Stage 06 and provenance say `candidate_ready_for_reconstruction_qa`. The canonical plan and project status read for this task also lag the completed Stage 05/06 artifacts. These do not change the artifact-level checks above; orchestrator should reconcile the status records.
+- Blockers: none for the assigned candidate criteria; status synchronization noted above.
+- Next action: orchestrator updates canonical plan/context/status and performs the user handoff. No acceptance or release decision is made by this QA receipt.
+- QA assignment: bounded QA role; actual model/effort platform-unverified. Policy owner: `gpt-5.6-sol`, medium; assignment state `platform-unverified`; scoped override `none`.
+- Elapsed time: approximately 4 minutes.
+- Token use: unavailable.
+- Timestamp: 2026-09-17 02:24:15 +03:00 (Europe/Moscow).

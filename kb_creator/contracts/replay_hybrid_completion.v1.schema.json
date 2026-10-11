@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.replay_hybrid_completion.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "run_identity_sha256",
+    "bridge",
+    "replayed_stages",
+    "executed_stage",
+    "acceptance_inferred",
+    "completion_sha256"
+  ],
+  "properties": {
+    "schema": {
+      "const": "kb_creator.replay_hybrid_completion.v1"
+    },
+    "run_identity_sha256": {
+      "$ref": "#/$defs/sha"
+    },
+    "bridge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "bytes",
+        "sha256",
+        "bridge_sha256"
+      ],
+      "properties": {
+        "path": {
+          "const": "replay/bridge.json"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha"
+        },
+        "bridge_sha256": {
+          "$ref": "#/$defs/sha"
+        }
+      }
+    },
+    "replayed_stages": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "prefixItems": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "stage_id",
+            "manifest_sha256",
+            "rebase_sha256",
+            "output_inventory_sha256"
+          ],
+          "properties": {
+            "stage_id": {
+              "const": "01-prepare-inputs"
+            },
+            "manifest_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "rebase_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "output_inventory_sha256": {
+              "$ref": "#/$defs/sha"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "stage_id",
+            "manifest_sha256",
+            "rebase_sha256",
+            "output_inventory_sha256"
+          ],
+          "properties": {
+            "stage_id": {
+              "const": "02-mineru-three-view"
+            },
+            "manifest_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "rebase_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "output_inventory_sha256": {
+              "$ref": "#/$defs/sha"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "stage_id",
+            "manifest_sha256",
+            "rebase_sha256",
+            "output_inventory_sha256"
+          ],
+          "properties": {
+            "stage_id": {
+              "const": "03-compare-views"
+            },
+            "manifest_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "rebase_sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "output_inventory_sha256": {
+              "$ref": "#/$defs/sha"
+            }
+          }
+        }
+      ],
+      "items": false
+    },
+    "executed_stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stage_id",
+        "execution",
+        "manifest"
+      ],
+      "properties": {
+        "stage_id": {
+          "const": "04-visual-merge-bundle"
+        },
+        "execution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode",
+            "producer_invoked"
+          ],
+          "properties": {
+            "mode": {
+              "const": "executed"
+            },
+            "producer_invoked": {
+              "const": true
+            }
+          }
+        },
+        "manifest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "path",
+            "bytes",
+            "sha256",
+            "reproducible_sha256"
+          ],
+          "properties": {
+            "path": {
+              "const": "stages/04-visual-merge-bundle/stage.json"
+            },
+            "bytes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sha256": {
+              "$ref": "#/$defs/sha"
+            },
+            "reproducible_sha256": {
+              "$ref": "#/$defs/sha"
+            }
+          }
+        }
+      }
+    },
+    "acceptance_inferred": {
+      "const": false
+    },
+    "completion_sha256": {
+      "$ref": "#/$defs/sha"
+    }
+  },
+  "$defs": {
+    "sha": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    }
+  }
+}

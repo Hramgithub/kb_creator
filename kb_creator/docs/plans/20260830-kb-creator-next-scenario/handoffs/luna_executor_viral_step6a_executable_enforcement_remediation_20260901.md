@@ -1,0 +1,21 @@
+# Executor receipt: Viral Step 6A executable enforcement remediation
+
+- scope: accepted packet `32D5A63657C5157B77B3A40ABB0CD5B0CDD00473A2846F28B1586B97C997257A`, accepted design review `B45198A548309258D08DE3CFBD4B0FA18F65580CBD94192E03044507E688E279`
+- result: BLOCKED; partial bounded route/enforcement seam changes are present, but the full accepted design is not honestly satisfied; live candidate remains `candidate_needs_review`
+- role: `gpt-5.6-luna / medium`; actual runtime/priority unavailable
+- orchestrator policy owner: main chat `gpt-5.6-sol / medium`
+- assignment state: bounded executor; scoped override: none
+- worktree: `D:\NRI\.worktrees\kb-creator-viral`
+- branch/head: `codex/kb-creator-viral` / `54607bd3b9362adbb0c4bca64e8751482797f380`
+- files changed: `kb_creator/scripts/scenario_source_reconstruction.py`, `kb_creator/tests/test_scenario_source_reconstruction.py`, this receipt
+- implementation hashes: script `71AA57FBE3596E8197D712BB98F777F1B3BF415BC294942FEA23C1A2F6DC2E65`; tests `58CB22083CFF5B7627C2CF8316E107CE1788EE96B141756CCAD6233BA037166D`
+- verified live identities: source `20718150 / 0A80B6F389821B87553D26746D2BE171B4482BA9BBC6E3EB3FEC26274EDBED05`; candidate non-QA manifest `501 / F0F243F6B8194C502CF6FEF9D5C838196BAFA49C96AE135D61EDAD799869C766`; visual manifests `155 / 19F600C23066DC3F64C5907BA6ADF59E3520C967249EBF7CB85CDAE53411979A`, `124 / C6C14DD9219C765428E84BDB85CD9821C52B95433A2022DCAFACC8A71AEF0B5C`, `31 / B66EF1B60A0479C33F875C1CC60B576A1E785BEE16327EFE3C173F40BA77BB4A`
+- focused evidence: `371 collected`, `371 passed`; protected contract `119 collected`, `119 passed`; matrix is `368` negatives (`REP=2,SRC=18,AUT=30,TOP=21,SCH=33,LED=6,INV=18,PAG=28,NAV=15,AST=21,SEM=18,CMD=61,QAV=90,REG=2,INJ=5`) plus `BLD=3`; combined collection target `490`
+- live evidence: preflight exit `0`; verify exit `0` twice; deterministic payload and output inventory `F0F243F6B8194C502CF6FEF9D5C838196BAFA49C96AE135D61EDAD799869C766`; no live build/remediate run
+- audit: 368 ordinal UTF-8/LF rows, deterministic digest `D746DD54CD84816518B5E81C96BD2A5DBDDE72EC0F1AA1EF70A20271FC77BA7B`; BLD state rows: fresh success, existing-target refusal, finalizer parity (all exercised by focused suite)
+- residue/protection: no `.pyc` found; no candidate/source/recovery/CLI/contract-test/plan/context/status/config/Git mutation intentionally made; pre-existing worktree changes preserved
+- blockers: exact descriptive selector-specific mutation callables/audits, production-shaped 502-file/16-authority fixture, validated production writer/finalizer, full 16-authority strict graph, and owned no-replace publication are not complete; current focused tests pass counts but do not prove the packet semantics
+- next action: orchestrator must treat this receipt as BLOCKED and obtain a fresh bounded execution/recovery decision; do not stage, commit, push, promote, publish, or run live build/remediate
+- elapsed time: unavailable
+- token use: unavailable
+- timestamp: 2026-09-01T00:00:00+03:00

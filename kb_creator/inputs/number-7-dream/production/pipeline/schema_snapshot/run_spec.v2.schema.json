@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.run_spec.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "run_id", "target", "profile", "contract", "source", "scope", "options", "execution_boundary", "view_plan", "capability_snapshot", "provider_profiles", "common_tools", "toolchain", "implementation", "portable_identity_sha256", "local"],
+  "properties": {
+    "schema": {"const": "kb_creator.run_spec.v2"},
+    "run_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"},
+    "target": {"const": "reconstructed_en"},
+    "profile": {"const": "mineru_cpu_first_three_view_v1"},
+    "contract": {"type": "object", "additionalProperties": false, "required": ["path_hint", "bytes", "sha256", "contract_revision"], "properties": {"path_hint": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "contract_revision": {"const": 1}}},
+    "source": {"type": "object", "additionalProperties": false, "required": ["path_hint", "bytes", "sha256", "page_count", "media_box_points", "rotation_degrees"], "properties": {"path_hint": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "page_count": {"type": "integer", "minimum": 1}, "media_box_points": {"type": "array", "prefixItems": [{"type": "number", "exclusiveMinimum": 0}, {"type": "number", "exclusiveMinimum": 0}], "items": false}, "rotation_degrees": {"enum": [0, 90, 180, 270]}}},
+    "scope": {"type": "object", "additionalProperties": false, "required": ["ordered_pages"], "properties": {"ordered_pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}}}},
+    "options": {"type": "object", "additionalProperties": false, "required": ["raster_dpi", "review_dpi", "ocr_language", "source_box", "geometry_policy", "geometry_dimension_tolerance_points", "geometry_relative_aspect_tolerance", "geometry_pixel_tolerance", "geometry_rounding_rule", "geometry_renderer_recipe", "cache_mode", "processing_window_size", "api_max_concurrent_requests"], "properties": {"raster_dpi": {"type": "integer", "minimum": 1}, "review_dpi": {"type": "integer", "minimum": 1}, "ocr_language": {"enum": ["en", "ch", "chinese_cht", "korean", "japan", "latin", "arabic", "east_slavic", "cyrillic", "devanagari", "ta", "te", "ka", "th", "el"]}, "source_box": {"const": "MediaBox"}, "geometry_policy": {"const": "source_displayed_mediabox_v1"}, "geometry_dimension_tolerance_points": {"const": "0.001"}, "geometry_relative_aspect_tolerance": {"const": "0.000005"}, "geometry_pixel_tolerance": {"const": 0}, "geometry_rounding_rule": {"const": "ceil(points*dpi/72)"}, "geometry_renderer_recipe": {"const": "pdftoppm-mediabox-png-v1"}, "cache_mode": {"const": "run_local_verified"}, "processing_window_size": {"const": 1}, "api_max_concurrent_requests": {"const": 1}}},
+    "execution_boundary": {"const": {"mode": "current_station_local_only", "remote_endpoints_allowed": false, "external_services_allowed": false, "user_executable_allowed": false}},
+    "view_plan": {"type": "array", "prefixItems": [
+      {"const": {"view_id": "original_pipeline_txt", "required": true, "provider_id": "pipeline_cpu", "input_kind": "original", "backend": "pipeline", "method": "txt", "effort": null, "formula": true, "table": true}},
+      {"const": {"view_id": "original_pipeline_ocr", "required": true, "provider_id": "pipeline_cpu", "input_kind": "original", "backend": "pipeline", "method": "ocr", "effort": null, "formula": true, "table": true}},
+      {"const": {"view_id": "raster_pipeline_ocr", "required": true, "provider_id": "pipeline_cpu", "input_kind": "raster", "backend": "pipeline", "method": "ocr", "effort": null, "formula": true, "table": true}},
+      {"const": {"view_id": "original_hybrid_high", "required": false, "provider_id": "hybrid_cuda", "input_kind": "original", "backend": "hybrid-engine", "method": "txt", "effort": "high", "formula": true, "table": true}},
+      {"const": {"view_id": "original_vlm", "required": false, "provider_id": "vlm_cuda", "input_kind": "original", "backend": "vlm-engine", "method": null, "effort": null, "formula": true, "table": true}}
+    ], "items": false},
+    "capability_snapshot": {"type": "object", "additionalProperties": false, "required": ["path_hint", "bytes", "sha256", "receipt_sha256", "providers", "provider_receipt"], "properties": {"path_hint": {"const": "capabilities/providers.json"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256_lower"}, "receipt_sha256": {"$ref": "#/$defs/sha256_lower"}, "providers": {"type": "array", "minItems": 3, "maxItems": 3}, "provider_receipt": {"type": "object"}}},
+    "provider_profiles": {"type": "object", "additionalProperties": false, "required": ["pipeline_cpu"], "properties": {"pipeline_cpu": {"type": "object"}, "hybrid_cuda": {"type": "object"}, "vlm_cuda": {"type": "object"}}},
+    "common_tools": {"type": "object", "additionalProperties": false, "required": ["powershell", "pdftoppm", "wrapper", "preparer", "profile_common", "profile_receipt"], "properties": {"powershell": {"$ref": "#/$defs/lower_identity"}, "pdftoppm": {"$ref": "#/$defs/lower_identity"}, "wrapper": {"$ref": "#/$defs/lower_identity"}, "preparer": {"$ref": "#/$defs/lower_identity"}, "profile_common": {"$ref": "#/$defs/lower_identity"}, "profile_receipt": {"$ref": "#/$defs/lower_identity"}}},
+    "toolchain": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"type": "object", "additionalProperties": false, "required": ["name", "bytes", "sha256"], "properties": {"name": {"enum": ["powershell", "pdftoppm", "wrapper", "preparer", "profile_common", "profile_receipt"]}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256_lower"}}}},
+    "implementation": {"type": "object", "additionalProperties": false, "required": ["files", "inventory_sha256"], "properties": {"files": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file_record"}}, "inventory_sha256": {"$ref": "#/$defs/sha256"}}},
+    "portable_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "local": {"type": "object", "additionalProperties": false, "required": ["contract_path", "source_path", "run_root", "mineru_root", "provider_capabilities_path", "mineru_source_root", "profile_paths", "common_paths"], "properties": {"contract_path": {"type": "string", "minLength": 1}, "source_path": {"type": "string", "minLength": 1}, "run_root": {"type": "string", "minLength": 1}, "mineru_root": {"type": "string", "minLength": 1}, "provider_capabilities_path": {"type": "string", "minLength": 1}, "mineru_source_root": {"type": "string", "minLength": 1}, "profile_paths": {"type": "object"}, "common_paths": {"type": "object"}}}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "sha256_lower": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "lower_identity": {"type": "object", "additionalProperties": false, "required": ["bytes", "sha256"], "properties": {"bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256_lower"}}},
+    "file_record": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}}}
+  }
+}

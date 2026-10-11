@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.run_spec.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "run_id", "target", "profile", "contract", "source", "scope", "options", "capability", "toolchain", "implementation", "portable_identity_sha256", "local"],
+  "properties": {
+    "schema": {"const": "kb_creator.run_spec.v1"},
+    "run_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"},
+    "target": {"const": "reconstructed_en"},
+    "profile": {"const": "mineru_three_view_v1"},
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path_hint", "bytes", "sha256", "contract_revision"],
+      "properties": {
+        "path_hint": {"type": "string", "minLength": 1},
+        "bytes": {"type": "integer", "minimum": 1},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "contract_revision": {"const": 1}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path_hint", "bytes", "sha256", "page_count", "media_box_points", "rotation_degrees"],
+      "properties": {
+        "path_hint": {"type": "string", "minLength": 1},
+        "bytes": {"type": "integer", "minimum": 1},
+        "sha256": {"$ref": "#/$defs/sha256"},
+        "page_count": {"type": "integer", "minimum": 1},
+        "media_box_points": {"type": "array", "prefixItems": [{"type": "number", "exclusiveMinimum": 0}, {"type": "number", "exclusiveMinimum": 0}], "items": false},
+        "rotation_degrees": {"enum": [0, 90, 180, 270]}
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ordered_pages"],
+      "properties": {"ordered_pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}}}
+    },
+    "options": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raster_dpi", "review_dpi", "mineru_profiles", "source_box", "cache_mode"],
+      "properties": {
+        "raster_dpi": {"type": "integer", "minimum": 1},
+        "review_dpi": {"type": "integer", "minimum": 1},
+        "mineru_profiles": {"const": ["hybrid_high", "pipeline_ocr", "hybrid_high"]},
+        "source_box": {"const": "MediaBox"},
+        "cache_mode": {"const": "run_local_verified"}
+      }
+    },
+    "capability": {"$ref": "#/$defs/capability"},
+    "toolchain": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/tool"}},
+    "implementation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["files", "inventory_sha256"],
+      "properties": {
+        "files": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file"}},
+        "inventory_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "portable_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "local": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contract_path", "source_path", "run_root", "mineru_root", "executable_paths"],
+      "properties": {
+        "contract_path": {"type": "string", "minLength": 1},
+        "source_path": {"type": "string", "minLength": 1},
+        "run_root": {"type": "string", "minLength": 1},
+        "mineru_root": {"type": ["string", "null"]},
+        "executable_paths": {
+          "oneOf": [
+            {"type": "object", "maxProperties": 0},
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["python", "powershell", "pdftoppm", "mineru", "mineru_initialize"],
+              "properties": {
+                "python": {"type": "string", "minLength": 1},
+                "powershell": {"type": "string", "minLength": 1},
+                "pdftoppm": {"type": "string", "minLength": 1},
+                "mineru": {"type": "string", "minLength": 1},
+                "mineru_initialize": {"type": "string", "minLength": 1}
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "capability": {
+            "properties": {"state": {"const": "unavailable"}},
+            "required": ["state"]
+          }
+        },
+        "required": ["capability"]
+      },
+      "then": {"properties": {"toolchain": {"maxItems": 0}}},
+      "else": {"properties": {"toolchain": {"minItems": 1}}}
+    }
+  ],
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "capability": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["schema", "state", "reason_code", "receipt"],
+          "properties": {
+            "schema": {"const": "nri.mineru_cuda_capability.v1"},
+            "state": {"const": "injected"},
+            "reason_code": {"const": "injected_adapters"},
+            "receipt": {"type": "null"}
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["schema", "state", "reason_code", "receipt"],
+          "properties": {
+            "schema": {"const": "nri.mineru_cuda_capability.v1"},
+            "state": {"enum": ["available", "unavailable"]},
+            "reason_code": {"type": "string", "minLength": 1},
+            "receipt": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["path_hint", "bytes", "sha256"],
+              "properties": {
+                "path_hint": {"const": "capability.json"},
+                "bytes": {"type": "integer", "minimum": 1},
+                "sha256": {"$ref": "#/$defs/sha256"}
+              }
+            }
+          }
+        }
+      ]
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "bytes", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "bytes": {"type": "integer", "minimum": 0},
+        "sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "tool": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "version"],
+          "properties": {
+            "name": {"const": "injected_adapters"},
+            "version": {"const": "test"}
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "path_hint", "bytes", "sha256"],
+          "properties": {
+            "name": {"enum": ["python", "powershell", "pdftoppm", "mineru", "mineru_initialize"]},
+            "path_hint": {"type": "string", "minLength": 1},
+            "bytes": {"type": "integer", "minimum": 1},
+            "sha256": {"$ref": "#/$defs/sha256"}
+          }
+        }
+      ]
+    }
+  }
+}

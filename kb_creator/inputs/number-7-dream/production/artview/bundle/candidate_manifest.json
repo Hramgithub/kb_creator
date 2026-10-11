@@ -1,0 +1,1408 @@
+{
+  "bindings": {
+    "master_ru": {
+      "bytes": 122946,
+      "path": "outputs/21-master-ru-candidate/artifacts/MASTER_RU.md",
+      "sha256": "904133D5057172C404D28F3BCF2A5E4C578304A59382512D1B31FC56AE0FDAB2"
+    },
+    "master_ru_acceptance": {
+      "bytes": 1126,
+      "path": "acceptance/master_ru.acceptance.json",
+      "sha256": "648307536F72A08463F77964EA501EA44BD3130602D01FC814ABD96B30EAC12D"
+    },
+    "master_ru_asset_manifest": {
+      "bytes": 4160,
+      "path": "outputs/21-master-ru-candidate/artifacts/ASSET_MANIFEST.json",
+      "sha256": "A12565F3B3EC1BE3047C9E660438275E857E1371C502557ABC27EAA18E3B56AD"
+    },
+    "profile": {
+      "bytes": 1181,
+      "path": "profile.runtime.json",
+      "sha256": "F9DB1D10F8024B9A48CDAF3C64CB7461775C27B94D55AB5A6AFC885837379357"
+    },
+    "reconstruction_inventory": {
+      "bytes": 1097,
+      "path": "upstream/RECONSTRUCTION_INVENTORY.json",
+      "sha256": "B37142B8CFB0E85A9BFF157E1DF435D24EDEE13E1F6B755B064E2108CF4E1547"
+    },
+    "source_identity": {
+      "bytes": 803,
+      "path": "upstream/SOURCE_IDENTITY.json",
+      "sha256": "17EA15D089FDFA672620529CAB9883E025208CF33938819A0D87F29422004432"
+    },
+    "source_pdf": {
+      "bytes": 2915268,
+      "path": "source/Call_of_Cthulhu_Miskatonic_Repository_Modern_Number_7_Dream_2021.pdf",
+      "sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0"
+    }
+  },
+  "candidate_files_inventory_sha256": "CC7161005A1D88E6D6F97477839DF6511BC12A24BD1FEBBF19EE4760FF8EABFA",
+  "decision_contract": {
+    "accepted_requires_all_reviewed": true,
+    "binding_sources": [
+      "profile",
+      "master_ru",
+      "master_ru_acceptance",
+      "master_ru_asset_manifest",
+      "reconstruction_inventory",
+      "source_pdf",
+      "source_identity"
+    ],
+    "schema": "kb_creator.scenario_artview_decisions.v4"
+  },
+  "derived_expected": {
+    "raw_objects": 25,
+    "review_rows": 20,
+    "source_pages": 19,
+    "technical_raw_objects": 3
+  },
+  "rows": [
+    {
+      "allowed_binary_decisions": [
+        "keep_current"
+      ],
+      "alternatives": [],
+      "anchor": "source-page-001",
+      "asset_id": "pdf-page-001-cover",
+      "component_raw_ids": [
+        "page-001-xref-1112-gen-0-resource-image15",
+        "page-001-xref-1114-gen-0-resource-image16",
+        "page-001-xref-1115-gen-0-resource-image18",
+        "page-001-xref-1117-gen-0-resource-image23"
+      ],
+      "context": {
+        "bytes": 3824297,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/pdf-page-001-cover.png",
+        "sha256": "4517FC7C93E53986C2C286E871D8B59070BED4457041FE0F928A1DC9F9357072"
+      },
+      "current": {
+        "bytes": 3824297,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "assets/current/pdf-page-001-cover.png",
+        "sha256": "4517FC7C93E53986C2C286E871D8B59070BED4457041FE0F928A1DC9F9357072"
+      },
+      "group": "cover",
+      "label": "Source page 001 cover",
+      "placement_id": "source-cover-page-001",
+      "placement_target": "source_page_cover",
+      "presentation_defaults": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "provenance_kind": "clean_page_render",
+      "required": true,
+      "review_id": "pdf-page-001-cover",
+      "semantic_role": "cover",
+      "source_page": 1,
+      "source_region": "full_page"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 281766,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 239,
+              "width": 708
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-004-xref-80-gen-0-resource-image100-native.png",
+            "sha256": "72318C1775921965BA1B2061A8D9B5E551563871509FE062A80F1534056582DB"
+          },
+          "candidate_id": "page-004-xref-80-gen-0-resource-image100-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-004",
+      "asset_id": "page-004-xref-80-gen-0-resource-image100",
+      "component_raw_ids": [
+        "page-004-xref-80-gen-0-resource-image100"
+      ],
+      "context": {
+        "bytes": 1060724,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-004-xref-80-gen-0-resource-image100.png",
+        "sha256": "1E99437D26146BB9F73B13C72B9E725472D686A0C1B81D81918C1E1201F51E5F"
+      },
+      "current": {
+        "bytes": 49023,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 245,
+          "width": 715
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-004-xref-80-gen-0-resource-image100.jpg",
+        "sha256": "55CA597755B7DF71C1E3699353265EE4AD9771EBBDB920410317E7073F6284FE"
+      },
+      "group": "scenario_body",
+      "label": "Source page 004 visual 1",
+      "placement_id": "master-page-004-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-004-xref-80-gen-0-resource-image100",
+      "semantic_role": "scenario_body",
+      "source_page": 4,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 281766,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 239,
+              "width": 708
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-005-xref-80-gen-0-resource-image100-native.png",
+            "sha256": "72318C1775921965BA1B2061A8D9B5E551563871509FE062A80F1534056582DB"
+          },
+          "candidate_id": "page-005-xref-80-gen-0-resource-image100-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-005",
+      "asset_id": "page-005-xref-80-gen-0-resource-image100",
+      "component_raw_ids": [
+        "page-005-xref-80-gen-0-resource-image100"
+      ],
+      "context": {
+        "bytes": 1100744,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-005-xref-80-gen-0-resource-image100.png",
+        "sha256": "02C29CC19120D3ABBA7AE25691DA79B62D352A81A6BF5D6065A3FA254B7C044C"
+      },
+      "current": {
+        "bytes": 49082,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 245,
+          "width": 715
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-005-xref-80-gen-0-resource-image100.jpg",
+        "sha256": "8FC42816BF72BEDA6938FAAD5A1AFF6DEA6DE1BEF286EE8D8822A8DAC55BBBD6"
+      },
+      "group": "scenario_body",
+      "label": "Source page 005 visual 1",
+      "placement_id": "master-page-005-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-005-xref-80-gen-0-resource-image100",
+      "semantic_role": "scenario_body",
+      "source_page": 5,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 166708,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 406,
+              "width": 409
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-006-xref-15-gen-0-resource-image110-native.png",
+            "sha256": "4A9CA476C148B6423D1E7AA555674EA520859CB7D10BFC1862DA5E5DE903DD2B"
+          },
+          "candidate_id": "page-006-xref-15-gen-0-resource-image110-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-006",
+      "asset_id": "page-006-xref-15-gen-0-resource-image110",
+      "component_raw_ids": [
+        "page-006-xref-15-gen-0-resource-image110"
+      ],
+      "context": {
+        "bytes": 909612,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-006-xref-15-gen-0-resource-image110.png",
+        "sha256": "48B99F74393723008B2E80D9ED33075F8BC9E49CF1E4C0B88536BCA9124AF68A"
+      },
+      "current": {
+        "bytes": 31076,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 418,
+          "width": 423
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-006-xref-15-gen-0-resource-image110.jpg",
+        "sha256": "D546EF251ACE98DF9136EA8C332883B06594C7082D32ED1AC80C4DBD915D9523"
+      },
+      "group": "scenario_body",
+      "label": "Source page 006 visual 1",
+      "placement_id": "master-page-006-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-006-xref-15-gen-0-resource-image110",
+      "semantic_role": "scenario_body",
+      "source_page": 6,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 173214,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 394,
+              "width": 394
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-007-xref-19-gen-0-resource-image112-native.png",
+            "sha256": "E8F6AC5C6535E28ADA0EC8132E62216519E2F00B5541A75F7BDC478523CEA4EE"
+          },
+          "candidate_id": "page-007-xref-19-gen-0-resource-image112-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-007",
+      "asset_id": "page-007-xref-19-gen-0-resource-image112",
+      "component_raw_ids": [
+        "page-007-xref-19-gen-0-resource-image112"
+      ],
+      "context": {
+        "bytes": 1046921,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-007-xref-19-gen-0-resource-image112.png",
+        "sha256": "0A76DD0BB003D9B150771167364C88C823D6F2D086611064F5444678BBCA4453"
+      },
+      "current": {
+        "bytes": 30984,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 404,
+          "width": 396
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-007-xref-19-gen-0-resource-image112.jpg",
+        "sha256": "FFD474F4A049B1968C6F7B5F9068019B5CDEC558E69B9A1E995AA21663395857"
+      },
+      "group": "scenario_body",
+      "label": "Source page 007 visual 1",
+      "placement_id": "master-page-007-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-007-xref-19-gen-0-resource-image112",
+      "semantic_role": "scenario_body",
+      "source_page": 7,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 344910,
+            "colorspace": "RGBA",
+            "dimensions": {
+              "height": 414,
+              "width": 709
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-007-xref-21-gen-0-resource-image115-native.png",
+            "sha256": "1774B59DDD79E70B5F29431B2EF10E8DA706BA5D1E444AF87415189EF2787715"
+          },
+          "candidate_id": "page-007-xref-21-gen-0-resource-image115-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-007",
+      "asset_id": "page-007-xref-21-gen-0-resource-image115",
+      "component_raw_ids": [
+        "page-007-xref-21-gen-0-resource-image115"
+      ],
+      "context": {
+        "bytes": 1046921,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-007-xref-21-gen-0-resource-image115.png",
+        "sha256": "0A76DD0BB003D9B150771167364C88C823D6F2D086611064F5444678BBCA4453"
+      },
+      "current": {
+        "bytes": 59762,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 395,
+          "width": 692
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-007-xref-21-gen-0-resource-image115.jpg",
+        "sha256": "8D4E75A0CD6C3098CFD7B84B4FB603395E7269EC4249B8AB05734751A58EDD70"
+      },
+      "group": "scenario_body",
+      "label": "Source page 007 visual 2",
+      "placement_id": "master-page-007-asset-002",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-007-xref-21-gen-0-resource-image115",
+      "semantic_role": "scenario_body",
+      "source_page": 7,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 97397,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 816,
+              "width": 1524
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-008-xref-24-gen-0-resource-image118-native.png",
+            "sha256": "F8D5BD73B384828E4B05D3B7A5622E768FDD2E6E7DA085B09F5FC6310FBDC0B7"
+          },
+          "candidate_id": "page-008-xref-24-gen-0-resource-image118-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-008",
+      "asset_id": "page-008-xref-24-gen-0-resource-image118",
+      "component_raw_ids": [
+        "page-008-xref-24-gen-0-resource-image118"
+      ],
+      "context": {
+        "bytes": 441357,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-008-xref-24-gen-0-resource-image118.png",
+        "sha256": "83C6DCEED895F8B198576F15F18D79830336F60838BD626F2FEF3C96CFEF7031"
+      },
+      "current": {
+        "bytes": 77664,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 726,
+          "width": 1370
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-008-xref-24-gen-0-resource-image118.jpg",
+        "sha256": "456C573FB9955C8A3312CADF47A7559255D3416427B764E874D8D8D7D2B6A35C"
+      },
+      "group": "scenario_body",
+      "label": "Source page 008 visual 1",
+      "placement_id": "master-page-008-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-008-xref-24-gen-0-resource-image118",
+      "semantic_role": "scenario_body",
+      "source_page": 8,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 281766,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 239,
+              "width": 708
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-009-xref-80-gen-0-resource-image100-native.png",
+            "sha256": "72318C1775921965BA1B2061A8D9B5E551563871509FE062A80F1534056582DB"
+          },
+          "candidate_id": "page-009-xref-80-gen-0-resource-image100-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-009",
+      "asset_id": "page-009-xref-80-gen-0-resource-image100",
+      "component_raw_ids": [
+        "page-009-xref-80-gen-0-resource-image100"
+      ],
+      "context": {
+        "bytes": 991936,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-009-xref-80-gen-0-resource-image100.png",
+        "sha256": "CF5351FD0EE6D2880C716A9C63B7FC9D940FEF748A690D3F753E7FAB6C34E633"
+      },
+      "current": {
+        "bytes": 48035,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 242,
+          "width": 715
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-009-xref-80-gen-0-resource-image100.jpg",
+        "sha256": "833474CC789C6F5E00034FE72DD8AD95C5C148DD553D5451056A0BE134473525"
+      },
+      "group": "scenario_body",
+      "label": "Source page 009 visual 1",
+      "placement_id": "master-page-009-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-009-xref-80-gen-0-resource-image100",
+      "semantic_role": "scenario_body",
+      "source_page": 9,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 216354,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 974,
+              "width": 1501
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-011-xref-31-gen-0-resource-image149-native.png",
+            "sha256": "5A3EEC43C0B5DBE714E439531DFFDB68F92667693077240757EF76E14B9E254D"
+          },
+          "candidate_id": "page-011-xref-31-gen-0-resource-image149-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-011",
+      "asset_id": "page-011-xref-31-gen-0-resource-image149",
+      "component_raw_ids": [
+        "page-011-xref-31-gen-0-resource-image149"
+      ],
+      "context": {
+        "bytes": 591994,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-011-xref-31-gen-0-resource-image149.png",
+        "sha256": "456E13D88D3F1D1D77FE368730A92937E55214809B2577EFA4F6554EA16B4AC1"
+      },
+      "current": {
+        "bytes": 117658,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 787,
+          "width": 1340
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-011-xref-31-gen-0-resource-image149.jpg",
+        "sha256": "BA5B7C947407C8409B5353E7A25196A98BE9E9DC47A786EE0376CD8BC23348B4"
+      },
+      "group": "scenario_body",
+      "label": "Source page 011 visual 1",
+      "placement_id": "master-page-011-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-011-xref-31-gen-0-resource-image149",
+      "semantic_role": "scenario_body",
+      "source_page": 11,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 821149,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 718,
+              "width": 900
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-013-xref-36-gen-0-resource-image152-native.png",
+            "sha256": "C9DF61087009DFB7E348457A8BE1664AFC29D579FFDE27BDECDE67418CF5859F"
+          },
+          "candidate_id": "page-013-xref-36-gen-0-resource-image152-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-013",
+      "asset_id": "page-013-xref-36-gen-0-resource-image152",
+      "component_raw_ids": [
+        "page-013-xref-36-gen-0-resource-image152"
+      ],
+      "context": {
+        "bytes": 1535584,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-013-xref-36-gen-0-resource-image152.png",
+        "sha256": "413E993D4B5E9FB868B50F66B2517C78B3E30B173196E4011B988D94B2A0901C"
+      },
+      "current": {
+        "bytes": 110551,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 723,
+          "width": 712
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-013-xref-36-gen-0-resource-image152.jpg",
+        "sha256": "F16BFB5BBC3E13437865969CF46FECB192EDEEAB07978A0E1DABF1C60ED8345B"
+      },
+      "group": "scenario_body",
+      "label": "Source page 013 visual 1",
+      "placement_id": "master-page-013-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-013-xref-36-gen-0-resource-image152",
+      "semantic_role": "scenario_body",
+      "source_page": 13,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 802548,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 576,
+              "width": 1174
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-014-xref-39-gen-0-resource-image159-native.png",
+            "sha256": "7290EA913AEF2C16BF3E72724EB85C78CC02EE7F84B354FEE2B8B6CF1AB78F8E"
+          },
+          "candidate_id": "page-014-xref-39-gen-0-resource-image159-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-014",
+      "asset_id": "page-014-xref-39-gen-0-resource-image159",
+      "component_raw_ids": [
+        "page-014-xref-39-gen-0-resource-image159"
+      ],
+      "context": {
+        "bytes": 1391178,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-014-xref-39-gen-0-resource-image159.png",
+        "sha256": "BBEBF1F0DC27DA1BBDE81827942129E4A3B28B257357A9619A39C949D56E6EA1"
+      },
+      "current": {
+        "bytes": 163279,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 573,
+          "width": 1535
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-014-xref-39-gen-0-resource-image159.jpg",
+        "sha256": "5F84FC66111294AF52199ED1C80E48D71F9F8DDB412D52EE2CF42D04E31F7E4D"
+      },
+      "group": "scenario_body",
+      "label": "Source page 014 visual 1",
+      "placement_id": "master-page-014-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-014-xref-39-gen-0-resource-image159",
+      "semantic_role": "scenario_body",
+      "source_page": 14,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 74866,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 698,
+              "width": 1612
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-015-xref-42-gen-0-resource-image161-native.png",
+            "sha256": "2DD2C368E1C5972C656E011C897E3DFD1759AED9D8DEBBE84523CC3940A3BF7F"
+          },
+          "candidate_id": "page-015-xref-42-gen-0-resource-image161-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-015",
+      "asset_id": "page-015-xref-42-gen-0-resource-image161",
+      "component_raw_ids": [
+        "page-015-xref-42-gen-0-resource-image161"
+      ],
+      "context": {
+        "bytes": 495454,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-015-xref-42-gen-0-resource-image161.png",
+        "sha256": "CE0D644D45502C409FCFACB92F7E638327F2DB52ABD879AE7B5E3A1327AA1AEF"
+      },
+      "current": {
+        "bytes": 65579,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 609,
+          "width": 1456
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-015-xref-42-gen-0-resource-image161.jpg",
+        "sha256": "9F377A1D675FF226C5405C3A6968540B6A32221C151152C82E7770A708F2B981"
+      },
+      "group": "scenario_body",
+      "label": "Source page 015 visual 1",
+      "placement_id": "master-page-015-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-015-xref-42-gen-0-resource-image161",
+      "semantic_role": "scenario_body",
+      "source_page": 15,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 1025223,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 676,
+              "width": 1200
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-017-xref-47-gen-0-resource-image164-native.png",
+            "sha256": "4CA5B9450142FB3E6526F007E228AEA773FC90E85897A05B78F832A816946F63"
+          },
+          "candidate_id": "page-017-xref-47-gen-0-resource-image164-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-017",
+      "asset_id": "page-017-xref-47-gen-0-resource-image164",
+      "component_raw_ids": [
+        "page-017-xref-47-gen-0-resource-image164"
+      ],
+      "context": {
+        "bytes": 1693694,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-017-xref-47-gen-0-resource-image164.png",
+        "sha256": "05169712D0AF4148E5E7086A8CCC361C4B83F3B0DAA95B79EA16BBAF65FD668C"
+      },
+      "current": {
+        "bytes": 207987,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 798,
+          "width": 1448
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-017-xref-47-gen-0-resource-image164.jpg",
+        "sha256": "2E39199DC3787B0600AC4F9843FD02DE5F88DFB05BE59ACD833B9A17B5735421"
+      },
+      "group": "scenario_body",
+      "label": "Source page 017 visual 1",
+      "placement_id": "master-page-017-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-017-xref-47-gen-0-resource-image164",
+      "semantic_role": "scenario_body",
+      "source_page": 17,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [],
+      "anchor": "source-page-020",
+      "asset_id": "master-page-020-asset-001",
+      "component_raw_ids": [],
+      "context": {
+        "bytes": 364589,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/master-page-020-asset-001.png",
+        "sha256": "9200E02A4607A2CB1134DEDA9ED4CA8C532E464C4BD300D804514114656A53E9"
+      },
+      "current": {
+        "bytes": 179661,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 840,
+          "width": 1484
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/master-page-020-asset-001.jpg",
+        "sha256": "7D73DFEA3BAA03B388A63F836C0CA43F9238EFEE255AB26FFCDB49BFACF79890"
+      },
+      "group": "player_handouts",
+      "label": "Source page 020 visual 1",
+      "placement_id": "master-page-020-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "master-page-020-asset-001",
+      "semantic_role": "player_handouts",
+      "source_page": 20,
+      "source_region": "master_only"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 245847,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 521,
+              "width": 525
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-021-xref-58-gen-0-resource-image171-native.png",
+            "sha256": "900880EBE698C683FEA7A60B8EB2C90E4E0DFE6C1DA4B8D544745357BB46DB61"
+          },
+          "candidate_id": "page-021-xref-58-gen-0-resource-image171-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-021",
+      "asset_id": "page-021-xref-58-gen-0-resource-image171",
+      "component_raw_ids": [
+        "page-021-xref-58-gen-0-resource-image171"
+      ],
+      "context": {
+        "bytes": 550005,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-021-xref-58-gen-0-resource-image171.png",
+        "sha256": "FBCB0B76838B2A4191992C099991AFE2B05EA69B7EF79608E289C1390402A7A5"
+      },
+      "current": {
+        "bytes": 45533,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 534,
+          "width": 534
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-021-xref-58-gen-0-resource-image171.jpg",
+        "sha256": "F21773FEB120405ACF2244939EA196833341DD24A2933AB9F08424AA1E44E5AC"
+      },
+      "group": "pregenerated_characters",
+      "label": "Source page 021 visual 1",
+      "placement_id": "master-page-021-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-021-xref-58-gen-0-resource-image171",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 21,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 230153,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 497,
+              "width": 497
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-022-xref-61-gen-0-resource-image174-native.png",
+            "sha256": "CCBA0E0BC10CE7B181B152093CF752074BCD9CD312C749F58315293628BF3AC6"
+          },
+          "candidate_id": "page-022-xref-61-gen-0-resource-image174-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-022",
+      "asset_id": "page-022-xref-61-gen-0-resource-image174",
+      "component_raw_ids": [
+        "page-022-xref-61-gen-0-resource-image174"
+      ],
+      "context": {
+        "bytes": 465517,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-022-xref-61-gen-0-resource-image174.png",
+        "sha256": "3E24EB32C82E78F9780AB22EF04E3F3706F6E6B9956703AA3FBDE5DC0F580A6C"
+      },
+      "current": {
+        "bytes": 40846,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 507,
+          "width": 503
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-022-xref-61-gen-0-resource-image174.jpg",
+        "sha256": "8CC466F9543AD6EB3BE419B505950EB16CD7B0CF0B3B33CFA0162BFA0F4C97A9"
+      },
+      "group": "pregenerated_characters",
+      "label": "Source page 022 visual 1",
+      "placement_id": "master-page-022-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-022-xref-61-gen-0-resource-image174",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 22,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 222173,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 485,
+              "width": 485
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-023-xref-64-gen-0-resource-image177-native.png",
+            "sha256": "C7327A405ED065A14993BE186C134EF5E8EAC22A5284DEA6F879C1718B8718DE"
+          },
+          "candidate_id": "page-023-xref-64-gen-0-resource-image177-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-023",
+      "asset_id": "page-023-xref-64-gen-0-resource-image177",
+      "component_raw_ids": [
+        "page-023-xref-64-gen-0-resource-image177"
+      ],
+      "context": {
+        "bytes": 478040,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-023-xref-64-gen-0-resource-image177.png",
+        "sha256": "ACD0391048EB8B932BD63A70D4DF37F15AF0BBB75C7D75874F7B001E6637DD87"
+      },
+      "current": {
+        "bytes": 38341,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 495,
+          "width": 495
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-023-xref-64-gen-0-resource-image177.jpg",
+        "sha256": "F51F17C46EF8227AF096809E89EB784E968A715088739DC2B0B7F5778076E743"
+      },
+      "group": "pregenerated_characters",
+      "label": "Source page 023 visual 1",
+      "placement_id": "master-page-023-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-023-xref-64-gen-0-resource-image177",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 23,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 204346,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 450,
+              "width": 450
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-024-xref-67-gen-0-resource-image180-native.png",
+            "sha256": "5DC1C274A42B3316BA066D1F566843EE17BE7C925F2C35A06A3831C46F2F21A6"
+          },
+          "candidate_id": "page-024-xref-67-gen-0-resource-image180-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-024",
+      "asset_id": "page-024-xref-67-gen-0-resource-image180",
+      "component_raw_ids": [
+        "page-024-xref-67-gen-0-resource-image180"
+      ],
+      "context": {
+        "bytes": 472201,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-024-xref-67-gen-0-resource-image180.png",
+        "sha256": "4198FF8866F11C7A19F2D4AEA3BA0D8818D381B82ADDFEAFA702DAD658541C3B"
+      },
+      "current": {
+        "bytes": 36852,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 459,
+          "width": 462
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-024-xref-67-gen-0-resource-image180.jpg",
+        "sha256": "6F1393BC7DC691B0B8F2A2039D1C502AEA957D8B8B5617DEB0E1A2A8CD804165"
+      },
+      "group": "pregenerated_characters",
+      "label": "Source page 024 visual 1",
+      "placement_id": "master-page-024-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-024-xref-67-gen-0-resource-image180",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 24,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 239534,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 474,
+              "width": 474
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-025-xref-70-gen-0-resource-image183-native.png",
+            "sha256": "F1D5B99C14ED87C5EAB56000BC36EA74CBC9B6E193B0604AEBD6B008FB434A9E"
+          },
+          "candidate_id": "page-025-xref-70-gen-0-resource-image183-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-025",
+      "asset_id": "page-025-xref-70-gen-0-resource-image183",
+      "component_raw_ids": [
+        "page-025-xref-70-gen-0-resource-image183"
+      ],
+      "context": {
+        "bytes": 464120,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-025-xref-70-gen-0-resource-image183.png",
+        "sha256": "D3F56E70DDF15A73F575C22FF13FE1E2353A671C04BC70E14F9D4E168AD77584"
+      },
+      "current": {
+        "bytes": 41174,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 487,
+          "width": 470
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-025-xref-70-gen-0-resource-image183.jpg",
+        "sha256": "30F29EF0AFD70573F4F5411B933170A0FAAAFEC268E1842BB6DED414C7AD1F95"
+      },
+      "group": "pregenerated_characters",
+      "label": "Source page 025 visual 1",
+      "placement_id": "master-page-025-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-025-xref-70-gen-0-resource-image183",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 25,
+      "source_region": "native_xobject"
+    },
+    {
+      "allowed_binary_decisions": [
+        "keep_current",
+        "use_candidate",
+        "exclude",
+        "needs_manual_work",
+        "reopen_masters"
+      ],
+      "alternatives": [
+        {
+          "binary": {
+            "bytes": 229093,
+            "colorspace": "RGB",
+            "dimensions": {
+              "height": 467,
+              "width": 467
+            },
+            "media_type": "image/png",
+            "path": "assets/candidates/page-026-xref-73-gen-0-resource-image186-native.png",
+            "sha256": "1B92B8EA9E1B9CD479EA29C7A54ADF1CAB6975C5D5FB5FB6E4EF0A0C936D2997"
+          },
+          "candidate_id": "page-026-xref-73-gen-0-resource-image186-native",
+          "kind": "native_pdf_object"
+        }
+      ],
+      "anchor": "source-page-026",
+      "asset_id": "page-026-xref-73-gen-0-resource-image186",
+      "component_raw_ids": [
+        "page-026-xref-73-gen-0-resource-image186"
+      ],
+      "context": {
+        "bytes": 540047,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 2200,
+          "width": 1700
+        },
+        "media_type": "image/png",
+        "path": "context/page-026-xref-73-gen-0-resource-image186.png",
+        "sha256": "E6ECDEBF125351C776D58DDD410AC2EB9DE0BF2308C26C1993B9E7F1C7058A4D"
+      },
+      "current": {
+        "bytes": 40683,
+        "colorspace": "RGB",
+        "dimensions": {
+          "height": 471,
+          "width": 479
+        },
+        "media_type": "image/jpeg",
+        "path": "assets/current/page-026-xref-73-gen-0-resource-image186.jpg",
+        "sha256": "A334E31185E6DCB3C4CA4FF2F900EFFF0F4E77D7CD0C446FD7E4BA0392C35E1A"
+      },
+      "group": "pregenerated_characters",
+      "label": "Source page 026 visual 1",
+      "placement_id": "master-page-026-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation_defaults": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": true
+      },
+      "provenance_kind": "master_ru_asset",
+      "required": false,
+      "review_id": "page-026-xref-73-gen-0-resource-image186",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 26,
+      "source_region": "native_xobject"
+    }
+  ],
+  "scenario_id": "number-7-dream",
+  "schema": "kb_creator.scenario_artview_candidate.v4",
+  "state": "candidate_needs_user_decisions"
+}

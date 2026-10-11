@@ -1,0 +1,147 @@
+{
+  "schema": "kb_creator.scenario_publication_blueprint.v1",
+  "blueprint_revision": 1,
+  "scenario": {
+    "id": "number-7-dream",
+    "title_en": "Number 7 Dream",
+    "title_ru": "Сон № 7",
+    "language_source": "en",
+    "language_target": "ru"
+  },
+  "upstream": {
+    "reconstruction_contract_sha256": "A74582B223805E643EB6B7C03BD540DBB90CF2B0B124F9B1E220B6B7251B4A07",
+    "required_artifact_roles": [
+      "reconstructed_en",
+      "reconstruction_manifest",
+      "reconstruction_qa",
+      "source_identity"
+    ]
+  },
+  "artifact_names": {
+    "master_en": "MASTER_EN.md",
+    "master_ru": "MASTER_RU.md",
+    "html": "Number_7_Dream_RU.html",
+    "docx": "Number_7_Dream_RU.docx",
+    "pdf": "Number_7_Dream_RU.pdf"
+  },
+  "configs": {
+    "master_en": "kb_creator/inputs/number-7-dream/publication/v3/configs/master_en.json",
+    "master_ru": "kb_creator/inputs/number-7-dream/publication/v3/configs/master_ru.json",
+    "artview": "kb_creator/inputs/number-7-dream/publication/v3/configs/artview/profile.json",
+    "html": "kb_creator/inputs/number-7-dream/publication/v3/configs/html.json",
+    "docx": "kb_creator/inputs/number-7-dream/publication/v3/configs/docx.json",
+    "pdf": "kb_creator/inputs/number-7-dream/publication/v3/configs/pdf.json",
+    "package": "kb_creator/inputs/number-7-dream/publication/v3/configs/package.json"
+  },
+  "master_en": {
+    "profile": "neutral_v3",
+    "required_qa": [
+      "accepted_upstream_identity",
+      "exact_source_projection",
+      "source_disposition_closure",
+      "asset_manifest_closure",
+      "candidate_inventory_closure",
+      "independent_v3_verification"
+    ]
+  },
+  "master_ru": {
+    "profile": "neutral_v1",
+    "terminology": [
+      "CoC/Project_Reference/Terminology/CoC_Terminology_Decisions.csv"
+    ],
+    "packet_policy": "ordered_hash_bound_units_v1",
+    "required_qa": [
+      "accepted_master_en_identity",
+      "ordered_unit_identity",
+      "markdown_structure_preservation",
+      "mechanics_preservation",
+      "terminology_authority",
+      "asset_identity",
+      "independent_translation_qa"
+    ]
+  },
+  "artview": {
+    "required_bundle_roles": [
+      "candidate_manifest",
+      "review_html",
+      "accepted_decisions",
+      "application_receipt",
+      "effective_visual_config",
+      "bundle_inventory",
+      "candidate_binaries",
+      "source_context"
+    ],
+    "decision_schema": "kb_creator.scenario_artview_decisions.v4",
+    "decision_version": 4
+  },
+  "html": {
+    "adapter": "translator_build_production_html_v1",
+    "required_qa": [
+      "accepted_master_ru_identity",
+      "accepted_artview_identity",
+      "local_reference_closure",
+      "structural_html",
+      "all_page_visual_review"
+    ]
+  },
+  "docx": {
+    "adapter": "production_docx_explicit_config_v1",
+    "required_qa": [
+      "accepted_html_identity",
+      "ooxml_integrity",
+      "all_page_png",
+      "reader_layout",
+      "document_metadata"
+    ]
+  },
+  "pdf": {
+    "adapter": "docx_pdf_export_v1",
+    "export_policy": {
+      "document_input_role": "accepted_docx",
+      "format": "pdf",
+      "all_pages": true,
+      "fresh_export": true
+    },
+    "required_qa": [
+      "accepted_docx_identity",
+      "fresh_docx_export",
+      "all_page_png",
+      "no_direct_html_route"
+    ]
+  },
+  "package": {
+    "required_roles": [
+      "master_en",
+      "master_en_acceptance",
+      "master_ru",
+      "master_ru_acceptance",
+      "artview_bundle",
+      "artview_candidate_manifest",
+      "artview_decisions",
+      "artview_application",
+      "artview_effective_config",
+      "artview_acceptance",
+      "html",
+      "html_acceptance",
+      "docx",
+      "docx_acceptance",
+      "pdf",
+      "pdf_acceptance",
+      "source_configs",
+      "effective_config",
+      "stage_evidence",
+      "pipeline_snapshot",
+      "schema_snapshot",
+      "offline_verifier"
+    ],
+    "stable_names": true,
+    "verifier_version": 1
+  },
+  "tool_policy": {
+    "repository_tool_root": ".tools",
+    "allowed_system_tools": [
+      "powershell",
+      "microsoft_word_com"
+    ]
+  }
+}

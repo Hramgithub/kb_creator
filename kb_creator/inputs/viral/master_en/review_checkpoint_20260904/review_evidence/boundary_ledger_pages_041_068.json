@@ -1,0 +1,2922 @@
+{
+  "schema": "kb_creator.viral.boundary_ledger.v2",
+  "range": {
+    "pages": [
+      41,
+      68
+    ],
+    "inclusive": true
+  },
+  "input_identities": {
+    "source_pdf_sha256": "0A80B6F389821B87553D26746D2BE171B4482BA9BBC6E3EB3FEC26274EDBED05",
+    "reconstruction_markdown_sha256": "243D7258599F038B2C512B675619B1312461EA4CEC97BC2B3E30A5C95C1917BE",
+    "reconstructed_pages_tree_sha256": "9A5E21124F232E842024039531C82EA3CF834484EE791DD9D7AD0769C1B722DB",
+    "source_registry_sha256": "D20414D48405A761ADD31E538B6940F8A3E0F1FB11044AF73EAD122D96C616E8",
+    "frozen_publication_config_v1_sha256": "C16DFA975F3F05DFCE923CDD54A56B1069B9A8337C70809B0DC99771CDF63B30",
+    "visual_inventory_v4_sha256": "68C17FB765A89C6146398868E61F1F6EB7B2FE4EAFBA8C2C2C8F42260BBDBA83"
+  },
+  "units": [
+    {
+      "id": "viral-hospital-room-1c-continuation-p041",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "continuation",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 3,
+          "end_line": 11,
+          "start_text": "The Drying Room has several gas dryers, their massive porthole-like doors hanging open, and more rat scratchings heard within. Five wheeled bins are piled with now shredded sheets that reek of ammonia and mold.",
+          "end_text": "The Laundry Storage is a large walk-in closet that contains eight fifty gallon drums of cleaning agents, bleach, and starch. The smell in here is overwhelming (and probably unhealthy) as some of the barrels have leaked to mix on the floor. After a few seconds here, your eyes begin to burn and you find breathing difficult.",
+          "sha256_lf_lines": "84A8B62D3D20BE051C6CB76F430D3AA05B51E33A9A34F45108BD3C2960305458"
+        }
+      ],
+      "owner": "viral-hospital-room-1c-laundry-ward",
+      "outline_representation": "none",
+      "title": null,
+      "termination": "before_keeper_notes_p041_l015",
+      "structured": {
+        "continuation_of": "1C. Laundry Ward",
+        "subareas": [
+          "Drying Room",
+          "Ironing Room"
+        ]
+      },
+      "order_key": [
+        41,
+        3
+      ]
+    },
+    {
+      "id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "run_in_series",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 27,
+          "end_line": 39,
+          "start_text": "1D. Boiler Room – The boiler can only be accessed from the West Corridor or the outside of the building. The massive steel boiler itself takes up the bulk of the room, its ornate Victorian door stands ajar. Scratching can be heard within.",
+          "end_text": "Beyond is a maze of other rooms dedicated to various forms of maintenance including automotive, electrical, plumbing, carpentry, and grounds-keeping. All of the tools are similarly rusted and pitted, making them all but useless without some significant restoration. The smells of oil, grease, gasoline, and fertilizer mingle with the ubiquitous stench of mildew.",
+          "sha256_lf_lines": "703385989A5E07B5B40EC67890AC7FE40BA3D5A73E24554B5C3F9F1ADB425F19"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 51,
+          "end_line": 55,
+          "start_text": "1E. Operating Room – Following World War II, Saint Roche's Hospital re-purposed many of its operating rooms, leaving just this one to handle the rare cases when it was required. The steel operating table is surprisingly clean, apart from a thick layer of dust, though your eyes are drawn to the thick leather straps that were presumably used to restrain patients.",
+          "end_text": "The surrounding shelves, counters, and cabinets are well stocked with decaying supplies that are more likely to have the opposite effect to which they were originally intended.",
+          "sha256_lf_lines": "95864C2C183C452BAE03D03EF88CA49BCE50460A423EEBD5B2CD6CCFF798F672"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 67,
+          "end_line": 67,
+          "start_text": "1F. Exam Room – This room contains an examination table, counter, and a wall-mounted cabinet. The table is covered with a rotten, badly stained sheet.",
+          "end_text": "1F. Exam Room – This room contains an examination table, counter, and a wall-mounted cabinet. The table is covered with a rotten, badly stained sheet.",
+          "sha256_lf_lines": "FC93AE0AEF500EC3EA1579E52482AE67F477BDF3C3740262D210E881A2E8EEB6"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 79,
+          "end_line": 83,
+          "start_text": "1G. Kitchen – This industrial kitchen is one of the largest rooms so far. Dozens of preparation counters are covered with pots, pans, and various utensils. The large brick oven that stands against the eastern wall is flanked by a pair of more modern (for the 1950s) cooking ovens. On the north wall is a lift to the upstairs kitchen, though without power, it stands open and stacked with dishes.",
+          "end_text": "Adjoining rooms include walk-in refrigerators, freezers, pantries, and related storage for crockery and eating utensils. The refrigerator and freezer are horrific. They are choked with thick mold colonies and some sort of pale flies that swarm within. The bloated, tumor-like fungus crawls with worms and white beetles.",
+          "sha256_lf_lines": "1973D6E8F7D1DB3F70DFBBFE7C8050153ABC31BEDC29FE9BD94BF3855A0DC7E5"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 3,
+          "end_line": 3,
+          "start_text": "1H. Main Dining and Recreation Hall – This massive hall has a dozen long tables lined with wooden chairs. Unlike many of the other rooms, this one has suffered significant weather damage. The ceiling has collapsed, dumping chairs and tables from the room above into a chaotic pile of splintered wood and plaster in the middle of the room. Tall windows look to the south where, even through the filthy glass, you can make out the sea in the distance. In the southeast and northeast corners are stairs that lead up to the second floor. Looking up through the hole in the ceiling, you can see the stars through the hole in the roof.",
+          "end_text": "1H. Main Dining and Recreation Hall – This massive hall has a dozen long tables lined with wooden chairs. Unlike many of the other rooms, this one has suffered significant weather damage. The ceiling has collapsed, dumping chairs and tables from the room above into a chaotic pile of splintered wood and plaster in the middle of the room. Tall windows look to the south where, even through the filthy glass, you can make out the sea in the distance. In the southeast and northeast corners are stairs that lead up to the second floor. Looking up through the hole in the ceiling, you can see the stars through the hole in the roof.",
+          "sha256_lf_lines": "78A2359A4B33701AEB4BFD8B45DFA8E72EEEB602E8AD0B49ABBD92A14712E64D"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "inline_run_ins_only",
+      "title": null,
+      "termination": "before_hospital_ground_floor_west_wing",
+      "structured": {
+        "expected_item_count": 5,
+        "ordered_keys": [
+          "1D",
+          "1E",
+          "1F",
+          "1G",
+          "1H"
+        ]
+      },
+      "order_key": [
+        41,
+        27
+      ]
+    },
+    {
+      "id": "viral-hospital-ground-floor-west-wing",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "section_with_run_ins",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 15,
+          "end_line": 15,
+          "start_text": "Hospital, Ground Floor, West Wing",
+          "end_text": "Hospital, Ground Floor, West Wing",
+          "sha256_lf_lines": "32E0B55124DB5CA30EE2D5752BD82206D12DD277536687EDDFFCE4A1BD0E67F0"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 19,
+          "end_line": 19,
+          "start_text": "1I. West Corridor – This long corridor fades off into darkness ahead of you. There are windows along the sides that would allow some natural light if it was daytime, but now they only remind you of how dark it is outside. The hall connects the Admission Ward to the Infectious Ward.",
+          "end_text": "1I. West Corridor – This long corridor fades off into darkness ahead of you. There are windows along the sides that would allow some natural light if it was daytime, but now they only remind you of how dark it is outside. The hall connects the Admission Ward to the Infectious Ward.",
+          "sha256_lf_lines": "9CF956B1F7492EC4B9F0464B277C870FC413D0ADB43DBE920CC7ED9D027687E1"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 31,
+          "end_line": 39,
+          "start_text": "1J. Isolation Ward – This ward consists of seven private rooms along the northern wall, and fourteen beds along the southern wall. The rooms all have doors with bolts and little windows that make them look more like prison cells than hospital rooms. A patient lift in the northwestern corner has an empty gurney jammed sideways in the door.",
+          "end_text": "A row of tall windows along the south wall look out over the southern part of the island and the Mediterranean beyond.",
+          "sha256_lf_lines": "A7F71D49EE0513076B602F295DEE268915116132E2BBEDCD1DB79385CB763510"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 51,
+          "end_line": 59,
+          "start_text": "1K. Recovery Ward – This ward is lined along the north and south walls with patient beds. Several private rooms line the eastern wall, and down a short corridor is a small examination room.",
+          "end_text": "1M. Terminal Ward – This ward once housed those who stood on death's doorstep. There are twenty beds (ten each along the eastern and western walls), and six private rooms. Through a door on the south wall is the glass enclosed day room and through a door to the west is a patient bathroom with sinks, toilets, and rusted metal bathtub.",
+          "sha256_lf_lines": "B9FF9CB8273F4C4C998E11903851E12326A51942051CDDE6BC3ED0B7D3C147F9"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "heading_with_inline_run_ins",
+      "title": "Hospital, Ground Floor, West Wing",
+      "termination": "before_hospital_ground_floor_east_wing",
+      "structured": {
+        "expected_item_count": 5,
+        "ordered_keys": [
+          "1I",
+          "1J",
+          "1K",
+          "1L",
+          "1M"
+        ]
+      },
+      "order_key": [
+        42,
+        15
+      ]
+    },
+    {
+      "id": "viral-hospital-ground-floor-east-wing",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "section_with_run_ins",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 63,
+          "end_line": 63,
+          "start_text": "Hospital, Ground Floor, East Wing",
+          "end_text": "Hospital, Ground Floor, East Wing",
+          "sha256_lf_lines": "18DB837A2E3325521C3A2B67F3C7DBB1579407A834143D42F2DD8E94BE0F93C1"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 67,
+          "end_line": 83,
+          "start_text": "## 1N. East Corridor – See West Corridor. This corridor connects the Admission Ward to the Staff Dormitory.",
+          "end_text": "1R. Staff Dormitory – The staff dormitory has eight private rooms and a common area with several tables and chairs. Tall windows look out over the grounds and the sea beyond. Unlike other areas in the hospital, these rooms show significant signs of damage from gunfire and maybe even explosives. The floor is littered with shell casings and sections of wall are charred and blackened as if exposed to intense heat.",
+          "sha256_lf_lines": "B3760A59C25592F748549DB0D13C91D4061F6666DCBCE5CA20D44553F4EAB78A"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 95,
+          "end_line": 99,
+          "start_text": "Just off the Staff Dormitory is a day room with a door to a staff bathroom on the eastern wall. Two doors to the north lead to the staff dining room, with a dedicated kitchen through a doorway in the northeast corner. Other doors on the north wall lead to pantries, a refrigerator, a freezer, and other storage rooms. In the northwest corner is a room with clothing hooks and benches, like a changing room. A doorway opens into a stone hallway.",
+          "end_text": "The hall leads to a private prayer chapel that is made of ancient looking dark stone that must have once been part of the original monastery. Rows of benches face the northern end of the hall where a lectern stands a few feet from the wall. A large crucifix of wrought iron hangs above the lectern on the wall.",
+          "sha256_lf_lines": "2F47C6BEBB23A71BDBF3F148C751013B395D98DD89FB1E38F85889520AC3540E"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "heading_with_inline_run_ins",
+      "title": "Hospital, Ground Floor, East Wing",
+      "termination": "before_hospital_ground_floor_secret_rooms",
+      "structured": {
+        "expected_item_count": 5,
+        "ordered_keys": [
+          "1N",
+          "1O",
+          "1P",
+          "1Q",
+          "1R"
+        ]
+      },
+      "order_key": [
+        42,
+        63
+      ]
+    },
+    {
+      "id": "viral-hospital-ground-floor-secret-rooms",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "section_with_run_ins",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 15,
+          "end_line": 15,
+          "start_text": "Hospital, Ground Floor, Secret Rooms",
+          "end_text": "Hospital, Ground Floor, Secret Rooms",
+          "sha256_lf_lines": "CDA5D8D4DE2A723CA26CFF250B45F5B823A30F77A19DD1F25B2401F6712C33DD"
+        },
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 19,
+          "end_line": 31,
+          "start_text": "1S. Shrine of Bones – As soon as you step through the secret door, you see some sort of shrine, but it honors no god that you've ever heard of. Human skulls cover the walls and ceiling of the roughly square room, and in the middle is a waist high stone basin crusted with long dried blood.",
+          "end_text": "The book is roughly the size of a large Bible, but instead of a cross or similar iconography on the front, there is a peculiar symbol fashioned out of silver that looks like a series of twisted knots bent into the shape of some sort of fly.",
+          "sha256_lf_lines": "D2A2520408B15EB3112A3049D2E925933714F65DF6802AAAB12AF1C7043FFCC6"
+        },
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 47,
+          "end_line": 55,
+          "start_text": "1T. Torture Room – Walking into the room is like stepping into a nightmare. The room is long and rectangular, stretching off into the darkness to your right. From the doorway you can see square pillars that splay out at the top to join the vaulted roof overhead. The curved ceiling may once have been decorated with frescoes, but all you can make out now are vaguely unsettling shapes beneath a thick layer of soot and mold.",
+          "end_text": "Most disturbing of all, are the iron manacles dangling from thick rings embedded in the pillars. They are heavily corroded with a rusty stain running down the stone beneath them. A bit of old fabric hangs from one of the manacle cuffs.",
+          "sha256_lf_lines": "D469C09944E57C9C5124ACDF6FFC12BF261AA199DDF31626EA50E7C5374178D2"
+        },
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 67,
+          "end_line": 71,
+          "start_text": "1U. Operating Room – This long narrow room contains a row of seven operating tables. Each has a side table for instruments, a cluster of lights overhead, and a steel trash can next to it. The slate roof has collapsed in a few places leaving piles of broken stone beneath. Two doors on the western wall look as if they lead to an adjacent room.",
+          "end_text": "1V. Cast-Offs – Like many other places on this island, this smaller antechamber smells of decay and mold. The rear half of the room is piled with clothes, shoes, hats, and other personal belongings. As your light plays across the refuse, you catch the glint of pocket watches, eyeglasses, and even a raggedy doll, her black button eyes staring at you.",
+          "sha256_lf_lines": "BB858085061E31E7A2BF51FCF143BA8A8CED7D4A83431129A1351EAF5ACCBF76"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "heading_with_inline_run_ins",
+      "title": "Hospital, Ground Floor, Secret Rooms",
+      "termination": "before_administrators_house",
+      "structured": {
+        "expected_item_count": 4,
+        "ordered_keys": [
+          "1S",
+          "1T",
+          "1U",
+          "1V"
+        ]
+      },
+      "order_key": [
+        43,
+        15
+      ],
+      "asset": {
+        "role": "reader_illustration",
+        "placement": "inside_1S_after_description",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-hospital-administrators-house",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "location_section",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 44,
+          "path": "page-044.md",
+          "start_line": 7,
+          "end_line": 9,
+          "start_text": "## Administrator's House",
+          "end_text": "The administrator was very much a figurehead at the hospital. He dealt with outsiders and gave the hospital a friendly face, but he was little more than a puppet. During his tenure, he lived in the Administrator's House, and kept up appearances for any visitors of note. In most cases, visitors would never enter the hospital proper, content to see it from a distance while sipping brandy in the administrator's living room with absolutely no idea what was happening behind the facade of medical uniforms and the administrator's silver tongue.",
+          "sha256_lf_lines": "C64594E32399329CFBEC982738CC379816180DAD1AC3D2E22CE37B00A0729474"
+        },
+        {
+          "page": 44,
+          "path": "page-044.md",
+          "start_line": 29,
+          "end_line": 35,
+          "start_text": "First Floor – Sitting amongst a small copse of overgrown trees, the Administrator's House is modest, with a living room, dining room, and kitchen on the first floor. It's furnished with Victorian era furniture and appliances, though the elements have had their way with them. The place reeks of mold and rat urine, and a hole in the roof has caused significant water damage in the southeast corner. The stairs to the second floor are at the rear of the main entry hall.",
+          "end_text": "Attic – The attic is accessed through a narrow staircase in the southwestern section of the second floor. It leads to a door that opens onto a large open space that has a simple, unfinished wooden floor and exposed rafters. The southeast corner of the attic is open to the sky due to a fallen branch, giving the Investigators a magnificent view of the lemon grove and the lighthouse.",
+          "sha256_lf_lines": "29EF1B250132CB8D369FA63E5E30D629F180DDAE4FFEDD06C7148374098A0C84"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "heading",
+      "title": "Administrator's House",
+      "termination": "before_hospital_second_floor",
+      "structured": {
+        "ordered_keys": [
+          "First Floor"
+        ]
+      },
+      "order_key": [
+        44,
+        7
+      ],
+      "asset": {
+        "role": "reader_illustration",
+        "placement": "inside_keeper_note_before_angelo_corruption",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-hospital-second-floor-central",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "section_with_run_ins",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 3,
+          "end_line": 3,
+          "start_text": "Hospital, Second Floor",
+          "end_text": "Hospital, Second Floor",
+          "sha256_lf_lines": "69D25D542E6347E96D34E01F0D21DE77B84D549C13E13B02714F94B8998EF3C0"
+        },
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 7,
+          "end_line": 13,
+          "start_text": "2A. Head Nurse's Office – Above the Administrator's Office is the head Nurse's Office. It is somewhat simpler, with a smaller desk and a number of filing cabinets which once held active patient files.",
+          "end_text": "2D. Upper Dining and Recreation Hall – This hall once had a dozen long tables and chairs, but the floor has almost entirely collapsed, dumping them into the hall below. Tall windows look to the south where, even through the filthy glass, you can make out the sea in the distance. In the southeast and northeast corners are stairs that lead down to the first floor, though crossing to them looks extremely dangerous. The damage to the roof is extensive, leaving most of the room open to the dark sky.",
+          "sha256_lf_lines": "9033FE9571ECBEC7D45B2E309C177146B812C2D467BB77184A41AB07C6CE9626"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "heading_with_inline_run_ins",
+      "title": "Hospital, Second Floor",
+      "termination": "before_hospital_second_floor_west_wing",
+      "structured": {
+        "expected_item_count": 4,
+        "ordered_keys": [
+          "2A",
+          "2B",
+          "2C",
+          "2D"
+        ],
+        "outline_policy": "numbered_rooms_are_not_outline_headings"
+      },
+      "order_key": [
+        45,
+        3
+      ]
+    },
+    {
+      "id": "viral-hospital-second-floor-west-wing",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "section_with_run_ins",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 15,
+          "end_line": 15,
+          "start_text": "Hospital, Second Floor, West Wing",
+          "end_text": "Hospital, Second Floor, West Wing",
+          "sha256_lf_lines": "0390092973F644E513B901D54BEDC1023D5049206536106FA94346972507DE9C"
+        },
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 19,
+          "end_line": 25,
+          "start_text": "2E. Isolation Ward – See 1J.",
+          "end_text": "2H. Terminal Ward – See 1M.",
+          "sha256_lf_lines": "3E5093F0E1280838ECA1154A6AB20E3754265D824829FC11352E9698BD2D6B23"
+        }
+      ],
+      "owner": "Hospital, Second Floor",
+      "outline_representation": "heading_with_inline_run_ins",
+      "title": "Hospital, Second Floor, West Wing",
+      "termination": "before_hospital_second_floor_east_wing",
+      "structured": {
+        "expected_item_count": 4,
+        "ordered_keys": [
+          "2E",
+          "2F",
+          "2G",
+          "2H"
+        ],
+        "run_in_targets": {
+          "2E": "1J",
+          "2F": "1K",
+          "2G": "1L",
+          "2H": "1M"
+        },
+        "outline_policy": "numbered_rooms_are_not_outline_headings"
+      },
+      "order_key": [
+        45,
+        15
+      ]
+    },
+    {
+      "id": "viral-hospital-second-floor-east-wing",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "section_with_run_ins",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 27,
+          "end_line": 27,
+          "start_text": "Hospital, Second Floor, East Wing",
+          "end_text": "Hospital, Second Floor, East Wing",
+          "sha256_lf_lines": "9FB81F6D605D73C003B06C4059C98CF82E9E2B98C35001826BCF900DDF809B05"
+        },
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 31,
+          "end_line": 33,
+          "start_text": "2I. Acute Ward – See 1O.",
+          "end_text": "2J. Recent Ward – See 1P.",
+          "sha256_lf_lines": "4AC5F2A94EE6F2D163502BC8B234B50ACB53CBD61879E15302FF8D1421C5927A"
+        }
+      ],
+      "owner": "Hospital, Second Floor",
+      "outline_representation": "heading_with_inline_run_ins",
+      "title": "Hospital, Second Floor, East Wing",
+      "termination": "before_hospital_third_floor",
+      "structured": {
+        "expected_item_count": 2,
+        "ordered_keys": [
+          "2I",
+          "2J"
+        ],
+        "run_in_targets": {
+          "2I": "1O",
+          "2J": "1P"
+        },
+        "outline_policy": "numbered_rooms_are_not_outline_headings"
+      },
+      "order_key": [
+        45,
+        27
+      ]
+    },
+    {
+      "id": "viral-hospital-third-floor",
+      "registry_refs": [
+        "SEM-003"
+      ],
+      "kind": "location_section",
+      "family": "hospital_group_or_run_in",
+      "segments": [
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 35,
+          "end_line": 37,
+          "start_text": "Hospital, Third Floor",
+          "end_text": "The attic of the hospital is mostly empty except for racks of stored linen in the middle of the room. The cloth rotted into tattered piles a long time ago, and countless holes in the roof have allowed the floor to flood over and over throughout the decades. The southern half of the central roof is almost entirely collapsed, allowing one to look out over the Mediterranean in the distance. The view would be breathtaking if not for the wreckage and smell. Most of the floor is quite obviously on the verge of collapse.",
+          "sha256_lf_lines": "2B10550F2BC1B52E7CA2B6630EFD5C211487BBF0FFDC2FC858C65C45073C4784"
+        }
+      ],
+      "owner": "Hospital Locations",
+      "outline_representation": "heading",
+      "title": "Hospital, Third Floor",
+      "termination": "before_keeper_notes_p045_l039",
+      "structured": {
+        "ordered_keys": []
+      },
+      "order_key": [
+        45,
+        35
+      ]
+    },
+    {
+      "id": "viral-keepers-notes-series-p041-p061",
+      "registry_refs": [
+        "SEM-005"
+      ],
+      "kind": "callout_series",
+      "family": "keepers_notes",
+      "segments": [
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 15,
+          "end_line": 23,
+          "start_text": "## Keeper's Notes",
+          "end_text": "Adjoining rooms contain additional supplies, rubber gloves, aprons, extra wheeled carts, and so on.",
+          "sha256_lf_lines": "62FFE88558DB2076A805EE61866717885FAC40E0AFA0C8043BC9561EE12C5CBD"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 43,
+          "end_line": 47,
+          "start_text": "## Keeper's Notes",
+          "end_text": "If the Investigators look for any specific tools that were available in the 1950s, they're likely to find it somewhere in these rooms. The Keeper can have them make a Luck roll to see if any of it is usable as is, or if it requires cleaning. Of course, if they just want a club to hit something, any wrench (no matter how rusted) will do and be capable of inflicting 1D4 damage.",
+          "sha256_lf_lines": "A1FE15B78265331DD1C397BB2DA2876D624D9A8B53AB7432838D33C142EA0AF9"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 59,
+          "end_line": 63,
+          "start_text": "## Keeper's Notes",
+          "end_text": "Hiding among the useless detritus, a Hard Spot Hidden check reveals boxes of medications that are still potent. They include Morphine, Codeine, and Laudanum. Investigators can make a Hard Education check to notice that there is a conspicuous absence of vaccines, anti-viral, and antibacterial medications.",
+          "sha256_lf_lines": "3614B526A1612A92D901DDE77A37761DBD3047FDEFBAC0947AE97A4CC6AB49E5"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 71,
+          "end_line": 75,
+          "start_text": "## Keeper's Notes",
+          "end_text": "If anyone opens the cabinet, a massive rat leaps out at them, dumping various exam supplies onto the floor. This triggers a Sanity check (0/1) for the jump scare.",
+          "sha256_lf_lines": "6DB858ED6E8BF03DB7CC906088919F442A96439F666449060E2A49B5E104AF56"
+        },
+        {
+          "page": 41,
+          "path": "page-041.md",
+          "start_line": 87,
+          "end_line": 95,
+          "start_text": "## Keeper's Notes",
+          "end_text": "Entering the refrigerator requires a CON check. Once inside, a Hard Spot Hidden check reveals a five gallon jar that contains several fetuses, many with cords wrapped around them, which obviously means a Sanity check (1/1D6).",
+          "sha256_lf_lines": "B077265F85533231BBDB533BE95E70F7A94FF2F81F346354200D34839D65A87B"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 7,
+          "end_line": 11,
+          "start_text": "## Keeper's Notes",
+          "end_text": "The stairs both lead up to the Upper Dining and Recreation Hall, though the weakened floor makes it a dangerous endeavor to go up that way. The Keeper can have the Investigators make a Spot Hidden check to notice a brief light on the water, but it might have just been one of their flashlights.",
+          "sha256_lf_lines": "5F18A6349E393707913D3A7124FC18526ECBE02E202B716B832FD3C767E7BD31"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 23,
+          "end_line": 27,
+          "start_text": "## Keeper's Notes",
+          "end_text": "This would be a good opportunity for the Investigators to see something moving around outside since it would be difficult for them to get there quickly. Their lights and reflections could also cause them to see things, so the Keeper could have them make Sanity checks (without any point loss) to see if they startle themselves.",
+          "sha256_lf_lines": "149F82FDFD02F154E388049483FDAD5A21B3A61751E15B2430A40802C6613CCC"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 43,
+          "end_line": 47,
+          "start_text": "## Keeper's Notes",
+          "end_text": "Mirrors can be great opportunities for jump scares and apparitions. Perhaps a Investigator sees someone move behind them, but when they turn around, there's nothing. Commenters post things like \"Who was that?!\" and \"Hey, was that someone in a robe?!\"",
+          "sha256_lf_lines": "0880A86EA0DAE3698F18D89D6CE8692C746A8C5E0B047E7659D4AEB91D8C2989"
+        },
+        {
+          "page": 42,
+          "path": "page-042.md",
+          "start_line": 87,
+          "end_line": 91,
+          "start_text": "## Keeper's Notes",
+          "end_text": "A Hard Idea roll allows the Investigators to find several spent teargas canisters beneath some of the broken furniture. The amount of grime and dust on the shell casings and empty tear gas canisters suggest that they are decades old.",
+          "sha256_lf_lines": "9E659A0117E5B9CA8F0BBFAAF9BAE0DBA612C072FD4D9B09554DAEB8ED759169"
+        },
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 3,
+          "end_line": 7,
+          "start_text": "# Keeper's Notes",
+          "end_text": "A Spot Hidden check allows an Investigator to notice some odd, circular scuff marks around the crucifix on the wall. If the player doesn't guess, then they can make an Idea roll to realize that the cross rotates. When the cross is rotated 180° so that it is upside down, there is an audible click as a secret door opens in the back wall.",
+          "sha256_lf_lines": "D9072C775A3BE515CA177E8D9E7F2E97994665E61C01BEBC2C0F3CBA012AC982"
+        },
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 35,
+          "end_line": 43,
+          "start_text": "## Keeper's Notes",
+          "end_text": "Searching the shrine with a Spot Hidden check reveals the hand print of a baby smeared into the blood on the altar.",
+          "sha256_lf_lines": "B8C2C1143A1CD3F78A791248FF6C45F60DE262E685346A909EEE8417EBC185D0"
+        },
+        {
+          "page": 43,
+          "path": "page-043.md",
+          "start_line": 59,
+          "end_line": 63,
+          "start_text": "## Keeper's Notes",
+          "end_text": "As the Investigators explore, they'll find a doorway to the left (north), and at the far right (south) they'll see the remains of a prisoner still dangling by his wrists. All that's left of him are bones, dried sinew, and a rotted hospital gown that is little more than a tattered gauze at this point. This requires a Sanity check (1/1D4). Even without a skill check, it's clear that these remains date back to the 1950s at the latest, but an Education check reveals that the corpse is surprisingly solid for its age. Most bodies fall apart as they rot, but the flesh seems to have mummified somehow, despite the excessive moisture.",
+          "sha256_lf_lines": "75461B374C6C0AD30739E169901CEFAC7E5F3F751086F39CB183CD25547175FC"
+        },
+        {
+          "page": 44,
+          "path": "page-044.md",
+          "start_line": 3,
+          "end_line": 5,
+          "start_text": "# Keeper's Notes",
+          "end_text": "This is where the monks dumped all of the clothes and personal objects belonging to their victims. If anyone takes the time to search the pile, a Hard Spot Hidden check reveals that these cast-offs go back to the Victorian era, judging by the clothing styles. If they were to dig deep enough, they could find the pit beneath the pile that goes even deeper, with artifacts dating back to the middle ages. Of course an extensive excavation would take hours if not days to do properly, so the Investigators aren't likely to learn this.",
+          "sha256_lf_lines": "7D61256E362276FEEC82964FE1A8FD68054E1E2B68BE9238D0602B4396638DD6"
+        },
+        {
+          "page": 44,
+          "path": "page-044.md",
+          "start_line": 11,
+          "end_line": 27,
+          "start_text": "## Keeper's Notes",
+          "end_text": "Now he only begs for the merciful death that was denied him. To the Investigators he'll appear to be a nearly dead junkie, a rusted needle fused to his arm. He reaches out to them pleadingly and says: \"Vi prego uccidetemi. Questo è un inferno. Nel nome di Dio, abbiate pietà. Vi prego.\" This translates to: \"Please kill me. I've been here for so long. This is hell. In the name of god, have mercy. Please.\" If they refuse to help, he'll return to his sofa and his own personal hell, sobbing uncontrollably, though his tears have long since dried up. Discovering Angelo's situation triggers a Sanity check (1/1D4).",
+          "sha256_lf_lines": "44EE47F069813264BE7968BAE4C1549951B1A1B00AB00E54D7128C0C2A12A5C0"
+        },
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 39,
+          "end_line": 41,
+          "start_text": "Keeper's Notes",
+          "end_text": "If anyone dares to walk out onto the attic floor, they should make a Luck roll. Failure means that the floor beneath them gives way, dropping them to the floor below and inflicting 2D4 points of damage. The Keeper can allow them a DEX check to avoid falling through.",
+          "sha256_lf_lines": "7D8E045B865E1FC51B60B637450E91E30C4B479EF390A5F12DB7DA3A7A85B13C"
+        },
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 47,
+          "end_line": 53,
+          "start_text": "Keeper's Notes",
+          "end_text": "These undead are extremely fragile, and if attacked by a Investigator, they break apart with a single blow, falling apart like a chicken that has been pressure cooked too long. An Investigator that destroys one should make a Luck roll to avoid being covered with rotted, infected flesh (see Infected Flesh in the The Reliquae on p.67).",
+          "sha256_lf_lines": "F5109A92FCB50270BA8FA9BE223414854B14A877BECACB623A012403278A8D82"
+        },
+        {
+          "page": 46,
+          "path": "page-046.md",
+          "start_line": 11,
+          "end_line": 13,
+          "start_text": "Keeper's Notes",
+          "end_text": "At a distance, the burned remains appear to be some sort of pig. If anyone has the Natural World, Science (Biology), or similar skill (Keeper's discretion), a Hard success will identify it as some kind of giant rodent, similar to a ground hog or perhaps an opossum, but much larger. In any case, no such animal should be found on this island.",
+          "sha256_lf_lines": "8C3EF12E0E73099A01CB751D9034709E471C1D08E5AD26FEF58B0CE8AC9A8158"
+        },
+        {
+          "page": 46,
+          "path": "page-046.md",
+          "start_line": 23,
+          "end_line": 27,
+          "start_text": "Keeper's Notes",
+          "end_text": "The barrels once contained biological waste from the hospital that was to be dumped at sea, but a storm surge caused the pier to fail under their weight. The black mass is actually a mutated form of algae that is horrific to look at, but is more or less harmless. If an Investigator examines the barrels, they can make a Spot Hidden roll. Success means that they recognize a biohazard symbol still visible on one of the barrels. A Hard success means that they notice blackened fragments of human bone within the algae.",
+          "sha256_lf_lines": "C462ADF5E4733DD9E7D944C839781DFA3791C3EE3E0674B8D474DD7E11CE749D"
+        },
+        {
+          "page": 46,
+          "path": "page-046.md",
+          "start_line": 39,
+          "end_line": 41,
+          "start_text": "Keeper's Notes",
+          "end_text": "The path over the rocks is difficult to travel at the best of times, but at night, even with a flashlight, it's downright treacherous. Anyone attempting to walk the 200 feet out to the point must make a DEX check every 50 feet. Success means that they manage to reach the point without issues. Failure means twisting an ankle which reduces the Investigator's speed by 1 for a couple of days. A Hard failure means falling prone, and suffering 1 point of damage, while an Extreme failure means a broken leg. If someone is taking special care, it takes them twice as long to reach the end, but they gain a Bonus Die on their DEX checks. On the other hand, if they're moving with urgency they can reach the end in half the time, but must make their checks with a Penalty Die. A Penalty Die is also added if they have no light source.",
+          "sha256_lf_lines": "F9D76907C3F3B58064D6186B83DE940F7D30C43CD4273E247A3F12FEDAABC814"
+        },
+        {
+          "page": 47,
+          "path": "page-047.md",
+          "start_line": 3,
+          "end_line": 5,
+          "start_text": "Reaching the end has the reward of allowing the Investigator to see a small dark boat anchored a few hundred feet off the shore. This is the Vedetta, an Esploratore-class patrol boat with a crew of 16 and armed with three machine guns. A successful Spot Hidden check allows them to notice figures moving around the boat. A Hard success means that they can hear the crew speaking Italian, and an Extreme success means that they can identify them as members of the Italian Navy.",
+          "end_text": "The crew of the Vedetta is aware of the Investigator(s), and will take one of two actions: rescue them or open fire with the intent of killing them to prevent any infection from leaving the island. The Keeper can decide which, or the Investigators can make a Luck roll. This can be played out in various ways depending on when it happens during the scenario. If it's early on, the crew ignores them and remains silent, or if the Investigators are being pursued by some sort of unspeakable horror, the crew will attempt to stop them from leaving the island at all costs.",
+          "sha256_lf_lines": "6F49C0EC422C66957885659E0156ED9E54FAF5AF82CDD7CE1D6A656B054E1EA1"
+        },
+        {
+          "page": 47,
+          "path": "page-047.md",
+          "start_line": 11,
+          "end_line": 13,
+          "start_text": "Keeper's Notes",
+          "end_text": "The weathering has made most of the headstones illegible, and what can be read is in Italian. About fifteen minutes of searching and a Hard Spot Hidden check reveals that the newest stones are from the late 1800s.",
+          "sha256_lf_lines": "0DD753556715B9BE7D4B72B6189F69D0AB403A3ADB63EA3A4B3EFFFAE0EE7757"
+        },
+        {
+          "page": 47,
+          "path": "page-047.md",
+          "start_line": 19,
+          "end_line": 21,
+          "start_text": "Keeper's Notes",
+          "end_text": "The fresco on the dome crumbled to dust long ago, so little can be discerned of its original design except that it had a distinctly Mediterranean style. Near the edges, the Investigators can make out the occasional hand or partial face. An Extreme Spot Hidden check allows them to notice a depiction of a monk holding some sort of bowl over his head as a kind of offering. Investigators that see this should make a POW check. Success means that they see the head of the monk in the fresco move slightly to look at them, causing a Sanity check (1/1D4). This will be easy enough to justify as the light playing tricks on them of course.",
+          "sha256_lf_lines": "A507EBCA800506A131D17181F45641112BEC25F678C8328C77A0249EB47C5DF8"
+        },
+        {
+          "page": 47,
+          "path": "page-047.md",
+          "start_line": 29,
+          "end_line": 33,
+          "start_text": "Keeper's Notes",
+          "end_text": "The Witch Board. The Witch Board connects with The Plague Monk directly. Obviously the Investigators will be asking questions, and the Keeper should begin by playing along like a normal witch board session. Things should escalate as they go on, until the planchette is literally pulled from their hands to begin spelling things on its own. The final word is HASTALYK, and as soon as it finishes, there is a massive convulsion in the ground that cracks the altar and causes the stairs up to the chapel to collapse. The Investigators should make DEX checks to avoid being thrown to the ground and suffering 1D3 points of damage. They should additionally make Luck rolls. Failure means they are struck by falling debris that inflicts 1D6 points of damage.",
+          "sha256_lf_lines": "9C1FC83F7D3F453F2E0703951EC93F86CFE425496558CA2706E010F9530673BB"
+        },
+        {
+          "page": 48,
+          "path": "page-048.md",
+          "start_line": 17,
+          "end_line": 21,
+          "start_text": "Keeper's Notes",
+          "end_text": "Some of the passages are a bit wider, so this can be a slight relief to the Investigators, and when they come to the next narrower passage, it will feel all the more claustrophobic. If anyone has a Bout of Madness while down here, they're likely to develop actual claustrophobia which can cause them to either panic or become momentarily frozen into inaction.",
+          "sha256_lf_lines": "DD925DF75154F504419DFE92D19985D3A9C5AA47AD919792085BB4CAB171FCE1"
+        },
+        {
+          "page": 48,
+          "path": "page-048.md",
+          "start_line": 35,
+          "end_line": 39,
+          "start_text": "Keeper's Notes",
+          "end_text": "If they shine a light in the recess, they'll see a rot-covered corpse wrapped in ragged cloth (see Plague Zombie). The flesh that hangs loosely from its bones is infested with pale worms and fungus. Its eyes are swollen milky orbs that stare with malevolence at the thief. In the depths of the shadows behind there are more sets of eyes peering from the darkness.",
+          "sha256_lf_lines": "70F5CB03622E75D0FF108D3E75F48B8C76945A5B552643D76A728538195F5535"
+        },
+        {
+          "page": 49,
+          "path": "page-049.md",
+          "start_line": 27,
+          "end_line": 29,
+          "start_text": "Keeper's Notes",
+          "end_text": "As soon as they see him, the monk's head will rise to look at them with a series of popping cracks. This triggers a Sanity check (1/1D8). Anyone with sufficient Taint should make a POW check or feel compelled to look in the pit unless someone stops them. Anyone that steps within five feet sees a terrifying slurry of putrid flesh and fluids that swirls slowly within. Another POW check may be necessary to avoid throwing themselves into the pit (see Taint on p.62).",
+          "sha256_lf_lines": "EC4D1B7E325878023002CA07B1832886C74A06D2F60A02C931C92DA118672E17"
+        },
+        {
+          "page": 50,
+          "path": "page-050.md",
+          "start_line": 9,
+          "end_line": 15,
+          "start_text": "Keeper's Notes",
+          "end_text": "If an Investigator has less than 10 levels of Taint, they will be able to escape Hastalÿk – if they want to. There are three obvious means of effecting an easy escape before Hastalÿk's biomass expands to the point where it can attack the Investigators. This takes five rounds.",
+          "sha256_lf_lines": "5F42D6315D5FA13961C1F251AD11A006878DAF1906783E4DD3CE5F980E3DC625"
+        },
+        {
+          "page": 50,
+          "path": "page-050.md",
+          "start_line": 23,
+          "end_line": 25,
+          "start_text": "Keeper's Notes",
+          "end_text": "Play this out for effect, but let the players off without making a roll – make them feel lucky.",
+          "sha256_lf_lines": "E691302AD382EBDDD00F79CED08F343818996CBA7E21CCA567BDE89431112B70"
+        },
+        {
+          "page": 54,
+          "path": "page-054.md",
+          "start_line": 15,
+          "end_line": 17,
+          "start_text": "Keeper's Notes",
+          "end_text": "The investigators can make an Idea roll to realize the helicopter crashed into one or more exposed sea mines.",
+          "sha256_lf_lines": "5663FDC507768828760676DDF313D1DAF59BEF63A8CAE17C2BE39CF02D2D9D4E"
+        },
+        {
+          "page": 54,
+          "path": "page-054.md",
+          "start_line": 23,
+          "end_line": 25,
+          "start_text": "Keeper's Notes",
+          "end_text": "If they didn't notice the previous symbol at the Weeping Bridge, then the Keeper can simply improvise using the description on page 35.",
+          "sha256_lf_lines": "3FB1399E688D8B241E5464BB2C8635B82C588C1A6390069EAA9B02378990B15A"
+        },
+        {
+          "page": 55,
+          "path": "page-055.md",
+          "start_line": 25,
+          "end_line": 27,
+          "start_text": "Keeper's Notes",
+          "end_text": "The Devourer realizes immediately that one of the Elder Signs that holds it on the island has been broken by the exploding sea mines. There are a number of these seals placed around the island by the DSS, and so the Keeper should have the damaged one near the investigators.",
+          "sha256_lf_lines": "031FC33481DF6F90B78FE1D34AF0FE68FB07C6655CF6172FA8DB89322D0F67DC"
+        },
+        {
+          "page": 61,
+          "path": "page-061.md",
+          "start_line": 37,
+          "end_line": 39,
+          "start_text": "Keeper's Notes",
+          "end_text": "It's important to note that The Sight only shows what might be, and not what will be. The visions represent the most probable future based on the current situation, but if an effort is made to change things, the future can change.",
+          "sha256_lf_lines": "589786A5C7E3AE1BC03995B5F68A28E852DAB9DD0567826FCB61FB78EF9DEE3A"
+        }
+      ],
+      "owner": "nearest_preceding_location_or_rule_unit",
+      "outline_representation": "none",
+      "title": "Keeper's Notes",
+      "termination": "each_item_ends_before_next_peer_source_unit",
+      "structured": {
+        "expected_item_count": 31,
+        "cross_page_pair": [
+          "p046_l039",
+          "p047_l003"
+        ]
+      },
+      "order_key": [
+        41,
+        15
+      ]
+    },
+    {
+      "id": "viral-sight-vision-series-p045-p049",
+      "registry_refs": [
+        "SEM-006"
+      ],
+      "kind": "callout_series",
+      "family": "sight_panel",
+      "segments": [
+        {
+          "page": 45,
+          "path": "page-045.md",
+          "start_line": 55,
+          "end_line": 57,
+          "start_text": "Possible Vision from The Sight",
+          "end_text": "The sound of gagged screaming fills your ears. You look across the burial site and see a large pit that two human-sized shadows are tossing the body of a woman into. She is bound, weeping, and begging to be spared. Her body sails into the pit below and you hear a loud crack, a groan of pain, then silence. The shadows move toward the pit and begin chanting something in Latin while scattering a white powdery substance below.",
+          "sha256_lf_lines": "252C6B59736313FDBC6D08806789490CF045E6ACD105AAE17CCDF1DC5CF6B1A1"
+        },
+        {
+          "page": 46,
+          "path": "page-046.md",
+          "start_line": 15,
+          "end_line": 17,
+          "start_text": "Possible Vision from The Sight",
+          "end_text": "Your ears are filled with a squealing similar to a rat in pain. Tied up in the center of the pit appears to be a huge rat... or maybe a pig... that is currently being burned alive. A shadowy figure stands nearby, their features indistinguishable, holding a burning torch.",
+          "sha256_lf_lines": "711AA6AF25B53FD7438C072A245A73F009B2FB612815FA5D155999C1E14B776B"
+        },
+        {
+          "page": 46,
+          "path": "page-046.md",
+          "start_line": 29,
+          "end_line": 31,
+          "start_text": "Possible Visions from The Sight",
+          "end_text": "Your view changes to that of someone looking through the bars of a cage. You realize you are chained up and can't remember the last time you ate or drank. It is night time and the noise of insects and the sea fills your ears. Looking up, you see you are chained up inside a box and are then thrown to the roof as the box you are in clatters onto a wooden floor. You hear someone being scolded nearby; told that the monks prefer their sacrifices to arrive undamaged. A knot of fear causes you to start screaming in a panic and then everything goes black.",
+          "sha256_lf_lines": "ED49EEB6771ABE6E18A4BB1E902741D743F5430617F3D8EDD68BD28999C677C2"
+        },
+        {
+          "page": 48,
+          "path": "page-048.md",
+          "start_line": 7,
+          "end_line": 9,
+          "start_text": "Possible Visions from The Sight",
+          "end_text": "You get flashes of images from previous times. Sacrifice, after sacrifice. Metal against stone. Scratching. Fingers worn to the bone. Blood flows from the very walls. Screaming and begging fills the air. And above all, chanting. Deep guttural chanting that seems to be calling something forth from some hidden place...",
+          "sha256_lf_lines": "16060FE7A821C9E2561DB62CF58FD8CE0779B6EE38D3994798162006F37C69D1"
+        },
+        {
+          "page": 49,
+          "path": "page-049.md",
+          "start_line": 7,
+          "end_line": 9,
+          "start_text": "Possible Vision from The Sight",
+          "end_text": "Your ears are filled with the wind that blows through these tunnels. You start to hear a deep voice that seems to be speaking in all languages, and yet none – “Join with us.”",
+          "sha256_lf_lines": "B0C52C265AA6C9AD7D861B370DB2374BBB7E08CA9AFB54731A7E4D6F548C8FCB"
+        },
+        {
+          "page": 49,
+          "path": "page-049.md",
+          "start_line": 17,
+          "end_line": 21,
+          "start_text": "Possible Vision from The Sight",
+          "end_text": "\"I come as part of a delegation from Rome. The pox has gripped the city, and it is feared we may have angered Morbus in some unknowable way. Rome offers tribute in the form of sacrifice, that you would pray for us to be spared.\"",
+          "sha256_lf_lines": "4A6A3F758C3352E9BA6356F31648848359A647300B8E2F38B60D95A454D80D2C"
+        }
+      ],
+      "owner": "nearest_preceding_location_unit",
+      "outline_representation": "none",
+      "title": "Possible Vision(s) from The Sight",
+      "termination": "each_item_ends_before_next_peer_source_unit",
+      "structured": {
+        "expected_item_count": 6,
+        "p045_visual_continuation_page": 46
+      },
+      "order_key": [
+        45,
+        55
+      ]
+    },
+    {
+      "id": "viral-dss-incendiary-grenades-card-p055",
+      "registry_refs": [
+        "SEM-002",
+        "OUT-003"
+      ],
+      "kind": "equipment_card",
+      "family": "equipment_card",
+      "segments": [
+        {
+          "page": 55,
+          "path": "page-055.md",
+          "start_line": 17,
+          "end_line": 21,
+          "start_text": "DSS Incendiary Grenades (12)",
+          "end_text": "\\*Delivers 4D10 damage to those within 3 yards, 2D10 to those within 6 yards and 1D10 to those within 9 yards. Continues to inflict 2D10 fire damage for 3 rounds.",
+          "sha256_lf_lines": "42B00AA77AE22A72F9CF4BA93E132E53942C7D99C03894A33885F489A3371459"
+        }
+      ],
+      "owner": "Escaping the Island",
+      "outline_representation": "none",
+      "title": "DSS Incendiary Grenades (12)",
+      "termination": "ends_after_range_damage_attacks_footnote_before_devourer_prose_p055_l023",
+      "structured": {
+        "stat_line": "Skill: Throw, Damage:\\* 4D10/3 yards, Range: STR/5 yards, Uses per Round: ½, Malfunction: 99",
+        "fields": [
+          "skill",
+          "damage",
+          "base_range",
+          "uses_per_round",
+          "malfunction"
+        ],
+        "footnote": "*Delivers 4D10 damage to those within 3 yards, 2D10 to those within 6 yards and 1D10 to those within 9 yards. Continues to inflict 2D10 fire damage for 3 rounds."
+      },
+      "order_key": [
+        55,
+        17
+      ],
+      "asset": {
+        "role": "source_table_crop_evidence_only",
+        "placement": "not_reader_output",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-incendiary-grenade-throw-results-p055",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "logical_table",
+      "segments": [
+        {
+          "page": 55,
+          "path": "page-055.md",
+          "start_line": 35,
+          "end_line": 42,
+          "start_text": "| Throw Result | Range | Result |",
+          "end_text": "| Critical Success | Direct Hit | Delayed 4 Rounds |",
+          "sha256_lf_lines": "84F1E260ED0533FD9A00EC95DC3BDF3D24ACEC780FBAC411BBE1FE928EA2686C"
+        }
+      ],
+      "owner": "DSS Incendiary Grenades",
+      "outline_representation": "none",
+      "title": null,
+      "termination": "ends_after_critical_success_row_before_fumble_prose_p055_l044",
+      "structured": {
+        "expected_item_count": 6,
+        "ordered_keys": [
+          "Fumble",
+          "Failure",
+          "Normal Success",
+          "Hard Success",
+          "Extreme Success",
+          "Critical Success"
+        ],
+        "columns": [
+          "Throw Result",
+          "Range",
+          "Result"
+        ]
+      },
+      "order_key": [
+        55,
+        35
+      ]
+    },
+    {
+      "id": "viral-encounters-section-p058",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "section",
+      "family": "final_heading",
+      "segments": [
+        {
+          "page": 58,
+          "path": "page-058.md",
+          "start_line": 5,
+          "end_line": 11,
+          "start_text": "Encounters",
+          "end_text": "Remember that the goal is to lure the Investigators into the crypt at midnight for the witch board session. If an encounter really seems to rattle an Investigator, maybe one of the viewers offers \\$500 for them to continue. It's surprising what a little hard cash can do to justify a risk.",
+          "sha256_lf_lines": "C8E0F0E9303A3335036630DBF99831BD07F68E4207126C7C75E7B7CA34EA44D7"
+        }
+      ],
+      "owner": "Appendix",
+      "outline_representation": "heading",
+      "title": "Encounters",
+      "termination": "before_outdoor_encounters",
+      "structured": {
+        "ordered_children": [
+          "Outdoor Encounters",
+          "Hospital Encounters",
+          "Catacomb Encounters"
+        ],
+        "expected_child_counts": [
+          12,
+          12,
+          6
+        ]
+      },
+      "order_key": [
+        58,
+        5
+      ]
+    },
+    {
+      "id": "viral-encounters-outdoor-table-p058-p059",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "encounter_table",
+      "segments": [
+        {
+          "page": 58,
+          "path": "page-058.md",
+          "start_line": 13,
+          "end_line": 33,
+          "start_text": "Outdoor Encounters",
+          "end_text": "9 Physical Contact – This could be as simple as an Investigator feeling something brush their neck, or they could suffer a physical attack where they get a sensation of pain and find a corresponding red mark on their body. [Sanity Loss (0/1)]",
+          "sha256_lf_lines": "0B9B4A1540709B92DB8076793DEAB05128C18E53D6367FD23335B5FA6A25879C"
+        },
+        {
+          "page": 59,
+          "path": "page-059.md",
+          "start_line": 3,
+          "end_line": 7,
+          "start_text": "10 Dead Birds – A room with the floor littered with the corpses of birds of all regional types. They all have a black ooze coming out of their eyes and mouth similar to that found on the half submerged rowboat and in the rickety dock. [Sanity Loss (0/1)]",
+          "end_text": "12 The Plague Monk – In the shadows a figure stands watching them. It appears to be a monk dressed in a dark brown cassock, but a moment later there is nothing. A Spot Hidden check allows them to see that the cassock is stained with blood, and on his face is what looks like a cross between a medieval plague mask and a WWI gas mask. The shiny glass lenses reflect the lights of the cameras. [Sanity Loss (0/1) if they fail their Spot Hidden, and (1/1D4) if they succeed.]",
+          "sha256_lf_lines": "C40108B87AA5C952E529F225F5E2B49B4801409DEDE551C7AB7C26548C7B458C"
+        }
+      ],
+      "owner": "Encounters",
+      "outline_representation": "heading",
+      "title": "Outdoor Encounters",
+      "termination": "ends_after_result_12_before_hospital_encounters",
+      "structured": {
+        "expected_item_count": 12,
+        "ordered_keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "order_key": [
+        58,
+        13
+      ]
+    },
+    {
+      "id": "viral-encounters-hospital-table-p059",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "encounter_table",
+      "segments": [
+        {
+          "page": 59,
+          "path": "page-059.md",
+          "start_line": 9,
+          "end_line": 35,
+          "start_text": "Hospital Encounters",
+          "end_text": "12 The Shadow Person – Everyone paying attention must make a Spot Hidden Roll. If they succeed, they see a man-sized shadow person dart quickly across a doorway. If investigated, they find only a solid wall, triggering a Sanity check (0/1).",
+          "sha256_lf_lines": "2DB2CE2135088D253129D607A64E49FDB4B45BCD178619C8CCBD1E60C9165B4F"
+        }
+      ],
+      "owner": "Encounters",
+      "outline_representation": "heading",
+      "title": "Hospital Encounters",
+      "termination": "ends_after_result_12_before_catacomb_encounters",
+      "structured": {
+        "expected_item_count": 12,
+        "ordered_keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "order_key": [
+        59,
+        9
+      ]
+    },
+    {
+      "id": "viral-encounters-catacomb-table-p060",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "encounter_table",
+      "segments": [
+        {
+          "page": 60,
+          "path": "page-060.md",
+          "start_line": 3,
+          "end_line": 17,
+          "start_text": "Catacomb Encounters",
+          "end_text": "6 Vile Rain – A drop hits an Investigator's cheek. Looking up, they see the low ceiling is perforated with thousands of tiny holes, like those made by termites in wood. Suddenly the ceiling of the catacomb begins raining worm-infested blood that reeks of copper and putrescence. The floor becomes slick and everyone must make a CON check to avoid violent nausea incapacitating them for 1D6 rounds. This triggers a Sanity roll (1/1D6).",
+          "sha256_lf_lines": "DCBC1435F748F8FB8993E523E68AE871B35313F716461A1D084D5ADD7AF98106"
+        }
+      ],
+      "owner": "Encounters",
+      "outline_representation": "heading",
+      "title": "Catacomb Encounters",
+      "termination": "ends_after_result_6_before_new_rules",
+      "structured": {
+        "expected_item_count": 6,
+        "ordered_keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "order_key": [
+        60,
+        3
+      ]
+    },
+    {
+      "id": "viral-taint-level-table-p062",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "logical_table",
+      "segments": [
+        {
+          "page": 62,
+          "path": "page-062.md",
+          "start_line": 15,
+          "end_line": 28,
+          "start_text": "TAINT LEVELS",
+          "end_text": "| 10 | N/A | The victim suddenly begins to feel better. The nausea and sweating is gone, and the cysts are beginning to close. Unfortunately, they are now driven by a compulsion to join with Hastalÿk at all costs. No POW check will allow them to resist. This manifests when the victim sees Hastalÿk’s avatar rise. Optionally, the Keeper may want to allow the Investigator a Hard POW check each round to resist the urge. In addition to this, they are now prevented from leaving the main island by the Elder Sign at the bridge. |",
+          "sha256_lf_lines": "52F12A3FD186420698477761EFE2B9E18B83D148CEFC505E1EA3AA120708553E"
+        }
+      ],
+      "owner": "The Taint",
+      "outline_representation": "none",
+      "title": null,
+      "termination": "ends_after_taint_level_10",
+      "structured": {
+        "expected_item_count": 10,
+        "ordered_keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "columns": [
+          "Level",
+          "Modifiers",
+          "Effect"
+        ]
+      },
+      "order_key": [
+        62,
+        15
+      ]
+    },
+    {
+      "id": "viral-insanity-d10-table-p063",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "logical_table",
+      "segments": [
+        {
+          "page": 63,
+          "path": "page-063.md",
+          "start_line": 7,
+          "end_line": 27,
+          "start_text": "D10 Roll Result",
+          "end_text": "10 The Charnel Pit – They see the Charnel Pit as if standing above looking in, though they have no idea where it's located. As they watch, the corrupt slurry begins to swirl around and the Investigator hears a voice in his head say, “Join with me!\" The language is unknown to the Investigator, but they somehow know what it means. They immediately gain 3 additional levels of Taint.",
+          "sha256_lf_lines": "949D7A3934A066191C7639D184E0248DC66987D9A31C4D3BE410850F5FF217D2"
+        }
+      ],
+      "owner": "Insanity, Phobias, and Mania",
+      "outline_representation": "none",
+      "title": null,
+      "termination": "ends_after_d10_result_10",
+      "structured": {
+        "expected_item_count": 10,
+        "ordered_keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "die": "D10"
+      },
+      "order_key": [
+        63,
+        7
+      ]
+    },
+    {
+      "id": "viral-appropriate-phobias-callout-p064",
+      "registry_refs": [
+        "SEM-005"
+      ],
+      "kind": "callout",
+      "family": "generic_inset",
+      "segments": [
+        {
+          "page": 64,
+          "path": "page-064.md",
+          "start_line": 3,
+          "end_line": 17,
+          "start_text": "Appropriate Phobias",
+          "end_text": "Nyctophobia – Fear of Darkness",
+          "sha256_lf_lines": "1E91C62DE4864109ABE19E0C1788E595A78382484F5809BA05BA1A045F749768"
+        }
+      ],
+      "owner": "Insanity, Phobias, and Mania",
+      "outline_representation": "none",
+      "title": "Appropriate Phobias",
+      "termination": "ends_after_teratophobia_entry_before_paranormal_phenomena",
+      "structured": {
+        "expected_item_count": 6
+      },
+      "order_key": [
+        64,
+        3
+      ]
+    },
+    {
+      "id": "viral-paranormal-phenomena-d10-table-p064",
+      "registry_refs": [
+        "SEM-007"
+      ],
+      "kind": "logical_table",
+      "family": "logical_table",
+      "segments": [
+        {
+          "page": 64,
+          "path": "page-064.md",
+          "start_line": 19,
+          "end_line": 43,
+          "start_text": "Paranormal Phenomena",
+          "end_text": "10 Rats! – While exploring, the Krew is suddenly swarmed with rats. If outdoors, they erupt from a hole in the ground, and if in a building, they burst from a wall. Either way, the rats run across the feet and up the legs of the Krew. This triggers a Sanity check (0/1). Optionally, the Keeper can have the Investigators make a Luck roll or suffer 1 hit point of damage from multiple diseased rat bites.",
+          "sha256_lf_lines": "A512FF041D168423171F5E85F8899B978D50B4CDD3AC9AF0741038C2CFEB5E30"
+        }
+      ],
+      "owner": "New Rules",
+      "outline_representation": "heading",
+      "title": "Paranormal Phenomena",
+      "termination": "ends_after_d10_result_10_before_new_mythos_horrors",
+      "structured": {
+        "expected_item_count": 10,
+        "ordered_keys": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "die": "D10"
+      },
+      "order_key": [
+        64,
+        19
+      ]
+    },
+    {
+      "id": "viral-new-mythos-horrors-hastalyk-p065",
+      "registry_refs": [
+        "SEM-001"
+      ],
+      "kind": "creature_section",
+      "family": "creature_statblock",
+      "segments": [
+        {
+          "page": 65,
+          "path": "page-065.md",
+          "start_line": 3,
+          "end_line": 15,
+          "start_text": "New Mythos Horrors",
+          "end_text": "Appearance. This avatar of Hastalÿk harvests the flesh of the living and the dead to manifest this terrifying aspect. It begins as a massive colony of infected pulp, but once The Plague Monk joins with it, The Contagion emerges from the pit. The colossal abomination that arises bears more than a passing resemblance to a viral bacteriophage, though much of its surface is covered with pulsating cysts. Its 'head' is a kind of capsid that allows it to effectively see and hear in all directions. It emits a chilling sound, like a kind of high-pitched ululation or chittering that must presumably be generated by some unseen internal organ. Occasionally the faces of its past victims scream silently from beneath its translucent, membranous skin.",
+          "sha256_lf_lines": "CD93545022F7C458032E3F77F7122C12B945B927A951809F11F46D1BD011478F"
+        }
+      ],
+      "owner": "Appendix",
+      "outline_representation": "heading_hierarchy",
+      "title": "New Mythos Horrors",
+      "termination": "before_the_devourer_statblock",
+      "structured": {
+        "child_heading": "Hastalÿk (HAS-tah-lik)",
+        "appearance_label": "Appearance."
+      },
+      "order_key": [
+        65,
+        3
+      ],
+      "asset": {
+        "role": "reader_illustration",
+        "placement": "before_hastalyk_description",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-devourer-statblock-p065",
+      "registry_refs": [
+        "SEM-001"
+      ],
+      "kind": "creature_statblock",
+      "family": "creature_statblock",
+      "segments": [
+        {
+          "page": 65,
+          "path": "page-065.md",
+          "start_line": 19,
+          "end_line": 67,
+          "start_text": "The Devourer",
+          "end_text": "Swarm of Flies: The first time The Devourer is struck a physical blow in combat, its body tears open and releases a cloud of flies that gets in all of the orifices of the person striking, giving them a Penalty Die for further attacks. The flies add to the cacophony of noise that is being emitted by The Devourer.",
+          "sha256_lf_lines": "363BA48DBA8A29BDC73894C00F6D03024B2B9DCE7BB146C3D60777F55A39C44D"
+        }
+      ],
+      "owner": "New Mythos Horrors > Hastalÿk",
+      "outline_representation": "none",
+      "title": "The Devourer",
+      "termination": "ends_after_sanity_loss_before_the_plague_monk",
+      "structured": {
+        "subtitle": "Aspect of Hastalÿk",
+        "characteristic_keys": [
+          "STR",
+          "CON",
+          "SIZ",
+          "POW",
+          "DEX"
+        ],
+        "derived_keys": [
+          "HP",
+          "Damage Bonus",
+          "Build",
+          "Magic Points",
+          "Move"
+        ],
+        "combat_and_skill_sections": [
+          "ATTACKS",
+          "Attacks per round",
+          "Grab",
+          "Dodge",
+          "Armor",
+          "Spells",
+          "Sanity Loss",
+          "SPECIAL ABILITIES",
+          "Devour",
+          "Swarm of Flies"
+        ]
+      },
+      "order_key": [
+        65,
+        19
+      ],
+      "asset": {
+        "role": "source_table_crop_evidence_only",
+        "placement": "not_reader_output",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-plague-monk-section-p066",
+      "registry_refs": [
+        "SEM-001"
+      ],
+      "kind": "creature_section",
+      "family": "creature_statblock",
+      "segments": [
+        {
+          "page": 66,
+          "path": "page-066.md",
+          "start_line": 5,
+          "end_line": 15,
+          "start_text": "The Plague Monk",
+          "end_text": "Human skull profile with green fill and scattered dots, no visible text or symbols",
+          "sha256_lf_lines": "4929DFFFA4853C1DDBEE7F05626FC2CCC9C98210EA784F24096731A9FA927CEA"
+        }
+      ],
+      "owner": "New Mythos Horrors",
+      "outline_representation": "heading",
+      "title": "The Plague Monk",
+      "termination": "before_the_reliquae",
+      "structured": {},
+      "order_key": [
+        66,
+        5
+      ],
+      "asset": {
+        "role": "reader_illustration",
+        "placement": "inside_plague_monk_section",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-reliquae-statblock-p066-p067",
+      "registry_refs": [
+        "SEM-001",
+        "SEM-007"
+      ],
+      "kind": "creature_statblock",
+      "family": "creature_statblock",
+      "segments": [
+        {
+          "page": 66,
+          "path": "page-066.md",
+          "start_line": 17,
+          "end_line": 41,
+          "start_text": "The Reliquae",
+          "end_text": "Move: 5",
+          "sha256_lf_lines": "1BA79792171A9F9BC090246F74A9AB2989DF1596904F70FBEBDF6C347F48780F"
+        },
+        {
+          "page": 67,
+          "path": "page-067.md",
+          "start_line": 3,
+          "end_line": 41,
+          "start_text": "ATTACKS",
+          "end_text": "| 8 | Something New (This is likely to become the next pandemic if the Investigator makes it off the island alive.) |",
+          "sha256_lf_lines": "4D332C6FF618C3909B25DD7E786C17DEECF79C7E54C37C0B6CB295294CDE83E1"
+        }
+      ],
+      "owner": "New Mythos Horrors",
+      "outline_representation": "heading",
+      "title": "The Reliquae",
+      "termination": "ends_after_deadly_infection_result_8_before_new_mythos_tome",
+      "structured": {
+        "subtitle": "Cursed Plague Zombies",
+        "subtitle_source_recovery": {
+          "text": "Cursed Plague Zombies",
+          "source_pdf_page": 66,
+          "basis": "native_text_and_visual",
+          "placement": "inside_gray_statblock_below_repeated_title"
+        },
+        "characteristic_keys": [
+          "STR",
+          "CON",
+          "SIZ",
+          "DEX",
+          "INT",
+          "APP",
+          "POW"
+        ],
+        "derived_keys": [
+          "HP",
+          "Damage Bonus",
+          "Build",
+          "Move"
+        ],
+        "infection_anchor": {
+          "visible": false,
+          "label": "Infection",
+          "placement": "before_Infected_Flesh_p067_l019",
+          "outline_representation": "none"
+        },
+        "infection_tables": [
+          {
+            "title": "Infection, Serious",
+            "segment": "p067_l021_l030",
+            "expected_item_count": 8,
+            "ordered_keys": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "title": "Infection, Deadly",
+            "segment": "p067_l032_l041",
+            "expected_item_count": 8,
+            "ordered_keys": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "order_key": [
+        66,
+        17
+      ],
+      "asset": {
+        "role": "reader_illustration_and_source_table_crops",
+        "placement": "illustration_inside_reliquae_section; table_crops_evidence_only",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-iuramentum-corruptionis-p067",
+      "registry_refs": [
+        "SEM-001"
+      ],
+      "kind": "tome_section",
+      "family": "final_heading",
+      "segments": [
+        {
+          "page": 67,
+          "path": "page-067.md",
+          "start_line": 47,
+          "end_line": 51,
+          "start_text": "Iuramentum Corruptionis",
+          "end_text": "This book was written by one of the nameless Plague Monks during the late 14th century after the monastery was built. It contains the knowledge of Hastalÿk that the cult has collected over the countless millennia. It contains the darkest of rituals involving the corruption of life, and particularly the human body. The images alone are sanity-breaking, but the text is worse. In addition to the mind-wrenching knowledge it imparts, it has a physical effect on the reader, causing their DNA to mutate.",
+          "sha256_lf_lines": "A34CA6CDA0A0ECBA17AAD57336E742E0D90A4A9F2757C5064E68A1374A1F4A5D"
+        }
+      ],
+      "owner": "New Mythos Tome",
+      "outline_representation": "heading",
+      "title": "Iuramentum Corruptionis",
+      "termination": "before_new_spell",
+      "structured": {
+        "parent_heading_source_recovery": {
+          "text": "New Mythos Tome",
+          "source_pdf_page": 67,
+          "basis": "visual",
+          "placement": "before_Iuramentum_Corruptionis"
+        }
+      },
+      "order_key": [
+        67,
+        47
+      ],
+      "asset": {
+        "role": "reader_illustration",
+        "placement": "inside_tome_section",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-new-spell-control-reliquae-p068",
+      "registry_refs": [
+        "SEM-001"
+      ],
+      "kind": "spell_section",
+      "family": "final_heading",
+      "segments": [
+        {
+          "page": 68,
+          "path": "page-068.md",
+          "start_line": 3,
+          "end_line": 13,
+          "start_text": "New Spell",
+          "end_text": "This control requires a great deal of concentration, and so as long as the caster is imposing their will on the Reliquae, they cannot cast another spell, read, or perform any activity that requires a high degree of mental focus (Keeper's discretion). If the caster suffers any pain or damage, the spell is broken, and the Reliquae is released. When this happens, they will sit down and become dormant.",
+          "sha256_lf_lines": "2DA5477E4717EDC3FAEDF2F0333A01E1E7861E985BA3E48BBF22781E46F55449"
+        }
+      ],
+      "owner": "Appendix",
+      "outline_representation": "heading_hierarchy",
+      "title": "New Spell",
+      "termination": "before_advice_for_the_keeper_callout",
+      "structured": {
+        "child_heading": "Control Reliquae",
+        "singular_heading_required": true,
+        "fields": [
+          "cost",
+          "casting_time",
+          "effect"
+        ]
+      },
+      "order_key": [
+        68,
+        3
+      ]
+    },
+    {
+      "id": "viral-advice-for-the-keeper-callout-p068",
+      "registry_refs": [
+        "SEM-005"
+      ],
+      "kind": "callout",
+      "family": "advice_callout",
+      "segments": [
+        {
+          "page": 68,
+          "path": "page-068.md",
+          "start_line": 15,
+          "end_line": 59,
+          "start_text": "A Few Pointers on Running Viral from Bud",
+          "end_text": "Bud out.",
+          "sha256_lf_lines": "18E9661DD34600CA05C337D5256DAF6F4104B1E4D126899039C502673942A75D"
+        }
+      ],
+      "owner": "Appendix",
+      "outline_representation": "none",
+      "title": "A Few Pointers on Running Viral from Bud",
+      "termination": "ends_after_Bud_out_before_Player_Handouts_p069_l005",
+      "structured": {
+        "expected_item_count": 9,
+        "ordered_keys": [
+          "The Live Stream Chat",
+          "Maya",
+          "Enoch and The Sight",
+          "Peter's Sabotage",
+          "Hyeon's Skepticism",
+          "Marco",
+          "Time",
+          "Urban Decay",
+          "Hastalÿk"
+        ],
+        "cross_range_next_heading": "Player Handouts",
+        "cross_range_next_source": "page-069.md:5"
+      },
+      "order_key": [
+        68,
+        15
+      ]
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-room-1c-continuation-p041",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l007",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-room-1c-continuation-p041",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l015",
+      "family": "keepers_notes",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l027",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l031",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l035",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l043",
+      "family": "keepers_notes",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l051",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l059",
+      "family": "keepers_notes",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l067",
+      "family": "hospital_group_or_run_in",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l071",
+      "family": "keepers_notes",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l087",
+      "family": "keepers_notes",
+      "page": 41,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-rooms-1d-1h",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l007",
+      "family": "keepers_notes",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l015",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-west-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l019",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-west-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l023",
+      "family": "keepers_notes",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l031",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-west-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l043",
+      "family": "keepers_notes",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l051",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-west-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l055",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-west-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l059",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-west-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l063",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-east-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l067",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-east-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l071",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-east-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l075",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-east-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l083",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-east-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l087",
+      "family": "keepers_notes",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l095",
+      "family": "hospital_group_or_run_in",
+      "page": 42,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-east-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p043-l003",
+      "family": "keepers_notes",
+      "page": 43,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l015",
+      "family": "hospital_group_or_run_in",
+      "page": 43,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-secret-rooms",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l019",
+      "family": "hospital_group_or_run_in",
+      "page": 43,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-secret-rooms",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p043-l035",
+      "family": "keepers_notes",
+      "page": 43,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l047",
+      "family": "hospital_group_or_run_in",
+      "page": 43,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-ground-floor-secret-rooms",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p043-l059",
+      "family": "keepers_notes",
+      "page": 43,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l063",
+      "family": "hospital_group_or_run_in",
+      "page": 43,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l067",
+      "family": "hospital_group_or_run_in",
+      "page": 43,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-secret-rooms",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l071",
+      "family": "hospital_group_or_run_in",
+      "page": 43,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-ground-floor-secret-rooms",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p044-l003",
+      "family": "keepers_notes",
+      "page": 44,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l009",
+      "family": "hospital_group_or_run_in",
+      "page": 44,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-administrators-house",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p044-l011",
+      "family": "keepers_notes",
+      "page": 44,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l021",
+      "family": "hospital_group_or_run_in",
+      "page": 44,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l025",
+      "family": "hospital_group_or_run_in",
+      "page": 44,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l029",
+      "family": "hospital_group_or_run_in",
+      "page": 44,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-administrators-house",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l033",
+      "family": "hospital_group_or_run_in",
+      "page": 44,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-administrators-house",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-second-floor-central",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l007",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-second-floor-central",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l009",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-central",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l011",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-central",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-central",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l015",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-second-floor-west-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l019",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-second-floor-west-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l021",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-west-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l023",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-west-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l025",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-west-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l027",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-second-floor-east-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l031",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-second-floor-east-wing",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l033",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-second-floor-east-wing",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l035",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-hospital-third-floor",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l037",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-hospital-third-floor",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p045-l039",
+      "family": "keepers_notes",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p045-l045",
+      "family": "full_page_map_handout",
+      "page": 45,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l045",
+      "family": "hospital_group_or_run_in",
+      "page": 45,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p045-l047",
+      "family": "keepers_notes",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p045-l055",
+      "family": "sight_panel",
+      "page": 45,
+      "disposition": "materialized",
+      "target_unit_id": "viral-sight-vision-series-p045-p049",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p046-l011",
+      "family": "keepers_notes",
+      "page": 46,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p046-l015",
+      "family": "sight_panel",
+      "page": 46,
+      "disposition": "materialized",
+      "target_unit_id": "viral-sight-vision-series-p045-p049",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p046-l023",
+      "family": "keepers_notes",
+      "page": 46,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p046-l027",
+      "family": "hospital_group_or_run_in",
+      "page": 46,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p046-l029",
+      "family": "sight_panel",
+      "page": 46,
+      "disposition": "materialized",
+      "target_unit_id": "viral-sight-vision-series-p045-p049",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p046-l039",
+      "family": "keepers_notes",
+      "page": 46,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p047-l011",
+      "family": "keepers_notes",
+      "page": 47,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p047-l019",
+      "family": "keepers_notes",
+      "page": 47,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p047-l029",
+      "family": "keepers_notes",
+      "page": 47,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p048-l007",
+      "family": "sight_panel",
+      "page": 48,
+      "disposition": "materialized",
+      "target_unit_id": "viral-sight-vision-series-p045-p049",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p048-l017",
+      "family": "keepers_notes",
+      "page": 48,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p048-l035",
+      "family": "keepers_notes",
+      "page": 48,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p049-l007",
+      "family": "sight_panel",
+      "page": 49,
+      "disposition": "materialized",
+      "target_unit_id": "viral-sight-vision-series-p045-p049",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p049-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 49,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p049-l017",
+      "family": "sight_panel",
+      "page": 49,
+      "disposition": "materialized",
+      "target_unit_id": "viral-sight-vision-series-p045-p049",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p049-l027",
+      "family": "keepers_notes",
+      "page": 49,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p050-l009",
+      "family": "keepers_notes",
+      "page": 50,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p050-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 50,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p050-l023",
+      "family": "keepers_notes",
+      "page": 50,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p051-l017",
+      "family": "equipment_card",
+      "page": 51,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p054-l015",
+      "family": "keepers_notes",
+      "page": 54,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p054-l023",
+      "family": "keepers_notes",
+      "page": 54,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p055-l023",
+      "family": "equipment_card",
+      "page": 55,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p055-l025",
+      "family": "keepers_notes",
+      "page": 55,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l035",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "materialized",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l036",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l037",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l038",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l039",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l040",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l041",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l042",
+      "family": "logical_table",
+      "page": 55,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-incendiary-grenade-throw-results-p055",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p055-l044",
+      "family": "equipment_card",
+      "page": 55,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p056-l005",
+      "family": "composite_web_panel",
+      "page": 56,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p057-l005",
+      "family": "hospital_group_or_run_in",
+      "page": 57,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad blocking matcher false positive or boundary-neighbor prose; no independent final semantic unit is present at the cited source line"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p058-l009",
+      "family": "hospital_group_or_run_in",
+      "page": 58,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-section-p058",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p058-l017",
+      "family": "equipment_card",
+      "page": 58,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-outdoor-table-p058-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-outdoor-table-p058-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l009",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l017",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l023",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p059-l027",
+      "family": "equipment_card",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l027",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l033",
+      "family": "hospital_group_or_run_in",
+      "page": 59,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-encounters-hospital-table-p059",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p061-l037",
+      "family": "keepers_notes",
+      "page": 61,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-series-p041-p061",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l017",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l018",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l019",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l020",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l021",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l022",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l023",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l024",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l025",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l026",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l027",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l028",
+      "family": "logical_table",
+      "page": 62,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-taint-level-table-p062",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p063-l025",
+      "family": "equipment_card",
+      "page": 63,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-insanity-d10-table-p063",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p064-l021",
+      "family": "hospital_group_or_run_in",
+      "page": 64,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-paranormal-phenomena-d10-table-p064",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p064-l035",
+      "family": "hospital_group_or_run_in",
+      "page": 64,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-paranormal-phenomena-d10-table-p064",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p065-l015",
+      "family": "appearance_variant",
+      "page": 65,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-new-mythos-horrors-hastalyk-p065",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-creature_statblock-p065-l019",
+      "family": "creature_statblock",
+      "page": 65,
+      "disposition": "materialized",
+      "target_unit_id": "viral-devourer-statblock-p065",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-creature_statblock-p066-l017",
+      "family": "creature_statblock",
+      "page": 66,
+      "disposition": "materialized",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate begins an exact source-bounded ledger segment and matches the final unit family"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l021",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l022",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l023",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l024",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l025",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l026",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l027",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l028",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l029",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l030",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l032",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l033",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l034",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l035",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l036",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l037",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l038",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l039",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l040",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l041",
+      "family": "logical_table",
+      "page": 67,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-reliquae-statblock-p066-p067",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    },
+    {
+      "candidate_id": "viral-advice_callout-p068-l027",
+      "family": "advice_callout",
+      "page": 68,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-advice-for-the-keeper-callout-p068",
+      "evidence": "candidate text falls inside the exact source-bounded final unit; broad matcher family or child row is absorbed by that owner"
+    }
+  ],
+  "summary": {
+    "broad_candidates_in_range": 150,
+    "materialized_candidates": 63,
+    "absorbed_candidates": 79,
+    "rejected_candidates": 8,
+    "materialized_units": 29,
+    "unresolved_blocking_candidates": [],
+    "unresolved_blocking_count": 0,
+    "step_8a_binary_choices": "not_made"
+  }
+}

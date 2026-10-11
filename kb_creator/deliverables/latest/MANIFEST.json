@@ -1,0 +1,1739 @@
+{
+  "schema": "nri.latest_reader_deliverables.v2",
+  "scope": "Six preserved reviewed DOCX and assets only",
+  "books": [
+    {
+      "id": "cursed-idol",
+      "title": "Проклятый идол Манко Капака",
+      "state": "user_review_received; correction_goal_active; acceptance_not_inferred",
+      "missing": [],
+      "files": {
+        "docx": "cursed-idol/document.docx"
+      },
+      "asset_count": 74
+    },
+    {
+      "id": "secrets-of-the-kremlin-1931",
+      "title": "Secrets of the Kremlin, 1931",
+      "state": "user_review_received; correction_goal_active; acceptance_not_inferred",
+      "missing": [],
+      "files": {
+        "docx": "secrets-of-the-kremlin-1931/document.docx"
+      },
+      "asset_count": 14
+    },
+    {
+      "id": "shadows-of-leningrad-1938",
+      "title": "Shadows of Leningrad, 1938",
+      "state": "user_review_received; correction_goal_active; acceptance_not_inferred",
+      "missing": [],
+      "files": {
+        "docx": "shadows-of-leningrad-1938/document.docx"
+      },
+      "asset_count": 29
+    },
+    {
+      "id": "fears-sharp-little-needles",
+      "title": "Fear's Sharp Little Needles",
+      "state": "user_review_received; correction_goal_active; acceptance_not_inferred",
+      "missing": [],
+      "files": {
+        "docx": "fears-sharp-little-needles/document.docx"
+      },
+      "asset_count": 63
+    },
+    {
+      "id": "number-7-dream",
+      "title": "Номер 7 — пользовательский DOCX",
+      "state": "user_review_received; correction_goal_active; acceptance_not_inferred",
+      "missing": [],
+      "files": {
+        "docx": "number-7-dream/document.docx"
+      },
+      "asset_count": 19,
+      "asset_origin": "Exact embedded media from latest reviewed DOCX; no corresponding latest HTML."
+    },
+    {
+      "id": "dissociation",
+      "title": "Диссоциация — пакет73",
+      "state": "user_review_received; correction_goal_active; acceptance_not_inferred",
+      "missing": [],
+      "files": {
+        "docx": "dissociation/document.docx"
+      },
+      "asset_count": 2
+    }
+  ],
+  "files": [
+    {
+      "path": "cursed-idol/document.docx",
+      "kind": "docx",
+      "bytes": 35912755,
+      "sha256": "CD7E88B261CF130D3F88290D74791573F231FCCB23BD34EB62EE5449386153D0",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/Проклятый идол Манко Капака.docx",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/07bf1468d29cdae2aaea15ee784572060e7dfa6aed9d43684b6a6bd5c41b3631.jpg",
+      "kind": "asset",
+      "bytes": 199584,
+      "sha256": "07BF1468D29CDAE2AAEA15EE784572060E7DFA6AED9D43684B6A6BD5C41B3631",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/07bf1468d29cdae2aaea15ee784572060e7dfa6aed9d43684b6a6bd5c41b3631.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/09694b2263d3b0818bf852ab41e9cd06715712ea7a4a09f740966ebb6453d4ef.jpg",
+      "kind": "asset",
+      "bytes": 41123,
+      "sha256": "09694B2263D3B0818BF852AB41E9CD06715712EA7A4A09F740966EBB6453D4EF",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/09694b2263d3b0818bf852ab41e9cd06715712ea7a4a09f740966ebb6453d4ef.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/0a6c67fe5273f174713a6c1092c5d5cbdf30019e33dcd6ada334e82003a716ac.jpg",
+      "kind": "asset",
+      "bytes": 295829,
+      "sha256": "0A6C67FE5273F174713A6C1092C5D5CBDF30019E33DCD6ADA334E82003A716AC",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/0a6c67fe5273f174713a6c1092c5d5cbdf30019e33dcd6ada334e82003a716ac.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/0ea84664bc8b5c0ae46bf6bc1a020103a4bbfd2c9221c3d3791605f1f4d19d24.jpg",
+      "kind": "asset",
+      "bytes": 452709,
+      "sha256": "0EA84664BC8B5C0AE46BF6BC1A020103A4BBFD2C9221C3D3791605F1F4D19D24",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/0ea84664bc8b5c0ae46bf6bc1a020103a4bbfd2c9221c3d3791605f1f4d19d24.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/15199b4a56e598a1b17337973dbc7a7e151af5ebe5cf2df23fe05d91aed9abd9.jpg",
+      "kind": "asset",
+      "bytes": 152859,
+      "sha256": "15199B4A56E598A1B17337973DBC7A7E151AF5EBE5CF2DF23FE05D91AED9ABD9",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/15199b4a56e598a1b17337973dbc7a7e151af5ebe5cf2df23fe05d91aed9abd9.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/18eb3d5b09ae92055b5ee44e6f7c4da6025a70cefe7bd9f97073203db96765e8.jpg",
+      "kind": "asset",
+      "bytes": 25803,
+      "sha256": "18EB3D5B09AE92055B5EE44E6F7C4DA6025A70CEFE7BD9F97073203DB96765E8",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/18eb3d5b09ae92055b5ee44e6f7c4da6025a70cefe7bd9f97073203db96765e8.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/1bd6c293223783a1521fb3199320716a84fb9570a8e29f3955e5a25b7e0feba3.jpg",
+      "kind": "asset",
+      "bytes": 224107,
+      "sha256": "1BD6C293223783A1521FB3199320716A84FB9570A8E29F3955E5A25B7E0FEBA3",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/1bd6c293223783a1521fb3199320716a84fb9570a8e29f3955e5a25b7e0feba3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/1c2028506961b5397eaaf84f4bb025415908caf7767aaf4b50758f87fbee1000.jpg",
+      "kind": "asset",
+      "bytes": 121304,
+      "sha256": "1C2028506961B5397EAAF84F4BB025415908CAF7767AAF4B50758F87FBEE1000",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/1c2028506961b5397eaaf84f4bb025415908caf7767aaf4b50758f87fbee1000.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/1d7b7bea167b9c0ff6c941b02e62c6591b89f5e52ed6a9f58f48045acaeb1e9a.jpg",
+      "kind": "asset",
+      "bytes": 16323,
+      "sha256": "1D7B7BEA167B9C0FF6C941B02E62C6591B89F5E52ED6A9F58F48045ACAEB1E9A",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/1d7b7bea167b9c0ff6c941b02e62c6591b89f5e52ed6a9f58f48045acaeb1e9a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/1dc73dda9b39f8378cee1f5738be6efefd3f1cd5d7b9958fd5812140eb39dca0.jpg",
+      "kind": "asset",
+      "bytes": 5400,
+      "sha256": "1DC73DDA9B39F8378CEE1F5738BE6EFEFD3F1CD5D7B9958FD5812140EB39DCA0",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/1dc73dda9b39f8378cee1f5738be6efefd3f1cd5d7b9958fd5812140eb39dca0.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/23c5efba317bd861d0d149471b990a8222f0649b4dcc068f05068c8604542877.jpg",
+      "kind": "asset",
+      "bytes": 6533,
+      "sha256": "23C5EFBA317BD861D0D149471B990A8222F0649B4DCC068F05068C8604542877",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/23c5efba317bd861d0d149471b990a8222f0649b4dcc068f05068c8604542877.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/241c44ba4803ca16ba7170d35d5d9fcf974d34183126b0726334ac6e943e7833.jpg",
+      "kind": "asset",
+      "bytes": 67856,
+      "sha256": "241C44BA4803CA16BA7170D35D5D9FCF974D34183126B0726334AC6E943E7833",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/241c44ba4803ca16ba7170d35d5d9fcf974d34183126b0726334ac6e943e7833.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/24e77ed3397c63bee3a5e3f10392193a8533babac180b652ec1aafc86e33dcef.jpg",
+      "kind": "asset",
+      "bytes": 6867,
+      "sha256": "24E77ED3397C63BEE3A5E3F10392193A8533BABAC180B652EC1AAFC86E33DCEF",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/24e77ed3397c63bee3a5e3f10392193a8533babac180b652ec1aafc86e33dcef.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/2f3f6ed6bb65ca3a844f937f56ee4cc9a0fa30e501b35435bac199a10fcfe0a0.jpg",
+      "kind": "asset",
+      "bytes": 701996,
+      "sha256": "2F3F6ED6BB65CA3A844F937F56EE4CC9A0FA30E501B35435BAC199A10FCFE0A0",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/2f3f6ed6bb65ca3a844f937f56ee4cc9a0fa30e501b35435bac199a10fcfe0a0.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/3127dc1effe29c85cf20fd615bcadc01323d48d872f9e71aa453280b93953f21.jpg",
+      "kind": "asset",
+      "bytes": 7038,
+      "sha256": "3127DC1EFFE29C85CF20FD615BCADC01323D48D872F9E71AA453280B93953F21",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/3127dc1effe29c85cf20fd615bcadc01323d48d872f9e71aa453280b93953f21.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/329e8960da1706f4c977508c134809dbcc6c22eda94f33f94987378122eeae45.jpg",
+      "kind": "asset",
+      "bytes": 878011,
+      "sha256": "329E8960DA1706F4C977508C134809DBCC6C22EDA94F33F94987378122EEAE45",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/329e8960da1706f4c977508c134809dbcc6c22eda94f33f94987378122eeae45.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/34e666e7ec262cff18a97ed5abba291b86dd940de43b42568965dc170f8cf82d.jpg",
+      "kind": "asset",
+      "bytes": 29528,
+      "sha256": "34E666E7EC262CFF18A97ED5ABBA291B86DD940DE43B42568965DC170F8CF82D",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/34e666e7ec262cff18a97ed5abba291b86dd940de43b42568965dc170f8cf82d.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/37a78c03b665c03e78ff97933cf3a42ed2ed4da9012b44e68516e8b980706a19.jpg",
+      "kind": "asset",
+      "bytes": 430906,
+      "sha256": "37A78C03B665C03E78FF97933CF3A42ED2ED4DA9012B44E68516E8B980706A19",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/37a78c03b665c03e78ff97933cf3a42ed2ed4da9012b44e68516e8b980706a19.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/38a33515c3e7b85c8d51da809b8435344966aae314553859235efb0ad301b7f3.jpg",
+      "kind": "asset",
+      "bytes": 26091,
+      "sha256": "38A33515C3E7B85C8D51DA809B8435344966AAE314553859235EFB0AD301B7F3",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/38a33515c3e7b85c8d51da809b8435344966aae314553859235efb0ad301b7f3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/3fbd38f5b991406ab65aab1f91d68b7a17969a832a0431dee66d6bd7fcb19c31.jpg",
+      "kind": "asset",
+      "bytes": 23924,
+      "sha256": "3FBD38F5B991406AB65AAB1F91D68B7A17969A832A0431DEE66D6BD7FCB19C31",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/3fbd38f5b991406ab65aab1f91d68b7a17969a832a0431dee66d6bd7fcb19c31.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/3fd8ade226760d669dd8c40e84cd34e2a3492388f8aa4668094a7fabf0171813.jpg",
+      "kind": "asset",
+      "bytes": 5437,
+      "sha256": "3FD8ADE226760D669DD8C40E84CD34E2A3492388F8AA4668094A7FABF0171813",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/3fd8ade226760d669dd8c40e84cd34e2a3492388f8aa4668094a7fabf0171813.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/3fdd126ebdec618a9c7aa48b8b242d5d1175a9c2947a355f2d518bf7794e87f1.jpg",
+      "kind": "asset",
+      "bytes": 32878,
+      "sha256": "3FDD126EBDEC618A9C7AA48B8B242D5D1175A9C2947A355F2D518BF7794E87F1",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/3fdd126ebdec618a9c7aa48b8b242d5d1175a9c2947a355f2d518bf7794e87f1.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/3ff06c91497278fb0b076209ed8b4bd4f72d1ed48738a3639866771c9ddce26a.jpg",
+      "kind": "asset",
+      "bytes": 25004,
+      "sha256": "3FF06C91497278FB0B076209ED8B4BD4F72D1ED48738A3639866771C9DDCE26A",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/3ff06c91497278fb0b076209ed8b4bd4f72d1ed48738a3639866771c9ddce26a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/474c91fc84e289c7f13b3805fdab2ee46784bb55a0425d39b74a86a853a8b4f3.jpg",
+      "kind": "asset",
+      "bytes": 429249,
+      "sha256": "474C91FC84E289C7F13B3805FDAB2EE46784BB55A0425D39B74A86A853A8B4F3",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/474c91fc84e289c7f13b3805fdab2ee46784bb55a0425d39b74a86a853a8b4f3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/47a9e44c53ec77e32dfc399a9e2e2ac977306254c1713e7cd07e3fea17cc3f4f.jpg",
+      "kind": "asset",
+      "bytes": 33342,
+      "sha256": "47A9E44C53EC77E32DFC399A9E2E2AC977306254C1713E7CD07E3FEA17CC3F4F",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/47a9e44c53ec77e32dfc399a9e2e2ac977306254c1713e7cd07e3fea17cc3f4f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/48e918c2a299f5efb3f0dcde6f148604dc4fdb3b6360326db0375767c9d1db03.jpg",
+      "kind": "asset",
+      "bytes": 4458,
+      "sha256": "48E918C2A299F5EFB3F0DCDE6F148604DC4FDB3B6360326DB0375767C9D1DB03",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/48e918c2a299f5efb3f0dcde6f148604dc4fdb3b6360326db0375767c9d1db03.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/497f22bcd674919631dd922c363b91c405061833ea15530dc639b3ee8bb53bbd.jpg",
+      "kind": "asset",
+      "bytes": 13043,
+      "sha256": "497F22BCD674919631DD922C363B91C405061833EA15530DC639B3EE8BB53BBD",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/497f22bcd674919631dd922c363b91c405061833ea15530dc639b3ee8bb53bbd.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/5128a0ccbd49a7eedc54a583031b73bd079080d8a34c18cb9e3d1bd725e16a9a.jpg",
+      "kind": "asset",
+      "bytes": 46675,
+      "sha256": "5128A0CCBD49A7EEDC54A583031B73BD079080D8A34C18CB9E3D1BD725E16A9A",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/5128a0ccbd49a7eedc54a583031b73bd079080d8a34c18cb9e3d1bd725e16a9a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/55465b57c78909dc72875a4d154683c44c2cc5385eea8e26f807c63d35ef64ae.jpg",
+      "kind": "asset",
+      "bytes": 79929,
+      "sha256": "55465B57C78909DC72875A4D154683C44C2CC5385EEA8E26F807C63D35EF64AE",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/55465b57c78909dc72875a4d154683c44c2cc5385eea8e26f807c63d35ef64ae.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/5735a6ce49b89f921ef52fa223a82f12bf9f1999a40581ca8b1322245e87af1e.jpg",
+      "kind": "asset",
+      "bytes": 121402,
+      "sha256": "5735A6CE49B89F921EF52FA223A82F12BF9F1999A40581CA8B1322245E87AF1E",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/5735a6ce49b89f921ef52fa223a82f12bf9f1999a40581ca8b1322245e87af1e.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/5852b651e82534fdea6d94d06927c4791f62e2bc7c17f837cbdeefe94813c1c8.jpg",
+      "kind": "asset",
+      "bytes": 390094,
+      "sha256": "5852B651E82534FDEA6D94D06927C4791F62E2BC7C17F837CBDEEFE94813C1C8",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/5852b651e82534fdea6d94d06927c4791f62e2bc7c17f837cbdeefe94813c1c8.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/594eeb6dcb37850b16804c0ec849c0c8c17672ea672854e91d0b92d25bc22a98.jpg",
+      "kind": "asset",
+      "bytes": 231676,
+      "sha256": "594EEB6DCB37850B16804C0EC849C0C8C17672EA672854E91D0B92D25BC22A98",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/594eeb6dcb37850b16804c0ec849c0c8c17672ea672854e91d0b92d25bc22a98.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/649c9a6768f45f4a9def229f8166f22f0999d534336c7fc40ce549ed077190f4.jpg",
+      "kind": "asset",
+      "bytes": 8410,
+      "sha256": "649C9A6768F45F4A9DEF229F8166F22F0999D534336C7FC40CE549ED077190F4",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/649c9a6768f45f4a9def229f8166f22f0999d534336c7fc40ce549ed077190f4.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/687124c8e4d43924ad57460cd9b3ae7daed494cec5dba4605eba92bcf7e641c2.jpg",
+      "kind": "asset",
+      "bytes": 400609,
+      "sha256": "687124C8E4D43924AD57460CD9B3AE7DAED494CEC5DBA4605EBA92BCF7E641C2",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/687124c8e4d43924ad57460cd9b3ae7daed494cec5dba4605eba92bcf7e641c2.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/6c867f09532dd9e1aea8168ba9bdaa08242f4300e9a0c0cbb0ee51bad27bf649.jpg",
+      "kind": "asset",
+      "bytes": 133793,
+      "sha256": "6C867F09532DD9E1AEA8168BA9BDAA08242F4300E9A0C0CBB0EE51BAD27BF649",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/6c867f09532dd9e1aea8168ba9bdaa08242f4300e9a0c0cbb0ee51bad27bf649.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/72951e0d3090125e92eafe132ab3ec0175c55e35360422e796d6e4d7733d6a8f.jpg",
+      "kind": "asset",
+      "bytes": 176627,
+      "sha256": "72951E0D3090125E92EAFE132AB3EC0175C55E35360422E796D6E4D7733D6A8F",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/72951e0d3090125e92eafe132ab3ec0175c55e35360422e796d6e4d7733d6a8f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/74a9e64228c1e58a0adcbfbf0804da9972f35eec61cbdedbc6e435c024ca24f4.jpg",
+      "kind": "asset",
+      "bytes": 20070,
+      "sha256": "74A9E64228C1E58A0ADCBFBF0804DA9972F35EEC61CBDEDBC6E435C024CA24F4",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/74a9e64228c1e58a0adcbfbf0804da9972f35eec61cbdedbc6e435c024ca24f4.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/75fb6248387f0d59857332c057e2e6acea6f14ee281127be261d2f02716fdcbc.jpg",
+      "kind": "asset",
+      "bytes": 150165,
+      "sha256": "75FB6248387F0D59857332C057E2E6ACEA6F14EE281127BE261D2F02716FDCBC",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/75fb6248387f0d59857332c057e2e6acea6f14ee281127be261d2f02716fdcbc.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/76af3ed01e339ad61adc5c126f574f30de87b5a6e2ca13332ee6a7a1caeeccfc.jpg",
+      "kind": "asset",
+      "bytes": 22402,
+      "sha256": "76AF3ED01E339AD61ADC5C126F574F30DE87B5A6E2CA13332EE6A7A1CAEECCFC",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/76af3ed01e339ad61adc5c126f574f30de87b5a6e2ca13332ee6a7a1caeeccfc.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/7b442cb5ee287d9b81756949455e850926e3696e5dfedfdb769cdc8015a01ad8.jpg",
+      "kind": "asset",
+      "bytes": 55342,
+      "sha256": "7B442CB5EE287D9B81756949455E850926E3696E5DFEDFDB769CDC8015A01AD8",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/7b442cb5ee287d9b81756949455e850926e3696e5dfedfdb769cdc8015a01ad8.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/845f0d9592b92fbb533a9fd07a2a154583a45f21d9f4fbf71a85e2780251a18a.jpg",
+      "kind": "asset",
+      "bytes": 262870,
+      "sha256": "845F0D9592B92FBB533A9FD07A2A154583A45F21D9F4FBF71A85E2780251A18A",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/845f0d9592b92fbb533a9fd07a2a154583a45f21d9f4fbf71a85e2780251a18a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/86bb4ba18c19d771add0494fa417dfdc32182b2a145086c5283e6f2ed1de2719.jpg",
+      "kind": "asset",
+      "bytes": 4570,
+      "sha256": "86BB4BA18C19D771ADD0494FA417DFDC32182B2A145086C5283E6F2ED1DE2719",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/86bb4ba18c19d771add0494fa417dfdc32182b2a145086c5283e6f2ed1de2719.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/8b8e40b301a1216ca5976ef099f5710f014b469eaa9711b701bc1899fe65d034.jpg",
+      "kind": "asset",
+      "bytes": 27639,
+      "sha256": "8B8E40B301A1216CA5976EF099F5710F014B469EAA9711B701BC1899FE65D034",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/8b8e40b301a1216ca5976ef099f5710f014b469eaa9711b701bc1899fe65d034.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/943c9143ff7b853419009de0e6b9809fade2dfef0a22d3f26cea59d62926be02.jpg",
+      "kind": "asset",
+      "bytes": 15625,
+      "sha256": "943C9143FF7B853419009DE0E6B9809FADE2DFEF0A22D3F26CEA59D62926BE02",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/943c9143ff7b853419009de0e6b9809fade2dfef0a22d3f26cea59d62926be02.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/95fe2774ff5f1d00b32e0f3b3f432d7bb86f7b49b5b2c9a76f4d65d531eb61e9.jpg",
+      "kind": "asset",
+      "bytes": 25272,
+      "sha256": "95FE2774FF5F1D00B32E0F3B3F432D7BB86F7B49B5B2C9A76F4D65D531EB61E9",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/95fe2774ff5f1d00b32e0f3b3f432d7bb86f7b49b5b2c9a76f4d65d531eb61e9.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/9aca7d370280873daf2d0c0eed83fde3f8653a6b7458e392794f086d5d260ff7.jpg",
+      "kind": "asset",
+      "bytes": 512908,
+      "sha256": "9ACA7D370280873DAF2D0C0EED83FDE3F8653A6B7458E392794F086D5D260FF7",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/9aca7d370280873daf2d0c0eed83fde3f8653a6b7458e392794f086d5d260ff7.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/a5e44cacb2727d032db08aa50924bb65311bcf39079ef91f64a54c63dc11fef7.jpg",
+      "kind": "asset",
+      "bytes": 266533,
+      "sha256": "A5E44CACB2727D032DB08AA50924BB65311BCF39079EF91F64A54C63DC11FEF7",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/a5e44cacb2727d032db08aa50924bb65311bcf39079ef91f64a54c63dc11fef7.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/b0c46b2bb20ccc13beb0d7d5461db0b18d2fb9d1f007f0f63e0e3313330adeb0.jpg",
+      "kind": "asset",
+      "bytes": 173463,
+      "sha256": "B0C46B2BB20CCC13BEB0D7D5461DB0B18D2FB9D1F007F0F63E0E3313330ADEB0",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/b0c46b2bb20ccc13beb0d7d5461db0b18d2fb9d1f007f0f63e0e3313330adeb0.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/b47424ba02f5dccda0ee9185ebbbe09d324975395d6f539a13213c4b655c9984.jpg",
+      "kind": "asset",
+      "bytes": 88343,
+      "sha256": "B47424BA02F5DCCDA0EE9185EBBBE09D324975395D6F539A13213C4B655C9984",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/b47424ba02f5dccda0ee9185ebbbe09d324975395d6f539a13213c4b655c9984.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/b83762d19ecd7008a7efe19d04e28cf5eda24e480a5a58cd5e327801e40daa9c.jpg",
+      "kind": "asset",
+      "bytes": 354887,
+      "sha256": "B83762D19ECD7008A7EFE19D04E28CF5EDA24E480A5A58CD5E327801E40DAA9C",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/b83762d19ecd7008a7efe19d04e28cf5eda24e480a5a58cd5e327801e40daa9c.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/bfb5fd0ff647b45cd17c3c29b76edb65597028e52fb4f8b63b8605a93077a1bf.jpg",
+      "kind": "asset",
+      "bytes": 59887,
+      "sha256": "BFB5FD0FF647B45CD17C3C29B76EDB65597028E52FB4F8B63B8605A93077A1BF",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/bfb5fd0ff647b45cd17c3c29b76edb65597028e52fb4f8b63b8605a93077a1bf.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/c344f7f4181910ff349d08a4bf11e02e9b62a40c9d530dc8945ddd6bd7cc010f.jpg",
+      "kind": "asset",
+      "bytes": 6485,
+      "sha256": "C344F7F4181910FF349D08A4BF11E02E9B62A40C9D530DC8945DDD6BD7CC010F",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/c344f7f4181910ff349d08a4bf11e02e9b62a40c9d530dc8945ddd6bd7cc010f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/c73b3886a68007f9e80df945708d37e6ab04d05fe2b2adfc6f47d4b71f0bf95e.jpg",
+      "kind": "asset",
+      "bytes": 17358,
+      "sha256": "C73B3886A68007F9E80DF945708D37E6AB04D05FE2B2ADFC6F47D4B71F0BF95E",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/c73b3886a68007f9e80df945708d37e6ab04d05fe2b2adfc6f47d4b71f0bf95e.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/c9a532fd6d24376fc6e5c9308efe477428ce6d7f9db410b111ddcf70f8937ec9.jpg",
+      "kind": "asset",
+      "bytes": 32422,
+      "sha256": "C9A532FD6D24376FC6E5C9308EFE477428CE6D7F9DB410B111DDCF70F8937EC9",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/c9a532fd6d24376fc6e5c9308efe477428ce6d7f9db410b111ddcf70f8937ec9.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/cf23eff233a83cd9580222ec31f0a7c38cb6001f4178c179bd3b0dbd35969da0.jpg",
+      "kind": "asset",
+      "bytes": 25802,
+      "sha256": "CF23EFF233A83CD9580222EC31F0A7C38CB6001F4178C179BD3B0DBD35969DA0",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/cf23eff233a83cd9580222ec31f0a7c38cb6001f4178c179bd3b0dbd35969da0.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/d4924c63e9c35d827b4ed3f9c711a1c377b9a7c806cec55364d54c4508cad37a.jpg",
+      "kind": "asset",
+      "bytes": 28818,
+      "sha256": "D4924C63E9C35D827B4ED3F9C711A1C377B9A7C806CEC55364D54C4508CAD37A",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/d4924c63e9c35d827b4ed3f9c711a1c377b9a7c806cec55364d54c4508cad37a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/d5451175ae0c418d056af36a2d5f94e63fd5f47972486dfa17d723c8aca63f14.jpg",
+      "kind": "asset",
+      "bytes": 115024,
+      "sha256": "D5451175AE0C418D056AF36A2D5F94E63FD5F47972486DFA17D723C8ACA63F14",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/d5451175ae0c418d056af36a2d5f94e63fd5f47972486dfa17d723c8aca63f14.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/d6bf88a30e078624ae9ebfb26563c7ca10846fd6c120a9e38ef822efa5b5dc1e.jpg",
+      "kind": "asset",
+      "bytes": 41118,
+      "sha256": "D6BF88A30E078624AE9EBFB26563C7CA10846FD6C120A9E38EF822EFA5B5DC1E",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/d6bf88a30e078624ae9ebfb26563c7ca10846fd6c120a9e38ef822efa5b5dc1e.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/d9d299e2f51e94f834144d60bcb0e10da876d354a24846aa562693b78e7ecb9b.jpg",
+      "kind": "asset",
+      "bytes": 4427,
+      "sha256": "D9D299E2F51E94F834144D60BCB0E10DA876D354A24846AA562693B78E7ECB9B",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/d9d299e2f51e94f834144d60bcb0e10da876d354a24846aa562693b78e7ecb9b.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/da2878f302eac7e76b9abb2f2bf3d8a558a99b6fdcd690b87eb61342d569f650.png",
+      "kind": "asset",
+      "bytes": 4488910,
+      "sha256": "DA2878F302EAC7E76B9ABB2F2BF3D8A558A99B6FDCD690B87EB61342D569F650",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/da2878f302eac7e76b9abb2f2bf3d8a558a99b6fdcd690b87eb61342d569f650.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/dcfec3daece5ee90011155bfc153c3e1f0944adb0969333badcfb79ad1a88ebd.jpg",
+      "kind": "asset",
+      "bytes": 71897,
+      "sha256": "DCFEC3DAECE5EE90011155BFC153C3E1F0944ADB0969333BADCFB79AD1A88EBD",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/dcfec3daece5ee90011155bfc153c3e1f0944adb0969333badcfb79ad1a88ebd.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/e1a74e8856e21247ca2a469c94ddf60c564d7e271065020685fdfeb0b0044217.jpg",
+      "kind": "asset",
+      "bytes": 25444,
+      "sha256": "E1A74E8856E21247CA2A469C94DDF60C564D7E271065020685FDFEB0B0044217",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/e1a74e8856e21247ca2a469c94ddf60c564d7e271065020685fdfeb0b0044217.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/e50b7ae2e79b2e60dc4b354b4b8ebd78bb28cb46760a63f9691985e305ddb472.png",
+      "kind": "asset",
+      "bytes": 5093239,
+      "sha256": "E50B7AE2E79B2E60DC4B354B4B8EBD78BB28CB46760A63F9691985E305DDB472",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/e50b7ae2e79b2e60dc4b354b4b8ebd78bb28cb46760a63f9691985e305ddb472.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/e5dcc732d5be6ad1579fd0f373f764d45c3f11c739bccc5c0f69a430de0cbf40.jpg",
+      "kind": "asset",
+      "bytes": 35725,
+      "sha256": "E5DCC732D5BE6AD1579FD0F373F764D45C3F11C739BCCC5C0F69A430DE0CBF40",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/e5dcc732d5be6ad1579fd0f373f764d45c3f11c739bccc5c0f69a430de0cbf40.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/fade99881785e6004eeb0582202052fdc40e8b64c9bdf00771f6881961e65c40.jpg",
+      "kind": "asset",
+      "bytes": 125110,
+      "sha256": "FADE99881785E6004EEB0582202052FDC40E8B64C9BDF00771F6881961E65C40",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/fade99881785e6004eeb0582202052fdc40e8b64c9bdf00771f6881961e65c40.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/fef4f88ec19d95de5a15cc3f012ac23ae65e9397b8af5a7a0ad91016d26c8b63.jpg",
+      "kind": "asset",
+      "bytes": 46967,
+      "sha256": "FEF4F88EC19D95DE5A15CC3F012AC23AE65E9397B8AF5A7A0AD91016D26C8B63",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/fef4f88ec19d95de5a15cc3f012ac23ae65e9397b8af5a7a0ad91016d26c8b63.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-005-Image63.png",
+      "kind": "asset",
+      "bytes": 5489673,
+      "sha256": "132612471905882B0A212B5822E156DE397356AEA0F7388BCC34B8F55D9DC209",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-005-Image63.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-011-Image132.png",
+      "kind": "asset",
+      "bytes": 1441867,
+      "sha256": "95B0A4B47435798228354E73D3E5D96AFD9FC5DACD0B968B0CD7654948E53184",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-011-Image132.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-015-Image155.png",
+      "kind": "asset",
+      "bytes": 4106286,
+      "sha256": "3BECDA947069F9D6D1703D2EB2CDCF41C5B92C7B695781710E7E860CBED4BBE7",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-015-Image155.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-022-Image191.png",
+      "kind": "asset",
+      "bytes": 1017409,
+      "sha256": "1EAE6BAD2E1E2E03AAB7EC5B2C8471326560D6087A80ACB68C6845BF9438610D",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-022-Image191.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-029-Image226.png",
+      "kind": "asset",
+      "bytes": 2344915,
+      "sha256": "B2A54490944AE8E01452B00D9B26C0FD11A7D05146D148ECE9BA9A4A8F741FAA",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-029-Image226.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-030-Image231.png",
+      "kind": "asset",
+      "bytes": 2226751,
+      "sha256": "624E682692328CB06EECAAB09CFD2556FF51F901138E5E0102E6C9AAE9555CB6",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-030-Image231.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-030-Image233.png",
+      "kind": "asset",
+      "bytes": 936643,
+      "sha256": "3598000457AB0972CE8DA8EA9FCBDD14B1385B63AC026B0179BEB3B54BCD0700",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-030-Image233.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "cursed-idol/assets/reader/page-039-Image385.png",
+      "kind": "asset",
+      "bytes": 244125,
+      "sha256": "FAF1E4DB70FF2FAE88F778DEB8C0F3F20367EB1D167922ABC73B0726802626EE",
+      "source": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/reader/page-039-Image385.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/document.docx",
+      "kind": "docx",
+      "bytes": 4051973,
+      "sha256": "6C110ED5E62F29E3FACF97AE3B2D8E515B0066CC1B9F48CCC4D45F09FB3B81A0",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/docx/document.docx",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/08566d052c7ff86aba32c843f742235f8e7073affe240db5c6a68f09535b0354.jpg",
+      "kind": "asset",
+      "bytes": 508491,
+      "sha256": "08566D052C7FF86ABA32C843F742235F8E7073AFFE240DB5C6A68F09535B0354",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/08566d052c7ff86aba32c843f742235f8e7073affe240db5c6a68f09535b0354.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/098b81c35fb040a1799623ee7fed8aa645d9867b31bafac8adb2c587c3061ced.jpg",
+      "kind": "asset",
+      "bytes": 480859,
+      "sha256": "098B81C35FB040A1799623EE7FED8AA645D9867B31BAFAC8ADB2C587C3061CED",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/098b81c35fb040a1799623ee7fed8aa645d9867b31bafac8adb2c587c3061ced.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/0f21e466b00004fd0b30eb477c15c49fcd514b256adecce9b345add8cd018c41.jpg",
+      "kind": "asset",
+      "bytes": 124395,
+      "sha256": "0F21E466B00004FD0B30EB477C15C49FCD514B256ADECCE9B345ADD8CD018C41",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/0f21e466b00004fd0b30eb477c15c49fcd514b256adecce9b345add8cd018c41.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/21e9a3058db17b6ef9e15530ce21e378b7906fbbf11503f8b890d632f602cc55.jpg",
+      "kind": "asset",
+      "bytes": 248050,
+      "sha256": "21E9A3058DB17B6EF9E15530CE21E378B7906FBBF11503F8B890D632F602CC55",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/21e9a3058db17b6ef9e15530ce21e378b7906fbbf11503f8b890d632f602cc55.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/2cb701ca8c5f29f9827e74324d0bf58a7659f6b4d16022e345824385180940f8.jpg",
+      "kind": "asset",
+      "bytes": 501932,
+      "sha256": "2CB701CA8C5F29F9827E74324D0BF58A7659F6B4D16022E345824385180940F8",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/2cb701ca8c5f29f9827e74324d0bf58a7659f6b4d16022e345824385180940f8.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/4ce4cc6c2ed3aa9d63190564743cf2b8c50bb780ad1939efee0d2eb5ab9f2310.jpg",
+      "kind": "asset",
+      "bytes": 142165,
+      "sha256": "4CE4CC6C2ED3AA9D63190564743CF2B8C50BB780AD1939EFEE0D2EB5AB9F2310",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/4ce4cc6c2ed3aa9d63190564743cf2b8c50bb780ad1939efee0d2eb5ab9f2310.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/5f741520eefabf52bf1c9742ba0ba292bd7a3c54a45f6ed8f2a5832217a99812.jpg",
+      "kind": "asset",
+      "bytes": 79366,
+      "sha256": "5F741520EEFABF52BF1C9742BA0BA292BD7A3C54A45F6ED8F2A5832217A99812",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/5f741520eefabf52bf1c9742ba0ba292bd7a3c54a45f6ed8f2a5832217a99812.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/61bfd337bd3fb760382ef0d7670f5a466754ac1cd9bdd7e8cf6008a68e6bba46.jpg",
+      "kind": "asset",
+      "bytes": 93585,
+      "sha256": "61BFD337BD3FB760382EF0D7670F5A466754AC1CD9BDD7E8CF6008A68E6BBA46",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/61bfd337bd3fb760382ef0d7670f5a466754ac1cd9bdd7e8cf6008a68e6bba46.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/7d868e65d276345b6ab990342c9804e23eb6e5a80a5b4273a70e68de8a61b4b3.jpg",
+      "kind": "asset",
+      "bytes": 195357,
+      "sha256": "7D868E65D276345B6AB990342C9804E23EB6E5A80A5B4273A70E68DE8A61B4B3",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/7d868e65d276345b6ab990342c9804e23eb6e5a80a5b4273a70e68de8a61b4b3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/7d9434477b8c276eb22f6463decf2b326d767a2dc2f0aa003d815a5b9fdb0f52.jpg",
+      "kind": "asset",
+      "bytes": 493367,
+      "sha256": "7D9434477B8C276EB22F6463DECF2B326D767A2DC2F0AA003D815A5B9FDB0F52",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/7d9434477b8c276eb22f6463decf2b326d767a2dc2f0aa003d815a5b9fdb0f52.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/93009746cb143ea7b1a6cc8ad598ff77018615940c3263479ed9f6de19bf6d1c.jpg",
+      "kind": "asset",
+      "bytes": 203571,
+      "sha256": "93009746CB143EA7B1A6CC8AD598FF77018615940C3263479ED9F6DE19BF6D1C",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/93009746cb143ea7b1a6cc8ad598ff77018615940c3263479ed9f6de19bf6d1c.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/c6c0ecb13736279cb5b4a7a81032baa998617ef4f2fad5540a00772d86966568.jpg",
+      "kind": "asset",
+      "bytes": 516564,
+      "sha256": "C6C0ECB13736279CB5B4A7A81032BAA998617EF4F2FAD5540A00772D86966568",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/c6c0ecb13736279cb5b4a7a81032baa998617ef4f2fad5540a00772d86966568.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/c7f4233b18327f1569eecb44d573f79ae062c6c9f2bb544d74e54b0207bce692.jpg",
+      "kind": "asset",
+      "bytes": 513366,
+      "sha256": "C7F4233B18327F1569EECB44D573F79AE062C6C9F2BB544D74E54B0207BCE692",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/c7f4233b18327f1569eecb44d573f79ae062c6c9f2bb544d74e54b0207bce692.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "secrets-of-the-kremlin-1931/assets/fb541d60252a065fc0bac3b27d18cb4223047fdf0c918a369444d80793f2eeac.jpg",
+      "kind": "asset",
+      "bytes": 34886,
+      "sha256": "FB541D60252A065FC0BAC3B27D18CB4223047FDF0C918A369444D80793F2EEAC",
+      "source": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/fb541d60252a065fc0bac3b27d18cb4223047fdf0c918a369444d80793f2eeac.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/document.docx",
+      "kind": "docx",
+      "bytes": 9724411,
+      "sha256": "3E2172AB1CC9C045F9F5F472BF6F664337A06969FEDC786BEB2D8D40459007C8",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/Тени Ленинграда.docx",
+      "source_provenance": "Historical transfer locator, not replay availability proof",
+      "previous_transfer_sha256": "71FF39D90C6E544FA3E252B4A9F3B097A75D565B62C1060FB9B44CCB2D9DA4FB",
+      "revision_provenance": "Human-reviewed current DOCX; original transfer bytes preserved in Git"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/04e9f96481cdb4adf02a68b600351bd740407121acecc3cf5c9510feecaa20bc.jpg",
+      "kind": "asset",
+      "bytes": 293139,
+      "sha256": "04E9F96481CDB4ADF02A68B600351BD740407121ACECC3CF5C9510FEECAA20BC",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/04e9f96481cdb4adf02a68b600351bd740407121acecc3cf5c9510feecaa20bc.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/0d967e9a5dc0c055ddd9c9f9e1b233795cb5bebaa3b3ef3a97c8b5d55a996ad6.png",
+      "kind": "asset",
+      "bytes": 2610264,
+      "sha256": "0D967E9A5DC0C055DDD9C9F9E1B233795CB5BEBAA3B3EF3A97C8B5D55A996AD6",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/0d967e9a5dc0c055ddd9c9f9e1b233795cb5bebaa3b3ef3a97c8b5d55a996ad6.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/0e42151b874a464ef1e23d122c9a94dbc027ad09e38d75c4888c8637ce16d2db.jpg",
+      "kind": "asset",
+      "bytes": 190156,
+      "sha256": "0E42151B874A464EF1E23D122C9A94DBC027AD09E38D75C4888C8637CE16D2DB",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/0e42151b874a464ef1e23d122c9a94dbc027ad09e38d75c4888c8637ce16d2db.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/0f04aa068e73bc5f6e84c5a4e17f0a398b5bae56e64f94a5cb49e53a43a50b5e.jpg",
+      "kind": "asset",
+      "bytes": 204879,
+      "sha256": "0F04AA068E73BC5F6E84C5A4E17F0A398B5BAE56E64F94A5CB49E53A43A50B5E",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/0f04aa068e73bc5f6e84c5a4e17f0a398b5bae56e64f94a5cb49e53a43a50b5e.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/1106f72a2d671b5b3ed32a03f04e2366f9eebf587b7abc82a0dfbb351764d2e6.jpg",
+      "kind": "asset",
+      "bytes": 15013,
+      "sha256": "1106F72A2D671B5B3ED32A03F04E2366F9EEBF587B7ABC82A0DFBB351764D2E6",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/1106f72a2d671b5b3ed32a03f04e2366f9eebf587b7abc82a0dfbb351764d2e6.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/205b4e3bff542556ca055942388f9f9b0f3e0c5f36c79787b7e7a0176d5ffe51.jpg",
+      "kind": "asset",
+      "bytes": 396797,
+      "sha256": "205B4E3BFF542556CA055942388F9F9B0F3E0C5F36C79787B7E7A0176D5FFE51",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/205b4e3bff542556ca055942388f9f9b0f3e0c5f36c79787b7e7a0176d5ffe51.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/2685f42a1aa8a7a7367f6d654074878c1cae9bcdc7dce3548bf74423a5975dec.jpg",
+      "kind": "asset",
+      "bytes": 73335,
+      "sha256": "2685F42A1AA8A7A7367F6D654074878C1CAE9BCDC7DCE3548BF74423A5975DEC",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/2685f42a1aa8a7a7367f6d654074878c1cae9bcdc7dce3548bf74423a5975dec.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/313d9c1ff08da42dbdf04324f61d97f250c6ea50bbcfecd1f0e2dadd96aacc70.png",
+      "kind": "asset",
+      "bytes": 2298667,
+      "sha256": "313D9C1FF08DA42DBDF04324F61D97F250C6EA50BBCFECD1F0E2DADD96AACC70",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/313d9c1ff08da42dbdf04324f61d97f250c6ea50bbcfecd1f0e2dadd96aacc70.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/3f2bdfae307fdecd03d825939e1047367c7506dc3b9fe3aa77a6c03ab84d4b87.jpg",
+      "kind": "asset",
+      "bytes": 37938,
+      "sha256": "3F2BDFAE307FDECD03D825939E1047367C7506DC3B9FE3AA77A6C03AB84D4B87",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/3f2bdfae307fdecd03d825939e1047367c7506dc3b9fe3aa77a6c03ab84d4b87.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/5cb5155b2506dc248567c38e3429deacc854d104543566a1a14f552c577626cb.jpg",
+      "kind": "asset",
+      "bytes": 45472,
+      "sha256": "5CB5155B2506DC248567C38E3429DEACC854D104543566A1A14F552C577626CB",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/5cb5155b2506dc248567c38e3429deacc854d104543566a1a14f552c577626cb.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/5ff3d9498c63b307eb1d46dacf584fde8897da29f80746e53ff2bd846eecc062.jpg",
+      "kind": "asset",
+      "bytes": 35207,
+      "sha256": "5FF3D9498C63B307EB1D46DACF584FDE8897DA29F80746E53FF2BD846EECC062",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/5ff3d9498c63b307eb1d46dacf584fde8897da29f80746e53ff2bd846eecc062.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/60071129dff0e195a7933574981cccae5767af5d8e5edd1cfded16931d3ec187.jpg",
+      "kind": "asset",
+      "bytes": 168212,
+      "sha256": "60071129DFF0E195A7933574981CCCAE5767AF5D8E5EDD1CFDED16931D3EC187",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/60071129dff0e195a7933574981cccae5767af5d8e5edd1cfded16931d3ec187.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/6e4b5a88e6fb73a065965de3a40b603aae86115e8dbd5bd913334c2d4ad03fd5.jpg",
+      "kind": "asset",
+      "bytes": 88907,
+      "sha256": "6E4B5A88E6FB73A065965DE3A40B603AAE86115E8DBD5BD913334C2D4AD03FD5",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/6e4b5a88e6fb73a065965de3a40b603aae86115e8dbd5bd913334c2d4ad03fd5.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/71ebfa2822a41c51e1f88cab6b7816bb4c06bae6ab5a14aa173107279073ce36.jpg",
+      "kind": "asset",
+      "bytes": 120408,
+      "sha256": "71EBFA2822A41C51E1F88CAB6B7816BB4C06BAE6AB5A14AA173107279073CE36",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/71ebfa2822a41c51e1f88cab6b7816bb4c06bae6ab5a14aa173107279073ce36.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/769c021a7c47473242d53550a5aa2833dd7b95cba230dcc0264ba49b5ab594eb.jpg",
+      "kind": "asset",
+      "bytes": 43977,
+      "sha256": "769C021A7C47473242D53550A5AA2833DD7B95CBA230DCC0264BA49B5AB594EB",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/769c021a7c47473242d53550a5aa2833dd7b95cba230dcc0264ba49b5ab594eb.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/87699aa98501aa93b9ae7afe4cb5cd6d506059dae6571430e1b851732037d28a.jpg",
+      "kind": "asset",
+      "bytes": 39385,
+      "sha256": "87699AA98501AA93B9AE7AFE4CB5CD6D506059DAE6571430E1B851732037D28A",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/87699aa98501aa93b9ae7afe4cb5cd6d506059dae6571430e1b851732037d28a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/886edd70ffcb2811c9a352331a6fc1c202674635ed850660c9e83913b356d42f.jpg",
+      "kind": "asset",
+      "bytes": 137637,
+      "sha256": "886EDD70FFCB2811C9A352331A6FC1C202674635ED850660C9E83913B356D42F",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/886edd70ffcb2811c9a352331a6fc1c202674635ed850660c9e83913b356d42f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/92535fb31bc7a1b6f654cd3e367c99499d3a1bad03fa6707739896f9bcfcba2b.jpg",
+      "kind": "asset",
+      "bytes": 121142,
+      "sha256": "92535FB31BC7A1B6F654CD3E367C99499D3A1BAD03FA6707739896F9BCFCBA2B",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/92535fb31bc7a1b6f654cd3e367c99499d3a1bad03fa6707739896f9bcfcba2b.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/cdca586bc916c52806559d1b7c7ef383d2c0de56496c1a8128249753a058245a.png",
+      "kind": "asset",
+      "bytes": 1789734,
+      "sha256": "CDCA586BC916C52806559D1B7C7EF383D2C0DE56496C1A8128249753A058245A",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/cdca586bc916c52806559d1b7c7ef383d2c0de56496c1a8128249753a058245a.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/d54cbd8b12e27223a07ff976616ea0c3492a834992b786ea38eaf5f2af009ff0.jpg",
+      "kind": "asset",
+      "bytes": 149823,
+      "sha256": "D54CBD8B12E27223A07FF976616EA0C3492A834992B786EA38EAF5F2AF009FF0",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/d54cbd8b12e27223a07ff976616ea0c3492a834992b786ea38eaf5f2af009ff0.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/e869d9dc7d3b0b26e071ab6069e19cde21c50be02206cdc9bc0ccd2debe2d2ed.jpg",
+      "kind": "asset",
+      "bytes": 83488,
+      "sha256": "E869D9DC7D3B0B26E071AB6069E19CDE21C50BE02206CDC9BC0CCD2DEBE2D2ED",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/e869d9dc7d3b0b26e071ab6069e19cde21c50be02206cdc9bc0ccd2debe2d2ed.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/f878cc77cca78eb020fd8b285eec4318b281d58ae71b304dc0589938ca810a80.jpg",
+      "kind": "asset",
+      "bytes": 458501,
+      "sha256": "F878CC77CCA78EB020FD8B285EEC4318B281D58AE71B304DC0589938CA810A80",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/f878cc77cca78eb020fd8b285eec4318b281d58ae71b304dc0589938ca810a80.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/reader/source-regions/charlotte-portrait-source-handout-a.jpg",
+      "kind": "asset",
+      "bytes": 90290,
+      "sha256": "86512D680380D73BF17FD9CFDCA40C6BBB789E5D92FB5180304EB8BD22024169",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/reader/source-regions/charlotte-portrait-source-handout-a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/reader/source-regions/josef-portrait-source-handout-a.jpg",
+      "kind": "asset",
+      "bytes": 90290,
+      "sha256": "86512D680380D73BF17FD9CFDCA40C6BBB789E5D92FB5180304EB8BD22024169",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/reader/source-regions/josef-portrait-source-handout-a.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/reader/source-regions/moon-glyph-source-handout-h.jpg",
+      "kind": "asset",
+      "bytes": 64520,
+      "sha256": "4A6ED4FFFD21E13B41AF147B1A6A86F9786D7FF2F5C86A2EADCDB6F4BEF00D9C",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/reader/source-regions/moon-glyph-source-handout-h.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/reader/source-regions/wolf-glyph-source-handout-h.jpg",
+      "kind": "asset",
+      "bytes": 64520,
+      "sha256": "4A6ED4FFFD21E13B41AF147B1A6A86F9786D7FF2F5C86A2EADCDB6F4BEF00D9C",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/reader/source-regions/wolf-glyph-source-handout-h.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/document.docx",
+      "kind": "docx",
+      "bytes": 59654563,
+      "sha256": "E8505B99F81A54E02FC1AEA9777C45AE12FDE600A8AB2B2728DDE8F9C0BF8DCD",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/annotated/document.docx",
+      "source_provenance": "Historical transfer locator, not replay availability proof",
+      "previous_transfer_sha256": "36DBC57B0FC00B47C9B09379FF9A6AE10F1898A0FFCA667E61433D1153A7420C",
+      "revision_provenance": "Human-reviewed current DOCX; original transfer bytes preserved in Git"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/081c784135a7c192229c214d81643f59ac593f97e41552071b67a9ac4470766d.jpg",
+      "kind": "asset",
+      "bytes": 365299,
+      "sha256": "081C784135A7C192229C214D81643F59AC593F97E41552071B67A9AC4470766D",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/081c784135a7c192229c214d81643f59ac593f97e41552071b67a9ac4470766d.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/1104e24ce35404b8cc38bd4068bf3d20c4ee839869792253463df21b556b3d54.jpg",
+      "kind": "asset",
+      "bytes": 119559,
+      "sha256": "1104E24CE35404B8CC38BD4068BF3D20C4EE839869792253463DF21B556B3D54",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/1104e24ce35404b8cc38bd4068bf3d20c4ee839869792253463df21b556b3d54.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/15d96012da59ff5dcecc7b821ae5e73c460368c597ec01a6fc311ba99b8739d3.jpg",
+      "kind": "asset",
+      "bytes": 188484,
+      "sha256": "15D96012DA59FF5DCECC7B821AE5E73C460368C597EC01A6FC311BA99B8739D3",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/15d96012da59ff5dcecc7b821ae5e73c460368c597ec01a6fc311ba99b8739d3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/209a7f6bd7e562a1050c628b7c8668a232ad34aeee0681a52d63995ff9d7c465.jpg",
+      "kind": "asset",
+      "bytes": 273718,
+      "sha256": "209A7F6BD7E562A1050C628B7C8668A232AD34AEEE0681A52D63995FF9D7C465",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/209a7f6bd7e562a1050c628b7c8668a232ad34aeee0681a52d63995ff9d7c465.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/215779402141494ec1991881e666ec8304ef9784e3f0a5621bb2e6a655269eac.jpg",
+      "kind": "asset",
+      "bytes": 64461,
+      "sha256": "215779402141494EC1991881E666EC8304EF9784E3F0A5621BB2E6A655269EAC",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/215779402141494ec1991881e666ec8304ef9784e3f0a5621bb2e6a655269eac.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/26cb876d9b137e620444c9ca0abcceb4c372ce5163fae31e3bc674add06aebc9.jpg",
+      "kind": "asset",
+      "bytes": 280721,
+      "sha256": "26CB876D9B137E620444C9CA0ABCCEB4C372CE5163FAE31E3BC674ADD06AEBC9",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/26cb876d9b137e620444c9ca0abcceb4c372ce5163fae31e3bc674add06aebc9.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/2a97bbaaa6261d5debbb99ff54c2952cedcff0cceab81d2f26b110afdf2f8e57.png",
+      "kind": "asset",
+      "bytes": 3711860,
+      "sha256": "2A97BBAAA6261D5DEBBB99FF54C2952CEDCFF0CCEAB81D2F26B110AFDF2F8E57",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/2a97bbaaa6261d5debbb99ff54c2952cedcff0cceab81d2f26b110afdf2f8e57.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/348dc7315df81a350d1e82d7ada078954ec6c84409db6f22be5b3bec58d58003.jpg",
+      "kind": "asset",
+      "bytes": 294045,
+      "sha256": "348DC7315DF81A350D1E82D7ADA078954EC6C84409DB6F22BE5B3BEC58D58003",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/348dc7315df81a350d1e82d7ada078954ec6c84409db6f22be5b3bec58d58003.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/34f021504204e897d6dde0124d9692a816f1c117705d87562221dd94b0351e1e.jpg",
+      "kind": "asset",
+      "bytes": 346686,
+      "sha256": "34F021504204E897D6DDE0124D9692A816F1C117705D87562221DD94B0351E1E",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/34f021504204e897d6dde0124d9692a816f1c117705d87562221dd94b0351e1e.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/35e9b6f7c1af210ef7900d78e2322fe10501401a7c10fa11eb876516743ea9fe.jpg",
+      "kind": "asset",
+      "bytes": 246256,
+      "sha256": "35E9B6F7C1AF210EF7900D78E2322FE10501401A7C10FA11EB876516743EA9FE",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/35e9b6f7c1af210ef7900d78e2322fe10501401a7c10fa11eb876516743ea9fe.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/374baef89c92411e3e18685097d68294ff5b3e6c581e946a4422ef70aee90d38.jpg",
+      "kind": "asset",
+      "bytes": 37863,
+      "sha256": "374BAEF89C92411E3E18685097D68294FF5B3E6C581E946A4422EF70AEE90D38",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/374baef89c92411e3e18685097d68294ff5b3e6c581e946a4422ef70aee90d38.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/3a1dc19e590bfa12837a1ab00c91d245d114bcfd1bb2a3330b175c062f8d553d.jpg",
+      "kind": "asset",
+      "bytes": 275768,
+      "sha256": "3A1DC19E590BFA12837A1AB00C91D245D114BCFD1BB2A3330B175C062F8D553D",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/3a1dc19e590bfa12837a1ab00c91d245d114bcfd1bb2a3330b175c062f8d553d.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/3c6b5959cf2e3b66ebf1bf4419de28f466ab3763f828b8eea8a9a174913f94d1.jpg",
+      "kind": "asset",
+      "bytes": 327296,
+      "sha256": "3C6B5959CF2E3B66EBF1BF4419DE28F466AB3763F828B8EEA8A9A174913F94D1",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/3c6b5959cf2e3b66ebf1bf4419de28f466ab3763f828b8eea8a9a174913f94d1.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/415f79e3065d235659c842ba7b333c5701a1924450f7bf9c934570f6aee6679b.jpg",
+      "kind": "asset",
+      "bytes": 285315,
+      "sha256": "415F79E3065D235659C842BA7B333C5701A1924450F7BF9C934570F6AEE6679B",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/415f79e3065d235659c842ba7b333c5701a1924450f7bf9c934570f6aee6679b.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/47ad2facfc5de664e004a36442ed99355e14e3cef9ca11c5043113a5f9838424.jpg",
+      "kind": "asset",
+      "bytes": 325637,
+      "sha256": "47AD2FACFC5DE664E004A36442ED99355E14E3CEF9CA11C5043113A5F9838424",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/47ad2facfc5de664e004a36442ed99355e14e3cef9ca11c5043113a5f9838424.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/4bf0678e198dc7cda09a8dfe0c71569f122174fe653f988c7c379ac78b38e645.jpg",
+      "kind": "asset",
+      "bytes": 24589,
+      "sha256": "4BF0678E198DC7CDA09A8DFE0C71569F122174FE653F988C7C379AC78B38E645",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/4bf0678e198dc7cda09a8dfe0c71569f122174fe653f988c7c379ac78b38e645.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/4c3664d99c690eb4b294e083f17226005a4f8265e32362ddd8708459eae765d6.png",
+      "kind": "asset",
+      "bytes": 3694605,
+      "sha256": "4C3664D99C690EB4B294E083F17226005A4F8265E32362DDD8708459EAE765D6",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/4c3664d99c690eb4b294e083f17226005a4f8265e32362ddd8708459eae765d6.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/51123ca7c16298b32b3a95ae85af8fb0c347c28cdd032b498f8a8e047b10bae8.jpg",
+      "kind": "asset",
+      "bytes": 42495,
+      "sha256": "51123CA7C16298B32B3A95AE85AF8FB0C347C28CDD032B498F8A8E047B10BAE8",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/51123ca7c16298b32b3a95ae85af8fb0c347c28cdd032b498f8a8e047b10bae8.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/51a986d4cc0e796f13a38c1ec00d3207fc0d944e6a0e39491db0952f3ec43d06.jpg",
+      "kind": "asset",
+      "bytes": 193881,
+      "sha256": "51A986D4CC0E796F13A38C1EC00D3207FC0D944E6A0E39491DB0952F3EC43D06",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/51a986d4cc0e796f13a38c1ec00d3207fc0d944e6a0e39491db0952f3ec43d06.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/53244ed21e4ec671718187da1bb1c22bc6f24f7a23cde0ce54ef31f1a9f7267f.jpg",
+      "kind": "asset",
+      "bytes": 275681,
+      "sha256": "53244ED21E4EC671718187DA1BB1C22BC6F24F7A23CDE0CE54EF31F1A9F7267F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/53244ed21e4ec671718187da1bb1c22bc6f24f7a23cde0ce54ef31f1a9f7267f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/5b49c4bccfba7d7b38c110697ea9990984fa53f6aef7b33eaec0b4ee503b78fb.jpg",
+      "kind": "asset",
+      "bytes": 287517,
+      "sha256": "5B49C4BCCFBA7D7B38C110697EA9990984FA53F6AEF7B33EAEC0B4EE503B78FB",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/5b49c4bccfba7d7b38c110697ea9990984fa53f6aef7b33eaec0b4ee503b78fb.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/5ff14b668320f9fcfe79c8053ab94a65a6de30892309b775ebb5c2a625e52405.jpg",
+      "kind": "asset",
+      "bytes": 539524,
+      "sha256": "5FF14B668320F9FCFE79C8053AB94A65A6DE30892309B775EBB5C2A625E52405",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/5ff14b668320f9fcfe79c8053ab94a65a6de30892309b775ebb5c2a625e52405.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/656bc9e197083f2e01e3e59211a8fbb3e5272b494112e21173f89d9e9f42a4de.jpg",
+      "kind": "asset",
+      "bytes": 366608,
+      "sha256": "656BC9E197083F2E01E3E59211A8FBB3E5272B494112E21173F89D9E9F42A4DE",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/656bc9e197083f2e01e3e59211a8fbb3e5272b494112e21173f89d9e9f42a4de.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/6f787a932a22ad0bf838cb92a47b1358d8b7940d2e26af470b836155cde20404.png",
+      "kind": "asset",
+      "bytes": 3566600,
+      "sha256": "6F787A932A22AD0BF838CB92A47B1358D8B7940D2E26AF470B836155CDE20404",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/6f787a932a22ad0bf838cb92a47b1358d8b7940d2e26af470b836155cde20404.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/703d0b01e2e9ed0ce0d08f1d5d9a8b8e6825945fe99054d15237b0d503c3b991.jpg",
+      "kind": "asset",
+      "bytes": 298216,
+      "sha256": "703D0B01E2E9ED0CE0D08F1D5D9A8B8E6825945FE99054D15237B0D503C3B991",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/703d0b01e2e9ed0ce0d08f1d5d9a8b8e6825945fe99054d15237b0d503c3b991.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/78f05bda3ecbc0d072d2c37d5d449dd4a61e1873e1fe2beed7b86d4fa7feed7f.jpg",
+      "kind": "asset",
+      "bytes": 544130,
+      "sha256": "78F05BDA3ECBC0D072D2C37D5D449DD4A61E1873E1FE2BEED7B86D4FA7FEED7F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/78f05bda3ecbc0d072d2c37d5d449dd4a61e1873e1fe2beed7b86d4fa7feed7f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/7922a86274136f09251ca0bd64fc484322cfa16df7728a9ae86e909a2b8cd842.png",
+      "kind": "asset",
+      "bytes": 3226190,
+      "sha256": "7922A86274136F09251CA0BD64FC484322CFA16DF7728A9AE86E909A2B8CD842",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/7922a86274136f09251ca0bd64fc484322cfa16df7728a9ae86e909a2b8cd842.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/7ad47b4e6546f4b60ebf69ade0ac7f82d4ff2aeb219474aa9082ad94a5b61f63.jpg",
+      "kind": "asset",
+      "bytes": 292257,
+      "sha256": "7AD47B4E6546F4B60EBF69ADE0AC7F82D4FF2AEB219474AA9082AD94A5B61F63",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/7ad47b4e6546f4b60ebf69ade0ac7f82d4ff2aeb219474aa9082ad94a5b61f63.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/7dcf1c60da69f16cb29786d1a773917038bd442afb5986f38bb96eb62dc55186.jpg",
+      "kind": "asset",
+      "bytes": 122274,
+      "sha256": "7DCF1C60DA69F16CB29786D1A773917038BD442AFB5986F38BB96EB62DC55186",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/7dcf1c60da69f16cb29786d1a773917038bd442afb5986f38bb96eb62dc55186.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/88c53cd7216ddb575ea69193e532d5e6573384bda82bef9a3bad7182c83abb47.jpg",
+      "kind": "asset",
+      "bytes": 169109,
+      "sha256": "88C53CD7216DDB575EA69193E532D5E6573384BDA82BEF9A3BAD7182C83ABB47",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/88c53cd7216ddb575ea69193e532d5e6573384bda82bef9a3bad7182c83abb47.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/88fe3ac61aa5b6a75996b746440a0963b93c03c5b0c1e84f25ff3eb0abbd707f.jpg",
+      "kind": "asset",
+      "bytes": 248971,
+      "sha256": "88FE3AC61AA5B6A75996B746440A0963B93C03C5B0C1E84F25FF3EB0ABBD707F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/88fe3ac61aa5b6a75996b746440a0963b93c03c5b0c1e84f25ff3eb0abbd707f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/8d81fcff59b7f840611e2ea91f51efa615b997f795d3ae583894f2d98f198488.png",
+      "kind": "asset",
+      "bytes": 2892465,
+      "sha256": "8D81FCFF59B7F840611E2EA91F51EFA615B997F795D3AE583894F2D98F198488",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/8d81fcff59b7f840611e2ea91f51efa615b997f795d3ae583894f2d98f198488.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/8e5d1d48d6a7e88cf626efe37d814b6de8d7fe0937a981042e16604d08b3dff1.jpg",
+      "kind": "asset",
+      "bytes": 69069,
+      "sha256": "8E5D1D48D6A7E88CF626EFE37D814B6DE8D7FE0937A981042E16604D08B3DFF1",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/8e5d1d48d6a7e88cf626efe37d814b6de8d7fe0937a981042e16604d08b3dff1.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/90675d8db678b67565776f0f8acd5f285e1daf3c974dbfe8b05899b5d71d6390.jpg",
+      "kind": "asset",
+      "bytes": 232416,
+      "sha256": "90675D8DB678B67565776F0F8ACD5F285E1DAF3C974DBFE8B05899B5D71D6390",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/90675d8db678b67565776f0f8acd5f285e1daf3c974dbfe8b05899b5d71d6390.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/94d2b29ab0823f37a718e97d44150051b0cc9bea6899f5fb963410113d6dd6a4.jpg",
+      "kind": "asset",
+      "bytes": 110126,
+      "sha256": "94D2B29AB0823F37A718E97D44150051B0CC9BEA6899F5FB963410113D6DD6A4",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/94d2b29ab0823f37a718e97d44150051b0cc9bea6899f5fb963410113d6dd6a4.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/9d505ab48868bee2c7a8b6319c54096282237b86a3c581ee03a88090738209ee.jpg",
+      "kind": "asset",
+      "bytes": 248961,
+      "sha256": "9D505AB48868BEE2C7A8B6319C54096282237B86A3C581EE03A88090738209EE",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/9d505ab48868bee2c7a8b6319c54096282237b86a3c581ee03a88090738209ee.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/a074a612b200b6672a139a561639003d6c3aaf82cc8b2bfb9450ba126a01a3ed.jpg",
+      "kind": "asset",
+      "bytes": 180725,
+      "sha256": "A074A612B200B6672A139A561639003D6C3AAF82CC8B2BFB9450BA126A01A3ED",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/a074a612b200b6672a139a561639003d6c3aaf82cc8b2bfb9450ba126a01a3ed.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/a3d07afc6660376b79be36a550be3f2af751759da1bd7015a69de7816ea3afc1.jpg",
+      "kind": "asset",
+      "bytes": 210435,
+      "sha256": "A3D07AFC6660376B79BE36A550BE3F2AF751759DA1BD7015A69DE7816EA3AFC1",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/a3d07afc6660376b79be36a550be3f2af751759da1bd7015a69de7816ea3afc1.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/a5fe06280640a7f93f76466451657c5c1c75e97d3946bcacfe64d14f2a813e3f.jpg",
+      "kind": "asset",
+      "bytes": 225845,
+      "sha256": "A5FE06280640A7F93F76466451657C5C1C75E97D3946BCACFE64D14F2A813E3F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/a5fe06280640a7f93f76466451657c5c1c75e97d3946bcacfe64d14f2a813e3f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/a9b43cc98c01201ec503057b508ed7bbbda701f6d038a8746fc1a1480c755e5f.jpg",
+      "kind": "asset",
+      "bytes": 351861,
+      "sha256": "A9B43CC98C01201EC503057B508ED7BBBDA701F6D038A8746FC1A1480C755E5F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/a9b43cc98c01201ec503057b508ed7bbbda701f6d038a8746fc1a1480c755e5f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/aac5ba4754cdddf24d49c9d6293714c35c8b51aac3dd463b638b97f3b1a7884e.png",
+      "kind": "asset",
+      "bytes": 2194435,
+      "sha256": "AAC5BA4754CDDDF24D49C9D6293714C35C8B51AAC3DD463B638B97F3B1A7884E",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/aac5ba4754cdddf24d49c9d6293714c35c8b51aac3dd463b638b97f3b1a7884e.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/acc0cb0e0d8114fdbe2be541af774b5bf80fdcab5de74b4d9d6fa6a494ca8289.jpg",
+      "kind": "asset",
+      "bytes": 38153,
+      "sha256": "ACC0CB0E0D8114FDBE2BE541AF774B5BF80FDCAB5DE74B4D9D6FA6A494CA8289",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/acc0cb0e0d8114fdbe2be541af774b5bf80fdcab5de74b4d9d6fa6a494ca8289.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/add18a1339e0c4c00c947756693244c33abaa2c8c42e31f64f92df71123d062e.png",
+      "kind": "asset",
+      "bytes": 3866904,
+      "sha256": "ADD18A1339E0C4C00C947756693244C33ABAA2C8C42E31F64F92DF71123D062E",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/add18a1339e0c4c00c947756693244c33abaa2c8c42e31f64f92df71123d062e.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/b579a63f27141ecc23d325c0172a2e9db16592431bcf4039611e367ab9b223b4.jpg",
+      "kind": "asset",
+      "bytes": 303209,
+      "sha256": "B579A63F27141ECC23D325C0172A2E9DB16592431BCF4039611E367AB9B223B4",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/b579a63f27141ecc23d325c0172a2e9db16592431bcf4039611e367ab9b223b4.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/b643d1c9e35906ec7ac84c0d486fcbd2d03317deb0ac0990a596fb6323bcd186.png",
+      "kind": "asset",
+      "bytes": 4159166,
+      "sha256": "B643D1C9E35906EC7AC84C0D486FCBD2D03317DEB0AC0990A596FB6323BCD186",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/b643d1c9e35906ec7ac84c0d486fcbd2d03317deb0ac0990a596fb6323bcd186.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/ba22f198a4e44815e2568b7025fcfe0b21b4c878f9bf2334f6f31246062d6826.jpg",
+      "kind": "asset",
+      "bytes": 221190,
+      "sha256": "BA22F198A4E44815E2568B7025FCFE0B21B4C878F9BF2334F6F31246062D6826",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/ba22f198a4e44815e2568b7025fcfe0b21b4c878f9bf2334f6f31246062d6826.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/ba6aef83c53998df22dd067e93b286d33008058a9355de5a14a22dd14740dc46.jpg",
+      "kind": "asset",
+      "bytes": 140866,
+      "sha256": "BA6AEF83C53998DF22DD067E93B286D33008058A9355DE5A14A22DD14740DC46",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/ba6aef83c53998df22dd067e93b286d33008058a9355de5a14a22dd14740dc46.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/c0d535b9f7c90bb69b1b2b5834a63531c75b005ae87886f61889a571fbd9907f.jpg",
+      "kind": "asset",
+      "bytes": 583087,
+      "sha256": "C0D535B9F7C90BB69B1B2B5834A63531C75B005AE87886F61889A571FBD9907F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/c0d535b9f7c90bb69b1b2b5834a63531c75b005ae87886f61889a571fbd9907f.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/c712296cdef74ec46eabe7bed9837738576d30bcd59138b9c0db8df4d23213a7.jpg",
+      "kind": "asset",
+      "bytes": 114478,
+      "sha256": "C712296CDEF74EC46EABE7BED9837738576D30BCD59138B9C0DB8DF4D23213A7",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/c712296cdef74ec46eabe7bed9837738576d30bcd59138b9c0db8df4d23213a7.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/c7b447e5a51a400482c33deeeaeabb5355b7c756c178dc9c21928ae4a2832a9a.png",
+      "kind": "asset",
+      "bytes": 3401668,
+      "sha256": "C7B447E5A51A400482C33DEEEAEABB5355B7C756C178DC9C21928AE4A2832A9A",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/c7b447e5a51a400482c33deeeaeabb5355b7c756c178dc9c21928ae4a2832a9a.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d0a3e7b1091cc5fc213c304357c4b085f454e47b9be40d4517fd4e9bb73b88fc.jpg",
+      "kind": "asset",
+      "bytes": 274882,
+      "sha256": "D0A3E7B1091CC5FC213C304357C4B085F454E47B9BE40D4517FD4E9BB73B88FC",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d0a3e7b1091cc5fc213c304357c4b085f454e47b9be40d4517fd4e9bb73b88fc.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d13fc93c6ada4cd028a5a1c2c7c3d78f83f4b228a9b0a94caff0e504921d6f25.png",
+      "kind": "asset",
+      "bytes": 3298799,
+      "sha256": "D13FC93C6ADA4CD028A5A1C2C7C3D78F83F4B228A9B0A94CAFF0E504921D6F25",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d13fc93c6ada4cd028a5a1c2c7c3d78f83f4b228a9b0a94caff0e504921d6f25.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d30ab0e409595d759513549032afa76209d17947616a35991b036da10c8454f4.jpg",
+      "kind": "asset",
+      "bytes": 265111,
+      "sha256": "D30AB0E409595D759513549032AFA76209D17947616A35991B036DA10C8454F4",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d30ab0e409595d759513549032afa76209d17947616a35991b036da10c8454f4.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d4e280fb3fddecce21637f5f9d6596da5ca7ee0ac2ace59d98e88b520ad05568.jpg",
+      "kind": "asset",
+      "bytes": 272823,
+      "sha256": "D4E280FB3FDDECCE21637F5F9D6596DA5CA7EE0AC2ACE59D98E88B520AD05568",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d4e280fb3fddecce21637f5f9d6596da5ca7ee0ac2ace59d98e88b520ad05568.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d4e81ce54b3d08ee60fb5ce98ddb6889392ce3fca451abbcd692828961649533.png",
+      "kind": "asset",
+      "bytes": 2979106,
+      "sha256": "D4E81CE54B3D08EE60FB5CE98DDB6889392CE3FCA451ABBCD692828961649533",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d4e81ce54b3d08ee60fb5ce98ddb6889392ce3fca451abbcd692828961649533.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d8b606bc839fc61d79adaa799ac27930ee5bc226debadbc609b6ce0c656ec6d3.jpg",
+      "kind": "asset",
+      "bytes": 313817,
+      "sha256": "D8B606BC839FC61D79ADAA799AC27930EE5BC226DEBADBC609B6CE0C656EC6D3",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d8b606bc839fc61d79adaa799ac27930ee5bc226debadbc609b6ce0c656ec6d3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/d984a3e5ebf90f249d82ea0455361b759c5eb215560291d07eda6c09677cab17.jpg",
+      "kind": "asset",
+      "bytes": 3226,
+      "sha256": "D984A3E5EBF90F249D82EA0455361B759C5EB215560291D07EDA6C09677CAB17",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/d984a3e5ebf90f249d82ea0455361b759c5eb215560291d07eda6c09677cab17.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/e415a0ae316ab22478edb6a4a476beea2a5f4b57d7b97245a060fe0e4d73961e.png",
+      "kind": "asset",
+      "bytes": 2686853,
+      "sha256": "E415A0AE316AB22478EDB6A4A476BEEA2A5F4B57D7B97245A060FE0E4D73961E",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/e415a0ae316ab22478edb6a4a476beea2a5f4b57d7b97245a060fe0e4d73961e.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/ec6a8c5bd54b694c378d3d9ea6c11b7008ba2d41e7238020bee58bc352664231.png",
+      "kind": "asset",
+      "bytes": 3582539,
+      "sha256": "EC6A8C5BD54B694C378D3D9EA6C11B7008BA2D41E7238020BEE58BC352664231",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/ec6a8c5bd54b694c378d3d9ea6c11b7008ba2d41e7238020bee58bc352664231.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/fb19fd1180af99fb2a83b39db1b6bc37616174b1f2e2805defb7bfdf66dd4d41.png",
+      "kind": "asset",
+      "bytes": 2618604,
+      "sha256": "FB19FD1180AF99FB2A83B39DB1B6BC37616174B1F2E2805DEFB7BFDF66DD4D41",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/fb19fd1180af99fb2a83b39db1b6bc37616174b1f2e2805defb7bfdf66dd4d41.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/fbd376576685107b27b8f7476ca64e34466cc526dcc4b37846933a4f3d28a4b5.jpg",
+      "kind": "asset",
+      "bytes": 195801,
+      "sha256": "FBD376576685107B27B8F7476CA64E34466CC526DCC4B37846933A4F3D28A4B5",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/fbd376576685107b27b8f7476ca64e34466cc526dcc4b37846933a4f3d28a4b5.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/reader/p117-alaska-map-ad-embedded-preview.png",
+      "kind": "asset",
+      "bytes": 1224272,
+      "sha256": "AD77221871D316722F9FD6F0F11CC2B5DF8D4A5683CD10FECDE2010FD9F1280D",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/reader/p117-alaska-map-ad-embedded-preview.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "fears-sharp-little-needles/assets/reader/p132-ravenscar-map-embedded-preview.png",
+      "kind": "asset",
+      "bytes": 789232,
+      "sha256": "1F474C0077A995976992408930CAEA42BBE71AAE3C5BC21E5A52F9141657B92F",
+      "source": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/reader/p132-ravenscar-map-embedded-preview.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/document.docx",
+      "kind": "docx",
+      "bytes": 5167147,
+      "sha256": "BBF475FC50E0465CE6997BC2F819833B00AE4B08AE6F7C7A689C9DACA74E520D",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image1.png",
+      "kind": "asset",
+      "bytes": 3824297,
+      "sha256": "4517FC7C93E53986C2C286E871D8B59070BED4457041FE0F928A1DC9F9357072",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image1.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image2.jpg",
+      "kind": "asset",
+      "bytes": 49023,
+      "sha256": "55CA597755B7DF71C1E3699353265EE4AD9771EBBDB920410317E7073F6284FE",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image2.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image3.jpg",
+      "kind": "asset",
+      "bytes": 49082,
+      "sha256": "8FC42816BF72BEDA6938FAAD5A1AFF6DEA6DE1BEF286EE8D8822A8DAC55BBBD6",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image3.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image4.jpg",
+      "kind": "asset",
+      "bytes": 31076,
+      "sha256": "D546EF251ACE98DF9136EA8C332883B06594C7082D32ED1AC80C4DBD915D9523",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image4.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image5.jpg",
+      "kind": "asset",
+      "bytes": 30984,
+      "sha256": "FFD474F4A049B1968C6F7B5F9068019B5CDEC558E69B9A1E995AA21663395857",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image5.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image6.jpg",
+      "kind": "asset",
+      "bytes": 59762,
+      "sha256": "8D4E75A0CD6C3098CFD7B84B4FB603395E7269EC4249B8AB05734751A58EDD70",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image6.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image7.jpg",
+      "kind": "asset",
+      "bytes": 77664,
+      "sha256": "456C573FB9955C8A3312CADF47A7559255D3416427B764E874D8D8D7D2B6A35C",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image7.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image8.jpg",
+      "kind": "asset",
+      "bytes": 48035,
+      "sha256": "833474CC789C6F5E00034FE72DD8AD95C5C148DD553D5451056A0BE134473525",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image8.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image12.jpg",
+      "kind": "asset",
+      "bytes": 65579,
+      "sha256": "9F377A1D675FF226C5405C3A6968540B6A32221C151152C82E7770A708F2B981",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image12.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image13.jpg",
+      "kind": "asset",
+      "bytes": 207987,
+      "sha256": "2E39199DC3787B0600AC4F9843FD02DE5F88DFB05BE59ACD833B9A17B5735421",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image13.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image14.jpg",
+      "kind": "asset",
+      "bytes": 45533,
+      "sha256": "F21773FEB120405ACF2244939EA196833341DD24A2933AB9F08424AA1E44E5AC",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image14.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image15.jpg",
+      "kind": "asset",
+      "bytes": 40846,
+      "sha256": "8CC466F9543AD6EB3BE419B505950EB16CD7B0CF0B3B33CFA0162BFA0F4C97A9",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image15.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image16.jpg",
+      "kind": "asset",
+      "bytes": 38341,
+      "sha256": "F51F17C46EF8227AF096809E89EB784E968A715088739DC2B0B7F5778076E743",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image16.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image17.jpg",
+      "kind": "asset",
+      "bytes": 36852,
+      "sha256": "6F1393BC7DC691B0B8F2A2039D1C502AEA957D8B8B5617DEB0E1A2A8CD804165",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image17.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image18.jpg",
+      "kind": "asset",
+      "bytes": 41174,
+      "sha256": "30F29EF0AFD70573F4F5411B933170A0FAAAFEC268E1842BB6DED414C7AD1F95",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image18.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image19.jpg",
+      "kind": "asset",
+      "bytes": 40683,
+      "sha256": "A334E31185E6DCB3C4CA4FF2F900EFFF0F4E77D7CD0C446FD7E4BA0392C35E1A",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image19.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image9.jpg",
+      "kind": "asset",
+      "bytes": 117658,
+      "sha256": "BA5B7C947407C8409B5353E7A25196A98BE9E9DC47A786EE0376CD8BC23348B4",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image9.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image11.jpg",
+      "kind": "asset",
+      "bytes": 163279,
+      "sha256": "5F84FC66111294AF52199ED1C80E48D71F9F8DDB412D52EE2CF42D04E31F7E4D",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image11.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "number-7-dream/assets/image10.jpg",
+      "kind": "asset",
+      "bytes": 110551,
+      "sha256": "F16BFB5BBC3E13437865969CF46FECB192EDEEAB07978A0E1DABF1C60ED8345B",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx!/word/media/image10.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "dissociation/document.docx",
+      "kind": "docx",
+      "bytes": 538565,
+      "sha256": "2AC1ACEFEF697B864B9D6DD33802083B72CCD2A4381430DE1C145008C5A7159A",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/Dissociation_RU.docx",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "dissociation/assets/alaska-map.jpg",
+      "kind": "asset",
+      "bytes": 236058,
+      "sha256": "F96AD0F20513F4737474915670FE2A1F361BF60C12FD6AE0F210CF2132127DE4",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/assets/alaska-map.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "dissociation/assets/dissociation-cover.jpg",
+      "kind": "asset",
+      "bytes": 257805,
+      "sha256": "E30A388DC2A17E216A53A2A673EA583C3B71BE6567FE97F9E35805DE71E760AC",
+      "source": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/assets/dissociation-cover.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/457daa16b3c1d12df9000aae4faf621677f27f9a3ae291d8d4db9b33d73cc6d9.png",
+      "kind": "asset",
+      "bytes": 1774765,
+      "sha256": "457DAA16B3C1D12DF9000AAE4FAF621677F27F9A3AE291D8D4DB9B33D73CC6D9",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/457daa16b3c1d12df9000aae4faf621677f27f9a3ae291d8d4db9b33d73cc6d9.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/47a8b662f43a72cca3c3051ff74c067a364e05b9a8cb1995bc4a97872aab9574.png",
+      "kind": "asset",
+      "bytes": 1602646,
+      "sha256": "47A8B662F43A72CCA3C3051FF74C067A364E05B9A8CB1995BC4A97872AAB9574",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/47a8b662f43a72cca3c3051ff74c067a364e05b9a8cb1995bc4a97872aab9574.png",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    },
+    {
+      "path": "shadows-of-leningrad-1938/assets/e515364b3dccb2a466d4a1e200f05dcc3dfe70cf3981fbb66ea023d39f159fe2.jpg",
+      "kind": "asset",
+      "bytes": 134464,
+      "sha256": "E515364B3DCCB2A466D4A1E200F05DCC3DFE70CF3981FBB66EA023D39F159FE2",
+      "source": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/e515364b3dccb2a466d4a1e200f05dcc3dfe70cf3981fbb66ea023d39f159fe2.jpg",
+      "source_provenance": "Historical transfer locator, not replay availability proof"
+    }
+  ],
+  "file_count": 207,
+  "bytes": 232919760,
+  "acceptance_inferred": false,
+  "previous_manifest_sha256": "AE4CF9786E588C3553311A75DABE1BA1620F9B1F8EA4EA801E3EE81F126BD92F",
+  "retirement_authority_sha256": "7779FEE1A43AAA695C372BC0678F102B2B397518AFF6332AC58289FC978CF394",
+  "notes": [
+    "Nine incorrect generated HTML/PDF recycled by explicit user confirmation.",
+    "Source PDFs and current reviewed DOCX preserved; new correction candidates separate.",
+    "Original transfer inventory preserved as goal evidence; missing upstream replay not invented."
+  ]
+}

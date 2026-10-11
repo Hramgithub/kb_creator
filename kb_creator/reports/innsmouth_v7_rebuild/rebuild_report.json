@@ -1,0 +1,224 @@
+{
+  "schema": "kb_creator_innsmouth_v7_rebuild_report.v1",
+  "generated_at_utc": "2026-07-30T15:32:38.847052+00:00",
+  "status": "pass",
+  "baseline_manifest": "kb_creator/inputs/innsmouth_v6_freeze_manifest.json",
+  "baseline_commit": "0470919f83e2d536ecae78010096e1f768bc0626",
+  "config": {
+    "path": "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+    "exists": true,
+    "size_bytes": 43354,
+    "sha256": "6484a3dbd18e62a4497ccb312f6abe08175031c8e30b6a4db17ce6924096e27c",
+    "last_write_time_utc": "2026-07-30T15:32:15.518703+00:00"
+  },
+  "artifacts": {
+    "html": {
+      "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v7_rebuild.html",
+      "exists": true,
+      "size_bytes": 310704,
+      "sha256": "c356877164cc8594ef767bd183fb1428552d284420a9578a048f01e65a9e4b5d",
+      "last_write_time_utc": "2026-07-30T15:32:15.942791+00:00"
+    },
+    "pdf_two_column": {
+      "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v7_rebuild_two_column.pdf",
+      "exists": true,
+      "size_bytes": 65261797,
+      "sha256": "2838035735ed2759a11d1907831de91cf59967523f91d267fde5fc7054c88cc5",
+      "last_write_time_utc": "2026-07-30T15:32:35.210025+00:00"
+    }
+  },
+  "qa_statuses": {
+    "production_html": {
+      "path": "kb_creator/working/production_html_report_v7_rebuild.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": null,
+      "sha256": "0310a968117019e771a05fdee7e34409b9d2aa1e3d28d76513b294bd31c679bf"
+    },
+    "statblock_projection": {
+      "path": "kb_creator/working/html_v7_rebuild_statblock_projection_report.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": null,
+      "sha256": "237c088b15ecc2bea776dbb2ec423ead9c7837ddafb1bdb7bb4ca867e9bff454"
+    },
+    "positive_content": {
+      "path": "kb_creator/working/positive_content_audit_v7_rebuild.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": null,
+      "sha256": "28c18a88105011b6ec23cbf0e9bf56ea6d803c506c6be87dcf3284bfce649a3c"
+    },
+    "coc_mechanics": {
+      "path": "kb_creator/working/coc_mechanics_audit_v7_rebuild.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": null,
+      "sha256": "29638b11b1bceba080bf677847c394076fa27918786c4d201f89fe897bf7d00e"
+    },
+    "art_layout": {
+      "path": "kb_creator/working/art_layout_qa_v7_rebuild.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": 0,
+      "sha256": "d6f0b5ff591eb33a9df706a56ecd206fe435672f3329f32a17e3a4579e46d762"
+    },
+    "production_pdf": {
+      "path": "kb_creator/working/production_pdf_report_v7_rebuild_two_column.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": null,
+      "sha256": "fe73aa406ebedef080485a7ec011f83e017741fbac9ce1db8137e40ab143275f"
+    },
+    "pdf_print": {
+      "path": "kb_creator/working/pdf_print_qa_v7_rebuild_two_column.json",
+      "exists": true,
+      "status": "pass",
+      "findings": 0,
+      "warnings": 0,
+      "sha256": "6b21eaf6048c75a6bd21df46afe1e3e3afb3f47a374213d911ecaef77d94b507"
+    }
+  },
+  "comparisons": {
+    "html": {
+      "baseline": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v6.html",
+      "rebuild": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v7_rebuild.html",
+      "byte_identical": false,
+      "normalized_html_identical": false,
+      "visible_text_identical": false,
+      "reader_visible_text_identical": true,
+      "baseline_sha256": "153e5d58c2e3f229cac8c03575c3781f565faea1a8264a7f81000ab32e4925a0",
+      "rebuild_sha256": "c356877164cc8594ef767bd183fb1428552d284420a9578a048f01e65a9e4b5d",
+      "baseline_visible_text_sha256": "bfba4462c170abd581a903123aa68f1f05df307c3de4471e2a0df26d1a146e6c",
+      "rebuild_visible_text_sha256": "d2e4c3ebb66c953477d8388585277f0deb3da782b39d7db2343a43028db4ce6e",
+      "baseline_reader_visible_text_sha256": "158a7beef52ee7b16105ec52367b8906fe07b32897b82e5a2c0b3ef45fc110ff",
+      "rebuild_reader_visible_text_sha256": "158a7beef52ee7b16105ec52367b8906fe07b32897b82e5a2c0b3ef45fc110ff",
+      "baseline_img_count": 34,
+      "rebuild_img_count": 34,
+      "baseline_table_count": 156,
+      "rebuild_table_count": 156,
+      "baseline_statblock_count": 25,
+      "rebuild_statblock_count": 25
+    },
+    "pdf": {
+      "baseline": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v6_two_column.pdf",
+      "rebuild": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v7_rebuild_two_column.pdf",
+      "byte_identical": false,
+      "baseline_sha256": "d89ba390b296211692419d08f8e8f84cb0d393b54e94489531542bb5a0e08fc5",
+      "rebuild_sha256": "2838035735ed2759a11d1907831de91cf59967523f91d267fde5fc7054c88cc5"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "build-production-html",
+        "--config",
+        "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+        "--force"
+      ],
+      "started_at_utc": "2026-07-30T15:32:15.519034+00:00",
+      "finished_at_utc": "2026-07-30T15:32:15.806824+00:00",
+      "returncode": 0,
+      "stdout": "status=pass action=rewritten mode=production pages=45 headings=61 images=34 findings=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "CoC/Working/Scenarios/The_Innsmouth_Terror/project/scripts/apply_statblock_projection_to_html_v3.py"
+      ],
+      "started_at_utc": "2026-07-30T15:32:15.806913+00:00",
+      "finished_at_utc": "2026-07-30T15:32:15.953678+00:00",
+      "returncode": 0,
+      "stdout": "status=pass expected=22 projected=22 findings=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "positive-content-audit",
+        "--config",
+        "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+        "--check-only"
+      ],
+      "started_at_utc": "2026-07-30T15:32:15.954049+00:00",
+      "finished_at_utc": "2026-07-30T15:32:16.232422+00:00",
+      "returncode": 0,
+      "stdout": "status=pass tables=156 images=34 statblocks=22 kb_files=14 findings=0 report=kb_creator/working/positive_content_audit_v7_rebuild.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "coc-mechanics-audit",
+        "--config",
+        "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+        "--check-only"
+      ],
+      "started_at_utc": "2026-07-30T15:32:16.232742+00:00",
+      "finished_at_utc": "2026-07-30T15:32:16.574893+00:00",
+      "returncode": 0,
+      "stdout": "status=pass statblocks=22 residue=0 findings=0 report=kb_creator/working/coc_mechanics_audit_v7_rebuild.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "art-layout-qa",
+        "--config",
+        "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+        "--check-only"
+      ],
+      "started_at_utc": "2026-07-30T15:32:16.575222+00:00",
+      "finished_at_utc": "2026-07-30T15:32:16.888607+00:00",
+      "returncode": 0,
+      "stdout": "status=pass action=check_only placements=34 image_refs=34 findings=0 warnings=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "build-production-pdf",
+        "--config",
+        "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+        "--variant",
+        "two_column"
+      ],
+      "started_at_utc": "2026-07-30T15:32:16.888857+00:00",
+      "finished_at_utc": "2026-07-30T15:32:37.214326+00:00",
+      "returncode": 0,
+      "stdout": "status=pass action=built variant=two_column findings=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "pdf-print-qa",
+        "--config",
+        "kb_creator/working/the_innsmouth_terror.v7_rebuild.package.json",
+        "--variant",
+        "two_column",
+        "--check-only"
+      ],
+      "started_at_utc": "2026-07-30T15:32:37.214854+00:00",
+      "finished_at_utc": "2026-07-30T15:32:38.563570+00:00",
+      "returncode": 0,
+      "stdout": "status=pass action=check_only variant=two_column pages=32 text_chars=124728 findings=0 warnings=0\n",
+      "stderr": ""
+    }
+  ],
+  "findings": []
+}

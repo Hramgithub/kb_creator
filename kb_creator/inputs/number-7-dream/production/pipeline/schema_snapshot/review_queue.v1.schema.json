@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.review_queue.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "run_identity_sha256", "contract_sha256", "source_sha256", "comparison", "required_decision_schema", "items", "queue_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.review_queue.v1"},
+    "run_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "contract_sha256": {"$ref": "#/$defs/sha256"},
+    "source_sha256": {"$ref": "#/$defs/sha256"},
+    "comparison": {"$ref": "#/$defs/file"},
+    "required_decision_schema": {"const": "kb_creator.mineru_ai_page_decision.v1"},
+    "items": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/item"}},
+    "queue_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "bytes", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "bytes": {"type": "integer", "minimum": 0},
+        "sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "source_page", "contract_role", "contract_traits", "contract_strategies", "merge_packet", "issue_kinds", "required_decision_file", "state"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^page-[0-9]{3,}$"},
+        "source_page": {"type": "integer", "minimum": 1},
+        "contract_role": {"type": "string", "minLength": 1},
+        "contract_traits": {"type": "array", "items": {"type": "string"}},
+        "contract_strategies": {"type": "array", "items": {"type": "string"}},
+        "merge_packet": {"$ref": "#/$defs/file"},
+        "issue_kinds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["page_fidelity", "reading_order", "visual_preserve", "ocr_region", "structured_statblock", "structured_table", "form_like", "geometry_box_difference", "semantic_conflict", "asset_ambiguity"]
+          }
+        },
+        "required_decision_file": {"type": "string", "pattern": "^pages/page-[0-9]{3,}\\.json$"},
+        "state": {"const": "open"}
+      }
+    }
+  }
+}

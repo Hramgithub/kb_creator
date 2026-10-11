@@ -1,0 +1,630 @@
+{
+  "schema": "kb_creator.reviewed_docx_revision_report.v1",
+  "status": "validated_candidate",
+  "accepted": false,
+  "provenance": "reviewed_artifact_successor",
+  "inputs": {
+    "manifest_sha256": "61CD83812C203E0314ECBED40786657A1AD8B27C1E1365487A1DB330E847C3F2",
+    "docx_sha256": "E8505B99F81A54E02FC1AEA9777C45AE12FDE600A8AB2B2728DDE8F9C0BF8DCD",
+    "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+    "authorities": {
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-v01.json": "2C73DB781071F460231A5AE5AA33E26AFC8A9198B894B50BE9C26D71EA81F091",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\comments\\comments_inventory.json": "18049BD014C00D30E02FB27A9EECF7DD9814B4C068D9AABDB457DAF63001185A",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\art\\native-recovery-spec.json": "4653EB8E849B5F4CBEA4714BB5DB2CE4718E80BB87A3C0BCE0D8CE053F51C203",
+      "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\manifest.json": "3F6DC0C2E5D5AD1E230DF97CA691A2046AE68F53320B1EBDAC92DE8D9F3B0D39"
+    }
+  },
+  "output": {
+    "docx_sha256": "D79AB0EC131D2C6926D868EB037786093F615AEAF122895AA4487254616CF33E",
+    "path": "D:/NRI/kb_creator/working/user-review-20261004/fear-reader-v01/document.docx"
+  },
+  "preservation": {
+    "old_drawing_occurrences": 63,
+    "old_media_parts": 63,
+    "old_comment_thread_parts": [
+      "word/comments.xml",
+      "word/commentsExtended.xml",
+      "word/commentsIds.xml",
+      "word/commentsExtensible.xml"
+    ],
+    "bookmarks": 1139,
+    "hyperlinks": 26
+  },
+  "operations": [
+    {
+      "issue_id": "fear-berglowe-unlabelled-13",
+      "kind": "text",
+      "before": "СИЛ 65 ВЫН 70 ТЕЛ 65 ИНТ 55 МОЩ 65 ЛВК 50 НАР 50 ОБР 60 РАС 65 13",
+      "after": "СИЛ 65 ВЫН 70 ТЕЛ 65 ИНТ 55 МОЩ 65 ЛВК 50 НАР 50 ОБР 60 РАС 65 ПЗ 13"
+    },
+    {
+      "issue_id": "fear-lori-dodge-threshold",
+      "kind": "text",
+      "before": "Уклонение 70% (70/14))",
+      "after": "Уклонение 70% (35/14)"
+    },
+    {
+      "issue_id": "fear-ferguson-age-60-vs-55",
+      "kind": "text",
+      "before": "Умелый психотерапевт, особенно хорошо умеющий успокаивать людей, доктор Фергюсон — полный шестидесятилетний белый мужчина с хорошей репутацией и без судимостей. Он трудоголик, и к его кабинету на первом этаже примыкает спальня. Если он не в отпуске (что бывает редко) и не в гостях у друга, где участвует в записываемом на видео садистском развлечении (что, к сожалению, случается часто), он находится в клинике, работает и зарабатывает деньги. Он не женат; детей, чьё существование он признавал бы, у него нет. Его способность успокаивать людей позволяет хорошо зарабатывать и одновременно расширять круг деятельности соучастников-садистов, продлевая пытки. Иногда он устраивает такие сборища в своей скрытой операционной, созывая садистов со всего мира, но довольно часто ездит в другие места. Ведёт себя предельно сдержанно и собранно, почти невозмутимо.",
+      "after": "Умелый психотерапевт, особенно хорошо умеющий успокаивать людей, доктор Фергюсон — полный пятидесятипятилетний белый мужчина с хорошей репутацией и без судимостей. Он трудоголик, и к его кабинету на первом этаже примыкает спальня. Если он не в отпуске (что бывает редко) и не в гостях у друга, где участвует в записываемом на видео садистском развлечении (что, к сожалению, случается часто), он находится в клинике, работает и зарабатывает деньги. Он не женат; детей, чьё существование он признавал бы, у него нет. Его способность успокаивать людей позволяет хорошо зарабатывать и одновременно расширять круг деятельности соучастников-садистов, продлевая пытки. Иногда он устраивает такие сборища в своей скрытой операционной, созывая садистов со всего мира, но довольно часто ездит в другие места. Ведёт себя предельно сдержанно и собранно, почти невозмутимо."
+    },
+    {
+      "issue_id": "fear-camera-monitoring-hours",
+      "kind": "text",
+      "before": "Другие слабые места зависят от персонала. За исключением промежутка с 8:00 утра до 6:00 утра, камеры контролируются с поста медсестры; если сотрудники чем-то отвлечены, за камерами никто не следит. Все двери и окна оборудованы сигнализацией, которая срабатывает при входе без ключа (проверка «Взлома» позволяет обойти её, не включая сигнал); сирены громкие и оповещают и Берглоу, и мобильный телефон доктора Фергюсона.",
+      "after": "Другие слабые места зависят от персонала. За исключением промежутка с 8:00 утра до 6:00 вечера, камеры контролируются с поста медсестры; если сотрудники чем-то отвлечены, за камерами никто не следит. Все двери и окна оборудованы сигнализацией, которая срабатывает при входе без ключа (проверка «Взлома» позволяет обойти её, не включая сигнал); сирены громкие и оповещают и Берглоу, и мобильный телефон доктора Фергюсона."
+    },
+    {
+      "issue_id": "fear-london-accident-date",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "fear-amos-melling-dangling-clause",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "fear-pencik-timeline",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "fear-handgun-45-extreme",
+      "kind": "text",
+      "before": "Стрельба (пистолет) 45% (22/8), самозарядный пистолет .38: 1 или 3 выстрела за раунд, урон 1D10, дальность 15 ярдов, неисправность 99, ёмкость 8 патронов. Так вооружён только один работник.",
+      "after": "Стрельба (пистолет) 45% (22/9), самозарядный пистолет .38: 1 или 3 выстрела за раунд, урон 1D10, дальность 15 ярдов, неисправность 99, ёмкость 8 патронов. Так вооружён только один работник."
+    },
+    {
+      "issue_id": "fear-mortuary-two-names",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "fear-easy-track",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "fear-cover-scenario-count",
+      "kind": "text",
+      "before": "ДВАДЦАТЬ ЧЕТЫРЕ ЛЕДЕНЯЩИХ ДУШУ ПОГРУЖЕНИЯ В УЖАС — КАЖДОЕ НА ОДНУ ИГРОВУЮ ВСТРЕЧУ",
+      "after": "ДВАДЦАТЬ ШЕСТЬ ЛЕДЕНЯЩИХ ДУШУ ПОГРУЖЕНИЯ В УЖАС — КАЖДОЕ НА ОДНУ ИГРОВУЮ ВСТРЕЧУ"
+    },
+    {
+      "graphic_id": "opening-008",
+      "kind": "art",
+      "source_page": 8,
+      "reader_story": "opening-008",
+      "position_text_sha256": "591040477183EABA7C539C7B30AB6BB0EF12C958E6BDB1C7411054D521A10ACF",
+      "selected_sha256": "4D71629269EDCBEE5A9A3B571B16FEB72F33255B6735C764DDE15DAFDABF5C2B",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 64,
+      "part": "word/media/revision-1.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6497072
+    },
+    {
+      "graphic_id": "opening-014",
+      "kind": "art",
+      "source_page": 14,
+      "reader_story": "opening-014",
+      "position_text_sha256": "6E63A6AD02F55A978B1612406D402F183225A6144DB38286893C7F6221ABFBA9",
+      "selected_sha256": "53A9BA228E3BFEC785576A6E84FDC4710DC69EC1318FBD4713D7177989B29A21",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 65,
+      "part": "word/media/revision-2.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-019",
+      "kind": "art",
+      "source_page": 19,
+      "reader_story": "opening-019",
+      "position_text_sha256": "6FF365DE2D04966AF612992630CB38C18D62746CCEEA31AD999423E2874010A5",
+      "selected_sha256": "21C6CA4E0807E7115B56C7086E94E80C119A090CFAA0469597E129BA139A0EE8",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 66,
+      "part": "word/media/revision-3.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-024",
+      "kind": "art",
+      "source_page": 24,
+      "reader_story": "opening-024",
+      "position_text_sha256": "E2E329A0268BFA5CA22E1DD0EC943E96A804762280CF71B3DEC54FA788379377",
+      "selected_sha256": "CD211BEEEF17FF6F7D9E6296E25FFB4C95ABB3D5C7899A9D32C2A1AA95F4D376",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 67,
+      "part": "word/media/revision-4.jpg",
+      "width_emu": 5029200,
+      "height_emu": 3867041
+    },
+    {
+      "graphic_id": "opening-029",
+      "kind": "art",
+      "source_page": 29,
+      "reader_story": "opening-029",
+      "position_text_sha256": "8FFA9BC79D4763128A5A37F37652C54AFED24C58617257A1495E362ADD56EDC8",
+      "selected_sha256": "83C86DF9816DBFA4360AAE3447B16A977C7E7E3FCEEB1262C222C18B1FE4543C",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 68,
+      "part": "word/media/revision-5.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-035",
+      "kind": "art",
+      "source_page": 35,
+      "reader_story": "opening-035",
+      "position_text_sha256": "236B829739813300B19F9A32420FE3F1EE5ADC8079F61998148116F15A441E07",
+      "selected_sha256": "F89A033018284F54071D038315D1EB8CE9DCC4F08556B470DAC3B1AE9CD0A28D",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 69,
+      "part": "word/media/revision-6.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-041",
+      "kind": "art",
+      "source_page": 41,
+      "reader_story": "opening-041",
+      "position_text_sha256": "E1525C47942F66913BF8E87D759AE34D89E144371F07C1698D239BD71567BC4F",
+      "selected_sha256": "AD037BB6EA60631F508C88846CEB4C2FEAFAC4DFB67AC59C9699EBF8B72D3059",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 70,
+      "part": "word/media/revision-7.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-051",
+      "kind": "art",
+      "source_page": 51,
+      "reader_story": "opening-051",
+      "position_text_sha256": "9A23BE68325775834C93220A3DAECC527F33A048B07217CC40CD4DACD21912DE",
+      "selected_sha256": "CF1CCE8162D03E30FD68F63B5B5A77C4C401EF7A0383C3FB4E49D426078328E8",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 71,
+      "part": "word/media/revision-8.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-057",
+      "kind": "art",
+      "source_page": 57,
+      "reader_story": "opening-057",
+      "position_text_sha256": "45F4A568D2922518D452D153F663C5CE3A6A3A70F91C614DDB94BBE6784D7731",
+      "selected_sha256": "091DFF1EADEBD12C0FF2693AD848CBC9E3BE97FDFDF7DA3068081741800324C7",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 72,
+      "part": "word/media/revision-9.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6512957
+    },
+    {
+      "graphic_id": "opening-063",
+      "kind": "art",
+      "source_page": 63,
+      "reader_story": "opening-063",
+      "position_text_sha256": "2F045DB4C0B1939B47AB6A0B80292620A8A18E3601BC20770277137D2F1B8778",
+      "selected_sha256": "8B133BD8D31CCF3866A7D6ADC2386CB92C900314423CCD6C6E29F0E61B16C2B7",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 73,
+      "part": "word/media/revision-10.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-069",
+      "kind": "art",
+      "source_page": 69,
+      "reader_story": "opening-069",
+      "position_text_sha256": "1812E6F40FA05ED822590676B7ABCE625B4159D0B4990225ED706C8B845AA148",
+      "selected_sha256": "97CB0E7DFA5C84054BE8891ABED59A256DB2DD2CF93D357C6352DE51CBC6DE6A",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 74,
+      "part": "word/media/revision-11.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6512957
+    },
+    {
+      "graphic_id": "opening-074",
+      "kind": "art",
+      "source_page": 74,
+      "reader_story": "opening-074",
+      "position_text_sha256": "54509DC8D97A54080009CAE4C4250A94E8B11D9676679DFD06208341BA55B696",
+      "selected_sha256": "BD7BDE94A1AD17740916B5B67F18F8FC7169855989607DE699D12B97651A4238",
+      "detected_content_type": "image/png",
+      "drawing_id": 75,
+      "part": "word/media/revision-1.png",
+      "width_emu": 5029200,
+      "height_emu": 6508376
+    },
+    {
+      "graphic_id": "opening-079",
+      "kind": "art",
+      "source_page": 79,
+      "reader_story": "opening-079",
+      "position_text_sha256": "94F4A7D01CABBAEF885221D0C50143C7E122CC6E1EC433F875A106C45DAC5A75",
+      "selected_sha256": "454B82B7FFD1074B95EBCB958D468C66D0F3ED14EB44C594B3176C45997D81A2",
+      "detected_content_type": "image/png",
+      "drawing_id": 76,
+      "part": "word/media/revision-2.png",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-086",
+      "kind": "art",
+      "source_page": 86,
+      "reader_story": "opening-086",
+      "position_text_sha256": "F0D34EB4045BED645691204C37914F7D9DAC5027AB73A74CDB5DD658871A6750",
+      "selected_sha256": "7B1731A84C3F1A97D83734339D58DC536A4E169BA236F722691D2D7CF6DDE44B",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 77,
+      "part": "word/media/revision-12.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-092",
+      "kind": "art",
+      "source_page": 92,
+      "reader_story": "opening-092",
+      "position_text_sha256": "97C3B1D3606E5B64FBD661C10B287CFF8FB9F595F5205A0BB40C56312C940C98",
+      "selected_sha256": "8D223FBE436196EC5EC5F617830BFE375C7D64544830172B6E0CCE8FBEBCF9E9",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 78,
+      "part": "word/media/revision-13.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-097",
+      "kind": "art",
+      "source_page": 97,
+      "reader_story": "opening-097",
+      "position_text_sha256": "D8FC4649868163E61161295A3A048A6F33EE1FE40D5491F758BF6C01EE15F3EA",
+      "selected_sha256": "94B6D1ABBDAA7A26492003E2AE43DC00D09751AECB83ED1F8AC4F2C94B78922C",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 79,
+      "part": "word/media/revision-14.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-103",
+      "kind": "art",
+      "source_page": 103,
+      "reader_story": "opening-103",
+      "position_text_sha256": "1C2C51E23D3DB7B31A90375914F37C8051EAA5835F53E56AD9071196081C6259",
+      "selected_sha256": "D63CD034DEF626C645CA916068246B6E82AC95C559AB8FB5CB857DFE7586AB64",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 80,
+      "part": "word/media/revision-15.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6512957
+    },
+    {
+      "graphic_id": "opening-109",
+      "kind": "art",
+      "source_page": 109,
+      "reader_story": "opening-109",
+      "position_text_sha256": "04F26319498294B022698FBEB30A083C13E45937E861EFD3C2CF4CE88EF723BE",
+      "selected_sha256": "FE544E2FF0BA453393F007F07D9FF43222D085BB1FC3751EEE4AC238D67D6888",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 81,
+      "part": "word/media/revision-16.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-119",
+      "kind": "art",
+      "source_page": 119,
+      "reader_story": "opening-119",
+      "position_text_sha256": "EE708EC340094F206F357EB3D7D42FC3B19853B217CDC308A69C47B5528952C0",
+      "selected_sha256": "A1D4FB45F25457F7993BB1518ED14F315FF1A039C5D8E33BD327BF33A7BA17E7",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 82,
+      "part": "word/media/revision-17.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-124",
+      "kind": "art",
+      "source_page": 124,
+      "reader_story": "opening-124",
+      "position_text_sha256": "C7C3C53E3D36228B3D0F633040936BD1E86B61A20456F9BA498C8B703F81D7E1",
+      "selected_sha256": "D8A5812535137CA139433844602B81B6E0A5C2D4BCD91921824027A039E1E636",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 83,
+      "part": "word/media/revision-18.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-135",
+      "kind": "art",
+      "source_page": 135,
+      "reader_story": "opening-135",
+      "position_text_sha256": "23515980A8146718539CE30962DB44F1F2E2403037ED2EA13E402E08B21C0159",
+      "selected_sha256": "231C4C25F15B9B1FCDEAD8053CE38A2A195E8D98F96B494F178408CD27310054",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 84,
+      "part": "word/media/revision-19.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    },
+    {
+      "graphic_id": "opening-141",
+      "kind": "art",
+      "source_page": 141,
+      "reader_story": "opening-141",
+      "position_text_sha256": "8259CC6E40B3109A3B3EB26CA552BD8EB7509760B7588C6C08056BAFC3CC409B",
+      "selected_sha256": "3E619A8D93CCEF394556A0493A4B950AA350DB7BAFEE9D1258A1FD48B3EB9E38",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 85,
+      "part": "word/media/revision-20.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6512957
+    },
+    {
+      "graphic_id": "opening-147",
+      "kind": "art",
+      "source_page": 147,
+      "reader_story": "opening-147",
+      "position_text_sha256": "0ED116531C13C41C175A788598E4A8D6A7BB431CE02F010246A054D24178BA0D",
+      "selected_sha256": "777B9B00684D41E866D16146231A821885F9711E5A400760F473E8B897A7BE8B",
+      "detected_content_type": "image/jpeg",
+      "drawing_id": 86,
+      "part": "word/media/revision-21.jpg",
+      "width_emu": 5029200,
+      "height_emu": 6502359
+    }
+  ],
+  "source_graphic_coverage": [
+    {
+      "graphic_id": "opening-008",
+      "source_page": 8,
+      "reader_story": "opening-008",
+      "disposition": "must_include",
+      "sha256": "4D71629269EDCBEE5A9A3B571B16FEB72F33255B6735C764DDE15DAFDABF5C2B",
+      "drawing_id": "64",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-014",
+      "source_page": 14,
+      "reader_story": "opening-014",
+      "disposition": "must_include",
+      "sha256": "53A9BA228E3BFEC785576A6E84FDC4710DC69EC1318FBD4713D7177989B29A21",
+      "drawing_id": "65",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-019",
+      "source_page": 19,
+      "reader_story": "opening-019",
+      "disposition": "must_include",
+      "sha256": "21C6CA4E0807E7115B56C7086E94E80C119A090CFAA0469597E129BA139A0EE8",
+      "drawing_id": "66",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-024",
+      "source_page": 24,
+      "reader_story": "opening-024",
+      "disposition": "must_include",
+      "sha256": "CD211BEEEF17FF6F7D9E6296E25FFB4C95ABB3D5C7899A9D32C2A1AA95F4D376",
+      "drawing_id": "67",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-029",
+      "source_page": 29,
+      "reader_story": "opening-029",
+      "disposition": "must_include",
+      "sha256": "83C86DF9816DBFA4360AAE3447B16A977C7E7E3FCEEB1262C222C18B1FE4543C",
+      "drawing_id": "68",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-035",
+      "source_page": 35,
+      "reader_story": "opening-035",
+      "disposition": "must_include",
+      "sha256": "F89A033018284F54071D038315D1EB8CE9DCC4F08556B470DAC3B1AE9CD0A28D",
+      "drawing_id": "69",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-041",
+      "source_page": 41,
+      "reader_story": "opening-041",
+      "disposition": "must_include",
+      "sha256": "AD037BB6EA60631F508C88846CEB4C2FEAFAC4DFB67AC59C9699EBF8B72D3059",
+      "drawing_id": "70",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-046",
+      "source_page": 46,
+      "reader_story": "opening-046",
+      "disposition": "must_include",
+      "sha256": "BA22F198A4E44815E2568B7025FCFE0B21B4C878F9BF2334F6F31246062D6826",
+      "drawing_id": "11",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-051",
+      "source_page": 51,
+      "reader_story": "opening-051",
+      "disposition": "must_include",
+      "sha256": "CF1CCE8162D03E30FD68F63B5B5A77C4C401EF7A0383C3FB4E49D426078328E8",
+      "drawing_id": "71",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-057",
+      "source_page": 57,
+      "reader_story": "opening-057",
+      "disposition": "must_include",
+      "sha256": "091DFF1EADEBD12C0FF2693AD848CBC9E3BE97FDFDF7DA3068081741800324C7",
+      "drawing_id": "72",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-063",
+      "source_page": 63,
+      "reader_story": "opening-063",
+      "disposition": "must_include",
+      "sha256": "8B133BD8D31CCF3866A7D6ADC2386CB92C900314423CCD6C6E29F0E61B16C2B7",
+      "drawing_id": "73",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-069",
+      "source_page": 69,
+      "reader_story": "opening-069",
+      "disposition": "must_include",
+      "sha256": "97CB0E7DFA5C84054BE8891ABED59A256DB2DD2CF93D357C6352DE51CBC6DE6A",
+      "drawing_id": "74",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-074",
+      "source_page": 74,
+      "reader_story": "opening-074",
+      "disposition": "must_include",
+      "sha256": "BD7BDE94A1AD17740916B5B67F18F8FC7169855989607DE699D12B97651A4238",
+      "drawing_id": "75",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-079",
+      "source_page": 79,
+      "reader_story": "opening-079",
+      "disposition": "must_include",
+      "sha256": "454B82B7FFD1074B95EBCB958D468C66D0F3ED14EB44C594B3176C45997D81A2",
+      "drawing_id": "76",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-086",
+      "source_page": 86,
+      "reader_story": "opening-086",
+      "disposition": "must_include",
+      "sha256": "7B1731A84C3F1A97D83734339D58DC536A4E169BA236F722691D2D7CF6DDE44B",
+      "drawing_id": "77",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-092",
+      "source_page": 92,
+      "reader_story": "opening-092",
+      "disposition": "must_include",
+      "sha256": "8D223FBE436196EC5EC5F617830BFE375C7D64544830172B6E0CCE8FBEBCF9E9",
+      "drawing_id": "78",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-097",
+      "source_page": 97,
+      "reader_story": "opening-097",
+      "disposition": "must_include",
+      "sha256": "94B6D1ABBDAA7A26492003E2AE43DC00D09751AECB83ED1F8AC4F2C94B78922C",
+      "drawing_id": "79",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-103",
+      "source_page": 103,
+      "reader_story": "opening-103",
+      "disposition": "must_include",
+      "sha256": "D63CD034DEF626C645CA916068246B6E82AC95C559AB8FB5CB857DFE7586AB64",
+      "drawing_id": "80",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-109",
+      "source_page": 109,
+      "reader_story": "opening-109",
+      "disposition": "must_include",
+      "sha256": "FE544E2FF0BA453393F007F07D9FF43222D085BB1FC3751EEE4AC238D67D6888",
+      "drawing_id": "81",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-113",
+      "source_page": 113,
+      "reader_story": "opening-113",
+      "disposition": "must_include",
+      "sha256": "AAC5BA4754CDDDF24D49C9D6293714C35C8B51AAC3DD463B638B97F3B1A7884E",
+      "drawing_id": "25",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-119",
+      "source_page": 119,
+      "reader_story": "opening-119",
+      "disposition": "must_include",
+      "sha256": "A1D4FB45F25457F7993BB1518ED14F315FF1A039C5D8E33BD327BF33A7BA17E7",
+      "drawing_id": "82",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-124",
+      "source_page": 124,
+      "reader_story": "opening-124",
+      "disposition": "must_include",
+      "sha256": "D8A5812535137CA139433844602B81B6E0A5C2D4BCD91921824027A039E1E636",
+      "drawing_id": "83",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-129",
+      "source_page": 129,
+      "reader_story": "opening-129",
+      "disposition": "must_include",
+      "sha256": "7DCF1C60DA69F16CB29786D1A773917038BD442AFB5986F38BB96EB62DC55186",
+      "drawing_id": "29",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-135",
+      "source_page": 135,
+      "reader_story": "opening-135",
+      "disposition": "must_include",
+      "sha256": "231C4C25F15B9B1FCDEAD8053CE38A2A195E8D98F96B494F178408CD27310054",
+      "drawing_id": "84",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-141",
+      "source_page": 141,
+      "reader_story": "opening-141",
+      "disposition": "must_include",
+      "sha256": "3E619A8D93CCEF394556A0493A4B950AA350DB7BAFEE9D1258A1FD48B3EB9E38",
+      "drawing_id": "85",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-147",
+      "source_page": 147,
+      "reader_story": "opening-147",
+      "disposition": "must_include",
+      "sha256": "777B9B00684D41E866D16146231A821885F9711E5A400760F473E8B897A7BE8B",
+      "drawing_id": "86",
+      "occurrence_ordinal": 0
+    }
+  ],
+  "limitations": [
+    "Reviewed-artifact successor; lost upstream master lineage cannot be reconstructed.",
+    "Rendered page QA and independent release review remain pending."
+  ]
+}

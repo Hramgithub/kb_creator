@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.ai_merge_fidelity_reviewed_allowlist.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "authority", "substitutions", "source_text_exclusions", "visual_text_assertions"],
+  "properties": {
+    "schema": {"const": "kb_creator.ai_merge_fidelity_reviewed_allowlist.v2"},
+    "authority": {
+      "type": "object", "additionalProperties": false,
+      "required": ["run_identity_sha256", "source_sha256", "contract_sha256", "review_queue_sha256", "comparison_sha256"],
+      "properties": {
+        "run_identity_sha256": {"$ref": "#/$defs/sha"}, "source_sha256": {"$ref": "#/$defs/sha"},
+        "contract_sha256": {"$ref": "#/$defs/sha"}, "review_queue_sha256": {"$ref": "#/$defs/sha"},
+        "comparison_sha256": {"$ref": "#/$defs/sha"}
+      }
+    },
+    "substitutions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["source_page", "pattern", "max_count", "evidence"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "pattern": {"type": "object", "additionalProperties": false, "required": ["from", "to"], "properties": {"from": {"type": "string", "minLength": 1, "maxLength": 3}, "to": {"type": "string", "minLength": 1, "maxLength": 3}}}, "max_count": {"type": "integer", "minimum": 3}, "evidence": {"type": "string", "minLength": 1}}}},
+    "source_text_exclusions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["unit", "classification", "rationale", "visual", "logical_asset"], "properties": {"unit": {"$ref": "#/$defs/unit"}, "classification": {"enum": ["visual_only", "advertisement", "decorative", "non_reader", "ocr_artifact"]}, "rationale": {"type": "string", "minLength": 1}, "visual": {"$ref": "#/$defs/visual"}, "logical_asset": {"type": ["string", "null"]}}}},
+    "visual_text_assertions": {"type": "array", "items": {"$ref": "#/$defs/assertion"}}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "unit": {"type": "object", "additionalProperties": false, "required": ["source_page", "view_id", "raw_index", "block_type", "bbox", "original_text_sha256", "normalized_text_sha256", "normalized_character_count"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "view_id": {"enum": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr"]}, "raw_index": {"type": "integer", "minimum": 0}, "block_type": {"type": "string", "minLength": 1}, "bbox": {"oneOf": [{"type": "null"}, {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "items": false}]}, "original_text_sha256": {"$ref": "#/$defs/sha"}, "normalized_text_sha256": {"$ref": "#/$defs/sha"}, "normalized_character_count": {"type": "integer", "minimum": 1}}},
+    "visual": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}},
+    "assertion": {"type": "object", "additionalProperties": false, "required": ["source_page", "text", "original_text_sha256", "normalized_text_sha256", "bbox", "rationale", "visual"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "text": {"type": "string", "minLength": 1}, "original_text_sha256": {"$ref": "#/$defs/sha"}, "normalized_text_sha256": {"$ref": "#/$defs/sha"}, "bbox": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "items": false}, "rationale": {"type": "string", "minLength": 1}, "visual": {"$ref": "#/$defs/visual"}}}
+  }
+}

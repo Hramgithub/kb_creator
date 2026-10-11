@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "nri.mineru_provider_capabilities.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "checked_at_utc", "execution_boundary", "providers", "receipt_sha256"],
+  "properties": {
+    "schema": {"const": "nri.mineru_provider_capabilities.v1"},
+    "checked_at_utc": {"type": "string", "format": "date-time"},
+    "execution_boundary": {"const": "current_station_local_only"},
+    "providers": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "prefixItems": [
+        {"$ref": "#/$defs/pipeline_cpu"},
+        {"$ref": "#/$defs/hybrid_cuda"},
+        {"$ref": "#/$defs/vlm_cuda"}
+      ],
+      "items": false
+    },
+    "receipt_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "$defs": {
+    "verification_receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path_hint", "bytes", "sha256"],
+      "properties": {
+        "path_hint": {"type": "string", "pattern": "^profiles/[A-Za-z0-9._-]+/verify-receipt\\.json$"},
+        "bytes": {"type": "integer", "minimum": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "pipeline_cpu": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider_id", "required", "state", "reason_code", "profile", "verification_receipt"],
+      "properties": {
+        "provider_id": {"const": "pipeline_cpu"},
+        "required": {"const": true},
+        "state": {"enum": ["ready", "invalid"]},
+        "reason_code": {"enum": ["verified_cpu_profile", "cpu_profile_not_verified", "cpu_profile_invalid"]},
+        "profile": {"const": "mineru-pipeline-cpu-windows-v1"},
+        "verification_receipt": {"oneOf": [{"$ref": "#/$defs/verification_receipt"}, {"type": "null"}]}
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "state": {"const": "ready"},
+            "reason_code": {"const": "verified_cpu_profile"},
+            "verification_receipt": {"$ref": "#/$defs/verification_receipt"}
+          }
+        },
+        {
+          "properties": {
+            "state": {"const": "invalid"},
+            "reason_code": {"enum": ["cpu_profile_not_verified", "cpu_profile_invalid"]},
+            "verification_receipt": {"type": "null"}
+          }
+        }
+      ]
+    },
+    "optional_cuda": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider_id", "required", "state", "reason_code", "profile", "verification_receipt"],
+      "properties": {
+        "provider_id": {"enum": ["hybrid_cuda", "vlm_cuda"]},
+        "required": {"const": false},
+        "state": {"enum": ["ready", "unavailable", "invalid"]},
+        "reason_code": {
+          "enum": [
+            "verified_cuda_profile",
+            "nvidia_device_not_detected",
+            "nvidia_driver_or_nvidia_smi_missing",
+            "nvidia_smi_query_failed",
+            "unsupported_local_gpu",
+            "cuda_profile_not_verified",
+            "cuda_profile_invalid"
+          ]
+        },
+        "profile": {"const": "mineru-local-windows-cu128-v1"},
+        "verification_receipt": {"oneOf": [{"$ref": "#/$defs/verification_receipt"}, {"type": "null"}]}
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "state": {"const": "ready"},
+            "reason_code": {"const": "verified_cuda_profile"},
+            "verification_receipt": {"$ref": "#/$defs/verification_receipt"}
+          }
+        },
+        {
+          "properties": {
+            "state": {"const": "unavailable"},
+            "reason_code": {
+              "enum": [
+                "nvidia_device_not_detected",
+                "nvidia_driver_or_nvidia_smi_missing",
+                "nvidia_smi_query_failed",
+                "unsupported_local_gpu"
+              ]
+            },
+            "verification_receipt": {"type": "null"}
+          }
+        },
+        {
+          "properties": {
+            "state": {"const": "invalid"},
+            "reason_code": {"enum": ["cuda_profile_not_verified", "cuda_profile_invalid"]},
+            "verification_receipt": {"type": "null"}
+          }
+        }
+      ]
+    },
+    "hybrid_cuda": {
+      "allOf": [
+        {"$ref": "#/$defs/optional_cuda"},
+        {"properties": {"provider_id": {"const": "hybrid_cuda"}}}
+      ]
+    },
+    "vlm_cuda": {
+      "allOf": [
+        {"$ref": "#/$defs/optional_cuda"},
+        {"properties": {"provider_id": {"const": "vlm_cuda"}}}
+      ]
+    }
+  }
+}

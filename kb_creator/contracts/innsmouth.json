@@ -1,0 +1,95 @@
+{
+  "schema": "kb_creator.scenario_contract.v1",
+  "contract_revision": 1,
+  "contract_role": "compatibility_shadow",
+  "scenario": {
+    "id": "innsmouth",
+    "title": "The Innsmouth Terror",
+    "product_type": "coc_scenario",
+    "source_language": "en",
+    "publication_languages": ["en", "ru"]
+  },
+  "source": {
+    "kind": "external_pdf",
+    "identity_status": "incomplete",
+    "locator_hint": null,
+    "sha256": null,
+    "byte_count": null,
+    "page_count": null,
+    "page_number_base": null,
+    "media_box_points": null,
+    "rotation_degrees": null
+  },
+  "scope": null,
+  "page_roles": [],
+  "artifacts": {
+    "reconstructed_en": "RECONSTRUCTED_EN.md",
+    "master_en": "MASTER_EN.md",
+    "master_ru": "MASTER_RU.md",
+    "html": "The_Innsmouth_Terror_RU.html",
+    "pdf": "The_Innsmouth_Terror_RU.pdf",
+    "production_manifest": "PRODUCTION_MANIFEST.json"
+  },
+  "policies": null,
+  "acceptance": null,
+  "exceptions": [],
+  "compatibility_evidence": {
+    "control_pdf_sha256": {
+      "sha256": "5850B26A077390ABFF4A321E754A3709D6148FA4AC7A9F4D63BDBEFF6949B1BB",
+      "status": "unavailable_control_identity"
+    },
+    "retained_markdown_candidate_sha256": {
+      "sha256": "1504A9C71CA995748E4125B7303C0D3064E588ABB226EBB5AB99A5F5763C993C",
+      "kind": "retained_markdown_candidate"
+    },
+    "reconstructed_page_marker_domain": {
+      "kind": "reconstructed_markdown_page_markers",
+      "base": 0,
+      "first": 0,
+      "last": 45,
+      "count": 46
+    },
+    "accepted_reconstructed_evidence": {
+      "reconstructed_markdown": {
+        "byte_count": 138426,
+        "sha256": "8F5A35B6FBE545691EEF66C52A848F0F04776A247CCAAF40B16140FEB0C543BF"
+      },
+      "reconstructed_qa": {
+        "byte_count": 75179,
+        "sha256": "8C351053E49AE3546BCA5857394DDCCBA2FF60AE05DA75C03ACB47E076B06DA9"
+      },
+      "assets": {
+        "count": 136,
+        "inventory_sha256": "B6F9BF00B01DB09ED06723871B97B424206C5A79EB624C8F5768A847B1CE3B39"
+      }
+    },
+    "accepted_stage_manifests": {
+      "master_en": {
+        "root": "inputs/innsmouth/master_en/accepted_20260830_r6",
+        "manifest": "MASTER_EN.acceptance.json",
+        "byte_count": 1320,
+        "sha256": "AD9A6546EB7421F4387A4E6B547B2CD6B61346A3B326D25110A56028FC919B83"
+      },
+      "master_ru": {
+        "root": "inputs/innsmouth/master_ru/accepted_20260830_r6",
+        "manifest": "MASTER_RU.acceptance.json",
+        "byte_count": 4075,
+        "sha256": "B87C34F312258FB349B6AE549A398637096CE3A29D9B623EEDA28D5ECF4EC384"
+      },
+      "html": {
+        "root": "inputs/innsmouth/html/accepted_20260830_r6",
+        "manifest": "HTML.acceptance.json",
+        "byte_count": 7208,
+        "sha256": "F3A6EC483858060B46EB266893FEE7D4AE4F63D3A9A0A26CCB899D5903B4375A"
+      },
+      "pdf": {
+        "root": "inputs/innsmouth/pdf/accepted_20260830_r7",
+        "manifest": "PDF.acceptance.json",
+        "byte_count": 7890,
+        "sha256": "5861569529394C8B04BD7903B1BD07C420812AD63DC1C669F7CA4E11E40E0154"
+      }
+    },
+    "authority": "existing_accepted_manifests_and_verifiers",
+    "runtime_authority": false
+  }
+}

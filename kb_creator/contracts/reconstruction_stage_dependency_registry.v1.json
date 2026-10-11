@@ -1,0 +1,229 @@
+{
+  "schema": "kb_creator.reconstruction_stage_dependency_registry.v1",
+  "registry_version": 1,
+  "supported_run_schemas": [
+    "kb_creator.run_spec.v2",
+    "kb_creator.run_spec.v3",
+    "kb_creator.run_spec.v4"
+  ],
+  "supported_source_stage_schemas": [
+    "kb_creator.stage_manifest.v1",
+    "kb_creator.stage_manifest.v2"
+  ],
+  "fixed_graph": [
+    "01-prepare-inputs",
+    "02-mineru-three-view",
+    "03-compare-views",
+    "04-visual-merge-bundle"
+  ],
+  "stages": [
+    {
+      "stage_id": "01-prepare-inputs",
+      "stage_name": "prepare_inputs",
+      "direct_upstream": [],
+      "run_field_selectors": [
+        "target",
+        "profile",
+        "contract",
+        "source",
+        "scope",
+        "options",
+        "execution_boundary"
+      ],
+      "implementation_paths": [
+        "kb_creator/pipeline/reconstruction.py",
+        "kb_creator/pipeline/identity.py",
+        "kb_creator/pipeline/manifests.py",
+        "kb_creator/pipeline/mineru_cpu_first.py",
+        "kb_creator/pipeline/process.py",
+        "kb_creator/pipeline/windows_process_tree.py",
+        "kb_creator/contracts/run_spec.v2.schema.json",
+        "kb_creator/scripts/prepare_mineru_three_view_inputs.py",
+        "kb_creator/contracts/mineru_three_view_inputs.v2.schema.json",
+        "kb_creator/contracts/mineru_geometry_plan.v1.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v2.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v3.schema.json",
+        "kb_creator/contracts/run_spec.v3.schema.json",
+        "kb_creator/contracts/run_spec.v4.schema.json",
+        "kb_creator/contracts/mineru_three_view_inputs.v3.schema.json"
+      ],
+      "tool_selectors": [
+        "common_tools"
+      ],
+      "provider_selectors": [],
+      "output_validator": "cpu_first_prepare_inputs_v1",
+      "argv_recipe": "prepare_inputs_v1"
+    },
+    {
+      "stage_id": "02-mineru-three-view",
+      "stage_name": "mineru_three_view",
+      "direct_upstream": [
+        "01-prepare-inputs"
+      ],
+      "run_field_selectors": [
+        "target",
+        "profile",
+        "contract",
+        "source",
+        "scope",
+        "options",
+        "execution_boundary",
+        "view_plan",
+        "capability_snapshot",
+        "provider_profiles"
+      ],
+      "implementation_paths": [
+        "kb_creator/pipeline/reconstruction.py",
+        "kb_creator/pipeline/identity.py",
+        "kb_creator/pipeline/manifests.py",
+        "kb_creator/pipeline/mineru_cpu_first.py",
+        "kb_creator/pipeline/process.py",
+        "kb_creator/pipeline/windows_process_tree.py",
+        "kb_creator/contracts/run_spec.v2.schema.json",
+        "kb_creator/scripts/run_mineru_three_view.ps1",
+        "kb_creator/contracts/mineru_view_execution.v1.schema.json",
+        "kb_creator/contracts/mineru_view_set.v1.schema.json",
+        "kb_creator/contracts/mineru_three_view_inputs.v2.schema.json",
+        "MinerU/scripts/probe-capability.ps1",
+        "kb_creator/contracts/scenario_reconstruction_contract.v2.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v3.schema.json",
+        "kb_creator/contracts/run_spec.v3.schema.json",
+        "kb_creator/contracts/run_spec.v4.schema.json",
+        "kb_creator/contracts/mineru_three_view_inputs.v3.schema.json"
+      ],
+      "tool_selectors": [
+        "common_tools",
+        "toolchain"
+      ],
+      "provider_selectors": [
+        "capability_snapshot",
+        "provider_profiles"
+      ],
+      "output_validator": "cpu_first_mineru_three_view_v1",
+      "argv_recipe": "mineru_three_view_v1"
+    },
+    {
+      "stage_id": "03-compare-views",
+      "stage_name": "compare_views",
+      "direct_upstream": [
+        "01-prepare-inputs",
+        "02-mineru-three-view"
+      ],
+      "run_field_selectors": [
+        "target",
+        "profile",
+        "contract",
+        "source",
+        "scope",
+        "options",
+        "execution_boundary",
+        "view_plan"
+      ],
+      "implementation_paths": [
+        "kb_creator/pipeline/reconstruction.py",
+        "kb_creator/pipeline/identity.py",
+        "kb_creator/pipeline/manifests.py",
+        "kb_creator/pipeline/mineru_cpu_first.py",
+        "kb_creator/pipeline/process.py",
+        "kb_creator/pipeline/windows_process_tree.py",
+        "kb_creator/contracts/run_spec.v2.schema.json",
+        "kb_creator/scripts/compare_mineru_three_views.py",
+        "kb_creator/contracts/mineru_view_set.v1.schema.json",
+        "kb_creator/contracts/mineru_multi_view_comparison.v2.schema.json",
+        "kb_creator/contracts/mineru_three_view_inputs.v2.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v2.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v3.schema.json",
+        "kb_creator/contracts/run_spec.v3.schema.json",
+        "kb_creator/contracts/run_spec.v4.schema.json",
+        "kb_creator/contracts/mineru_three_view_inputs.v3.schema.json"
+      ],
+      "tool_selectors": [
+        "common_tools"
+      ],
+      "provider_selectors": [],
+      "output_validator": "cpu_first_compare_views_v1",
+      "argv_recipe": "compare_views_v1"
+    },
+    {
+      "stage_id": "04-visual-merge-bundle",
+      "stage_name": "visual_merge_bundle",
+      "direct_upstream": [
+        "01-prepare-inputs",
+        "02-mineru-three-view",
+        "03-compare-views"
+      ],
+      "run_field_selectors": [
+        "target",
+        "profile",
+        "contract",
+        "source",
+        "scope",
+        "options",
+        "execution_boundary",
+        "view_plan"
+      ],
+      "implementation_paths": [
+        "kb_creator/pipeline/reconstruction.py",
+        "kb_creator/pipeline/identity.py",
+        "kb_creator/pipeline/manifests.py",
+        "kb_creator/pipeline/mineru_cpu_first.py",
+        "kb_creator/pipeline/process.py",
+        "kb_creator/pipeline/windows_process_tree.py",
+        "kb_creator/contracts/run_spec.v2.schema.json",
+        "kb_creator/scripts/build_mineru_visual_merge_bundle.py",
+        "kb_creator/contracts/mineru_three_view_inputs.v2.schema.json",
+        "kb_creator/contracts/mineru_view_set.v1.schema.json",
+        "kb_creator/contracts/mineru_multi_view_comparison.v2.schema.json",
+        "kb_creator/contracts/mineru_geometry_plan.v1.schema.json",
+        "kb_creator/contracts/mineru_geometry_failure.v1.schema.json",
+        "kb_creator/contracts/mineru_visual_merge_bundle.v2.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v2.schema.json",
+        "kb_creator/contracts/scenario_reconstruction_contract.v3.schema.json",
+        "kb_creator/contracts/run_spec.v3.schema.json",
+        "kb_creator/contracts/run_spec.v4.schema.json",
+        "kb_creator/contracts/mineru_three_view_inputs.v3.schema.json"
+      ],
+      "tool_selectors": [
+        "common_tools"
+      ],
+      "provider_selectors": [],
+      "output_validator": "cpu_first_visual_merge_bundle_v1",
+      "argv_recipe": "visual_merge_bundle_v1"
+    }
+  ],
+  "closed_selectors": {
+    "run_fields": [
+      "target",
+      "profile",
+      "contract",
+      "source",
+      "scope",
+      "options",
+      "execution_boundary",
+      "view_plan",
+      "capability_snapshot",
+      "provider_profiles"
+    ],
+    "tools": [
+      "common_tools",
+      "toolchain"
+    ],
+    "providers": [
+      "capability_snapshot",
+      "provider_profiles"
+    ],
+    "output_validators": [
+      "cpu_first_prepare_inputs_v1",
+      "cpu_first_mineru_three_view_v1",
+      "cpu_first_compare_views_v1",
+      "cpu_first_visual_merge_bundle_v1"
+    ],
+    "argv_recipes": [
+      "prepare_inputs_v1",
+      "mineru_three_view_v1",
+      "compare_views_v1",
+      "visual_merge_bundle_v1"
+    ]
+  },
+  "registry_sha256": "99C78EB7CC7F2BAC42ADA053FBC3770A91D2C2163B90350F3898551FB4CB9F96"
+}

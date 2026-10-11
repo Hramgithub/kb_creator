@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.scenario_publication_blueprint.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "blueprint_revision", "scenario", "upstream", "artifact_names", "configs", "master_en", "master_ru", "artview", "html", "docx", "pdf", "package", "tool_policy"],
+  "properties": {
+    "schema": {"const": "kb_creator.scenario_publication_blueprint.v1"},
+    "blueprint_revision": {"const": 1},
+    "scenario": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title_en", "title_ru", "language_source", "language_target"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "title_en": {"$ref": "#/$defs/nonblank"},
+        "title_ru": {"$ref": "#/$defs/nonblank"},
+        "language_source": {"const": "en"},
+        "language_target": {"const": "ru"}
+      }
+    },
+    "upstream": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reconstruction_contract_sha256", "required_artifact_roles"],
+      "properties": {
+        "reconstruction_contract_sha256": {"$ref": "#/$defs/sha256"},
+        "required_artifact_roles": {"const": ["reconstructed_en", "reconstruction_manifest", "reconstruction_qa", "source_identity"]}
+      }
+    },
+    "artifact_names": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["master_en", "master_ru", "html", "docx", "pdf"],
+      "properties": {
+        "master_en": {"type": "string", "pattern": "^[^/\\\\]+\\.md$"},
+        "master_ru": {"type": "string", "pattern": "^[^/\\\\]+\\.md$"},
+        "html": {"type": "string", "pattern": "^[^/\\\\]+\\.html$"},
+        "docx": {"type": "string", "pattern": "^[^/\\\\]+\\.docx$"},
+        "pdf": {"type": "string", "pattern": "^[^/\\\\]+\\.pdf$"}
+      }
+    },
+    "configs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["master_en", "master_ru", "artview", "html", "docx", "pdf", "package"],
+      "properties": {
+        "master_en": {"$ref": "#/$defs/relative_file"},
+        "master_ru": {"$ref": "#/$defs/relative_file"},
+        "artview": {"$ref": "#/$defs/relative_file"},
+        "html": {"$ref": "#/$defs/relative_file"},
+        "docx": {"$ref": "#/$defs/relative_file"},
+        "pdf": {"$ref": "#/$defs/relative_file"},
+        "package": {"$ref": "#/$defs/relative_file"}
+      }
+    },
+    "master_en": {"$ref": "#/$defs/profile_blueprint"},
+    "master_ru": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile", "terminology", "packet_policy", "required_qa"],
+      "properties": {
+        "profile": {"$ref": "#/$defs/nonblank"},
+        "terminology": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/relative_file"}},
+        "packet_policy": {"const": "ordered_hash_bound_units_v1"},
+        "required_qa": {"$ref": "#/$defs/required_qa"}
+      }
+    },
+    "artview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_bundle_roles", "decision_schema", "decision_version"],
+      "properties": {
+        "required_bundle_roles": {
+          "type": "array",
+          "minItems": 4,
+          "uniqueItems": true,
+          "contains": {"const": "accepted_decisions"},
+          "items": {"enum": ["candidate_manifest", "review_html", "accepted_decisions", "application_receipt", "effective_visual_config", "bundle_inventory", "candidate_binaries", "source_context"]}
+        },
+        "decision_schema": {"enum": ["kb_creator.scenario_artview_decisions.v3", "kb_creator.scenario_artview_decisions.v4"]},
+        "decision_version": {"enum": [3, 4]}
+      }
+    },
+    "html": {"$ref": "#/$defs/html_blueprint"},
+    "docx": {"$ref": "#/$defs/docx_blueprint"},
+    "pdf": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["adapter", "export_policy", "required_qa"],
+      "properties": {
+        "adapter": {"const": "docx_pdf_export_v1"},
+        "export_policy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["document_input_role", "format", "all_pages", "fresh_export"],
+          "properties": {
+            "document_input_role": {"const": "accepted_docx"},
+            "format": {"const": "pdf"},
+            "all_pages": {"const": true},
+            "fresh_export": {"const": true}
+          }
+        },
+        "required_qa": {"$ref": "#/$defs/required_qa"}
+      }
+    },
+    "package": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_roles", "stable_names", "verifier_version"],
+      "properties": {
+        "required_roles": {
+          "type": "array",
+          "minItems": 22,
+          "maxItems": 22,
+          "uniqueItems": true,
+          "items": {"enum": ["master_en", "master_en_acceptance", "master_ru", "master_ru_acceptance", "artview_bundle", "artview_candidate_manifest", "artview_decisions", "artview_application", "artview_effective_config", "artview_acceptance", "html", "html_acceptance", "docx", "docx_acceptance", "pdf", "pdf_acceptance", "source_configs", "effective_config", "stage_evidence", "pipeline_snapshot", "schema_snapshot", "offline_verifier"]}
+        },
+        "stable_names": {"const": true},
+        "verifier_version": {"const": 1}
+      }
+    },
+    "tool_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repository_tool_root", "allowed_system_tools"],
+      "properties": {
+        "repository_tool_root": {"const": ".tools"},
+        "allowed_system_tools": {"const": ["powershell", "microsoft_word_com"]}
+      }
+    }
+  },
+  "$defs": {
+    "nonblank": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "relative_file": {
+      "$ref": "#/$defs/nonblank",
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(?:/|$))(?!.*:)(?!.*\\\\)[^\\u0000]+$"
+    },
+    "required_qa": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/nonblank"}},
+    "profile_blueprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile", "required_qa"],
+      "properties": {
+        "profile": {"$ref": "#/$defs/nonblank"},
+        "required_qa": {"$ref": "#/$defs/required_qa"}
+      }
+    },
+    "html_blueprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["adapter", "required_qa"],
+      "properties": {
+        "adapter": {"const": "translator_build_production_html_v1"},
+        "required_qa": {"$ref": "#/$defs/required_qa"}
+      }
+    },
+    "docx_blueprint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["adapter", "required_qa"],
+      "properties": {
+        "adapter": {"const": "production_docx_explicit_config_v1"},
+        "required_qa": {"$ref": "#/$defs/required_qa"}
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# T6c — run11 Stage 30 ArtView candidate QA
+
+- Result: PASS (bounded QA only; not an acceptance or release decision).
+- Scope: `publication/20260918-publication-11`, Stage 30 ArtView bundle and its accepted MASTER_RU binding; no candidate mutations.
+- Files checked: `acceptance/master_ru.acceptance.json`; `evidence/stages/30-artview-bundle.manifest.json`; Stage 30 `artifacts/{artview.html,artview-decisions.template.json,candidate_manifest.json,candidate_files.inventory.json,bundle.inventory.json,qa.json}`; Stage 30 `evidence/artview.qa.json`; the 38 listed local current/context image assets.
+- Evidence: accepted MASTER_RU SHA256 `904133D5057172C404D28F3BCF2A5E4C578304A59382512D1B31FC56AE0FDAB2`; acceptance receipt SHA256 `A530C35594830EF7303C4848E1A051DF466E666D113D6111B5D9FF8978CA9DA3`; acceptance JSON SHA256 `BFB5265D2EB6273CEF6794BDB5817F379B87A5856297B5C521880635B02C6CB3`. Candidate manifest binds the accepted MASTER_RU SHA and acceptance JSON SHA.
+- Integrity: Stage 30 succeeded; reproducible manifest SHA256 `9150BDE411853B0ED4CE835F603A96415706C0ECE36914157C4111C0BC84736B`; all 44 stage-manifest output entries match bytes and SHA256. Candidate-files inventory SHA256 `DE62BA956AC17F4FCD15C8EB70EC9FA486856ABBDCE633DEDEC93E6F47BF8B4A` covers 38/38 local binaries with no mismatches. Bundle inventory SHA256 `3E7B3EF9015E9C3B646D89466BF4F8154C80B24CAE5028BAB9541DB3E8A41B66` closes 43 non-self files; the only unlisted tree file is the inventory itself.
+- QA: producer QA and adapter QA both `pass`, no findings. Candidate has 19 unique review rows, 38 portable binaries (19 current + 19 context), zero alternative binaries, and no external `src`/`href` URLs. Template is draft/open, reviewed count 0, all 19 unresolved; all rows begin unreviewed with no binary choice/candidate. No auto-accept: accepted export starts disabled, requires every row final and explicitly reviewed; draft export remains available. Checkbox controls and clipboard-fallback export locator logic are present.
+- Scope boundary: output stages are 10, 20, 21 and 30 only; no Stage 31 or 40+ exists. No later publication output was built.
+- Blockers/defects: none observed. This review did not exercise browser interaction; checkbox/export behavior was checked statically in the self-contained HTML and corroborated by the draft template state.
+- Next action: orchestrator may proceed to the separately authorized next bounded task; ArtView decisions still require explicit human review and acceptance.
+- Assignment: bundled goal `20260918-dream-html-heading-toc`; orchestrator policy owner `gpt-5.6-sol` / medium; assigned QA role `gpt-5.6-luna` / low; scoped override is read-only QA with this receipt as the sole permitted write. Assignment state: completed.
+- Elapsed: approximately 5 minutes. Token use: unavailable.
+- Timestamp: 2026-09-18 10:22:33 UTC.

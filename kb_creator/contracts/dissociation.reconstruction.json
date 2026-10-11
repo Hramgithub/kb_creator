@@ -1,0 +1,97 @@
+{
+  "schema": "kb_creator.scenario_reconstruction_contract.v1",
+  "contract_revision": 1,
+  "scenario": {
+    "id": "dissociation",
+    "title": "Dissociation"
+  },
+  "source": {
+    "sha256": "01855CD1AA2E3F90C31B572AA01D2643FC862935B892FD7D49A7530CAACD947B",
+    "byte_count": 2159317,
+    "page_count": 6,
+    "media_box_points": [
+      595,
+      841
+    ],
+    "rotation_degrees": 0
+  },
+  "scope": {
+    "mode": "all_source_pages",
+    "first_page": 1,
+    "last_page": 6,
+    "required_entities": {
+      "numbered_player_handouts": 0
+    }
+  },
+  "page_roles": [
+    {
+      "role": "cover",
+      "first_page": 1,
+      "last_page": 1,
+      "content_mode": "visual",
+      "traits": [
+        "low_text"
+      ],
+      "strategies": [
+        "embedded_text",
+        "visual_preserve"
+      ]
+    },
+    {
+      "role": "scenario_body",
+      "first_page": 2,
+      "last_page": 4,
+      "content_mode": "mixed",
+      "traits": [
+        "multi_column"
+      ],
+      "strategies": [
+        "embedded_text",
+        "reading_order",
+        "visual_preserve"
+      ]
+    },
+    {
+      "role": "scenario_body",
+      "first_page": 5,
+      "last_page": 5,
+      "content_mode": "mixed",
+      "traits": [
+        "multi_column"
+      ],
+      "strategies": [
+        "embedded_text",
+        "reading_order",
+        "ocr_region",
+        "visual_preserve"
+      ]
+    },
+    {
+      "role": "scenario_body",
+      "first_page": 6,
+      "last_page": 6,
+      "content_mode": "mixed",
+      "traits": [
+        "multi_column",
+        "statblock"
+      ],
+      "strategies": [
+        "embedded_text",
+        "reading_order",
+        "visual_preserve"
+      ]
+    }
+  ],
+  "reconstruction": {
+    "strategies": [
+      "embedded_text",
+      "reading_order",
+      "ocr_region",
+      "visual_preserve"
+    ],
+    "required_review": true
+  },
+  "acceptance": {
+    "approval_authority": "configured_reconstruction_review"
+  }
+}

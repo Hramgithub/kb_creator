@@ -1,0 +1,890 @@
+{
+  "schema": "kb_creator_innsmouth_final_result_report.v1",
+  "generated_at_utc": "2026-07-30T17:27:48.255586+00:00",
+  "status": "pass",
+  "run_id": "20260730T172713Z",
+  "scope": "HTML/PDF final reproducibility only; Knowledge_Base files are read-only",
+  "freeze_validation": {
+    "path": "kb_creator/inputs/innsmouth_v6_freeze_manifest.json",
+    "exists": true,
+    "status": "pass",
+    "sha256": "67e1ceac9a9f433790631c43635480b33acc72db52ea186fe3e0aeb9e7a77ee7",
+    "baseline_commit": "0470919f83e2d536ecae78010096e1f768bc0626",
+    "file_count": 66,
+    "checks": [
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/the_innsmouth_terror.recovery_v6_cleaned.package.json",
+        "status": "pass",
+        "expected_sha256": "8893d76cff42be94d43c3dab84a51f2ba5318ec65b35181def203398d5556d51",
+        "actual_sha256": "8893d76cff42be94d43c3dab84a51f2ba5318ec65b35181def203398d5556d51",
+        "expected_size_bytes": 42102,
+        "actual_size_bytes": 42102
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v6.md",
+        "status": "pass",
+        "expected_sha256": "e1c889adb5676798d7e296e4231040fa730029a7ba40ad515bf97059f5f78ba7",
+        "actual_sha256": "e1c889adb5676798d7e296e4231040fa730029a7ba40ad515bf97059f5f78ba7",
+        "expected_size_bytes": 205762,
+        "actual_size_bytes": 205762
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v6.html",
+        "status": "pass",
+        "expected_sha256": "153e5d58c2e3f229cac8c03575c3781f565faea1a8264a7f81000ab32e4925a0",
+        "actual_sha256": "153e5d58c2e3f229cac8c03575c3781f565faea1a8264a7f81000ab32e4925a0",
+        "expected_size_bytes": 310713,
+        "actual_size_bytes": 310713
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v6_two_column.pdf",
+        "status": "pass",
+        "expected_sha256": "d89ba390b296211692419d08f8e8f84cb0d393b54e94489531542bb5a0e08fc5",
+        "actual_sha256": "d89ba390b296211692419d08f8e8f84cb0d393b54e94489531542bb5a0e08fc5",
+        "expected_size_bytes": 65261806,
+        "actual_size_bytes": 65261806
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/frontmatter_manifest.json",
+        "status": "pass",
+        "expected_sha256": "3c2578b479e41fcc5436631815b0def1bc6f408b33a2751d204d7ae9a8ed8c74",
+        "actual_sha256": "3c2578b479e41fcc5436631815b0def1bc6f408b33a2751d204d7ae9a8ed8c74",
+        "expected_size_bytes": 1211,
+        "actual_size_bytes": 1211
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/production_html_report_v6.json",
+        "status": "pass",
+        "expected_sha256": "76875051bdcb09ade51815a2df2764cc655d86fe37fe5e6bd7927e68c81dc009",
+        "actual_sha256": "76875051bdcb09ade51815a2df2764cc655d86fe37fe5e6bd7927e68c81dc009",
+        "expected_size_bytes": 25108,
+        "actual_size_bytes": 25108
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/html_v6_statblock_projection_report.json",
+        "status": "pass",
+        "expected_sha256": "5971e7100e1d0fce82e95645f20561db1d2110271eb990ae58a5abe6ff20e87c",
+        "actual_sha256": "5971e7100e1d0fce82e95645f20561db1d2110271eb990ae58a5abe6ff20e87c",
+        "expected_size_bytes": 35684,
+        "actual_size_bytes": 35684
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/positive_content_audit.v1.json",
+        "status": "pass",
+        "expected_sha256": "ee822bea53366a7efe3c2f4c5e3f52343821b13786ac42a1e09102df781fea55",
+        "actual_sha256": "ee822bea53366a7efe3c2f4c5e3f52343821b13786ac42a1e09102df781fea55",
+        "expected_size_bytes": 1813,
+        "actual_size_bytes": 1813
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/coc_mechanics_audit.v1.json",
+        "status": "pass",
+        "expected_sha256": "d797dd37bd3e6ed5c01c98fb75b67a22c477584080e883808b281f89f8fe873b",
+        "actual_sha256": "d797dd37bd3e6ed5c01c98fb75b67a22c477584080e883808b281f89f8fe873b",
+        "expected_size_bytes": 14301,
+        "actual_size_bytes": 14301
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/art_layout_qa.json",
+        "status": "pass",
+        "expected_sha256": "233e2dd36a3546b000ee33a33797583e4a596f3f4cccc351c71c42e7a3339c21",
+        "actual_sha256": "233e2dd36a3546b000ee33a33797583e4a596f3f4cccc351c71c42e7a3339c21",
+        "expected_size_bytes": 7317,
+        "actual_size_bytes": 7317
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/page_structure_audit.v1.json",
+        "status": "pass",
+        "expected_sha256": "32f3abf1f45b1c7187d0d35f03bcbdaf36fba3f5904ea8341cabb12c75a6b9d2",
+        "actual_sha256": "32f3abf1f45b1c7187d0d35f03bcbdaf36fba3f5904ea8341cabb12c75a6b9d2",
+        "expected_size_bytes": 108524,
+        "actual_size_bytes": 108524
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/semantic_chain_audit.v1.json",
+        "status": "pass",
+        "expected_sha256": "32096431a0a2446ed401193b10ce87274ca08bb65be4b749e82aab391027faad",
+        "actual_sha256": "32096431a0a2446ed401193b10ce87274ca08bb65be4b749e82aab391027faad",
+        "expected_size_bytes": 8596,
+        "actual_size_bytes": 8596
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/production_pdf_report_v6_two_column.json",
+        "status": "pass",
+        "expected_sha256": "f52835bbb9a11137a90f05ba9ff8aae53c8f5ec57c03d20417774cacbde2d64a",
+        "actual_sha256": "f52835bbb9a11137a90f05ba9ff8aae53c8f5ec57c03d20417774cacbde2d64a",
+        "expected_size_bytes": 5350,
+        "actual_size_bytes": 5350
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/pdf_print_qa_two_column.json",
+        "status": "pass",
+        "expected_sha256": "53077d49d7360cb1ac1dc7e51a959d54a3b5b278f681c8846e903f9aa848849d",
+        "actual_sha256": "53077d49d7360cb1ac1dc7e51a959d54a3b5b278f681c8846e903f9aa848849d",
+        "expected_size_bytes": 8464,
+        "actual_size_bytes": 8464
+      },
+      {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/scripts/apply_statblock_projection_to_html_v3.py",
+        "status": "pass",
+        "expected_sha256": "d99d6461e1568b2114ef87a301a36acfc6c82cc42e16d933a40ee179817959e6",
+        "actual_sha256": "d99d6461e1568b2114ef87a301a36acfc6c82cc42e16d933a40ee179817959e6",
+        "expected_size_bytes": 29677,
+        "actual_size_bytes": 29677
+      },
+      {
+        "path": "translator/translator.py",
+        "status": "pass",
+        "expected_sha256": "d9a7ee8060c0dda8d6f2aaa1398a337b1be0fc231cd84393a69d02fce22c8c2b",
+        "actual_sha256": "d9a7ee8060c0dda8d6f2aaa1398a337b1be0fc231cd84393a69d02fce22c8c2b",
+        "expected_size_bytes": 610765,
+        "actual_size_bytes": 610765
+      },
+      {
+        "path": "translator/positive_content_audit.py",
+        "status": "pass",
+        "expected_sha256": "74633b21db11e3b650579ed97ea459254c5c6da97abbd0bec4069b697757cf54",
+        "actual_sha256": "74633b21db11e3b650579ed97ea459254c5c6da97abbd0bec4069b697757cf54",
+        "expected_size_bytes": 24066,
+        "actual_size_bytes": 24066
+      },
+      {
+        "path": "translator/docs/architecture/production_frontmatter_standard.md",
+        "status": "pass",
+        "expected_sha256": "1b9ea56c9f28917547e8205b79495bc50e8048b77f7e7cda4927c876c41558d3",
+        "actual_sha256": "1b9ea56c9f28917547e8205b79495bc50e8048b77f7e7cda4927c876c41558d3",
+        "expected_size_bytes": 4821,
+        "actual_size_bytes": 4821
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/00_Passport_v6.md",
+        "status": "pass",
+        "expected_sha256": "8b196070ee378a2f7bdf1b360fd1df3f5b978f663a1b335b0c53b1b9a45b8253",
+        "actual_sha256": "8b196070ee378a2f7bdf1b360fd1df3f5b978f663a1b335b0c53b1b9a45b8253",
+        "expected_size_bytes": 1759,
+        "actual_size_bytes": 1759
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/01_Scenario_Overview_v6.md",
+        "status": "pass",
+        "expected_sha256": "fbde04bdcf79c2c7a9c12d48dc9eed6a926bd6ce5965692c8f0e35d45294ac5c",
+        "actual_sha256": "fbde04bdcf79c2c7a9c12d48dc9eed6a926bd6ce5965692c8f0e35d45294ac5c",
+        "expected_size_bytes": 3074,
+        "actual_size_bytes": 3074
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/02_Acts_v6.md",
+        "status": "pass",
+        "expected_sha256": "36fadce57c9e940a7979e5284794f1c412e9a6559bc3fe8c3a1f56192baf7c1e",
+        "actual_sha256": "36fadce57c9e940a7979e5284794f1c412e9a6559bc3fe8c3a1f56192baf7c1e",
+        "expected_size_bytes": 634,
+        "actual_size_bytes": 634
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/03_Locations_v6.md",
+        "status": "pass",
+        "expected_sha256": "ccb40f9f559b1a3f8102cba8218a9db00c6d615f947512a27ef15eef7b175820",
+        "actual_sha256": "ccb40f9f559b1a3f8102cba8218a9db00c6d615f947512a27ef15eef7b175820",
+        "expected_size_bytes": 1628,
+        "actual_size_bytes": 1628
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/04_NPC_v6.md",
+        "status": "pass",
+        "expected_sha256": "aedb8d189f42dd366c09c9ee155c02ca9ef7dd38d1951023f025e26b0616f92e",
+        "actual_sha256": "aedb8d189f42dd366c09c9ee155c02ca9ef7dd38d1951023f025e26b0616f92e",
+        "expected_size_bytes": 1222,
+        "actual_size_bytes": 1222
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/05_Clues_v6.md",
+        "status": "pass",
+        "expected_sha256": "708d0aad79e85f0f5225b265be67efc37053568357ceca38d4fa95112212f78c",
+        "actual_sha256": "708d0aad79e85f0f5225b265be67efc37053568357ceca38d4fa95112212f78c",
+        "expected_size_bytes": 516,
+        "actual_size_bytes": 516
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/06_Events_v6.md",
+        "status": "pass",
+        "expected_sha256": "b3796fe12d9b4ac8887d4937c0d4a15d72d39d12740f82fbca0a7985af2d6939",
+        "actual_sha256": "b3796fe12d9b4ac8887d4937c0d4a15d72d39d12740f82fbca0a7985af2d6939",
+        "expected_size_bytes": 624,
+        "actual_size_bytes": 624
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/07_Mythos_v6.md",
+        "status": "pass",
+        "expected_sha256": "6f16ee22aa452d823b2b738007a44f52e546b9c0752cff1bb2b4659c458e22b9",
+        "actual_sha256": "6f16ee22aa452d823b2b738007a44f52e546b9c0752cff1bb2b4659c458e22b9",
+        "expected_size_bytes": 561,
+        "actual_size_bytes": 561
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/08_Rewards_and_Sanity_v6.md",
+        "status": "pass",
+        "expected_sha256": "9256c52d3887ce02c4915bf1ba5116f9718116d75d122f7b45a3a76df454c302",
+        "actual_sha256": "9256c52d3887ce02c4915bf1ba5116f9718116d75d122f7b45a3a76df454c302",
+        "expected_size_bytes": 1598,
+        "actual_size_bytes": 1598
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/09_Handouts_v6.md",
+        "status": "pass",
+        "expected_sha256": "c3bea60f2bad8350eea284ccd56f2389ba22de98227bcf6b5a0b0e6792149dac",
+        "actual_sha256": "c3bea60f2bad8350eea284ccd56f2389ba22de98227bcf6b5a0b0e6792149dac",
+        "expected_size_bytes": 743,
+        "actual_size_bytes": 743
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/10_Timeline_v6.md",
+        "status": "pass",
+        "expected_sha256": "17ed11af06a43bc1c327a4385e10fa21006a73635d3d0d929d290ff62d97ba5a",
+        "actual_sha256": "17ed11af06a43bc1c327a4385e10fa21006a73635d3d0d929d290ff62d97ba5a",
+        "expected_size_bytes": 1532,
+        "actual_size_bytes": 1532
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/11_Appendices_v6.md",
+        "status": "pass",
+        "expected_sha256": "f21b666e6e8455daefac9aca87ed22d59db00a4cd7a4e20ae02e0d3d0e25c61e",
+        "actual_sha256": "f21b666e6e8455daefac9aca87ed22d59db00a4cd7a4e20ae02e0d3d0e25c61e",
+        "expected_size_bytes": 516,
+        "actual_size_bytes": 516
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/12_KB_Audit_v6.md",
+        "status": "pass",
+        "expected_sha256": "a32c5fe093b2980a53221df7cd0fb08d402e84ad6ee48b9eaef5aea1f446bf3f",
+        "actual_sha256": "a32c5fe093b2980a53221df7cd0fb08d402e84ad6ee48b9eaef5aea1f446bf3f",
+        "expected_size_bytes": 467,
+        "actual_size_bytes": 467
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v6/README.md",
+        "status": "pass",
+        "expected_sha256": "0d7104cfbc655e2b5a9839099ca20699ca81c12eed4d4f9db7b71717a684de0d",
+        "actual_sha256": "0d7104cfbc655e2b5a9839099ca20699ca81c12eed4d4f9db7b71717a684de0d",
+        "expected_size_bytes": 1720,
+        "actual_size_bytes": 1720
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Atmospheric/innsmouth-page-002-xref-00102-atmospheric.png",
+        "status": "pass",
+        "expected_sha256": "d65a711637dc9bf0489f92605331901234baef0f0a420076fef70bd33ea71cbf",
+        "actual_sha256": "d65a711637dc9bf0489f92605331901234baef0f0a420076fef70bd33ea71cbf",
+        "expected_size_bytes": 6789013,
+        "actual_size_bytes": 6789013
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Atmospheric/innsmouth-page-031-xref-01133-atmospheric.png",
+        "status": "pass",
+        "expected_sha256": "04267b7c5ea9fa7a514fe682320165e11c1fff425c696aa3586f2e355e8b8ce9",
+        "actual_sha256": "04267b7c5ea9fa7a514fe682320165e11c1fff425c696aa3586f2e355e8b8ce9",
+        "expected_size_bytes": 4871466,
+        "actual_size_bytes": 4871466
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Atmospheric/innsmouth-page-032-xref-01148-atmospheric.png",
+        "status": "pass",
+        "expected_sha256": "b94cd0781ef98fc8aff50e4f4ce6f837e2ea6ef941bf8a08792172d2bbc9ff11",
+        "actual_sha256": "b94cd0781ef98fc8aff50e4f4ce6f837e2ea6ef941bf8a08792172d2bbc9ff11",
+        "expected_size_bytes": 1520946,
+        "actual_size_bytes": 1520946
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Handouts/innsmouth-page-007-xref-00354-handout.png",
+        "status": "pass",
+        "expected_sha256": "6c4f6c0d3942f93971cd63cb90bb27d3d816f56affc4f53a841782d599019178",
+        "actual_sha256": "6c4f6c0d3942f93971cd63cb90bb27d3d816f56affc4f53a841782d599019178",
+        "expected_size_bytes": 899926,
+        "actual_size_bytes": 899926
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Handouts/innsmouth-page-044-xref-01397-handout.png",
+        "status": "pass",
+        "expected_sha256": "b8aa84c3bc8d58042366a58fcd9bf6d51ec057a4da114ce31633f21125bbb00e",
+        "actual_sha256": "b8aa84c3bc8d58042366a58fcd9bf6d51ec057a4da114ce31633f21125bbb00e",
+        "expected_size_bytes": 639539,
+        "actual_size_bytes": 639539
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-008-xref-00367-npc.png",
+        "status": "pass",
+        "expected_sha256": "e6669fe57d71a94921d058ffe8e2bcf3b567b2a0187a30a254392be6297129ed",
+        "actual_sha256": "e6669fe57d71a94921d058ffe8e2bcf3b567b2a0187a30a254392be6297129ed",
+        "expected_size_bytes": 334869,
+        "actual_size_bytes": 334869
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-008-xref-00379-npc.png",
+        "status": "pass",
+        "expected_sha256": "8103813781d0bcc3cc4f9e8fc372ad490e13dc2ff24d7b784054e5976b959c05",
+        "actual_sha256": "8103813781d0bcc3cc4f9e8fc372ad490e13dc2ff24d7b784054e5976b959c05",
+        "expected_size_bytes": 364612,
+        "actual_size_bytes": 364612
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-009-xref-00395-npc.png",
+        "status": "pass",
+        "expected_sha256": "3ed9800d707a08d61f12719885164d23ceb8561fb067a019316348b96851940b",
+        "actual_sha256": "3ed9800d707a08d61f12719885164d23ceb8561fb067a019316348b96851940b",
+        "expected_size_bytes": 498008,
+        "actual_size_bytes": 498008
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-009-xref-00408-npc.png",
+        "status": "pass",
+        "expected_sha256": "ac564f2ab11ecf0cd8e0c30e8741191f12cf0b1030e89ffbcef0a2ff5074b591",
+        "actual_sha256": "ac564f2ab11ecf0cd8e0c30e8741191f12cf0b1030e89ffbcef0a2ff5074b591",
+        "expected_size_bytes": 119368,
+        "actual_size_bytes": 119368
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-010-xref-00432-npc.png",
+        "status": "pass",
+        "expected_sha256": "9cddc20c201d9605e8f233c8084e5eab42c89e8aac369c41b2b6d2032746d380",
+        "actual_sha256": "9cddc20c201d9605e8f233c8084e5eab42c89e8aac369c41b2b6d2032746d380",
+        "expected_size_bytes": 126791,
+        "actual_size_bytes": 126791
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-011-xref-00449-npc.png",
+        "status": "pass",
+        "expected_sha256": "d9638cb73b7428f80bb55e58e1c6b5bf1950e2c0a2b93b2c4ff870c5f9ba8df5",
+        "actual_sha256": "d9638cb73b7428f80bb55e58e1c6b5bf1950e2c0a2b93b2c4ff870c5f9ba8df5",
+        "expected_size_bytes": 66188,
+        "actual_size_bytes": 66188
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-011-xref-00461-npc.png",
+        "status": "pass",
+        "expected_sha256": "ecd2e84bcc2c50e59c917bbdc85fb1f20b00ccf365da34deb9a413fa43be615f",
+        "actual_sha256": "ecd2e84bcc2c50e59c917bbdc85fb1f20b00ccf365da34deb9a413fa43be615f",
+        "expected_size_bytes": 132000,
+        "actual_size_bytes": 132000
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-012-xref-00541-npc.png",
+        "status": "pass",
+        "expected_sha256": "877ba98dadf532be80c9028a383bef33fb5c20af82830e57bd7b1479997e1f86",
+        "actual_sha256": "877ba98dadf532be80c9028a383bef33fb5c20af82830e57bd7b1479997e1f86",
+        "expected_size_bytes": 733065,
+        "actual_size_bytes": 733065
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-013-xref-00577-npc.png",
+        "status": "pass",
+        "expected_sha256": "c3e648f4aeb052b8ccce0af6b3bfabf415b8dd2a972777742b9d892784fca66c",
+        "actual_sha256": "c3e648f4aeb052b8ccce0af6b3bfabf415b8dd2a972777742b9d892784fca66c",
+        "expected_size_bytes": 750722,
+        "actual_size_bytes": 750722
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-026-xref-00963-npc.png",
+        "status": "pass",
+        "expected_sha256": "3b0d9870d9f644b849436406eadfb2eff6aa155fd44056fa7f5ac7d131f5ac86",
+        "actual_sha256": "3b0d9870d9f644b849436406eadfb2eff6aa155fd44056fa7f5ac7d131f5ac86",
+        "expected_size_bytes": 270586,
+        "actual_size_bytes": 270586
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-027-xref-00980-npc.png",
+        "status": "pass",
+        "expected_sha256": "1ab01fd7560c565d6f06431391b96e5b90fc0cd167bf7eab6522384a7dd47d0e",
+        "actual_sha256": "1ab01fd7560c565d6f06431391b96e5b90fc0cd167bf7eab6522384a7dd47d0e",
+        "expected_size_bytes": 309653,
+        "actual_size_bytes": 309653
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-027-xref-00994-npc.png",
+        "status": "pass",
+        "expected_sha256": "2167e6cb47edc0583358fada4c858c7f30984db44f4d47ffffdb93371fb6cfa4",
+        "actual_sha256": "2167e6cb47edc0583358fada4c858c7f30984db44f4d47ffffdb93371fb6cfa4",
+        "expected_size_bytes": 175440,
+        "actual_size_bytes": 175440
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-036-xref-01172-npc.png",
+        "status": "pass",
+        "expected_sha256": "48a13f106e1a2cd6df25de4a8186c314315df849e11c387862446008cd6f7baf",
+        "actual_sha256": "48a13f106e1a2cd6df25de4a8186c314315df849e11c387862446008cd6f7baf",
+        "expected_size_bytes": 616783,
+        "actual_size_bytes": 616783
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-037-xref-01185-npc.png",
+        "status": "pass",
+        "expected_sha256": "5d9e9f38b397c2a730be5a0822fc372dfbf171eb743f99e3a7e425447dfbf53e",
+        "actual_sha256": "5d9e9f38b397c2a730be5a0822fc372dfbf171eb743f99e3a7e425447dfbf53e",
+        "expected_size_bytes": 194599,
+        "actual_size_bytes": 194599
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-038-xref-01200-npc.png",
+        "status": "pass",
+        "expected_sha256": "ba0e02f9f116e8c5bf3a57a43abef963e809060f6e42b4f1f5a17a04a34439eb",
+        "actual_sha256": "ba0e02f9f116e8c5bf3a57a43abef963e809060f6e42b4f1f5a17a04a34439eb",
+        "expected_size_bytes": 441957,
+        "actual_size_bytes": 441957
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-039-xref-01226-npc.png",
+        "status": "pass",
+        "expected_sha256": "55638e3a988042918436e3186e6049a7ff5b134987fba6aef00fbf2021ac423f",
+        "actual_sha256": "55638e3a988042918436e3186e6049a7ff5b134987fba6aef00fbf2021ac423f",
+        "expected_size_bytes": 191525,
+        "actual_size_bytes": 191525
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/NPC/innsmouth-page-040-xref-01239-npc.png",
+        "status": "pass",
+        "expected_sha256": "8b26b55050df67a6ef0959cc20d7ed5762a188e043582480f4de150bd9401b6d",
+        "actual_sha256": "8b26b55050df67a6ef0959cc20d7ed5762a188e043582480f4de150bd9401b6d",
+        "expected_size_bytes": 159597,
+        "actual_size_bytes": 159597
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-001-xref-01811.png",
+        "status": "pass",
+        "expected_sha256": "4295b054194922a1462f99b5fbba708efe117c768381267a7986275c4003cb3f",
+        "actual_sha256": "4295b054194922a1462f99b5fbba708efe117c768381267a7986275c4003cb3f",
+        "expected_size_bytes": 6070224,
+        "actual_size_bytes": 6070224
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-002-xref-00058.png",
+        "status": "pass",
+        "expected_sha256": "6f10860ffe13b465fa740a497c4a77334e77fe1a5c4863c8cf658419831c7c0b",
+        "actual_sha256": "6f10860ffe13b465fa740a497c4a77334e77fe1a5c4863c8cf658419831c7c0b",
+        "expected_size_bytes": 689043,
+        "actual_size_bytes": 689043
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-005-xref-00280-source_image.png",
+        "status": "pass",
+        "expected_sha256": "125e753c9dad7e20139712797616e3bc1d2a072e8c3b07fe99b893229e51568e",
+        "actual_sha256": "125e753c9dad7e20139712797616e3bc1d2a072e8c3b07fe99b893229e51568e",
+        "expected_size_bytes": 2821129,
+        "actual_size_bytes": 2821129
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-015-xref-00640-source_image.png",
+        "status": "pass",
+        "expected_sha256": "d39b69c54dc65c3d022bd515311efd4521a3f5ce7cb24656d8933f2ff50c1a96",
+        "actual_sha256": "d39b69c54dc65c3d022bd515311efd4521a3f5ce7cb24656d8933f2ff50c1a96",
+        "expected_size_bytes": 875659,
+        "actual_size_bytes": 875659
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-016-xref-00657-source_image.png",
+        "status": "pass",
+        "expected_sha256": "a57be90b2bc1d01bddee8e30f4d88d1b6476e84011d98af82172285ec436113a",
+        "actual_sha256": "a57be90b2bc1d01bddee8e30f4d88d1b6476e84011d98af82172285ec436113a",
+        "expected_size_bytes": 1304885,
+        "actual_size_bytes": 1304885
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-017-xref-00671-source_image.png",
+        "status": "pass",
+        "expected_sha256": "3ffd3644cdff6d1341b884093881b671b92257d22830e19430b9eeebf8583149",
+        "actual_sha256": "3ffd3644cdff6d1341b884093881b671b92257d22830e19430b9eeebf8583149",
+        "expected_size_bytes": 970876,
+        "actual_size_bytes": 970876
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-018-xref-00691-source_image.png",
+        "status": "pass",
+        "expected_sha256": "df4baaa8cef243e36eb2ec058d8c231acf1ee8e249761d5f003c237641de9a57",
+        "actual_sha256": "df4baaa8cef243e36eb2ec058d8c231acf1ee8e249761d5f003c237641de9a57",
+        "expected_size_bytes": 358933,
+        "actual_size_bytes": 358933
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-020-xref-00732-source_image.png",
+        "status": "pass",
+        "expected_sha256": "f8fe3e0eb75d7f10e804383b5cf2034be6678387df038ee847d5c00474fe459e",
+        "actual_sha256": "f8fe3e0eb75d7f10e804383b5cf2034be6678387df038ee847d5c00474fe459e",
+        "expected_size_bytes": 5205968,
+        "actual_size_bytes": 5205968
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-022-xref-00834.png",
+        "status": "pass",
+        "expected_sha256": "e179fc0c8b940a7c9febf89dd93a8e0fbcf1f5e6315821dbe9e665c1e8bb986e",
+        "actual_sha256": "e179fc0c8b940a7c9febf89dd93a8e0fbcf1f5e6315821dbe9e665c1e8bb986e",
+        "expected_size_bytes": 392966,
+        "actual_size_bytes": 392966
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-025-xref-00947.png",
+        "status": "pass",
+        "expected_sha256": "90c255a6e99e36f0ce62456fee59887abff0b22a3ae6ac8ab6dd7203046f6794",
+        "actual_sha256": "90c255a6e99e36f0ce62456fee59887abff0b22a3ae6ac8ab6dd7203046f6794",
+        "expected_size_bytes": 2893501,
+        "actual_size_bytes": 2893501
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-028-xref-01008.png",
+        "status": "pass",
+        "expected_sha256": "4383dd382e15d8cdf92ca1cf9318b2ff8802fe1d651d71df5c12e4b477e3f467",
+        "actual_sha256": "4383dd382e15d8cdf92ca1cf9318b2ff8802fe1d651d71df5c12e4b477e3f467",
+        "expected_size_bytes": 3660904,
+        "actual_size_bytes": 3660904
+      },
+      {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/Source_Images/innsmouth-page-030-xref-01087.png",
+        "status": "pass",
+        "expected_sha256": "58b4528254e72afd3959cbcc6ce12c0e385da1a713f793a38454526eeda73040",
+        "actual_sha256": "58b4528254e72afd3959cbcc6ce12c0e385da1a713f793a38454526eeda73040",
+        "expected_size_bytes": 973472,
+        "actual_size_bytes": 973472
+      }
+    ]
+  },
+  "prerequisites": {
+    "freeze_manifest": {
+      "path": "kb_creator/inputs/innsmouth_v6_freeze_manifest.json",
+      "exists": true,
+      "status": null,
+      "sha256": "67e1ceac9a9f433790631c43635480b33acc72db52ea186fe3e0aeb9e7a77ee7"
+    },
+    "full_dry_run": {
+      "path": "kb_creator/reports/innsmouth_full_dry_run/full_dry_run_report.json",
+      "exists": true,
+      "status": "pass",
+      "sha256": "45104943e0da9196918f57abfeeef7decda820c4c6f8efc7600868a140eec969"
+    }
+  },
+  "tool_versions": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26100-SP0"
+  },
+  "git": {
+    "head": "dcb1dfe41bd48a60b86b15741b07b4cf7766ff9f",
+    "status_short": "M CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v3.md\n M CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v4.md\n M CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v3/html_v3_statblock_projection_report.json\n M Sourcefold/PROJECT_STATUS.md\n M Sourcefold/docs/plans/20260715-sourcefold-phase-0-release-charter/bounded_trial_authorizations.md\n M Sourcefold/docs/plans/20260715-sourcefold-phase-0-release-charter/context.md\n M Sourcefold/docs/plans/20260715-sourcefold-phase-0-release-charter/plan.md\n M Sourcefold/docs/roadmap/roadmap.yaml\n M Sourcefold/fixtures/README.md\n M kb_creator/PROJECT_STATUS.md\n?? CoC/Output/Scenarios/Crimson_Letters_1920/\n?? CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v5.md\n?? CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v2/\n?? CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v5/\n?? CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html\n?? CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v5.html\n?? CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v7_rebuild.html\n?? CoC/Working/Scenarios/Crimson_Letters_1920/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_v1.md\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/Temp/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/Translation_Work/Translation_Batches_v2/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/CoC/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Pipeline_Cache/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v5/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/Pipeline_Cache/\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v6/release_qa_report.json\n?? CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/kb_creator_full_dry_run/\n?? Sourcefold/fixtures/candidate_inputs/viral/render_trials/RT-G1-VIRAL-RENDER-001/core_0_1_text_extraction_smoke_p009_remediation_matrix_G1_VIRAL_001/\n?? Sourcefold/scripts/build_core_0_1_text_extraction_smoke_p009_remediation_matrix.py\n?? Sourcefold/tests/test_core_0_1_text_extraction_smoke_p009_remediation_matrix.py\n?? kb_creator/docs/plans/\n?? kb_creator/reports/innsmouth_final/\n?? kb_creator/reports/innsmouth_full_dry_run/\n?? kb_creator/reports/innsmouth_v7_rebuild/\n?? kb_creator/scripts/build_innsmouth_final_result.py\n?? kb_creator/scripts/build_innsmouth_full_dry_run.py\n?? kb_creator/scripts/build_innsmouth_v7_rebuild.py\n?? kb_creator/tests/\n?? translator/config/CoC/\n?? translator/config/crimson_letters_1920.package.json\n?? translator/docs/plans/20260726-desertflower-history-prep/"
+  },
+  "script_inputs": {
+    "final_runner": {
+      "path": "kb_creator/scripts/build_innsmouth_final_result.py",
+      "exists": true,
+      "size_bytes": 23332,
+      "sha256": "c011089109789083f80d0f5b8f5d61467d73263ffcfbf49a4e468b76d13b6b65",
+      "last_write_time_utc": "2026-07-30T17:26:51.803888+00:00"
+    },
+    "v7_rebuild_runner": {
+      "path": "kb_creator/scripts/build_innsmouth_v7_rebuild.py",
+      "exists": true,
+      "size_bytes": 16316,
+      "sha256": "0207ff7c792cc42008b205b6cc7c925c0ec0c477eaf0886d57d1558f693df0b6",
+      "last_write_time_utc": "2026-07-30T16:15:05.650498+00:00"
+    },
+    "full_dry_run_runner": {
+      "path": "kb_creator/scripts/build_innsmouth_full_dry_run.py",
+      "exists": true,
+      "size_bytes": 25826,
+      "sha256": "e203a59f738b98ad10b708b510d8e3a82305d567b4f2c5c6262263e804e6e9b9",
+      "last_write_time_utc": "2026-07-30T16:10:35.865029+00:00"
+    },
+    "freeze_checker": {
+      "path": "kb_creator/scripts/check_innsmouth_v6_freeze.py",
+      "exists": true,
+      "size_bytes": 7241,
+      "sha256": "fef4b08061452330b96f999803d0354daa3e73ee2b97f191c5aca0ecfdf1571b",
+      "last_write_time_utc": "2026-07-30T14:56:32.478142+00:00"
+    },
+    "translator": {
+      "path": "translator/translator.py",
+      "exists": true,
+      "size_bytes": 610765,
+      "sha256": "d9a7ee8060c0dda8d6f2aaa1398a337b1be0fc231cd84393a69d02fce22c8c2b",
+      "last_write_time_utc": "2026-07-30T13:46:45.829832+00:00"
+    },
+    "statblock_projection": {
+      "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/scripts/apply_statblock_projection_to_html_v3.py",
+      "exists": true,
+      "size_bytes": 29677,
+      "sha256": "d99d6461e1568b2114ef87a301a36acfc6c82cc42e16d933a40ee179817959e6",
+      "last_write_time_utc": "2026-07-30T12:42:57.419775+00:00"
+    }
+  },
+  "tool_binaries": {
+    "python_executable": {
+      "path": ".tools/python-3.13.14/python.exe",
+      "exists": true,
+      "size_bytes": 105696,
+      "sha256": "ef8f51028ac5329641985112f8efb1c2d4c47c86b8011ddf7e6fae21e2b4e5a1",
+      "last_write_time_utc": "2026-06-10T11:21:16+00:00"
+    },
+    "browser_pdf_engine": {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "exists": true,
+      "size_bytes": 3988632,
+      "sha256": "115a87374083a409eb4b3d0204cbaea8a0e27eeb264cb0b9d3e4c19c378f54d1",
+      "last_write_time_utc": "2026-07-22T20:19:41.518063+00:00"
+    },
+    "pdftoppm": {
+      "path": "C:\\Users\\BogdanD\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "exists": true,
+      "size_bytes": 50176,
+      "sha256": "742cbbd9a00931ad16c6618410bc40471375d639a45c61c1d86f3dcfc54b6388",
+      "last_write_time_utc": "2026-05-12T13:52:54+00:00"
+    },
+    "pdfinfo": {
+      "path": "C:\\Users\\BogdanD\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdfinfo.exe",
+      "exists": true,
+      "size_bytes": 65536,
+      "sha256": "bc2c0f980c9a2a29cd1e06aacd8d1c7b67a5304e9d1d6f75190bdeb9c81a4365",
+      "last_write_time_utc": "2026-05-12T13:52:55+00:00"
+    }
+  },
+  "no_kb_write_check": {
+    "status": "pass",
+    "files_before": 81,
+    "files_after": 81,
+    "findings": []
+  },
+  "rebuild_report": {
+    "path": "kb_creator/reports/innsmouth_final/runs/20260730T172713Z/publishing_rebuild/rebuild_report.json",
+    "exists": true,
+    "size_bytes": 9625,
+    "sha256": "9bbd063cbe4f508df76cfc0d015780e667dcc16afbbb0739030725a2a344b7d0",
+    "last_write_time_utc": "2026-07-30T17:27:35.479577+00:00"
+  },
+  "rebuild_summary": {
+    "status": "pass",
+    "findings": 0,
+    "html_comparison": {
+      "baseline": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v6.html",
+      "rebuild": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v7_rebuild.html",
+      "byte_identical": false,
+      "normalized_html_identical": false,
+      "visible_text_identical": false,
+      "reader_visible_text_identical": true,
+      "baseline_sha256": "153e5d58c2e3f229cac8c03575c3781f565faea1a8264a7f81000ab32e4925a0",
+      "rebuild_sha256": "c356877164cc8594ef767bd183fb1428552d284420a9578a048f01e65a9e4b5d",
+      "baseline_visible_text_sha256": "bfba4462c170abd581a903123aa68f1f05df307c3de4471e2a0df26d1a146e6c",
+      "rebuild_visible_text_sha256": "d2e4c3ebb66c953477d8388585277f0deb3da782b39d7db2343a43028db4ce6e",
+      "baseline_reader_visible_text_sha256": "158a7beef52ee7b16105ec52367b8906fe07b32897b82e5a2c0b3ef45fc110ff",
+      "rebuild_reader_visible_text_sha256": "158a7beef52ee7b16105ec52367b8906fe07b32897b82e5a2c0b3ef45fc110ff",
+      "baseline_img_count": 34,
+      "rebuild_img_count": 34,
+      "baseline_table_count": 156,
+      "rebuild_table_count": 156,
+      "baseline_statblock_count": 25,
+      "rebuild_statblock_count": 25
+    },
+    "pdf_comparison": {
+      "baseline": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v6_two_column.pdf",
+      "rebuild": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v7_rebuild_two_column.pdf",
+      "byte_identical": false,
+      "baseline_sha256": "d89ba390b296211692419d08f8e8f84cb0d393b54e94489531542bb5a0e08fc5",
+      "rebuild_sha256": "16707c88dab91d3869d9db37a70413d458f1c2cbc6511bceafae55734cf0ab2e"
+    },
+    "qa_statuses": {
+      "production_html": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/production_html_report_v7_rebuild.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": null,
+        "sha256": "6dee5149af4df6aecfe28ce02b4d9174c3d64a98c464fb39369afee95f6ec52d"
+      },
+      "statblock_projection": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/html_v7_rebuild_statblock_projection_report.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": null,
+        "sha256": "bd4e2e9900af248753bee4237bd003caf234cfdc1336da7026ac933c22c5de62"
+      },
+      "positive_content": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/positive_content_audit_v7_rebuild.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": null,
+        "sha256": "68617fff9212da5e00cdadb82534122bb53ffc9fced2297057537f2a20a128fe"
+      },
+      "coc_mechanics": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/coc_mechanics_audit_v7_rebuild.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": null,
+        "sha256": "56fd05d1ade5cd123519fb6b40f157ee639fa2a3e1ea32622f706688f26026c3"
+      },
+      "art_layout": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/art_layout_qa_v7_rebuild.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": 0,
+        "sha256": "e0420352f2cb539c5336ab67a21c9600f73aa9b0632c2b79833f179d4d741ce3"
+      },
+      "production_pdf": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/production_pdf_report_v7_rebuild_two_column.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": null,
+        "sha256": "4e73dc687f4a35254d17773f3de9aff7510fec57021cf92dd9ee02ecdf98f775"
+      },
+      "pdf_print": {
+        "path": "kb_creator/working/innsmouth_final/20260730T172713Z/pdf_print_qa_v7_rebuild_two_column.json",
+        "exists": true,
+        "status": "pass",
+        "findings": 0,
+        "warnings": 0,
+        "sha256": "52a775016b72ac207f0ca626935b6e252998fe49f300a9889aaa7dafaa0cb460"
+      }
+    }
+  },
+  "visual_review": {
+    "status": "pass",
+    "pdf": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/Pdf/The_Innsmouth_Terror_Full_RU_two_column.pdf",
+    "rendered_png_dir": "kb_creator/reports/innsmouth_final/runs/20260730T172713Z/visual_pdf_review",
+    "rendered_png_count": 32,
+    "report": {
+      "path": "kb_creator/reports/innsmouth_final/runs/20260730T172713Z/visual_pdf_review_report.md",
+      "exists": true,
+      "size_bytes": 1446,
+      "sha256": "8186823efba3912551ea0529782027a102d866504e1d5712392097391823d25e",
+      "last_write_time_utc": "2026-07-30T17:27:48.192386+00:00"
+    },
+    "checked_pages": [
+      {
+        "page": 1,
+        "png": "visual_pdf_review/page-01.png",
+        "result": "candidate_review_pass",
+        "notes": "Cover art full-page scale."
+      },
+      {
+        "page": 2,
+        "png": "visual_pdf_review/page-02.png",
+        "result": "candidate_review_pass",
+        "notes": "Source contents page fits and is readable."
+      },
+      {
+        "page": 3,
+        "png": "visual_pdf_review/page-03.png",
+        "result": "candidate_review_pass",
+        "notes": "Body starts after frontmatter."
+      },
+      {
+        "page": 17,
+        "png": "visual_pdf_review/page-17.png",
+        "result": "candidate_review",
+        "notes": "Large table tail transitions into body; no overlap in smoke review."
+      },
+      {
+        "page": 24,
+        "png": "visual_pdf_review/page-24.png",
+        "result": "candidate_review_pass",
+        "notes": "Statblock page readable."
+      },
+      {
+        "page": 32,
+        "png": "visual_pdf_review/page-32.png",
+        "result": "candidate_review_pass",
+        "notes": "Final document tail renders without clipping."
+      }
+    ],
+    "findings": []
+  },
+  "artifacts": {
+    "html": {
+      "path": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/The_Innsmouth_Terror_Full_RU.html",
+      "exists": true,
+      "size_bytes": 310704,
+      "sha256": "c356877164cc8594ef767bd183fb1428552d284420a9578a048f01e65a9e4b5d",
+      "last_write_time_utc": "2026-07-30T17:27:13.783824+00:00"
+    },
+    "pdf_two_column": {
+      "path": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/Pdf/The_Innsmouth_Terror_Full_RU_two_column.pdf",
+      "exists": true,
+      "size_bytes": 65261797,
+      "sha256": "16707c88dab91d3869d9db37a70413d458f1c2cbc6511bceafae55734cf0ab2e",
+      "last_write_time_utc": "2026-07-30T17:27:31.485733+00:00"
+    }
+  },
+  "promoted_from": {
+    "html": {
+      "source": {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v7_rebuild.html",
+        "exists": true,
+        "size_bytes": 310704,
+        "sha256": "c356877164cc8594ef767bd183fb1428552d284420a9578a048f01e65a9e4b5d",
+        "last_write_time_utc": "2026-07-30T17:27:13.783824+00:00"
+      },
+      "target": {
+        "path": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/The_Innsmouth_Terror_Full_RU.html",
+        "exists": true,
+        "size_bytes": 310704,
+        "sha256": "c356877164cc8594ef767bd183fb1428552d284420a9578a048f01e65a9e4b5d",
+        "last_write_time_utc": "2026-07-30T17:27:13.783824+00:00"
+      }
+    },
+    "pdf_two_column": {
+      "source": {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v7_rebuild_two_column.pdf",
+        "exists": true,
+        "size_bytes": 65261797,
+        "sha256": "16707c88dab91d3869d9db37a70413d458f1c2cbc6511bceafae55734cf0ab2e",
+        "last_write_time_utc": "2026-07-30T17:27:31.485733+00:00"
+      },
+      "target": {
+        "path": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/Pdf/The_Innsmouth_Terror_Full_RU_two_column.pdf",
+        "exists": true,
+        "size_bytes": 65261797,
+        "sha256": "16707c88dab91d3869d9db37a70413d458f1c2cbc6511bceafae55734cf0ab2e",
+        "last_write_time_utc": "2026-07-30T17:27:31.485733+00:00"
+      }
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "kb_creator/scripts/build_innsmouth_v7_rebuild.py",
+        "--report-dir",
+        "kb_creator/reports/innsmouth_final/runs/20260730T172713Z/publishing_rebuild",
+        "--config",
+        "kb_creator/working/innsmouth_final/20260730T172713Z/the_innsmouth_terror.final_publishing.package.json"
+      ],
+      "started_at_utc": "2026-07-30T17:27:13.294067+00:00",
+      "finished_at_utc": "2026-07-30T17:27:35.487334+00:00",
+      "returncode": 0,
+      "stdout": "status=pass html=CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v7_rebuild.html pdf=CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v7_rebuild_two_column.pdf findings=0 report=kb_creator/reports/innsmouth_final/runs/20260730T172713Z/publishing_rebuild/rebuild_report.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\BogdanD\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-png",
+        "-r",
+        "110",
+        "kb_creator/output/innsmouth_final/runs/20260730T172713Z/Pdf/The_Innsmouth_Terror_Full_RU_two_column.pdf",
+        "D:\\NRI\\kb_creator\\reports\\innsmouth_final\\runs\\20260730T172713Z\\visual_pdf_review\\page"
+      ],
+      "started_at_utc": "2026-07-30T17:27:35.672485+00:00",
+      "finished_at_utc": "2026-07-30T17:27:48.168713+00:00",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\BogdanD\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdfinfo.exe",
+        "kb_creator/output/innsmouth_final/runs/20260730T172713Z/Pdf/The_Innsmouth_Terror_Full_RU_two_column.pdf"
+      ],
+      "started_at_utc": "2026-07-30T17:27:48.169015+00:00",
+      "finished_at_utc": "2026-07-30T17:27:48.191570+00:00",
+      "returncode": 0,
+      "stdout": "Title:           The_Innsmouth_Terror_v7_rebuild\nCreator:         Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36\nProducer:        Skia/PDF m150\nCreationDate:    Thu Jul 30 20:27:17 2026 RTZ 2 (зима)\nModDate:         Thu Jul 30 20:27:17 2026 RTZ 2 (зима)\nCustom Metadata: no\nMetadata Stream: no\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           32\nEncrypted:       no\nPage size:       594.96 x 841.92 pts (A4)\nPage rot:        0\nFile size:       65261797 bytes\nOptimized:       no\nPDF version:     1.4\n",
+      "stderr": ""
+    }
+  ],
+  "findings": [],
+  "acceptance_boundary": "This proves script-backed regeneration and promotion of the accepted HTML/PDF chain. It does not claim fresh translation/proofread or KB regeneration."
+}

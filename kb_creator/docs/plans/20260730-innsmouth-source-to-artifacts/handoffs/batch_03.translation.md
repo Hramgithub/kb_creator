@@ -1,0 +1,30 @@
+# Batch 03 Translation Receipt
+
+- goal id: `20260730-innsmouth-source-to-artifacts`
+- step id: `batch_03_translation`
+- role: bounded executor
+- model: Codex
+- effort: medium
+- scope: translate `batch_03.en.json` to `batch_03.ru.json` using only `source_text`, preserving unit metadata and batch structure
+- result: completed
+- files checked:
+  - `kb_creator/README.md`
+  - `kb_creator/PROJECT_STATUS.md`
+  - `docs/governance/nri_goal_governance.md`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/plan.md`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/context.md`
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_03.en.json`
+- files changed:
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_03.ru.json`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/handoffs/batch_03.translation.md`
+- verification/evidence:
+  - output JSON schema set to `kb_creator.translation_batch_ru.v1`
+  - preserved `batch_id`, `source_tasks_json`, `target_ru_json`, `unit_id`, `page`, and `source_hash`
+  - filled `ru_text` for all 7 units in the batch
+  - preserved headings, bullets, page references, and mechanical roll names/values such as `Social`, `Charm`, `Persuade`, `Psychology`, `Drive Auto`, `Listen`, `Sanity (0/1 loss)`, `Spot Hidden`, `Sleight of Hand`, and `Stealth`
+  - no Yandex reference material used; translation performed from the batch `source_text` only
+- blockers: none
+- next action: merge this batch with the remaining RU batches into the accepted RU master, then continue Keeper assembly
+- elapsed time: approximately 26 minutes
+- token use: unavailable
+- timestamp: `2026-07-30T23:45:00+03:00`

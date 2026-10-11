@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.scenario_artview_decisions.v4",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "scenario_id", "state", "bindings", "decisions", "review", "decisions_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.scenario_artview_decisions.v4"},
+    "scenario_id": {"type": "string"},
+    "state": {"enum": ["draft", "accepted"]},
+    "bindings": {"type": "object"},
+    "decisions": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["asset_id", "binary", "presentation", "reviewed", "notes"], "properties": {"asset_id": {"type": "string"}, "binary": {"type": "object", "additionalProperties": false, "required": ["choice", "candidate_id"], "properties": {"choice": {"enum": [null, "keep_current", "use_candidate", "exclude", "needs_manual_work", "reopen_masters"]}, "candidate_id": {"type": ["string", "null"]}}}, "presentation": {"$ref": "#/$defs/presentation"}, "reviewed": {"type": "boolean"}, "notes": {"type": "string"}}}},
+    "review": {"type": "object", "additionalProperties": false, "required": ["state", "reviewed_count", "unresolved_asset_ids"], "properties": {"state": {"enum": ["open", "closed"]}, "reviewed_count": {"type": "integer", "minimum": 0}, "unresolved_asset_ids": {"type": "array", "items": {"type": "string"}}}},
+    "decisions_sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}
+  },
+  "$defs": {"presentation": {"type": "object", "additionalProperties": false, "required": ["width_percent", "alignment", "wrap_text", "wrap_tables"], "properties": {"width_percent": {"type": "integer", "minimum": 10, "maximum": 100}, "alignment": {"enum": ["left", "center", "right"]}, "wrap_text": {"type": "boolean"}, "wrap_tables": {"type": "boolean"}}}}
+}

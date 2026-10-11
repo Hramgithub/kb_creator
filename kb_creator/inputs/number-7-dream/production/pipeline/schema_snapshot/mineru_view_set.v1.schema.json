@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.mineru_view_set.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "run_identity_sha256", "ordered_view_plan", "required_succeeded", "succeeded_views", "views", "receipt_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.mineru_view_set.v1"},
+    "run_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "ordered_view_plan": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"type": "object", "additionalProperties": false, "required": ["view_id", "required", "provider_id", "input_kind", "backend", "method", "effort", "formula", "table"], "properties": {"view_id": {"enum": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr", "original_hybrid_high", "original_vlm"]}, "required": {"type": "boolean"}, "provider_id": {"enum": ["pipeline_cpu", "hybrid_cuda", "vlm_cuda"]}, "input_kind": {"enum": ["original", "raster"]}, "backend": {"enum": ["pipeline", "hybrid-engine", "vlm-engine"]}, "method": {"enum": ["txt", "ocr", null]}, "effort": {"enum": ["high", null]}, "formula": {"const": true}, "table": {"const": true}}}},
+    "required_succeeded": {"const": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr"]},
+    "succeeded_views": {"type": "array", "minItems": 3, "maxItems": 5, "uniqueItems": true, "items": {"enum": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr", "original_hybrid_high", "original_vlm"]}, "prefixItems": [{"const": "original_pipeline_txt"}, {"const": "original_pipeline_ocr"}, {"const": "raster_pipeline_ocr"}]},
+    "views": {"type": "array", "minItems": 5, "maxItems": 5, "prefixItems": [
+      {"$ref": "#/$defs/original_pipeline_txt"}, {"$ref": "#/$defs/original_pipeline_ocr"}, {"$ref": "#/$defs/raster_pipeline_ocr"}, {"$ref": "#/$defs/original_hybrid_high"}, {"$ref": "#/$defs/original_vlm"}
+    ], "items": false},
+    "receipt_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "receipt": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "receipt_sha256"], "properties": {"path": {"type": "string", "pattern": "^views/[A-Za-z0-9._-]+/view\\.json$"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "receipt_sha256": {"$ref": "#/$defs/sha256"}}},
+    "row": {"type": "object", "additionalProperties": false, "required": ["view_id", "state", "receipt"], "properties": {"view_id": {"enum": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr", "original_hybrid_high", "original_vlm"]}, "state": {"enum": ["succeeded", "skipped"]}, "receipt": {"$ref": "#/$defs/receipt"}}},
+    "original_pipeline_txt": {"allOf": [{"$ref": "#/$defs/row"}, {"properties": {"view_id": {"const": "original_pipeline_txt"}}}]},
+    "original_pipeline_ocr": {"allOf": [{"$ref": "#/$defs/row"}, {"properties": {"view_id": {"const": "original_pipeline_ocr"}}}]},
+    "raster_pipeline_ocr": {"allOf": [{"$ref": "#/$defs/row"}, {"properties": {"view_id": {"const": "raster_pipeline_ocr"}}}]},
+    "original_hybrid_high": {"allOf": [{"$ref": "#/$defs/row"}, {"properties": {"view_id": {"const": "original_hybrid_high"}}}]},
+    "original_vlm": {"allOf": [{"$ref": "#/$defs/row"}, {"properties": {"view_id": {"const": "original_vlm"}}}]}
+  }
+}

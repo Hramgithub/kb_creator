@@ -1,0 +1,575 @@
+{
+  "page_count": 26,
+  "raw_objects": [
+    {
+      "bound_component_of": null,
+      "bytes": 257827,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 900,
+      "object_id": 1112,
+      "raw_id": "page-001-xref-1112-gen-0-resource-image15",
+      "sha256": "0F3FC1FCD9730A173E9CC12917C03496280D0F42C32F39A652181EF05BBA00E3",
+      "source_page": 1,
+      "technical_reason": null,
+      "width": 1200,
+      "xobject_name": "/Image15"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 39,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 7,
+      "object_id": 1114,
+      "raw_id": "page-001-xref-1114-gen-0-resource-image16",
+      "sha256": "8B35CB35172E76FA5B4B63A67B1D3110A7F86DA4BF8340C9703081EC84F86B7C",
+      "source_page": 1,
+      "technical_reason": null,
+      "width": 859,
+      "xobject_name": "/Image16"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 758806,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 2450,
+      "object_id": 1115,
+      "raw_id": "page-001-xref-1115-gen-0-resource-image18",
+      "sha256": "313350D3B2EDAB433A8ED27250CC02184DDD9610988DFA5526E752A5375D7CBE",
+      "source_page": 1,
+      "technical_reason": null,
+      "width": 1837,
+      "xobject_name": "/Image18"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 22297,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 222,
+      "object_id": 1117,
+      "raw_id": "page-001-xref-1117-gen-0-resource-image23",
+      "sha256": "95046BB103941E280F514CF598FF2148502CF2D88C28CBDF976BFCD73B52CC86",
+      "source_page": 1,
+      "technical_reason": null,
+      "width": 455,
+      "xobject_name": "/Image23"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 55480,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 239,
+      "object_id": 80,
+      "raw_id": "page-004-xref-80-gen-0-resource-image100",
+      "sha256": "DD5C88300D50C6CE31C10EA8DBF82F1071F0D24C0F5E8BFED6F4EBA7CC292CB3",
+      "source_page": 4,
+      "technical_reason": null,
+      "width": 708,
+      "xobject_name": "/Image100"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 55480,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 239,
+      "object_id": 80,
+      "raw_id": "page-005-xref-80-gen-0-resource-image100",
+      "sha256": "DD5C88300D50C6CE31C10EA8DBF82F1071F0D24C0F5E8BFED6F4EBA7CC292CB3",
+      "source_page": 5,
+      "technical_reason": null,
+      "width": 708,
+      "xobject_name": "/Image100"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 32341,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 406,
+      "object_id": 15,
+      "raw_id": "page-006-xref-15-gen-0-resource-image110",
+      "sha256": "70C03A377F650E15528580DBE3E29B626EF358B61E7E3620F81D6099078A43E6",
+      "source_page": 6,
+      "technical_reason": null,
+      "width": 409,
+      "xobject_name": "/Image110"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 33590,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 394,
+      "object_id": 19,
+      "raw_id": "page-007-xref-19-gen-0-resource-image112",
+      "sha256": "16CDFDD925753E6FCB137E07BD30B38D1EE2B1C80E555B5D307135D5AD592E4A",
+      "source_page": 7,
+      "technical_reason": null,
+      "width": 394,
+      "xobject_name": "/Image112"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 66739,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 414,
+      "object_id": 21,
+      "raw_id": "page-007-xref-21-gen-0-resource-image115",
+      "sha256": "EED835917C894B6A88DB316A343937884D9B0D0BC478AE704C9CDA3E6B7FF692",
+      "source_page": 7,
+      "technical_reason": null,
+      "width": 709,
+      "xobject_name": "/Image115"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 90470,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 816,
+      "object_id": 24,
+      "raw_id": "page-008-xref-24-gen-0-resource-image118",
+      "sha256": "BB02CDE4703D033ACBE78FDA5D5189C1FC5335BDFD2992510CE6EC5096FC64B0",
+      "source_page": 8,
+      "technical_reason": null,
+      "width": 1524,
+      "xobject_name": "/Image118"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 55480,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 239,
+      "object_id": 80,
+      "raw_id": "page-009-xref-80-gen-0-resource-image100",
+      "sha256": "DD5C88300D50C6CE31C10EA8DBF82F1071F0D24C0F5E8BFED6F4EBA7CC292CB3",
+      "source_page": 9,
+      "technical_reason": null,
+      "width": 708,
+      "xobject_name": "/Image100"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 190535,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 974,
+      "object_id": 31,
+      "raw_id": "page-011-xref-31-gen-0-resource-image149",
+      "sha256": "367CA7F37F4F782D07EAF60A88056DB377ABC73C692FF099CF0808865CE2AC07",
+      "source_page": 11,
+      "technical_reason": null,
+      "width": 1501,
+      "xobject_name": "/Image149"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 154731,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 718,
+      "object_id": 36,
+      "raw_id": "page-013-xref-36-gen-0-resource-image152",
+      "sha256": "73EE48A18D30A308BBC71351D717117D70D538A6C8BD3FB110B572DEA1253D8F",
+      "source_page": 13,
+      "technical_reason": null,
+      "width": 900,
+      "xobject_name": "/Image152"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 151092,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 576,
+      "object_id": 39,
+      "raw_id": "page-014-xref-39-gen-0-resource-image159",
+      "sha256": "B547200FCC73D974D97E7F31885E1E1D590D36327D80FD50E26E693AED541592",
+      "source_page": 14,
+      "technical_reason": null,
+      "width": 1174,
+      "xobject_name": "/Image159"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 67628,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 698,
+      "object_id": 42,
+      "raw_id": "page-015-xref-42-gen-0-resource-image161",
+      "sha256": "363A61A84D100D2D11FE622CDCDD5581550EF45D1878B5F9E7973A73E070107A",
+      "source_page": 15,
+      "technical_reason": null,
+      "width": 1612,
+      "xobject_name": "/Image161"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 179305,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 676,
+      "object_id": 47,
+      "raw_id": "page-017-xref-47-gen-0-resource-image164",
+      "sha256": "8BD7C8F1FE8AE57D8411B5D0BFF37AF455E4A15DB6F40CA17AC9C107E179B003",
+      "source_page": 17,
+      "technical_reason": null,
+      "width": 1200,
+      "xobject_name": "/Image164"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 47142,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 521,
+      "object_id": 58,
+      "raw_id": "page-021-xref-58-gen-0-resource-image171",
+      "sha256": "3565B60ADA733881FB913DCDDBE2653BA10C3831176209B375604B9B217FD98A",
+      "source_page": 21,
+      "technical_reason": null,
+      "width": 525,
+      "xobject_name": "/Image171"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 43464,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 497,
+      "object_id": 61,
+      "raw_id": "page-022-xref-61-gen-0-resource-image174",
+      "sha256": "531D0D9BF5ABE7ABED272F9CF2212E251B925632713C7DF4D64BC95807CE09DC",
+      "source_page": 22,
+      "technical_reason": null,
+      "width": 497,
+      "xobject_name": "/Image174"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 41423,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 485,
+      "object_id": 64,
+      "raw_id": "page-023-xref-64-gen-0-resource-image177",
+      "sha256": "482BE7DF134497477364073560538776E15B21716DB04943C213BFDA6ED92A76",
+      "source_page": 23,
+      "technical_reason": null,
+      "width": 485,
+      "xobject_name": "/Image177"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 39266,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 450,
+      "object_id": 67,
+      "raw_id": "page-024-xref-67-gen-0-resource-image180",
+      "sha256": "EB95F7655483243B64C63FEAA35BD38C4C3662A9F447F5033A356DB3825B0007",
+      "source_page": 24,
+      "technical_reason": null,
+      "width": 450,
+      "xobject_name": "/Image180"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 43894,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 474,
+      "object_id": 70,
+      "raw_id": "page-025-xref-70-gen-0-resource-image183",
+      "sha256": "FE1A107FA560F562F35B455686479F48744A4D47514B4032DC19A62149E8CD0F",
+      "source_page": 25,
+      "technical_reason": null,
+      "width": 474,
+      "xobject_name": "/Image183"
+    },
+    {
+      "bound_component_of": null,
+      "bytes": 43354,
+      "colorspace": "DeviceRGB",
+      "disposition": "component_of_visual_unit",
+      "generation": 0,
+      "height": 467,
+      "object_id": 73,
+      "raw_id": "page-026-xref-73-gen-0-resource-image186",
+      "sha256": "9692303D115CCD1F58238379477472FA017EF6CD9AFE86AD795CDAB47E087835",
+      "source_page": 26,
+      "technical_reason": null,
+      "width": 467,
+      "xobject_name": "/Image186"
+    },
+    {
+      "bound_component_of": [
+        "page-001-xref-1114-gen-0-resource-image16"
+      ],
+      "bytes": 90,
+      "colorspace": "DeviceGray",
+      "disposition": "technical_pdf_mechanic",
+      "generation": 0,
+      "height": 7,
+      "object_id": 1113,
+      "raw_id": "page-001-xref-1113-gen-0-soft-mask",
+      "sha256": "B375DEA4D3A5477C7A9CF4A1373B0B32D1C506155D71F75747F0AD8A5025EEB0",
+      "source_page": 1,
+      "technical_reason": "soft_mask",
+      "width": 859,
+      "xobject_name": "SMask"
+    },
+    {
+      "bound_component_of": [
+        "page-001-xref-1117-gen-0-resource-image23"
+      ],
+      "bytes": 789,
+      "colorspace": "DeviceGray",
+      "disposition": "technical_pdf_mechanic",
+      "generation": 0,
+      "height": 222,
+      "object_id": 1116,
+      "raw_id": "page-001-xref-1116-gen-0-soft-mask",
+      "sha256": "3DB8FCA0573647EE7B76247860E593030D4CDB4E241CCFDB6680CAE9A70E9BE2",
+      "source_page": 1,
+      "technical_reason": "soft_mask",
+      "width": 455,
+      "xobject_name": "SMask"
+    },
+    {
+      "bound_component_of": [
+        "page-007-xref-21-gen-0-resource-image115"
+      ],
+      "bytes": 3727,
+      "colorspace": "DeviceGray",
+      "disposition": "technical_pdf_mechanic",
+      "generation": 0,
+      "height": 414,
+      "object_id": 20,
+      "raw_id": "page-007-xref-20-gen-0-soft-mask",
+      "sha256": "8F310A34D69E0A804A05495A11610D6D9AE00F7B0C337659F9C5DBE58644CDA5",
+      "source_page": 7,
+      "technical_reason": "soft_mask",
+      "width": 709,
+      "xobject_name": "SMask"
+    }
+  ],
+  "schema": "kb_creator.source_visual_inventory.v1",
+  "source_pdf": {
+    "bytes": 2915268,
+    "path": "source/Call_of_Cthulhu_Miskatonic_Repository_Modern_Number_7_Dream_2021.pdf",
+    "sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0"
+  },
+  "visual_units": [
+    {
+      "component_raw_ids": [
+        "page-001-xref-1112-gen-0-resource-image15",
+        "page-001-xref-1114-gen-0-resource-image16",
+        "page-001-xref-1115-gen-0-resource-image18",
+        "page-001-xref-1117-gen-0-resource-image23"
+      ],
+      "derivation": "clean_page_render",
+      "placement_id": "source-cover-page-001",
+      "review_id": "pdf-page-001-cover",
+      "source_page": 1
+    },
+    {
+      "component_raw_ids": [
+        "page-004-xref-80-gen-0-resource-image100"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-004-asset-001",
+      "review_id": "page-004-xref-80-gen-0-resource-image100",
+      "source_page": 4
+    },
+    {
+      "component_raw_ids": [
+        "page-005-xref-80-gen-0-resource-image100"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-005-asset-001",
+      "review_id": "page-005-xref-80-gen-0-resource-image100",
+      "source_page": 5
+    },
+    {
+      "component_raw_ids": [
+        "page-006-xref-15-gen-0-resource-image110"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-006-asset-001",
+      "review_id": "page-006-xref-15-gen-0-resource-image110",
+      "source_page": 6
+    },
+    {
+      "component_raw_ids": [
+        "page-007-xref-19-gen-0-resource-image112"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-007-asset-001",
+      "review_id": "page-007-xref-19-gen-0-resource-image112",
+      "source_page": 7
+    },
+    {
+      "component_raw_ids": [
+        "page-007-xref-21-gen-0-resource-image115"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-007-asset-002",
+      "review_id": "page-007-xref-21-gen-0-resource-image115",
+      "source_page": 7
+    },
+    {
+      "component_raw_ids": [
+        "page-008-xref-24-gen-0-resource-image118"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-008-asset-001",
+      "review_id": "page-008-xref-24-gen-0-resource-image118",
+      "source_page": 8
+    },
+    {
+      "component_raw_ids": [
+        "page-009-xref-80-gen-0-resource-image100"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-009-asset-001",
+      "review_id": "page-009-xref-80-gen-0-resource-image100",
+      "source_page": 9
+    },
+    {
+      "component_raw_ids": [
+        "page-011-xref-31-gen-0-resource-image149"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-011-asset-001",
+      "review_id": "page-011-xref-31-gen-0-resource-image149",
+      "source_page": 11
+    },
+    {
+      "component_raw_ids": [
+        "page-013-xref-36-gen-0-resource-image152"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-013-asset-001",
+      "review_id": "page-013-xref-36-gen-0-resource-image152",
+      "source_page": 13
+    },
+    {
+      "component_raw_ids": [
+        "page-014-xref-39-gen-0-resource-image159"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-014-asset-001",
+      "review_id": "page-014-xref-39-gen-0-resource-image159",
+      "source_page": 14
+    },
+    {
+      "component_raw_ids": [
+        "page-015-xref-42-gen-0-resource-image161"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-015-asset-001",
+      "review_id": "page-015-xref-42-gen-0-resource-image161",
+      "source_page": 15
+    },
+    {
+      "component_raw_ids": [
+        "page-017-xref-47-gen-0-resource-image164"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-017-asset-001",
+      "review_id": "page-017-xref-47-gen-0-resource-image164",
+      "source_page": 17
+    },
+    {
+      "component_raw_ids": [],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-020-asset-001",
+      "review_id": "master-page-020-asset-001",
+      "source_page": 20
+    },
+    {
+      "component_raw_ids": [
+        "page-021-xref-58-gen-0-resource-image171"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-021-asset-001",
+      "review_id": "page-021-xref-58-gen-0-resource-image171",
+      "source_page": 21
+    },
+    {
+      "component_raw_ids": [
+        "page-022-xref-61-gen-0-resource-image174"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-022-asset-001",
+      "review_id": "page-022-xref-61-gen-0-resource-image174",
+      "source_page": 22
+    },
+    {
+      "component_raw_ids": [
+        "page-023-xref-64-gen-0-resource-image177"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-023-asset-001",
+      "review_id": "page-023-xref-64-gen-0-resource-image177",
+      "source_page": 23
+    },
+    {
+      "component_raw_ids": [
+        "page-024-xref-67-gen-0-resource-image180"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-024-asset-001",
+      "review_id": "page-024-xref-67-gen-0-resource-image180",
+      "source_page": 24
+    },
+    {
+      "component_raw_ids": [
+        "page-025-xref-70-gen-0-resource-image183"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-025-asset-001",
+      "review_id": "page-025-xref-70-gen-0-resource-image183",
+      "source_page": 25
+    },
+    {
+      "component_raw_ids": [
+        "page-026-xref-73-gen-0-resource-image186"
+      ],
+      "derivation": "master_ru_asset",
+      "placement_id": "master-page-026-asset-001",
+      "review_id": "page-026-xref-73-gen-0-resource-image186",
+      "source_page": 26
+    }
+  ]
+}

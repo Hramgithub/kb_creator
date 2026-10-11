@@ -1,0 +1,25 @@
+{
+  "schema": "kb_creator.mineru_ai_page_decision.v1",
+  "source_page": 1,
+  "semantic_role": "body",
+  "overlay_preference": "original_pipeline_txt",
+  "selected_blocks": [
+    {
+      "view": "original_pipeline_txt",
+      "raw_index": 0,
+      "purpose": "text"
+    },
+    {
+      "view": "original_pipeline_ocr",
+      "raw_index": 1,
+      "purpose": "text"
+    }
+  ],
+  "markdown": "Synthetic paragraph\n\nBeta",
+  "assets": [],
+  "unresolved": [],
+  "review": {
+    "visual_reviewed": true,
+    "notes": "Synthetic fixture receipt; no real book review"
+  }
+}

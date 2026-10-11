@@ -1,0 +1,289 @@
+{
+  "schema": "translator_production_html.v1",
+  "generated_at_utc": "2026-09-12T10:28:32.323704+00:00",
+  "config": "kb_creator/inputs/viral/production/build_config.json",
+  "source_markdown": "kb_creator/inputs/viral/production/ARTVIEW_RENDER_RU.md",
+  "production_html": "kb_creator/inputs/viral/production/Viral_RU.html",
+  "normalized_markdown": null,
+  "status": "pass",
+  "action": "rewritten",
+  "mode": "production",
+  "required_gates": [
+    "master_ru_user_accepted",
+    "visual_assets_accepted"
+  ],
+  "counts": {
+    "html_bytes": 635288,
+    "headings": 113,
+    "source_pages": 0,
+    "image_refs": 89,
+    "missing_image_refs": 0,
+    "preserved_page_art_refs": 0,
+    "statblock_cards": 2,
+    "full_page_art_cards": 36,
+    "statblock_page_callouts": 0,
+    "page_type_annotations": 0,
+    "removed_source_cover_pages": 0,
+    "removed_source_toc_pages": 0,
+    "removed_manual_toc_sections": 1,
+    "source_toc_entries": 0,
+    "converted_callouts": 0,
+    "relocated_reader_art_blocks": 0,
+    "suppressed_reader_metadata": 0,
+    "normalized_handout_headings": 0,
+    "normalized_markdown_bytes": 0,
+    "ordered_list_blocks": 9,
+    "transformed_credit_tables": 0,
+    "transformed_quote_art_pages": 0,
+    "heading_level_overrides": 0,
+    "suppressed_reader_noise_blocks": 1,
+    "suppressed_body_image_refs": 1,
+    "suppressed_figure_captions": 87,
+    "suppressed_section_navigation_lists": 3,
+    "section_page_starts": 2,
+    "section_headings_bound_into_first_card": 1,
+    "findings": 0,
+    "trial_bypassed_gates": 0
+  },
+  "sha256": "4422ef5b5f224d1be6919fa872265fe45f545e16207ad89ec3420599062d27ab",
+  "preserved_page_art": [],
+  "page_type_annotations": [],
+  "removed_source_cover": [],
+  "removed_source_toc": [],
+  "source_toc": null,
+  "frontmatter_manifest": "kb_creator/inputs/viral/production/QA/frontmatter_manifest.json",
+  "frontmatter": {
+    "schema": "translator_frontmatter_manifest.v1",
+    "generated_at_utc": "2026-09-12T10:28:32.310091+00:00",
+    "cover": {
+      "page": null,
+      "pages": [],
+      "asset": null,
+      "mode": "source_cover_full_page",
+      "fit": "contain",
+      "background_underlay": true
+    },
+    "toc": {
+      "mode": "generated",
+      "source_page": null,
+      "title": "Оглавление",
+      "origin": "generated",
+      "entries": null,
+      "source_link_map": null
+    },
+    "credits": {
+      "pages": []
+    },
+    "body": {
+      "starts_at": null
+    },
+    "flow": [
+      "landing",
+      "toc:generated"
+    ]
+  },
+  "removed_manual_toc": [
+    {
+      "title": "содержание",
+      "mode": "replaced_by_generated_toc"
+    }
+  ],
+  "callout_transform": {
+    "configured_rules": 0,
+    "converted": [],
+    "findings": []
+  },
+  "handout_heading_transform": {
+    "enabled": false,
+    "transformed": [],
+    "findings": []
+  },
+  "reader_art_relocation": {
+    "enabled": false,
+    "relocated": [],
+    "findings": []
+  },
+  "suppressed_reader_metadata": [],
+  "ordered_list_continuity": {
+    "blocks": [
+      {
+        "line": 2922,
+        "start": 1,
+        "end": 1,
+        "items": 1
+      },
+      {
+        "line": 2924,
+        "start": 2,
+        "end": 2,
+        "items": 1
+      },
+      {
+        "line": 2926,
+        "start": 3,
+        "end": 3,
+        "items": 1
+      },
+      {
+        "line": 2928,
+        "start": 4,
+        "end": 4,
+        "items": 1
+      },
+      {
+        "line": 2930,
+        "start": 5,
+        "end": 5,
+        "items": 1
+      },
+      {
+        "line": 2932,
+        "start": 6,
+        "end": 6,
+        "items": 1
+      },
+      {
+        "line": 2934,
+        "start": 7,
+        "end": 7,
+        "items": 1
+      },
+      {
+        "line": 2936,
+        "start": 8,
+        "end": 8,
+        "items": 1
+      },
+      {
+        "line": 2938,
+        "start": 9,
+        "end": 9,
+        "items": 1
+      }
+    ],
+    "declared_continuations": 0,
+    "findings": []
+  },
+  "transformed_credits": [],
+  "table_continuations": [],
+  "transformed_quote_art": [],
+  "heading_level_overrides": [],
+  "suppressed_reader_noise": [
+    {
+      "heading_id": "virus",
+      "count": 1
+    }
+  ],
+  "suppressed_body_images": [
+    {
+      "pattern": "assets/viral-render-cover-front.png",
+      "count": 1
+    }
+  ],
+  "suppressed_figure_captions": [
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация",
+    "Иллюстрация"
+  ],
+  "suppressed_section_navigation": [
+    "viral-player-handouts",
+    "viral-keeper-maps",
+    "viral-pregenerated-investigators"
+  ],
+  "section_page_starts": [
+    "viral-player-handouts",
+    "viral-keeper-maps"
+  ],
+  "section_headings_bound_into_first_card": [
+    "viral-pregenerated-investigators"
+  ],
+  "landing_toc_order": {
+    "ok": true,
+    "action": "custom_landing_before_toc"
+  },
+  "findings": []
+}

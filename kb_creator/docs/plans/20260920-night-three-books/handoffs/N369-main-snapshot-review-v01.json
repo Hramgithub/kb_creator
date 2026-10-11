@@ -1,0 +1,157 @@
+{
+  "schema": "nri.goal_handoff_receipt.v1",
+  "goal_id": "20260920-night-three-books",
+  "step_id": "N369",
+  "review_kind": "release",
+  "release_scope": "Preservation snapshot only; not book release or acceptance",
+  "role": "independent critic",
+  "policy_model": "gpt-6-astra",
+  "policy_effort": "high",
+  "actual_model": "unavailable",
+  "actual_effort": "unavailable",
+  "implemented_candidate": false,
+  "materially_designed_candidate": false,
+  "orchestrator_policy_owner": "main /root, gpt-6-sol medium",
+  "assignment_state": "platform-unverified; bounded review completed",
+  "scoped_override": "none",
+  "recommendation": "ALLOW",
+  "result": "ALLOW preservation of the exact reviewed latest-only snapshot; no blocking finding. Main owns commit, push, LFS publication verification and final integration.",
+  "candidate": {
+    "tree": "1b19cafb054505e7ec1597bccc058b9c9e210691",
+    "alternate_index": "kb_creator/working/night-three-books/n368-main-snapshot.index",
+    "index_sha256": "854AC7AA9680274EC74B3AC61F872FF9391FEE8CC2C9B91ED7805143E694414A",
+    "manifest_sha256": "AE4CF9786E588C3553311A75DABE1BA1620F9B1F8EA4EA801E3EE81F126BD92F",
+    "scope_sha256": "9F780045AD5F2356930879B9C7F8452F88919B0EACB98D3E3E4E9435E87012C8",
+    "selected_paths": 592,
+    "index_total_paths": 14702,
+    "local_main_parent": "54299da6ef51d119adfa39b0a386ba1d8d31d497",
+    "remote_main_parent": "25bb64d1cbc674d397fe2633db6fccf2c8972660"
+  },
+  "freeze_evidence": {
+    "method": "Main declared candidate ready at exact tree; reviewer independently observed empty alternate-index diff against that tree twice; final raw index hash equals earlier review hash.",
+    "index_last_write_utc": "2026-09-28T20:22:00.079252+00:00",
+    "first_recorded_review_time_utc": "2026-09-28T20:21:14+00:00",
+    "final_index_sha256_matches": "854AC7AA9680274EC74B3AC61F872FF9391FEE8CC2C9B91ED7805143E694414A"
+  },
+  "files_checked": [
+    "docs/governance/nri_goal_governance.md",
+    "kb_creator/docs/plans/20260920-night-three-books/plan.md",
+    "kb_creator/docs/plans/20260920-night-three-books/context.md",
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N369-main-snapshot-review-task.md",
+    "kb_creator/docs/plans/20260920-night-three-books/MAIN_SNAPSHOT_SCOPE.json",
+    "kb_creator/deliverables/latest/MANIFEST.json",
+    "kb_creator/deliverables/latest/README_RU.md",
+    "kb_creator/deliverables/latest/RESUME_PROMPT_RU.md",
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N368-latest-deliverables-v01.json",
+    "kb_creator/working/night-three-books/n368-candidate-qa-v01.json",
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N363-transfer-review-v01.json",
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N358-continuation-integration-review-v01.json",
+    "kb_creator/scripts/revise_publication_docx_package.py",
+    "kb_creator/tests/test_publication_docx_revision.py"
+  ],
+  "files_checked_expanded_scope": "Every path in MAIN_SNAPSHOT_SCOPE.selected_paths (592), every MANIFEST.files payload and source (216), and 434 source/code/test/contract/config files outside selection compared directly against index blobs. No archive inspection.",
+  "verification": {
+    "exact_index": "git diff --cached --name-only candidate_tree empty; diff against local main exactly equals 592 selected paths, with no extras or redundant selected paths.",
+    "selected_bytes": {
+      "checked": 592,
+      "lfs_pointers": 211,
+      "plain_blobs": 381,
+      "mismatches": 0,
+      "plain_policy": "Exact or Git CRLF/LF normalization only"
+    },
+    "deliverables": {
+      "files": 216,
+      "bytes": 270316324,
+      "docx": 6,
+      "html": 5,
+      "pdf": 4,
+      "assets": 201,
+      "hash_size_errors": 0,
+      "source_copy_errors": 0,
+      "embedded_media": "Number7 extracted members match DOCX ZIP member bytes"
+    },
+    "html_assets": {
+      "cursed-idol": 74,
+      "secrets-of-the-kremlin-1931": 14,
+      "shadows-of-leningrad-1938": 29,
+      "fears-sharp-little-needles": 63,
+      "dissociation": 2,
+      "missing": 0,
+      "method": "HTMLParser src/href/poster/data-source-reference and CSS url; path resolution checked against manifest. Leningrad includes three referenced handout originals."
+    },
+    "omitted_code": {
+      "outside_selected_checked": 434,
+      "working_byte_mismatches": 0,
+      "untracked_source_candidates": 0,
+      "branch_only_two_paths": "revise_publication_docx_package.py and test_publication_docx_revision.py already match local main/index; baseline retains evidence-collision guard and regression test absent in branch HEAD. Historical terminology imports intentionally excluded."
+    },
+    "prior_test_binding": "N363 snapshot script/test and N358 continuation production hashes match current bytes. N363 recorded 47 pass/2 Windows privilege skips; no rerun needed for unchanged code. Main N368 QA additionally reports 283 Python parses and zero errors.",
+    "generated_scope": "No new reports/working paths against local main. Existing 208 baseline reports/working paths are inherited unchanged; they are not selected new output. Excluded newer diagnostic/versioned trees remain outside snapshot selection.",
+    "git_boundaries": "Read local main status: only .codex/config.toml and Innsmouth chapter08 dirty. Neither belongs to selected incoming diff. Byte preservation independently reported by main QA; reviewer did not change them. Both parent refs resolved as declared. Commit/push not performed during review."
+  },
+  "qa_references": [
+    {
+      "path": "kb_creator/docs/plans/20260920-night-three-books/handoffs/N368-latest-deliverables-v01.json",
+      "sha256": "6AEC37F7497C1A9E2041E7DAFFC51836C4264A0718BA6F67A144AD84A774EE79"
+    },
+    {
+      "path": "kb_creator/working/night-three-books/n368-candidate-qa-v01.json",
+      "sha256": "75418B64ECF91934575CE4E969768B4359CBD480BAADCDB34FAD92E926551A3F"
+    },
+    {
+      "path": "kb_creator/docs/plans/20260920-night-three-books/handoffs/N363-transfer-review-v01.json",
+      "sha256": "4C47573E6563215C257A9980EE5FB06D1564019F51C4737A9830685C5AAE0A13"
+    },
+    {
+      "path": "kb_creator/docs/plans/20260920-night-three-books/handoffs/N358-continuation-integration-review-v01.json",
+      "sha256": "0FDAE13F415FF31FB9CD20F84CFB761872CC65BBFD8F779B7838049A94CF6FD1"
+    }
+  ],
+  "declared_exclusions": [
+    "6.6GB recovery archives",
+    "new QA screenshots/page renders",
+    "intermediate reader versions",
+    "full candidates, original source/OCR/replay trees",
+    "historical terminology import snapshots",
+    "stale Number7 HTML",
+    "Cursed Idol/Kremlin source PDFs as replacement exports"
+  ],
+  "findings": [
+    {
+      "id": "N369-I01",
+      "severity": "informational",
+      "blocking": false,
+      "finding": "The compact snapshot is a reader/code preservation transfer. Native replay recovery and complete working data remain local-only; README and resume prompt state this explicitly."
+    },
+    {
+      "id": "N369-I02",
+      "severity": "informational",
+      "blocking": false,
+      "finding": "Missing Cursed Idol/Kremlin PDF exports and current Number7 HTML are explicitly declared. Fear V19 and other books retain their pending acceptance/release states. Existing local-main generated baseline files are inherited, not new selected deliverables."
+    }
+  ],
+  "blockers": [],
+  "conditions": [
+    "Main must preserve both declared histories with the intended two-parent commit, maintain the two local-main dirty files, and verify actual remote main SHA and LFS publication after authorized push.",
+    "Routine receipt/commit/status metadata can be finalized under the assignment; main must record final tree identity and verify that differences from this reviewed tree are only those declared metadata changes.",
+    "Any selected payload/code change or other material candidate mutation invalidates this ALLOW and requires a newly versioned review. This receipt remains immutable and does not approve a silently changed tree."
+  ],
+  "invalidation": "Candidate byte/tree mutation invalidates identity applicability. Only explicitly delegated routine metadata finalization can be rebound by main with a recorded exact diff; material changes require renewed independent review.",
+  "limitations": [
+    "No visual book acceptance or source/language release is granted.",
+    "No recovery archive, OCR/replay execution or broad rebuild/test run was performed.",
+    "Initial git ls-files --modified attempted Git LFS clean of an inherited MinerU weight and failed with Access is denied to shared .git/lfs/tmp. No escalation or candidate mutation; replaced by git cat-file --batch and direct read-only byte checks, which passed."
+  ],
+  "next_action": "Main captures receipt, completes bounded final metadata/rebinding, commits with both parents, safely updates main and performs authorized push with remote/LFS verification.",
+  "elapsed_time": {
+    "observed_seconds": 437.33,
+    "exact_assignment_duration": "unavailable; observed interval begins after initial reads"
+  },
+  "token_use": "unavailable",
+  "timestamp_utc": "2026-09-28T20:28:31.333599+00:00",
+  "files_changed": [
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N369-main-snapshot-review-v01.md",
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N369-main-snapshot-review-v01.json"
+  ],
+  "ownership": "Only N369 receipts written. No implementation, index, canonical plan/context/status/release files edited; orchestration remains main."
+}

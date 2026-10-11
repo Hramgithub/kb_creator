@@ -1,0 +1,16 @@
+{
+  "schema": "nri.approved_retired_formats.v1",
+  "root": "D:/NRI/kb_creator/deliverables/latest",
+  "authority": "User explicitly confirmed these nine files to recycle on 5 October 2026",
+  "targets": [
+    {"path":"cursed-idol/document.html","sha256":"CF991530582B02295B021160D4ECA346B1888D00BBDA1E837A9A134C86A18D24"},
+    {"path":"secrets-of-the-kremlin-1931/document.html","sha256":"01286E3EEF0535CF8D96F0756AD2E346BE2AB8BB8DE6CDBF6464CBB7AEE39E0A"},
+    {"path":"shadows-of-leningrad-1938/document.html","sha256":"2CA4D8F9F814D4E4EB03CD8D275FF37A8A0B9AA89D12886977ACF2F477C7D460"},
+    {"path":"shadows-of-leningrad-1938/document.pdf","sha256":"B2E3A43EFB780A3CDBFF65C1A7AEC1B15581B0042E7916E2B48928CD39A72140"},
+    {"path":"fears-sharp-little-needles/document.html","sha256":"FFF1F55DB92A4346E0BCE9C641E6A8D8E645C23BB86EB68924D686C46A75D045"},
+    {"path":"fears-sharp-little-needles/document.pdf","sha256":"696EFB83D604AF7DA270C935C2E2E1A26EDA429021FE9AA9DBDCA45D82556D15"},
+    {"path":"number-7-dream/document.pdf","sha256":"C3DD457412567A1EB89AF8DA27BE973F0B84993DE0B8CB79A8BC1C1CC84E3B4F"},
+    {"path":"dissociation/document.html","sha256":"09D3E0618F9922255AE12A916D283FB9B2F900E8FE877C1072A52A44D8016B97"},
+    {"path":"dissociation/document.pdf","sha256":"89F2870D8FC76AF598A0F49A45C97D466B81C0E94F1BC5A0873A4478E290BAF6"}
+  ]
+}

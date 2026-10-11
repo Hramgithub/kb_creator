@@ -1,0 +1,151 @@
+{
+  "bindings": {
+    "candidate_files_inventory_sha256": "F2AEA26B5534C20328D603683F020A3FA710124E324143A3AA6339EAA958993E",
+    "candidate_manifest_sha256": "8D92D736C3C7D7E508E3FE9767D51CC1B435BDD70E42E0E873B4224B43CC7AF8",
+    "master_ru_acceptance_sha256": "A26F294341968DA8959E9318BBE35808A49353FE91E0B8DFE5FC9C41F2F87E40",
+    "master_ru_asset_manifest_sha256": "A12565F3B3EC1BE3047C9E660438275E857E1371C502557ABC27EAA18E3B56AD",
+    "master_ru_sha256": "A96BFEAF5642ACB7524D25DA6551A7916EDD650563887E1781A99BD9E31A9230",
+    "profile_sha256": "DBCE216CC8ACEC91E235F74F8FF053C12A4E82399ED67FE39BBB39E4C340E18C",
+    "reconstruction_inventory_sha256": "7A0CFE3358D0D8E12AEA01FF64D4668AFF5C0B1046E83016F1F18D73E504B5B6"
+  },
+  "decisions": [
+    {
+      "asset_id": "55ca597755b7df71c1e3699353265ee4ad9771ebbdb920410317e7073f6284fe",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "8fc42816bf72beda6938faad5a1aff6dea6de1bef286ee8d8822a8dac55bbbd6",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "d546ef251ace98df9136ea8c332883b06594c7082d32ed1ac80c4dbd915d9523",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "ffd474f4a049b1968c6f7b5f9068019b5cdec558e69b9a1e995aa21663395857",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "8d4e75a0cd6c3098cfd7b84b4fb603395e7269ec4249b8ab05734751a58edd70",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "456c573fb9955c8a3312cadf47a7559255d3416427b764e874d8d8d7d2b6a35c",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "833474cc789c6f5e00034fe72dd8ad95c5c148dd553d5451056a0be134473525",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "ba5b7c947407c8409b5353e7a25196a98be9e9dc47a786ee0376cd8bc23348b4",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "f16bfb5bbc3e13437865969cf46fecb192edeeab07978a0e1dabf1c60ed8345b",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "5f84fc66111294af52199ed1c80e48d71f9f8ddb412d52ee2cf42d04e31f7e4d",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "9f377a1d675ff226c5405c3a6968540b6a32221c151152c82e7770a708f2b981",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "2e39199dc3787b0600ac4f9843fd02de5f88dfb05be59acd833b9a17b5735421",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "7d73dfea3baa03b388a63f836c0ca43f9238efee255ab26ffcdb49bfacf79890",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "center", "width_percent": 100, "wrap_tables": false, "wrap_text": false},
+      "reviewed": true
+    },
+    {
+      "asset_id": "f21773feb120405acf2244939ea196833341dd24a2933ab9f08424aa1e44e5ac",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "8cc466f9543ad6eb3be419b505950eb16cd7b0cf0b3b33cfa0162bfa0f4c97a9",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "f51f17c46ef8227af096809e89eb784e968a715088739dc2b0b7f5778076e743",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "6f1393bc7dc691b0b8f2a2039d1c502aea957d8b8b5617deb0e1a2a8cd804165",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "30f29ef0afd70573f4f5411b933170a0faaafec268e1842bb6ded414c7ad1f95",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    },
+    {
+      "asset_id": "a334e31185e6dcb3c4ca4ff2f900efff0f4e77d7cd0c446fd7e4ba0392c35e1a",
+      "binary": {"candidate_id": null, "choice": "keep_current"},
+      "notes": "",
+      "presentation": {"alignment": "right", "width_percent": 100, "wrap_tables": true, "wrap_text": true},
+      "reviewed": true
+    }
+  ],
+  "decisions_sha256": "BE770E7C5A594D7FD9EE2BABD8B6D31930F31E8A434ECD9F16F27325C959D335",
+  "review": {"reviewed_count": 19, "state": "closed", "unresolved_asset_ids": []},
+  "scenario_id": "number-7-dream",
+  "schema": "kb_creator.scenario_artview_decisions.v3",
+  "state": "accepted"
+}

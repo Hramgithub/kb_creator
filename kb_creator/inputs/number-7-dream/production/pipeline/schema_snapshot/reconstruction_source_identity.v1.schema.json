@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.reconstruction_source_identity.v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "scenario_id", "run_identity_sha256", "contract", "source", "source_identity_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.reconstruction_source_identity.v1"},
+    "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "run_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "contract": {"type": "object", "additionalProperties": false, "required": ["basename", "bytes", "sha256", "contract_revision"], "properties": {"basename": {"allOf": [{"$ref": "#/$defs/relative_path"}, {"pattern": "^[^/]+$"}]}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "contract_revision": {"const": 1}}},
+    "source": {"type": "object", "additionalProperties": false, "required": ["basename", "bytes", "sha256", "page_count", "media_box_points", "rotation_degrees"], "properties": {"basename": {"allOf": [{"$ref": "#/$defs/relative_path"}, {"pattern": "^[^/]+$"}]}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "page_count": {"type": "integer", "minimum": 1}, "media_box_points": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number", "exclusiveMinimum": 0}}, "rotation_degrees": {"enum": [0, 90, 180, 270]}}},
+    "source_identity_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "relative_path": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s)(?!.*\\s$)(?!/)(?!.*//)(?!.*(?:^|/)\\.\\.?(?:/|$))(?!.*[:\\\\\\u0000])(?!.*(?:^|/)(?:[cC][oO][nN]|[pP][rR][nN]|[aA][uU][xX]|[nN][uU][lL]|[cC][oO][mM][1-9]|[lL][pP][tT][1-9])(?:\\.|/|$))(?!.*[ .](?:/|$))[^/]+(?:/[^/]+)*$"
+    }
+  }
+}

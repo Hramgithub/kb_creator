@@ -1,0 +1,60 @@
+{
+  "schema": "nri.u8_fidelity_qa_run_manifest.v1",
+  "timestamp_utc": "2026-10-04T23:20:37Z",
+  "python": "C:/Users/BogdanD/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "python_flags": ["-B", "-X", "utf8"],
+  "pytest_version": "9.0.2",
+  "pytest_module": "D:/NRI/.tools/python-3.13.14/Lib/site-packages/pytest/__init__.py",
+  "sys_path_append": "D:/NRI/.tools/python-3.13.14/Lib/site-packages",
+  "installation": "none; existing local pytest libraries loaded by bundled Codex Python",
+  "normal_sandbox": {
+    "19_module_exit": 1,
+    "4_module_exit": 1,
+    "reason": "pytest session cleanup PermissionError WinError 5 while listing fresh audit-local basetemp; no terminal test summary, so not counted as a test failure"
+  },
+  "elevated_full_suite": {
+    "command": "python.exe -B -X utf8 -c \"import sys; sys.path.append(r'D:/NRI/.tools/python-3.13.14/Lib/site-packages'); import pytest; raise SystemExit(pytest.main(ARGV))\"",
+    "pytest_argv": [
+      "-q", "-rs", "--tb=short", "-p", "no:cacheprovider",
+      "--basetemp=D:/NRI/kb_creator/docs/plans/20261004-user-docx-review/audit/fidelity-qa-v05/pytest-basetemp-elevated-01",
+      "kb_creator/tests/test_five_step_docx.py",
+      "kb_creator/tests/test_docx_continuation.py",
+      "kb_creator/tests/test_five_step_runner.py",
+      "kb_creator/tests/test_five_step_successor.py",
+      "kb_creator/tests/test_docx_only_output_policy.py",
+      "kb_creator/tests/test_publication_control_plane.py",
+      "kb_creator/tests/test_publication_docx_adapter.py",
+      "kb_creator/tests/test_publication_registry_e2e.py",
+      "kb_creator/tests/test_publication_docx_revision.py",
+      "kb_creator/tests/test_reviewed_reader_revision.py",
+      "kb_creator/tests/test_publication_contracts.py",
+      "kb_creator/tests/test_publication_html_adapter.py",
+      "kb_creator/tests/test_publication_docx_to_pdf.py",
+      "kb_creator/tests/test_publication_render_qa.py",
+      "kb_creator/tests/test_source_graphics_contract.py",
+      "kb_creator/tests/test_edition_projection_contract.py",
+      "kb_creator/tests/test_reader_fidelity_plan.py",
+      "kb_creator/tests/test_guarded_docx_source_fidelity.py",
+      "kb_creator/tests/test_fidelity_contract_schemas.py"
+    ],
+    "exit": 0,
+    "result_log": "pytest-regression-elevated-v01.log",
+    "elapsed_seconds": 140.07,
+    "result": "239 passed, 14 subtests passed, 1 skipped, 0 failures/errors"
+  },
+  "elevated_r1_r4_focused": {
+    "command": "python.exe -B -X utf8 -c \"import sys; sys.path.append(r'D:/NRI/.tools/python-3.13.14/Lib/site-packages'); import pytest; raise SystemExit(pytest.main(ARGV))\"",
+    "pytest_argv": [
+      "-q", "-rs", "--tb=short", "-p", "no:cacheprovider",
+      "--basetemp=D:/NRI/kb_creator/docs/plans/20261004-user-docx-review/audit/fidelity-qa-v05/pytest-r1-r4-elevated-01",
+      "kb_creator/tests/test_edition_projection_contract.py",
+      "kb_creator/tests/test_reader_fidelity_plan.py",
+      "kb_creator/tests/test_guarded_docx_source_fidelity.py",
+      "kb_creator/tests/test_fidelity_contract_schemas.py"
+    ],
+    "exit": 0,
+    "result_log": "pytest-r1-r4-elevated-v01.log",
+    "elapsed_seconds": 11.18,
+    "result": "48 passed, 0 skipped/failures/errors"
+  }
+}

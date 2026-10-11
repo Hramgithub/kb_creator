@@ -1,0 +1,15 @@
+{
+  "schema": "nri.explicit_user_review_decisions.v1",
+  "goal_id": "20261004-user-docx-review",
+  "supersedes_issue": "LEN-HANDOUT-RUSSIAN pending disposition in review-decisions-v01.json only",
+  "authority": "Direct user answer on 5 October 2026",
+  "decisions": [
+    {
+      "issue_id": "LEN-HANDOUT-RUSSIAN",
+      "comment_id": "141",
+      "disposition": "keep",
+      "user_text": "Сохранить неграмотные фразы как цитаты из исходника",
+      "reason": "Preserve original Russian quotations including Один счастливые семьи and ОНИ ЖИВУТ В КАРТИН; do not correct the image or textual quoted version."
+    }
+  ]
+}

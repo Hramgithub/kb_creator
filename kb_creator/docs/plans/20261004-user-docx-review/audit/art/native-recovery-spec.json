@@ -1,0 +1,1129 @@
+{
+  "schema": "nri.fear_native_art_recovery_spec.v1",
+  "timestamp_utc": "2026-10-04T20:45:40.528150+00:00",
+  "scope": "User-authorized reader successor from reviewed DOCX/HTML/assets plus exact original; preserve translation/replies; no OCR or canonical source reconstruction",
+  "source_identity": {
+    "path": "D:\\яндекс\\Yandex.Disk\\НРИ\\1_Зов Ктулху\\temp\\fears-sharp-little-needles\\Call Of Cthulhu 7ed - Fear's Sharp Little Needles.pdf",
+    "bytes": 69575583,
+    "sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+    "pages": 200
+  },
+  "reviewed_docx_sha256": "E8505B99F81A54E02FC1AEA9777C45AE12FDE600A8AB2B2728DDE8F9C0BF8DCD",
+  "expected_missing_count": 23,
+  "selections": [
+    {
+      "source_page": 8,
+      "story_title_ru": "Страх разлуки",
+      "html_heading_anchor": "strah-razluki-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 468,
+      "resource_name": "/Im1",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1230,
+        1589
+      ],
+      "source_encoded_sha256": "4D71629269EDCBEE5A9A3B571B16FEB72F33255B6735C764DDE15DAFDABF5C2B",
+      "source_encoded_bytes": 136559,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.3660664558410645,
+          -1.2956680059432983,
+          613.4420776367188,
+          793.0827026367188
+        ],
+        "matrix": [
+          614.8081665039062,
+          0.0,
+          0.0,
+          794.3783569335938,
+          -1.3660664558410645,
+          -1.2956680059432983
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "4D71629269EDCBEE5A9A3B571B16FEB72F33255B6735C764DDE15DAFDABF5C2B",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-008-4d71629269ed.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_c587de9edaef3bb16674609e3159c518",
+        "body_paragraph_index_zero_based": 45,
+        "text": "СТРАХ РАЗЛУКИ",
+        "paragraph_xml_sha256": "8FF5D5EAC2C48CE80C798C69807D8304E9461B2B3B362677D7B176F1FAB75726"
+      }
+    },
+    {
+      "source_page": 14,
+      "story_title_ru": "Подводное течение",
+      "html_heading_anchor": "podvodnoe-techenie-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 729,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "53A9BA228E3BFEC785576A6E84FDC4710DC69EC1318FBD4713D7177989B29A21",
+      "source_encoded_bytes": 292884,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.2027251720428467,
+          -1.2063952684402466,
+          613.0697631835938,
+          793.0550537109375
+        ],
+        "matrix": [
+          614.2724609375,
+          0.0,
+          0.0,
+          794.261474609375,
+          -1.2027251720428467,
+          -1.2063952684402466
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "53A9BA228E3BFEC785576A6E84FDC4710DC69EC1318FBD4713D7177989B29A21",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-014-53a9ba228e3b.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_a1af8e3b372f01b92a7621c68c15e5d4",
+        "body_paragraph_index_zero_based": 133,
+        "text": "ПОДВОДНОЕ ТЕЧЕНИЕ",
+        "paragraph_xml_sha256": "9C3A149B086A278DC68ECE83945B9A71A05A5E07E04F9A13E0C5473A05605A58"
+      }
+    },
+    {
+      "source_page": 19,
+      "story_title_ru": "Грехи моей юности",
+      "html_heading_anchor": "grehi-moei-yunosti-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 977,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "21C6CA4E0807E7115B56C7086E94E80C119A090CFAA0469597E129BA139A0EE8",
+      "source_encoded_bytes": 166927,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.2716203927993774,
+          -1.02569580078125,
+          613.0682983398438,
+          793.190673828125
+        ],
+        "matrix": [
+          614.3399047851562,
+          0.0,
+          0.0,
+          794.2163696289062,
+          -1.2716203927993774,
+          -1.02569580078125
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "21C6CA4E0807E7115B56C7086E94E80C119A090CFAA0469597E129BA139A0EE8",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-019-21c6ca4e0807.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_9f37ecfde1559215b21452b28e085795",
+        "body_paragraph_index_zero_based": 247,
+        "text": "ГРЕХИ МОЕЙ ЮНОСТИ",
+        "paragraph_xml_sha256": "80B5213734765E9FAECB01DE6533B1C5F19D36B8B5498198736B806A96103C2A"
+      }
+    },
+    {
+      "source_page": 24,
+      "story_title_ru": "Последнее желание Уолтера",
+      "html_heading_anchor": "poslednee-zhelanie-uoltera-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 1430,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        945
+      ],
+      "source_encoded_sha256": "CD211BEEEF17FF6F7D9E6296E25FFB4C95ABB3D5C7899A9D32C2A1AA95F4D376",
+      "source_encoded_bytes": 39901,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.1306135654449463,
+          -1.047991394996643,
+          613.1305541992188,
+          471.0
+        ],
+        "matrix": [
+          614.2611694335938,
+          0.0,
+          0.0,
+          472.0480041503906,
+          -1.1306135654449463,
+          -1.047991394996643
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "CD211BEEEF17FF6F7D9E6296E25FFB4C95ABB3D5C7899A9D32C2A1AA95F4D376",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-024-cd211beeef17.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_783c023fb7e5041ebb14735627b0d99d",
+        "body_paragraph_index_zero_based": 320,
+        "text": "ПОСЛЕДНЕЕ ЖЕЛАНИЕ УОЛТЕРА",
+        "paragraph_xml_sha256": "E31F4A3DC6F1F7BF2799DAE728AA9D5E3116AFE75F5188CDB28DF46C7D79C558"
+      }
+    },
+    {
+      "source_page": 29,
+      "story_title_ru": "Чьё топливо — люди и камни",
+      "html_heading_anchor": "che-toplivo-lyudi-i-kamni-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 1848,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "83C86DF9816DBFA4360AAE3447B16A977C7E7E3FCEEB1262C222C18B1FE4543C",
+      "source_encoded_bytes": 121793,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0109020471572876,
+          -1.0967267751693726,
+          613.1246948242188,
+          793.2272338867188
+        ],
+        "matrix": [
+          614.1356201171875,
+          0.0,
+          0.0,
+          794.323974609375,
+          -1.0109020471572876,
+          -1.0967267751693726
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "83C86DF9816DBFA4360AAE3447B16A977C7E7E3FCEEB1262C222C18B1FE4543C",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-029-83c86df9816d.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_7da750441404558f53c4c128b83fd2cc",
+        "body_paragraph_index_zero_based": 426,
+        "text": "ЧЬЁ ТОПЛИВО — ЛЮДИ И КАМНИ",
+        "paragraph_xml_sha256": "3636F87155B9E44496713B78B6C09EE60FE4F8D1FBB476B87E4F639AD0549D73"
+      }
+    },
+    {
+      "source_page": 35,
+      "story_title_ru": "Pulvis et Umbra Sumus",
+      "html_heading_anchor": "pulvis-et-umbra-sumus-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 2279,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "F89A033018284F54071D038315D1EB8CE9DCC4F08556B470DAC3B1AE9CD0A28D",
+      "source_encoded_bytes": 170059,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.08804452419281,
+          -1.1485117673873901,
+          613.0908813476562,
+          793.1978759765625
+        ],
+        "matrix": [
+          614.178955078125,
+          0.0,
+          0.0,
+          794.3463745117188,
+          -1.08804452419281,
+          -1.1485117673873901
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "F89A033018284F54071D038315D1EB8CE9DCC4F08556B470DAC3B1AE9CD0A28D",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-035-f89a03301828.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_c52feb207721e03ecc663161f26c734b",
+        "body_paragraph_index_zero_based": 583,
+        "text": "PULVIS ET UMBRA SUMUS",
+        "paragraph_xml_sha256": "1733DB6800D2417EAA61B0D44DAE5EADD75A2B020125A6142839E89D94C98D84"
+      }
+    },
+    {
+      "source_page": 41,
+      "story_title_ru": "Великий и ужасный Авто",
+      "html_heading_anchor": "velikii-i-uzhasnyi-avto-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 2693,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "AD037BB6EA60631F508C88846CEB4C2FEAFAC4DFB67AC59C9699EBF8B72D3059",
+      "source_encoded_bytes": 48218,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0538069009780884,
+          -1.109046220779419,
+          613.0418701171875,
+          793.1575927734375
+        ],
+        "matrix": [
+          614.095703125,
+          0.0,
+          0.0,
+          794.2666625976562,
+          -1.0538069009780884,
+          -1.109046220779419
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "AD037BB6EA60631F508C88846CEB4C2FEAFAC4DFB67AC59C9699EBF8B72D3059",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-041-ad037bb6ea60.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_7375c4a266a3222379a01a414a29b398",
+        "body_paragraph_index_zero_based": 773,
+        "text": "ВЕЛИКИЙ И УЖАСНЫЙ АВТО",
+        "paragraph_xml_sha256": "20D57636CD834CD8C5A20CCE05B4FCC045C32A2F5147C0A4E7448AFD803C27E9"
+      }
+    },
+    {
+      "source_page": 51,
+      "story_title_ru": "Свет погас",
+      "html_heading_anchor": "svet-pogas-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 3252,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "CF1CCE8162D03E30FD68F63B5B5A77C4C401EF7A0383C3FB4E49D426078328E8",
+      "source_encoded_bytes": 268561,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0463504791259766,
+          -1.1773844957351685,
+          613.197998046875,
+          793.0238647460938
+        ],
+        "matrix": [
+          614.2443237304688,
+          0.0,
+          0.0,
+          794.2012329101562,
+          -1.0463504791259766,
+          -1.1773844957351685
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "CF1CCE8162D03E30FD68F63B5B5A77C4C401EF7A0383C3FB4E49D426078328E8",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-051-cf1cce8162d0.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_97b95951b13576158ac97f2af1223a71",
+        "body_paragraph_index_zero_based": 940,
+        "text": "СВЕТ ПОГАС",
+        "paragraph_xml_sha256": "6791A07C386207B26DCAF736F6DA91D5FD79EADEC3F08F98334ACD93639FF625"
+      }
+    },
+    {
+      "source_page": 57,
+      "story_title_ru": "До самых костей",
+      "html_heading_anchor": "do-samyh-kostei-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 3517,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1227,
+        1589
+      ],
+      "source_encoded_sha256": "091DFF1EADEBD12C0FF2693AD848CBC9E3BE97FDFDF7DA3068081741800324C7",
+      "source_encoded_bytes": 146005,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.213584303855896,
+          -1.2227294445037842,
+          612.0,
+          793.0033569335938
+        ],
+        "matrix": [
+          613.2135620117188,
+          0.0,
+          0.0,
+          794.22607421875,
+          -1.213584303855896,
+          -1.2227294445037842
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "091DFF1EADEBD12C0FF2693AD848CBC9E3BE97FDFDF7DA3068081741800324C7",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-057-091dff1eadeb.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_34e67e0df789f989b4e21ce54acefff9",
+        "body_paragraph_index_zero_based": 1072,
+        "text": "ДО САМЫХ КОСТЕЙ",
+        "paragraph_xml_sha256": "5088CDF93EEF3C267B9884050AC8006F867D0E2AE81067137CF62647E6C0FE08"
+      }
+    },
+    {
+      "source_page": 63,
+      "story_title_ru": "Не вызывай того, чего не сможешь усмирить",
+      "html_heading_anchor": "ne-vyzyvai-togo-chego-ne-smozhesh-usmirit-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 4133,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "8B133BD8D31CCF3866A7D6ADC2386CB92C900314423CCD6C6E29F0E61B16C2B7",
+      "source_encoded_bytes": 242077,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0863231420516968,
+          -1.4201081991195679,
+          613.294189453125,
+          793.037353515625
+        ],
+        "matrix": [
+          614.3804931640625,
+          0.0,
+          0.0,
+          794.4574584960938,
+          -1.0863231420516968,
+          -1.4201081991195679
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "8B133BD8D31CCF3866A7D6ADC2386CB92C900314423CCD6C6E29F0E61B16C2B7",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-063-8b133bd8d31c.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_37617a2bb2fe37601e2b7c76c5a54c13",
+        "body_paragraph_index_zero_based": 1244,
+        "text": "НЕ ВЫЗЫВАЙ ТОГО, ЧЕГО НЕ СМОЖЕШЬ УСМИРИТЬ",
+        "paragraph_xml_sha256": "E7A7F6165C90DBB0298E90864BADF374573322397C8773C0A261740CEF81F8A9"
+      }
+    },
+    {
+      "source_page": 69,
+      "story_title_ru": "Сбил и скрылся",
+      "html_heading_anchor": "sbil-i-skrylsya-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 4390,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1227,
+        1589
+      ],
+      "source_encoded_sha256": "97CB0E7DFA5C84054BE8891ABED59A256DB2DD2CF93D357C6352DE51CBC6DE6A",
+      "source_encoded_bytes": 193880,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0411145687103271,
+          -1.028383731842041,
+          612.0001220703125,
+          793.18212890625
+        ],
+        "matrix": [
+          613.041259765625,
+          0.0,
+          0.0,
+          794.2105102539062,
+          -1.0411145687103271,
+          -1.028383731842041
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "97CB0E7DFA5C84054BE8891ABED59A256DB2DD2CF93D357C6352DE51CBC6DE6A",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-069-97cb0e7dfa5c.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_8e14e48e994f668728d53b699034e7fb",
+        "body_paragraph_index_zero_based": 1341,
+        "text": "СБИЛ И СКРЫЛСЯ",
+        "paragraph_xml_sha256": "C9CD404D076C0CF332EE4777617EE10C1DBDF1C677146B32F28A379790A82493"
+      }
+    },
+    {
+      "source_page": 74,
+      "story_title_ru": "Преображение рифа Хаттерас",
+      "html_heading_anchor": "preobrazhenie-rifa-hatteras-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "selected_route": "full physical page render at144DPI; vector artwork has no large native image object",
+      "source_page_box_pdf": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source_pixel_size": [
+        1224,
+        1584
+      ],
+      "candidate_png_sha256": "BD7BDE94A1AD17740916B5B67F18F8FC7169855989607DE699D12B97651A4238",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-074.png",
+      "visual_decision": "inspected full-page facsimile preserves vector scene; retain original English lettering as declared fidelity exception",
+      "fidelity_exception": "Full-page facsimile preserves complete vector artwork and existing English source title/byline/tags. Keep translated heading and byline in document; do not erase original art. A text-free vector composition is a separate option requiring object-level review.",
+      "docx_heading_binding": {
+        "bookmark": "nri_0240100cfec616955fee4358a2036669",
+        "body_paragraph_index_zero_based": 1448,
+        "text": "ПРЕОБРАЖЕНИЕ РИФА ХАТТЕРАС",
+        "paragraph_xml_sha256": "FB668D0EDC6A55974B4642747AA2777E680396D3589D36189304B627A9624209"
+      }
+    },
+    {
+      "source_page": 79,
+      "story_title_ru": "Язвы",
+      "html_heading_anchor": "yazvy-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 5019,
+      "resource_name": "/Im0",
+      "source_filter": "/JPXDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "CCB771FBFFAA3FD84857A00136630D50FA80A9299B00B959F894D6DFDC7557EB",
+      "source_encoded_bytes": 30754,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.187727928161621,
+          -1.1881736516952515,
+          613.0216064453125,
+          793.1669921875
+        ],
+        "matrix": [
+          614.2093505859375,
+          0.0,
+          0.0,
+          794.3551635742188,
+          -1.187727928161621,
+          -1.1881736516952515
+        ]
+      },
+      "selected_route": "native JPX decoded losslessly toRGB PNG",
+      "candidate_selected_sha256": "454B82B7FFD1074B95EBCB958D468C66D0F3ED14EB44C594B3176C45997D81A2",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-079-ccb771fbffaa.png",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_aaa522f4bebe7f2e82fcb4376fc74031",
+        "body_paragraph_index_zero_based": 1527,
+        "text": "ЯЗВЫ",
+        "paragraph_xml_sha256": "F6656E25FFAA897562D01590F5B490D0056C53935CE544646DA8CBB3F4F5DD35"
+      }
+    },
+    {
+      "source_page": 86,
+      "story_title_ru": "И тут явился Жнец",
+      "html_heading_anchor": "i-tut-yavilsya-zhnets-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 5389,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "7B1731A84C3F1A97D83734339D58DC536A4E169BA236F722691D2D7CF6DDE44B",
+      "source_encoded_bytes": 78413,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.096321702003479,
+          -1.1411114931106567,
+          613.1040649414062,
+          793.0467529296875
+        ],
+        "matrix": [
+          614.2003784179688,
+          0.0,
+          0.0,
+          794.1878662109375,
+          -1.096321702003479,
+          -1.1411114931106567
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "7B1731A84C3F1A97D83734339D58DC536A4E169BA236F722691D2D7CF6DDE44B",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-086-7b1731a84c3f.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_63e9497b88b71a55f2ff9d937b379c71",
+        "body_paragraph_index_zero_based": 1627,
+        "text": "И ТУТ ЯВИЛСЯ ЖНЕЦ",
+        "paragraph_xml_sha256": "3B2F6127B048A16CDFE057A03CB0B4C615AEEE875722127F6482D523E786201A"
+      }
+    },
+    {
+      "source_page": 92,
+      "story_title_ru": "Воскрешение",
+      "html_heading_anchor": "voskreshenie-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 5655,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "8D223FBE436196EC5EC5F617830BFE375C7D64544830172B6E0CCE8FBEBCF9E9",
+      "source_encoded_bytes": 193766,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.1312843561172485,
+          -1.0453877449035645,
+          613.1942138671875,
+          793.0
+        ],
+        "matrix": [
+          614.3255004882812,
+          0.0,
+          0.0,
+          794.04541015625,
+          -1.1312843561172485,
+          -1.0453877449035645
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "8D223FBE436196EC5EC5F617830BFE375C7D64544830172B6E0CCE8FBEBCF9E9",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-092-8d223fbe4361.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_1753301596101b3563b7e5b189c40586",
+        "body_paragraph_index_zero_based": 1735,
+        "text": "ВОСКРЕШЕНИЕ",
+        "paragraph_xml_sha256": "20F90148F840C5C7BA200889679BD67D8EAD6016C0E57488CBA07958322641BA"
+      }
+    },
+    {
+      "source_page": 97,
+      "story_title_ru": "В ожидании рождения",
+      "html_heading_anchor": "v-ozhidanii-rozhdeniya-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 6100,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "94B6D1ABBDAA7A26492003E2AE43DC00D09751AECB83ED1F8AC4F2C94B78922C",
+      "source_encoded_bytes": 169387,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.147892713546753,
+          -1.0590351819992065,
+          613.0881958007812,
+          793.2735595703125
+        ],
+        "matrix": [
+          614.236083984375,
+          0.0,
+          0.0,
+          794.3325805664062,
+          -1.147892713546753,
+          -1.0590351819992065
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "94B6D1ABBDAA7A26492003E2AE43DC00D09751AECB83ED1F8AC4F2C94B78922C",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-097-94b6d1abbdaa.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_294708312cfff012a64d9630c2f42024",
+        "body_paragraph_index_zero_based": 1805,
+        "text": "В ОЖИДАНИИ РОЖДЕНИЯ",
+        "paragraph_xml_sha256": "A4FEE2FF5C247BBCE26734374FC83B9BDC041197D36230B0E90441543BD1FCBD"
+      }
+    },
+    {
+      "source_page": 103,
+      "story_title_ru": "Анленд",
+      "html_heading_anchor": "anlend-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 6332,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1227,
+        1589
+      ],
+      "source_encoded_sha256": "D63CD034DEF626C645CA916068246B6E82AC95C559AB8FB5CB857DFE7586AB64",
+      "source_encoded_bytes": 176299,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0063717365264893,
+          -1.0010093450546265,
+          611.9990234375,
+          793.1243896484375
+        ],
+        "matrix": [
+          613.00537109375,
+          0.0,
+          0.0,
+          794.1254272460938,
+          -1.0063717365264893,
+          -1.0010093450546265
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "D63CD034DEF626C645CA916068246B6E82AC95C559AB8FB5CB857DFE7586AB64",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-103-d63cd034def6.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_675f91ff19848c1efcd1a10276a94fcc",
+        "body_paragraph_index_zero_based": 1964,
+        "text": "АНЛЕНД",
+        "paragraph_xml_sha256": "D4D0B2DF8E4C8176A256E270E283BC2BC94D6D23DD45B8F6C80AE8C48DA678A7"
+      }
+    },
+    {
+      "source_page": 109,
+      "story_title_ru": "Фокус-группа",
+      "html_heading_anchor": "fokus-gruppa-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 6612,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "FE544E2FF0BA453393F007F07D9FF43222D085BB1FC3751EEE4AC238D67D6888",
+      "source_encoded_bytes": 96608,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.1890937089920044,
+          -1.1890616416931152,
+          613.0363159179688,
+          793.1890258789062
+        ],
+        "matrix": [
+          614.2254028320312,
+          0.0,
+          0.0,
+          794.3781127929688,
+          -1.1890937089920044,
+          -1.1890616416931152
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "FE544E2FF0BA453393F007F07D9FF43222D085BB1FC3751EEE4AC238D67D6888",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-109-fe544e2ff0ba.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_04aa8f8ac771a2705db9394164228aef",
+        "body_paragraph_index_zero_based": 2101,
+        "text": "ФОКУС-ГРУППА",
+        "paragraph_xml_sha256": "97ADAD437B183587205502A1F238A65864C661B6859107C1A35C1293CA71E6DA"
+      }
+    },
+    {
+      "source_page": 119,
+      "story_title_ru": "Поэтический вечер",
+      "html_heading_anchor": "poeticheskii-vecher-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 7014,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "A1D4FB45F25457F7993BB1518ED14F315FF1A039C5D8E33BD327BF33A7BA17E7",
+      "source_encoded_bytes": 191322,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.0464975833892822,
+          -1.0185291767120361,
+          613.0358276367188,
+          793.0662841796875
+        ],
+        "matrix": [
+          614.0823364257812,
+          0.0,
+          0.0,
+          794.0848388671875,
+          -1.0464975833892822,
+          -1.0185291767120361
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "A1D4FB45F25457F7993BB1518ED14F315FF1A039C5D8E33BD327BF33A7BA17E7",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-119-a1d4fb45f254.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_ff9a94ebb3eaa3c4731b17dce5be9352",
+        "body_paragraph_index_zero_based": 2281,
+        "text": "ПОЭТИЧЕСКИЙ ВЕЧЕР",
+        "paragraph_xml_sha256": "2177AD62B3BBA86AAE4C116793E1B8265BC2C3AEC2E511A641E1F9D833A2C1CC"
+      }
+    },
+    {
+      "source_page": 124,
+      "story_title_ru": "Tormiss CRD, модель Z-17",
+      "html_heading_anchor": "tormiss-crd-model-z-17-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 7415,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "D8A5812535137CA139433844602B81B6E0A5C2D4BCD91921824027A039E1E636",
+      "source_encoded_bytes": 205981,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.014879584312439,
+          -1.1471394300460815,
+          613.1864624023438,
+          793.1222534179688
+        ],
+        "matrix": [
+          614.2013549804688,
+          0.0,
+          0.0,
+          794.2694091796875,
+          -1.014879584312439,
+          -1.1471394300460815
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "D8A5812535137CA139433844602B81B6E0A5C2D4BCD91921824027A039E1E636",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-124-d8a581253513.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_e8c37b97d6e8de8f73de61e5b5704528",
+        "body_paragraph_index_zero_based": 2380,
+        "text": "TORMISS CRD, МОДЕЛЬ Z-17",
+        "paragraph_xml_sha256": "3E19E31F127B315A89EBABAFEFB84AD5E2588C39400D521D278133B9130CD237"
+      }
+    },
+    {
+      "source_page": 135,
+      "story_title_ru": "Особое меню",
+      "html_heading_anchor": "osoboe-menyu-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 8235,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "231C4C25F15B9B1FCDEAD8053CE38A2A195E8D98F96B494F178408CD27310054",
+      "source_encoded_bytes": 115970,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.1879996061325073,
+          -1.164046049118042,
+          613.18798828125,
+          793.1639404296875
+        ],
+        "matrix": [
+          614.3759765625,
+          0.0,
+          0.0,
+          794.3280029296875,
+          -1.1879996061325073,
+          -1.164046049118042
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "231C4C25F15B9B1FCDEAD8053CE38A2A195E8D98F96B494F178408CD27310054",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-135-231c4c25f15b.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_d1fad4cfca97597c3434e561b6633745",
+        "body_paragraph_index_zero_based": 2596,
+        "text": "ОСОБОЕ МЕНЮ",
+        "paragraph_xml_sha256": "9964C2DAFD6FDDB15F5A3845927FCB1D0CC7B16E22D950A3356F1311F0277D0C"
+      }
+    },
+    {
+      "source_page": 141,
+      "story_title_ru": "Исследовательский центр Уинока-Пойнт",
+      "html_heading_anchor": "issledovatelskii-tsentr-uinoka-point-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 8597,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1227,
+        1589
+      ],
+      "source_encoded_sha256": "3E619A8D93CCEF394556A0493A4B950AA350DB7BAFEE9D1258A1FD48B3EB9E38",
+      "source_encoded_bytes": 94319,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.1438859701156616,
+          -1.1109381914138794,
+          611.9532470703125,
+          793.0547485351562
+        ],
+        "matrix": [
+          613.0971069335938,
+          0.0,
+          0.0,
+          794.1657104492188,
+          -1.1438859701156616,
+          -1.1109381914138794
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "3E619A8D93CCEF394556A0493A4B950AA350DB7BAFEE9D1258A1FD48B3EB9E38",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-141-3e619a8d93cc.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_f92242cd9df41de01db31ce05cd2fa00",
+        "body_paragraph_index_zero_based": 2699,
+        "text": "ИССЛЕДОВАТЕЛЬСКИЙ ЦЕНТР УИНОКА-ПОЙНТ",
+        "paragraph_xml_sha256": "6A5D8CD9BD4218D3DD25E104CA27E2E26A5A2EEA4610ED18ADC0F7517552D2DD"
+      }
+    },
+    {
+      "source_page": 147,
+      "story_title_ru": "Флеботомия",
+      "html_heading_anchor": "flebotomiya-2",
+      "placement": "within existing opener section after its translated heading/byline/tag group, before next source-page body; exact heading bookmark identifies the opener; preserve original text order",
+      "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "object_xref": 8914,
+      "resource_name": "/Im0",
+      "source_filter": "/DCTDecode",
+      "source_pixel_size": [
+        1229,
+        1589
+      ],
+      "source_encoded_sha256": "777B9B00684D41E866D16146231A821885F9711E5A400760F473E8B897A7BE8B",
+      "source_encoded_bytes": 155706,
+      "soft_mask": false,
+      "source_object_occurrence": {
+        "bbox_pdf_left_bottom_right_top": [
+          -1.004219889640808,
+          -1.1393229961395264,
+          613.1773071289062,
+          793.154052734375
+        ],
+        "matrix": [
+          614.1815185546875,
+          0.0,
+          0.0,
+          794.2933959960938,
+          -1.004219889640808,
+          -1.1393229961395264
+        ]
+      },
+      "selected_route": "native JPEG stream, unchanged bytes",
+      "candidate_selected_sha256": "777B9B00684D41E866D16146231A821885F9711E5A400760F473E8B897A7BE8B",
+      "proposed_crop_fraction": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "target_asset_name": "fear-opening-147-777b9b00684d.jpg",
+      "visual_decision": "inspected complete scene; select native artwork without crop",
+      "docx_heading_binding": {
+        "bookmark": "nri_be95141c165c418acea230c6a504498f",
+        "body_paragraph_index_zero_based": 2891,
+        "text": "Флеботомия",
+        "paragraph_xml_sha256": "03319A3DF7BC01DB2302532CF17C8F66486BFD29ACCE18C67782E4798B9E9E33"
+      }
+    }
+  ],
+  "production_assets_created": false,
+  "upstream_cause": "Unresolved; missing replay does not block this bounded recovery scope"
+}

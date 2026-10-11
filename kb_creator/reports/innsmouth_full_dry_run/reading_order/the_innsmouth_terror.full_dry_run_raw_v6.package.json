@@ -1,0 +1,987 @@
+{
+  "schema": "translator_package_config.v1",
+  "nri_root": ".",
+  "project_key": "The_Innsmouth_Terror_recovery_v6",
+  "project_family": "CoC",
+  "project_type": "scenario",
+  "title_en": "The Innsmouth Terror",
+  "title_ru": "Иннсмутский ужас",
+  "title_ru_status": "working_title_pending_user_approval",
+  "source_language": "en",
+  "target_language": "ru",
+  "source_edition": "Call of Cthulhu 7th Edition",
+  "target_reader_edition": "Call of Cthulhu 7th Edition",
+  "source_pdf": "D:\\яндекс\\Yandex.Disk\\НРИ\\1_Зов Ктулху\\english\\7th Edition Call of Cthulhu\\Adventures\\1923_The Innsmouth Terror\\The Innsmouth terror.pdf",
+  "source_pdf_original_external": "D:\\яндекс\\Yandex.Disk\\НРИ\\1_Зов Ктулху\\english\\7th Edition Call of Cthulhu\\Adventures\\1923_The Innsmouth Terror\\The Innsmouth terror.pdf",
+  "source_pdf_is_external": true,
+  "source_pdf_bytes": 71396612,
+  "source_pdf_sha256": "CFD72DD3B8702C07750DCBB9F721A704793D6D474167B288922E6F7EBEEA561F",
+  "source_pdf_pages": 46,
+  "source_pdf_page_size": "letter",
+  "public_package_root": "CoC/Output/Scenarios/The_Innsmouth_Terror",
+  "package_root": "CoC/Output/Scenarios/The_Innsmouth_Terror",
+  "workbench_root": "CoC/Working/Scenarios/The_Innsmouth_Terror",
+  "workbench_qa_root": ".",
+  "source_pdf_working": "CoC/Working/Scenarios/The_Innsmouth_Terror/Source/The_Innsmouth_Terror_Source_PDF_v1.pdf",
+  "project_reference": "CoC/Project_Reference/Terminology/CoC_Terminology_Decisions.csv",
+  "reference_knowledge_base": [
+    "CoC/Output/Rules/Innsmouth_Guide/Knowledge_Base"
+  ],
+  "acceptance_policy": {
+    "mode": "dual_agent_ok",
+    "required_reviewers": [
+      {
+        "role": "Sol",
+        "model": "gpt-5.6-sol",
+        "effort": "high",
+        "review_focus": "architecture, structure, semantic completeness, source-to-target consistency"
+      },
+      {
+        "role": "Terra",
+        "model": "gpt-5.6-terra",
+        "effort": "high",
+        "review_focus": "independent criticism, engineering evidence, QA sufficiency, release risk"
+      }
+    ],
+    "decision_rule": "A gate is accepted only when both reviewer receipts exist and both have decision=ok. Any block/review/finding keeps the gate pending.",
+    "receipt_dir": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews",
+    "gates": {
+      "source_reconstruction_accepted": {
+        "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_EN_v2.md",
+        "sol_receipt": "source_full_en.sol.review.md",
+        "terra_receipt": "source_full_en.terra.review.md"
+      },
+      "source_full_ru_accepted": {
+        "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_RU_v2.md",
+        "sol_receipt": "source_full_ru.sol.review.md",
+        "terra_receipt": "source_full_ru.terra.review.md"
+      },
+      "keeper_full_accepted": {
+        "artifact": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+        "sol_receipt": "keeperbook.sol.review.md",
+        "terra_receipt": "keeperbook.terra.review.md"
+      },
+      "knowledge_base_accepted": {
+        "artifact": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v2",
+        "sol_receipt": "knowledge_base.sol.review.md",
+        "terra_receipt": "knowledge_base.terra.review.md"
+      },
+      "production_html_built": {
+        "artifact": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html",
+        "sol_receipt": "production_html.sol.review.md",
+        "terra_receipt": "production_html.terra.review.md"
+      },
+      "postproduction_qa_passed": {
+        "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/public_postproduction_qa.json",
+        "sol_receipt": "postproduction.sol.review.md",
+        "terra_receipt": "postproduction.terra.review.md"
+      }
+    }
+  },
+  "tooling": {
+    "pdfinfo": ".tools/poppler/poppler-26.02.0/Library/bin/pdfinfo.exe",
+    "pdftoppm": ".tools/poppler/poppler-26.02.0/Library/bin/pdftoppm.exe",
+    "pdftotext": ".tools/poppler/poppler-26.02.0/Library/bin/pdftotext.exe",
+    "tesseract": ".tools/tesseract/tesseract.exe"
+  },
+  "intake": {
+    "env_check_report": "translator_env_check.json",
+    "config_validation_report": "translator_config_validation.json",
+    "pdf_info_report": "source_pdf_info.json",
+    "pdf_hash_report": "source_pdf_hash.json",
+    "page_render_report": "page_render_report.json",
+    "text_extraction_report": "text_extraction_report.json",
+    "ocr_report": "ocr_report.json",
+    "source_text_qa_report": "source_text_qa_report.json",
+    "source_text_normalization_report": "source_text_normalization_report.json",
+    "image_extraction_report": "image_extraction_report.json",
+    "image_inventory": "image_inventory.json",
+    "image_classification": "image_classification.json",
+    "image_classification_review": "image_classification_review.md",
+    "image_contact_sheet": "image_contact_sheet.png",
+    "image_contact_sheet_report": "image_contact_sheet_report.json",
+    "image_role_approval": "image_role_approval.json",
+    "image_role_approval_review": "image_role_approval_review.md",
+    "apply_image_approval_report": "apply_image_approval_report.json",
+    "page_renders": "CoC/Working/Scenarios/The_Innsmouth_Terror/Images/Page_Renders",
+    "embedded_images": "CoC/Working/Scenarios/The_Innsmouth_Terror/Images/PDF_Extracted_All",
+    "page_render_dpi": 180,
+    "raw_text": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Raw_EN_v2.txt",
+    "ocr_text": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_OCR_EN_v2.md",
+    "ocr_language": "eng",
+    "ocr_psm": 6,
+    "normalized_text": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Normalized_EN_v2.md"
+  },
+  "contact_sheet": {
+    "columns": 4,
+    "thumb_width": 260,
+    "thumb_height": 190,
+    "label_height": 122,
+    "margin": 24,
+    "gap": 18
+  },
+  "normalize_source_text": {
+    "join_hyphenated_lines": false
+  },
+  "source_reconstruction": {
+    "source_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Normalized_EN_v2.md",
+    "task_packet_json": "source_reconstruction_tasks.json",
+    "task_packet_md": "source_reconstruction_tasks.md"
+  },
+  "column_ocr_reconstruction": {
+    "candidate_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Translation_Work/Column_OCR_Reconstruction/The_Innsmouth_Terror_Column_OCR_Candidate_EN_v2.md",
+    "page_chunk_dir": "CoC/Working/Scenarios/The_Innsmouth_Terror/Translation_Work/Column_OCR_Reconstruction/Source_Pages_v2",
+    "crop_dir": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Column_OCR",
+    "report": "column_ocr_reconstruction_report.json",
+    "language": "eng",
+    "psm": 6,
+    "zones": [
+      {
+        "name": "left",
+        "box": [
+          0.05,
+          0.06,
+          0.5,
+          0.92
+        ]
+      },
+      {
+        "name": "right",
+        "box": [
+          0.5,
+          0.06,
+          0.95,
+          0.92
+        ]
+      }
+    ],
+    "source_art_strategy": "insert_anchor_then_ocr",
+    "skip_ocr_roles": [],
+    "auto_detect_columns": false
+  },
+  "statblock_reconstruction": {
+    "source_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Normalized_EN_v2.md",
+    "qa_report": "source_text_qa_report.json",
+    "report": "statblock_reconstruction_report.json",
+    "task_packet_md": "statblock_reconstruction_tasks.md",
+    "profile": "coc"
+  },
+  "statblock_edition_conversion": {
+    "enabled": false,
+    "source_edition": "7e",
+    "target_edition": "7e",
+    "report": "statblock_edition_conversion_report.json",
+    "markdowns": [
+      {
+        "label": "keeper_markdown",
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md"
+      }
+    ]
+  },
+  "translation": {
+    "source_markdown": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_raw_v6.md",
+    "tasks_json": "translation_tasks.json",
+    "tasks_jsonl": "translation_tasks.jsonl",
+    "tasks_md": "translation_tasks.md",
+    "prompt_pack_dir": "Localization_Prompts",
+    "prompt_pack_report": "localization_prompt_pack_report.json",
+    "localization_qa_report": "localization_qa_report.json",
+    "report": "translation_preparation_report.json",
+    "required_gates": [
+      "source_reconstruction_accepted"
+    ],
+    "max_unit_chars": 3500,
+    "provider": "codex",
+    "source_lang": "en",
+    "target_lang": "ru"
+  },
+  "normalize_headings": {
+    "source_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+    "report": "heading_normalization_report.json",
+    "required_gates": [
+      "keeper_full_accepted"
+    ],
+    "rules": {
+      "trim_heading_whitespace": true,
+      "collapse_repeated_spaces": true,
+      "fix_markdown_heading_spacing": true,
+      "strip_closing_hashes": true,
+      "update_markdown_heading_links": true,
+      "max_heading_level": 6,
+      "remove_titles": [],
+      "remove_patterns": [],
+      "title_replacements": [],
+      "level_overrides": []
+    }
+  },
+  "term_gate": {
+    "registry": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/term_registry_innsmouth.csv",
+    "source_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_EN_v2.md",
+    "output_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+    "report": "term_gate_report.json",
+    "required_gates": [
+      "source_full_ru_accepted"
+    ]
+  },
+  "layout_anchors": {
+    "source_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+    "report": "layout_anchors_report.json",
+    "required_gates": [
+      "keeper_full_accepted"
+    ],
+    "required_patterns": [
+      {
+        "name": "content_or_toc",
+        "pattern": "(?m)^##\\s+(Оглавление|Содержание)"
+      }
+    ]
+  },
+  "review_html": {
+    "source_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+    "output_html": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/Review_HTML/The_Innsmouth_Terror_Keeper_Review_v2.html",
+    "report": "review_html_report.json"
+  },
+  "production_html": {
+    "source_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v5.md",
+    "output_html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v5.html",
+    "report": "production_html_report_v3.json",
+    "toc_policy": {
+      "mode": "generated",
+      "replace_source_toc_pages": true,
+      "replace_manual_toc_sections": false,
+      "manual_toc_titles": [
+        "Содержание",
+        "Оглавление"
+      ],
+      "max_heading_level": 2,
+      "exclude_statblock_headings": true,
+      "exclude_page_types": [
+        "cover",
+        "credits",
+        "source_toc",
+        "quote_art",
+        "full_art"
+      ],
+      "exclude_titles": [
+        "Содержание",
+        "Оглавление"
+      ]
+    },
+    "required_gates": [
+      "keeper_full_accepted",
+      "term_gate_passed",
+      "layout_anchors_accepted",
+      "production_art_integrated"
+    ]
+  },
+  "knowledge_base": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v2",
+  "knowledge_base_policy": {
+    "output_root": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v2",
+    "source_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+    "required_gates": [
+      "keeper_full_accepted"
+    ],
+    "reference_policy": "Use Innsmouth Guide only for explicit cross-checks; do not merge scenario facts into the guide."
+  },
+  "art_integration": {
+    "report": "art_integration_report.json",
+    "source_html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html",
+    "preserve_page_art_report": "preserve_page_art_report.json",
+    "preserved_page_art": [],
+    "required_gates": [
+      "review_html_built"
+    ],
+    "require_no_pending_image_approval": true,
+    "require_applied_images": true,
+    "require_source_html": false
+  },
+  "production_art_layout": {
+    "art_manifest": "art_manifest.json",
+    "integration_manifest": "art_html_integration_manifest.json",
+    "report": "art_layout_qa.json",
+    "require_manifest": false,
+    "require_break_policy": true,
+    "require_text_contamination_policy": true,
+    "autoscale_steps": [
+      100,
+      90,
+      80,
+      70
+    ],
+    "allowed_placements": [
+      "replace_visual_page",
+      "credits_background_page",
+      "scenario_opening_float_right",
+      "page_art_after_heading",
+      "page_art_after_quote",
+      "flow_art_before_first_paragraph",
+      "compact_sheet_art_after_table"
+    ]
+  },
+  "coverage_gate": {
+    "source_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_EN_v2.md",
+    "ru_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_RU_v2.md",
+    "keeper_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+    "html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html",
+    "report": "coverage_gate_report_v3.json",
+    "required_gates": [],
+    "require_pdf": false,
+    "min_token_coverage": 0.98,
+    "min_heading_ratio": 0.95
+  },
+  "critical_remediation_gate": {
+    "report": "critical_remediation_gate_report.json",
+    "required_terms": [],
+    "forbidden_terms": [
+      "Luck",
+      "Sanity",
+      "bonus die",
+      "penalty die"
+    ],
+    "required_gates": [
+      "production_html_built"
+    ]
+  },
+  "approval_ledger": {
+    "report": "approval_ledger.json",
+    "qa_report": "approval_ledger_qa.json",
+    "production_approval_must_be_explicit": true
+  },
+  "release_manifest": {
+    "report": "release_manifest.json",
+    "require_existing": [
+      "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html",
+      "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md"
+    ]
+  },
+  "postproduction": {
+    "landing_page": "001",
+    "toc_position": "after_landing",
+    "image_quality": 80,
+    "optimized_image_dir": "D:/NRI/CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2/optimized_jpeg_q80",
+    "working_master_images": "CoC/Working/Scenarios/The_Innsmouth_Terror/Images/production_source_png_v2",
+    "optimize_runtime_png": true,
+    "keep_png_runtime_exceptions": [],
+    "working_qa_root": ".",
+    "optimization_report": "postproduction_image_optimization.json",
+    "qa_report": "public_postproduction_qa_v3.json",
+    "image_optimization_report": "postproduction_image_optimization_v3.json",
+    "qa_output_dir": "."
+  },
+  "production_pdf": {
+    "source_html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html",
+    "output_pdf": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v2.pdf",
+    "report": "production_pdf_report.json",
+    "selected_variant": "two_column",
+    "selected_variant_reason": "CoC default retained for future optional PDF build; PDF is not part of the initial Innsmouth Terror launch scope.",
+    "required_gates": [
+      "production_html_built"
+    ],
+    "variants": {
+      "two_column": {
+        "print_columns": 2,
+        "print_body_font_size": "8.5pt",
+        "statblock_card_font_size": "8pt",
+        "layout_mode": "css_columns",
+        "art_policy": "atomic_or_float_by_manifest",
+        "art_column_policy": {
+          "default_columnned": true,
+          "not_columnned_classes": [
+            "art-full-width"
+          ],
+          "not_columnned_roles": [
+            "landing",
+            "toc",
+            "cover"
+          ],
+          "atomic_columnned_roles": [
+            "diagram",
+            "floorplan",
+            "map",
+            "source_image",
+            "handout",
+            "npc",
+            "page_art"
+          ]
+        },
+        "output_pdf": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v2.pdf",
+        "report": "production_pdf_report_two_column.json"
+      }
+    }
+  },
+  "release_qa": {
+    "html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v2.html",
+    "pdf": "CoC/Output/Scenarios/The_Innsmouth_Terror/Pdf/The_Innsmouth_Terror_Full_RU_v2.pdf",
+    "report": "release_qa_report.json",
+    "required_gates": [
+      "production_html_built",
+      "term_gate_passed",
+      "layout_anchors_accepted",
+      "production_art_integrated",
+      "coverage_gate_passed"
+    ],
+    "require_pdf": false
+  },
+  "production_outputs": {
+    "source_full_en": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_raw_v6.md",
+    "source_full_ru": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_RU_v2.md",
+    "keeper_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v5.md",
+    "html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v5.html",
+    "images": "CoC/Output/Scenarios/The_Innsmouth_Terror/Images_v2",
+    "knowledge_base": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v5"
+  },
+  "scenario_gates": {
+    "source_pdf_intake": false,
+    "source_text_raw_extracted": false,
+    "source_text_normalized": false,
+    "source_reconstruction_prepared": false,
+    "source_reconstruction_accepted": false,
+    "source_full_ru_accepted": true,
+    "keeper_full_accepted": true,
+    "term_gate_passed": true,
+    "layout_anchors_accepted": true,
+    "knowledge_base_accepted": true,
+    "review_html_built": true,
+    "heading_normalization_applied": false,
+    "production_html_built": true,
+    "production_art_integrated": true,
+    "coverage_gate_passed": false,
+    "postproduction_images_optimized": false,
+    "postproduction_qa_passed": false,
+    "production_approved": false
+  },
+  "page_map": {
+    "001": {
+      "type": "cover",
+      "column_mode": "one_column",
+      "skip_ocr": true,
+      "note": "text layer empty; verify as cover/title page from render"
+    },
+    "002": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "003": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "004": {
+      "type": "source_toc",
+      "column_mode": "two_column",
+      "toc_policy": "replace_with_generated_links"
+    },
+    "005": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "006": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "007": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "008": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "009": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "010": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "011": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "012": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "013": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "014": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "015": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "016": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "017": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "018": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "019": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "020": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "021": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "022": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "023": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "024": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "025": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "026": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "027": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "028": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "029": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "030": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "031": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "032": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "033": {
+      "type": "statblock_card",
+      "column_mode": "two_column"
+    },
+    "034": {
+      "type": "statblock_card",
+      "column_mode": "two_column"
+    },
+    "035": {
+      "type": "statblock_card",
+      "column_mode": "two_column"
+    },
+    "036": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "037": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "038": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "039": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "040": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "041": {
+      "type": "handout",
+      "column_mode": "two_column"
+    },
+    "042": {
+      "type": "handout",
+      "column_mode": "two_column"
+    },
+    "043": {
+      "type": "handout",
+      "column_mode": "two_column"
+    },
+    "044": {
+      "type": "body",
+      "column_mode": "two_column"
+    },
+    "045": {
+      "type": "body",
+      "column_mode": "one_column",
+      "skip_ocr": true,
+      "note": "text layer empty; visual check required"
+    },
+    "046": {
+      "type": "body",
+      "column_mode": "one_column",
+      "skip_ocr": true,
+      "note": "text layer empty; visual check required"
+    }
+  },
+  "manual_gates": {
+    "source_reconstruction_accepted": true,
+    "source_full_ru_accepted": true,
+    "keeper_full_accepted": true,
+    "term_gate_passed": true,
+    "layout_anchors_accepted": true,
+    "knowledge_base_accepted": true,
+    "review_html_built": true,
+    "production_art_integrated": true,
+    "production_html_built": true,
+    "coverage_gate_passed": false,
+    "postproduction_images_optimized": false,
+    "postproduction_qa_passed": false
+  },
+  "acceptance_receipts": {
+    "source_reconstruction_accepted": {
+      "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_EN_v2.md",
+      "artifact_sha256": "02f4d727e37c6b6bf89ffd6457a0dab5d1468adee562fc4b010c52be92f199a8",
+      "sol_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/source_full_en_sol_review_v2.md",
+      "terra_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/source_full_en_terra_review_v2.md",
+      "decision": "ok",
+      "accepted_at": "2026-07-26T23:02:16+03:00",
+      "policy": "dual_agent_ok"
+    },
+    "source_full_ru_accepted": {
+      "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_RU_v2.md",
+      "artifact_sha256": "62c5eeb09283cf4c61bc1ba6a5396f768f1d9b5831e6fcc0de05589143e70862",
+      "source_artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_EN_v2.md",
+      "source_artifact_sha256": "02f4d727e37c6b6bf89ffd6457a0dab5d1468adee562fc4b010c52be92f199a8",
+      "sol_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/source_full_ru_sol_review_v5.md",
+      "terra_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/source_full_ru_terra_review_v5.md",
+      "decision": "ok",
+      "accepted_at": "2026-07-27T00:00:00+03:00",
+      "policy": "dual_agent_ok"
+    },
+    "keeper_full_accepted": {
+      "artifact": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+      "artifact_sha256": "bfad4a0e9b54abfaa2611b5082662533eb123612cc4d5fcdf3ec11474c8a5b70",
+      "source_artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_RU_v2.md",
+      "source_artifact_sha256": "62c5eeb09283cf4c61bc1ba6a5396f768f1d9b5831e6fcc0de05589143e70862",
+      "sol_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/keeperbook_sol_review_v5.md",
+      "terra_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/keeperbook_terra_review_v5.md",
+      "decision": "ok",
+      "accepted_at": "2026-07-27T00:33:00+03:00",
+      "policy": "dual_agent_ok"
+    },
+    "term_gate_passed": {
+      "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/term_gate_report.json",
+      "decision": "ok",
+      "accepted_at": "2026-07-27T00:33:00+03:00",
+      "policy": "check_only_pass_after_keeper_acceptance"
+    },
+    "layout_anchors_accepted": {
+      "artifact": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/layout_anchors_report.json",
+      "decision": "ok",
+      "accepted_at": "2026-07-27T00:33:00+03:00",
+      "policy": "pattern_found_after_keeper_acceptance"
+    },
+    "knowledge_base_accepted": {
+      "decision": "ok",
+      "keeper_sha256": "bfad4a0e9b54abfaa2611b5082662533eb123612cc4d5fcdf3ec11474c8a5b70",
+      "kb_report": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/knowledge_base_projection_report.json",
+      "sol_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/knowledge_base_sol_review_v2.md",
+      "terra_receipt": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/Acceptance_Reviews/knowledge_base_terra_review_v2.md"
+    },
+    "review_html_built": {
+      "decision": "ok",
+      "report": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v2/review_html_report.json",
+      "review_html": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/Review_HTML/The_Innsmouth_Terror_Keeper_Review_v2.html",
+      "sha256": "c83614df0619aced6ab86171e2ebefe1e5073aa8ad4b0a55fc996c32c9c2aed4"
+    }
+  },
+  "recovery": {
+    "mode": "contract_v2_rebuild",
+    "base_package": "translator/config/the_innsmouth_terror.package.json",
+    "output_version": "v2",
+    "old_v1_policy": "diagnostic_negative_regression_only",
+    "stale_receipts_policy": "do_not_reuse"
+  },
+  "contract_v2": {
+    "source_block_manifest": "kb_creator/reports/innsmouth_full_dry_run/reading_order/source_block_manifest.v2.json",
+    "candidate_block_manifest": "kb_creator/reports/innsmouth_full_dry_run/reading_order/candidate_block_manifest.v2.json",
+    "report": "source_block_coverage_report.v2.json",
+    "require_reading_order_gate": true
+  },
+  "coc_mechanics_audit": {
+    "input": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v5.html",
+    "report": "coc_mechanics_audit.v1.json",
+    "markdown_report": "coc_mechanics_audit.v1.md",
+    "policy": {
+      "statblocks": {
+        "expected_count": 22,
+        "required_sections": [
+          "identity",
+          "core_characteristics",
+          "derived_values",
+          "combat",
+          "skills_or_notes",
+          "spells",
+          "background"
+        ]
+      }
+    }
+  },
+  "semantic_chain_audit": {
+    "report": "semantic_chain_audit.v1.json",
+    "markdown_report": "semantic_chain_audit.v1.md",
+    "approval": {
+      "require_production_approved_false": true
+    },
+    "artifacts": {
+      "keeper_v2": {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v2.md",
+        "hash_mode": "text"
+      },
+      "keeper_v3_text": {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v5.md",
+        "hash_mode": "text"
+      },
+      "keeper_v3_file": {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v5.md",
+        "hash_mode": "file"
+      },
+      "html_v3": {
+        "path": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v5.html",
+        "hash_mode": "file"
+      },
+      "remediation_checkpoint": {
+        "path": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v5/user_review_remediation_checkpoint.v1.json",
+        "hash_mode": "file"
+      }
+    },
+    "reports": {
+      "keeper_semantic": {
+        "path": "keeperbook_v3_semantic_projection_report.json"
+      },
+      "keeper_art": {
+        "path": "keeperbook_v3_art_projection_report.json"
+      },
+      "production_html": {
+        "path": "production_html_report_v3.json"
+      },
+      "statblock_projection": {
+        "path": "html_v3_statblock_projection_report.json"
+      },
+      "kb_enrichment": {
+        "path": "knowledge_base_v3_enrichment_report.json"
+      },
+      "production_html_final": {
+        "path": "production_html_final_report_v3.json"
+      },
+      "page_structure": {
+        "path": "page_structure_audit.v1.json"
+      },
+      "coc_mechanics": {
+        "path": "coc_mechanics_audit.v1.json"
+      },
+      "positive_content": {
+        "path": "positive_content_audit.v1.json"
+      },
+      "remediation_checkpoint": {
+        "path": "remediation_checkpoint_audit.v1.json"
+      }
+    },
+    "links": [
+      {
+        "name": "keeper-v2-to-semantic-source",
+        "left": {
+          "artifact": "keeper_v2"
+        },
+        "right": {
+          "report": "keeper_semantic",
+          "field": "source_sha256"
+        }
+      },
+      {
+        "name": "semantic-output-to-art-source",
+        "left": {
+          "report": "keeper_semantic",
+          "field": "output_sha256"
+        },
+        "right": {
+          "report": "keeper_art",
+          "field": "source_keeper_sha256"
+        }
+      },
+      {
+        "name": "art-output-to-current-keeper",
+        "left": {
+          "report": "keeper_art",
+          "field": "output_keeper_sha256"
+        },
+        "right": {
+          "artifact": "keeper_v3_text"
+        }
+      },
+      {
+        "name": "production-html-output-to-statblock-input",
+        "left": {
+          "report": "production_html",
+          "field": "sha256"
+        },
+        "right": {
+          "report": "statblock_projection",
+          "field": "input_sha256"
+        }
+      },
+      {
+        "name": "statblock-output-to-current-html",
+        "left": {
+          "report": "statblock_projection",
+          "field": "output_sha256"
+        },
+        "right": {
+          "artifact": "html_v3"
+        }
+      },
+      {
+        "name": "statblock-output-to-final-html-report",
+        "left": {
+          "report": "statblock_projection",
+          "field": "output_sha256"
+        },
+        "right": {
+          "report": "production_html_final",
+          "field": "html_sha256"
+        }
+      },
+      {
+        "name": "current-html-to-coc-mechanics",
+        "left": {
+          "artifact": "html_v3"
+        },
+        "right": {
+          "report": "coc_mechanics",
+          "field": "input_sha256"
+        }
+      },
+      {
+        "name": "current-html-to-positive-content",
+        "left": {
+          "artifact": "html_v3"
+        },
+        "right": {
+          "report": "positive_content",
+          "field": "inputs.html_sha256"
+        }
+      },
+      {
+        "name": "current-keeper-to-kb-enrichment",
+        "left": {
+          "artifact": "keeper_v3_text"
+        },
+        "right": {
+          "report": "kb_enrichment",
+          "field": "keeper_sha256"
+        }
+      },
+      {
+        "name": "current-keeper-to-page-structure",
+        "left": {
+          "artifact": "keeper_v3_file"
+        },
+        "right": {
+          "report": "page_structure",
+          "field": "inputs.candidate_sha256"
+        }
+      },
+      {
+        "name": "current-remediation-checkpoint-to-audit",
+        "left": {
+          "artifact": "remediation_checkpoint"
+        },
+        "right": {
+          "report": "remediation_checkpoint",
+          "field": "checkpoint_sha256"
+        }
+      }
+    ]
+  },
+  "positive_content_audit": {
+    "report": "positive_content_audit.v1.json",
+    "markdown_report": "positive_content_audit.v1.md",
+    "html": "CoC/Output/Scenarios/The_Innsmouth_Terror/The_Innsmouth_Terror_Full_RU_v5.html",
+    "kb_root": "CoC/Output/Scenarios/The_Innsmouth_Terror/Knowledge_Base_v5",
+    "expected": {
+      "html_tables": {
+        "min": 46
+      },
+      "html_images": {
+        "exact": 33
+      },
+      "html_keeper_art_figures": {
+        "exact": 33
+      },
+      "html_statblock_cards": {
+        "exact": 22
+      },
+      "html_structured_statblock_cards": {
+        "exact": 22
+      },
+      "html_hidden_source_cards": {
+        "exact": 22
+      },
+      "html_escaped_figures": {
+        "max": 0
+      },
+      "kb_files": {
+        "min": 13
+      },
+      "kb_broken_image_links": {
+        "max": 0
+      }
+    }
+  },
+  "remediation_checkpoint_audit": {
+    "checkpoint": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v5/user_review_remediation_checkpoint.v1.json",
+    "report": "remediation_checkpoint_audit.v1.json",
+    "markdown_report": "remediation_checkpoint_audit.v1.md"
+  },
+  "page_structure_audit": {
+    "source_markdown": "CoC/Working/Scenarios/The_Innsmouth_Terror/Formatted/The_Innsmouth_Terror_Source_Text_Full_RU_v2.md",
+    "candidate_markdown": "CoC/Output/Scenarios/The_Innsmouth_Terror/For_Keeper/KeeperBook_v5.md",
+    "acceptance_ledger": "CoC/Working/Scenarios/The_Innsmouth_Terror/project/QA/Recovery_v5/page_structure_acceptance_ledger.v1.json",
+    "report": "page_structure_audit.v1.json",
+    "markdown_report": "page_structure_audit.v1.md",
+    "policy": {
+      "long_paragraph_chars": 900,
+      "very_long_paragraph_chars": 1500,
+      "fail_on_risk_score_at_least": 10,
+      "fail_on_flags": [
+        "inline_list_marker_in_paragraph",
+        "conditional_chain_flattened",
+        "table_title_attached_to_body",
+        "quote_or_oath_like_body_text"
+      ]
+    }
+  },
+  "production_gates": {
+    "source_reconstruction_accepted": false
+  }
+}

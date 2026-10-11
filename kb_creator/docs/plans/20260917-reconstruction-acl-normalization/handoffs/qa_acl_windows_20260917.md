@@ -1,0 +1,24 @@
+# Windows ACL bounded QA receipt
+
+- Goal: `20260917-reconstruction-acl-normalization`, step 4.
+- Scope: inspect the supplied live managed tree and existing Dream candidate only. No implementation or candidate edits were made.
+- Result: **PASS with one limitation.** The synthetic managed Stage 06 meets the requested ACL checks; the existing Dream candidate is readable and its content hash is stable and matches the expected value. The Codex UI bridge/navigation itself was not independently proven in this QA pass.
+- Files/trees checked:
+  - `kb_creator/working/acl-live-verification-20260917-02/test_full_synthetic_replay04_s0/fresh-replay-04/stages/06-materialize-candidate/stage.json`
+  - `kb_creator/working/acl-live-verification-20260917-02/test_full_synthetic_replay04_s0/fresh-replay-04/outputs/06-materialize-candidate/RECONSTRUCTED_EN.md`
+  - `kb_creator/working/number-7-dream/reconstruction/20260917-cpu-replay-05/stages/06-materialize-candidate/stage.json`
+  - `kb_creator/working/number-7-dream/reconstruction/20260917-cpu-replay-05/outputs/06-materialize-candidate/RECONSTRUCTED_EN.md`
+- Evidence:
+  - Managed-tree `stage.json` exists; result status is `candidate_ready_for_reconstruction_qa`; `acceptance_inferred` is `false`.
+  - Managed Stage 06 directory has `AreAccessRulesProtected=False`; inherited `KAMAZNOTEBOOK\user` Allow `ReadAndExecute` ACE is present; no Deny ACE for that user was found.
+  - Managed `RECONSTRUCTED_EN.md` was read successfully; 44 bytes; SHA-256 `3D74D75BF48365672BBBEC548F48540824CF7D7CEFC13B6A92DE325D76DD116F`.
+  - Dream Stage 06 stage manifest exists and contains sealed candidate inventory; state is `candidate_ready_for_reconstruction_qa`, with 26 pages and 29 assets.
+  - Dream ACL inheritance is enabled (`AreAccessRulesProtected=False`); the file was read successfully. Two sequential SHA-256 reads both yielded `38B2D376E119D989656223A8909E93D9C295BE9D69CFF1A46B469998702BF72F`, matching the expected hash. Length: 76,302 bytes.
+  - The managed tree was requested as the synthetic Stage 06 fixture. I did not claim successful Codex panel navigation: an `open` bridge result of `queued` is not equivalent to an opened view. Filesystem read/access and UI navigation are separate evidence.
+- Blockers/limitations: no filesystem blocker. Direct UI open/navigation was not verified by this QA pass; bridge queue status, if returned, must remain reported as queued.
+- Next action: orchestrator may record step 4 filesystem/ACL verification complete with UI navigation caveat; continue independent review and handoff per plan.
+- Elapsed time: approximately 5 minutes.
+- Token use: unavailable from bounded QA runtime.
+- Timestamp: 2026-09-17 10:34 UTC.
+- Orchestrator policy owner: `gpt-5.6-sol`, medium; assignment state `platform-unverified`; scoped override `none`.
+- Assignment state: completed, bounded QA `gpt-5.6-luna`, low (policy role; actual platform model/effort unverified).

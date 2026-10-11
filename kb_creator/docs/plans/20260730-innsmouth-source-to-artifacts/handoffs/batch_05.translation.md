@@ -1,0 +1,26 @@
+# Batch 05 Translation Receipt
+
+- Goal id: `20260730-innsmouth-source-to-artifacts`
+- Step id: `5.execute-accepted-ru-translation-proofread-stage`
+- Role: `gpt-5.5 orchestrator`
+- Model: `GPT-5 Codex`
+- Effort: `medium`
+- Scope: Translate `batch_05.en.json` into `batch_05.ru.json` using only `source_text`, preserving `unit_id`, `page`, `source_hash`, structure, mechanics, tables, and page references.
+- Result: `completed`
+- Files checked:
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/plan.md`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/context.md`
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_05.en.json`
+- Files changed:
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_05.ru.json`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/handoffs/batch_05.translation.md`
+- Verification/evidence:
+  - Output JSON written with schema `kb_creator.translation_batch_ru.v1`.
+  - All 4 units have non-empty `ru_text`.
+  - `unit_id`, `page`, `source_hash`, `source_text`, and top-level batch metadata preserved from the source batch.
+  - JSON parse/completeness validation passed: `schema=kb_creator.translation_batch_ru.v1`, `batch_id=batch_05`, `units=4`, `filled=4`, `empty=0`.
+- Blockers: `none`
+- Next action: Continue with the next assigned batch or merge stage.
+- Elapsed time: `~20m`
+- Token use: `unavailable`
+- Timestamp: `2026-07-30T00:00:00+03:00`

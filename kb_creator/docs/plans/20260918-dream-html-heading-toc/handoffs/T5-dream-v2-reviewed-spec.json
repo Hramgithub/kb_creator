@@ -1,0 +1,196 @@
+{
+  "semantic_structure_profile": "reviewed_role_outline_and_partitions_v2",
+  "pages": [
+    {"source_page": 1, "inherit_units_from_baseline": true, "role_contract": {"role": "cover", "group_id": "dream-page-001-cover"}},
+    {"source_page": 2, "inherit_units_from_baseline": true, "role_contract": {"role": "front_matter", "group_id": "dream-page-002-front-matter"}},
+    {"source_page": 3, "inherit_units_from_baseline": true, "role_contract": {"role": "front_matter", "group_id": "dream-page-003-front-matter"}},
+    {"source_page": 4, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-004-body"}},
+    {"source_page": 5, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-005-body"}},
+    {"source_page": 6, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-006-body"}},
+    {"source_page": 7, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-007-body"}},
+    {"source_page": 8, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-008-body"}},
+    {"source_page": 9, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-009-body"}},
+    {
+      "source_page": 10,
+      "role_contract": {"role": "scenario_body", "group_id": "dream-page-010-body"},
+      "units": [
+        {"id": "handout-3-body", "kind": "handout", "representation": "blockquote", "raw_indices": [120, 121, 122, 123, 124, 125], "start": "> # THE ENLIGHTENED", "end": "> Handout 3 – Number 7 Dream"},
+        {"id": "handout-3-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [119], "start": "> # THE ENLIGHTENED", "container_parent": "handout-3-body", "heading_level": 1},
+        {"id": "handout-4-body", "kind": "handout", "representation": "blockquote", "raw_indices": [127, 128, 129, 130], "start": "> ## Summary of Elsie's Journal", "end": "> Handout 4 – Number 7 Dream"},
+        {"id": "handout-4-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [126], "start": "> ## Summary of Elsie's Journal", "container_parent": "handout-4-body", "heading_level": 2}
+      ]
+    },
+    {"source_page": 11, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-011-body"}},
+    {"source_page": 12, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-012-body"}},
+    {"source_page": 13, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-013-body"}},
+    {
+      "source_page": 14,
+      "role_contract": {"role": "scenario_body", "group_id": "dream-page-014-body"},
+      "units": [
+        {"id": "handout-5-body", "kind": "handout", "representation": "blockquote", "raw_indices": [187, 192, 193, 194], "source_fragments": [], "start": "> Don't be concerned that you feel there is a gap in your memory.", "end": "> Handout 5 - Number 7 Dream"},
+        {"id": "handout-5-list", "kind": "list", "representation": "unordered_list", "raw_indices": [188, 189, 190, 191], "start": "> - The Enlightened is a front", "end": "> - Tell my father I am safe", "container_parent": "handout-5-body", "item_count": 4}
+      ]
+    },
+    {
+      "source_page": 15,
+      "role_contract": {"role": "scenario_body", "group_id": "dream-page-015-body"},
+      "units": [
+        {"id": "keepers-note", "kind": "callout", "representation": "blockquote", "raw_indices": [202], "start": "> ## KEEPERS NOTE", "end": "> The investigators will arrive at the Institute"},
+        {"id": "keepers-note-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [201], "start": "> ## KEEPERS NOTE", "container_parent": "keepers-note", "heading_level": 2}
+      ]
+    },
+    {"source_page": 16, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-016-body"}},
+    {"source_page": 17, "inherit_units_from_baseline": true, "role_contract": {"role": "scenario_body", "group_id": "dream-page-017-body"}},
+    {
+      "source_page": 18,
+      "patches": [
+        {"before": "> ELSIE WEBB STR 30 APP 60 CON 60 POW 85 SIZ 55 EDU 65 DEX70 SAN 65 INT 90 HP9 Luck: 85", "after": "> ### ELSIE WEBB\n> STR 30 APP 60 CON 60 POW 85 SIZ 55 EDU 65 DEX70 SAN 65 INT 90 HP9 Luck: 85"},
+        {"before": "> ENLIGHTENED (REGULAR) STR 60 APP 55 DB: 0 CON 65 POW 50 Build: 0 SIZ 60 EDU 55 Move: 8 DEX 25 SAN 45 MP: 17 INT 60 HP 12 Luck:50", "after": "> ### ENLIGHTENED (REGULAR)\n> STR 60 APP 55 DB: 0 CON 65 POW 50 Build: 0 SIZ 60 EDU 55 Move: 8 DEX 25 SAN 45 MP: 17 INT 60 HP 12 Luck:50"},
+        {"before": "> ENLIGHTENED (HEAVY) STR 55 APP 75 CON 35 POW 45 Build: 1 SIZ70 EDU 60 Move: 7 DEX 55 SAN 45 MP: 9 INT 65 HP 10 Luck: 45", "after": "> ### ENLIGHTENED (HEAVY)\n> STR 55 APP 75 CON 35 POW 45 Build: 1 SIZ70 EDU 60 Move: 7 DEX 55 SAN 45 MP: 9 INT 65 HP 10 Luck: 45"},
+        {"before": "> HUNTING HORROR STR 170 CON 65 SIZ 140 DEX 60 INT 85 APP 0 POW 115 EDU 0 SAN 0 HP 20 DB: 3D6 Build: 4 MP: 23 Luck:N/A", "after": "> ### HUNTING HORROR\n> STR 170 CON 65 SIZ 140 DEX 60 INT 85 APP 0 POW 115 EDU 0 SAN 0 HP 20 DB: 3D6 Build: 4 MP: 23 Luck:N/A"}
+      ],
+      "review_notes_append": [
+        "Reviewed statblock partitions: four visually distinct names are separated from their fused first statistics rows by exact source-fragment offsets."
+      ],
+      "role_contract": {
+        "role": "character_statistics",
+        "group_id": "dream-appendix-a-character-statistics",
+        "statblock_ids": ["stanwick-statblock", "elsie-statblock", "regular-statblock", "heavy-statblock", "migo-man-statblock", "migo-statblock", "hunting-horror-statblock"],
+        "title_heading_ids": ["stanwick-statblock-title", "elsie-statblock-title", "regular-statblock-title", "heavy-statblock-title", "migo-man-statblock-title", "migo-statblock-title", "hunting-horror-statblock-title"]
+      },
+      "units": [
+        {"id": "stanwick-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [252, 253, 254], "start": "> ### STANWICK WEBB", "end": "> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 55%, Mechanical Repair 65%, Survival 70%, Listen 55%, Spot Hidden 50%"},
+        {"id": "stanwick-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [251], "start": "> ### STANWICK WEBB", "container_parent": "stanwick-statblock", "heading_level": 3},
+        {"id": "elsie-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [255, 256, 257], "source_fragments": [{"raw_index": 255, "start": 10, "end": 85}], "start": "> ### ELSIE WEBB", "end": "> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%"},
+        {"id": "elsie-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [255], "source_fragments": [{"raw_index": 255, "start": 0, "end": 10}], "start": "> ### ELSIE WEBB", "container_parent": "elsie-statblock", "heading_level": 3},
+        {"id": "regular-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [258, 259, 260], "source_fragments": [{"raw_index": 258, "start": 21, "end": 128}], "start": "> ### ENLIGHTENED (REGULAR)", "end": "> Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Dodge 10%"},
+        {"id": "regular-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [258], "source_fragments": [{"raw_index": 258, "start": 0, "end": 21}], "start": "> ### ENLIGHTENED (REGULAR)", "container_parent": "regular-statblock", "heading_level": 3},
+        {"id": "heavy-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [261, 278, 262], "source_fragments": [{"raw_index": 261, "start": 19, "end": 119}], "start": "> ### ENLIGHTENED (HEAVY)", "end": "> Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Survival 40%, Dodge 25%"},
+        {"id": "heavy-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [261], "source_fragments": [{"raw_index": 261, "start": 0, "end": 19}], "start": "> ### ENLIGHTENED (HEAVY)", "container_parent": "heavy-statblock", "heading_level": 3},
+        {"id": "migo-man-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [264, 265, 266, 267], "source_fragments": [], "start": "> ### THE MIGO MAN", "end": "> Skills: Library Use 99%, Computer Use 99%, Electrical Repair 99%, Spot Hidden 99%, Listen 99%, Survival 99%, Dodge 99%, Do Anything 99%"},
+        {"id": "migo-man-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [263], "start": "> ### THE MIGO MAN", "container_parent": "migo-man-statblock", "heading_level": 3},
+        {"id": "migo-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [269, 270, 271, 272, 273], "start": "> ### MIGO", "end": "> Skills: Dodge 35% Sanity Loss: 0/1D6"},
+        {"id": "migo-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [268], "start": "> ### MIGO", "container_parent": "migo-statblock", "heading_level": 3},
+        {"id": "hunting-horror-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [274, 275, 276], "source_fragments": [{"raw_index": 274, "start": 14, "end": 116}], "start": "> ### HUNTING HORROR", "end": "> Armor: 0 Skills: Dodge 35% Sanity Loss: 0/1D6"},
+        {"id": "hunting-horror-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [274], "source_fragments": [{"raw_index": 274, "start": 0, "end": 14}], "start": "> ### HUNTING HORROR", "container_parent": "hunting-horror-statblock", "heading_level": 3}
+      ]
+    },
+    {
+      "source_page": 19,
+      "role_contract": {"role": "player_handouts", "group_id": "dream-page-019-handouts"},
+      "units": [
+        {"id": "appendix-handout-1", "kind": "handout", "representation": "blockquote", "raw_indices": [280, 281, 282, 283, 284, 285], "start": "> Sorry for the group email", "end": "> Figure 2 Handout 1 - Number 7 Dream"},
+        {"id": "appendix-handout-3", "kind": "handout", "representation": "blockquote", "raw_indices": [287, 288, 289, 290, 291, 292], "source_fragments": [], "start": "> ## THE ENLIGHTENED", "end": "> Handout 3 – Number 7 Dream"},
+        {"id": "appendix-handout-3-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [286], "start": "> ## THE ENLIGHTENED", "container_parent": "appendix-handout-3", "heading_level": 2},
+        {"id": "appendix-handout-5", "kind": "handout", "representation": "blockquote", "raw_indices": [293, 298, 299], "source_fragments": [], "start": "> Don't be concerned that you feel there is a gap in your memory.", "end": "> Elsie Webb"},
+        {"id": "appendix-handout-5-list", "kind": "list", "representation": "unordered_list", "raw_indices": [294, 295, 296, 297], "start": "> - The Enlightened is a front", "end": "> - Tell my father I am safe", "container_parent": "appendix-handout-5", "item_count": 4}
+      ]
+    },
+    {"source_page": 20, "inherit_units_from_baseline": true, "role_contract": {"role": "player_handouts", "group_id": "dream-page-020-handouts"}},
+    {
+      "source_page": 21,
+      "patches": [
+        {"before": "JOCEYLN EAVES - AUTHOR, AGE 49", "after": "## JOCEYLN EAVES - AUTHOR, AGE 49"},
+        {"before": "## Background", "after": "### Background"},
+        {"before": "## What You Know About Stanwick", "after": "### What You Know About Stanwick"}
+      ],
+      "review_notes_append": ["Reviewed outline: Appendix C is the H1 root; each player character is H2 and its two internal sections are H3."],
+      "role_contract": {"role": "pregenerated_characters", "group_id": "dream-appendix-c-pregenerated", "root_heading_id": "appendix-c-heading", "record_heading_id": "jocelyn-eaves-character-heading", "leaf_heading_ids": ["jocelyn-eaves-background-heading", "jocelyn-eaves-knowledge-heading"]},
+      "units": [
+        {"id": "appendix-c-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [309], "start": "# APPENDIX C - PREGENERATED PLAYER-CHARACTERS", "heading_level": 1},
+        {"id": "jocelyn-eaves-character-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [310], "start": "## JOCEYLN EAVES - AUTHOR, AGE 49", "semantic_parent": "appendix-c-heading", "heading_level": 2},
+        {"id": "dream-p21-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [312, 313, 314, 315, 316, 317, 318], "source_fragments": [], "start": "STR: 45 CON: 50 SIZ: 55 DEX: 50 APP: 30 EDU: 65 INT: 70 POW: 50 SAN: 50", "end": "Move: 7", "semantic_parent": "jocelyn-eaves-character-heading"},
+        {"id": "jocelyn-eaves-background-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [320], "start": "### Background", "semantic_parent": "jocelyn-eaves-character-heading", "heading_level": 3},
+        {"id": "jocelyn-eaves-knowledge-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [322], "start": "### What You Know About Stanwick", "semantic_parent": "jocelyn-eaves-character-heading", "heading_level": 3}
+      ]
+    },
+    {
+      "source_page": 22,
+      "patches": [
+        {"before": "# MILTON LOWE - COMPUTER PROGRAMMER, AGE 24", "after": "## MILTON LOWE - COMPUTER PROGRAMMER, AGE 24"},
+        {"before": "## Background", "after": "### Background"},
+        {"before": "## What You Know About Stanwick", "after": "### What You Know About Stanwick"}
+      ],
+      "review_notes_append": ["Reviewed outline: this character continues Appendix C; the character title is H2 and internal sections are H3."],
+      "role_contract": {"role": "pregenerated_characters", "group_id": "dream-appendix-c-pregenerated", "root_heading_id": null, "record_heading_id": "milton-lowe-character-heading", "leaf_heading_ids": ["milton-lowe-background-heading", "milton-lowe-knowledge-heading"]},
+      "units": [
+        {"id": "milton-lowe-character-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [325], "start": "## MILTON LOWE - COMPUTER PROGRAMMER, AGE 24", "heading_level": 2},
+        {"id": "dream-p22-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [327, 328, 329, 330, 331, 332, 333], "source_fragments": [], "start": "STR: 60 CON: 40 SIZ: 55 DEX: 70 APP: 50 EDU: 65 INT: 45 POW: 50 SAN: 50", "end": "Move: 9", "semantic_parent": "milton-lowe-character-heading"},
+        {"id": "milton-lowe-background-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [335], "start": "### Background", "semantic_parent": "milton-lowe-character-heading", "heading_level": 3},
+        {"id": "milton-lowe-knowledge-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [337], "start": "### What You Know About Stanwick", "semantic_parent": "milton-lowe-character-heading", "heading_level": 3}
+      ]
+    },
+    {
+      "source_page": 23,
+      "selected_before": [{"raw_index": 353, "before_raw_index": 340}],
+      "patches": [
+        {"before": "\n\nAUGUSTINE FRASER - PRIVATE INVESTIGATOR, AGE 52", "after": ""},
+        {"before": "![Source visual from page 23]({{asset:page-023-340.jpg}})", "after": "## AUGUSTINE FRASER - PRIVATE INVESTIGATOR, AGE 52\n\n![Source visual from page 23]({{asset:page-023-340.jpg}})"},
+        {"before": "## Background", "after": "### Background"},
+        {"before": "## What You Know About Stanwick", "after": "### What You Know About Stanwick"}
+      ],
+      "review_notes_append": ["Reviewed outline/order: the visually top-of-page character title precedes the portrait; character is H2 and internal sections are H3."],
+      "role_contract": {"role": "pregenerated_characters", "group_id": "dream-appendix-c-pregenerated", "root_heading_id": null, "record_heading_id": "augustine-fraser-character-heading", "leaf_heading_ids": ["augustine-fraser-background-heading", "augustine-fraser-knowledge-heading"]},
+      "units": [
+        {"id": "augustine-fraser-character-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [353], "start": "## AUGUSTINE FRASER - PRIVATE INVESTIGATOR, AGE 52", "heading_level": 2},
+        {"id": "dream-p23-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [342, 341, 343, 344, 345, 346, 347], "source_fragments": [], "start": "STR: 60 CON: 35 SIZ: 50 DEX: 60 APP: 50 EDU: 55 INT: 60 POW: 45 SAN: 37", "end": "Move: 9", "semantic_parent": "augustine-fraser-character-heading"},
+        {"id": "augustine-fraser-background-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [349], "start": "### Background", "semantic_parent": "augustine-fraser-character-heading", "heading_level": 3},
+        {"id": "augustine-fraser-knowledge-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [351], "start": "### What You Know About Stanwick", "semantic_parent": "augustine-fraser-character-heading", "heading_level": 3}
+      ]
+    },
+    {
+      "source_page": 24,
+      "selected_before": [{"raw_index": 369, "before_raw_index": 355}],
+      "patches": [
+        {"before": "\n\nCAPTAIN AINSLEY HAMMOND - RETIRED MILITARY OFFICER, AGED 53", "after": ""},
+        {"before": "![Source visual from page 24]({{asset:page-024-355.jpg}})", "after": "## CAPTAIN AINSLEY HAMMOND - RETIRED MILITARY OFFICER, AGED 53\n\n![Source visual from page 24]({{asset:page-024-355.jpg}})"},
+        {"before": "## Background", "after": "### Background"},
+        {"before": "## What You Know About Stanwick", "after": "### What You Know About Stanwick"}
+      ],
+      "review_notes_append": ["Reviewed outline/order: the visually top-of-page character title precedes the portrait; character is H2 and internal sections are H3."],
+      "role_contract": {"role": "pregenerated_characters", "group_id": "dream-appendix-c-pregenerated", "root_heading_id": null, "record_heading_id": "ainsley-hammond-character-heading", "leaf_heading_ids": ["ainsley-hammond-background-heading", "ainsley-hammond-knowledge-heading"]},
+      "units": [
+        {"id": "ainsley-hammond-character-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [369], "start": "## CAPTAIN AINSLEY HAMMOND - RETIRED MILITARY OFFICER, AGED 53", "heading_level": 2},
+        {"id": "dream-p24-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [356, 357, 358, 359, 360, 361, 362], "source_fragments": [], "start": "STR: 40 CON: 45 SIZ: 70 DEX: 50 APP: 45 EDU: 70 INT: 70 POW: 40 SAN: 31", "end": "Move: 7", "semantic_parent": "ainsley-hammond-character-heading"},
+        {"id": "ainsley-hammond-background-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [364], "start": "### Background", "semantic_parent": "ainsley-hammond-character-heading", "heading_level": 3},
+        {"id": "ainsley-hammond-knowledge-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [366], "start": "### What You Know About Stanwick", "semantic_parent": "ainsley-hammond-character-heading", "heading_level": 3}
+      ]
+    },
+    {
+      "source_page": 25,
+      "selected_before": [{"raw_index": 377, "before_raw_index": 370}],
+      "patches": [
+        {"before": "\n\nVINCENT TENNY - BOUNCER, AGE 34", "after": ""},
+        {"before": "![Source visual from page 25]({{asset:page-025-370.jpg}})", "after": "## VINCENT TENNY - BOUNCER, AGE 34\n\n![Source visual from page 25]({{asset:page-025-370.jpg}})"},
+        {"before": "## Background", "after": "### Background"},
+        {"before": "## What You Know About Stanwick", "after": "### What You Know About Stanwick"}
+      ],
+      "review_notes_append": ["Reviewed outline/order: the visually top-of-page character title precedes the portrait; character is H2 and internal sections are H3."],
+      "role_contract": {"role": "pregenerated_characters", "group_id": "dream-appendix-c-pregenerated", "root_heading_id": null, "record_heading_id": "vincent-tenny-character-heading", "leaf_heading_ids": ["vincent-tenny-background-heading", "vincent-tenny-knowledge-heading"]},
+      "units": [
+        {"id": "vincent-tenny-character-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [377], "start": "## VINCENT TENNY - BOUNCER, AGE 34", "heading_level": 2},
+        {"id": "dream-p25-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [371], "source_fragments": [], "start": "STR: 55 CON: 50 SIZ: 75 DEX: 35 APP: 25 EDU: 75 INT: 50 POW: 45 SAN: 45", "end": "Move: 7", "semantic_parent": "vincent-tenny-character-heading"},
+        {"id": "vincent-tenny-background-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [373], "start": "### Background", "semantic_parent": "vincent-tenny-character-heading", "heading_level": 3},
+        {"id": "vincent-tenny-knowledge-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [375], "start": "### What You Know About Stanwick", "semantic_parent": "vincent-tenny-character-heading", "heading_level": 3}
+      ]
+    },
+    {
+      "source_page": 26,
+      "patches": [
+        {"before": "CAMELIA BROWN - WAITRESS, AGE 23", "after": "## CAMELIA BROWN - WAITRESS, AGE 23"},
+        {"before": "## Background", "after": "### Background"},
+        {"before": "## What You Know About Stanwick", "after": "### What You Know About Stanwick"}
+      ],
+      "review_notes_append": ["Reviewed outline: this character continues Appendix C; the character title is H2 and internal sections are H3."],
+      "role_contract": {"role": "pregenerated_characters", "group_id": "dream-appendix-c-pregenerated", "root_heading_id": null, "record_heading_id": "camelia-brown-character-heading", "leaf_heading_ids": ["camelia-brown-background-heading", "camelia-brown-knowledge-heading"]},
+      "units": [
+        {"id": "camelia-brown-character-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [379], "start": "## CAMELIA BROWN - WAITRESS, AGE 23", "heading_level": 2},
+        {"id": "dream-p26-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [381], "source_fragments": [], "start": "STR: 45 CON: 40 SIZ: 40 DEX: 30 APP: 65 EDU: 55 INT: 70 POW: 45 SAN: 45", "end": "Move: 8", "semantic_parent": "camelia-brown-character-heading"},
+        {"id": "camelia-brown-background-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [383], "start": "### Background", "semantic_parent": "camelia-brown-character-heading", "heading_level": 3},
+        {"id": "camelia-brown-knowledge-heading", "kind": "heading", "representation": "atx_heading", "raw_indices": [385], "start": "### What You Know About Stanwick", "semantic_parent": "camelia-brown-character-heading", "heading_level": 3}
+      ]
+    }
+  ],
+  "visual_text_assertions": [],
+  "source_text_exclusions": []
+}

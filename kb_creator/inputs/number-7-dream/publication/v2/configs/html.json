@@ -1,0 +1,85 @@
+{
+  "scenario_title_en": "Number 7 Dream",
+  "scenario_title_ru": "Сон № 7",
+  "html_publication_policy": {
+    "schema": "kb_creator.html_publication_policy.v2",
+    "state": "stage40_ready",
+    "page_roles": [
+      {"source_page": 1, "role": "cover"},
+      {"source_page": 2, "role": "credits"},
+      {"source_page": 3, "role": "source_toc"},
+      {"source_page": 4, "role": "body"},
+      {"source_page": 5, "role": "body"},
+      {"source_page": 6, "role": "body"},
+      {"source_page": 7, "role": "body"},
+      {"source_page": 8, "role": "body"},
+      {"source_page": 9, "role": "body"},
+      {"source_page": 10, "role": "body"},
+      {"source_page": 11, "role": "body"},
+      {"source_page": 12, "role": "body"},
+      {"source_page": 13, "role": "body"},
+      {"source_page": 14, "role": "body"},
+      {"source_page": 15, "role": "body"},
+      {"source_page": 16, "role": "body"},
+      {"source_page": 17, "role": "body"},
+      {"source_page": 18, "role": "body"},
+      {"source_page": 19, "role": "body"},
+      {"source_page": 20, "role": "body"},
+      {"source_page": 21, "role": "body"},
+      {"source_page": 22, "role": "body"},
+      {"source_page": 23, "role": "body"},
+      {"source_page": 24, "role": "body"},
+      {"source_page": 25, "role": "body"},
+      {"source_page": 26, "role": "body"}
+    ],
+    "frontmatter_order": ["cover", "credits", "source_toc", "body"],
+    "cover": {
+      "source_page": 1,
+      "placement_id": "source-cover-page-001",
+      "required": true,
+      "render_mode": "replace_source_page",
+      "fit": "contain"
+    },
+    "credits": {"mode": "source_authored", "source_pages": [2]},
+    "toc": {
+      "mode": "preserve_and_link",
+      "source_page": 3,
+      "title": "СОДЕРЖАНИЕ",
+      "entries": [
+        {"source_text": "Введение", "target_id": "vvedenie"},
+        {"source_text": "Предыстория", "target_id": "predystoriya"},
+        {"source_text": "Что случилось с сыщиками?", "target_id": "chto-sluchilos-s-syschikami"},
+        {"source_text": "Конструкт 7", "target_id": "konstrukt-7"},
+        {"source_text": "Просветлённые", "target_id": "prosvetlennye"},
+        {"source_text": "Действующие лица", "target_id": "deistvuyuschie-litsa"},
+        {"source_text": "Начало приключения", "target_id": "nachalo-priklyucheniya"},
+        {"source_text": "Книжная лавка Стэнвика", "target_id": "knizhnaya-lavka-stenvika"},
+        {"source_text": "Квартира Элси", "target_id": "kvartira-elsi"},
+        {"source_text": "Сайт «Просветлённых»", "target_id": "sait-prosvetlennyh"},
+        {"source_text": "Лесная хижина", "target_id": "hizhina-v-lesu"},
+        {"source_text": "Встреча с Элси", "target_id": "vstrecha-s-elsi"},
+        {"source_text": "Побег", "target_id": "pobeg"},
+        {"source_text": "Институт", "target_id": "institut"},
+        {"source_text": "Заключительная конференция", "target_id": "finalnaya-vstrecha"},
+        {"source_text": "Приложение A — характеристики персонажей", "target_id": "prilozhenie-a-harakteristiki-personazhei"},
+        {"source_text": "Приложение B — раздаточные материалы", "target_id": "prilozhenie-b-razdatochnye-materialy"},
+        {"source_text": "Приложение C — готовые персонажи игроков", "target_id": "prilozhenie-c-zaranee-sozdannye-personazhi-igrokov"}
+      ]
+    },
+    "body_start_page": 4
+  },
+  "production_html": {
+    "print_columns": 1,
+    "avoid_single_column_fragmentation_context": true,
+    "keep_full_page_art_with_heading": true,
+    "allow_long_callout_page_breaks": true,
+    "allow_statblock_flow_beside_body_art": false,
+    "typography": {
+      "body_font_family": "Georgia, \"Times New Roman\", serif",
+      "body_font_size": "11.5pt",
+      "body_line_height": "1.42",
+      "print_body_font_size": "9.75pt",
+      "print_body_line_height": "1.24"
+    }
+  }
+}

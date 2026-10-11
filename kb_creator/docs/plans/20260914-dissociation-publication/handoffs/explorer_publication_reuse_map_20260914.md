@@ -1,0 +1,42 @@
+# Publication reuse map receipt
+
+- Goal / step: `20260914-dissociation-publication`; read-only prerequisite audit for Steps 6-12.
+- Role: bounded codebase explorer; implementation and acceptance authority: none.
+- Requested model / effort: unavailable to this agent runtime.
+- Orchestrator: `gpt-5.6-sol` / `medium` by repository policy.
+- Assignment state: `platform-unverified`.
+- Timestamp: `2026-09-14T04:57:32.7441962+03:00`.
+- Elapsed / token usage: unavailable.
+- Scope: map reusable components, schemas, configs, tests, acceptance gates and hard-coded assumptions for `MASTER_EN`, `MASTER_RU`, ArtView, `HTML -> DOCX -> PDF`, production package and offline evidence verification. No build, destructive operation, source mutation, Git operation or `.codex` change was performed.
+
+## Result
+
+| Stage | Current implementation and exact evidence | Reusable vs hard-coded | Minimal generic gap |
+| --- | --- | --- | --- |
+| Publication contract | `kb_creator/contracts/scenario_contract.v1.schema.json:103-124`; `kb_creator/scripts/scenario_contract.py:20-33,230-254` | Not usable for Dissociation publication: DOCX is absent, PDF is gated by `accepted_html`, render is fixed to `viral_print`; compatibility evidence is Innsmouth-bound at `scenario_contract.py:48-65`. Reconstruction `stage_manifest.v1` is fixed to six MinerU stages at `kb_creator/contracts/stage_manifest.v1.schema.json:12-27`. | Add a separate neutral publication contract and publication-stage manifest with `master_en -> master_ru -> artview -> html -> docx -> pdf -> production`; PDF upstream must be accepted DOCX only. |
+| MASTER_EN | `kb_creator/scripts/build_scenario_master_en.py`; Innsmouth promotion at `kb_creator/scripts/freeze_innsmouth_master_en_repo_input.py:64-190` | The generic name masks Viral assumptions: `viral` anchors and fixed 124/122-page, 123-asset topology at `build_scenario_master_en.py:12-21,90-104,498-510`; Viral paths and asset graph at `565-595,1457-1485`. The Innsmouth promoter has useful hash/inventory mechanics but imports Innsmouth-specific code and counts at `freeze_innsmouth_master_en_repo_input.py:17-23,64-104`. | Config-driven projection plus a common immutable candidate verifier and separate explicit user-acceptance receipt/promoter. |
+| MASTER_RU | Low-level reusable packet tools: `kb_creator/scripts/prepare_translation_batches.py:20-164`, `merge_translation_batches.py:28-185`, `split_translation_batch_to_units.py`, `merge_micro_translation_batch.py`; Innsmouth acceptance in `freeze_innsmouth_master_ru_repo_input.py`. | Packet split/merge preserves unit/source hashes, but the README-referenced `scenario_master_ru.py prepare/validate-batch/assemble` is absent. The Innsmouth verifier fixes scenario hashes, counts, replacements and assets at `freeze_innsmouth_master_ru_repo_input.py:18-44,139-175`. | Add a generic MASTER_RU lifecycle over the packet primitives: accepted MASTER_EN binding, ordered assembly, Markdown/mechanics parity, shared CoC glossary QA and user acceptance receipt. |
+| ArtView | Generic decision vocabulary at `kb_creator/scripts/scenario_artview.py:25-35`; hash-bound validation at `1478-1526`; production materialization and consistency at `kb_creator/scripts/build_viral_production.py:895-980,1081-1120`. | Build requires MASTER_EN acceptance but only MASTER_RU provenance plus QA, not user acceptance, at `scenario_artview.py:1054-1071`. Viral profile hard-codes paths at `kb_creator/reference/viral/artview_review_policy_v2.json:4-20`; QA hard-codes 94/84/10 rows and pages 123-124 at `scenario_artview.py:1377-1414`. Tests preserve primitives but the real test fixes Viral IDs/counts at `kb_creator/tests/test_scenario_artview.py:161-254`; materialization tests are `test_build_viral_production.py:276-428`. | Split generic engine from scenario profile; require an accepted MASTER_RU receipt; derive expected cardinalities/roles from manifests/config; emit accepted ArtView receipt and effective config identity. |
+| HTML | Reusable renderer `translator/translator.py:2458-2584,4935-5010`. | Entry gates are config booleans, not receipt identities, at `translator.py:2587-2598`. Viral sets those booleans directly at `build_viral_production.py:1987-2011`. Innsmouth does verify accepted RU before rendering at `build_innsmouth_html_from_master_ru.py:430-458`, but fixes titles, filename, heading IDs and counts at `26-36,134-180`, and has no mandatory ArtView acceptance input. Test: `kb_creator/tests/test_build_innsmouth_html_from_master_ru.py:30-36`. | Add a neutral adapter that verifies accepted MASTER_RU, accepted ArtView decisions/application and effective render config identities before any write, then emits a stage manifest. |
+| DOCX | Strong reusable core: `kb_creator/scripts/production_docx.py:848-984`; tests at `kb_creator/tests/test_production_docx.py:18-83,86-142`. | It preserves HTML structure, links/bookmarks, images, tables and callouts. A4/font policy is embedded at `production_docx.py:88-131`, and metadata/title is hard-coded to Viral at `949-951`. It has no accepted-HTML/config binding or DOCX stage manifest. | Parameterize metadata and layout; wrap it with accepted HTML verification and an identity-bound OOXML QA/stage receipt. |
+| PDF | Manual Word-export validation exists at `kb_creator/scripts/build_viral_production.py:1598-1708,1711-1756`. | There is no automatic DOCX-to-PDF generator. Viral `render_only` invokes direct HTML-to-PDF before DOCX at `1833-1841`; full build repeats it at `2029-2037`. Its generated config declares HTML/Chromium input at `2012-2019`; packaged `build_config.json:133-166` retains that route. Innsmouth is explicitly HTML-to-Chromium PDF at `build_innsmouth_pdf_from_accepted_html.py:114-157,183-242,406-460`, and its test requires that route at `kb_creator/tests/test_build_innsmouth_pdf_from_accepted_html.py:36-59`. Generic translator PDF reads HTML at `translator/translator.py:11468-11506,12173-12197`. Viral Word QA also fixes 52 TOC entries, 96 links and 112 callout paragraphs at `build_viral_production.py:1644-1663`. | Add a configured DOCX-to-PDF adapter with exact source-DOCX identity and atomic output. Reject `source_html` for publication PDF before writes. Add order/lineage tests and configurable structural/full-page render QA plus user acceptance receipt. |
+| Production package | Viral inventory `kb_creator/scripts/build_viral_production.py:1524-1540`; pipeline snapshot at `86-114`; ArtView artifacts packaged at `975-980,1806-1816`. | Manifest schema is Viral-specific and has no standalone verify mode. Production QA reads Viral filenames/counts at `1258-1338,1470-1520`. The README-referenced `build_innsmouth_production_package.py --verify`, its test, and `inputs/innsmouth/production` are absent in the current tree. `build_innsmouth_final_result.py:411-555` is an older HTML/PDF-only run, not a complete package verifier. | Add a package-local generic assembler and offline verifier for closed inventory, accepted MASTER_EN/RU receipts, ArtView profile/manifest/decisions/application, all configs, HTML/DOCX/PDF manifests and QA, code/schema snapshots and release receipt slot. |
+
+Reusable foundations are the translator HTML renderer, `production_docx`, ArtView decision validation/materialization, and content-addressed inventory helpers. Existing orchestration and acceptance wrappers remain Viral/Innsmouth-specific.
+
+## Blockers
+
+1. Both automatic production routes currently generate PDF directly from HTML, contrary to the accepted Dissociation pipeline.
+2. There is no generic automatic DOCX-to-PDF adapter or identity-bound DOCX/PDF stage contract.
+3. HTML gates are mutable booleans rather than verified MASTER_RU and ArtView acceptance receipts.
+4. MASTER_EN and ArtView scripts contain extensive Viral topology and count assumptions.
+5. The documented generic MASTER_RU lifecycle and Innsmouth production-package verifier are absent from the current tree.
+6. No focused test proves the required `HTML -> DOCX -> PDF` call order or rejects direct HTML-to-PDF before writes.
+
+## Next action
+
+Architect and implement the neutral publication control plane and schemas first. Reuse the HTML renderer, DOCX projector and ArtView validator behind identity-bound adapters; implement DOCX-only PDF generation; then add synthetic end-to-end and negative direct-route tests before any Dissociation publication build.
+
+## Changed files
+
+- `kb_creator/docs/plans/20260914-dissociation-publication/handoffs/explorer_publication_reuse_map_20260914.md` only.

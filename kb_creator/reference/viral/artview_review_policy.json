@@ -1,0 +1,17 @@
+{
+  "schema": "kb_creator.scenario_artview_profile.v1",
+  "scenario_id": "viral",
+  "inputs": {
+    "source_pdf": "kb_creator/working/viral/source/Call_of_Cthulhu_Viral.pdf",
+    "publication_config": "kb_creator/inputs/viral/master_en/review_checkpoint_20260905_review_fixes_d/publication_config_v2.json",
+    "master_en": "kb_creator/inputs/viral/master_en/review_checkpoint_20260905_review_fixes_d/candidate/MASTER_EN.md",
+    "master_en_acceptance": "kb_creator/inputs/viral/master_en/accepted_20260906/MASTER_EN.acceptance.json",
+    "master_en_asset_manifest": "kb_creator/inputs/viral/master_en/review_checkpoint_20260905_review_fixes_d/candidate/ASSET_MANIFEST.json",
+    "master_ru": "kb_creator/inputs/viral/master_ru/review_checkpoint_20260906/candidate/MASTER_RU.md",
+    "master_ru_provenance": "kb_creator/inputs/viral/master_ru/review_checkpoint_20260906/candidate/MASTER_RU.provenance.json",
+    "master_ru_qa": "kb_creator/inputs/viral/master_ru/review_checkpoint_20260906/candidate/MASTER_RU.qa.json",
+    "reconstruction_asset_manifest": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/ASSET_MANIFEST.json",
+    "comparison": "kb_creator/working/viral/source_reconstruction/20260901_step6a_mineru_three_view_full/comparison/comparison.json"
+  },
+  "output_root": "kb_creator/inputs/viral/artview/review_checkpoint_20260906"
+}

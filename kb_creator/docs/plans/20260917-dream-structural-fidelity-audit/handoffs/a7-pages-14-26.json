@@ -1,0 +1,201 @@
+{
+  "scope": "A7 semantic mapping fragment for source pages 14-26",
+  "pages": [
+    {
+      "source_page": 14,
+      "review_notes_append": [
+        "text correction: Dou't -> Don't; reason: full-resolution source visual confirms the word is Don't",
+        "text correction: experíments -> experiments; reason: full-resolution source visual confirms experiments without a diacritic",
+        "text correction: dou't -> don't; reason: full-resolution source visual confirms don't underestimate"
+      ],
+      "post_patches": [
+        {"before": "> Dou't be concerned that you feel there is a gap in your memory.", "after": "> Don't be concerned that you feel there is a gap in your memory."},
+        {"before": "the experíments take place.", "after": "the experiments take place."},
+        {"before": "but dou't underestimate them.", "after": "but don't underestimate them."}
+      ],
+      "rules": {
+        "unordered_list": [188, 189, 190, 191],
+        "blockquote_groups": [{"start": 187, "end": 194}]
+      },
+      "units": [
+        {"id": "handout-5-body", "kind": "handout", "representation": "blockquote", "raw_indices": [187, 188, 189, 190, 191, 192, 193, 194], "start": "> Don't be concerned that you feel there is a gap in your memory.", "end": "> Handout 5 - Number 7 Dream"},
+        {"id": "handout-5-list", "kind": "list", "representation": "unordered_list", "raw_indices": [188, 189, 190, 191], "start": "> - The Enlightened is a front", "end": "> - Tell my father I am safe", "container_parent": "handout-5-body", "item_count": 4}
+      ]
+    },
+    {
+      "source_page": 15,
+      "rules": {"blockquote_groups": [{"start": 201, "end": 202}]},
+      "units": [
+        {"id": "keepers-note", "kind": "callout", "representation": "blockquote", "raw_indices": [201, 202], "start": "> ## KEEPERS NOTE", "end": "know exactly what they are going to find."},
+        {"id": "keepers-note-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [201], "start": "> ## KEEPERS NOTE", "container_parent": "keepers-note", "heading_level": 2}
+      ]
+    },
+    {
+      "source_page": 16,
+      "units": []
+    },
+    {
+      "source_page": 17,
+      "rules": {"blockquote_groups": [
+        {"start": 241, "end": 241},
+        {"start": 243, "end": 243},
+        {"start": 245, "end": 245}
+      ]},
+      "units": [
+        {"id": "conference-opening-quote", "kind": "blockquote", "representation": "blockquote", "raw_indices": [241], "start": "> “We meet at last.", "end": "What is real, or not, is up to you to decide.”"},
+        {"id": "conference-revealed-quote", "kind": "blockquote", "representation": "blockquote", "raw_indices": [243], "start": "> “We wish to thank you for finding someone", "end": "Until of course, you can help us again.”"},
+        {"id": "conference-unrevealed-quote", "kind": "blockquote", "representation": "blockquote", "raw_indices": [245], "start": "> “You were unable to assist us this time.", "end": "I look forward to observing you again.”"}
+      ]
+    },
+    {
+      "source_page": 18,
+      "review_notes_append": ["title downgrade: Armor: 0; representation: blockquote; reason: the source visual shows this line as a stat-block field and the alternate title classification is an OCR error"],
+      "selected_before": [{"raw_index": 278, "before_raw_index": 262}],
+      "selected_purposes": [
+        {"raw_index": 252, "purpose": "structure"},
+        {"raw_index": 255, "purpose": "structure"},
+        {"raw_index": 256, "purpose": "structure"},
+        {"raw_index": 258, "purpose": "structure"},
+        {"raw_index": 259, "purpose": "structure"},
+        {"raw_index": 261, "purpose": "structure"},
+        {"raw_index": 265, "purpose": "structure"},
+        {"raw_index": 266, "purpose": "structure"},
+        {"raw_index": 270, "purpose": "structure"},
+        {"raw_index": 274, "purpose": "structure"}
+      ],
+      "rules": {"statblocks": [
+        {"raw_indices": [251, 252, 253, 254], "start_selector": "## STANWICK WEBB", "end_selector": "Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 55%, Mechanical Repair 65%, Survival 70%, Listen 55%, Spot Hidden 50%"},
+        {"raw_indices": [255, 256, 257], "start_selector": "Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%", "end_selector": "Spot Hidden 60%"},
+        {"raw_indices": [258, 259, 260], "start_selector": "Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Dodge 10%", "end_selector": "Dodge 10%"},
+        {"raw_indices": [261, 278, 262], "start_selector": "Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Survival 40%, Dodge 25%", "end_selector": "35% (17/7), damage 1D3 + 1D4"},
+        {"raw_indices": [263, 264, 265, 266, 267], "start_selector": "## THE MIGO MAN", "end_selector": "Do Anything 99%"},
+        {"raw_indices": [268, 269, 270, 271, 272, 273], "start_selector": "## MIGO", "end_selector": "Skills: Dodge 35% Sanity Loss: 0/1D6", "end_match": "exact"},
+        {"raw_indices": [274, 275, 276], "start_selector": "HUNTING HORROR", "end_selector": "Armor: 0 Skills: Dodge 35% Sanity Loss: 0/1D6"}
+      ]},
+      "asset_placements": {
+        "page-018-252.jpg": "reference_only",
+        "page-018-255.jpg": "reference_only",
+        "page-018-256.jpg": "reference_only",
+        "page-018-258.jpg": "reference_only",
+        "page-018-259.jpg": "reference_only",
+        "page-018-261.jpg": "reference_only",
+        "page-018-265.jpg": "reference_only",
+        "page-018-266.jpg": "reference_only",
+        "page-018-270.jpg": "reference_only",
+        "page-018-274.jpg": "reference_only"
+      },
+      "patches": [
+        {"before": "![Source visual from page 18]({{asset:page-018-274.jpg}})", "after": "HUNTING HORROR\n![Source visual from page 18]({{asset:page-018-274.jpg}})"}
+      ],
+      "post_patches": [
+        {"before": "> STANWICK WEBB", "after": "> ### STANWICK WEBB"},
+        {"before": "> THE MIGO MAN", "after": "> ### THE MIGO MAN"},
+        {"before": "> MIGO", "after": "> ### MIGO"},
+        {"before": "> Brawl 35% (17/7), damage 1D3 40% (20/8), (damage 4D6/2D6/1D6)", "after": "> DB: 0 Build: 0 Move: 8 MP: 17\n> Brawl 35% (17/7), damage 1D3 40% (20/8), (damage 4D6/2D6/1D6)"},
+        {"before": "> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%", "after": "> Shotgun 12-gauge\n> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%"},
+        {"before": "> 35% (17/7), damage 1D3 + 1D4", "after": "> DB: 1D4\n> 35% (17/7), damage 1D3 + 1D4"},
+        {"before": "> Brawl 99% (17/7), damage 1D3 + 1D4", "after": "> DB: 1D4 Move: 7 Luck: 99\n> Brawl 99% (17/7), damage 1D3 + 1D4"}
+      ],
+      "units": [
+        {"id": "stanwick-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [251, 252, 253, 254], "start": "> ### STANWICK WEBB", "end": "> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 55%, Mechanical Repair 65%, Survival 70%, Listen 55%, Spot Hidden 50%"},
+        {"id": "stanwick-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [251], "start": "> ### STANWICK WEBB", "container_parent": "stanwick-statblock", "heading_level": 3},
+        {"id": "elsie-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [255, 256, 257], "start": "> ELSIE WEBB STR 30 APP 60 CON 60 POW 85 SIZ 55 EDU 65 DEX70 SAN 65 INT 90 HP9 Luck: 85", "end": "> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%"},
+        {"id": "regular-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [258, 259, 260], "start": "> ENLIGHTENED (REGULAR)", "end": "> Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Dodge 10%"},
+        {"id": "heavy-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [261, 278, 262], "start": "> ENLIGHTENED (HEAVY)", "end": "> Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Survival 40%, Dodge 25%"},
+        {"id": "migo-man-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [263, 264, 265, 266, 267], "start": "> ### THE MIGO MAN", "end": "> Skills: Library Use 99%, Computer Use 99%, Electrical Repair 99%, Spot Hidden 99%, Listen 99%, Survival 99%, Dodge 99%, Do Anything 99%"},
+        {"id": "migo-man-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [263], "start": "> ### THE MIGO MAN", "container_parent": "migo-man-statblock", "heading_level": 3},
+        {"id": "migo-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [268, 269, 270, 271, 272, 273], "start": "> ### MIGO", "end": "> Skills: Dodge 35% Sanity Loss: 0/1D6"},
+        {"id": "migo-statblock-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [268], "start": "> ### MIGO", "container_parent": "migo-statblock", "heading_level": 3},
+        {"id": "hunting-horror-statblock", "kind": "statblock", "representation": "blockquote", "raw_indices": [274, 275, 276], "start": "> HUNTING HORROR", "end": "> Armor: 0 Skills: Dodge 35% Sanity Loss: 0/1D6"}
+      ]
+    },
+    {
+      "source_page": 19,
+      "review_notes_remove": ["title override: Enlightened in Life, Dignified in Death; reason: full-resolution triptych review confirms this source-visible handout tagline is a heading."],
+      "review_notes_append": [
+        "title downgrade: Enlightened in Life, Dignified in Death; representation: blockquote; reason: the source visual shows this line as an italic subtitle inside Handout 3, not as a document heading",
+        "text correction: hypnotíse -> hypnotise; reason: full-resolution source visual confirms hypnotise without a diacritic",
+        "text correction: SN13 6PG- this -> SN13 6PG - this; reason: full-resolution source visual confirms spaces around the dash",
+        "text correction: 1 am -> I am; reason: full-resolution source visual confirms the pronoun I"
+      ],
+      "rules": {
+        "unordered_list": [294, 295, 296, 297],
+        "blockquote_groups": [
+          {"start": 280, "end": 285},
+          {"start": 286, "end": 292, "start_selector": "## THE ENLIGHTENED", "start_match": "exact"},
+          {"start": 293, "end": 299}
+        ]
+      },
+      "post_patches": [
+        {"before": "> ## Enlightened in Life, Dignified in Death", "after": "> *Enlightened in Life, Dignified in Death*"},
+        {"before": "hypnotíse", "after": "hypnotise"},
+        {"before": "SN13 6PG- this", "after": "SN13 6PG - this"},
+        {"before": "> - Tell my father 1 am safe", "after": "> - Tell my father I am safe"}
+      ],
+      "units": [
+        {"id": "appendix-handout-1", "kind": "handout", "representation": "blockquote", "raw_indices": [280, 281, 282, 283, 284, 285], "start": "> Sorry for the group email", "end": "> Figure 2 Handout 1 - Number 7 Dream"},
+        {"id": "appendix-handout-3", "kind": "handout", "representation": "blockquote", "raw_indices": [286, 287, 288, 289, 290, 291, 292], "start": "> ## THE ENLIGHTENED", "end": "> Handout 3 – Number 7 Dream"},
+        {"id": "appendix-handout-3-title", "kind": "heading", "representation": "atx_heading", "raw_indices": [286], "start": "> ## THE ENLIGHTENED", "container_parent": "appendix-handout-3", "heading_level": 2},
+        {"id": "appendix-handout-5", "kind": "handout", "representation": "blockquote", "raw_indices": [293, 294, 295, 296, 297, 298, 299], "start": "> Don't be concerned that you feel there is a gap in your memory.", "end": "> Elsie Webb"},
+        {"id": "appendix-handout-5-list", "kind": "list", "representation": "unordered_list", "raw_indices": [294, 295, 296, 297], "start": "> - The Enlightened is a front", "end": "> - Tell my father I am safe", "container_parent": "appendix-handout-5", "item_count": 4}
+      ]
+    },
+    {"source_page": 20, "units": []},
+    {
+      "source_page": 21,
+      "review_notes_append": ["line-flow correction: the visually compact character fields are one reviewed hard-break line group; reason: the source visual shows seven tightly stacked rows followed by a larger gap before Skills"],
+      "units": [
+        {"id": "dream-p21-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [312, 313, 314, 315, 316, 317, 318], "start": "STR: 45 CON: 50", "end": "Move: 7"}
+      ]
+    },
+    {
+      "source_page": 22,
+      "review_notes_append": ["line-flow correction: the visually compact character fields are one reviewed hard-break line group; reason: the source visual shows seven tightly stacked rows followed by a larger gap before Skills"],
+      "units": [
+        {"id": "dream-p22-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [327, 328, 329, 330, 331, 332, 333], "start": "STR: 60 CON: 40", "end": "Move: 9"}
+      ]
+    },
+    {
+      "source_page": 23,
+      "selected_before": [{"raw_index": 342, "before_raw_index": 341}],
+      "review_notes_append": ["line-flow correction: the visually compact character fields are one reviewed hard-break line group in geometry-confirmed order 342,341,343-347; reason: the source visual places the STR-SAN row above Luck and all seven rows before Skills"],
+      "units": [
+        {"id": "dream-p23-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [342, 341, 343, 344, 345, 346, 347], "start": "STR: 60 CON: 35", "end": "Move: 9"}
+      ]
+    },
+    {
+      "source_page": 24,
+      "review_notes_append": ["line-flow correction: the visually compact character fields are one reviewed hard-break line group; reason: the source visual shows seven tightly stacked rows followed by a larger gap before Skills"],
+      "units": [
+        {"id": "dream-p24-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [356, 357, 358, 359, 360, 361, 362], "start": "STR: 40 CON: 45", "end": "Move: 7"}
+      ]
+    },
+    {
+      "source_page": 25,
+      "review_notes_append": ["line-flow confirmation: the existing compact character fields are declared as one reviewed hard-break line group; reason: the source visual and source block 371 contain six tightly stacked rows before Skills"],
+      "units": [
+        {"id": "dream-p25-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [371], "start": "STR: 55 CON: 50", "end": "Move: 7"}
+      ]
+    },
+    {
+      "source_page": 26,
+      "review_notes_append": ["line-flow confirmation: the existing compact character fields are declared as one reviewed hard-break line group; reason: the source visual and source block 381 contain seven tightly stacked rows before Skills"],
+      "units": [
+        {"id": "dream-p26-character-fields", "kind": "line_group", "representation": "hard_break_lines", "raw_indices": [381], "start": "STR: 45 CON: 40", "end": "Move: 8"}
+      ]
+    }
+  ],
+  "visual_text_assertions": [
+    {"assertion_id": "dream-p18-elsie-derived-fields", "source_page": 18, "text": "DB: 0 Build: 0 Move: 8 MP: 17", "bbox": [53, 452, 406, 500], "anchor": {"view_id": "original_pipeline_txt", "raw_index": 256}, "relation": "before_anchor", "rationale": "These exact fields are visible in the third row of the image-backed Elsie stats table; the assertion is positioned before the immediately following attack-table block."},
+    {"assertion_id": "dream-p18-elsie-shotgun-label", "source_page": 18, "text": "Shotgun 12-gauge", "bbox": [53, 512, 452, 546], "anchor": {"view_id": "original_pipeline_txt", "raw_index": 257}, "relation": "before_anchor", "rationale": "The exact weapon label is visible in the Elsie attack-table crop; the assertion is positioned before the following skills block."},
+    {"assertion_id": "dream-p18-heavy-damage-bonus", "source_page": 18, "text": "DB: 1D4", "bbox": [52, 829, 405, 877], "anchor": {"view_id": "original_pipeline_txt", "raw_index": 278}, "relation": "column_before_anchor", "rationale": "The exact damage bonus is visible in the lower-left Enlightened Heavy stats table; its reviewed reading order precedes the attack value in the right column."},
+    {"assertion_id": "dream-p18-migo-man-derived-fields", "source_page": 18, "text": "DB: 1D4 Move: 7 Luck: 99", "bbox": [517, 263, 870, 314], "anchor": {"view_id": "original_pipeline_txt", "raw_index": 266}, "relation": "before_anchor", "rationale": "These exact fields are visible in the image-backed Migo Man stats table; the assertion is positioned before the immediately following attack block."}
+  ],
+  "source_text_exclusions": [
+    {"source_page": 18, "view_id": "raster_pipeline_ocr", "raw_index": 252, "classification": "visual_only", "rationale": "The raster OCR table serialization is an alternate column order of the selected semantic Stanwick stat block; the exact source region and canonical reference crop remain bound while duplicate reader text is suppressed.", "logical_asset": "page-018-252.jpg"},
+    {"source_page": 18, "view_id": "raster_pipeline_ocr", "raw_index": 255, "classification": "visual_only", "rationale": "The raster OCR table serialization is an alternate column order of the selected semantic Elsie stat block; visually reviewed missing fields are carried by bound assertions and the canonical crop remains provenance-only.", "logical_asset": "page-018-255.jpg"},
+    {"source_page": 20, "view_id": "original_pipeline_txt", "raw_index": 301, "classification": "visual_only", "rationale": "This full letter is intentionally reader-visible through the selected Handout 2 image asset rather than duplicated as hidden table text.", "logical_asset": "page-020-301.jpg"},
+    {"source_page": 20, "view_id": "original_pipeline_ocr", "raw_index": 301, "classification": "visual_only", "rationale": "This alternate extraction of the same full letter is represented by the selected Handout 2 image asset and is not separate reader text.", "logical_asset": "page-020-301.jpg"},
+    {"source_page": 20, "view_id": "raster_pipeline_ocr", "raw_index": 301, "classification": "visual_only", "rationale": "This alternate extraction of the same full letter is represented by the selected Handout 2 image asset and is not separate reader text.", "logical_asset": "page-020-301.jpg"}
+  ]
+}

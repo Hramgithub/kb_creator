@@ -1,0 +1,65 @@
+{
+  "schema": "kb_creator.scenario_contract.v1",
+  "contract_revision": 1,
+  "contract_role": "runtime",
+  "scenario": {
+    "id": "viral",
+    "title": "Viral",
+    "product_type": "coc_scenario",
+    "source_language": "en",
+    "publication_languages": ["en", "ru"]
+  },
+  "source": {
+    "kind": "external_pdf",
+    "identity_status": "complete",
+    "locator_hint": "Call_of_Cthulhu_Viral.pdf",
+    "sha256": "0A80B6F389821B87553D26746D2BE171B4482BA9BBC6E3EB3FEC26274EDBED05",
+    "byte_count": 20718150,
+    "page_count": 124,
+    "page_number_base": 1,
+    "media_box_points": [612, 792],
+    "rotation_degrees": 0
+  },
+  "scope": {
+    "mode": "all_source_pages",
+    "first_page": 1,
+    "last_page": 124,
+    "required_entities": {"numbered_player_handouts": 39}
+  },
+  "page_roles": [
+    {"role": "cover", "first_page": 1, "last_page": 1, "content_mode": "unknown", "traits": ["low_text"], "strategies": ["visual_preserve"]},
+    {"role": "credits", "first_page": 2, "last_page": 2, "content_mode": "unknown", "traits": ["low_text"], "strategies": ["embedded_text", "visual_preserve"]},
+    {"role": "front_matter", "first_page": 3, "last_page": 4, "content_mode": "unknown", "traits": [], "strategies": ["embedded_text"]},
+    {"role": "contents", "first_page": 5, "last_page": 5, "content_mode": "unknown", "traits": ["multi_column"], "strategies": ["reading_order"]},
+    {"role": "scenario_body", "first_page": 6, "last_page": 68, "content_mode": "mixed", "traits": ["multi_column"], "strategies": ["embedded_text", "reading_order"]},
+    {"role": "player_handouts", "first_page": 69, "last_page": 103, "content_mode": "mixed", "traits": ["form_like"], "strategies": ["embedded_text", "visual_preserve"]},
+    {"role": "keeper_maps", "first_page": 104, "last_page": 110, "content_mode": "visual", "traits": ["low_text"], "strategies": ["visual_preserve"]},
+    {"role": "pregenerated_investigators", "first_page": 111, "last_page": 123, "content_mode": "mixed", "traits": ["form_like", "statblock"], "strategies": ["embedded_text", "visual_preserve"]},
+    {"role": "back_cover", "first_page": 124, "last_page": 124, "content_mode": "visual", "traits": ["low_text"], "strategies": ["visual_preserve"]}
+  ],
+  "artifacts": {
+    "reconstructed_en": "RECONSTRUCTED_EN.md",
+    "master_en": "MASTER_EN.md",
+    "master_ru": "MASTER_RU.md",
+    "html": "Viral_RU.html",
+    "pdf": "Viral_RU.pdf",
+    "production_manifest": "PRODUCTION_MANIFEST.json"
+  },
+  "policies": {
+    "reconstruction": {"strategies": ["embedded_text", "reading_order", "ocr_region", "visual_preserve"], "required_review": true},
+    "publication": {"strategies": ["reading_order"], "required_review": true},
+    "translation": {"strategies": ["reading_order"], "lineage_source": "accepted_current_master_en", "historical_source_mode": "terminology_or_comparison_only", "required_review": true},
+    "visual": {"strategies": ["visual_preserve"], "required_review": true},
+    "navigation": {"strategies": ["reading_order"], "required_review": true},
+    "render": {"strategies": ["visual_preserve"], "profile": "viral_print", "required_review": true}
+  },
+  "acceptance": {
+    "reconstructed_en": {"automated_gates": ["source_identity", "page_coverage", "role_partition", "text_ocr_provenance", "required_entity_closure", "asset_closure", "no_open_blockers"], "approval_authority": "configured_reconstruction_review"},
+    "master_en": {"automated_gates": ["accepted_reconstructed", "source_disposition", "semantic_navigation", "handout_mapping", "table_statblock_closure", "asset_closure", "no_technical_reader_noise"], "approval_authority": "explicit_user_reading_acceptance"},
+    "master_ru": {"automated_gates": ["accepted_master_en_lineage", "structural_parity", "terminology", "untranslated_terms", "links", "asset_closure"], "approval_authority": "explicit_user_reading_acceptance"},
+    "html": {"automated_gates": ["accepted_master_ru", "deterministic_output", "links", "assets", "unique_ids", "generated_only", "navigation"], "approval_authority": "explicit_user_visual_navigation_acceptance"},
+    "pdf": {"automated_gates": ["accepted_html", "print_only_delta", "render_coverage", "no_blank_pages", "destinations", "section_boundaries", "full_visual_qa", "generated_only"], "approval_authority": "explicit_user_print_acceptance"},
+    "production": {"automated_gates": ["accepted_packages", "closed_inventory", "stable_names", "asset_union", "contract_schema_code_snapshots", "qa_closure"], "approval_authority": "explicit_production_snapshot_acceptance"}
+  },
+  "exceptions": []
+}

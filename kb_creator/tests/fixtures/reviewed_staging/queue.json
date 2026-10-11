@@ -1,0 +1,16 @@
+{
+  "schema": "kb_creator.review_queue.v2",
+  "source_sha256": "81CA83FD84B06B8B6337687488CD2F9BFEE028139608EC5D2026043320D410FC",
+  "queue_sha256": "59D82CC8C2C0422439B96D3BA7FC90AD15BDD5F96BA599A4D65BC3666A63752D",
+  "items": [
+    {
+      "source_page": 1,
+      "contract_role": "body",
+      "merge_packet": {
+        "path": "packet-page-001.json",
+        "bytes": 4770,
+        "sha256": "7BF4B9DC1EF5CE28693BB5E0F0EFD93B578E50AECD6BCEBA77CF4B990F7A2CAD"
+      }
+    }
+  ]
+}

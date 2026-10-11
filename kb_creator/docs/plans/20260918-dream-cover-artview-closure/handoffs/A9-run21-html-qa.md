@@ -1,0 +1,20 @@
+# A9 run-21 HTML QA receipt
+
+- Scope: read-only inspection of run-21 Stage 40 output and evidence, accepted ArtView decisions/rebind, and accepted MASTER_EN/MASTER_RU files and receipts. No generated-output, code, plan, status, or acceptance edits; no release decision.
+- Result: PASS for the supplied checks. Stage 40 (`40-html-candidate`) manifest reports `succeeded`, exit code 0; run identity SHA-256 `94BA81644A1A44364FD5584219E14CE715D6613A8FBF6CF79406F43FE93939CF`. The HTML exists at 155,264 bytes and matches the Stage 40 output SHA-256 `1A97740C8BFCD33D09B893231CD487971530B8210E2898CC5C727C7C3D2572D6`.
+- Master identity: current MASTER_EN matches accepted SHA-256 `C3B4F13E3E43B2422704F1A7BCF61A5CF1762191B474FAAE5C4C4243289367AA`; current MASTER_RU matches accepted SHA-256 `904133D5057172C404D28F3BCF2A5E4C578304A59382512D1B31FC56AE0FDAB2`.
+- ArtView decision lineage: run-21 accepted v4 submission has 20/20 reviewed, zero unresolved, state `accepted`; accepted ArtView manifest candidate SHA-256 is `B140C1775C875F78AEE8AE21F4746A8ABDB52CD737DDCE80F2614DA6EDBE0C6C`. Run-18 source decision file SHA-256 is `8504FE1DF206A25FA30B7EEAE90F0ED6FFFD6CF0F7A8408BE5146C19D86F07B0`. Compared all 20 decision rows by asset id, binary choice/candidate id, presentation fields, notes, and reviewed state: zero differences (strict rebind).
+- Cover: page-001 section contains exactly one image, `assets/pdf-page-001-cover.png`, selected as `keep_current` and reviewed in the accepted decisions. The section contains only renderer page marker `page 001` and figure caption `Cover` in addition to that image; no retained source cover prose. The local cover file SHA-256 is `4517FC7C93E53986C2C286E871D8B59070BED4457041FE0F928A1DC9F9357072`.
+- TOC: HTML has one `<nav id="toc">` with 18 linked entries; production report also declares 18 source TOC entries.
+- Semantic statblocks: 7 cards are within source page 18; IDs and order exactly match `html_semantic_projection.json`: `stanwick-statblock`, `elsie-statblock`, `regular-statblock`, `heavy-statblock`, `migo-man-statblock`, `migo-statblock`, `hunting-horror-statblock`. Projection SHA-256: `EB8F81088C0D86FA6CFE33BA89979DA80D0CA999B13557EEC7F491BDD833373D`.
+- Asset routing: 20 HTML image references; 0 missing or out-of-root references. No PDF href route found.
+- Files checked: `publication/20260918-publication-21/evidence/stages/40-html-candidate.manifest.json`; `publication/20260918-publication-21/outputs/40-html-candidate/artifacts/Number_7_Dream_RU.html`; `publication/20260918-publication-21/outputs/40-html-candidate/evidence/{html_semantic_projection.json,production_html_report.json}`; `publication/20260918-publication-21/submissions/artview/artview-decisions.accepted.json`; `publication/20260918-publication-21/acceptance/{artview.acceptance.json,master_en.acceptance.json,master_ru.acceptance.json}`; `publication/20260918-publication-21/outputs/31-artview-apply/artifacts/ARTVIEW_APPLIED.json`; `publication/20260918-publication-18/submissions/artview/artview-decisions.accepted.json`; current run MASTER_EN/RU candidate files.
+- Verification/evidence: stage state/exit and output identity read from Stage 40 manifest; HTML hash/size recalculated; master hashes recalculated; source decision file hash recalculated and 20 decisions compared field-wise; cover and TOC structure inspected; semantic card IDs/order compared to projection; image paths checked against the Stage 40 artifact root.
+- Blockers: none within A9 scope.
+- Next action: return the exact HTML evidence to the orchestrator for the established review and user decision gates; this QA does not approve release or user acceptance.
+- Elapsed time: approximately 6 minutes.
+- Token use: unavailable from this bounded QA execution.
+- Timestamp: `2026-09-18 18:40 UTC`.
+- Orchestrator policy owner: `gpt-5.6-sol`, medium (per assigned plan).
+- Assignment state: A9 bounded QA complete; orchestration and release ownership remain with the main orchestrator.
+- Scoped override: A9 only—verify run-21 Stage 40 HTML and assigned authority evidence and write this receipt; no candidate/source modification or release decision.

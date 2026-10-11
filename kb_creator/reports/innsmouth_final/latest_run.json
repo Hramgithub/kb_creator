@@ -1,0 +1,10 @@
+{
+  "schema": "kb_creator_innsmouth_final_latest_run.v1",
+  "generated_at_utc": "2026-07-30T17:27:48.484460+00:00",
+  "run_id": "20260730T172713Z",
+  "status": "pass",
+  "final_run_report": "kb_creator/reports/innsmouth_final/runs/20260730T172713Z/final_run_report.json",
+  "final_artifact_manifest": "kb_creator/reports/innsmouth_final/runs/20260730T172713Z/final_artifact_manifest.json",
+  "html": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/The_Innsmouth_Terror_Full_RU.html",
+  "pdf_two_column": "kb_creator/output/innsmouth_final/runs/20260730T172713Z/Pdf/The_Innsmouth_Terror_Full_RU_two_column.pdf"
+}

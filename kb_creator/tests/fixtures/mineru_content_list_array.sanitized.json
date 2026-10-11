@@ -1,0 +1,21 @@
+[
+  {
+    "type": "text",
+    "text": "A sanitized paragraph from a MinerU content list.",
+    "page_idx": 0,
+    "bbox": [71, 104, 531, 168]
+  },
+  {
+    "type": "image",
+    "img_path": "images/asset-001.jpg",
+    "img_caption": ["Sanitized caption"],
+    "page_idx": 0,
+    "bbox": [80, 190, 520, 620]
+  },
+  {
+    "type": "list",
+    "list_items": ["First item", "Second item"],
+    "page_idx": 1,
+    "bbox": [76, 92, 526, 301]
+  }
+]

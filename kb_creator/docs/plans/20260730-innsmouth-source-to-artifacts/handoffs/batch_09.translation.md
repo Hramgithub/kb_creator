@@ -1,0 +1,26 @@
+# 20260730-innsmouth-source-to-artifacts - batch_09 translation receipt
+
+- goal_id: `20260730-innsmouth-source-to-artifacts`
+- step_id: `batch_09.translation`
+- role: `main-chat orchestrator acting as bounded translator`
+- model: `gpt-5`
+- effort: `medium`
+- scope: Translate `batch_09.en.json` to `batch_09.ru.json` using only `source_text`, preserving `unit_id`, `page`, `source_hash`, structure, mechanics, tables/lists, and page references; write immutable handoff receipt.
+- result: `completed`
+- files_checked:
+  - `docs/governance/nri_goal_governance.md`
+  - `kb_creator/README.md`
+  - `kb_creator/PROJECT_STATUS.md`
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_09.en.json`
+- files_changed:
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_09.ru.json`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/handoffs/batch_09.translation.md`
+- verification_evidence:
+  - Output JSON written with schema `kb_creator.translation_batch_ru.v1`.
+  - `ru_text` filled for all `5` units: `p040_u0049`, `p041_u0050`, `p042_u0051`, `p043_u0052`, `p044_u0053`.
+  - Preserved `unit_id`, `page`, `source_hash`, `source_text`, batch metadata, list markers, stat/mechanical values, and literal route code `L L F R F L`.
+- blockers: `none`
+- next_action: Validate JSON parse and continue with the next assigned batch or QA step.
+- elapsed_time: `unavailable`
+- token_use: `unavailable`
+- timestamp: `2026-07-30T00:00:00+03:00`

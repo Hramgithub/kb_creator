@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.ai-merge-fidelity-audit.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "authorities", "policy", "pages", "boundaries", "errors", "passed"],
+  "properties": {
+    "schema": {"const": "kb_creator.ai-merge-fidelity-audit/v2"},
+    "authorities": {"$ref": "#/$defs/authorities"},
+    "policy": {"$ref": "#/$defs/policy"},
+    "pages": {"type": "array", "items": {"$ref": "#/$defs/page"}},
+    "boundaries": {"type": "array", "items": {"$ref": "#/$defs/boundary"}},
+    "errors": {"$ref": "#/$defs/errors"},
+    "passed": {"type": "boolean"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "errors": {"type": "array", "items": {"type": "string"}},
+    "identity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path_hint", "bytes", "sha256"],
+      "properties": {"path_hint": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}
+    },
+    "unit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_page", "view_id", "raw_index", "block_type", "bbox", "original_text_sha256", "normalized_text_sha256", "normalized_character_count"],
+      "properties": {
+        "source_page": {"type": "integer", "minimum": 1},
+        "view_id": {"enum": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr"]},
+        "raw_index": {"type": "integer", "minimum": 0},
+        "block_type": {"type": "string", "minLength": 1},
+        "bbox": {"oneOf": [{"type": "null"}, {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "items": false}]},
+        "original_text_sha256": {"$ref": "#/$defs/sha"}, "normalized_text_sha256": {"$ref": "#/$defs/sha"},
+        "normalized_character_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "visual": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "bytes", "sha256"],
+      "properties": {"path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}
+    },
+    "assertion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_page", "text", "original_text_sha256", "normalized_text_sha256", "bbox", "rationale", "visual"],
+      "properties": {"source_page": {"type": "integer", "minimum": 1}, "text": {"type": "string", "minLength": 1}, "original_text_sha256": {"$ref": "#/$defs/sha"}, "normalized_text_sha256": {"$ref": "#/$defs/sha"}, "bbox": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "items": false}, "rationale": {"type": "string", "minLength": 1}, "visual": {"$ref": "#/$defs/visual"}}
+    },
+    "authorities": {
+      "type": "object", "additionalProperties": false,
+      "required": ["run", "review_queue", "comparison", "decision_set", "reviewed_allowlist", "packets"],
+      "properties": {
+        "run": {"type": "object", "additionalProperties": false, "required": ["portable_identity_sha256", "source_sha256", "contract_sha256"], "properties": {"portable_identity_sha256": {"$ref": "#/$defs/sha"}, "source_sha256": {"$ref": "#/$defs/sha"}, "contract_sha256": {"$ref": "#/$defs/sha"}}},
+        "review_queue": {"type": "object", "additionalProperties": false, "required": ["path_hint", "bytes", "sha256", "queue_sha256"], "properties": {"path_hint": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}, "queue_sha256": {"$ref": "#/$defs/sha"}}},
+        "comparison": {"$ref": "#/$defs/identity"}, "decision_set": {"$ref": "#/$defs/identity"},
+        "reviewed_allowlist": {"oneOf": [{"type": "null"}, {"type": "object", "additionalProperties": false, "required": ["path_hint", "bytes", "sha256", "schema"], "properties": {"path_hint": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}, "schema": {"const": "kb_creator.ai_merge_fidelity_reviewed_allowlist.v2"}}}]},
+        "packets": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["source_page", "path_hint", "bytes", "sha256"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "path_hint": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}}}
+      }
+    },
+    "policy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_completeness_threshold", "selected_recall_threshold", "required_views", "normalization", "low_text_exemption"],
+      "properties": {"source_completeness_threshold": {"const": 1.0}, "selected_recall_threshold": {"const": 0.95}, "required_views": {"const": ["original_pipeline_txt", "original_pipeline_ocr", "raster_pipeline_ocr"]}, "normalization": {"const": "unicode_nfkc_casefold_alphanumeric_stream_v1"}, "low_text_exemption": {"const": false}}
+    },
+    "mapping": {"type": "object", "additionalProperties": false, "required": ["unit", "markdown_span"], "properties": {"unit": {"$ref": "#/$defs/unit"}, "markdown_span": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 0}, {"type": "integer", "minimum": 1}], "items": false}}},
+    "disposition": {"type": "object", "additionalProperties": false, "required": ["unit", "disposition"], "properties": {"unit": {"$ref": "#/$defs/unit"}, "disposition": {"enum": ["included_selected", "included_equivalent", "excluded_reviewed", "required_visual_assertion", "unaccounted"]}}},
+    "substitution": {"type": "object", "additionalProperties": false, "required": ["from", "to", "count", "allowlisted"], "properties": {"from": {"type": "string"}, "to": {"type": "string"}, "count": {"type": "integer", "minimum": 1}, "allowlisted": {"type": "boolean"}}},
+    "page": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_page", "required_character_count", "covered_character_count", "completeness", "selected_recall", "selected_precision", "ordered_span_mappings", "units", "substitutions", "visual_assertions", "unaccounted_unit_count", "errors", "passed"],
+      "properties": {"source_page": {"type": "integer", "minimum": 1}, "required_character_count": {"type": "integer", "minimum": 0}, "covered_character_count": {"type": "integer", "minimum": 0}, "completeness": {"type": "number", "minimum": 0, "maximum": 1}, "selected_recall": {"type": "number", "minimum": 0, "maximum": 1}, "selected_precision": {"type": "number", "minimum": 0, "maximum": 1}, "ordered_span_mappings": {"type": "array", "items": {"$ref": "#/$defs/mapping"}}, "units": {"type": "array", "items": {"$ref": "#/$defs/disposition"}}, "substitutions": {"type": "array", "items": {"$ref": "#/$defs/substitution"}}, "visual_assertions": {"type": "array", "items": {"$ref": "#/$defs/assertion"}}, "unaccounted_unit_count": {"type": "integer", "minimum": 0}, "errors": {"$ref": "#/$defs/errors"}, "passed": {"type": "boolean"}}
+    },
+    "boundary": {"type": "object", "additionalProperties": false, "required": ["left_page", "right_page", "kind", "left_unit", "right_unit", "both_sides_covered"], "properties": {"left_page": {"type": "integer", "minimum": 1}, "right_page": {"type": "integer", "minimum": 2}, "kind": {"enum": ["page_boundary", "hyphenated_continuation"]}, "left_unit": {"$ref": "#/$defs/unit"}, "right_unit": {"$ref": "#/$defs/unit"}, "both_sides_covered": {"const": true}}}
+  }
+}

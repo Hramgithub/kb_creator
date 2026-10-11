@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.source_graphics_inventory.v1",
+  "title": "Independent all-physical-page source graphic inventory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "source_pdf", "producer", "pages", "paint_occurrences", "inventory_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.source_graphics_inventory.v1"},
+    "source_pdf": {"$ref": "#/$defs/pdf"},
+    "producer": {"type": "object", "additionalProperties": false, "required": ["implementation_sha256", "tool_versions", "render_profile"], "properties": {
+      "implementation_sha256": {"$ref": "#/$defs/sha"},
+      "tool_versions": {"type": "object", "additionalProperties": false, "required": ["pdftoppm", "pypdf"], "properties": {
+        "pdftoppm": {"$ref": "#/$defs/file"},
+        "pypdf": {"type": "string", "minLength": 1}
+      }},
+      "render_profile": {"const": "pdftoppm-mediabox-single-page-png-v1"}
+    }},
+    "pages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/page"}},
+    "paint_occurrences": {"type": "array", "items": {"$ref": "#/$defs/paint"}},
+    "inventory_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {
+      "path": {"type": "string", "minLength": 1},
+      "bytes": {"type": "integer", "minimum": 0},
+      "sha256": {"$ref": "#/$defs/sha"}
+    }},
+    "pdf": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "page_count"], "properties": {
+      "path": {"type": "string", "minLength": 1},
+      "bytes": {"type": "integer", "minimum": 1},
+      "sha256": {"$ref": "#/$defs/sha"},
+      "page_count": {"type": "integer", "minimum": 1}
+    }},
+    "bbox": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "minItems": 4, "maxItems": 4},
+    "page": {"type": "object", "additionalProperties": false, "required": ["page", "geometry", "content_sha256", "resource_sha256", "render", "discovery"], "properties": {
+      "page": {"type": "integer", "minimum": 1},
+      "geometry": {"type": "object", "additionalProperties": false, "required": ["width_pt", "height_pt", "rotation", "coordinate_space"], "properties": {
+        "width_pt": {"type": "number", "exclusiveMinimum": 0}, "height_pt": {"type": "number", "exclusiveMinimum": 0},
+        "rotation": {"enum": [0, 90, 180, 270]}, "coordinate_space": {"const": "pdf_mediabox_top_left"}
+      }},
+      "content_sha256": {"$ref": "#/$defs/sha"}, "resource_sha256": {"$ref": "#/$defs/sha"},
+      "render": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "dpi", "pixels", "source_page"], "properties": {
+        "path": {"type": "string", "pattern": "\\.png$"}, "bytes": {"type": "integer", "minimum": 1},
+        "sha256": {"$ref": "#/$defs/sha"}, "dpi": {"type": "integer", "minimum": 200},
+        "pixels": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 1}, {"type": "integer", "minimum": 1}], "minItems": 2, "maxItems": 2},
+        "source_page": {"type": "integer", "minimum": 1}
+      }},
+      "discovery": {"type": "object", "additionalProperties": false, "required": ["status", "diagnostic_ids", "limits"], "properties": {
+        "status": {"const": "incomplete"}, "diagnostic_ids": {"type": "array", "items": {"type": "string"}},
+        "limits": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }}
+    }},
+    "paint": {"type": "object", "additionalProperties": false, "required": ["occurrence_id", "page", "kind", "operator_path", "invocation_ordinal", "resource_path", "stream_sha256", "bbox", "discovery_limit"], "properties": {
+      "occurrence_id": {"type": "string", "minLength": 1}, "page": {"type": "integer", "minimum": 1},
+      "kind": {"enum": ["raster", "inline_image", "vector_group", "shading", "pattern", "composite_candidate", "mask_dependency", "uninvoked_resource"]},
+      "operator_path": {"type": "string"}, "invocation_ordinal": {"type": "integer", "minimum": 0},
+      "resource_path": {"type": "array", "items": {"type": "string"}},
+      "stream_sha256": {"oneOf": [{"$ref": "#/$defs/sha"}, {"type": "null"}]},
+      "bbox": {"oneOf": [{"$ref": "#/$defs/bbox"}, {"type": "null"}]},
+      "discovery_limit": {"type": ["string", "null"]}
+    }}
+  }
+}

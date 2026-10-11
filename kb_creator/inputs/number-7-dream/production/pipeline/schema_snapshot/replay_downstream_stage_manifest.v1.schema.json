@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "kb_creator.replay_downstream_stage_manifest.v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "stage_id", "run_identity_sha256", "bridge_sha256", "execution", "upstream", "inputs", "producer_closure", "outputs", "command", "result", "acceptance_inferred", "manifest_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.replay_downstream_stage_manifest.v1"}, "stage_id": {"enum": ["05-fidelity-audit", "06-materialize-candidate"]},
+    "run_identity_sha256": {"$ref": "#/$defs/sha"}, "bridge_sha256": {"$ref": "#/$defs/sha"},
+    "execution": {"type": "object", "additionalProperties": false, "required": ["mode", "producer_invoked", "reusable", "completed_at_utc", "exit_code"], "properties": {"mode": {"const": "executed"}, "producer_invoked": {"const": true}, "reusable": {"const": false}, "completed_at_utc": {"type": "string", "minLength": 1}, "exit_code": {"const": 0}}},
+    "upstream": {"type": "array", "items": {"$ref": "#/$defs/stage_ref"}}, "inputs": {"type": "array", "items": {"$ref": "#/$defs/ref"}},
+    "producer_closure": {"type": "object", "additionalProperties": false, "required": ["files", "inventory_sha256"], "properties": {"files": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "inventory_sha256": {"$ref": "#/$defs/sha"}}},
+    "outputs": {"type": "object", "additionalProperties": false, "required": ["root", "files", "inventory_sha256"], "properties": {"root": {"type": "string", "minLength": 1}, "files": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "inventory_sha256": {"$ref": "#/$defs/sha"}}},
+    "command": {"$ref": "#/$defs/command_ref"},
+    "result": {"type": "object"}, "acceptance_inferred": {"const": false}, "manifest_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "ref": {"type": "object", "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}, "bridge_sha256": {"$ref": "#/$defs/sha"}, "submission_sha256": {"$ref": "#/$defs/sha"}}, "additionalProperties": false},
+    "stage_ref": {"type": "object", "additionalProperties": false, "required": ["stage_id", "manifest_sha256", "output_inventory_sha256"], "properties": {"stage_id": {"type": "string"}, "manifest_sha256": {"$ref": "#/$defs/sha"}, "output_inventory_sha256": {"$ref": "#/$defs/sha"}}},
+    "command_ref": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "command_sha256"], "properties": {"path": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}, "command_sha256": {"$ref": "#/$defs/sha"}}}
+  }
+}

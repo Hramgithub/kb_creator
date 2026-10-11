@@ -1,0 +1,223 @@
+{
+  "schema": "nri.u8_fidelity_implementation_hash_manifest.v04",
+  "timestamp_utc": "2026-10-04T23:12:42Z",
+  "scope": "U8 v04 prospective normal-DOCX R1-R4 remediation; 42 predecessor implementation files plus new v2 plan contract; no source/books/current candidates",
+  "predecessor_manifest_sha256": "5572A5C0C3FB9E660563D4BC9DB5CDEA1E352892CA58C6BAF6B021036765BB1D",
+  "files": [
+    {
+      "path": "kb_creator/__main__.py",
+      "bytes": 24437,
+      "sha256": "C32C83EE9EB3E38B395AB3380B4C876EEC56D1E09F023BA651897088A6CC21E6"
+    },
+    {
+      "path": "kb_creator/pipeline/docx_continuation.py",
+      "bytes": 13618,
+      "sha256": "BE0FEFF3079EEC23A70134788FBE4BE50E8718BCE18347342FD295396EDFF8DF"
+    },
+    {
+      "path": "kb_creator/pipeline/edition_projection.py",
+      "bytes": 13703,
+      "sha256": "40BA50C3AFC1D25A7A24E09DF11E10764E6554FFF53B3B4976CC48E90EC073EE"
+    },
+    {
+      "path": "kb_creator/pipeline/five_step.py",
+      "bytes": 32794,
+      "sha256": "1AE4E566F8D07FB81B99B7E8905CC9F5EE41A93B97EBAADEF11D678EEAF32052"
+    },
+    {
+      "path": "kb_creator/pipeline/five_step_docx.py",
+      "bytes": 79040,
+      "sha256": "566A56806E9A2C5AE7C0A69F4B7098D227C5BB2CF1D76433A3C0C5C928EE6378"
+    },
+    {
+      "path": "kb_creator/pipeline/five_step_successor.py",
+      "bytes": 18866,
+      "sha256": "6B2EBCC6FEB1D2F265D2ACE60244128C12415518C1BFC8CF653F8E6CBDA1E3B4"
+    },
+    {
+      "path": "kb_creator/pipeline/publication.py",
+      "bytes": 79151,
+      "sha256": "411475CA842AD4E8A49E11B1117745B3F15B250B365CEB5546A4E5A7DE1B337E"
+    },
+    {
+      "path": "kb_creator/pipeline/publication_adapters.py",
+      "bytes": 130131,
+      "sha256": "2C7A60A6A8776A6356B96D8BA804A38CEB586B6B04280775C52C05328E355727"
+    },
+    {
+      "path": "kb_creator/pipeline/reader_fidelity.py",
+      "bytes": 37124,
+      "sha256": "8F83333D7FD20078381B234DDD2F032B370D059290E9C0FB958CBD60F9942D86"
+    },
+    {
+      "path": "kb_creator/pipeline/reader_options_rebind.py",
+      "bytes": 16183,
+      "sha256": "E9AC82C42C2A6436883C3E6C03BE9A61D784FEAEA952F70FA9CE1EEB4C88BC0A"
+    },
+    {
+      "path": "kb_creator/pipeline/reviewed_reader_revision.py",
+      "bytes": 38355,
+      "sha256": "7292AA673919AF66D9287BA20B9E33191444E7906E7326635F8860D1569F90A3"
+    },
+    {
+      "path": "kb_creator/pipeline/source_graphics.py",
+      "bytes": 22250,
+      "sha256": "F1AE5C4F1B1DB278560B9D14E786EF3AC4ACF697FD26ED17FB935B90A7800EE0"
+    },
+    {
+      "path": "kb_creator/scripts/build_bilingual_checkpoint.py",
+      "bytes": 17432,
+      "sha256": "DBEFFA709EF2FC35B189A46078A301D5BA4F72AA0BA59DDAE7F126B536C0745A"
+    },
+    {
+      "path": "kb_creator/scripts/continue_docx.py",
+      "bytes": 1877,
+      "sha256": "703D5F6B8DCE00B0A5F8E852C07E4B0FEF6E9D40B105D2E6FB0E7B141CB03B3C"
+    },
+    {
+      "path": "kb_creator/scripts/production_docx.py",
+      "bytes": 81964,
+      "sha256": "2F4962E0ADBFEB31C354EBCCADB0C3B5AF889223FBED53707148A25D9A4E110C"
+    },
+    {
+      "path": "kb_creator/scripts/revise_publication_docx_package.py",
+      "bytes": 13236,
+      "sha256": "72856DECF77E0D3703DE835388509375493DAF0C71FD7442590125FD3488CF19"
+    },
+    {
+      "path": "kb_creator/scripts/revise_reviewed_reader.py",
+      "bytes": 1382,
+      "sha256": "CD17D55D3B229FE4D4FFC9AC4BD50C923BDE40A3B3684E0B68CC98E43787EF76"
+    },
+    {
+      "path": "kb_creator/contracts/reader_fidelity_plan.v1.schema.json",
+      "bytes": 8077,
+      "sha256": "A05646748B23F85297D12B0B8C847243CDC22F93EC88BF98B68988AED600EE54"
+    },
+    {
+      "path": "kb_creator/contracts/reader_fidelity_verification.v1.schema.json",
+      "bytes": 3380,
+      "sha256": "46700A949F4E04CBE1CB256A680197FB72DC9E2B06582F556F4EEE0DB0489ED3"
+    },
+    {
+      "path": "kb_creator/contracts/source_graphics_inventory.v1.schema.json",
+      "bytes": 4538,
+      "sha256": "EB5AD9A8F63AE1F8CC5219359C73BF3470BB2B226DDAE5C7C915A36926F0DD84"
+    },
+    {
+      "path": "kb_creator/contracts/source_graphics_review.v1.schema.json",
+      "bytes": 4652,
+      "sha256": "A764FB4BADA1DE22A1B06E995513791FBB44CC50B695A99D881340F0F5636D5B"
+    },
+    {
+      "path": "kb_creator/docs/five-step-usage.md",
+      "bytes": 43258,
+      "sha256": "02839522160DF4B0C85A3E9C890298B10E914903747AB6354250339B1C843C43"
+    },
+    {
+      "path": "kb_creator/docs/reviewed-reader-revision.md",
+      "bytes": 6636,
+      "sha256": "C951C66D996670A72867CAA2187618D1BD08A79C91010C5E4E0BAF93A635B854"
+    },
+    {
+      "path": "kb_creator/tests/fidelity_fixture.py",
+      "bytes": 11591,
+      "sha256": "28D6A243905A95D7644B413A3FA164A692AB3BCB844F6A4C6C025D29F69322AA"
+    },
+    {
+      "path": "kb_creator/tests/historical_publication_archive.py",
+      "bytes": 9722,
+      "sha256": "48028B4F10CD95624CC34F8EDF69F9C0B8BFF2C3E2B3DF139FC992809ED17199"
+    },
+    {
+      "path": "kb_creator/tests/test_docx_continuation.py",
+      "bytes": 13509,
+      "sha256": "092EE445C5FC50551E729751FDEA4D439CB73392DD673BA33D242AF3BB532185"
+    },
+    {
+      "path": "kb_creator/tests/test_docx_only_output_policy.py",
+      "bytes": 5517,
+      "sha256": "EE6D7E025C89F85CACED19DF58E246D3A4D1AF9BF67D993F0CA8C5AC2B50E2AA"
+    },
+    {
+      "path": "kb_creator/tests/test_edition_projection_contract.py",
+      "bytes": 9701,
+      "sha256": "17856719D755BA4272DDED94089FB30E7C9B556B364D25C0066D85714866A241"
+    },
+    {
+      "path": "kb_creator/tests/test_fidelity_contract_schemas.py",
+      "bytes": 2358,
+      "sha256": "7D9D12E257489BFB454C1F6AAAFAE9B14E078A9690C0446618E0859686610389"
+    },
+    {
+      "path": "kb_creator/tests/test_five_step_docx.py",
+      "bytes": 13664,
+      "sha256": "EAAEB84843D415C8101F3159CEF4F2B42E6544F4A04A25AE52DBE99CA7FE9FD7"
+    },
+    {
+      "path": "kb_creator/tests/test_five_step_runner.py",
+      "bytes": 18907,
+      "sha256": "92056B1609FE83395BE9C4A5C337FAC77F3EC535EB7FB195ED4FE5A0E8168E91"
+    },
+    {
+      "path": "kb_creator/tests/test_five_step_successor.py",
+      "bytes": 9293,
+      "sha256": "DF8139493CDBB484909ACB0FE0B75C5C5B79F74B657CFF86A0AC95836EE1E5A0"
+    },
+    {
+      "path": "kb_creator/tests/test_guarded_docx_source_fidelity.py",
+      "bytes": 16600,
+      "sha256": "75AA0CDED7FB80C27C37D31E8284243140CCF3B6A0CBB7DD450E993615DEB2ED"
+    },
+    {
+      "path": "kb_creator/tests/test_production_docx.py",
+      "bytes": 31071,
+      "sha256": "D41ACB97F56455C9B33956513D715B90A36F5DB61BD6C382E900DA2C161CA9BE"
+    },
+    {
+      "path": "kb_creator/tests/test_publication_control_plane.py",
+      "bytes": 56213,
+      "sha256": "11DC35630C00A0C3BFC161011C6B5E1A29C5A2DEE291705A0ACB940D210A70D5"
+    },
+    {
+      "path": "kb_creator/tests/test_publication_docx_adapter.py",
+      "bytes": 5629,
+      "sha256": "C1F1A5771B464D710AF1B49D82E138A41485A9DE2D31D64C467D9CF06567C7E7"
+    },
+    {
+      "path": "kb_creator/tests/test_publication_docx_revision.py",
+      "bytes": 7740,
+      "sha256": "E39785694C8EFEE5309BD56C56A84D2C925B5FA1B4765C146774C341B19841C3"
+    },
+    {
+      "path": "kb_creator/tests/test_publication_html_adapter.py",
+      "bytes": 41387,
+      "sha256": "2BC294C03FCDD138D74434C253452C706C5443BF04101790E8062DC263917337"
+    },
+    {
+      "path": "kb_creator/tests/test_publication_registry_e2e.py",
+      "bytes": 12917,
+      "sha256": "E764CF5C891BDEC86AC7B90039726FE11E776CDE10BCF1CFC1064F1B758933F7"
+    },
+    {
+      "path": "kb_creator/tests/test_reader_fidelity_plan.py",
+      "bytes": 14837,
+      "sha256": "FB590E3E2B36DC04FA39988BAE45254720E4F1AE626EEB0CEF3015791664A980"
+    },
+    {
+      "path": "kb_creator/tests/test_reviewed_reader_revision.py",
+      "bytes": 13363,
+      "sha256": "539774DCAD7C8C540F459126E85163CBD208F12499BDA930F0BF691203F0DB3A"
+    },
+    {
+      "path": "kb_creator/tests/test_source_graphics_contract.py",
+      "bytes": 8544,
+      "sha256": "3F116F8C4E528C0FE3BC1CAF80ECF2D4687C2067C6006F285747A67D2EBC3F38"
+    },
+    {
+      "path": "kb_creator/contracts/reader_fidelity_plan.v2.schema.json",
+      "bytes": 8902,
+      "sha256": "CBCEBAA1C3A08C764426E9186D81E5DAB4C4A881298B423EAF4BD1BDD4619BBB"
+    }
+  ]
+}

@@ -1,0 +1,2605 @@
+{
+  "candidate_manifest_sha256": "97E32C102CF76BC1E8522097589C1C187414854E2172E21845C4D1EB99CB41DE",
+  "counts": {
+    "exclude": 5,
+    "inserted": 1,
+    "keep_current": 4,
+    "use_candidate": 85
+  },
+  "decisions_sha256": "363330863F940AB16A45E3EF708216E1A1F62E9BE64A319F5BAC31E8BC41A2B3",
+  "entries": [
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-credits",
+      "asset_id": "viral-accepted-ed4012725c597dbcf6fca51e55faeb883a53f6f1d2c9ee7496c667460d37c860",
+      "candidate_id": "candidate-2cd5550af13cbfbdb6b727dc",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/bcf6f081eef93547b6850f1d61c747fb4ccefad5f35bfbc2e1344117a9408418.png",
+      "source_order": 0,
+      "source_page": 3,
+      "source_refs": [
+        "assets/ed4012725c597dbcf6fca51e55faeb883a53f6f1d2c9ee7496c667460d37c860.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-introduction",
+      "asset_id": "viral-accepted-4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137",
+      "candidate_id": "candidate-5951272432541ff9acec6107",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/755840137c97fc39354550bd8b5c0afc98ef39033ebbfe1393a6035695586fe2.jpg",
+      "source_order": 1,
+      "source_page": 6,
+      "source_refs": [
+        "assets/4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-marco-proudfoot-maglioni",
+      "asset_id": "viral-accepted-aa51315c65b2339c22c6928a566dd2ade498b2afc817f9632cf30c09c5def4df",
+      "candidate_id": "candidate-a7c2cbc6ce1680710e99d1cf",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/512f19c83a8dc77f906b378a1a0773998e9893122dba928200d6a3c5aed00d7e.jpg",
+      "source_order": 2,
+      "source_page": 7,
+      "source_refs": [
+        "assets/aa51315c65b2339c22c6928a566dd2ade498b2afc817f9632cf30c09c5def4df.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-corrina-trench",
+      "asset_id": "viral-accepted-d65de690f2341a83f4360d658e72d5fb916e7ae5bae952e366262017959f7fa6",
+      "candidate_id": "candidate-cfd499a8dd116c2d57fdbbf1",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/41a9a1392f8be879b445a3e7a78dc764dfcc6d1df3462bc1105a67f91249eaab.jpg",
+      "source_order": 3,
+      "source_page": 8,
+      "source_refs": [
+        "assets/d65de690f2341a83f4360d658e72d5fb916e7ae5bae952e366262017959f7fa6.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-enoch-jeremiah-eakins",
+      "asset_id": "viral-accepted-2a4ae067e92473cdad591d86e4d67066cb82094fc1251c23223a9c6561fb7089",
+      "candidate_id": "candidate-506840738e6326d7b9aa5077",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/b9456f9c29e75cc0e994c27cbf026179c7b67c2f6e51ccccf1fd18428ea4acd1.png",
+      "source_order": 4,
+      "source_page": 8,
+      "source_refs": [
+        "assets/2a4ae067e92473cdad591d86e4d67066cb82094fc1251c23223a9c6561fb7089.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-enoch-jeremiah-eakins",
+      "asset_id": "viral-accepted-1ae78ddfdbcbd36dda84dcf3e34852206355f15827052b2714401493c4765bcb",
+      "candidate_id": "candidate-83ec67ad2a5d8e64b6d4c3c4",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/5d3f0b08a8c1b155bd02607f4ad4adfa973141ecdfa4d0960dc63370f0ba472d.jpg",
+      "source_order": 5,
+      "source_page": 9,
+      "source_refs": [
+        "assets/1ae78ddfdbcbd36dda84dcf3e34852206355f15827052b2714401493c4765bcb.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-peter-wharton",
+      "asset_id": "viral-accepted-a5a54caa96d84e7f6df573ce0c5faa2e52e03213b89f22da03d043087b797201",
+      "candidate_id": "candidate-40b8ff4af12abbb6cc32c680",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/4cd0aa9503b775164337081563095a5d888c9692ff242a7e9dbb53a5e29bcf65.jpg",
+      "source_order": 6,
+      "source_page": 9,
+      "source_refs": [
+        "assets/a5a54caa96d84e7f6df573ce0c5faa2e52e03213b89f22da03d043087b797201.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-ku-hyeon",
+      "asset_id": "viral-accepted-739a84561947691338ea011d7950446144e6156a4b5aba7924ab24a13b2c6d5f",
+      "candidate_id": "candidate-98e7afe374018f5b218b08c4",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/794257750ad6c4611cf247b11c8b6d6bda99c9c9bb09756483bed50a2d1ee69e.jpg",
+      "source_order": 7,
+      "source_page": 10,
+      "source_refs": [
+        "assets/739a84561947691338ea011d7950446144e6156a4b5aba7924ab24a13b2c6d5f.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-maya-adeduwon",
+      "asset_id": "viral-accepted-f76ae66f2313c44b030bb9cacce1023a95663ed4072a2d93ef8feca74c829004",
+      "candidate_id": "candidate-f63b3c588bbefa2ff1e75a97",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/70fa3a977459801d25d619f2ae9b218b6bbe717c99e6ddf4cc54d2ae0ff3c68f.jpg",
+      "source_order": 8,
+      "source_page": 10,
+      "source_refs": [
+        "assets/f76ae66f2313c44b030bb9cacce1023a95663ed4072a2d93ef8feca74c829004.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-emily-em-lavigne",
+      "asset_id": "viral-accepted-cfb0587698f77c07987b9d5d50de4bf64d42b0bd5fa13e7276a5163ba787faf1",
+      "candidate_id": "candidate-d45feb5d036dc40618efeab6",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/a34ba7418de7bff2c1ed166de7bf508b804070015120be9e2693e21463af0d87.jpg",
+      "source_order": 9,
+      "source_page": 11,
+      "source_refs": [
+        "assets/cfb0587698f77c07987b9d5d50de4bf64d42b0bd5fa13e7276a5163ba787faf1.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-emily-em-lavigne",
+      "asset_id": "viral-accepted-44587a041b63942e4703761b2c3065f459e5637a06e790447d0e0899c1d9a3f6",
+      "candidate_id": "candidate-e7bd3caddc55aad8dc5fbff1",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/a24e2835e5c766ad4a4d3838614a4ec78d5f0a5df5aae85c211b05ebf0c0104b.jpg",
+      "source_order": 10,
+      "source_page": 11,
+      "source_refs": [
+        "assets/44587a041b63942e4703761b2c3065f459e5637a06e790447d0e0899c1d9a3f6.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-spektral-krew-gear",
+      "asset_id": "viral-accepted-9bd48830bceb21ed805a645dbeeff5c19b748ac1aecd5336836bb192b12ad746",
+      "candidate_id": "candidate-f2f4863e71e3a7e5e47867aa",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/5883d701a102276d3b30f5b58201e264a0bd889fac7460962bd1709d4e850b1e.jpg",
+      "source_order": 11,
+      "source_page": 13,
+      "source_refs": [
+        "assets/9bd48830bceb21ed805a645dbeeff5c19b748ac1aecd5336836bb192b12ad746.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-timeline",
+      "asset_id": "viral-accepted-7ad2d1b6d60fff832a4fce5ffa008151db46260faa9b29ec8db01d62fdaa1208",
+      "candidate_id": "candidate-12ebf38a3f09bee1320390d3",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/85b88420a31e96a856e0d1a567cd3e0eaf8526544ce0c587bcf70fba5a42d1d5.jpg",
+      "source_order": 12,
+      "source_page": 14,
+      "source_refs": [
+        "assets/7ad2d1b6d60fff832a4fce5ffa008151db46260faa9b29ec8db01d62fdaa1208.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-history",
+      "asset_id": "viral-accepted-46fe7137e80db64fce723c0f4eede22b676faedca5f1f476e964b8709ccf1449",
+      "candidate_id": "candidate-165b779aee05ee55e7499270",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/084ea8a8ec8df0570bc77a564e373764185c052022a89e2cb7c6285adb8bd56f.jpg",
+      "source_order": 13,
+      "source_page": 15,
+      "source_refs": [
+        "assets/46fe7137e80db64fce723c0f4eede22b676faedca5f1f476e964b8709ccf1449.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla",
+      "asset_id": "viral-accepted-290e0d241064519a8e796429310676557b8a7e50bd2224341c7ba3d3de96ec54",
+      "candidate_id": "candidate-0396cb35dc490be8448d7cdf",
+      "candidate_kind": "embedded_page_composite_crop",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/27e483af7e10088b4c08725443868fecf37e521f8d1f85d29a1852caac9e9396.png",
+      "source_order": 14,
+      "source_page": 17,
+      "source_refs": [
+        "assets/290e0d241064519a8e796429310676557b8a7e50bd2224341c7ba3d3de96ec54.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-welcome",
+      "asset_id": "viral-accepted-0964f307aef670888c91bfe78498d19a3f55cdd749f113d610a5b68bc64cf070",
+      "candidate_id": "candidate-ad5c961d9094b44ff67918e6",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/9ccb81c2e6e3402ebe9a19b0339cafd16d77bff7ffb4a2806ccd05a546be6cf0.jpg",
+      "source_order": 15,
+      "source_page": 19,
+      "source_refs": [
+        "assets/0964f307aef670888c91bfe78498d19a3f55cdd749f113d610a5b68bc64cf070.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-exploring",
+      "asset_id": "viral-accepted-327bcc22a7c9781d732803ea2fc0e492113453b1a130ab655debb0a1c4c4b24f",
+      "candidate_id": "candidate-66fa0c294c7470138d8a1c97",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/1d1a204d7e057623c418ef0f10ce7a603abf4d2d2feedd6df0e536ce6e50a692.jpg",
+      "source_order": 16,
+      "source_page": 20,
+      "source_refs": [
+        "assets/327bcc22a7c9781d732803ea2fc0e492113453b1a130ab655debb0a1c4c4b24f.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-signs-and-portents",
+      "asset_id": "viral-accepted-16f390d7a4c0fc8856f4a878a164b11ec4e922c7df6fbb002e41e285a781d2a3",
+      "candidate_id": "candidate-635bfa3dc7cae54cfce7cbec",
+      "candidate_kind": "embedded_page_composite_crop",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/04420f5f3eeeeb75bdec2dda5969a6573e2c79254d09c621d3fc337a26cde5ad.png",
+      "source_order": 17,
+      "source_page": 22,
+      "source_refs": [
+        "assets/16f390d7a4c0fc8856f4a878a164b11ec4e922c7df6fbb002e41e285a781d2a3.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-burning-of-the-disease",
+      "asset_id": "viral-accepted-207028087cb3e99a6c0dbe99049ecb40bbd982de2906e0210baf884e95a11d3d",
+      "candidate_id": "candidate-55c1178ab5a67efa5ee9f918",
+      "candidate_kind": "embedded_page_composite_crop",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/30fb016d67b1fa64e2fec67fb393f03339653024286534409230593e9491daa8.png",
+      "source_order": 18,
+      "source_page": 23,
+      "source_refs": [
+        "assets/207028087cb3e99a6c0dbe99049ecb40bbd982de2906e0210baf884e95a11d3d.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-npcs",
+      "asset_id": "viral-accepted-29f2728884eee4feeed62b6ce0e488219c96a5933f9f4cd30a3c46ce56ae0804",
+      "candidate_id": "candidate-3c35c4305ab89df00db12d12",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/3b36ae9b15c7db2f54dbfac9f6e171a88d88fedfb992356f986c5e0d499cad3a.jpg",
+      "source_order": 19,
+      "source_page": 24,
+      "source_refs": [
+        "assets/29f2728884eee4feeed62b6ce0e488219c96a5933f9f4cd30a3c46ce56ae0804.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-npcs-santina-maria-salvatore",
+      "asset_id": "viral-accepted-4fd93a36f8650d97b80a9bde287442646eb741abefad7f520761332c4ec28834",
+      "candidate_id": "candidate-7ef170624ee46fd3628c6ddf",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/381b71a10867997fac7d96d877cb1a2ac95cfb0c33e257622efaf6dd2af9da13.jpg",
+      "source_order": 20,
+      "source_page": 25,
+      "source_refs": [
+        "assets/4fd93a36f8650d97b80a9bde287442646eb741abefad7f520761332c4ec28834.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-one-night-in-perla-npcs-padre-angelo",
+      "asset_id": "viral-accepted-bc2ae2b3751eaf9754f625794f2d4648a03308dc3dc1042add097cc3649306b0",
+      "candidate_id": "candidate-4c840bcc81fa987054b1ee4a",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/821cb1679a39b548a16819c8444370ef5bb0f5fbc6675a0b62c85302a5a4fffd.jpg",
+      "source_order": 21,
+      "source_page": 25,
+      "source_refs": [
+        "assets/bc2ae2b3751eaf9754f625794f2d4648a03308dc3dc1042add097cc3649306b0.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-di-malamente",
+      "asset_id": "viral-accepted-360213a4168164f71a9ff8980d5099fb9e2feccdd37c8f10abef0f67e9e107a1",
+      "candidate_id": "candidate-f87e091cc993679d655126c7",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/4be474611d5cccab1f50b3150e668ceefe42502b8617bdce538654907788764f.jpg",
+      "source_order": 22,
+      "source_page": 25,
+      "source_refs": [
+        "assets/360213a4168164f71a9ff8980d5099fb9e2feccdd37c8f10abef0f67e9e107a1.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-plots-and-schemes",
+      "asset_id": "viral-accepted-b90cb9a3752383888c733905588e9c3859b113e47f1f457057c72e33689a7585",
+      "candidate_id": "candidate-ef576b805007d2dbfbac5453",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/74a292be3ee2ca916d61c0ca37bb541fbfdff6806cce950f4442c3fd3ae3971b.jpg",
+      "source_order": 23,
+      "source_page": 31,
+      "source_refs": [
+        "assets/b90cb9a3752383888c733905588e9c3859b113e47f1f457057c72e33689a7585.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-plots-and-schemes",
+      "asset_id": "viral-accepted-da0cac1c9c0c880a75d3be69c59e965d0b7b0f223f16a077072786c8af30083e",
+      "candidate_id": "candidate-6b2d0437689750280c7fad31",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/6850dbb48e2322762a16018781dcca4420ec68c5c145732665e11b363fcee715.jpg",
+      "source_order": 24,
+      "source_page": 32,
+      "source_refs": [
+        "assets/da0cac1c9c0c880a75d3be69c59e965d0b7b0f223f16a077072786c8af30083e.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-location-01-lighthouse-and-radio-station",
+      "asset_id": "viral-accepted-b8b06ff00c57b039a57df97d088b2b256c0cdd6da30e1d8dc2a3629a5d42355c",
+      "candidate_id": "candidate-3daa60c73b730102ce6d7e2f",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/55e1aa10d7559fa769ede81b140edf98c3f6af11f2d5feb6d11fd75d0bf8f25f.jpg",
+      "source_order": 25,
+      "source_page": 33,
+      "source_refs": [
+        "assets/b8b06ff00c57b039a57df97d088b2b256c0cdd6da30e1d8dc2a3629a5d42355c.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-location-03-the-weeping-bridge",
+      "asset_id": "viral-accepted-10c6ced92d46c2b55ec18eb2c0fba3a1c39fcb1bb29c39a8fce8ef24fad8f7a1",
+      "candidate_id": "candidate-898e79c71e6ebf487402f066",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/20ff0763cc6cf2a85c201e9fb0f2239ba8b918775cf5335388ecc28ee3d87810.jpg",
+      "source_order": 26,
+      "source_page": 34,
+      "source_refs": [
+        "assets/10c6ced92d46c2b55ec18eb2c0fba3a1c39fcb1bb29c39a8fce8ef24fad8f7a1.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-location-04-the-lemon-grove",
+      "asset_id": "viral-accepted-222ccd9a31a25cadc0bfab40f4e037eb55b91ca7ee523fc5d9784f30407e4bfa",
+      "candidate_id": "candidate-bfe5db10c113f367b895489e",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": true,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/92d27c8e564004e7802d43f91d2385407f031d46e47aef6fce98deb32c8987f2.jpg",
+      "source_order": 27,
+      "source_page": 35,
+      "source_refs": [
+        "assets/222ccd9a31a25cadc0bfab40f4e037eb55b91ca7ee523fc5d9784f30407e4bfa.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-hospital-cellar",
+      "asset_id": "viral-accepted-694c04bf754533fd1ce84a80eb659bbcc7b0a9c314a1102ae0188eb2278618cf",
+      "candidate_id": "candidate-468769cd514393c8edcd5b13",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e4e4c7ae9942d874674ad336ff6ea59aec02e4602364cc47f949b5cdbb9e2f12.jpg",
+      "source_order": 28,
+      "source_page": 40,
+      "source_refs": [
+        "assets/694c04bf754533fd1ce84a80eb659bbcc7b0a9c314a1102ae0188eb2278618cf.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-hospital-ground-floor-secret-rooms",
+      "asset_id": "viral-accepted-b2744fe4663d98385eaee75a7b134b506b652617dd76356cf2bf717b9a90d152",
+      "candidate_id": "candidate-cb826701f24febaeadca371c",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/6138c71118e05d719758a251227f8cfdac3ce12d575d14710075776cc6097510.jpg",
+      "source_order": 29,
+      "source_page": 43,
+      "source_refs": [
+        "assets/b2744fe4663d98385eaee75a7b134b506b652617dd76356cf2bf717b9a90d152.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-hospital-administrators-house",
+      "asset_id": "viral-accepted-7a9686ecb0457b695002ce7b7daddcb9598b27e0d1501e10155e0c51f4eac85b",
+      "candidate_id": "candidate-34c2ca791e5d3b3cd89858dc",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/8d5886d8facfd90d6ca7c0f1a699c98d3949c6b889959989ecfa0b3ad6ed24bf.jpg",
+      "source_order": 30,
+      "source_page": 44,
+      "source_refs": [
+        "assets/7a9686ecb0457b695002ce7b7daddcb9598b27e0d1501e10155e0c51f4eac85b.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-location-07-cremation-pit",
+      "asset_id": "viral-accepted-f0ecf36564122d99452b953117ef61c8ae8aeb306459fd2ea1a2a9934d97c60e",
+      "candidate_id": "candidate-47ee98c89ed32da14ef1a915",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/4994971ebb3272525195b7a60fc1412e91369493d8513bbcfac8db659dbbde3c.jpg",
+      "source_order": 31,
+      "source_page": 46,
+      "source_refs": [
+        "assets/f0ecf36564122d99452b953117ef61c8ae8aeb306459fd2ea1a2a9934d97c60e.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-location-10-chapel-and-crypt",
+      "asset_id": "viral-accepted-1627aa2f652faf9837044b35d8e54bd7ddfc6b6716e7e8141363b65a83f12c4f",
+      "candidate_id": "candidate-6f6bd77448af0e66d315b49b",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/619dba0fe329d947c3b72e17d7f6afccb535eb7a36d6eb70c58a3a8cc7fa541d.jpg",
+      "source_order": 32,
+      "source_page": 48,
+      "source_refs": [
+        "assets/1627aa2f652faf9837044b35d8e54bd7ddfc6b6716e7e8141363b65a83f12c4f.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-hastalyk-awakens",
+      "asset_id": "viral-accepted-87d8a9e48a47663469f8ae771e291ed10f27cb13f6533d80bd3b569ad7c73ffd",
+      "candidate_id": "candidate-88a3ce747e7299d63e556b12",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/080925898c5be8064dafb2d642e854d13da4b10a3e6099777d55fe0032d80c35.jpg",
+      "source_order": 33,
+      "source_page": 49,
+      "source_refs": [
+        "assets/87d8a9e48a47663469f8ae771e291ed10f27cb13f6533d80bd3b569ad7c73ffd.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-isola-hastalyk-awakens",
+      "asset_id": "viral-accepted-15de2b653d40f0f520a14e685938d7d58b3bb4c6d5db2f6e420b03d88ed360b0",
+      "candidate_id": "candidate-583191fde0c8a636b9842077",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/a98ecceb568d408545e60c72b94304fc4d6450969acbb2a2f82a70f683ba9a47.jpg",
+      "source_order": 34,
+      "source_page": 51,
+      "source_refs": [
+        "assets/15de2b653d40f0f520a14e685938d7d58b3bb4c6d5db2f6e420b03d88ed360b0.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-epilogue-cinematic-ending",
+      "asset_id": "viral-accepted-1a47e9a1f4a4ef0aba87607b159b901cc1c3898e5bd3a995ea0341d4f52e7cbd",
+      "candidate_id": "candidate-c3054cdccbc479a34005db48",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/529e58ef4de639de26f1bb7fd34bfa5861da6505ee40265d535fcbf2fc9b55bb.jpg",
+      "source_order": 35,
+      "source_page": 52,
+      "source_refs": [
+        "assets/1a47e9a1f4a4ef0aba87607b159b901cc1c3898e5bd3a995ea0341d4f52e7cbd.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-epilogue-cinematic-ending",
+      "asset_id": "viral-accepted-2ebda31f091167d0746cefffb0ba817e95c00683579e25b8ff124275717688ec",
+      "candidate_id": "candidate-9af8f03a978df5af20fa1bea",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/13acf6095f5117f475ba16d01e698517455c6b531e7935049b6323930301e169.jpg",
+      "source_order": 36,
+      "source_page": 53,
+      "source_refs": [
+        "assets/2ebda31f091167d0746cefffb0ba817e95c00683579e25b8ff124275717688ec.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-epilogue-cinematic-ending",
+      "asset_id": "viral-accepted-29e9a40a1748fbb06877c65bfbd3c16682e154a09d72a746b2432bdc3c8114f7",
+      "candidate_id": "candidate-0034a1c371c89720526cbe25",
+      "candidate_kind": "embedded_page_composite_crop",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/607659a9118baa250282d828b012ca9c8ce99659ad105eb13006c27b39f4738b.png",
+      "source_order": 37,
+      "source_page": 54,
+      "source_refs": [
+        "assets/29e9a40a1748fbb06877c65bfbd3c16682e154a09d72a746b2432bdc3c8114f7.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-epilogue-expanded-ending",
+      "asset_id": "viral-accepted-ba787578df65b06580708e25f66e319a5d76a80ff5717b05392d2c1c4470b394",
+      "candidate_id": "candidate-32cb25003b84e9a45fde6680",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/ff753052922721401b2fa436ab2eac5e4ab91eb5bfbc3cdc1483f929667b2a2d.jpg",
+      "source_order": 38,
+      "source_page": 55,
+      "source_refs": [
+        "assets/ba787578df65b06580708e25f66e319a5d76a80ff5717b05392d2c1c4470b394.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-epilogue-expanded-ending",
+      "asset_id": "viral-accepted-c708f914e6ddda12e62831135072daa4458f2c87c1a967527e91f55bec2e9591",
+      "candidate_id": "candidate-b2a65225374d46779201da8d",
+      "candidate_kind": "embedded_page_composite_crop",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/5236d2fd0ddcfbd087cdd1581a5bf1d36e40a6be6efab196843a99f4b4cff77b.png",
+      "source_order": 39,
+      "source_page": 56,
+      "source_refs": [
+        "assets/c708f914e6ddda12e62831135072daa4458f2c87c1a967527e91f55bec2e9591.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix",
+      "asset_id": "viral-accepted-70a9e13d96917244309a9a76922f8ba27b551040a27811beecf83f3e180016be",
+      "candidate_id": "candidate-c26c2b96e71ed3dccdff6cf3",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/37c579e84c7e5f19ab9d01e090f9b7f5e83bc8da6cb86d483394dbf73730cac8.jpg",
+      "source_order": 40,
+      "source_page": 57,
+      "source_refs": [
+        "assets/70a9e13d96917244309a9a76922f8ba27b551040a27811beecf83f3e180016be.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-encounters-catacomb",
+      "asset_id": "viral-accepted-53643514b43e23269335df5656ebce5e201bf98fc34591b1211e50e38301f35d",
+      "candidate_id": "candidate-9ed20a2df09b7e2967904b20",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/676dff7ac4ab52a0ab1efad59c1fb2437db04eec510961c860fc296ba0090712.jpg",
+      "source_order": 41,
+      "source_page": 60,
+      "source_refs": [
+        "assets/53643514b43e23269335df5656ebce5e201bf98fc34591b1211e50e38301f35d.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-rules-the-taint",
+      "asset_id": "viral-accepted-d03da367941f779022bca6764b8bb259602fbaf7ccb50ea2ba30d7e150ad3279",
+      "candidate_id": "candidate-c2ee62a874dc6fafe0556a42",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/40116ae873cc3ba1b3c675ca2abaff6d4c80a864b6d27addb0852cf275edc70d.jpg",
+      "source_order": 42,
+      "source_page": 61,
+      "source_refs": [
+        "assets/d03da367941f779022bca6764b8bb259602fbaf7ccb50ea2ba30d7e150ad3279.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-rules-insanity-and-bouts-of-madness",
+      "asset_id": "viral-accepted-baa904e61a23aecf4b6f667d035c9755ff6321c6205caa0d97977704378464aa",
+      "candidate_id": "candidate-d6e4250e40a8cc424ce090fc",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e586c1cef488385b3c6389d2d1ee2be344de9a244bf55834071b294589de9178.jpg",
+      "source_order": 43,
+      "source_page": 62,
+      "source_refs": [
+        "assets/baa904e61a23aecf4b6f667d035c9755ff6321c6205caa0d97977704378464aa.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-rules-insanity-and-bouts-of-madness",
+      "asset_id": "viral-accepted-cca3f437517c905396426e243323b562cfce53af5f2f4ba92a1399c733065124",
+      "candidate_id": "candidate-1e5dd36960d7811c4e59345c",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/b8043e378e21141be9ad6eafcf732f4ee39be3e60477ad75ba4c1f25404d34d0.jpg",
+      "source_order": 44,
+      "source_page": 63,
+      "source_refs": [
+        "assets/cca3f437517c905396426e243323b562cfce53af5f2f4ba92a1399c733065124.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-mythos-horrors",
+      "asset_id": "viral-accepted-2ff7daab27132cad277a1f7e73464f1fd79c9745ca924d91bf4acced6f2f1c6e",
+      "candidate_id": "candidate-dc927a6e4970c5fde315c699",
+      "candidate_kind": "direct_composite_parts",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e1f960105941fd44e3ff7505ef80b616d191ef4f02e9b1a5d76abd3139fa756d.png",
+      "source_order": 45,
+      "source_page": 64,
+      "source_refs": [
+        "assets/2ff7daab27132cad277a1f7e73464f1fd79c9745ca924d91bf4acced6f2f1c6e.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-mythos-horrors-hastalyk",
+      "asset_id": "viral-accepted-8e99d6929ef4aa5cc62d603b24317a4c65b22fd9551a8c37c5cfff9aa239436d",
+      "candidate_id": "candidate-b55b1e49752a7d0fab6af8a6",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/2a9fe6edc4ad9ec46b083d66e077f58902bc37b49da0e250d5f04c857b04dc0b.jpg",
+      "source_order": 46,
+      "source_page": 65,
+      "source_refs": [
+        "assets/8e99d6929ef4aa5cc62d603b24317a4c65b22fd9551a8c37c5cfff9aa239436d.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-mythos-horrors-plague-monk",
+      "asset_id": "viral-accepted-81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677",
+      "candidate_id": "candidate-d88c61673f211858ae58082f",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/66f5ac385a15ebf645d5c9cb2db59349f87c5de7e544cd391a47fe195b011af5.jpg",
+      "source_order": 47,
+      "source_page": 66,
+      "source_refs": [
+        "assets/81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-mythos-horrors-reliquae",
+      "asset_id": "viral-accepted-6e1d78ee26178218de74fd8203ef772eb3e8f4951ea6e419a0a00e25051b8237",
+      "candidate_id": "candidate-b3b98a786961031eab384ac7",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/ff3d34bdfaa51275538b2d26e2f4a69805a36bf774e4dfd44366b94c9f0ed6ce.jpg",
+      "source_order": 48,
+      "source_page": 66,
+      "source_refs": [
+        "assets/6e1d78ee26178218de74fd8203ef772eb3e8f4951ea6e419a0a00e25051b8237.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-mythos-horrors-reliquae",
+      "asset_id": "viral-accepted-2fbd31994da00cc5320dccf115f2aae8da89b5e5997e93ad5f853afbf13bad03",
+      "candidate_id": "candidate-adaba177c5fb605d24a630ae",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/042b822c9e62c6bc385324cbc98f2a5e2a4cb5f7620eed83393725b3953e598f.jpg",
+      "source_order": 49,
+      "source_page": 67,
+      "source_refs": [
+        "assets/2fbd31994da00cc5320dccf115f2aae8da89b5e5997e93ad5f853afbf13bad03.jpg"
+      ]
+    },
+    {
+      "action": "keep_current",
+      "allow_absent": false,
+      "anchor": "viral-appendix-new-mythos-tome",
+      "asset_id": "viral-accepted-dbe93023f78f2a8181d333207f407d3ada63c8f33a6f53889b4f3df7bc76a416",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/dbe93023f78f2a8181d333207f407d3ada63c8f33a6f53889b4f3df7bc76a416.jpg",
+      "source_order": 50,
+      "source_page": 67,
+      "source_refs": [
+        "assets/dbe93023f78f2a8181d333207f407d3ada63c8f33a6f53889b4f3df7bc76a416.jpg"
+      ]
+    },
+    {
+      "action": "keep_current",
+      "allow_absent": false,
+      "anchor": "viral-handout-01",
+      "asset_id": "viral-accepted-9cddc3fc484dffdcce7654b3ebc058b362dbb265508a64d64d7485b33dc600c8",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/9cddc3fc484dffdcce7654b3ebc058b362dbb265508a64d64d7485b33dc600c8.jpg",
+      "source_order": 51,
+      "source_page": 69,
+      "source_refs": [
+        "assets/9cddc3fc484dffdcce7654b3ebc058b362dbb265508a64d64d7485b33dc600c8.jpg"
+      ]
+    },
+    {
+      "action": "exclude",
+      "allow_absent": true,
+      "anchor": "viral-handout-06",
+      "asset_id": "viral-accepted-9ee3d23cac4831e4230386f671d228d7a53b336310983f967eada4f3d2677ad8",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": null,
+      "source_order": 52,
+      "source_page": 74,
+      "source_refs": [
+        "assets/9ee3d23cac4831e4230386f671d228d7a53b336310983f967eada4f3d2677ad8.jpg"
+      ]
+    },
+    {
+      "action": "exclude",
+      "allow_absent": true,
+      "anchor": "viral-handout-06",
+      "asset_id": "viral-accepted-b1b7888cf28240790d1fd7fdc5621da9fe159c9442ec0f3bfa7f45243319cfea",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": null,
+      "source_order": 53,
+      "source_page": 74,
+      "source_refs": [
+        "assets/b1b7888cf28240790d1fd7fdc5621da9fe159c9442ec0f3bfa7f45243319cfea.jpg"
+      ]
+    },
+    {
+      "action": "exclude",
+      "allow_absent": true,
+      "anchor": "viral-handout-08",
+      "asset_id": "viral-accepted-f796716cd86ee8580b1d2cd8552d89cbf29f989bc8eae6be386ffa2528dc078b",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": null,
+      "source_order": 54,
+      "source_page": 75,
+      "source_refs": [
+        "assets/f796716cd86ee8580b1d2cd8552d89cbf29f989bc8eae6be386ffa2528dc078b.jpg"
+      ]
+    },
+    {
+      "action": "exclude",
+      "allow_absent": true,
+      "anchor": "viral-handout-08",
+      "asset_id": "viral-accepted-2a60f183499c0a1a5f3bd353949a7efc2a389d5fbd98782e79e53d346d9c390f",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": null,
+      "source_order": 55,
+      "source_page": 75,
+      "source_refs": [
+        "assets/2a60f183499c0a1a5f3bd353949a7efc2a389d5fbd98782e79e53d346d9c390f.jpg"
+      ]
+    },
+    {
+      "action": "exclude",
+      "allow_absent": true,
+      "anchor": "viral-handout-09",
+      "asset_id": "viral-accepted-8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": null,
+      "source_order": 56,
+      "source_page": 76,
+      "source_refs": [
+        "assets/8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-10",
+      "asset_id": "viral-accepted-826e5103327297822e6270444f8d57d02a135ffbc2d246ffbdb5788d297fd55a",
+      "candidate_id": "candidate-574ddc1bea0b48c80e979b84",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e793ecb9f20a22524a88724084aaae9182e73c39ffb1c12908c6485c407bb75d.jpg",
+      "source_order": 57,
+      "source_page": 77,
+      "source_refs": [
+        "assets/826e5103327297822e6270444f8d57d02a135ffbc2d246ffbdb5788d297fd55a.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-11",
+      "asset_id": "viral-accepted-8dfcf412070881aa81b8933eeb329d7409edbe1316329701bb605c9dab835d65",
+      "candidate_id": "candidate-f15512c77ac26ce21602a781",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7b382ca77d4315692be76e6d2d667ebb1e2d3375c67fd7152052d462887f0149.jpg",
+      "source_order": 58,
+      "source_page": 78,
+      "source_refs": [
+        "assets/8dfcf412070881aa81b8933eeb329d7409edbe1316329701bb605c9dab835d65.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handouts-hyeons-ipads",
+      "asset_id": "viral-accepted-5246e2c434242d2ddea6226d861d9608f5b6afa86230da5ad3b6d01553bb4ca5",
+      "candidate_id": "candidate-aca50fe48f2bb8739622d2c1",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center"
+      ],
+      "group": "body",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/445331e7411323aa52581c8521630d12c513c02e871c34278a4b4f1c51dfaeac.jpg",
+      "source_order": 59,
+      "source_page": 81,
+      "source_refs": [
+        "assets/5246e2c434242d2ddea6226d861d9608f5b6afa86230da5ad3b6d01553bb4ca5.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-15",
+      "asset_id": "viral-accepted-2e49f854b389f6c5cf89bced8318e197b6e79fd53d47dfa5dd64b0dcd697bbcc",
+      "candidate_id": "candidate-817e98fc9cf865e64a82acee",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e2aeaa6a8cf56e673bc04e3d6c2f04e7eb542ca63d15fe96497f168945a8b413.jpg",
+      "source_order": 60,
+      "source_page": 82,
+      "source_refs": [
+        "assets/2e49f854b389f6c5cf89bced8318e197b6e79fd53d47dfa5dd64b0dcd697bbcc.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-29",
+      "asset_id": "viral-accepted-06a2c68cc38d4904595e16d0153d127eb08ae61c189a613f269a120de5233201",
+      "candidate_id": "candidate-7330c1419faa58efd69c20c9",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/a8c3eec8fdd5277ad153497cf44fd7835471c2fefa064700e69b3a00eacc5c2c.jpg",
+      "source_order": 61,
+      "source_page": 94,
+      "source_refs": [
+        "assets/06a2c68cc38d4904595e16d0153d127eb08ae61c189a613f269a120de5233201.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-30",
+      "asset_id": "viral-accepted-affb03a14eabd3ce60d78047279316ebde282a079528b6e00067698ebed92715",
+      "candidate_id": "candidate-2542ddb80c7e398d62f9bcf5",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/8302485fa0efcf432c322ca9d17bf9e8b22c5190c760321ec630cd24cbc02dd2.jpg",
+      "source_order": 62,
+      "source_page": 95,
+      "source_refs": [
+        "assets/affb03a14eabd3ce60d78047279316ebde282a079528b6e00067698ebed92715.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-31",
+      "asset_id": "viral-accepted-373a4c9272242f27df9f3410b860e7bc5af602f17d1f08115649653754aad884",
+      "candidate_id": "candidate-e5e236d83239e1ad1394b442",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7df9b9ed3c25bba4a7ecd570f46e0a294245752f2504dcd914c91daa6b708d01.jpg",
+      "source_order": 63,
+      "source_page": 96,
+      "source_refs": [
+        "assets/373a4c9272242f27df9f3410b860e7bc5af602f17d1f08115649653754aad884.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-32",
+      "asset_id": "viral-accepted-5c03c3f42abbf1962a78d589d00014a6aac425db8b061cce69995930bd33d8b4",
+      "candidate_id": "candidate-a9411198446e09bfa25138a9",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7b1979f1c45f6a8f6cf0ac9cf6ff32ca6dd3cd7689b74c377ee8e4c8efc8fbbf.jpg",
+      "source_order": 64,
+      "source_page": 97,
+      "source_refs": [
+        "assets/5c03c3f42abbf1962a78d589d00014a6aac425db8b061cce69995930bd33d8b4.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-33",
+      "asset_id": "viral-accepted-217633ad4ab84de07789ba9c47d7c00ee382de486902cf967330d5d94061e8b5",
+      "candidate_id": "candidate-c47a86f54e4665b00072e95a",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e510d58c2f615cad35491e5d0a4cd2fdc80890116d03aae20f806497378e2f79.jpg",
+      "source_order": 65,
+      "source_page": 98,
+      "source_refs": [
+        "assets/217633ad4ab84de07789ba9c47d7c00ee382de486902cf967330d5d94061e8b5.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-33",
+      "asset_id": "viral-accepted-c34aabc5bd16dfcb318cad3a11df583f9f15d4778f488832af69d182dc9d8201",
+      "candidate_id": "candidate-99d4cdd45fcb15671dcb8300",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/6f247cc6835c3bb454b6afc3b393c73f7ee5282b540a90d9e410de7f53b70013.jpg",
+      "source_order": 66,
+      "source_page": 99,
+      "source_refs": [
+        "assets/c34aabc5bd16dfcb318cad3a11df583f9f15d4778f488832af69d182dc9d8201.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-34",
+      "asset_id": "viral-accepted-faaf56706aeb8cc15c6cfeb89bf7731b313ccdfde78f28b12da65b123d355bcd",
+      "candidate_id": "candidate-fb544bbe5c2cfda07ffe31f1",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/9894c4ef17dbcb9212d1a55a5315b0e8e41db04492c0eda57a2f12dbac3c047d.jpg",
+      "source_order": 67,
+      "source_page": 100,
+      "source_refs": [
+        "assets/faaf56706aeb8cc15c6cfeb89bf7731b313ccdfde78f28b12da65b123d355bcd.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-35",
+      "asset_id": "viral-accepted-84f3fbba13df63026fc147880fa903b708f67969bb85a2e8ffd7ae95bc921172",
+      "candidate_id": "candidate-4de06eb2d2cf861baa1f51e9",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/b22dbd90b89bc35d3f09d55ec32d6d08df2f1b9326646384831cdf5e8c97d308.jpg",
+      "source_order": 68,
+      "source_page": 100,
+      "source_refs": [
+        "assets/84f3fbba13df63026fc147880fa903b708f67969bb85a2e8ffd7ae95bc921172.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-37",
+      "asset_id": "viral-accepted-d18f3a9358fcdda6d5f56178aa99b37609c72d286a380e71c4189337c1a9c5ae",
+      "candidate_id": "candidate-cf53aa8807f0e4b66587ae2e",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/862aad789a763c573b40b00c2e49ba490589641fe415cb585294b8ff497dfcef.jpg",
+      "source_order": 69,
+      "source_page": 101,
+      "source_refs": [
+        "assets/d18f3a9358fcdda6d5f56178aa99b37609c72d286a380e71c4189337c1a9c5ae.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-38",
+      "asset_id": "viral-accepted-4e663526a507696636fce7c8f25dcc41586197a215cf2137955b498fc82ca76c",
+      "candidate_id": "candidate-cd660398084f791098f01cd4",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/a28549d4c4c8552cd1a2b5d723ce4875aa09261c59b5b97f715ef610d678e474.jpg",
+      "source_order": 70,
+      "source_page": 101,
+      "source_refs": [
+        "assets/4e663526a507696636fce7c8f25dcc41586197a215cf2137955b498fc82ca76c.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-handout-38",
+      "asset_id": "viral-accepted-76216221d1c4ed443deccf0a9e64c82ea0084ffc07ae033af3b43e69242b1b84",
+      "candidate_id": "candidate-51325262ddc43a0af769840e",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "handout",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/c54570fcbe71c267d870abc428e860c90405e96e3039ba74511cede5b7a84c05.jpg",
+      "source_order": 71,
+      "source_page": 102,
+      "source_refs": [
+        "assets/76216221d1c4ed443deccf0a9e64c82ea0084ffc07ae033af3b43e69242b1b84.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-maps",
+      "asset_id": "viral-accepted-bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba",
+      "candidate_id": "candidate-7b732da96bb80b41f86d73db",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/e1f05f097e54d6876de5cd64d6af8473571f4457a32fc86014f40a225e6dce1a.jpg",
+      "source_order": 72,
+      "source_page": 103,
+      "source_refs": [
+        "assets/bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-isola-location",
+      "asset_id": "viral-accepted-2594c936ac511e9594fccbbc79e2a9acdb7ad0475baec5fbf0640a4dfb24ea91",
+      "candidate_id": "candidate-88e0999e334aba1eb033dbc3",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/0d86d5025d70eed6a34c1615a2932aa697283d7cabcb00b04fa6718b5907845e.jpg",
+      "source_order": 73,
+      "source_page": 104,
+      "source_refs": [
+        "assets/2594c936ac511e9594fccbbc79e2a9acdb7ad0475baec5fbf0640a4dfb24ea91.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-ground-floor-basement",
+      "asset_id": "viral-accepted-b29535e0fb701c4072cd0198c39ef9f101871c5817bdf5b96e42794a14b18335",
+      "candidate_id": "candidate-c40070be22b3118eb3eca2bc",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/28071ce93b8a4cd0919333ef5ca9e840aae93c3b195847c7ad63965e14e87cdb.jpg",
+      "source_order": 74,
+      "source_page": 105,
+      "source_refs": [
+        "assets/b29535e0fb701c4072cd0198c39ef9f101871c5817bdf5b96e42794a14b18335.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-second-third-floors",
+      "asset_id": "viral-accepted-9edcd9b27c46e8d689d4baeff43a55497376a581d87cf1e9ad8a0ea9dd63c28a",
+      "candidate_id": "candidate-16be510f5751ba1c3a13c02e",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/a654bcba5b2c05800cb7001c66716deea2a552f40336e1f0ec2e942a0600e5d9.jpg",
+      "source_order": 75,
+      "source_page": 108,
+      "source_refs": [
+        "assets/9edcd9b27c46e8d689d4baeff43a55497376a581d87cf1e9ad8a0ea9dd63c28a.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-administrators-house-east-wing-attic",
+      "asset_id": "viral-accepted-00d84a08f0f7ef0b634da16d22f1832b3e099350a451425c5b2642428fe8f4b9",
+      "candidate_id": "candidate-01179210f4d0414c09db47af",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7e89c257952cd01256629395cc886d9d06a87890cca36096d98d3b16ce753b0d.jpg",
+      "source_order": 76,
+      "source_page": 109,
+      "source_refs": [
+        "assets/00d84a08f0f7ef0b634da16d22f1832b3e099350a451425c5b2642428fe8f4b9.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-secret-underground",
+      "asset_id": "viral-accepted-7eb3303bc8a34e16d5891aa781a21297a022e028c029fa8e0d0549f445703fe5",
+      "candidate_id": "candidate-a0cec76c1db001e1f3b3f271",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/3f824bc84ed5fed51e9528634061370aa9fb7beec5228e41cdb9a67fc1d47583.jpg",
+      "source_order": 77,
+      "source_page": 110,
+      "source_refs": [
+        "assets/7eb3303bc8a34e16d5891aa781a21297a022e028c029fa8e0d0549f445703fe5.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-marco-background",
+      "asset_id": "viral-accepted-74f6d8049985378c8c5cc3f846b06982da3a39de05975dc31880f024e649d7a6",
+      "candidate_id": "candidate-3aa66c54d1a98e972f6bf1a0",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7fbea831484cdc92a34ab5235d3fb910c92f66a6581dfb35f42d0b35cdd04b17.jpg",
+      "source_order": 78,
+      "source_page": 111,
+      "source_refs": [
+        "assets/74f6d8049985378c8c5cc3f846b06982da3a39de05975dc31880f024e649d7a6.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-corrina-background",
+      "asset_id": "viral-accepted-00f35cb2535f45bfce6b8cc61c4bbf9fd5a493f2f63995a5608f14edfabfb782",
+      "candidate_id": "candidate-503b71f79951299589682ef3",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/9ad32eeb49988a9fee02735dd6ae817ef48d044a8ad0dc9bff15d0070852a0f4.jpg",
+      "source_order": 79,
+      "source_page": 113,
+      "source_refs": [
+        "assets/00f35cb2535f45bfce6b8cc61c4bbf9fd5a493f2f63995a5608f14edfabfb782.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-enoch-background",
+      "asset_id": "viral-accepted-ee6f908e8a15d1ee0f9f8a976427f1050ceef9810642f5ddfe1d172a0189bc3c",
+      "candidate_id": "candidate-72065800bd4e39e1cd7e92f7",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/4c7b6b96b7c3918b77da7c5ecfc61ef9f1e8bbdffc0db0b786e4d4ca29811455.jpg",
+      "source_order": 80,
+      "source_page": 115,
+      "source_refs": [
+        "assets/ee6f908e8a15d1ee0f9f8a976427f1050ceef9810642f5ddfe1d172a0189bc3c.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-peter-background",
+      "asset_id": "viral-accepted-9407122d0650698a811b6096285828cf7fbe43efe74d3476c51995efec9dca01",
+      "candidate_id": "candidate-36f0c21da08beb968df25d6f",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/c0ee34acdbac5e630b31feb9c76bd9373ae7b81c5272b5c1b60b0fcb42f49e87.jpg",
+      "source_order": 81,
+      "source_page": 117,
+      "source_refs": [
+        "assets/9407122d0650698a811b6096285828cf7fbe43efe74d3476c51995efec9dca01.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-ku-hyeon-background",
+      "asset_id": "viral-accepted-36e2c03c86a9b35dab62baf48f2e1d2e4fc0f77811173ca7acf8d7c44944d070",
+      "candidate_id": "candidate-e53173eeb9c9358b147c7468",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/6a07fcb500ec8a7679b49984bae010692168265ac50fb0bafb65b32d98dd8301.jpg",
+      "source_order": 82,
+      "source_page": 119,
+      "source_refs": [
+        "assets/36e2c03c86a9b35dab62baf48f2e1d2e4fc0f77811173ca7acf8d7c44944d070.jpg"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-blank-background",
+      "asset_id": "viral-accepted-4b6c6dc23113457bf08f7aacf67bb8f009ab2aa193fbce921509695a6e261f5a",
+      "candidate_id": "candidate-36bddfca79ecd2296cbf2c1f",
+      "candidate_kind": "direct_xobject",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/64b6591c21704db14a7f67fc8c9e7fafe9f25dd5eff1f0da135893a46ac21822.jpg",
+      "source_order": 83,
+      "source_page": 121,
+      "source_refs": [
+        "assets/4b6c6dc23113457bf08f7aacf67bb8f009ab2aa193fbce921509695a6e261f5a.jpg"
+      ]
+    },
+    {
+      "action": "keep_current",
+      "allow_absent": true,
+      "anchor": "viral",
+      "asset_id": "viral-render-cover-front",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-cover"
+      ],
+      "group": "full_page",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/viral-render-cover-front.png",
+      "source_order": 84,
+      "source_page": 1,
+      "source_refs": [
+        "assets/viral-render-cover-front.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-ground-floor-basement",
+      "asset_id": "viral-provisional-map-ground-floor-basement-page-106",
+      "candidate_id": "candidate-7fd0af1b4d3cb47bb4952078",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/f2470f177b2a8c951cf476add5f8c51e4b3a083232f07b9255c594af2265387b.png",
+      "source_order": 85,
+      "source_page": 106,
+      "source_refs": [
+        "assets/viral-provisional-map-ground-floor-basement-page-106.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-keeper-map-ground-floor-basement",
+      "asset_id": "viral-provisional-map-ground-floor-basement-page-107",
+      "candidate_id": "candidate-290bc181eb70c93672950bc0",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-80",
+        "artview-align-center",
+        "art-handout-page"
+      ],
+      "group": "keeper_map",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 80,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/6490f0dee63dedc7ef54d1b9a3e2dee3e2cabdf8725d1869245ff9538390fec0.png",
+      "source_order": 86,
+      "source_page": 107,
+      "source_refs": [
+        "assets/viral-provisional-map-ground-floor-basement-page-107.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-marco-background",
+      "asset_id": "viral-provisional-pregen-marco-back-page-112",
+      "candidate_id": "candidate-e08d77fe80a8246dacbfcf3e",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/683aa656959038180306dcb4065c4e5f1666f57d054a04e14ec58879336dc3b3.png",
+      "source_order": 87,
+      "source_page": 112,
+      "source_refs": [
+        "assets/viral-provisional-pregen-marco-back-page-112.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-corrina-background",
+      "asset_id": "viral-provisional-pregen-corrina-back-page-114",
+      "candidate_id": "candidate-b1217c7046865dc7a89c633a",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/96d968a11d61bb3694858dbe9789bd01fb22b2df691b46dc5907d399c286e59c.png",
+      "source_order": 88,
+      "source_page": 114,
+      "source_refs": [
+        "assets/viral-provisional-pregen-corrina-back-page-114.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-enoch-background",
+      "asset_id": "viral-provisional-pregen-enoch-back-page-116",
+      "candidate_id": "candidate-e1bf72aebd75a424a3f8345c",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7022970b590b98701c60ce550b8b3f8958faaff647f9774632084114404dd98d.png",
+      "source_order": 89,
+      "source_page": 116,
+      "source_refs": [
+        "assets/viral-provisional-pregen-enoch-back-page-116.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-peter-background",
+      "asset_id": "viral-provisional-pregen-peter-back-page-118",
+      "candidate_id": "candidate-b46576ac2a5842106b97b967",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/91aaf2c1af738bb56d3654d1e9840c36c19c50e3a191cf4a0590f025e67f4f50.png",
+      "source_order": 90,
+      "source_page": 118,
+      "source_refs": [
+        "assets/viral-provisional-pregen-peter-back-page-118.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-ku-hyeon-background",
+      "asset_id": "viral-provisional-pregen-ku-hyeon-back-page-120",
+      "candidate_id": "candidate-e42cf03210d91cd010644ba9",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/285c122b404652d03990d3cf388a28b0bcd4687636418f3869c81c85ccdc3ef8.png",
+      "source_order": 91,
+      "source_page": 120,
+      "source_refs": [
+        "assets/viral-provisional-pregen-ku-hyeon-back-page-120.png"
+      ]
+    },
+    {
+      "action": "use_candidate",
+      "allow_absent": false,
+      "anchor": "viral-pregen-blank-background",
+      "asset_id": "viral-provisional-pregen-blank-back-page-122",
+      "candidate_id": "candidate-7d8f0a0603d17f9aaca4cc1c",
+      "candidate_kind": "full_page_render",
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-pregen-fullpage"
+      ],
+      "group": "pregen",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/artview/7d5e51910cad241be790da162ee946e0274082b62707b18f730498de4327004e.png",
+      "source_order": 92,
+      "source_page": 122,
+      "source_refs": [
+        "assets/viral-provisional-pregen-blank-back-page-122.png"
+      ]
+    },
+    {
+      "action": "keep_current",
+      "allow_absent": false,
+      "anchor": "viral-isola-di-malamente",
+      "asset_id": "viral-provisional-isola-di-malamente-opening-page-26",
+      "candidate_id": null,
+      "candidate_kind": null,
+      "classes": [
+        "artview-decision",
+        "artview-width-100",
+        "artview-align-center",
+        "art-full-page"
+      ],
+      "group": "full_page",
+      "insert_when_absent": false,
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "runtime_ref": "assets/viral-provisional-isola-di-malamente-opening-page-26.png",
+      "source_order": 93,
+      "source_page": 26,
+      "source_refs": [
+        "assets/viral-provisional-isola-di-malamente-opening-page-26.png"
+      ]
+    }
+  ],
+  "master_en_sha256": "E7B043AD191179D411C827E8385CB0E118D90EC94BAA0AED6E97367483D31D9B",
+  "master_rebind": {
+    "asset_topology_unchanged": true,
+    "handout_anchor_count": 41,
+    "master_en_after_sha256": "E7B043AD191179D411C827E8385CB0E118D90EC94BAA0AED6E97367483D31D9B",
+    "master_en_before_sha256": "5EDB5DB609314E72FE85375D28F7F0B16EFD93F23144032EF907964A5597682A",
+    "master_ru_after_sha256": "6BBA53340A1B31E92EF5BB8E7A118F3511EA0C39A6B486FA38D8AF6C9D723F69",
+    "master_ru_before_sha256": "36C9937500EDE7639E802EF37982730CCC67FF69B3720EC5FB23245759279A85",
+    "reason": "canonical_handout_heading_normalization"
+  },
+  "master_ru_sha256": "6BBA53340A1B31E92EF5BB8E7A118F3511EA0C39A6B486FA38D8AF6C9D723F69",
+  "schema": "kb_creator.scenario_artview_application.v1",
+  "state": "applied"
+}

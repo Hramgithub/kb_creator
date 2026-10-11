@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.replay_transform_preflight.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "state", "source_run_id", "source_run_identity_sha256", "fresh_preflight_identity_sha256", "eligibility_sha256", "requested_prefix", "wrapper_count", "payload_count_scanned", "wrappers", "payloads_copied", "target_created", "published", "acceptance_inferred", "preflight_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.replay_transform_preflight.v1"},
+    "state": {"const": "pass"},
+    "source_run_id": {"type": "string", "minLength": 1},
+    "source_run_identity_sha256": {"$ref": "#/$defs/sha"},
+    "fresh_preflight_identity_sha256": {"$ref": "#/$defs/sha"},
+    "eligibility_sha256": {"$ref": "#/$defs/sha"},
+    "requested_prefix": {"const": ["01-prepare-inputs", "02-mineru-three-view", "03-compare-views", "04-visual-merge-bundle"]},
+    "wrapper_count": {"type": "integer", "minimum": 1},
+    "payload_count_scanned": {"type": "integer", "minimum": 1},
+    "wrappers": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/wrapper"}},
+    "payloads_copied": {"const": false},
+    "target_created": {"const": false},
+    "published": {"const": false},
+    "acceptance_inferred": {"const": false},
+    "preflight_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[A-F0-9]{64}$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["bytes", "sha256"], "properties": {"bytes": {"type": "integer", "minimum": 0}, "sha256": {"$ref": "#/$defs/sha"}}},
+    "wrapper": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage_id", "source_path", "kind", "source", "output_schema", "output", "seal_key", "seal_sha256"],
+      "properties": {
+        "stage_id": {"enum": ["01-prepare-inputs", "02-mineru-three-view", "03-compare-views", "04-visual-merge-bundle"]},
+        "source_path": {"type": "string", "pattern": "^[^\\\\:/]+(?:/[^\\\\:/]+)*\\.json$"},
+        "kind": {"enum": ["command", "view", "view_set", "comparison", "geometry", "visual_manifest", "visual_execution"]},
+        "source": {"$ref": "#/$defs/file"},
+        "output_schema": {"type": "string", "pattern": "^kb_creator\\.[A-Za-z0-9_.-]+$"},
+        "output": {"$ref": "#/$defs/file"},
+        "seal_key": {"enum": ["command_sha256", "receipt_sha256", "comparison_sha256", "plan_sha256", "manifest_sha256", "execution_sha256"]},
+        "seal_sha256": {"$ref": "#/$defs/sha"}
+      }
+    }
+  }
+}

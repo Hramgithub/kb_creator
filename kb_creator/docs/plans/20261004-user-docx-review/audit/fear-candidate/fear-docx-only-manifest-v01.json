@@ -1,0 +1,1371 @@
+{
+  "schema": "kb_creator.reviewed_docx_revision.v1",
+  "provenance": "reviewed_artifact_successor",
+  "scope": "Fear DOCX-only candidate; no HTML/PDF export; no new translation/OCR",
+  "inputs": {
+    "docx_sha256": "E8505B99F81A54E02FC1AEA9777C45AE12FDE600A8AB2B2728DDE8F9C0BF8DCD",
+    "source_pdf_sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+    "authorities": [
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-v01.json",
+        "sha256": "2C73DB781071F460231A5AE5AA33E26AFC8A9198B894B50BE9C26D71EA81F091"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\comments\\comments_inventory.json",
+        "sha256": "18049BD014C00D30E02FB27A9EECF7DD9814B4C068D9AABDB457DAF63001185A"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\art\\native-recovery-spec.json",
+        "sha256": "4653EB8E849B5F4CBEA4714BB5DB2CE4718E80BB87A3C0BCE0D8CE053F51C203"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\manifest.json",
+        "sha256": "3F6DC0C2E5D5AD1E230DF97CA691A2046AE68F53320B1EBDAC92DE8D9F3B0D39"
+      }
+    ],
+    "original_drawing_occurrences": [
+      {
+        "sha256": "FB19FD1180AF99FB2A83B39DB1B6BC37616174B1F2E2805DEFB7BFDF66DD4D41",
+        "drawing_id": "1"
+      },
+      {
+        "sha256": "E415A0AE316AB22478EDB6A4A476BEEA2A5F4B57D7B97245A060FE0E4D73961E",
+        "drawing_id": "2"
+      },
+      {
+        "sha256": "7922A86274136F09251CA0BD64FC484322CFA16DF7728A9AE86E909A2B8CD842",
+        "drawing_id": "3"
+      },
+      {
+        "sha256": "1104E24CE35404B8CC38BD4068BF3D20C4EE839869792253463DF21B556B3D54",
+        "drawing_id": "4"
+      },
+      {
+        "sha256": "D30AB0E409595D759513549032AFA76209D17947616A35991B036DA10C8454F4",
+        "drawing_id": "5"
+      },
+      {
+        "sha256": "53244ED21E4EC671718187DA1BB1C22BC6F24F7A23CDE0CE54EF31F1A9F7267F",
+        "drawing_id": "6"
+      },
+      {
+        "sha256": "A9B43CC98C01201EC503057B508ED7BBBDA701F6D038A8746FC1A1480C755E5F",
+        "drawing_id": "7"
+      },
+      {
+        "sha256": "6F787A932A22AD0BF838CB92A47B1358D8B7940D2E26AF470B836155CDE20404",
+        "drawing_id": "8"
+      },
+      {
+        "sha256": "7AD47B4E6546F4B60EBF69ADE0AC7F82D4FF2AEB219474AA9082AD94A5B61F63",
+        "drawing_id": "9"
+      },
+      {
+        "sha256": "94D2B29AB0823F37A718E97D44150051B0CC9BEA6899F5FB963410113D6DD6A4",
+        "drawing_id": "10"
+      },
+      {
+        "sha256": "BA22F198A4E44815E2568B7025FCFE0B21B4C878F9BF2334F6F31246062D6826",
+        "drawing_id": "11"
+      },
+      {
+        "sha256": "C0D535B9F7C90BB69B1B2B5834A63531C75B005AE87886F61889A571FBD9907F",
+        "drawing_id": "12"
+      },
+      {
+        "sha256": "EC6A8C5BD54B694C378D3D9EA6C11B7008BA2D41E7238020BEE58BC352664231",
+        "drawing_id": "13"
+      },
+      {
+        "sha256": "703D0B01E2E9ED0CE0D08F1D5D9A8B8E6825945FE99054D15237B0D503C3B991",
+        "drawing_id": "14"
+      },
+      {
+        "sha256": "3A1DC19E590BFA12837A1AB00C91D245D114BCFD1BB2A3330B175C062F8D553D",
+        "drawing_id": "15"
+      },
+      {
+        "sha256": "415F79E3065D235659C842BA7B333C5701A1924450F7BF9C934570F6AEE6679B",
+        "drawing_id": "16"
+      },
+      {
+        "sha256": "BA6AEF83C53998DF22DD067E93B286D33008058A9355DE5A14A22DD14740DC46",
+        "drawing_id": "17"
+      },
+      {
+        "sha256": "47AD2FACFC5DE664E004A36442ED99355E14E3CEF9CA11C5043113A5F9838424",
+        "drawing_id": "18"
+      },
+      {
+        "sha256": "5FF14B668320F9FCFE79C8053AB94A65A6DE30892309B775EBB5C2A625E52405",
+        "drawing_id": "19"
+      },
+      {
+        "sha256": "78F05BDA3ECBC0D072D2C37D5D449DD4A61E1873E1FE2BEED7B86D4FA7FEED7F",
+        "drawing_id": "20"
+      },
+      {
+        "sha256": "B579A63F27141ECC23D325C0172A2E9DB16592431BCF4039611E367AB9B223B4",
+        "drawing_id": "21"
+      },
+      {
+        "sha256": "D0A3E7B1091CC5FC213C304357C4B085F454E47B9BE40D4517FD4E9BB73B88FC",
+        "drawing_id": "22"
+      },
+      {
+        "sha256": "A5FE06280640A7F93F76466451657C5C1C75E97D3946BCACFE64D14F2A813E3F",
+        "drawing_id": "23"
+      },
+      {
+        "sha256": "51A986D4CC0E796F13A38C1EC00D3207FC0D944E6A0E39491DB0952F3EC43D06",
+        "drawing_id": "24"
+      },
+      {
+        "sha256": "AAC5BA4754CDDDF24D49C9D6293714C35C8B51AAC3DD463B638B97F3B1A7884E",
+        "drawing_id": "25"
+      },
+      {
+        "sha256": "AD77221871D316722F9FD6F0F11CC2B5DF8D4A5683CD10FECDE2010FD9F1280D",
+        "drawing_id": "26"
+      },
+      {
+        "sha256": "8E5D1D48D6A7E88CF626EFE37D814B6DE8D7FE0937A981042E16604D08B3DFF1",
+        "drawing_id": "27"
+      },
+      {
+        "sha256": "26CB876D9B137E620444C9CA0ABCCEB4C372CE5163FAE31E3BC674ADD06AEBC9",
+        "drawing_id": "28"
+      },
+      {
+        "sha256": "7DCF1C60DA69F16CB29786D1A773917038BD442AFB5986F38BB96EB62DC55186",
+        "drawing_id": "29"
+      },
+      {
+        "sha256": "1F474C0077A995976992408930CAEA42BBE71AAE3C5BC21E5A52F9141657B92F",
+        "drawing_id": "30"
+      },
+      {
+        "sha256": "3C6B5959CF2E3B66EBF1BF4419DE28F466AB3763F828B8EEA8A9A174913F94D1",
+        "drawing_id": "31"
+      },
+      {
+        "sha256": "4BF0678E198DC7CDA09A8DFE0C71569F122174FE653F988C7C379AC78B38E645",
+        "drawing_id": "32"
+      },
+      {
+        "sha256": "51123CA7C16298B32B3A95AE85AF8FB0C347C28CDD032B498F8A8E047B10BAE8",
+        "drawing_id": "33"
+      },
+      {
+        "sha256": "656BC9E197083F2E01E3E59211A8FBB3E5272B494112E21173F89D9E9F42A4DE",
+        "drawing_id": "34"
+      },
+      {
+        "sha256": "C712296CDEF74EC46EABE7BED9837738576D30BCD59138B9C0DB8DF4D23213A7",
+        "drawing_id": "35"
+      },
+      {
+        "sha256": "D8B606BC839FC61D79ADAA799AC27930EE5BC226DEBADBC609B6CE0C656EC6D3",
+        "drawing_id": "36"
+      },
+      {
+        "sha256": "9D505AB48868BEE2C7A8B6319C54096282237B86A3C581EE03A88090738209EE",
+        "drawing_id": "37"
+      },
+      {
+        "sha256": "D4E81CE54B3D08EE60FB5CE98DDB6889392CE3FCA451ABBCD692828961649533",
+        "drawing_id": "38"
+      },
+      {
+        "sha256": "ADD18A1339E0C4C00C947756693244C33ABAA2C8C42E31F64F92DF71123D062E",
+        "drawing_id": "39"
+      },
+      {
+        "sha256": "A074A612B200B6672A139A561639003D6C3AAF82CC8B2BFB9450BA126A01A3ED",
+        "drawing_id": "40"
+      },
+      {
+        "sha256": "D4E280FB3FDDECCE21637F5F9D6596DA5CA7EE0AC2ACE59D98E88B520AD05568",
+        "drawing_id": "41"
+      },
+      {
+        "sha256": "ACC0CB0E0D8114FDBE2BE541AF774B5BF80FDCAB5DE74B4D9D6FA6A494CA8289",
+        "drawing_id": "42"
+      },
+      {
+        "sha256": "C7B447E5A51A400482C33DEEEAEABB5355B7C756C178DC9C21928AE4A2832A9A",
+        "drawing_id": "43"
+      },
+      {
+        "sha256": "15D96012DA59FF5DCECC7B821AE5E73C460368C597EC01A6FC311BA99B8739D3",
+        "drawing_id": "44"
+      },
+      {
+        "sha256": "5B49C4BCCFBA7D7B38C110697EA9990984FA53F6AEF7B33EAEC0B4EE503B78FB",
+        "drawing_id": "45"
+      },
+      {
+        "sha256": "081C784135A7C192229C214D81643F59AC593F97E41552071B67A9AC4470766D",
+        "drawing_id": "46"
+      },
+      {
+        "sha256": "4C3664D99C690EB4B294E083F17226005A4F8265E32362DDD8708459EAE765D6",
+        "drawing_id": "47"
+      },
+      {
+        "sha256": "209A7F6BD7E562A1050C628B7C8668A232AD34AEEE0681A52D63995FF9D7C465",
+        "drawing_id": "48"
+      },
+      {
+        "sha256": "348DC7315DF81A350D1E82D7ADA078954EC6C84409DB6F22BE5B3BEC58D58003",
+        "drawing_id": "49"
+      },
+      {
+        "sha256": "90675D8DB678B67565776F0F8ACD5F285E1DAF3C974DBFE8B05899B5D71D6390",
+        "drawing_id": "50"
+      },
+      {
+        "sha256": "35E9B6F7C1AF210EF7900D78E2322FE10501401A7C10FA11EB876516743EA9FE",
+        "drawing_id": "51"
+      },
+      {
+        "sha256": "A3D07AFC6660376B79BE36A550BE3F2AF751759DA1BD7015A69DE7816EA3AFC1",
+        "drawing_id": "52"
+      },
+      {
+        "sha256": "374BAEF89C92411E3E18685097D68294FF5B3E6C581E946A4422EF70AEE90D38",
+        "drawing_id": "53"
+      },
+      {
+        "sha256": "215779402141494EC1991881E666EC8304EF9784E3F0A5621BB2E6A655269EAC",
+        "drawing_id": "54"
+      },
+      {
+        "sha256": "34F021504204E897D6DDE0124D9692A816F1C117705D87562221DD94B0351E1E",
+        "drawing_id": "55"
+      },
+      {
+        "sha256": "FBD376576685107B27B8F7476CA64E34466CC526DCC4B37846933A4F3D28A4B5",
+        "drawing_id": "56"
+      },
+      {
+        "sha256": "88FE3AC61AA5B6A75996B746440A0963B93C03C5B0C1E84F25FF3EB0ABBD707F",
+        "drawing_id": "57"
+      },
+      {
+        "sha256": "D13FC93C6ADA4CD028A5A1C2C7C3D78F83F4B228A9B0A94CAFF0E504921D6F25",
+        "drawing_id": "58"
+      },
+      {
+        "sha256": "B643D1C9E35906EC7AC84C0D486FCBD2D03317DEB0AC0990A596FB6323BCD186",
+        "drawing_id": "59"
+      },
+      {
+        "sha256": "88C53CD7216DDB575EA69193E532D5E6573384BDA82BEF9A3BAD7182C83ABB47",
+        "drawing_id": "60"
+      },
+      {
+        "sha256": "8D81FCFF59B7F840611E2EA91F51EFA615B997F795D3AE583894F2D98F198488",
+        "drawing_id": "61"
+      },
+      {
+        "sha256": "2A97BBAAA6261D5DEBBB99FF54C2952CEDCFF0CCEAB81D2F26B110AFDF2F8E57",
+        "drawing_id": "62"
+      },
+      {
+        "sha256": "D984A3E5EBF90F249D82EA0455361B759C5EB215560291D07EDA6C09677CAB17",
+        "drawing_id": "63"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "story_id": "front",
+      "word_bookmark": "nri_9f95a2d81abb4b27e3ae10ef80e9aff0"
+    },
+    {
+      "story_id": "opening-008",
+      "word_bookmark": "nri_c587de9edaef3bb16674609e3159c518"
+    },
+    {
+      "story_id": "opening-014",
+      "word_bookmark": "nri_a1af8e3b372f01b92a7621c68c15e5d4"
+    },
+    {
+      "story_id": "opening-019",
+      "word_bookmark": "nri_9f37ecfde1559215b21452b28e085795"
+    },
+    {
+      "story_id": "opening-024",
+      "word_bookmark": "nri_783c023fb7e5041ebb14735627b0d99d"
+    },
+    {
+      "story_id": "opening-029",
+      "word_bookmark": "nri_7da750441404558f53c4c128b83fd2cc"
+    },
+    {
+      "story_id": "opening-035",
+      "word_bookmark": "nri_c52feb207721e03ecc663161f26c734b"
+    },
+    {
+      "story_id": "opening-041",
+      "word_bookmark": "nri_7375c4a266a3222379a01a414a29b398"
+    },
+    {
+      "story_id": "opening-046",
+      "word_bookmark": "nri_255c1cc6360c99ecee35bfc35394eab8"
+    },
+    {
+      "story_id": "opening-051",
+      "word_bookmark": "nri_97b95951b13576158ac97f2af1223a71"
+    },
+    {
+      "story_id": "opening-057",
+      "word_bookmark": "nri_34e67e0df789f989b4e21ce54acefff9"
+    },
+    {
+      "story_id": "opening-063",
+      "word_bookmark": "nri_37617a2bb2fe37601e2b7c76c5a54c13"
+    },
+    {
+      "story_id": "opening-069",
+      "word_bookmark": "nri_8e14e48e994f668728d53b699034e7fb"
+    },
+    {
+      "story_id": "opening-074",
+      "word_bookmark": "nri_0240100cfec616955fee4358a2036669"
+    },
+    {
+      "story_id": "opening-079",
+      "word_bookmark": "nri_aaa522f4bebe7f2e82fcb4376fc74031"
+    },
+    {
+      "story_id": "opening-086",
+      "word_bookmark": "nri_63e9497b88b71a55f2ff9d937b379c71"
+    },
+    {
+      "story_id": "opening-092",
+      "word_bookmark": "nri_1753301596101b3563b7e5b189c40586"
+    },
+    {
+      "story_id": "opening-097",
+      "word_bookmark": "nri_294708312cfff012a64d9630c2f42024"
+    },
+    {
+      "story_id": "opening-103",
+      "word_bookmark": "nri_675f91ff19848c1efcd1a10276a94fcc"
+    },
+    {
+      "story_id": "opening-109",
+      "word_bookmark": "nri_04aa8f8ac771a2705db9394164228aef"
+    },
+    {
+      "story_id": "opening-113",
+      "word_bookmark": "nri_1b27e33a7f924738b6491c50b80ff690"
+    },
+    {
+      "story_id": "opening-119",
+      "word_bookmark": "nri_ff9a94ebb3eaa3c4731b17dce5be9352"
+    },
+    {
+      "story_id": "opening-124",
+      "word_bookmark": "nri_e8c37b97d6e8de8f73de61e5b5704528"
+    },
+    {
+      "story_id": "opening-129",
+      "word_bookmark": "nri_d12373b5667d1685e2924881ee19f0dd"
+    },
+    {
+      "story_id": "opening-135",
+      "word_bookmark": "nri_d1fad4cfca97597c3434e561b6633745"
+    },
+    {
+      "story_id": "opening-141",
+      "word_bookmark": "nri_f92242cd9df41de01db31ce05cd2fa00"
+    },
+    {
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f"
+    }
+  ],
+  "source_graphic_ids": [
+    "opening-008",
+    "opening-014",
+    "opening-019",
+    "opening-024",
+    "opening-029",
+    "opening-035",
+    "opening-041",
+    "opening-046",
+    "opening-051",
+    "opening-057",
+    "opening-063",
+    "opening-069",
+    "opening-074",
+    "opening-079",
+    "opening-086",
+    "opening-092",
+    "opening-097",
+    "opening-103",
+    "opening-109",
+    "opening-113",
+    "opening-119",
+    "opening-124",
+    "opening-129",
+    "opening-135",
+    "opening-141",
+    "opening-147"
+  ],
+  "source_graphics": [
+    {
+      "graphic_id": "opening-008",
+      "story_id": "opening-008",
+      "source_page": 8,
+      "disposition": "must_include",
+      "sha256": "4D71629269EDCBEE5A9A3B571B16FEB72F33255B6735C764DDE15DAFDABF5C2B",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-014",
+      "story_id": "opening-014",
+      "source_page": 14,
+      "disposition": "must_include",
+      "sha256": "53A9BA228E3BFEC785576A6E84FDC4710DC69EC1318FBD4713D7177989B29A21",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-019",
+      "story_id": "opening-019",
+      "source_page": 19,
+      "disposition": "must_include",
+      "sha256": "21C6CA4E0807E7115B56C7086E94E80C119A090CFAA0469597E129BA139A0EE8",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-024",
+      "story_id": "opening-024",
+      "source_page": 24,
+      "disposition": "must_include",
+      "sha256": "CD211BEEEF17FF6F7D9E6296E25FFB4C95ABB3D5C7899A9D32C2A1AA95F4D376",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-029",
+      "story_id": "opening-029",
+      "source_page": 29,
+      "disposition": "must_include",
+      "sha256": "83C86DF9816DBFA4360AAE3447B16A977C7E7E3FCEEB1262C222C18B1FE4543C",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-035",
+      "story_id": "opening-035",
+      "source_page": 35,
+      "disposition": "must_include",
+      "sha256": "F89A033018284F54071D038315D1EB8CE9DCC4F08556B470DAC3B1AE9CD0A28D",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-041",
+      "story_id": "opening-041",
+      "source_page": 41,
+      "disposition": "must_include",
+      "sha256": "AD037BB6EA60631F508C88846CEB4C2FEAFAC4DFB67AC59C9699EBF8B72D3059",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-046",
+      "story_id": "opening-046",
+      "source_page": 46,
+      "disposition": "must_include",
+      "sha256": "BA22F198A4E44815E2568B7025FCFE0B21B4C878F9BF2334F6F31246062D6826",
+      "occurrence_ordinal": 0,
+      "drawing_id": "11",
+      "legacy_descr": null
+    },
+    {
+      "graphic_id": "opening-051",
+      "story_id": "opening-051",
+      "source_page": 51,
+      "disposition": "must_include",
+      "sha256": "CF1CCE8162D03E30FD68F63B5B5A77C4C401EF7A0383C3FB4E49D426078328E8",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-057",
+      "story_id": "opening-057",
+      "source_page": 57,
+      "disposition": "must_include",
+      "sha256": "091DFF1EADEBD12C0FF2693AD848CBC9E3BE97FDFDF7DA3068081741800324C7",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-063",
+      "story_id": "opening-063",
+      "source_page": 63,
+      "disposition": "must_include",
+      "sha256": "8B133BD8D31CCF3866A7D6ADC2386CB92C900314423CCD6C6E29F0E61B16C2B7",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-069",
+      "story_id": "opening-069",
+      "source_page": 69,
+      "disposition": "must_include",
+      "sha256": "97CB0E7DFA5C84054BE8891ABED59A256DB2DD2CF93D357C6352DE51CBC6DE6A",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-074",
+      "story_id": "opening-074",
+      "source_page": 74,
+      "disposition": "must_include",
+      "sha256": "BD7BDE94A1AD17740916B5B67F18F8FC7169855989607DE699D12B97651A4238",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-079",
+      "story_id": "opening-079",
+      "source_page": 79,
+      "disposition": "must_include",
+      "sha256": "454B82B7FFD1074B95EBCB958D468C66D0F3ED14EB44C594B3176C45997D81A2",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-086",
+      "story_id": "opening-086",
+      "source_page": 86,
+      "disposition": "must_include",
+      "sha256": "7B1731A84C3F1A97D83734339D58DC536A4E169BA236F722691D2D7CF6DDE44B",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-092",
+      "story_id": "opening-092",
+      "source_page": 92,
+      "disposition": "must_include",
+      "sha256": "8D223FBE436196EC5EC5F617830BFE375C7D64544830172B6E0CCE8FBEBCF9E9",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-097",
+      "story_id": "opening-097",
+      "source_page": 97,
+      "disposition": "must_include",
+      "sha256": "94B6D1ABBDAA7A26492003E2AE43DC00D09751AECB83ED1F8AC4F2C94B78922C",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-103",
+      "story_id": "opening-103",
+      "source_page": 103,
+      "disposition": "must_include",
+      "sha256": "D63CD034DEF626C645CA916068246B6E82AC95C559AB8FB5CB857DFE7586AB64",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-109",
+      "story_id": "opening-109",
+      "source_page": 109,
+      "disposition": "must_include",
+      "sha256": "FE544E2FF0BA453393F007F07D9FF43222D085BB1FC3751EEE4AC238D67D6888",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-113",
+      "story_id": "opening-113",
+      "source_page": 113,
+      "disposition": "must_include",
+      "sha256": "AAC5BA4754CDDDF24D49C9D6293714C35C8B51AAC3DD463B638B97F3B1A7884E",
+      "occurrence_ordinal": 0,
+      "drawing_id": "25",
+      "legacy_descr": null
+    },
+    {
+      "graphic_id": "opening-119",
+      "story_id": "opening-119",
+      "source_page": 119,
+      "disposition": "must_include",
+      "sha256": "A1D4FB45F25457F7993BB1518ED14F315FF1A039C5D8E33BD327BF33A7BA17E7",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-124",
+      "story_id": "opening-124",
+      "source_page": 124,
+      "disposition": "must_include",
+      "sha256": "D8A5812535137CA139433844602B81B6E0A5C2D4BCD91921824027A039E1E636",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-129",
+      "story_id": "opening-129",
+      "source_page": 129,
+      "disposition": "must_include",
+      "sha256": "7DCF1C60DA69F16CB29786D1A773917038BD442AFB5986F38BB96EB62DC55186",
+      "occurrence_ordinal": 0,
+      "drawing_id": "29",
+      "legacy_descr": null
+    },
+    {
+      "graphic_id": "opening-135",
+      "story_id": "opening-135",
+      "source_page": 135,
+      "disposition": "must_include",
+      "sha256": "231C4C25F15B9B1FCDEAD8053CE38A2A195E8D98F96B494F178408CD27310054",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-141",
+      "story_id": "opening-141",
+      "source_page": 141,
+      "disposition": "must_include",
+      "sha256": "3E619A8D93CCEF394556A0493A4B950AA350DB7BAFEE9D1258A1FD48B3EB9E38",
+      "occurrence_ordinal": 0
+    },
+    {
+      "graphic_id": "opening-147",
+      "story_id": "opening-147",
+      "source_page": 147,
+      "disposition": "must_include",
+      "sha256": "777B9B00684D41E866D16146231A821885F9711E5A400760F473E8B897A7BE8B",
+      "occurrence_ordinal": 0
+    }
+  ],
+  "operations": [
+    {
+      "kind": "text",
+      "disposition": "replace",
+      "issue_id": "fear-berglowe-unlabelled-13",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "1089",
+      "expected_text": "СИЛ 65 ВЫН 70 ТЕЛ 65 ИНТ 55 МОЩ 65 ЛВК 50 НАР 50 ОБР 60 РАС 65 13",
+      "expected_text_sha256": "1CD1969654282065616174986ACDA02E7EA378C86BBF17FF89EED78BC09301FA",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "target_text": "НАР 50 ОБР 60 РАС 65 13",
+      "replacement": "НАР 50 ОБР 60 РАС 65 ПЗ 13"
+    },
+    {
+      "kind": "text",
+      "disposition": "replace",
+      "issue_id": "fear-lori-dodge-threshold",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "1050",
+      "expected_text": "Уклонение 70% (70/14))",
+      "expected_text_sha256": "F580023B45CCE1B4D286A1CD6B81B7C5B7D94637D9CC93525B678CE02F518F98",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "target_text": "Уклонение 70% (70/14))",
+      "replacement": "Уклонение 70% (35/14)"
+    },
+    {
+      "kind": "text",
+      "disposition": "replace",
+      "issue_id": "fear-ferguson-age-60-vs-55",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "933",
+      "expected_text": "Умелый психотерапевт, особенно хорошо умеющий успокаивать людей, доктор Фергюсон — полный шестидесятилетний белый мужчина с хорошей репутацией и без судимостей. Он трудоголик, и к его кабинету на первом этаже примыкает спальня. Если он не в отпуске (что бывает редко) и не в гостях у друга, где участвует в записываемом на видео садистском развлечении (что, к сожалению, случается часто), он находится в клинике, работает и зарабатывает деньги. Он не женат; детей, чьё существование он признавал бы, у него нет. Его способность успокаивать людей позволяет хорошо зарабатывать и одновременно расширять круг деятельности соучастников-садистов, продлевая пытки. Иногда он устраивает такие сборища в своей скрытой операционной, созывая садистов со всего мира, но довольно часто ездит в другие места. Ведёт себя предельно сдержанно и собранно, почти невозмутимо.",
+      "expected_text_sha256": "771E685C838CDF16B19C67716CDF9A339EF07BA4B03020354761BD75E9882C09",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "target_text": "шестидесятилетний",
+      "replacement": "пятидесятипятилетний"
+    },
+    {
+      "kind": "text",
+      "disposition": "replace",
+      "issue_id": "fear-camera-monitoring-hours",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "928",
+      "expected_text": "Другие слабые места зависят от персонала. За исключением промежутка с 8:00 утра до 6:00 утра, камеры контролируются с поста медсестры; если сотрудники чем-то отвлечены, за камерами никто не следит. Все двери и окна оборудованы сигнализацией, которая срабатывает при входе без ключа (проверка «Взлома» позволяет обойти её, не включая сигнал); сирены громкие и оповещают и Берглоу, и мобильный телефон доктора Фергюсона.",
+      "expected_text_sha256": "EC600D95A879BD307F60EA0499E051AEB081E78C8F460913DB285108836E24E3",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "target_text": "с 8:00 утра до 6:00 утра",
+      "replacement": "с 8:00 утра до 6:00 вечера"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "fear-london-accident-date",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "869",
+      "expected_text": "Лондон родилась в 1989 году у неизвестных родителей и при рождении была удочерена Джеймсом Синклером, телевизионным продюсером, и Роуз Уайатт Синклер, актрисой. Оба приёмных родителя трагически погибли в автомобильной аварии 2007 года, когда Лондон училась в выпускном классе. Лондон находилась на заднем сиденье, но выжила.",
+      "expected_text_sha256": "AD8FF9FC110C2785394E86EB4A9E0B0FC6CB74B59E9042CC5FF77E746C0D266B",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 2,
+        "ordinal": 0
+      },
+      "reason": "оставь как есть"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "fear-amos-melling-dangling-clause",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "849",
+      "expected_text": "Более обычной была история жертвоприношения Амоса Меллинга,",
+      "expected_text_sha256": "D64157D9F5264B6FBFBF8B27557BED3B461B3499D9F4A25DB9033E7C95C2330A",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "Affirms explicit original proposal: preserve source handout fragment; do not invent continuation."
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "fear-pencik-timeline",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "comment_id": "811",
+      "expected_text": "~7:25: Флеботомист Морин выходит и вызывает пациента с записью на 7:00 (мистера Пенсика). К этому времени должны прибыть пациенты с записями на 7:30 и 7:40. На то, чтобы помочь мистеру Пенсику собраться и пройти в процедурную, уходит около пяти минут. В конце концов он идёт на своих двоих (шаркающей походкой), а Шанниса и его инвалидное кресло остаются в зале ожидания. Плохо замаскированные женщина и её телохранитель в зал ожидания не возвращаются. (Они выходят сзади через пожарный выход; если кто-то находится снаружи, он видит, как они замечают Фрэнка Фелпса, запрыгивают в ожидающий лимузин и уезжают, а Фрэнк фотографирует их и бросается следом. Из зала ожидания при успешной трудной проверке «Слуха» можно услышать визг шин в том направлении.)",
+      "expected_text_sha256": "BC616CE35C8C04D967119A3D0C47D1425AF8B64923D980F13E398AB47724AF10",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "Оставь исходное"
+    },
+    {
+      "kind": "text",
+      "disposition": "replace",
+      "issue_id": "fear-handgun-45-extreme",
+      "story_id": "opening-135",
+      "word_bookmark": "nri_d1fad4cfca97597c3434e561b6633745",
+      "comment_id": "755",
+      "expected_text": "Стрельба (пистолет) 45% (22/8), самозарядный пистолет .38: 1 или 3 выстрела за раунд, урон 1D10, дальность 15 ярдов, неисправность 99, ёмкость 8 патронов. Так вооружён только один работник.",
+      "expected_text_sha256": "9D8C3A0152644E14E185B9F542A3302CC8079E5C05C6F55A3ECC6461C896127A",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "target_text": "45% (22/8)",
+      "replacement": "45% (22/9)"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "fear-mortuary-two-names",
+      "story_id": "opening-124",
+      "word_bookmark": "nri_e8c37b97d6e8de8f73de61e5b5704528",
+      "comment_id": "672",
+      "expected_text": "Эдвард Улфелдер хорошо умел извлекать кардиостимуляторы. Он проработал в похоронном бюро «Крестью» восемнадцать лет. Кардиостимуляторы были у множества людей, а перед кремацией их необходимо извлекать, поэтому Эдвард удалял как минимум несколько сотен в год. Прикинув на обороте конверта, он понял, что за годы извлёк около шести тысяч. Но ничего похожего на устройство, которое он вынул у недавно умершей Райны Пул, он никогда не видел. Женщина погибла в лобовом столкновении после того, как пикап, двигавшийся на запад, выехал на восточную полосу шоссе SR-62 возле Джулиана, штат Северная Каролина.",
+      "expected_text_sha256": "4C997ACBB7DD3C6F5B8623738292FAE75E049E2BE7B55D51E826A31E2A4311FA",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "Different funeral-home names; do not unify them."
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "fear-easy-track",
+      "story_id": "opening-057",
+      "word_bookmark": "nri_34e67e0df789f989b4e21ce54acefff9",
+      "comment_id": "304",
+      "expected_text": "Успешная проверка Внимания обнаруживает кусок чёрного пластика, такой же, как оставшийся в доме мешок для трупа, зацепившийся за осколок в оконной раме. На земле тянется дорожка кровавых капель, ведущая к заднему забору и через него. Лёгкая проверка Чтения следов приводит сыщика к канализационному люку. На лестнице больше кровавых капель, но в текущих сточных водах след теряется. (Так гули унесли тело Говарда.)",
+      "expected_text_sha256": "B879B4C86D17E9506FCB7CF29CCDE0458B1AA502CF26BE68C374D0D786464C8D",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "Оставь как есть"
+    },
+    {
+      "kind": "text",
+      "disposition": "replace",
+      "issue_id": "fear-cover-scenario-count",
+      "story_id": "front",
+      "word_bookmark": "nri_9f95a2d81abb4b27e3ae10ef80e9aff0",
+      "comment_id": "3",
+      "expected_text": "ДВАДЦАТЬ ЧЕТЫРЕ ЛЕДЕНЯЩИХ ДУШУ ПОГРУЖЕНИЯ В УЖАС — КАЖДОЕ НА ОДНУ ИГРОВУЮ ВСТРЕЧУ",
+      "expected_text_sha256": "F45819D03673BF78E6E87DC90358FAD36F4D4F067441D347881533930E56EBD3",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "target_text": "ДВАДЦАТЬ ЧЕТЫРЕ",
+      "replacement": "ДВАДЦАТЬ ШЕСТЬ"
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-008",
+      "story_id": "opening-008",
+      "word_bookmark": "nri_c587de9edaef3bb16674609e3159c518",
+      "source_page": 8,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-008-4d71629269ed.jpg",
+      "sha256": "4D71629269EDCBEE5A9A3B571B16FEB72F33255B6735C764DDE15DAFDABF5C2B",
+      "dimensions": [
+        1230,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "АНОМАЛИЯ СЕЛЬСКИЕ ЖИТЕЛИ ИСЧЕЗНОВЕНИЯ ОБРЯДЫ ПЛОДОРОДИЯ",
+        "expected_text_sha256": "591040477183EABA7C539C7B30AB6BB0EF12C958E6BDB1C7411054D521A10ACF",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-014",
+      "story_id": "opening-014",
+      "word_bookmark": "nri_a1af8e3b372f01b92a7621c68c15e5d4",
+      "source_page": 14,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-014-53a9ba228e3b.jpg",
+      "sha256": "53A9BA228E3BFEC785576A6E84FDC4710DC69EC1318FBD4713D7177989B29A21",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ПРОЯВЛЕНИЕ ДЕПРЕССИЯ НЬЯРЛАТХОТЕП СКРЫТЫЙ ВРАГ",
+        "expected_text_sha256": "6E63A6AD02F55A978B1612406D402F183225A6144DB38286893C7F6221ABFBA9",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-019",
+      "story_id": "opening-019",
+      "word_bookmark": "nri_9f37ecfde1559215b21452b28e085795",
+      "source_page": 19,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-019-21c6ca4e0807.jpg",
+      "sha256": "21C6CA4E0807E7115B56C7086E94E80C119A090CFAA0469597E129BA139A0EE8",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ВРЕМЕННАЯ АНОМАЛИЯ: ПРЕСЛЕДОВАТЕЛЬ — СУДЬБА — АПОКАЛИПСИС",
+        "expected_text_sha256": "6FF365DE2D04966AF612992630CB38C18D62746CCEEA31AD999423E2874010A5",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-024",
+      "story_id": "opening-024",
+      "word_bookmark": "nri_783c023fb7e5041ebb14735627b0d99d",
+      "source_page": 24,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-024-cd211beeef17.jpg",
+      "sha256": "CD211BEEEF17FF6F7D9E6296E25FFB4C95ABB3D5C7899A9D32C2A1AA95F4D376",
+      "dimensions": [
+        1229,
+        945
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "Мэтт Уайзман и Дженнифер Трэшер",
+        "expected_text_sha256": "E2E329A0268BFA5CA22E1DD0EC943E96A804762280CF71B3DEC54FA788379377",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-029",
+      "story_id": "opening-029",
+      "word_bookmark": "nri_7da750441404558f53c4c128b83fd2cc",
+      "source_page": 29,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-029-83c86df9816d.jpg",
+      "sha256": "83C86DF9816DBFA4360AAE3447B16A977C7E7E3FCEEB1262C222C18B1FE4543C",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ПСИХОЛОГИЧЕСКИЙ ТРИЛЛЕР ДЛЯ ОДНОГО ИГРОКА ПАРАНОЙЯ МИСТИЦИЗМ",
+        "expected_text_sha256": "8FFA9BC79D4763128A5A37F37652C54AFED24C58617257A1495E362ADD56EDC8",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-035",
+      "story_id": "opening-035",
+      "word_bookmark": "nri_c52feb207721e03ecc663161f26c734b",
+      "source_page": 35,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-035-f89a03301828.jpg",
+      "sha256": "F89A033018284F54071D038315D1EB8CE9DCC4F08556B470DAC3B1AE9CD0A28D",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ПАРАНОЙЯ",
+        "expected_text_sha256": "236B829739813300B19F9A32420FE3F1EE5ADC8079F61998148116F15A441E07",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-041",
+      "story_id": "opening-041",
+      "word_bookmark": "nri_7375c4a266a3222379a01a414a29b398",
+      "source_page": 41,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-041-ad037bb6ea60.jpg",
+      "sha256": "AD037BB6EA60631F508C88846CEB4C2FEAFAC4DFB67AC59C9699EBF8B72D3059",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "РАЗУМНЫЙ ПРЕДМЕТ ТЕХНОЛОГИЧЕСКИЙ УЖАС УБИЙСТВО ТИК-ТАК-ЧЕЛОВЕК",
+        "expected_text_sha256": "E1525C47942F66913BF8E87D759AE34D89E144371F07C1698D239BD71567BC4F",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-051",
+      "story_id": "opening-051",
+      "word_bookmark": "nri_97b95951b13576158ac97f2af1223a71",
+      "source_page": 51,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-051-cf1cce8162d0.jpg",
+      "sha256": "CF1CCE8162D03E30FD68F63B5B5A77C4C401EF7A0383C3FB4E49D426078328E8",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ОДЕРЖИМОСТЬ СПИРИТИЧЕСКАЯ ДОСКА МЕСТЬ КТХУГХА",
+        "expected_text_sha256": "9A23BE68325775834C93220A3DAECC527F33A048B07217CC40CD4DACD21912DE",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-057",
+      "story_id": "opening-057",
+      "word_bookmark": "nri_34e67e0df789f989b4e21ce54acefff9",
+      "source_page": 57,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-057-091dff1eadeb.jpg",
+      "sha256": "091DFF1EADEBD12C0FF2693AD848CBC9E3BE97FDFDF7DA3068081741800324C7",
+      "dimensions": [
+        1227,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ПОХОРОННЫЙ ДОМ СЕРИЙНЫЙ УБИЙЦА РАСЧЛЕНЕНИЕ ГУЛИ",
+        "expected_text_sha256": "45F4A568D2922518D452D153F663C5CE3A6A3A70F91C614DDB94BBE6784D7731",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-063",
+      "story_id": "opening-063",
+      "word_bookmark": "nri_37617a2bb2fe37601e2b7c76c5a54c13",
+      "source_page": 63,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-063-8b133bd8d31c.jpg",
+      "sha256": "8B133BD8D31CCF3866A7D6ADC2386CB92C900314423CCD6C6E29F0E61B16C2B7",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "МАРТИНС-БИЧ",
+        "expected_text_sha256": "2F045DB4C0B1939B47AB6A0B80292620A8A18E3601BC20770277137D2F1B8778",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-069",
+      "story_id": "opening-069",
+      "word_bookmark": "nri_8e14e48e994f668728d53b699034e7fb",
+      "source_page": 69,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-069-97cb0e7dfa5c.jpg",
+      "sha256": "97CB0E7DFA5C84054BE8891ABED59A256DB2DD2CF93D357C6352DE51CBC6DE6A",
+      "dimensions": [
+        1227,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "СМЕРТЬ РЕБЁНКА МЕСТЬ ГОНКА СО ВРЕМЕНЕМ КОЛДОВСТВО",
+        "expected_text_sha256": "1812E6F40FA05ED822590676B7ABCE625B4159D0B4990225ED706C8B845AA148",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-074",
+      "story_id": "opening-074",
+      "word_bookmark": "nri_0240100cfec616955fee4358a2036669",
+      "source_page": 74,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-074.png",
+      "sha256": "BD7BDE94A1AD17740916B5B67F18F8FC7169855989607DE699D12B97651A4238",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "РИФ ХАТТЕРАС ПОДВОДНЫЕ МУТАЦИИ РАССЛЕДОВАНИЕ",
+        "expected_text_sha256": "54509DC8D97A54080009CAE4C4250A94E8B11D9676679DFD06208341BA55B696",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-079",
+      "story_id": "opening-079",
+      "word_bookmark": "nri_aaa522f4bebe7f2e82fcb4376fc74031",
+      "source_page": 79,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-079-ccb771fbffaa.png",
+      "sha256": "454B82B7FFD1074B95EBCB958D468C66D0F3ED14EB44C594B3176C45997D81A2",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "БОЛЕЗНЬ СКВЕРНА МИФОВ СОКРЫТИЕ ПРАВДЫ КУЛЬТ",
+        "expected_text_sha256": "94F4A7D01CABBAEF885221D0C50143C7E122CC6E1EC433F875A106C45DAC5A75",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-086",
+      "story_id": "opening-086",
+      "word_bookmark": "nri_63e9497b88b71a55f2ff9d937b379c71",
+      "source_page": 86,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-086-7b1731a84c3f.jpg",
+      "sha256": "7B1731A84C3F1A97D83734339D58DC536A4E169BA236F722691D2D7CF6DDE44B",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ИЗОЛЯЦИЯ / СЕЛЬСКИЕ ЖИТЕЛИ / ПОБЕГ / СКРЫТЫЙ ВРАГ",
+        "expected_text_sha256": "F0D34EB4045BED645691204C37914F7D9DAC5027AB73A74CDB5DD658871A6750",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-092",
+      "story_id": "opening-092",
+      "word_bookmark": "nri_1753301596101b3563b7e5b189c40586",
+      "source_page": 92,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-092-8d223fbe4361.jpg",
+      "sha256": "8D223FBE436196EC5EC5F617830BFE375C7D64544830172B6E0CCE8FBEBCF9E9",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "СКРЫТЫЕ ТАЙНЫ / ВЕРНОСТЬ",
+        "expected_text_sha256": "97C3B1D3606E5B64FBD661C10B287CFF8FB9F595F5205A0BB40C56312C940C98",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-097",
+      "story_id": "opening-097",
+      "word_bookmark": "nri_294708312cfff012a64d9630c2f42024",
+      "source_page": 97,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-097-94b6d1abbdaa.jpg",
+      "sha256": "94B6D1ABBDAA7A26492003E2AE43DC00D09751AECB83ED1F8AC4F2C94B78922C",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "КЛИНИКА РЕПРОДУКТИВНОЙ МЕДИЦИНЫ МУТАЦИЯ ГЕНЕТИЧЕСКИЙ ПАРАЗИТ ИДРА",
+        "expected_text_sha256": "D8FC4649868163E61161295A3A048A6F33EE1FE40D5491F758BF6C01EE15F3EA",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-103",
+      "story_id": "opening-103",
+      "word_bookmark": "nri_675f91ff19848c1efcd1a10276a94fcc",
+      "source_page": 103,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-103-d63cd034def6.jpg",
+      "sha256": "D63CD034DEF626C645CA916068246B6E82AC95C559AB8FB5CB857DFE7586AB64",
+      "dimensions": [
+        1227,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ЖЕРТВА",
+        "expected_text_sha256": "1C2C51E23D3DB7B31A90375914F37C8051EAA5835F53E56AD9071196081C6259",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-109",
+      "story_id": "opening-109",
+      "word_bookmark": "nri_04aa8f8ac771a2705db9394164228aef",
+      "source_page": 109,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-109-fe544e2ff0ba.jpg",
+      "sha256": "FE544E2FF0BA453393F007F07D9FF43222D085BB1FC3751EEE4AC238D67D6888",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ТЕХНОЛОГИИ ИССЛЕДОВАНИЯ СНА ПРИЛОЖЕНИЕ-ГОЛОВОЛОМКА ЗЛАЯ СУЩНОСТЬ",
+        "expected_text_sha256": "04F26319498294B022698FBEB30A083C13E45937E861EFD3C2CF4CE88EF723BE",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-119",
+      "story_id": "opening-119",
+      "word_bookmark": "nri_ff9a94ebb3eaa3c4731b17dce5be9352",
+      "source_page": 119,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-119-a1d4fb45f254.jpg",
+      "sha256": "A1D4FB45F25457F7993BB1518ED14F315FF1A039C5D8E33BD327BF33A7BA17E7",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ПОЭТИЧЕСКИЙ СЛЭМ КАРМАННОЕ ИЗМЕРЕНИЕ ИЗМЕНЁННЫЕ СОСТОЯНИЯ КАРКОЗА",
+        "expected_text_sha256": "EE708EC340094F206F357EB3D7D42FC3B19853B217CDC308A69C47B5528952C0",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-124",
+      "story_id": "opening-124",
+      "word_bookmark": "nri_e8c37b97d6e8de8f73de61e5b5704528",
+      "source_page": 124,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-124-d8a581253513.jpg",
+      "sha256": "D8A5812535137CA139433844602B81B6E0A5C2D4BCD91921824027A039E1E636",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ИСПОРЧЕННАЯ ТЕХНОЛОГИЯ",
+        "expected_text_sha256": "C7C3C53E3D36228B3D0F633040936BD1E86B61A20456F9BA498C8B703F81D7E1",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-135",
+      "story_id": "opening-135",
+      "word_bookmark": "nri_d1fad4cfca97597c3434e561b6633745",
+      "source_page": 135,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-135-231c4c25f15b.jpg",
+      "sha256": "231C4C25F15B9B1FCDEAD8053CE38A2A195E8D98F96B494F178408CD27310054",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "Адам Гонтлетт и Брайан М. Сэммонс",
+        "expected_text_sha256": "23515980A8146718539CE30962DB44F1F2E2403037ED2EA13E402E08B21C0159",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-141",
+      "story_id": "opening-141",
+      "word_bookmark": "nri_f92242cd9df41de01db31ce05cd2fa00",
+      "source_page": 141,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-141-3e619a8d93cc.jpg",
+      "sha256": "3E619A8D93CCEF394556A0493A4B950AA350DB7BAFEE9D1258A1FD48B3EB9E38",
+      "dimensions": [
+        1227,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "ЗАБРОШЕННОЕ МЕСТО · ГОРОДСКАЯ ЛЕГЕНДА · МРАЧНАЯ НАУКА · ТАЙНЫ",
+        "expected_text_sha256": "8259CC6E40B3109A3B3EB26CA552BD8EB7509760B7588C6C08056BAFC3CC409B",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    },
+    {
+      "kind": "art",
+      "graphic_id": "opening-147",
+      "story_id": "opening-147",
+      "word_bookmark": "nri_be95141c165c418acea230c6a504498f",
+      "source_page": 147,
+      "source_image": "D:\\NRI\\kb_creator\\working\\user-review-20261004\\fear-source-art-v01\\fear-opening-147-777b9b00684d.jpg",
+      "sha256": "777B9B00684D41E866D16146231A821885F9711E5A400760F473E8B897A7BE8B",
+      "dimensions": [
+        1229,
+        1589
+      ],
+      "word_width_inches": 5.5,
+      "insertion": "after_exact_paragraph",
+      "position": {
+        "expected_text": "КРОВЬ МЕДИЦИНСКАЯ ПРОМЫШЛЕННОСТЬ ЗАРАЖЕНИЕ МИФАМИ ТАЙНЫ",
+        "expected_text_sha256": "0ED116531C13C41C175A788598E4A8D6A7BB431CE02F010246A054D24178BA0D",
+        "selector": {
+          "kind": "exact_paragraph",
+          "expected_matches": 1,
+          "ordinal": 0
+        }
+      }
+    }
+  ]
+}

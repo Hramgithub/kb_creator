@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.scenario_artview_profile.v4",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "scenario_id", "output_root", "inputs", "render"],
+  "properties": {
+    "schema": {"const": "kb_creator.scenario_artview_profile.v4"},
+    "scenario_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "output_root": {"type": "string"},
+    "inputs": {"type": "object", "additionalProperties": false, "required": ["master_ru", "master_ru_acceptance", "master_ru_asset_manifest", "reconstruction_inventory", "source_pdf", "source_identity"], "properties": {"master_ru": {"$ref": "#/$defs/identity"}, "master_ru_acceptance": {"$ref": "#/$defs/identity"}, "master_ru_asset_manifest": {"$ref": "#/$defs/identity"}, "reconstruction_inventory": {"$ref": "#/$defs/identity"}, "source_pdf": {"$ref": "#/$defs/identity"}, "source_identity": {"$ref": "#/$defs/identity"}}},
+    "render": {"type": "object", "additionalProperties": false, "required": ["dpi", "format"], "properties": {"dpi": {"type": "integer", "minimum": 72}, "format": {"enum": ["png", "jpeg"]}}}
+  },
+  "$defs": {"identity": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}}}}
+}

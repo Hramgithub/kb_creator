@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.page_semantic_structure.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "profile", "role_contract", "review", "units"],
+  "properties": {
+    "schema": {"const": "kb_creator.page_semantic_structure.v2"},
+    "profile": {"const": "reviewed_role_outline_and_partitions_v2"},
+    "role_contract": {
+      "type": "object",
+      "allOf": [
+        {
+          "if": {"required": ["role"], "properties": {"role": {"const": "pregenerated_characters"}}},
+          "then": {
+            "oneOf": [
+              {
+                "type": "object", "additionalProperties": false,
+                "required": ["role", "group_id", "root_heading_id", "record_heading_id", "leaf_heading_ids"],
+                "properties": {
+                  "role": {"const": "pregenerated_characters"}, "group_id": {"type": "string", "minLength": 1},
+                  "root_heading_id": {"type": ["string", "null"]}, "record_heading_id": {"type": "string", "minLength": 1},
+                  "leaf_heading_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+                }
+              },
+              {
+                "type": "object", "additionalProperties": false,
+                "required": ["role", "group_id", "root_heading_id", "record_heading_ids", "leaf_heading_ids"],
+                "properties": {
+                  "role": {"const": "pregenerated_characters"}, "group_id": {"type": "string", "minLength": 1},
+                  "root_heading_id": {"type": ["string", "null"]},
+                  "record_heading_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+                  "leaf_heading_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "review": {"type": "object"},
+    "units": {"type": "array", "items": {"type": "object", "properties": {
+      "kind": {"enum": ["blockquote", "callout", "handout", "list", "statblock", "heading", "line_group", "label"]},
+      "representation": {"enum": ["blockquote", "unordered_list", "ordered_list", "semantic_span", "table", "atx_heading", "hard_break_lines"]},
+      "visual_assertion_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+    }}}
+  }
+}

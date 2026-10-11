@@ -1,0 +1,24 @@
+# Handoff receipt: Dissociation Stage20 MASTER_RU batch translation
+
+- Scope: only the eight sealed Stage20 English batches from `20260915-publication-03/outputs/20-master-ru-packets/artifacts/batches/`; eight fresh `.ru.json` batch files under `submissions/master-ru/batches/`; fresh generated submission under `submissions/master-ru/submission`.
+- Result: 8 batches and 86 units translated. Source batch identity fields, unit fields, hashes, source text, page/part topology, Markdown markers, image targets, mechanics, numeric expressions, dice, and unit-00086 compact statblock hard-break topology were preserved; only `ru_text` was populated in each translated unit.
+- Batch outputs:
+  - `batch-0001.ru.json` (16 units)
+  - `batch-0002.ru.json` (10 units)
+  - `batch-0003.ru.json` (10 units)
+  - `batch-0004.ru.json` (12 units)
+  - `batch-0005.ru.json` (10 units)
+  - `batch-0006.ru.json` (11 units)
+  - `batch-0007.ru.json` (13 units)
+  - `batch-0008.ru.json` (4 units)
+- Submission authoring: canonical `scenario_master_ru.py author-submission` passed with `batches=8`, `units=86`; generated submission bytes `18965`; submission SHA-256 `42EBC3C28DB7E4F3BD1AAC45D0A8E3C23BBE787AACA44B52ACD533FD828E393E`.
+- Submission validation: canonical `scenario_master_ru.py validate-submission` passed with `findings=[]`; packet manifest SHA-256 `3BB4E2C69922001E3F6A33DB7C589DF4C264978FDB2A031E8BDC535A9D04A99F`.
+- Terminology decisions: `Хранитель` for Keeper; `сыщик` for investigator; `Рассудок`/`РАССУДКА` for Sanity; `ми-го`; `Внимание` for Spot Hidden; `Слух` for Listen; `Медицина`; `Пилотирование`; `ВЫН` for CON; `ЛВК` for DEX; `МОЩ` for POW; `ПЗ` for Hit points; `Комплекция` for Build; `Ближний бой (Драка)` and `Уклонение` in the compact statblock.
+- Evidence checked: Stage20 packet manifest, all eight English batch files, `authority-00.csv`, `authority-01.md`, `scenario_master_ru.py`, and generated submission validation output.
+- Blockers: none for this bounded execution. Publication acceptance and resume were not invoked.
+- Scratch hygiene: temporary helper used for mechanical authoring was removed; no helper file remains in the product batch root.
+- Next action: orchestrator may perform the goal-level review/acceptance workflow; this receipt does not infer user acceptance.
+- Timestamp: `2026-09-15` (exact wall-clock not captured in this receipt update).
+- Orchestrator policy owner: `gpt-5.6-sol` at medium; bounded execution ownership retained.
+- Assignment state: complete.
+- Scoped override: none.

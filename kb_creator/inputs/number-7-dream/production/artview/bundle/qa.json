@@ -1,0 +1,11 @@
+{
+  "candidate_manifest_sha256": "A1045CBD368B57D4766F1E978E0315E78D33F37859119369AA0B69909BAD04C1",
+  "checks": {
+    "raw_object_disposition_closure": true,
+    "required_cover_present": true,
+    "review_unit_closure": true,
+    "source_identity": true
+  },
+  "schema": "kb_creator.scenario_artview_qa.v4",
+  "status": "pass"
+}

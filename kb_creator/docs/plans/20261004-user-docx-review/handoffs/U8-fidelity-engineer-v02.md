@@ -1,0 +1,13 @@
+# U8 ordinary DOCX fidelity engineer receipt v02
+
+- Timestamp: 2026-10-04 22:00 UTC (2026-10-05 01:00 Europe/Moscow).
+- Assignment state: **changes_required; bounded tested checkpoint**, not U8 completion or release acceptance.
+- Orchestrator policy owner: `/root`, repository-policy gpt-6-sol/medium. Engineering role requested: gpt-6-sol/high; selected platform settings not independently observable. Scoped override: none recorded.
+- Scope/result: implemented source-graphic review validation, source-scale edition/accepted-label validation, source-bound reader-plan validation, and read-only actual-DOCX graphic observation. These are not connected to normal production readiness; the mandatory guard remains open.
+- Files changed: new `pipeline/source_graphics.py`, `pipeline/edition_projection.py`, `pipeline/reader_fidelity.py`, `tests/test_source_graphics_contract.py`, `tests/test_edition_projection_contract.py`, `tests/test_reader_fidelity_plan.py`, and [engineering checkpoint](../audit/fidelity-engineering/U8-fidelity-checkpoint-v02.md). No reviewed-DOCX engine/helper, canonical plan/status, source book or latest package edit.
+- Files checked: assigned U8 packet, accepted architecture specification and DOCX addendum, source-page renderer, normal DOCX builder/continuation/successor, production bookmark helper, pure OOXML observer helpers, and prior U8 output-policy receipt. No competing module ownership was modified.
+- Verification/evidence: focused combined suite **27 passed in 1.00s**; six new Python files compile. Exact implementation SHA-256 and finite gaps are in the linked checkpoint. Earlier output-policy 194-test regression was not rerun because the current task did not change its existing production modules. Temporary test roots are not commit candidates.
+- Blockers/risks: no real PDF-derived all-page inventory producer; no formal four-schema/verification contract closure; no Word text-value/rendered-visibility review; direct builder, run/continuation/successor and offline verifier are not guarded. The synthetic PNG fixture cannot prove genuine source rendering. These are release-blocking and must not be described as complete.
+- Next action: continue the finite sequence in the checkpoint under root-owned orchestration, then independent critic release review only after code/contract/book freeze. Do not claim guarded readiness or run new production from this checkpoint.
+- Elapsed time: approximately 13 minutes since U8 fidelity assignment.
+- Token use: approximately 11k tokens for this bounded follow-up; exact metering unavailable. Other-agent and orchestrator usage unavailable to this role.

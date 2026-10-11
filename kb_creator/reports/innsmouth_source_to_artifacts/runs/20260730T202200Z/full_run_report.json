@@ -1,0 +1,229 @@
+{
+  "schema": "kb_creator.source_pdf_to_artifacts_report.v1",
+  "generated_at_utc": "2026-07-30T20:23:57Z",
+  "run_id": "20260730T202200Z",
+  "status": "blocked",
+  "source_pdf": {
+    "path": "D:/яндекс/Yandex.Disk/НРИ/1_Зов Ктулху/english/7th Edition Call of Cthulhu/Adventures/1923_The Innsmouth Terror/The Innsmouth terror.pdf",
+    "exists": true,
+    "size_bytes": 71396612,
+    "sha256": "cfd72dd3b8702c07750dcbb9f721a704793d6d474167b288922e6f7ebeea561f",
+    "last_write_time_utc": "2026-03-15T12:44:44+00:00"
+  },
+  "references": {
+    "keeper": {
+      "path": "D:/яндекс/Yandex.Disk/НРИ/1_Зов Ктулху/1_Сценарии/Компания/1928 Побег из Инсмута/Террор в инсмуте/For_Keeper/KeeperBook_v6.md",
+      "exists": true,
+      "size_bytes": 205762,
+      "sha256": "e1c889adb5676798d7e296e4231040fa730029a7ba40ad515bf97059f5f78ba7",
+      "last_write_time_utc": "2026-07-29T00:34:31.053197+00:00"
+    },
+    "pdf": {
+      "path": "D:/яндекс/Yandex.Disk/НРИ/1_Зов Ктулху/1_Сценарии/Компания/1928 Побег из Инсмута/Террор в инсмуте/Pdf/The_Innsmouth_Terror_RU.pdf",
+      "exists": true,
+      "size_bytes": 65261806,
+      "sha256": "d89ba390b296211692419d08f8e8f84cb0d393b54e94489531542bb5a0e08fc5",
+      "last_write_time_utc": "2026-07-30T13:50:36.995381+00:00"
+    }
+  },
+  "config": {
+    "path": "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json",
+    "exists": true,
+    "size_bytes": 33040,
+    "sha256": "b53a52ad2849bb0f9e15fefbe0fb62d10e6458961455b2585bf9886fcd38e901",
+    "last_write_time_utc": "2026-07-30T20:22:00.984864+00:00"
+  },
+  "artifacts": {
+    "source_candidate": {
+      "path": "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/Translation_Work/Column_OCR_Reconstruction/The_Innsmouth_Terror_Column_OCR_Candidate_EN.md",
+      "exists": true,
+      "size_bytes": 119000,
+      "sha256": "ae99d986b49951d9f400884e99b82efd1e73a65853daf67e03e8d5489837311c",
+      "last_write_time_utc": "2026-07-30T20:23:34.080081+00:00"
+    },
+    "translation_tasks": {
+      "path": "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/QA/translation_tasks.json",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "last_write_time_utc": null
+    },
+    "image_approval": {
+      "path": "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/QA/image_role_approval.json",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "last_write_time_utc": null
+    },
+    "image_contact_sheet": {
+      "path": "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/QA/image_contact_sheet.png",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "last_write_time_utc": null
+    },
+    "keeperbook": {
+      "path": "kb_creator/output/innsmouth_source_to_artifacts/runs/20260730T202200Z/For_Keeper/KeeperBook.md",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "last_write_time_utc": null
+    },
+    "html": {
+      "path": "kb_creator/output/innsmouth_source_to_artifacts/runs/20260730T202200Z/The_Innsmouth_Terror_Full_RU.html",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "last_write_time_utc": null
+    },
+    "pdf": {
+      "path": "kb_creator/output/innsmouth_source_to_artifacts/runs/20260730T202200Z/Pdf/The_Innsmouth_Terror_RU.pdf",
+      "exists": false,
+      "size_bytes": null,
+      "sha256": null,
+      "last_write_time_utc": null
+    }
+  },
+  "comparisons": {
+    "keeper_vs_reference": {
+      "candidate": "kb_creator/output/innsmouth_source_to_artifacts/runs/20260730T202200Z/For_Keeper/KeeperBook.md",
+      "reference": "D:\\яндекс\\Yandex.Disk\\НРИ\\1_Зов Ктулху\\1_Сценарии\\Компания\\1928 Побег из Инсмута\\Террор в инсмуте\\For_Keeper\\KeeperBook_v6.md",
+      "status": "missing_input"
+    },
+    "pdf_vs_reference": {
+      "candidate": "kb_creator/output/innsmouth_source_to_artifacts/runs/20260730T202200Z/Pdf/The_Innsmouth_Terror_RU.pdf",
+      "reference": "D:\\яндекс\\Yandex.Disk\\НРИ\\1_Зов Ктулху\\1_Сценарии\\Компания\\1928 Побег из Инсмута\\Террор в инсмуте\\Pdf\\The_Innsmouth_Terror_RU.pdf",
+      "status": "missing_candidate"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "render-pages",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json",
+        "--force"
+      ],
+      "started_at_utc": "2026-07-30T20:22:00Z",
+      "finished_at_utc": "2026-07-30T20:22:25Z",
+      "returncode": 0,
+      "stdout": "status=pass pages=46 written=46 existing=0 dpi=180\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "reconstruct-column-ocr",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json",
+        "--force",
+        "--apply"
+      ],
+      "started_at_utc": "2026-07-30T20:22:25Z",
+      "finished_at_utc": "2026-07-30T20:23:34Z",
+      "returncode": 0,
+      "stdout": "status=pass mode=apply pages=43 chars=118028 chunks=43 findings=0 gate_changed=false\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "extract-images",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json",
+        "--force"
+      ],
+      "started_at_utc": "2026-07-30T20:23:34Z",
+      "finished_at_utc": "2026-07-30T20:23:37Z",
+      "returncode": 0,
+      "stdout": "status=pass unique=81 refs=258 written=81 existing=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "classify-images",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json"
+      ],
+      "started_at_utc": "2026-07-30T20:23:37Z",
+      "finished_at_utc": "2026-07-30T20:23:47Z",
+      "returncode": 1,
+      "stdout": "status=needs_review candidates=81 review_required=61 decoration=20\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "image-contact-sheet",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json"
+      ],
+      "started_at_utc": "2026-07-30T20:23:47Z",
+      "finished_at_utc": "2026-07-30T20:23:56Z",
+      "returncode": 0,
+      "stdout": "status=pass candidates=81 sheet=kb_creator/working/innsmouth_source_to_artifacts/kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/project/QA/image_contact_sheet.png missing=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "prepare-image-approval",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json"
+      ],
+      "started_at_utc": "2026-07-30T20:23:56Z",
+      "finished_at_utc": "2026-07-30T20:23:56Z",
+      "returncode": 1,
+      "stdout": "status=pending pending=61 contact_sheet=kb_creator/working/innsmouth_source_to_artifacts/kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/project/QA/image_contact_sheet.png\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "translation-payload-qa",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json",
+        "--check-only"
+      ],
+      "started_at_utc": "2026-07-30T20:23:56Z",
+      "finished_at_utc": "2026-07-30T20:23:57Z",
+      "returncode": 1,
+      "stdout": "status=blocked action=check_only findings=8 report=kb_creator/working/innsmouth_source_to_artifacts/kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/project/QA/translation_payload_qa_report.json\n",
+      "stderr": ""
+    }
+  ],
+  "findings": [
+    {
+      "code": "command_failed",
+      "command": [
+        "D:\\NRI\\.tools\\python-3.13.14\\python.exe",
+        "translator/translator.py",
+        "translation-payload-qa",
+        "--config",
+        "kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T202200Z/the_innsmouth_terror.source_to_artifacts.package.json",
+        "--check-only"
+      ],
+      "returncode": 1
+    },
+    {
+      "code": "missing_accepted_ru_to_keeper_stage",
+      "detail": "kb_creator generated source/translation task inputs, but has no accepted RU master and must not use the reference KeeperBook as generation source."
+    },
+    {
+      "code": "html_not_built_without_keeperbook"
+    },
+    {
+      "code": "pdf_not_built_without_html"
+    }
+  ],
+  "next_action": "Implement or execute accepted RU translation/proofread stage, then Keeper/HTML/PDF publishing."
+}

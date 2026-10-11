@@ -1,0 +1,26 @@
+# L5 Candidate QA Receipt
+
+- Goal id: `20260917-dream-lineflow-fidelity`
+- Step id: `L5`
+- Role: bounded QA
+- Model / effort: platform-unverified; requested bounded QA role is `gpt-5.6-luna` at low effort
+- Orchestrator policy owner: `gpt-5.6-sol`, medium
+- Assignment state: `platform-unverified`
+- Scoped override: none
+- Scope: read-only verification of fresh immutable Dream replay16/v27 Stage 05/06 against replay15/v26 and Stage 04 source mappings. No code, decisions, generated artifacts, or canonical documents were changed; only this assigned receipt was written.
+- Result: PASS for all candidate acceptance checks in the assignment.
+- Files checked: assigned `plan.md`, goal `context.md`, and governance; replay16 Stage 05 `audit.json`, Stage 06 `SEMANTIC_STRUCTURE.json`, candidate page files, six v27 decision pages, and six Stage 04 merge-packet JSON files; replay15 candidate pages 1–26; v26 page-decision inventory; replay16 `run.json`; scenario contract; and the supplied source PDF.
+- Verification / evidence:
+  - Stage 05 audit reports `passed=true`, zero errors, pages 1–26 in sequence, completeness 1.0 on all 26 pages. Stage 06 has 26 candidate page files.
+  - Stage 05 and Stage 06 semantic structure hashes agree: `155ACBF7EB4099ECD670868D4C6088B87F5FD9C269D5FFEF82B50A49E68D8785`.
+  - Exactly six `line_group/hard_break_lines` units exist on pages 21–26. Their ordered raw mappings and physical line counts are: p21 `312–318` (7), p22 `327–333` (7), p23 `342,341,343–347` (7), p24 `356–362` (7), p25 `371` (6 physical lines), p26 `381` (7 physical lines). Each mapped source line is non-empty and appears exactly once in candidate order.
+  - All six candidate groups contain no internal blank lines. Each non-final line has exactly two ASCII trailing spaces; each final line has none. Page 23 begins the group with the `STR` row, followed by `Luck`.
+  - Candidate pages 1–20 are byte-identical to replay15 pages 1–20.
+  - Pages 25–26 differ from replay15 only where five non-final lines on p25 and six on p26 change from three trailing spaces to the canonical two; visible text and line counts match.
+  - Source PDF SHA-256 is `C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0`, matching the scenario contract. Read-only current predecessor inventory snapshots: replay15 443 files / 239,083,394 bytes / tree digest `15BC1CAC5D48AFB770CB8C9C8DF80485C715832ABF8B74378FD506053385A860`; v26 28 files / 355,125 bytes / tree digest `BB8235E7E4BB4D00CAF3BBBDD6928C6FB2F2F5B218695B3D5F12C8935AA208A0`.
+  - Focused mutation/runtime test execution was attempted for `test_semantic_structure.py` and `test_author_reviewed_semantic_decisions.py`, but both available Python runtimes lack the `pytest` module (`No module named pytest`). No mutation tests were run. Static candidate assertions above completed successfully.
+- Blockers: pytest-based focused and mutation tests are unavailable in the current runtimes; candidate artifact checks pass.
+- Next action: L6 independent implementation review may proceed using this receipt and the current replay16/v27 artifacts.
+- Elapsed time: approximately 10 minutes.
+- Token use: unavailable.
+- Timestamp: `2026-09-17 19:47:00 UTC`.

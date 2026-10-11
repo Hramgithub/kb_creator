@@ -1,0 +1,1624 @@
+{
+  "pages": [
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 1,
+      "page_markdown": {
+        "bytes": 105,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-001.md",
+        "sha256": "41651445508169B1CD84ED0E8EAA062DA69093779CC47BF392476066173F0CBB"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 2,
+      "page_markdown": {
+        "bytes": 1333,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-002.md",
+        "sha256": "9F1CBAFD65601D506C7BBC8EC445278FDC396E9D8C2E4A9F81386C1EB1492AE4"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 3,
+      "page_markdown": {
+        "bytes": 2002,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-003.md",
+        "sha256": "064B1AAF34B7A74A37DA794E85204A8A0C7ABEF2824EF92798C7C482D35C4F0E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 4,
+      "page_markdown": {
+        "bytes": 1982,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-004.md",
+        "sha256": "91A3FFD566A62CB48EE7421864D34281DA14B4F19C0F22DC07F00439053FAE78"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 5,
+      "page_markdown": {
+        "bytes": 1716,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-005.md",
+        "sha256": "78D1802EE3B44CC3BD5A011B68A3B9404CDA6E231E75A58C70862568C41FE33B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 6,
+      "page_markdown": {
+        "bytes": 3108,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-006.md",
+        "sha256": "C517B1CD54D4D6424B68FFE05A006A0DA43EB02872629090F5FC1167397D8195"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 7,
+      "page_markdown": {
+        "bytes": 2436,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-007.md",
+        "sha256": "5A204AFFC11D519294EAC6ECB720AC7D1EC397FE55BE430FDC45578091B06032"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 8,
+      "page_markdown": {
+        "bytes": 3325,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-008.md",
+        "sha256": "2DC33848BCCDB39B8052E7FB3C8A111AAC606EAD0643E03DDAD5E804D1518189"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 9,
+      "page_markdown": {
+        "bytes": 3449,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-009.md",
+        "sha256": "F4F107CD4D90F9C5D8DA5C587E53FEB875FA67A315F411E38276995A91C33EB4"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 10,
+      "page_markdown": {
+        "bytes": 3237,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-010.md",
+        "sha256": "1E24AD06155E941965001048E8A649E22074A7F8885062425F5560E8BB6A33BE"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 11,
+      "page_markdown": {
+        "bytes": 4170,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-011.md",
+        "sha256": "5B88ECF2DFCB9068E808267C8B61E8F0A65955166EA4A16FB8F391CFC9B09FF2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 12,
+      "page_markdown": {
+        "bytes": 5608,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-012.md",
+        "sha256": "75D8FA613649B55600188DBC324C6A9426D2A4DADD312482CBDE47090F5A42EC"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 13,
+      "page_markdown": {
+        "bytes": 1605,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-013.md",
+        "sha256": "9A38DCB38C9EAFA7F5159C902A14F521475B9B67280D01556917757E19F7743D"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 14,
+      "page_markdown": {
+        "bytes": 4550,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-014.md",
+        "sha256": "A8A1A5CAA2606A35D1FFDF01DCD31BEA158A93E53EFF45AFFAE7BD82D3911957"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 15,
+      "page_markdown": {
+        "bytes": 4000,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-015.md",
+        "sha256": "C9D6104F8AD5A5BB0F13919F43288DEE27B243CA418ADE86046873E4476F51FC"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 16,
+      "page_markdown": {
+        "bytes": 6253,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-016.md",
+        "sha256": "09167D785EEDA616084F07C29A6994A2CA836E0839BF2FDE3CBAEF4DE8583847"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 17,
+      "page_markdown": {
+        "bytes": 2864,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-017.md",
+        "sha256": "5B80425D12CF4FC4AFB79C65689F12C25064C983A85DDDEC6DFB26A5FC4E5CD6"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 18,
+      "page_markdown": {
+        "bytes": 6053,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-018.md",
+        "sha256": "70048CA32D866576321202B5EBFD3AC4472D7E0D77F240E9B235C30373809A0C"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 19,
+      "page_markdown": {
+        "bytes": 4113,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-019.md",
+        "sha256": "8D9DE49F0C34F196206A05F1A329F32A3526830CAAAB76B71CF7F59D340404A3"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 20,
+      "page_markdown": {
+        "bytes": 5093,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-020.md",
+        "sha256": "1B1BF7F5A0B35F584980C1D41D1D4CEC104FC2D653E9951FB8B3E93FCE7987B2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 21,
+      "page_markdown": {
+        "bytes": 6037,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-021.md",
+        "sha256": "2D5D5DA0375EB84D5A1AD4CE3A8048801E92DE1ABEB9B3C53D953DCA04B650AE"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 22,
+      "page_markdown": {
+        "bytes": 2088,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-022.md",
+        "sha256": "00190DFEB49CB7E941270961A7E05063CCFE3E532193264C00BBE0E6D951CDAD"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 23,
+      "page_markdown": {
+        "bytes": 2726,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-023.md",
+        "sha256": "07774133403693715C1944603A48CC1A9766EE8FE7448BD214740CC598C2D1A3"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 24,
+      "page_markdown": {
+        "bytes": 3571,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-024.md",
+        "sha256": "56A2629570361E9A7B741E6AE698759320B4428719D166D6607BF71840D9BD3B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 25,
+      "page_markdown": {
+        "bytes": 2599,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-025.md",
+        "sha256": "FC95F1AD637283CBE617C60B84CE7C8873F8C9A14710D94213D92EEA140D9508"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 26,
+      "page_markdown": {
+        "bytes": 50,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-026.md",
+        "sha256": "D3326F7D4A3B0135683F8646301834ADF979C572ADED048A59946EE19EF12B5B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 27,
+      "page_markdown": {
+        "bytes": 6399,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-027.md",
+        "sha256": "177FC3284B4913B1C80545E56A77018608B5785EE529DE78B1A3AC4683F7308A"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 28,
+      "page_markdown": {
+        "bytes": 5885,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-028.md",
+        "sha256": "C7834B7A1181EB0716756B3AA05C1F83FEF4C5A08F78DB8AF82C5814DED4E685"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 29,
+      "page_markdown": {
+        "bytes": 6140,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-029.md",
+        "sha256": "579D184BF79A72CCC88424D436883EC76E9455CADB9936CB5F4E06D21E1FAD6E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 30,
+      "page_markdown": {
+        "bytes": 6068,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-030.md",
+        "sha256": "00CFD7C9C9A55BE68F8FA18A365BA5E56C96BDE66B7A8618C4451108452FBCCC"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 31,
+      "page_markdown": {
+        "bytes": 4504,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-031.md",
+        "sha256": "1CD044E4DFC5D7D1B2018B7997C1BCC002346B8DBAC9F4B78E4C78AF517673D5"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 32,
+      "page_markdown": {
+        "bytes": 5180,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-032.md",
+        "sha256": "F8E23A5DFC598A36874F3E1D076B93F4DD61D67C159326499F22169B149EA7DD"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 33,
+      "page_markdown": {
+        "bytes": 4508,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-033.md",
+        "sha256": "E3A3F3B738AEF8E1EFFEF1F81D9ED1FDD18CAE7F4EDB3611DA736482514A18B4"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 34,
+      "page_markdown": {
+        "bytes": 5268,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-034.md",
+        "sha256": "D4FFF112B37202EA864D7AAB4FA7E964AAB52D3CF1B05DBFDD2384D3B0DC0C5B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 35,
+      "page_markdown": {
+        "bytes": 4902,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-035.md",
+        "sha256": "9C0274E86B84CF3C55195E43976DC55254DAF26CCF25A020043377AC4DCCCDDB"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 36,
+      "page_markdown": {
+        "bytes": 5744,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-036.md",
+        "sha256": "8914A856454225779C885490952ED5932BD8FCCE17946F07D058789FC85444B2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 37,
+      "page_markdown": {
+        "bytes": 5316,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-037.md",
+        "sha256": "FF2D538563D7CE1362EAF5B36B0765E391CD773AF8BCCFCCFA41362EB50E7EF1"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 38,
+      "page_markdown": {
+        "bytes": 5405,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-038.md",
+        "sha256": "0817967377FCE0F37D1C35CE9C0F45868C33E1806217B60C05DE46A350E7AEF2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 39,
+      "page_markdown": {
+        "bytes": 5261,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-039.md",
+        "sha256": "8A86BEE232C0D72DE0D6AF7F6543D2BCB43DE871AFA99B4FB89E174EBD3F8E1A"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 40,
+      "page_markdown": {
+        "bytes": 4713,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-040.md",
+        "sha256": "FB869AA4EFB07860BDB7D771694E0D036E47B16633AABB18C7F71E84E6BA36B0"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 41,
+      "page_markdown": {
+        "bytes": 5313,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-041.md",
+        "sha256": "4E222C462D0FA60E0C682B3CC81F1419A91E6D0A791D316E27A92812C02E00FD"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 42,
+      "page_markdown": {
+        "bytes": 5800,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-042.md",
+        "sha256": "E33A20193E95523C172260322C31C67BF48FEDCE317591357F78FDCA3AE098C7"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 43,
+      "page_markdown": {
+        "bytes": 5031,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-043.md",
+        "sha256": "78F5C6E482D92427B56234112FE26FAA67AFF500B7B99F2E5139BDBCCBE6F7FF"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 44,
+      "page_markdown": {
+        "bytes": 5619,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-044.md",
+        "sha256": "59577146DEE03FD26657979ACBF4A2643E79AC466E04BABDB32C234EE2B754E5"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 45,
+      "page_markdown": {
+        "bytes": 5599,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-045.md",
+        "sha256": "386E93C5EF475DF13AE3F60FA226CE46FF97B6DAA698F092E0BEA90A6FCF6927"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 46,
+      "page_markdown": {
+        "bytes": 5367,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-046.md",
+        "sha256": "D2C1561D2AD5AF7FA5E233A9C0D57C359DF0A2E9C5B6607B18FCAEFBA1FB23CE"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 47,
+      "page_markdown": {
+        "bytes": 5402,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-047.md",
+        "sha256": "793AAB3392509334392EDAFF8928E738920D78912F3C199A63CA8007BAB4298E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 48,
+      "page_markdown": {
+        "bytes": 5254,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-048.md",
+        "sha256": "DD6E87F77901FE7BD57B4EAD1CB802C3BF601F6108636D5BF3F18B80AD642417"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 49,
+      "page_markdown": {
+        "bytes": 5283,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-049.md",
+        "sha256": "2EEF6854F86551E1FCE49D2CE985825AA43515AC79D6A3F95B716175A111E6D6"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 50,
+      "page_markdown": {
+        "bytes": 5622,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-050.md",
+        "sha256": "876A3B56FA3A144D5A8D5B883304ED6D0BE31A630F3CD3C4776995ABDDA443A2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 51,
+      "page_markdown": {
+        "bytes": 4547,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-051.md",
+        "sha256": "1AB085AABF3276AA8BE65BBC05AC5368E0294F29A69CB7075146B85FD7F516C8"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 52,
+      "page_markdown": {
+        "bytes": 3366,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-052.md",
+        "sha256": "1EBEA50AD538E13A473957E615FF74D2F35CAD41C7F7371DD81D5E193726F1AB"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 53,
+      "page_markdown": {
+        "bytes": 170,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-053.md",
+        "sha256": "94EFEFF975BE78BEA040886E2234DCB6F5780BB4C34C928B0B008FA80E0F386E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 54,
+      "page_markdown": {
+        "bytes": 2615,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-054.md",
+        "sha256": "5065F7D0CC9413AABF1BC8BA226F51CB07E672B2F757BEB19A072263ACE9F822"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 55,
+      "page_markdown": {
+        "bytes": 5259,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-055.md",
+        "sha256": "76860FBBC5D8EFAE2AB53303A6A1E9157440C624858B98E54FC954DA7E1C5DF6"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 56,
+      "page_markdown": {
+        "bytes": 3268,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-056.md",
+        "sha256": "4F829CC7AC2237DDC8CF6149A97AB8B7BB21C505F50E7D0DEADD92C18D84026A"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 57,
+      "page_markdown": {
+        "bytes": 1840,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-057.md",
+        "sha256": "9E45DED5E04A2C7578A922BBDF7A3BC0F3D7D8F61A7EF4CA2DAAE2A7EC3B3B8C"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 58,
+      "page_markdown": {
+        "bytes": 4159,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-058.md",
+        "sha256": "3A098590343A9E061DB29D571EC0F811BE66B820CECF17D7E536C0F9C4D73CCF"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 59,
+      "page_markdown": {
+        "bytes": 5154,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-059.md",
+        "sha256": "4AF5C7FB5A4CECC719D5CB2DE81DB876A8C5EAB41C65005BD57BFE8EB105E1BF"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 60,
+      "page_markdown": {
+        "bytes": 4313,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-060.md",
+        "sha256": "927456B2887C885FD83A15339975B9470615242673805FF4F7F4BF2796F6D9FF"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 61,
+      "page_markdown": {
+        "bytes": 5615,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-061.md",
+        "sha256": "4D933BE03ED9665D596ED552499444F595304513E3EE4DE64F58DA6339FCCF0A"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 62,
+      "page_markdown": {
+        "bytes": 4814,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-062.md",
+        "sha256": "FF3ED8165CA5F996A226E6D45DD9BD87463F236E08747DBDCF00E0536BD41035"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 63,
+      "page_markdown": {
+        "bytes": 3731,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-063.md",
+        "sha256": "FCA8151FA74F3FBD5FB479BB4153C826B6ED937FB776CD5D83CDAB0D04138A70"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 64,
+      "page_markdown": {
+        "bytes": 4849,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-064.md",
+        "sha256": "87B54B7FBEDB8C3FACD8883E4A346246758C0EE21E7BC654DAACD8672D055DA0"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 65,
+      "page_markdown": {
+        "bytes": 4897,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-065.md",
+        "sha256": "C01CD4DC368BB6F4EE3A1B1AF863BD0E1F18CEE58369F9D4CBCEDF60A065CB59"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 66,
+      "page_markdown": {
+        "bytes": 2356,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-066.md",
+        "sha256": "8184469DD92FD1FDDB2F0D71077AC6CD57202E9CB46CB548614DB377D853AD71"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 67,
+      "page_markdown": {
+        "bytes": 4124,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-067.md",
+        "sha256": "CB1ABD6470BA765C6E877B2904EA81E1B8108AF10B8060B052F114A6202FB71B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 68,
+      "page_markdown": {
+        "bytes": 5068,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-068.md",
+        "sha256": "B59A58344D12C58F9105D0AB9E4F42D4595EBFF9EA72A320D9ED5353FF1F3384"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 69,
+      "page_markdown": {
+        "bytes": 410,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-069.md",
+        "sha256": "360A6FA70F6BBFEA87EA34AD77452C0A24AF52A133935703EF7A2F994697D506"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 70,
+      "page_markdown": {
+        "bytes": 4001,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-070.md",
+        "sha256": "2A0D2757AD5EAF292D361A616AA299BA45FEC36674072118F6CF61D132881E4E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 71,
+      "page_markdown": {
+        "bytes": 3324,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-071.md",
+        "sha256": "C7AE7C04F0D1B73A6C8CC560088B8F324977632870B0F866FF7DC05688BE79D9"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 72,
+      "page_markdown": {
+        "bytes": 5335,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-072.md",
+        "sha256": "4227015F5FA7F385C0D1712385F9C9621D5A01DD77E8ECF4899ACA35A521CD95"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 73,
+      "page_markdown": {
+        "bytes": 3014,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-073.md",
+        "sha256": "6861C251D6AE02BBBBC8AB177871C9431F028AE5AAF1AB821AB4F920502F19CF"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 74,
+      "page_markdown": {
+        "bytes": 2364,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-074.md",
+        "sha256": "456BD678E417BAFA598FD72258584C7BDA331E68FF73EBD7EE9C5CB0241820E7"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 75,
+      "page_markdown": {
+        "bytes": 2578,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-075.md",
+        "sha256": "537BA9DEA050A9B749D6903FB014AC0095364E24D4B8CBC78A24C7D6CD44357D"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 76,
+      "page_markdown": {
+        "bytes": 210,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-076.md",
+        "sha256": "35A3CA1CEA81A548E4638C2F258CC40270DFB4B74A0F5B80F4416BAA026DE551"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 77,
+      "page_markdown": {
+        "bytes": 186,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-077.md",
+        "sha256": "856A217003EAC8C4F61808E10E04212F01A25AD1D3E4583264CFCE7983141503"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 78,
+      "page_markdown": {
+        "bytes": 675,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-078.md",
+        "sha256": "0B5D7DD54937C9B3F15C00673B682D9D07C2A56481D217A4E530BEC5C727A75E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 79,
+      "page_markdown": {
+        "bytes": 1463,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-079.md",
+        "sha256": "533F8D0609F8DA88DA59935F2940F768FAF7A7FFB265007BC9F81A37F111DDA2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 80,
+      "page_markdown": {
+        "bytes": 1477,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-080.md",
+        "sha256": "F354918E9F6265A1817544FAE80540B45B50478E1B19A550F1E2EB38AE96A434"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 81,
+      "page_markdown": {
+        "bytes": 318,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-081.md",
+        "sha256": "9EC89F04C27F6766B13371A06DFB361B7DA192B90CAA4EC491B963E92193D016"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 82,
+      "page_markdown": {
+        "bytes": 2187,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-082.md",
+        "sha256": "96DBBF94B2757293DFEF66180575FBC13D2282FBAC31EC8B9AD1D4C873A33260"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 83,
+      "page_markdown": {
+        "bytes": 1624,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-083.md",
+        "sha256": "1C47652277E401DC7DB3319A612C4A5926586F8AD31D68DD1BA1498F773E8245"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 84,
+      "page_markdown": {
+        "bytes": 1188,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-084.md",
+        "sha256": "A5E2C78C455405E20566B4F1B7BAA2CA954FDE0F6FAE00E11ACD07670C7B1D1E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 85,
+      "page_markdown": {
+        "bytes": 1098,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-085.md",
+        "sha256": "857DACEB848ECAE4B01DB1E2CBD29F31DA526E8DCC0ADD0FD28FADA6697F0FA4"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 86,
+      "page_markdown": {
+        "bytes": 923,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-086.md",
+        "sha256": "E2C767A8F778B063A9C8AB3C7C09DFCEA95130193A1756B6419F899AE31A7EB5"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 87,
+      "page_markdown": {
+        "bytes": 1041,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-087.md",
+        "sha256": "69A1F5760D70786635ED968DE960AE6889B523FC9A2D99EA8DEDFDD8AF08EB2D"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 88,
+      "page_markdown": {
+        "bytes": 1150,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-088.md",
+        "sha256": "A322BBFD05F71C03DEB7BE16FCF269A4742A28441D8EFC7BC9CA9BB08AE363DA"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 89,
+      "page_markdown": {
+        "bytes": 1031,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-089.md",
+        "sha256": "29B560B0119C830C873E868EF12124504FC38D6371D9B2E094A2CC4E858E157C"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 90,
+      "page_markdown": {
+        "bytes": 1053,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-090.md",
+        "sha256": "584F74101CA0791681C5D2E6AB95758DA48B5A961BC67C2AAB9C47E3593C4E50"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 91,
+      "page_markdown": {
+        "bytes": 863,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-091.md",
+        "sha256": "BD90DDADBCCC1C7E543F162514CC27A59163254EBD8F2BB9CB7417B1FAE05A7D"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 92,
+      "page_markdown": {
+        "bytes": 1072,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-092.md",
+        "sha256": "2956C03B72CF1D036FCE90F197FFBD54D1EB7BFF13379472DA06BAA7E17E3CC1"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 93,
+      "page_markdown": {
+        "bytes": 1606,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-093.md",
+        "sha256": "4A366A953F016E8433C29442F8BD10FC8D2843A238BBC50B4430FF91D7DA3C6B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 94,
+      "page_markdown": {
+        "bytes": 190,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-094.md",
+        "sha256": "67B457FFF1AF09AC04409CD4FF48BF63D5C18B297BB63343E2A2537F74B6C4E0"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 95,
+      "page_markdown": {
+        "bytes": 186,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-095.md",
+        "sha256": "2877E50DE4B94B2B035E1594177E67157EE7B9A9F0EADA56DCF32041F71DE4AB"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 96,
+      "page_markdown": {
+        "bytes": 227,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-096.md",
+        "sha256": "D33EB61CECE126899AE7FE2D32A222C76B3EBA9063068813D7A8888B8EA7C2A2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 97,
+      "page_markdown": {
+        "bytes": 220,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-097.md",
+        "sha256": "57A61793E5C9D9BFAC981976E75316022B98F4C2322407A543014ED0A064E4D7"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 98,
+      "page_markdown": {
+        "bytes": 196,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-098.md",
+        "sha256": "77E9D173998720B1691742954C0950E1135DA467ADFD6E3C8DCD0E35BE647BBA"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 99,
+      "page_markdown": {
+        "bytes": 209,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-099.md",
+        "sha256": "B401F738A953C3017DEA78A9261451DB3E54A2D968EFC0B0A55ED927BEA9CB9C"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 100,
+      "page_markdown": {
+        "bytes": 956,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-100.md",
+        "sha256": "C461D3A630AF1B5EBCFDD04AF7C94C0D951CB4BFDCD86CE12E1396DD719F0DA5"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 101,
+      "page_markdown": {
+        "bytes": 351,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-101.md",
+        "sha256": "B64EF1A891042174CA20593DA8C748543CBFA9FB4C58E85A33A3AE3048A3582D"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 102,
+      "page_markdown": {
+        "bytes": 193,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-102.md",
+        "sha256": "9039CC8967BC4E340E0C52EA457E5A3180D8CE8A803BEC64776831D105F6D0DA"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 103,
+      "page_markdown": {
+        "bytes": 189,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-103.md",
+        "sha256": "09D5F9ECDAE2AA2DC93AAE388C40B5E72AF511C56F48A5F29D71831CC3BFC662"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 104,
+      "page_markdown": {
+        "bytes": 409,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-104.md",
+        "sha256": "5CE88302B0AEEEFD4A059F5E1974B69F8A66A0F8EA2DFF2A4AC213490D42387E"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 105,
+      "page_markdown": {
+        "bytes": 561,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-105.md",
+        "sha256": "D8CF9A237F4F518BD8C5EFF9485CFFDDAE93457EA0026207F64129D067F55881"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 106,
+      "page_markdown": {
+        "bytes": 804,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-106.md",
+        "sha256": "2285212841523A49A956AB132EFB01BDE8646CB0F84EE45D3903F2A3AED979A2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 107,
+      "page_markdown": {
+        "bytes": 268,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-107.md",
+        "sha256": "15C06EAA1D6592D487793579480CC38B79C1D1FF240B4B94F35CDA617CF33B53"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 108,
+      "page_markdown": {
+        "bytes": 398,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-108.md",
+        "sha256": "CD8FCBFE6C44657170E9413A5EC6B97808A4AA501E2DBFA6136A010E8D3F8883"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 109,
+      "page_markdown": {
+        "bytes": 304,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-109.md",
+        "sha256": "28912DC6DFA0E84E086B9C92E77A7D51AE75FF5191B06EC42E70C3395B7E1213"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 110,
+      "page_markdown": {
+        "bytes": 234,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-110.md",
+        "sha256": "EDFB659A61F391C1BC704476B22F5E43BDC478B00079368ED73E7ADC7D04E7DB"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 111,
+      "page_markdown": {
+        "bytes": 230,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-111.md",
+        "sha256": "78827B06632CB2C05ED404C1738364BAB4FD1D03278799C9CB15A30AC2BC7E0B"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 112,
+      "page_markdown": {
+        "bytes": 2995,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-112.md",
+        "sha256": "37553863072E88792F7BD00FE2AF89EF849716B97496C4771DCF11D8643BE122"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 113,
+      "page_markdown": {
+        "bytes": 228,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-113.md",
+        "sha256": "0802EEED0ED33C6BA077813F39EFAA2753DBB7EE58E3D6D3D907C86DC993D4A9"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 114,
+      "page_markdown": {
+        "bytes": 2867,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-114.md",
+        "sha256": "475EA482CF26ECF69FCC0572829FBD1314B0B0C8F8BAAF5A007A851D471E18F2"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 115,
+      "page_markdown": {
+        "bytes": 242,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-115.md",
+        "sha256": "F46718688AA9062D36B042D4C42778C98BA808099C8ADFA41FBD6DED0AC07B94"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 116,
+      "page_markdown": {
+        "bytes": 2798,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-116.md",
+        "sha256": "2CB20BA0761D6FA0E1BC7F1B9A1C807624FDF9E1F81C341922B29B38D60E06F6"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 117,
+      "page_markdown": {
+        "bytes": 226,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-117.md",
+        "sha256": "BD174B05BC713A0F871930E543EDC6AD1CA24B0470785B159BEABAB96342CF37"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 118,
+      "page_markdown": {
+        "bytes": 2946,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-118.md",
+        "sha256": "E56DDC12E388284D80DF042B3C8212AD5117FBCC52B43C1C508B09F017FDDCAC"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 119,
+      "page_markdown": {
+        "bytes": 201,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-119.md",
+        "sha256": "AC927C5D00EC1CED175BBCBC1B4BBB14B089ECC023FCEE213BEC16527631299D"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 120,
+      "page_markdown": {
+        "bytes": 2587,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-120.md",
+        "sha256": "E4A945161457AEFCDFDBA641B3E3F5D0A4F4FB6CBACDCCB7B7C699AD8AFFEB66"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 121,
+      "page_markdown": {
+        "bytes": 207,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-121.md",
+        "sha256": "95E02B68EC02A1EBB7BA288AE50520B93E60583BEAD790AF669E884B181C4251"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 122,
+      "page_markdown": {
+        "bytes": 1379,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-122.md",
+        "sha256": "212FDC3F7A9FD72E1044A7F582805E91DAE75626E99077AA94F3F220A0252684"
+      },
+      "publication_disposition": "reader",
+      "publish_reader_content": true,
+      "reason": "accepted reconstruction reader page"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 123,
+      "page_markdown": {
+        "bytes": 815,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-123.md",
+        "sha256": "36EA07189F6B11FBB0B3E439519735B0D5CC82CD8F17ECCD9307187383B80C91"
+      },
+      "publication_disposition": "excluded_advertising",
+      "publish_reader_content": false,
+      "reason": "advertising excluded from reader"
+    },
+    {
+      "audit_disposition": "reconstructed",
+      "decision_date": "2026-09-02",
+      "page": 124,
+      "page_markdown": {
+        "bytes": 1081,
+        "path": "kb_creator/working/viral/source_reconstruction/20260901_step6a_reconstructed_en_package_v4/pages/page-124.md",
+        "sha256": "DD5EAF87A9CE8B91666A031F6976A372A8B881236C3B07C9F9E17A38FBF8272C"
+      },
+      "publication_disposition": "excluded_advertising",
+      "publish_reader_content": false,
+      "reason": "advertising excluded from reader"
+    }
+  ],
+  "scenario_id": "viral",
+  "schema": "kb_creator.source_disposition.v2",
+  "summary": {
+    "audit_disposition": "reconstructed",
+    "excluded_advertising_pages": 2,
+    "page_count": 124,
+    "reader_pages": 122
+  }
+}

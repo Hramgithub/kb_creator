@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "kb_creator.page_semantic_structure.v1",
+  "type": "object", "additionalProperties": false, "required": ["schema", "review", "units"],
+  "properties": {"schema": {"const": "kb_creator.page_semantic_structure.v1"}, "review": {"type": "object"}, "units": {"type": "array", "items": {"type": "object"}}}
+}

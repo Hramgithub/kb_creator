@@ -1,0 +1,20 @@
+{
+  "schema": "kb_creator.master_en_publication.v3",
+  "scenario_id": "dissociation",
+  "inputs": {},
+  "projection": {
+    "output_name": "MASTER_EN.md",
+    "excluded_source_pages": [],
+    "page_marker_policy": "source_page_comment_v1",
+    "anchor_policy": "preserve_v1",
+    "asset_policy": "copy_markdown_references_v1"
+  },
+  "required_qa": [
+    "accepted_upstream_identity",
+    "exact_source_projection",
+    "source_disposition_closure",
+    "asset_manifest_closure",
+    "candidate_inventory_closure",
+    "independent_v3_verification"
+  ]
+}

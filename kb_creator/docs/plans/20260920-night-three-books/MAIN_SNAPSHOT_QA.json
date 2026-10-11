@@ -1,0 +1,15 @@
+{
+  "state": "passed",
+  "artifacts_checked": 216,
+  "lfs_pointers": 211,
+  "plain_artifacts": 5,
+  "source_documentation_checked": 373,
+  "python_syntax_checked": 283,
+  "errors": [],
+  "forbidden_new_paths": [],
+  "candidate_tree": "1b19cafb054505e7ec1597bccc058b9c9e210691",
+  "local_main_user_files_unchanged": true,
+  "book_acceptance": false,
+  "independent_review": "handoffs/N369-main-snapshot-review-v01.json ALLOW",
+  "reviewed_manifest_sha256": "AE4CF9786E588C3553311A75DABE1BA1620F9B1F8EA4EA801E3EE81F126BD92F"
+}

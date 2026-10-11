@@ -1,0 +1,47 @@
+{
+  "schema": "kb_creator.reviewed_semantic_draft_spec.v1",
+  "semantic_structure_profile": "reviewed_role_outline_and_partitions_v2",
+  "pages": [
+    {
+      "source_page": 1,
+      "role_contract": {
+        "group_id": "synthetic-body",
+        "role": "body"
+      },
+      "units": [
+        {
+          "id": "p001-body-1",
+          "kind": "paragraph",
+          "representation": "prose",
+          "view": "original_pipeline_txt",
+          "raw_indices": [
+            0
+          ],
+          "start": "Synthetic paragraph",
+          "end": "Synthetic paragraph",
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": null,
+          "item_count": null
+        },
+        {
+          "id": "p001-body-2",
+          "kind": "paragraph",
+          "representation": "prose",
+          "view": "original_pipeline_ocr",
+          "raw_indices": [
+            1
+          ],
+          "start": "Beta",
+          "end": "Beta",
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": null,
+          "item_count": null
+        }
+      ]
+    }
+  ]
+}

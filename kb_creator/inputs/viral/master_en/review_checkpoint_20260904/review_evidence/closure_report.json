@@ -1,0 +1,49 @@
+{
+  "schema": "kb_creator.semantic_unit_closure.v2",
+  "candidate_count": 429,
+  "decision_count": 429,
+  "family_counts": {
+    "advice_callout": 1,
+    "appearance_variant": 14,
+    "composite_web_panel": 8,
+    "creature_statblock": 2,
+    "equipment_card": 49,
+    "full_page_map_handout": 19,
+    "hospital_group_or_run_in": 162,
+    "keepers_notes": 65,
+    "logical_table": 87,
+    "pregen_character_sheet_pair": 11,
+    "sight_panel": 9,
+    "stream_schedule": 2
+  },
+  "required_family_coverage": {
+    "character_quick_references": 14,
+    "appearance_variants": 14,
+    "keepers_notes": 65,
+    "sight_panels": 9,
+    "stream_schedule": 2,
+    "hospital_group_run_in_rooms": 162,
+    "p55_equipment_card": 49,
+    "p68_advice": 1,
+    "table_families": 87,
+    "creature_statblocks": 2,
+    "map_unit": 19,
+    "pregen_page_pairs": 6
+  },
+  "unresolved_blocking_candidates": [],
+  "unresolved_blocking_count": 0,
+  "blocking_registry_families_closed": true,
+  "deferred_nonblocking": [
+    "OUT-008",
+    "ENH-001"
+  ],
+  "excluded_audit_pages": [
+    123,
+    124
+  ],
+  "identities": {
+    "pages_tree_sha256": "9A5E21124F232E842024039531C82EA3CF834484EE791DD9D7AD0769C1B722DB",
+    "user_registry_sha256": "D20414D48405A761ADD31E538B6940F8A3E0F1FB11044AF73EAD122D96C616E8",
+    "frozen_config_sha256": "C16DFA975F3F05DFCE923CDD54A56B1069B9A8337C70809B0DC99771CDF63B30"
+  }
+}

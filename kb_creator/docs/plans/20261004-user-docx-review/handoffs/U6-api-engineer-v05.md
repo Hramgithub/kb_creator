@@ -1,0 +1,23 @@
+# U6 API engineer handoff v05 — whole visible numeric operand
+
+- Goal / step: `20261004-user-docx-review` / finite F6 split-operand remediation.
+- Timestamp: 2026-10-04 22:12 UTC (2026-10-05 01:12 Europe/Moscow). Elapsed: approximately three minutes from assignment to evidence freeze; exact platform usage unavailable. Token use: unavailable.
+- Contributor assignment: engineering policy `gpt-6-sol` / high; actual platform model and effort unavailable, assignment state `platform-unverified`. Orchestrator policy owner remains main `/root`, `gpt-6-sol` / medium. Scoped role override: none.
+- Result: frozen critic v04's F6 adjacent-run suffix and prefix defects now reject; supported full-operand and delimiter controls still pass. This is implementation evidence, **not independent approval or release**. No real DOCX candidate was reauthored.
+
+## Bounded change
+
+- `kb_creator/pipeline/reviewed_docx_revision.py`: characteristic operand completeness now examines the selected digit position in the paragraph's visible inline sequence, not only its own `w:t` leaf. Direct runs, multiple text leaves in one run and hyperlink text are included; zero-width bookmark/comment/proofing markers are skipped; tabs and line breaks act as visible delimiters. Effective hidden runs do not contribute visible characters. Unsupported inline content adjacent to the operand fails closed. A selected `3` with adjacent visible `1` cannot pass as a complete characteristic `3`, regardless of exact resealing. The prior F1–F4 and F3 controls remain unchanged.
+- `kb_creator/tests/test_source_bound_word_fields.py`: added reverse-direction adjacent-run cases, a zero-width bookmark between digit runs, hyperlink and same-run-leaf split cases, and a positive complete `13`→`65` with adjacent `; Удача: 75`. Earlier 22 focused cases were retained. `kb_creator/tests/test_reviewed_docx_revision.py` was checked, not edited.
+- `kb_creator/docs/reviewed-docx-revision.md`: documented the cross-inline operand boundary. New scoped harnesses/results are only in `kb_creator/docs/plans/20261004-user-docx-review/audit/api-remediation-v05/`: `run_tests_v05.py`, `test-evidence-v05.json`, `check_v05.py`, `readonly-evidence-v05.json`. Prior critic probes, inputs and receipts were read-only.
+
+## Verification and immutable identities
+
+- Focused suite: **23/23 pass**, zero failures/errors with bundled Python and a new audit-local temporary root. Evidence `test-evidence-v05.json` SHA-256 `72156EAB2CB4FA7048DB2AA3658F7CEF8491CD62387CB16DB126A46283649C08`. A normal-sandbox attempt failed only on temporary fixture write/cleanup permissions; the identical narrow harness passed with the elevated backend. Audit temporary remnants remain outside commit scope.
+- `readonly-evidence-v05.json` SHA-256 `285032DB56E8A374ED12D00234D9615BDF7EA962DFDADAC5F83630043D610FE4` binds the critic's **six frozen resealed numeric fixtures** without changing them: same-leaf suffix/prefix and adjacent-run suffix/prefix reject; full operand and delimiter-neighbor accept. The prior 10 independent critic probes retain one valid accept and nine invalid rejects. All three real manifest/source/authority plans pass under the fixed API (0 Fear, 145 Leningrad, 6 Kremlin field nodes); independent payload restoration, all 146 numeric source-QA identities and all 367 bound QA page hashes pass read-only.
+- Existing candidate hashes remain Fear `D79AB0EC131D2C6926D868EB037786093F615AEAF122895AA4487254616CF33E`, Leningrad `CC3A1F96D82121C07938D860EF88186AA33A32199B578D4C7C2DE05F4C83AD23`, Kremlin `5573888152F7EDAB32D483E4D652FD465694BFBF1764CC708C3EF7C042AA87D8`. This retains their prior bounded structural/visual evidence, not a claim that this changed API authored them.
+- Changed-file freeze: API `ECF14988614230151542B5EFE358A1FF1A8554A7B6718BCF00AFBE7AADBB5A90`; source-field tests `072FC2DB271351AD5007CA031BB79FCEE91E83E729EFD8E056E742AA897EEB01`; docs `8744AFC8392240B095EA9E9842976E77DD63F66D69C6C0A4920F9ADE6EFCD9BC`. Unchanged general revision tests `7E7DB7488794F32696B2FE971305FBC12D378FAA686EA73EE83AE8F84BEA3D38`; CLI and pure OOXML/visibility helpers were not edited.
+
+## Limits and next action
+
+No valid real manifest rejected, so no actual book rewrite was requested or performed. Unsupported split numeric conversions may fail closed; no rich paragraph flattening, new OCR/translation, HTML/PDF, latest/source/old-ledger mutation, normal-pipeline or `production_docx` edit, canonical-state edit, commit or push occurred. Main should obtain a fresh independent `gpt-6-astra` implementation review on this frozen code/evidence. Separate U8 production guard and final release decisions remain main-owned and pending.

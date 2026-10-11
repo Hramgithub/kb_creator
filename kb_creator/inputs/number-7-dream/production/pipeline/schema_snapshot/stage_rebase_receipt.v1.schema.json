@@ -1,0 +1,6 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"kb_creator.stage_rebase_receipt.v1","type":"object","additionalProperties":false,
+  "required":["schema","stage_id","run_identity_sha256","intake_sha256","source_run_identity_sha256","source_manifest","source_output_inventory_sha256","copied_payloads","rebased_wrappers","origin_inventory","operational_inventory","operational_inventory_sha256","producer_invoked","semantic_content_changed","acceptance_inferred","rebase_sha256"],
+  "properties":{"schema":{"const":"kb_creator.stage_rebase_receipt.v1"},"stage_id":{"enum":["01-prepare-inputs","02-mineru-three-view","03-compare-views","04-visual-merge-bundle"]},"run_identity_sha256":{"$ref":"#/$defs/sha"},"intake_sha256":{"$ref":"#/$defs/sha"},"source_run_identity_sha256":{"$ref":"#/$defs/sha"},"source_manifest":{"type":"object"},"source_output_inventory_sha256":{"$ref":"#/$defs/sha"},"copied_payloads":{"type":"array"},"rebased_wrappers":{"type":"array"},"origin_inventory":{"type":"array"},"operational_inventory":{"type":"array"},"operational_inventory_sha256":{"$ref":"#/$defs/sha"},"producer_invoked":{"const":false},"semantic_content_changed":{"const":false},"acceptance_inferred":{"const":false},"rebase_sha256":{"$ref":"#/$defs/sha"}},
+  "$defs":{"sha":{"type":"string","pattern":"^[A-F0-9]{64}$"}}
+}

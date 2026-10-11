@@ -1,0 +1,350 @@
+{
+  "source_page": 1,
+  "semantic_role": "body",
+  "review": {
+    "visual_reviewed": false,
+    "state": "mechanical_candidate"
+  },
+  "markdown": "Synthetic paragraph",
+  "entries": [
+    {
+      "ordinal": 0,
+      "chosen_view": "original_pipeline_txt",
+      "raw_index": 0,
+      "source_keys": [
+        {
+          "view": "original_pipeline_txt",
+          "raw_index": 0
+        },
+        {
+          "view": "original_pipeline_ocr",
+          "raw_index": 0
+        },
+        {
+          "view": "raster_pipeline_ocr",
+          "raw_index": 0
+        }
+      ],
+      "alternatives": [
+        {
+          "view": "original_pipeline_txt",
+          "blocks": [
+            {
+              "raw_index": 0,
+              "type": "text",
+              "bbox": [
+                0,
+                0,
+                100,
+                8
+              ],
+              "text": "Synthetic paragraph",
+              "text_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        },
+        {
+          "view": "original_pipeline_ocr",
+          "blocks": [
+            {
+              "raw_index": 0,
+              "type": "text",
+              "bbox": [
+                0,
+                0,
+                100,
+                8
+              ],
+              "text": "Synthetic paragraph",
+              "text_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        },
+        {
+          "view": "raster_pipeline_ocr",
+          "blocks": [
+            {
+              "raw_index": 0,
+              "type": "text",
+              "bbox": [
+                0,
+                0,
+                100,
+                8
+              ],
+              "text": "Synthetic paragraph",
+              "text_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        }
+      ],
+      "source_text_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+      "assets": [],
+      "table_body_sha256": null,
+      "correction": null,
+      "text_selection": {
+        "rule": "three_view_exact",
+        "output_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+        "view_status": {
+          "original_pipeline_txt": "selected",
+          "original_pipeline_ocr": "corroborating",
+          "raster_pipeline_ocr": "corroborating"
+        }
+      },
+      "disposition": "emitted",
+      "rule": "paragraph.v1",
+      "reader_span": {
+        "start_line": 1,
+        "end_line": 1,
+        "sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E"
+      },
+      "reader_text": "Synthetic paragraph",
+      "assets_emitted": [],
+      "unit": {
+        "kind": "paragraph",
+        "source_offsets": [
+          {
+            "view": "original_pipeline_txt",
+            "raw_index": 0,
+            "field": "text",
+            "source_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+            "start": 0,
+            "end": 19
+          },
+          {
+            "view": "original_pipeline_ocr",
+            "raw_index": 0,
+            "field": "text",
+            "source_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+            "start": 0,
+            "end": 19
+          },
+          {
+            "view": "raster_pipeline_ocr",
+            "raw_index": 0,
+            "field": "text",
+            "source_sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E",
+            "start": 0,
+            "end": 19
+          }
+        ],
+        "asset_bindings": [],
+        "reader_span": {
+          "start_line": 1,
+          "end_line": 1,
+          "sha256": "31BC6C8BE441F9A4B4D919718E99BAC06B5C5196B8841F2E1FB6106E868C4A6E"
+        }
+      }
+    },
+    {
+      "ordinal": 1,
+      "chosen_view": "original_pipeline_txt",
+      "raw_index": 1,
+      "source_keys": [
+        {
+          "view": "original_pipeline_txt",
+          "raw_index": 1
+        },
+        {
+          "view": "original_pipeline_ocr",
+          "raw_index": 1
+        },
+        {
+          "view": "raster_pipeline_ocr",
+          "raw_index": 1
+        }
+      ],
+      "alternatives": [
+        {
+          "view": "original_pipeline_txt",
+          "blocks": [
+            {
+              "raw_index": 1,
+              "type": "text",
+              "bbox": [
+                0,
+                10,
+                100,
+                18
+              ],
+              "text": "Alpha",
+              "text_sha256": "B1A96DD646BCCAA24CEF7A3DB22A6F995F05658F4F1C3272913E258C03E6FB24",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        },
+        {
+          "view": "original_pipeline_ocr",
+          "blocks": [
+            {
+              "raw_index": 1,
+              "type": "text",
+              "bbox": [
+                0,
+                10,
+                100,
+                18
+              ],
+              "text": "Beta",
+              "text_sha256": "703390318BD55AEF50B7823D2B90A846DEBFF99E6E3D401A24A921B733912A6D",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        },
+        {
+          "view": "raster_pipeline_ocr",
+          "blocks": [
+            {
+              "raw_index": 1,
+              "type": "text",
+              "bbox": [
+                0,
+                10,
+                100,
+                18
+              ],
+              "text": "Gamma",
+              "text_sha256": "A8AB3D5805C9214BC66B794F599CBCCD5A5958DC5A6A322EE81E3A68344C6DB7",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        }
+      ],
+      "source_text_sha256": "B1A96DD646BCCAA24CEF7A3DB22A6F995F05658F4F1C3272913E258C03E6FB24",
+      "assets": [],
+      "table_body_sha256": null,
+      "disposition": "hold"
+    },
+    {
+      "ordinal": 2,
+      "chosen_view": "original_pipeline_txt",
+      "raw_index": 2,
+      "source_keys": [
+        {
+          "view": "original_pipeline_txt",
+          "raw_index": 2
+        },
+        {
+          "view": "original_pipeline_ocr",
+          "raw_index": 2
+        },
+        {
+          "view": "raster_pipeline_ocr",
+          "raw_index": 2
+        }
+      ],
+      "alternatives": [
+        {
+          "view": "original_pipeline_txt",
+          "blocks": [
+            {
+              "raw_index": 2,
+              "type": "text",
+              "bbox": [
+                0,
+                20,
+                100,
+                28
+              ],
+              "text": "",
+              "text_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        },
+        {
+          "view": "original_pipeline_ocr",
+          "blocks": [
+            {
+              "raw_index": 2,
+              "type": "text",
+              "bbox": [
+                0,
+                20,
+                100,
+                28
+              ],
+              "text": "",
+              "text_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        },
+        {
+          "view": "raster_pipeline_ocr",
+          "blocks": [
+            {
+              "raw_index": 2,
+              "type": "text",
+              "bbox": [
+                0,
+                20,
+                100,
+                28
+              ],
+              "text": "",
+              "text_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+              "assets": [],
+              "table_body_sha256": null,
+              "semantic_evidence": {
+                "text_level": null
+              }
+            }
+          ]
+        }
+      ],
+      "source_text_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "assets": [],
+      "table_body_sha256": null,
+      "correction": null,
+      "text_selection": {
+        "rule": "three_view_exact",
+        "output_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "view_status": {
+          "original_pipeline_txt": "selected",
+          "original_pipeline_ocr": "corroborating",
+          "raster_pipeline_ocr": "corroborating"
+        }
+      },
+      "disposition": "excluded_empty"
+    }
+  ],
+  "unresolved": [
+    "three_view_content_mismatch"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "nri.goal_handoff_receipt.v1",
+  "goal_id": "20260920-night-three-books",
+  "step_id": "N368-latest-deliverables",
+  "role": "bounded QA",
+  "model": "gpt-6-luna (policy assignment; actual platform model unavailable)",
+  "effort": "medium",
+  "orchestrator_policy_owner": "main /root, gpt-6-sol medium",
+  "assignment_state": "platform-unverified",
+  "scoped_override": "none",
+  "timestamp_utc": "2026-09-28T20:12:43Z",
+  "elapsed": "approximately 8 minutes; exact start instant not captured",
+  "token_use": "unavailable",
+  "scope": "Read-only local inventory of six REVIEW_INDEX-bound current DOCX deliverables, associated latest available HTML, DOCX-export PDF previews, and only HTML-referenced assets. No rebuild, processing, Git operation, source mutation, or canonical-state edit. Receipts only.",
+  "result": "Finite inventory complete. Latest-only proposed selections are listed per book. Missing formats and stale Number 7 HTML are explicit. No acceptance or release state inferred.",
+  "files_checked": [
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N368-latest-deliverables-task.md",
+    "kb_creator/docs/plans/20260920-night-three-books/plan.md",
+    "kb_creator/docs/plans/20260920-night-three-books/context.md",
+    "kb_creator/PROJECT_STATUS.md",
+    "kb_creator/reports/checkpoints/20260928-pc-transfer/REVIEW_INDEX.json",
+    "kb_creator/inputs/cursed-idol/candidates/review-02/",
+    "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/",
+    "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/",
+    "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/",
+    "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/",
+    "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-candidate/",
+    "kb_creator/inputs/number-7-dream/production/",
+    "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/"
+  ],
+  "verification": {
+    "index": "All six DOCX path, state, byte count, and SHA identities match REVIEW_INDEX.json; acceptance_inferred=false.",
+    "asset_method": "HTML `assets/` references counted and deduplicated; copy only those referenced files, preserving relative paths. No page PNGs/contact sheets. HTML reference counts: 74, 14, 29 unique, 63, 0, 2 respectively.",
+    "pdf_method": "PDFs were selected only when named as preview/document export and/or bound by revision evidence. Source PDFs and OCR PDF variants are excluded.",
+    "checks": [
+      "Cursed Idol internal.html has 74 unique asset references; ASSET_MANIFEST lists 74.",
+      "Kremlin continuation internal.html has 14 unique asset references; its ASSET_MANIFEST lists 14.",
+      "Leningrad internal.html has 32 references / 29 unique; render inventory identifies the available PDF render as source_kind=docx_candidate. Exclude 65 page PNGs.",
+      "Fear V19 internal.html has 63 unique asset references.",
+      "Dissociation latest root HTML references exactly two assets; REVISION_MANIFEST binds latest DOCX, HTML, and PDF.",
+      "Number 7 submission has reviewed DOCX and its DOCX-derived preview PDF but no corresponding HTML. Older candidate and production HTML exist and are stale relative to the reviewed DOCX."
+    ]
+  },
+  "proposed_latest_only_copy_list": {
+    "destination": "a new latest-only export directory selected by main",
+    "items": [
+      {
+        "title": "Проклятый идол Манко Капака",
+        "state": "awaiting_user_review",
+        "docx": "kb_creator/inputs/cursed-idol/candidates/review-02/Проклятый идол Манко Капака.docx",
+        "html": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/internal.html",
+        "pdf": null,
+        "missing": ["DOCX-export PDF not found; do not use source/source.pdf"],
+        "assets": {
+          "root": "kb_creator/inputs/cursed-idol/candidates/review-02/artifacts/docx/assets/",
+          "select": "74 paths referenced by artifacts/docx/internal.html (matches artifacts/docx/ASSET_MANIFEST.json)"
+        },
+        "caveat": "Acceptance remains pending. Do not copy review page renders."
+      },
+      {
+        "title": "Secrets of the Kremlin, 1931",
+        "state": "ready_for_user_proofreading; acceptance pending",
+        "docx": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/docx/document.docx",
+        "html": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/internal.html",
+        "pdf": null,
+        "missing": ["DOCX-export PDF not found"],
+        "assets": {
+          "root": "kb_creator/inputs/secrets-of-the-kremlin-1931/candidates/review-02/docx-continuation/package/assets/",
+          "select": "14 paths referenced by docx-continuation/package/internal.html (matches package/ASSET_MANIFEST.json)"
+        },
+        "exclude": ["parallel docx-package/internal.html", "run-06 source and OCR PDFs", "render page PNGs"]
+      },
+      {
+        "title": "Shadows of Leningrad, 1938",
+        "state": "ready_for_user_proofreading; acceptance pending",
+        "docx": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/Тени Ленинграда.docx",
+        "html": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/internal.html",
+        "pdf": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/qa/render-n66-v02/document.pdf",
+        "assets": {
+          "root": "kb_creator/inputs/shadows-of-leningrad-1938/candidates/review-01/docx-package/assets/",
+          "select": "29 unique paths referenced by docx-package/internal.html; do not copy unreferenced manifest assets"
+        },
+        "exclude": ["65 QA page PNGs", "source PDF and MinerU source-view PDFs"]
+      },
+      {
+        "title": "Fear's Sharp Little Needles",
+        "state": "V19 working DOCX QA complete; final source/language binding and user-review package pending",
+        "docx": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/annotated/document.docx",
+        "html": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/internal.html",
+        "pdf": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/preview/document.pdf",
+        "assets": {
+          "root": "kb_creator/reports/checkpoints/20260927-night-three-books/fear-working-docx-v19/assets/",
+          "select": "63 paths referenced by internal.html"
+        },
+        "caveat": "Working artifact only; no final source/language binding or release acceptance."
+      },
+      {
+        "title": "Номер 7 — пользовательский DOCX",
+        "state": "awaiting_visual_review; release_state not_reviewed",
+        "docx": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/submission/Number_7_Dream_RU.reviewed.docx",
+        "html": null,
+        "pdf": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-submission/preview/Number_7_Dream_RU.pdf",
+        "assets": "No external HTML asset selection; DOCX media are embedded.",
+        "missing": ["Corresponding latest HTML unavailable"],
+        "exclude": [
+          "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-candidate/Number_7_Dream_RU.html (stale relative to human-reviewed DOCX)",
+          "kb_creator/reports/checkpoints/20260928-pc-transfer/review/number-7-dream-candidate/base_package/Number_7_Dream_RU.html (stale predecessor)",
+          "kb_creator/inputs/number-7-dream/production/Number_7_Dream_RU.html (frozen production predecessor)",
+          "kb_creator/inputs/number-7-dream/review-history/run29/Number_7_Dream_RU.pdf (older review artifact)"
+        ],
+        "caveat": "PDF is a preview; visual review and release remain pending."
+      },
+      {
+        "title": "Диссоциация — пакет73",
+        "state": "candidate_for_release_review; release_state not_reviewed",
+        "docx": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/Dissociation_RU.docx",
+        "html": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/Dissociation_RU.html",
+        "pdf": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/Dissociation_RU.pdf",
+        "assets": {
+          "root": "kb_creator/reports/checkpoints/20260928-pc-transfer/review/dissociation/assets/",
+          "select": ["alaska-map.jpg", "dissociation-cover.jpg"]
+        },
+        "exclude": ["base_package predecessor payload", "page renders/screenshots"]
+      }
+    ]
+  },
+  "blockers": [
+    "Cursed Idol DOCX-export PDF absent.",
+    "Kremlin DOCX-export PDF absent.",
+    "Number 7 HTML corresponding to the latest reviewed DOCX absent; older HTML must not be presented as current."
+  ],
+  "next_action": "Main selects/copies the listed available latest assets, HTML, PDF, and DOCX into its new latest-only export directory; resolve absent formats separately without rebuilding in this bounded step. Main retains plan/context/status/debt/scripts separately.",
+  "changed_files": [
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N368-latest-deliverables-v01.json",
+    "kb_creator/docs/plans/20260920-night-three-books/handoffs/N368-latest-deliverables-v01.md"
+  ],
+  "canonical_state_edited": false,
+  "git_changed": false
+}

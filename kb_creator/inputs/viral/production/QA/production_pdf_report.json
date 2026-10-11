@@ -1,0 +1,62 @@
+{
+  "action": "validated_word_export",
+  "blank_pages": [],
+  "checks": {
+    "docx_hyperlink_targets_resolve": true,
+    "docx_internal_hyperlinks": true,
+    "docx_review_callouts_highlighted": true,
+    "docx_toc_entries": true,
+    "docx_toc_hierarchy": true,
+    "docx_toc_hyperlinks": true,
+    "docx_toc_two_columns": true,
+    "pdf_internal_links_complete": true,
+    "pdf_no_blank_pages": true,
+    "pdf_no_orphan_near_empty_pages": true,
+    "pdf_toc_destination_text_matches": true,
+    "pdf_toc_destinations_resolve": true,
+    "pdf_toc_destinations_unique": true,
+    "pdf_toc_internal_links": true,
+    "pdf_toc_page_present": true,
+    "pdf_toc_sequence": true,
+    "pdf_uniform_a4": true
+  },
+  "config": "kb_creator/inputs/viral/production/build_config.json",
+  "counts": {
+    "blank_pages": 0,
+    "docx_callout_paragraphs": 325,
+    "findings": 0,
+    "internal_link_annotations": 103,
+    "named_destinations": 0,
+    "near_empty_pages": 0,
+    "pdf_bytes": 8661787,
+    "pdf_outline_entries": 158,
+    "pdf_pages": 116,
+    "toc_annotations": 53,
+    "toc_entries": 52,
+    "toc_logical_links": 52
+  },
+  "findings": [],
+  "generated_at_utc": "2026-09-12T17:50:12.672500+00:00",
+  "mode": "microsoft_word_export_as_fixed_format_pdf_with_heading_bookmarks",
+  "navigation_note": "The static two-column TOC and body cross-references use internal Word bookmarks and were validated in the PDF export.",
+  "near_empty_pages": [],
+  "page_sizes_points": [
+    [
+      595.32,
+      841.92
+    ]
+  ],
+  "production_pdf": "kb_creator/inputs/viral/production/Viral_RU.pdf",
+  "schema": "kb_creator.viral.word_pdf_export.v1",
+  "sha256": "FB093CF9D1F179433F115A9457A1A423D04793C7022DF10F2D457134D7A666EE",
+  "source_docx": "kb_creator/inputs/viral/production/Viral_RU.docx",
+  "source_docx_sha256": "521A790ABF1739EB39995400421FFD6807E9BB225B9F02E475FDE9A59F5A5CE6",
+  "status": "pass",
+  "visual_qa": {
+    "contact_sheets": 6,
+    "rendered_pages": 116,
+    "renderer": "Poppler pdftoppm",
+    "status": "pass",
+    "toc_page": 2
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.reader_fidelity_plan.v2",
+  "title": "Closed source-first reader-only DOCX projection plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "inventory", "review", "source_pdf", "master_ru", "projection", "config", "glossary_registry", "glossary_overlay", "policy", "placements", "edition_domain", "edition_rows", "terminology_rows", "section_domain", "section_reviews", "state", "plan_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.reader_fidelity_plan.v2"},
+    "inventory": {"$ref": "#/$defs/file"}, "review": {"$ref": "#/$defs/file"},
+    "source_pdf": {"$ref": "#/$defs/pdf"}, "master_ru": {"$ref": "#/$defs/file"},
+    "projection": {"$ref": "#/$defs/file"}, "config": {"$ref": "#/$defs/file"},
+    "glossary_registry": {"$ref": "#/$defs/file"}, "glossary_overlay": {"$ref": "#/$defs/file"},
+    "policy": {"type": "object", "additionalProperties": false, "required": ["target_edition", "edition_applicability", "rules_version", "reader_profile", "review_reference", "book_id"], "properties": {
+      "target_edition": {"const": "7e"}, "edition_applicability": {"enum": ["applicable", "nonapplicable_reviewed"]},
+      "rules_version": {"type": "string", "minLength": 1}, "reader_profile": {"const": "five_step_docx_v3"},
+      "review_reference": {"type": "string", "minLength": 1}, "book_id": {"type": "string", "minLength": 1}
+    }},
+    "placements": {"type": "array", "items": {"$ref": "#/$defs/placement"}},
+    "edition_domain": {"type": "array", "items": {"$ref": "#/$defs/edition_occurrence"}},
+    "edition_rows": {"type": "array", "items": {"$ref": "#/$defs/edition"}},
+    "terminology_rows": {"type": "array", "items": {"$ref": "#/$defs/term"}},
+    "section_domain": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "section_reviews": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/section"}},
+    "state": {"const": "closed"}, "plan_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {
+      "path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 0}, "sha256": {"$ref": "#/$defs/sha"}
+    }},
+    "pdf": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "page_count"], "properties": {
+      "path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1},
+      "sha256": {"$ref": "#/$defs/sha"}, "page_count": {"type": "integer", "minimum": 1}
+    }},
+    "selector": {"type": "object", "additionalProperties": false, "required": ["html_anchor", "part", "paragraph", "table", "cell", "before_text", "after_text", "before_sha256", "after_sha256", "before_start", "before_end", "after_start", "after_end"], "properties": {
+      "html_anchor": {"type": "string", "minLength": 1}, "part": {"const": "word/document.xml"},
+      "paragraph": {"type": "integer", "minimum": 0}, "table": {"type": "integer", "minimum": 0},
+      "cell": {"type": "integer", "minimum": 0}, "before_text": {"type": "string"},
+      "after_text": {"type": "string"}, "before_sha256": {"$ref": "#/$defs/sha"},
+      "after_sha256": {"$ref": "#/$defs/sha"}, "before_start": {"type": "integer", "minimum": 0},
+      "before_end": {"type": "integer", "minimum": 1}, "after_start": {"type": "integer", "minimum": 0},
+      "after_end": {"type": "integer", "minimum": 1}
+    }},
+    "placement": {"type": "object", "additionalProperties": false, "required": ["placement_id", "graphic_id", "story_id", "anchor", "position", "repeat_ordinal", "selected_sha256", "representation", "master_relation", "route", "crop", "fit", "decision_reference"], "properties": {
+      "placement_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"},
+      "graphic_id": {"type": "string", "minLength": 1}, "story_id": {"type": "string", "minLength": 1},
+      "anchor": {"type": "string", "minLength": 1}, "position": {"enum": ["before", "after"]},
+      "repeat_ordinal": {"type": "integer", "minimum": 0}, "selected_sha256": {"$ref": "#/$defs/sha"},
+      "representation": {"const": "word_drawing"},
+      "master_relation": {"enum": ["in_master", "reference_only", "absent_from_master"]},
+      "route": {"enum": ["retain_exact", "reviewed_reader_insertion", "reviewed_equivalent"]},
+      "crop": {"type": "object", "additionalProperties": false, "required": ["left", "top", "right", "bottom", "approved"], "properties": {
+        "left": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+        "top": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+        "right": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+        "bottom": {"type": "number", "minimum": 0, "exclusiveMaximum": 1},
+        "approved": {"const": true}
+      }},
+      "fit": {"type": "object", "additionalProperties": false, "required": ["width_emu", "height_emu"], "properties": {
+        "width_emu": {"type": "integer", "minimum": 1}, "height_emu": {"type": "integer", "minimum": 1}
+      }},
+      "decision_reference": {"type": "string", "minLength": 1}
+    }},
+    "edition_occurrence": {"type": "object", "additionalProperties": false, "required": ["occurrence_id", "book_id", "story_id", "entity_id", "source_page", "field", "source_render_sha256", "decision_reference"], "properties": {
+      "occurrence_id": {"type": "string", "minLength": 1}, "book_id": {"type": "string", "minLength": 1},
+      "story_id": {"type": "string", "minLength": 1}, "entity_id": {"type": "string", "minLength": 1},
+      "source_page": {"type": "integer", "minimum": 1}, "field": {"type": "string", "minLength": 1},
+      "source_render_sha256": {"$ref": "#/$defs/sha"}, "decision_reference": {"type": "string", "minLength": 1}
+    }},
+    "edition": {"type": "object", "additionalProperties": false, "required": ["occurrence_id", "book_id", "story_id", "entity_id", "source_page", "source_pdf_sha256", "source_edition", "present_scale", "entity_kind", "field", "before", "after", "action", "rule_id", "decision_reference", "selector"], "properties": {
+      "occurrence_id": {"type": "string", "minLength": 1}, "book_id": {"type": "string", "minLength": 1},
+      "story_id": {"type": "string", "minLength": 1}, "entity_id": {"type": "string", "minLength": 1},
+      "source_page": {"type": "integer", "minimum": 1}, "source_pdf_sha256": {"$ref": "#/$defs/sha"},
+      "source_edition": {"enum": ["legacy_proven", "7e", "unknown"]},
+      "present_scale": {"enum": ["legacy", "7e", "unknown"]}, "entity_kind": {"type": "string", "minLength": 1},
+      "field": {"type": "string", "minLength": 1}, "before": {"type": "integer", "minimum": 0},
+      "after": {"type": "integer", "minimum": 0},
+      "action": {"enum": ["convert_deterministic", "keep_7e", "keep_editorial_exception", "keep_source_value"]},
+      "rule_id": {"type": "string", "minLength": 1}, "decision_reference": {"type": "string", "minLength": 1},
+      "selector": {"$ref": "#/$defs/selector"}
+    }},
+    "term": {"type": "object", "additionalProperties": false, "required": ["occurrence_id", "entity_id", "source_label", "source_context", "target_label", "percentage", "registry_sha256", "overlay_sha256", "disposition", "authority_reference", "collision_decision", "selector"], "properties": {
+      "occurrence_id": {"type": "string", "minLength": 1}, "entity_id": {"type": "string", "minLength": 1},
+      "source_label": {"type": "string", "minLength": 1}, "source_context": {"type": "string", "minLength": 1},
+      "target_label": {"type": "string", "minLength": 1}, "percentage": {"type": "integer", "minimum": 0},
+      "registry_sha256": {"$ref": "#/$defs/sha"}, "overlay_sha256": {"$ref": "#/$defs/sha"},
+      "disposition": {"enum": ["accepted_direct_mapping", "accepted_primary_rule_mapping", "keep_editorial_exception"]},
+      "authority_reference": {"type": "string", "minLength": 1}, "collision_decision": {"type": ["string", "null"]},
+      "selector": {"$ref": "#/$defs/selector"}
+    }},
+    "section": {"type": "object", "additionalProperties": false, "required": ["section_id", "cards", "prose", "pregens", "checks", "labels", "reviewed", "decision_reference", "residual_issues"], "properties": {
+      "section_id": {"type": "string", "minLength": 1},
+      "cards": {"type": "integer", "minimum": 0}, "prose": {"type": "integer", "minimum": 0},
+      "pregens": {"type": "integer", "minimum": 0}, "checks": {"type": "integer", "minimum": 0},
+      "labels": {"type": "integer", "minimum": 0}, "reviewed": {"const": true},
+      "decision_reference": {"type": "string", "minLength": 1}, "residual_issues": {"type": "array", "maxItems": 0}
+    }}
+  }
+}

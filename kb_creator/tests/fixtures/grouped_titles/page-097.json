@@ -1,0 +1,571 @@
+{
+  "decision": {
+    "assets": [],
+    "markdown": "## WAITING TO BE BORN\n\nby christopher smith adair\n\nF E R T I L I T Y C L I N I C   \nMUTATION   \nG E N E T I C P A R A S I T E   \nYIDHRA",
+    "overlay_preference": "original_pipeline_txt",
+    "review": {
+      "notes": "prepared from mechanical candidate; visual review remains false",
+      "visual_reviewed": false
+    },
+    "schema": "kb_creator.mineru_ai_page_decision.v1",
+    "selected_blocks": [
+      {
+        "purpose": "text",
+        "raw_index": 1888,
+        "view": "original_pipeline_txt"
+      },
+      {
+        "purpose": "text",
+        "raw_index": 1889,
+        "view": "original_pipeline_txt"
+      },
+      {
+        "purpose": "text",
+        "raw_index": 1890,
+        "view": "original_pipeline_txt"
+      },
+      {
+        "purpose": "text",
+        "raw_index": 1891,
+        "view": "original_pipeline_txt"
+      },
+      {
+        "purpose": "text",
+        "raw_index": 1892,
+        "view": "original_pipeline_txt"
+      }
+    ],
+    "semantic_role": "body_waiting_to_be_born",
+    "source_page": 97,
+    "unresolved": [],
+    "semantic_structure": {
+      "schema": "kb_creator.page_semantic_structure.v2",
+      "profile": "reviewed_role_outline_and_partitions_v2",
+      "role_contract": {
+        "role": "body_waiting_to_be_born",
+        "group_id": "fear-body_waiting_to_be_born-p097"
+      },
+      "review": {
+        "state": "complete",
+        "visual": {
+          "path": "outputs/04-visual-merge-bundle/visual/original_pipeline_txt/pages/page-097.png",
+          "bytes": 769051,
+          "sha256": "F433906E3B14FA2C4D7323C4CF52F6A1F16449F421101DF522A55CE406256123"
+        }
+      },
+      "units": [
+        {
+          "id": "n143-p097-title-final",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "source_blocks": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1888
+            },
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1889
+            },
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1890
+            }
+          ],
+          "markdown_span": {
+            "start_line": 1,
+            "end_line": 1,
+            "sha256": "2527F16C875403FE5843E7B92C8C3B126FD40B19564A7DB841E8BEE9A5208210"
+          },
+          "container_parent": null,
+          "semantic_parent": null,
+          "continuation_of": null,
+          "heading_level": 2,
+          "item_count": null,
+          "source_fragments": [
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1888,
+              "source_sha256": "77AAF105C28C4C82EA7B2E0627B92FDFF753C249771E7D2AB4A6F7EC6A5F400F",
+              "normalized_sha256": "80CFA3E7F28DDE4DF64436B652230AFF28D7779116D1369C21EF2BBF37261D71",
+              "start": 0,
+              "end": 7,
+              "fragment_sha256": "77AAF105C28C4C82EA7B2E0627B92FDFF753C249771E7D2AB4A6F7EC6A5F400F"
+            },
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1889,
+              "source_sha256": "9830A659E665B8C4BB3DB9EDABFA9A3C2774E605AA45FBCFBFBD910901F55C1A",
+              "normalized_sha256": "6C617A25B6BC3A723CB5A87B23F33D597A302CEBCA567133AD1520CEE40DB732",
+              "start": 0,
+              "end": 5,
+              "fragment_sha256": "9830A659E665B8C4BB3DB9EDABFA9A3C2774E605AA45FBCFBFBD910901F55C1A"
+            },
+            {
+              "view": "original_pipeline_txt",
+              "raw_index": 1890,
+              "source_sha256": "0956D6550519BDC25FD5AB2F11DCB1A77FC8A4DB5A0F68B2FA8192FC1C4F4F7B",
+              "normalized_sha256": "0822963756CE70EC17B89DF33F24E1199BB7199A2E41819FC35B475A3509762E",
+              "start": 0,
+              "end": 4,
+              "fragment_sha256": "0956D6550519BDC25FD5AB2F11DCB1A77FC8A4DB5A0F68B2FA8192FC1C4F4F7B"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "packet": {
+    "schema": "kb_creator.mineru_merge_packet.v1",
+    "source_page": 97,
+    "semantic_role": "body_waiting_to_be_born",
+    "views": {
+      "original_pipeline_txt": {
+        "blocks": [
+          {
+            "raw_index": 1888,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              354.0,
+              202.0,
+              612.0,
+              266.0
+            ],
+            "text": "WAITING",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1889,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              413.0,
+              287.0,
+              552.0,
+              338.0
+            ],
+            "text": "TO BE",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1890,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              434.0,
+              349.0,
+              531.0,
+              387.0
+            ],
+            "text": "BORN",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1891,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              312.0,
+              426.0,
+              655.0,
+              467.0
+            ],
+            "text": "by christopher smith adair",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1892,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              375.0,
+              736.0,
+              593.0,
+              887.0
+            ],
+            "text": "F E R T I L I T Y C L I N I C   \nMUTATION   \nG E N E T I C P A R A S I T E   \nYIDHRA",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "type_counts": {
+          "text": 5
+        },
+        "text_length": 126,
+        "asset_references": []
+      },
+      "original_pipeline_ocr": {
+        "blocks": [
+          {
+            "raw_index": 1888,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              354.0,
+              202.0,
+              612.0,
+              266.0
+            ],
+            "text": "WAITING",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1889,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              413.0,
+              287.0,
+              552.0,
+              338.0
+            ],
+            "text": "TO BE",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1890,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              434.0,
+              349.0,
+              531.0,
+              387.0
+            ],
+            "text": "BORN",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1891,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              312.0,
+              426.0,
+              655.0,
+              467.0
+            ],
+            "text": "by christopher smith adair",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1892,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              375.0,
+              736.0,
+              593.0,
+              887.0
+            ],
+            "text": "FERTILITY CLINIC   \nMUTATION   \nGENETIC PARASITE   \nYIDHRA",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "type_counts": {
+          "text": 5
+        },
+        "text_length": 100,
+        "asset_references": []
+      },
+      "raster_pipeline_ocr": {
+        "blocks": [
+          {
+            "raw_index": 1890,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              354.0,
+              202.0,
+              612.0,
+              266.0
+            ],
+            "text": "WAITING",
+            "semantic_evidence": {
+              "text_level": 2,
+              "v2_title": true,
+              "middle_title": true,
+              "markdown_heading": true,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1891,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              413.0,
+              286.0,
+              552.0,
+              338.0
+            ],
+            "text": "TO BE",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1892,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              434.0,
+              349.0,
+              531.0,
+              387.0
+            ],
+            "text": "BORN",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1893,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              312.0,
+              426.0,
+              655.0,
+              467.0
+            ],
+            "text": "by christopher smith adair",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          },
+          {
+            "raw_index": 1894,
+            "page_idx": 96,
+            "source_page": 97,
+            "type": "text",
+            "bbox": [
+              375.0,
+              736.0,
+              593.0,
+              887.0
+            ],
+            "text": "FERTILITY CLINIC   \nMUTATION   \nGENETIC PARASITE   \nYIDHRA",
+            "semantic_evidence": {
+              "text_level": null,
+              "v2_title": false,
+              "middle_title": false,
+              "markdown_heading": false,
+              "model_title": false
+            },
+            "assets": []
+          }
+        ],
+        "type_counts": {
+          "text": 5
+        },
+        "text_length": 100,
+        "asset_references": []
+      }
+    },
+    "pairwise": {
+      "original_pipeline_txt__vs__original_pipeline_ocr": {
+        "bbox_matches": [
+          {
+            "left_raw_index": 1888,
+            "right_raw_index": 1888,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1889,
+            "right_raw_index": 1889,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1890,
+            "right_raw_index": 1890,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1891,
+            "right_raw_index": 1891,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1892,
+            "right_raw_index": 1892,
+            "bbox_iou": 1.0
+          }
+        ],
+        "left_unmatched": [],
+        "right_unmatched": []
+      },
+      "original_pipeline_txt__vs__raster_pipeline_ocr": {
+        "bbox_matches": [
+          {
+            "left_raw_index": 1888,
+            "right_raw_index": 1890,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1889,
+            "right_raw_index": 1891,
+            "bbox_iou": 0.9808
+          },
+          {
+            "left_raw_index": 1890,
+            "right_raw_index": 1892,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1891,
+            "right_raw_index": 1893,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1892,
+            "right_raw_index": 1894,
+            "bbox_iou": 1.0
+          }
+        ],
+        "left_unmatched": [],
+        "right_unmatched": []
+      },
+      "original_pipeline_ocr__vs__raster_pipeline_ocr": {
+        "bbox_matches": [
+          {
+            "left_raw_index": 1888,
+            "right_raw_index": 1890,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1889,
+            "right_raw_index": 1891,
+            "bbox_iou": 0.9808
+          },
+          {
+            "left_raw_index": 1890,
+            "right_raw_index": 1892,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1891,
+            "right_raw_index": 1893,
+            "bbox_iou": 1.0
+          },
+          {
+            "left_raw_index": 1892,
+            "right_raw_index": 1894,
+            "bbox_iou": 1.0
+          }
+        ],
+        "left_unmatched": [],
+        "right_unmatched": []
+      }
+    },
+    "review_signals": {
+      "normalized_text_similarity": 0.8889,
+      "text_length_divergence": 0.2063,
+      "block_type_divergence": 0,
+      "asset_count_divergence": 0,
+      "missing_overlay_box_candidates": 0,
+      "visual_first": false,
+      "priority_score": 1.0635
+    }
+  }
+}

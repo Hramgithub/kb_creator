@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.scenario_reconstruction_contract.v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "contract_revision", "scenario", "source", "scope", "page_roles", "reconstruction", "acceptance"],
+  "properties": {
+    "schema": {"const": "kb_creator.scenario_reconstruction_contract.v3"},
+    "contract_revision": {"const": 3},
+    "scenario": {"type": "object", "additionalProperties": false, "required": ["id", "title"], "properties": {"id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}, "title": {"type": "string", "minLength": 1, "pattern": ".*\\S.*"}}},
+    "source": {"oneOf": [{"$ref": "#/$defs/scalar_source"}, {"$ref": "#/$defs/per_page_source"}]},
+    "scope": {"type": "object", "additionalProperties": false, "required": ["mode", "first_page", "last_page", "required_entities"], "properties": {"mode": {"const": "all_source_pages"}, "first_page": {"type": "integer", "minimum": 1}, "last_page": {"type": "integer", "minimum": 1}, "required_entities": {"type": "object", "additionalProperties": false, "required": ["handout_label_sets"], "properties": {"handout_label_sets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/label_set"}}}}}},
+    "page_roles": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/page_role"}},
+    "reconstruction": {"type": "object", "additionalProperties": false, "required": ["strategies", "required_review"], "properties": {"strategies": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["embedded_text", "reading_order", "ocr_region", "visual_preserve"]}}, "required_review": {"const": true}}},
+    "acceptance": {"type": "object", "additionalProperties": false, "required": ["approval_authority"], "properties": {"approval_authority": {"const": "configured_reconstruction_review"}}}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "scalar_source": {"type": "object", "additionalProperties": false, "required": ["sha256", "byte_count", "page_count", "media_box_points", "rotation_degrees"], "properties": {"sha256": {"$ref": "#/$defs/sha256"}, "byte_count": {"type": "integer", "minimum": 1}, "page_count": {"type": "integer", "minimum": 1}, "media_box_points": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number", "exclusiveMinimum": 0}}, "rotation_degrees": {"enum": [0, 90, 180, 270]}}},
+    "per_page_source": {"type": "object", "additionalProperties": false, "required": ["sha256", "byte_count", "page_count", "page_geometry"], "properties": {"sha256": {"$ref": "#/$defs/sha256"}, "byte_count": {"type": "integer", "minimum": 1}, "page_count": {"type": "integer", "minimum": 1}, "page_geometry": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/page_geometry"}}}},
+    "page_geometry": {"type": "object", "additionalProperties": false, "required": ["source_page", "media_box_coordinates", "crop_box_coordinates", "rotation_degrees", "user_unit"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "media_box_coordinates": {"$ref": "#/$defs/box"}, "crop_box_coordinates": {"$ref": "#/$defs/box"}, "rotation_degrees": {"enum": [0, 90, 180, 270]}, "user_unit": {"const": 1}}},
+    "box": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}},
+    "label_set": {"type": "object", "additionalProperties": false, "required": ["scope_id", "labels"], "properties": {"scope_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}, "labels": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/label"}}}},
+    "label": {"type": "object", "additionalProperties": false, "required": ["label", "occurrences"], "properties": {"label": {"type": "string", "pattern": "^(?:[A-Z]|[1-9]\\d*)$"}, "occurrences": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/occurrence"}}}},
+    "occurrence": {"type": "object", "additionalProperties": false, "required": ["source_page", "section"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "section": {"enum": ["body", "appendix"]}}},
+    "page_role": {"type": "object", "additionalProperties": false, "required": ["role", "first_page", "last_page", "content_mode", "traits", "strategies"], "properties": {"role": {"type": "string", "minLength": 1}, "first_page": {"type": "integer", "minimum": 1}, "last_page": {"type": "integer", "minimum": 1}, "content_mode": {"enum": ["text", "mixed", "visual", "unknown"]}, "traits": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}, "strategies": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["embedded_text", "reading_order", "ocr_region", "visual_preserve"]}}}}
+  }
+}

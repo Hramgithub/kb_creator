@@ -1,0 +1,13 @@
+# Terra engineering receipt — Viral v2 B1c5 visual-review declarations
+
+- Goal id: `20260830-kb-creator-next-scenario`; step: `B1c5_visual_review_declarations`.
+- Scope: deterministic visual-review projection and independent builder/verifier closure only. No typed payload/recovery, canonical v2 config, candidate, render/review/downstream output, plan/context/status, protected-root, or Git mutation.
+- Result: complete. The author projects one semantic row per required object: 2 outline headings, 41 xref/recovery events, 93 reader assets, and 0 structured units (136 total). IDs derive from event/asset IDs. Builder and verifier independently construct and require the exact ordered declaration list; asset pages route explicitly through `source_page` with legacy `page` fallback.
+- Files changed: `kb_creator/scripts/author_viral_master_en_v2_config.py`; `kb_creator/scripts/build_scenario_master_en.py`; `kb_creator/scripts/verify_scenario_master_en.py`; this receipt. Files checked: the six packet-bound scripts/tests, root governance, kb_creator README/status, B1c4 receipt, frozen packet.
+- Verification/evidence: starting six hashes matched packet. `python -m py_compile` passed for all six paths. Combined `python -m unittest -q kb_creator.tests.test_author_viral_master_en_v2_config kb_creator.tests.test_build_scenario_master_en kb_creator.tests.test_verify_scenario_master_en` passed. Positive projection: `136 Counter({'asset_placement': 93, 'xref_recovery': 41, 'heading_outline': 2})`. The existing guarded public-v2 suite passed; the next unimplemented seam remains downstream of visual-review validation.
+- Final SHA-256: author `3DA02ADF17E2224C86A1418D18ECB06754E1FC6CD628717C1652EA315968FE1C`; author tests `A019999265B17005775D801E4D5DF8E83A540959F402F8837705069C58D7386F`; builder `0A093C649918F3D5D9CFC2EFF4B1DEB29A167A8B0B7CBCE7D56225C98EC84F66`; builder tests `236E56016E687B26F772967A8475E4BF4E797E954D0CCB359AAB0CC1337BA1C2`; verifier `793F3E8A6E32F65AD996D380FCC11E611A26AF71D4D04A8A1B50F5D2C2A290DE`; verifier tests `D240A5BEE52759C03E82928CCE968C2509F8FFFF569BBB3168A04D8E973F9EFB`.
+- Blockers: none for B1c5. Risk: this is implementation evidence only; no release decision.
+- Next action: fresh independent `gpt-5.5`/high implementation review, then orchestrator may authorize the next exact public seam.
+- Orchestrator policy owner: main chat `gpt-5.6-sol` / medium; ownership did not transfer. Assignment state: matched/completed. Scoped override: none. Elapsed time: approximately 18 minutes. Token use: unavailable. Timestamp: `2026-09-03T00:00:00+03:00` (Europe/Moscow).
+
+READY_FOR_V2_COMPLETE_AUTHORING_PHASE_B1C5_IMPLEMENTATION_REVIEW

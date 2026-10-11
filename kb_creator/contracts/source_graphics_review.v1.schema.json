@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.source_graphics_review.v1",
+  "title": "Hash-bound human review of every physical source page and meaningful graphic",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "inventory", "source_pdf", "reviewer", "page_reviews", "graphics", "technical_occurrences", "state", "review_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.source_graphics_review.v1"},
+    "inventory": {"$ref": "#/$defs/file"},
+    "source_pdf": {"$ref": "#/$defs/pdf"},
+    "reviewer": {"type": "object", "additionalProperties": false, "required": ["role", "reference", "time_utc"], "properties": {
+      "role": {"type": "string", "minLength": 1}, "reference": {"type": "string", "minLength": 1},
+      "time_utc": {"type": "string", "minLength": 1}
+    }},
+    "page_reviews": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/page"}},
+    "graphics": {"type": "array", "items": {"$ref": "#/$defs/graphic"}},
+    "technical_occurrences": {"type": "array", "items": {"$ref": "#/$defs/technical"}},
+    "state": {"const": "closed"},
+    "review_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {
+      "path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 0}, "sha256": {"$ref": "#/$defs/sha"}
+    }},
+    "pdf": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "page_count"], "properties": {
+      "path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1},
+      "sha256": {"$ref": "#/$defs/sha"}, "page_count": {"type": "integer", "minimum": 1}
+    }},
+    "bbox": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "minItems": 4, "maxItems": 4},
+    "page": {"type": "object", "additionalProperties": false, "required": ["page", "render_sha256", "status", "graphic_ids", "residual_issues", "manual_page_coverage"], "properties": {
+      "page": {"type": "integer", "minimum": 1}, "render_sha256": {"$ref": "#/$defs/sha"},
+      "status": {"enum": ["reviewed_graphics", "reviewed_no_meaningful_graphics"]},
+      "graphic_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+      "residual_issues": {"type": "array", "maxItems": 0},
+      "manual_page_coverage": {"type": "object", "additionalProperties": false, "required": ["view_sha256", "reviewed", "regions", "remaining_limits", "reviewer_reference"], "properties": {
+        "view_sha256": {"$ref": "#/$defs/sha"}, "reviewed": {"const": true},
+        "regions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["region_id", "bbox", "graphic_id"], "properties": {
+          "region_id": {"type": "string", "minLength": 1}, "bbox": {"$ref": "#/$defs/bbox"},
+          "graphic_id": {"type": ["string", "null"]}
+        }}},
+        "remaining_limits": {"type": "string"}, "reviewer_reference": {"type": "string", "minLength": 1}
+      }}
+    }},
+    "graphic": {"type": "object", "additionalProperties": false, "required": ["graphic_id", "page", "category", "owner", "source_region", "occurrence_ids", "manual_region_id", "disposition", "rationale", "decision_reference", "selected"], "properties": {
+      "graphic_id": {"type": "string", "minLength": 1}, "page": {"type": "integer", "minimum": 1},
+      "category": {"enum": ["opening_art", "body_scene", "portrait", "map", "handout", "cover", "ornament", "composite"]},
+      "owner": {"type": "string", "minLength": 1}, "source_region": {"$ref": "#/$defs/bbox"},
+      "occurrence_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+      "manual_region_id": {"type": ["string", "null"]},
+      "disposition": {"enum": ["include", "equivalent_replacement", "exclude"]},
+      "rationale": {"type": "string", "minLength": 1}, "decision_reference": {"type": "string", "minLength": 1},
+      "selected": {"oneOf": [{"$ref": "#/$defs/file"}, {"type": "null"}]}
+    }},
+    "technical": {"type": "object", "additionalProperties": false, "required": ["occurrence_id", "parent_graphic_id", "reason", "decision_reference"], "properties": {
+      "occurrence_id": {"type": "string", "minLength": 1}, "parent_graphic_id": {"type": "string", "minLength": 1},
+      "reason": {"type": "string", "minLength": 1}, "decision_reference": {"type": "string", "minLength": 1}
+    }}
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "translator_frontmatter_manifest.v1",
+  "generated_at_utc": "2026-09-12T10:28:32.310091+00:00",
+  "cover": {
+    "page": null,
+    "pages": [],
+    "asset": null,
+    "mode": "source_cover_full_page",
+    "fit": "contain",
+    "background_underlay": true
+  },
+  "toc": {
+    "mode": "generated",
+    "source_page": null,
+    "title": "Оглавление",
+    "origin": "generated",
+    "entries": null,
+    "source_link_map": null
+  },
+  "credits": {
+    "pages": []
+  },
+  "body": {
+    "starts_at": null
+  },
+  "flow": [
+    "landing",
+    "toc:generated"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "kb_creator.production_docx_config.v1",
+  "page": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "orientation": "portrait"
+  },
+  "margins": {
+    "top_mm": 16,
+    "bottom_mm": 17,
+    "left_mm": 18,
+    "right_mm": 18
+  },
+  "fonts": {
+    "body": "Georgia",
+    "title": "Georgia",
+    "headings": "Georgia",
+    "footer": "Georgia"
+  },
+  "sizes": {
+    "body_pt": 10.5,
+    "title_pt": 22,
+    "footer_pt": 9
+  },
+  "spacing": {
+    "body_after_pt": 4,
+    "body_line": 1.15
+  },
+  "headings": {
+    "1": {
+      "size_pt": 18,
+      "bold": true,
+      "space_before_pt": 12,
+      "space_after_pt": 6
+    },
+    "2": {
+      "size_pt": 16,
+      "bold": true,
+      "space_before_pt": 10,
+      "space_after_pt": 5
+    },
+    "3": {
+      "size_pt": 14,
+      "bold": true,
+      "space_before_pt": 9,
+      "space_after_pt": 4
+    },
+    "4": {
+      "size_pt": 12,
+      "bold": true,
+      "space_before_pt": 8,
+      "space_after_pt": 4
+    },
+    "5": {
+      "size_pt": 11,
+      "bold": true,
+      "space_before_pt": 7,
+      "space_after_pt": 3
+    },
+    "6": {
+      "size_pt": 10.5,
+      "bold": true,
+      "space_before_pt": 6,
+      "space_after_pt": 3
+    }
+  },
+  "footer": {
+    "page_numbers": false
+  },
+  "metadata": {
+    "title": "Диссоциация",
+    "subject": "Сценарий для Call of Cthulhu 7th Edition",
+    "author": "Matthew Sanderson",
+    "keywords": "Call of Cthulhu, сценарий, Диссоциация",
+    "comments": "NRI KB Creator; generated from accepted publication authorities"
+  }
+}

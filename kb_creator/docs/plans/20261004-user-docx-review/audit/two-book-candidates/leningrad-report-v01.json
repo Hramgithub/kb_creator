@@ -1,0 +1,1397 @@
+{
+  "schema": "kb_creator.reviewed_docx_revision_report.v1",
+  "status": "validated_candidate",
+  "accepted": false,
+  "provenance": "reviewed_artifact_successor",
+  "inputs": {
+    "manifest_sha256": "53B612A5AECB20509C31F6AA2CA055B9B6BD1683940FDFBD474B58AF84A2F434",
+    "docx_sha256": "3E2172AB1CC9C045F9F5F472BF6F664337A06969FEDC786BEB2D8D40459007C8",
+    "source_pdf_sha256": "E8C21B6D0BFBED034E6577C7BE01EE305EBFE480C93F87225B07C12AAFD3F10A",
+    "authorities": {
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\operations\\U7-word-operations-v01.json": "93D25D6420A215842F781349ECBA1C798EA9C324A825930EB22A04C037AEC34A",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\source-qa\\U7-source-visual-qa-v03.json": "2790631A3F4C4514056AB565FEEC36CFCD7B37F97FC7A724B881B6B616FD1856",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\qa\\closure\\U7-two-book-closure.json": "A8ABD4ED07FA47781CD628967A2C13AC63DE4B7541397197C262417E428A310B",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\architecture\\conversion-spec.md": "F951EF728980CC790330877280F7E0E19C8039D9D60F9BC07B6926EC3CAA2B32",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-v01.json": "2C73DB781071F460231A5AE5AA33E26AFC8A9198B894B50BE9C26D71EA81F091",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-supplement-v02.json": "63400400D599D6BC3FCF8036181DC5F5BB16E2729DC0EC0CCEDE1FDEB0291B9B",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\comments\\comments_inventory.json": "18049BD014C00D30E02FB27A9EECF7DD9814B4C068D9AABDB457DAF63001185A",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\handoffs\\U5-two-book-candidate-task-v04.md": "4AAABB27420372DD8C9BE8E13429F61E2D608BDCD15097CC2E31769476E8C1B4",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\accepted-choices-v01.json": "D1D0EFCB3F93CC39166B2946AAF2182763F30052A3664ED027B1EE387F1AC059",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\accepted-choices-v02.json": "6F18B50D520674C4FC12C1B71F9BF6AEFD9294976A285EB67B61F1B8F8896E16"
+    }
+  },
+  "output": {
+    "docx_sha256": "CC3A1F96D82121C07938D860EF88186AA33A32199B578D4C7C2DE05F4C83AD23",
+    "path": "D:/NRI/kb_creator/working/user-review-20261004/leningrad-reader-v01/document.docx"
+  },
+  "preservation": {
+    "old_drawing_occurrences": 26,
+    "old_media_parts": 24,
+    "old_comment_thread_parts": [
+      "word/comments.xml",
+      "word/commentsExtensible.xml",
+      "word/commentsIds.xml",
+      "word/commentsExtended.xml"
+    ],
+    "bookmarks": 142,
+    "hyperlinks": 12
+  },
+  "operations": [
+    {
+      "issue_id": "LEN-SOURCE-MEDALLION-DATE",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "LEN-SOURCE-CURATOR-NAME",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "LEN-SOURCE-ALBION-LUCK",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "LEN-SOURCE-MEMORIAL-DATE",
+      "kind": "keep"
+    },
+    {
+      "issue_id": "LEN-HANDOUT-RUSSIAN",
+      "kind": "keep"
+    }
+  ],
+  "source_bound_field_nodes": [
+    {
+      "path": "word/document.xml/body[79]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:79:СИЛ:1:0"
+      ],
+      "before_node_sha256": "8527A891E224136950FF32CA212B45BC93F69FBB801C3B1EBEDAC52775F99E61",
+      "after_node_sha256": "FF5A1AE012AFA5D4C889C50AD427AAF545D31A4FAC04FFC1C4D03D403BA4250A",
+      "after_node_xml_sha256": "3E25040494F451C03F80144CC62A50276A641675CC53E8B8A604535F72189032"
+    },
+    {
+      "path": "word/document.xml/body[79]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:79:ВЫН:1:1"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[79]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:79:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "E629FA6598D732768F7C726B4B621285F9C3B85303900AA912017DB7617D8BDB",
+      "after_node_sha256": "F369CB89FC627E668987007D121ED1EACDC01DB9E28F8BB26F358B7D8C4F08AC",
+      "after_node_xml_sha256": "AEDD16FFB9A791260E15BC478D0E505FD0E3572BA7A3CED3234F804E8C516ED1"
+    },
+    {
+      "path": "word/document.xml/body[79]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:79:ЛВК:1:3"
+      ],
+      "before_node_sha256": "4FC82B26AECB47D2868C4EFBE3581732A3E7CBCC6C2EFB32062C08170A05EEB8",
+      "after_node_sha256": "02D20BBD7E394AD5999A4CEBABAC9619732C343A4CAC99470C03E23BA2BDC2BC",
+      "after_node_xml_sha256": "0C77EF2BB5D8F974DDF326BAD1982F86E7EE86A9DB5B11D724B50B1C4960A495"
+    },
+    {
+      "path": "word/document.xml/body[79]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:79:МОЩ:1:4"
+      ],
+      "before_node_sha256": "3514ACF61732F662DA19625F7FE781C3E483F2DCE8506012F3BB393F5003E105",
+      "after_node_sha256": "811786AD1AE74ADFDD20DD0372ABAAEBC6246E343AEBD01DA0BFC4C02BF0106C",
+      "after_node_xml_sha256": "70F494DBD96CCEBD2C4D26BB96DD44E4B483148C6D605A633505297CD8512FBE"
+    },
+    {
+      "path": "word/document.xml/body[152]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:152:СИЛ:1:0"
+      ],
+      "before_node_sha256": "C2356069E9D1E79CA924378153CFBBFB4D4416B1F99D41A2940BFDB66C5319DB",
+      "after_node_sha256": "2ABACA4911E68FA9BFBF3482EE797FD5B9045B841FDFF7253557C5FE15DE6477",
+      "after_node_xml_sha256": "764D8A6D41F6A7886780A8A399C2D3B421848D03205DF5B157365470305FEB4B"
+    },
+    {
+      "path": "word/document.xml/body[152]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:152:ВЫН:1:1"
+      ],
+      "before_node_sha256": "F5CA38F748A1D6EAF726B8A42FB575C3C71F1864A8143301782DE13DA2D9202B",
+      "after_node_sha256": "AD57366865126E55649ECB23AE1D48887544976EFEA46A48EB5D85A6EEB4D306",
+      "after_node_xml_sha256": "A12018E1F30A387FFE49EA3C746A0106008BC72D7B47186F9DAB5422193DE4D5"
+    },
+    {
+      "path": "word/document.xml/body[152]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:152:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "4EC9599FC203D176A301536C2E091A19BC852759B255BD6818810A42C5FED14A",
+      "after_node_sha256": "69F59C273B6E669AC32A6DD5E1B2CB63333D8B004F9696447AEE2D422CE63763",
+      "after_node_xml_sha256": "5E6240D6B5B87312A17EA781DC17EB355408E0667EB9DA73B06DC262D54D2F7A"
+    },
+    {
+      "path": "word/document.xml/body[152]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:152:ЛВК:1:3"
+      ],
+      "before_node_sha256": "4EC9599FC203D176A301536C2E091A19BC852759B255BD6818810A42C5FED14A",
+      "after_node_sha256": "69F59C273B6E669AC32A6DD5E1B2CB63333D8B004F9696447AEE2D422CE63763",
+      "after_node_xml_sha256": "5E6240D6B5B87312A17EA781DC17EB355408E0667EB9DA73B06DC262D54D2F7A"
+    },
+    {
+      "path": "word/document.xml/body[152]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:152:МОЩ:1:4"
+      ],
+      "before_node_sha256": "6B51D431DF5D7F141CBECECCF79EDF3DD861C3B4069F0B11661A3EEFACBBA918",
+      "after_node_sha256": "39FA9EC190EEE7B6F4DFF1100D6343E10918D044C75EAC8F9E9A2596173F80C9",
+      "after_node_xml_sha256": "7FD5B98CDD516820C88434E3EB48C17FA9C2C7F920A14FEA9F0F98C170B82CD5"
+    },
+    {
+      "path": "word/document.xml/body[278]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:278:СИЛ:1:0"
+      ],
+      "before_node_sha256": "8527A891E224136950FF32CA212B45BC93F69FBB801C3B1EBEDAC52775F99E61",
+      "after_node_sha256": "FF5A1AE012AFA5D4C889C50AD427AAF545D31A4FAC04FFC1C4D03D403BA4250A",
+      "after_node_xml_sha256": "3E25040494F451C03F80144CC62A50276A641675CC53E8B8A604535F72189032"
+    },
+    {
+      "path": "word/document.xml/body[278]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:278:ВЫН:1:1"
+      ],
+      "before_node_sha256": "E629FA6598D732768F7C726B4B621285F9C3B85303900AA912017DB7617D8BDB",
+      "after_node_sha256": "F369CB89FC627E668987007D121ED1EACDC01DB9E28F8BB26F358B7D8C4F08AC",
+      "after_node_xml_sha256": "AEDD16FFB9A791260E15BC478D0E505FD0E3572BA7A3CED3234F804E8C516ED1"
+    },
+    {
+      "path": "word/document.xml/body[278]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:278:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "6B51D431DF5D7F141CBECECCF79EDF3DD861C3B4069F0B11661A3EEFACBBA918",
+      "after_node_sha256": "39FA9EC190EEE7B6F4DFF1100D6343E10918D044C75EAC8F9E9A2596173F80C9",
+      "after_node_xml_sha256": "7FD5B98CDD516820C88434E3EB48C17FA9C2C7F920A14FEA9F0F98C170B82CD5"
+    },
+    {
+      "path": "word/document.xml/body[278]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:278:ЛВК:1:3"
+      ],
+      "before_node_sha256": "323783BE9A53A31E158EC9600626A4703E99F4E183BC1ACB8772CBDF5C3A1ECE",
+      "after_node_sha256": "D59ECED1DED07F84C145592F65BDF854358E009C5CD705F5215BF18697FED103",
+      "after_node_xml_sha256": "1A782AE09E92E71C74546A4B585A38EA538F8D1749F1F21ADBE94C8D0A1D8554"
+    },
+    {
+      "path": "word/document.xml/body[278]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:278:МОЩ:1:4"
+      ],
+      "before_node_sha256": "3514ACF61732F662DA19625F7FE781C3E483F2DCE8506012F3BB393F5003E105",
+      "after_node_sha256": "811786AD1AE74ADFDD20DD0372ABAAEBC6246E343AEBD01DA0BFC4C02BF0106C",
+      "after_node_xml_sha256": "70F494DBD96CCEBD2C4D26BB96DD44E4B483148C6D605A633505297CD8512FBE"
+    },
+    {
+      "path": "word/document.xml/body[306]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:306:СИЛ:1:0"
+      ],
+      "before_node_sha256": "785F3EC7EB32F30B90CD0FCF3657D388B5FF4297F2F9716FF66E9B69C05DDD09",
+      "after_node_sha256": "9BDB2AF6799204A299C603994B8E400E4B1FD625EFDB74066CC869FEE42C9DF3",
+      "after_node_xml_sha256": "B1562AB130CBB428BBF70FF96379003063A97496739B31286695CB229B6DB1A0"
+    },
+    {
+      "path": "word/document.xml/body[306]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:306:ВЫН:1:1"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[306]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:306:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "323783BE9A53A31E158EC9600626A4703E99F4E183BC1ACB8772CBDF5C3A1ECE",
+      "after_node_sha256": "D59ECED1DED07F84C145592F65BDF854358E009C5CD705F5215BF18697FED103",
+      "after_node_xml_sha256": "1A782AE09E92E71C74546A4B585A38EA538F8D1749F1F21ADBE94C8D0A1D8554"
+    },
+    {
+      "path": "word/document.xml/body[306]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:306:ИНТ:1:3"
+      ],
+      "before_node_sha256": "E629FA6598D732768F7C726B4B621285F9C3B85303900AA912017DB7617D8BDB",
+      "after_node_sha256": "F369CB89FC627E668987007D121ED1EACDC01DB9E28F8BB26F358B7D8C4F08AC",
+      "after_node_xml_sha256": "AEDD16FFB9A791260E15BC478D0E505FD0E3572BA7A3CED3234F804E8C516ED1"
+    },
+    {
+      "path": "word/document.xml/body[306]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:306:ЛВК:1:4"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[306]/tbl/tr[1]/tc[5]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:306:МОЩ:1:5"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[372]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:372:СИЛ:1:0"
+      ],
+      "before_node_sha256": "785F3EC7EB32F30B90CD0FCF3657D388B5FF4297F2F9716FF66E9B69C05DDD09",
+      "after_node_sha256": "9BDB2AF6799204A299C603994B8E400E4B1FD625EFDB74066CC869FEE42C9DF3",
+      "after_node_xml_sha256": "B1562AB130CBB428BBF70FF96379003063A97496739B31286695CB229B6DB1A0"
+    },
+    {
+      "path": "word/document.xml/body[372]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:372:ВЫН:1:1"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[372]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:372:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "4EC9599FC203D176A301536C2E091A19BC852759B255BD6818810A42C5FED14A",
+      "after_node_sha256": "69F59C273B6E669AC32A6DD5E1B2CB63333D8B004F9696447AEE2D422CE63763",
+      "after_node_xml_sha256": "5E6240D6B5B87312A17EA781DC17EB355408E0667EB9DA73B06DC262D54D2F7A"
+    },
+    {
+      "path": "word/document.xml/body[372]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:372:ЛВК:1:3"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[372]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:372:МОЩ:1:4"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[396]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:396:СИЛ:1:0"
+      ],
+      "before_node_sha256": "785F3EC7EB32F30B90CD0FCF3657D388B5FF4297F2F9716FF66E9B69C05DDD09",
+      "after_node_sha256": "9BDB2AF6799204A299C603994B8E400E4B1FD625EFDB74066CC869FEE42C9DF3",
+      "after_node_xml_sha256": "B1562AB130CBB428BBF70FF96379003063A97496739B31286695CB229B6DB1A0"
+    },
+    {
+      "path": "word/document.xml/body[396]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:396:ВЫН:1:1"
+      ],
+      "before_node_sha256": "8527A891E224136950FF32CA212B45BC93F69FBB801C3B1EBEDAC52775F99E61",
+      "after_node_sha256": "FF5A1AE012AFA5D4C889C50AD427AAF545D31A4FAC04FFC1C4D03D403BA4250A",
+      "after_node_xml_sha256": "3E25040494F451C03F80144CC62A50276A641675CC53E8B8A604535F72189032"
+    },
+    {
+      "path": "word/document.xml/body[396]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:396:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "5F9C4AB08CAC7457E9111A30E4664920607EA2C115A1433D7BE98E97E64244CA",
+      "after_node_sha256": "38D66D9692AC590000A91B03A88DA1C88D51FAB2B78F63171F553ECC551A0C6F",
+      "after_node_xml_sha256": "D61F5B4BF7604CD177A12ACC18576174358530108FE691045B7DE5004B2FC821"
+    },
+    {
+      "path": "word/document.xml/body[396]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:396:ЛВК:1:3"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[396]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:396:МОЩ:1:4"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[451]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:451:СИЛ:1:0"
+      ],
+      "before_node_sha256": "4523540F1504CD17100C4835E85B7EEFD49911580F8EFFF0599A8F283BE6B9E3",
+      "after_node_sha256": "B4944C6FF08DC6F43DA2E9C824669B7D927DD1FA976FADC7B456881F51BF5CCC",
+      "after_node_xml_sha256": "3882EF37F6C8861D3CE9FDFA0B432CE3B1E74C9E9D85E10650C0AD993C8ED671"
+    },
+    {
+      "path": "word/document.xml/body[451]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:451:ВЫН:1:1"
+      ],
+      "before_node_sha256": "4523540F1504CD17100C4835E85B7EEFD49911580F8EFFF0599A8F283BE6B9E3",
+      "after_node_sha256": "B4944C6FF08DC6F43DA2E9C824669B7D927DD1FA976FADC7B456881F51BF5CCC",
+      "after_node_xml_sha256": "3882EF37F6C8861D3CE9FDFA0B432CE3B1E74C9E9D85E10650C0AD993C8ED671"
+    },
+    {
+      "path": "word/document.xml/body[451]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:451:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[451]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:451:ИНТ:1:3"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[451]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:451:МОЩ:1:4"
+      ],
+      "before_node_sha256": "938DB8C9F82C8CB58D3F3EF4FD250036A48D26A712753D2FDE5ABD03A85CABF4",
+      "after_node_sha256": "EF2D127DE37B942BAAD06145E54B0C619A1F22327B2EBBCFBEC78F5564AFE39D",
+      "after_node_xml_sha256": "DF07C3F34B42D75EF994CC5CA1B81D58F79C7B8B13CEEA34B323FE014ABC4111"
+    },
+    {
+      "path": "word/document.xml/body[451]/tbl/tr[1]/tc[5]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:451:ЛВК:1:5"
+      ],
+      "before_node_sha256": "19B100AB7725C612F3D80FF203CA53CEA5CADAAFAE3BF0F88F0FB4089FE08815",
+      "after_node_sha256": "9F14025AF0065B30E47E23EBB3B491D39AE8ED17D33739E5FF3827FFB3634953",
+      "after_node_xml_sha256": "6841FD1E9886411CCFAED2147185CE7AA72F32E4993BCDC28FAF01CD0682BD88"
+    },
+    {
+      "path": "word/document.xml/body[478]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:478:СИЛ:1:0"
+      ],
+      "before_node_sha256": "4523540F1504CD17100C4835E85B7EEFD49911580F8EFFF0599A8F283BE6B9E3",
+      "after_node_sha256": "B4944C6FF08DC6F43DA2E9C824669B7D927DD1FA976FADC7B456881F51BF5CCC",
+      "after_node_xml_sha256": "3882EF37F6C8861D3CE9FDFA0B432CE3B1E74C9E9D85E10650C0AD993C8ED671"
+    },
+    {
+      "path": "word/document.xml/body[478]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:478:ВЫН:1:1"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[478]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:478:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "6F4B6612125FB3A0DAECD2799DFD6C9C299424FD920F9B308110A2C1FBD8F443",
+      "after_node_sha256": "1253E9373E781B7500266CAA55150E08E210BC8CD8CC70D89985E3600155E860",
+      "after_node_xml_sha256": "FAF54F76887881673615E18D127839CEBEF44D8E19D63B7CFEF748E96F0BA484"
+    },
+    {
+      "path": "word/document.xml/body[478]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:478:ИНТ:1:3"
+      ],
+      "before_node_sha256": "B17EF6D19C7A5B1EE83B907C595526DCB1EB06DB8227D650D5DDA0A9F4CE8CD9",
+      "after_node_sha256": "48449A14A4FF7D79BB7A1B6F3D488EBA397C36EF25634C111B49BAF362511AFC",
+      "after_node_xml_sha256": "B4866D3CA7F10676F517CE49541E41A1ECE77A23B4C5EAD6422A346E1EEABC6F"
+    },
+    {
+      "path": "word/document.xml/body[478]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:478:МОЩ:1:4"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[478]/tbl/tr[1]/tc[5]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:478:ЛВК:1:5"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[508]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:508:СИЛ:1:0"
+      ],
+      "before_node_sha256": "8527A891E224136950FF32CA212B45BC93F69FBB801C3B1EBEDAC52775F99E61",
+      "after_node_sha256": "FF5A1AE012AFA5D4C889C50AD427AAF545D31A4FAC04FFC1C4D03D403BA4250A",
+      "after_node_xml_sha256": "3E25040494F451C03F80144CC62A50276A641675CC53E8B8A604535F72189032"
+    },
+    {
+      "path": "word/document.xml/body[508]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:508:ВЫН:1:1"
+      ],
+      "before_node_sha256": "6B51D431DF5D7F141CBECECCF79EDF3DD861C3B4069F0B11661A3EEFACBBA918",
+      "after_node_sha256": "39FA9EC190EEE7B6F4DFF1100D6343E10918D044C75EAC8F9E9A2596173F80C9",
+      "after_node_xml_sha256": "7FD5B98CDD516820C88434E3EB48C17FA9C2C7F920A14FEA9F0F98C170B82CD5"
+    },
+    {
+      "path": "word/document.xml/body[508]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:508:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[508]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:508:ИНТ:1:3"
+      ],
+      "before_node_sha256": "3514ACF61732F662DA19625F7FE781C3E483F2DCE8506012F3BB393F5003E105",
+      "after_node_sha256": "811786AD1AE74ADFDD20DD0372ABAAEBC6246E343AEBD01DA0BFC4C02BF0106C",
+      "after_node_xml_sha256": "70F494DBD96CCEBD2C4D26BB96DD44E4B483148C6D605A633505297CD8512FBE"
+    },
+    {
+      "path": "word/document.xml/body[508]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:508:МОЩ:1:4"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[508]/tbl/tr[1]/tc[5]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:508:ЛВК:1:5"
+      ],
+      "before_node_sha256": "4FC82B26AECB47D2868C4EFBE3581732A3E7CBCC6C2EFB32062C08170A05EEB8",
+      "after_node_sha256": "02D20BBD7E394AD5999A4CEBABAC9619732C343A4CAC99470C03E23BA2BDC2BC",
+      "after_node_xml_sha256": "0C77EF2BB5D8F974DDF326BAD1982F86E7EE86A9DB5B11D724B50B1C4960A495"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[0]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:СИЛ:0:0"
+      ],
+      "before_node_sha256": "3F1837CD118461D5A8E536D0F2C880393738886B3D9C02C582D2426392421A90",
+      "after_node_sha256": "B30178C5594A3C731F991F44BA292DDFA8D0ADD5FBC994EF668BF74017203BA9",
+      "after_node_xml_sha256": "C3E48E5F8C8992164C6234A6AECFB9B8E6293951ECF917DB79CA69C184CFD8B6"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[0]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:ВЫН:0:1"
+      ],
+      "before_node_sha256": "A8090357231ED93B1345E80D0D7BA8A9DC789F80E80117099813F0F567F22F7F",
+      "after_node_sha256": "F88A1AD29F8798D4E224BC48ADF895F9AE87F7514FC7E4D26E1152FFD5840252",
+      "after_node_xml_sha256": "5AA1B08761C6DE7112C6A66372782F875D0CAEFB22F88675F203FC5B88A6ADA1"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[0]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:ТЕЛ:0:2"
+      ],
+      "before_node_sha256": "93787A669F79A1BB05E763315DBAC667F9D8391B51FCDDAD733F3ED4C1D9A594",
+      "after_node_sha256": "9180DCD1AC46304CE248FE17634D72E8D0DDC9D1589FB90D7B2DBEEE46D0537F",
+      "after_node_xml_sha256": "CD44551A40C9E843BF7AE1A1C1A8909BBC467AA87236CE7A562378471FD2D07A"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[0]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:ИНТ:0:3"
+      ],
+      "before_node_sha256": "35767A36E2CD6E774DA16D62FC00E3524F039167E6C81F75BC14F131646DAEB4",
+      "after_node_sha256": "9BF703EE833BEC3898CC06877901D36C8CEA104665D07F0CD08F1655211D1C8B",
+      "after_node_xml_sha256": "96F9DEAF9D88362D204AA7D00F3DDAB714209E231BA450D0C76047EB5C273F9B"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[0]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:МОЩ:0:4"
+      ],
+      "before_node_sha256": "F80FC7A12E00C378A790CC3452F35946E5D70A8FE365257CE673BF920269790E",
+      "after_node_sha256": "5717683FAEF5C5D962A28D9EBDAA6C2CACCFAFFBCD02A89FE5BD3E0F28995E76",
+      "after_node_xml_sha256": "974DE2F186F6ED34905A6ADAABC7C275C8247549E8AE4F74EB6AA54EE4843EBD"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[2]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:ЛВК:2:1"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[2]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:НАР:2:2"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[532]/tbl/tr[2]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:532:ОБР:2:3"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[571]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:571:СИЛ:1:0"
+      ],
+      "before_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_sha256": "1E472B39B105D349BCD069C4A711B44A2FFFB8E274714BB07ECFFF69A9A7F67B",
+      "after_node_xml_sha256": "DEC5EE3D969EDD45ED4126532A835E9F022DD887F4635CA760CA19FA15038A9D"
+    },
+    {
+      "path": "word/document.xml/body[571]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:571:ВЫН:1:1"
+      ],
+      "before_node_sha256": "9AE2BDD7BEEDC2E766C6B76585530E16925115707DC7A06AB5EE4AA2776B2C7B",
+      "after_node_sha256": "64D095F2FECFDEB907DAE5403B10966C4AE755B7598AA078CB932E345BD0B5D0",
+      "after_node_xml_sha256": "F6AEC503F02C5CA73244736E19C776C275DFC2A806F9B681F6A97A49323B1036"
+    },
+    {
+      "path": "word/document.xml/body[571]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:571:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "AD57366865126E55649ECB23AE1D48887544976EFEA46A48EB5D85A6EEB4D306",
+      "after_node_sha256": "0604CD3138FEED202EF293E062DA2F4720F77A05D25EE036A7A01C9CFCDD1F0A",
+      "after_node_xml_sha256": "575B691FB8766134AF7D72F3EE09669444244FF76F1D305505397220469BE51C"
+    },
+    {
+      "path": "word/document.xml/body[571]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:571:ИНТ:1:3"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[571]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:571:МОЩ:1:4"
+      ],
+      "before_node_sha256": "9F14025AF0065B30E47E23EBB3B491D39AE8ED17D33739E5FF3827FFB3634953",
+      "after_node_sha256": "DAC53C17C250FD4D4D81EAF6D88435676DAC1F3F3896441E277AF839BF50ED8A",
+      "after_node_xml_sha256": "61D91158028AE5876280D652649F3A6EE7127CA996C0239B9B0900B7A0BBEF29"
+    },
+    {
+      "path": "word/document.xml/body[571]/tbl/tr[1]/tc[5]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:571:ЛВК:1:5"
+      ],
+      "before_node_sha256": "624B60C58C9D8BFB6FF1886C2FD605D2ADEB6EA4DA576068201B6C6958CE93F4",
+      "after_node_sha256": "9AE2BDD7BEEDC2E766C6B76585530E16925115707DC7A06AB5EE4AA2776B2C7B",
+      "after_node_xml_sha256": "9160EFDABD26DBA62DD842FD8EABC3C48EC4E938B628DDE0616A56FC23C4B95A"
+    },
+    {
+      "path": "word/document.xml/body[581]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:581:СИЛ:1:0"
+      ],
+      "before_node_sha256": "EB1E33E8A81B697B75855AF6BFCDBCBF7CBBDE9F94962CEAEC1ED8AF21F5A50F",
+      "after_node_sha256": "210E3B160C355818509425B9D9E9FD3EA2E287F2C43A13E5BE8817140DB0B9E6",
+      "after_node_xml_sha256": "980361276EB41B6EBB3F5D760871B822F7C3118A00386D283FB41F4DCC32F2FB"
+    },
+    {
+      "path": "word/document.xml/body[581]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:581:ВЫН:1:1"
+      ],
+      "before_node_sha256": "785F3EC7EB32F30B90CD0FCF3657D388B5FF4297F2F9716FF66E9B69C05DDD09",
+      "after_node_sha256": "9BDB2AF6799204A299C603994B8E400E4B1FD625EFDB74066CC869FEE42C9DF3",
+      "after_node_xml_sha256": "B1562AB130CBB428BBF70FF96379003063A97496739B31286695CB229B6DB1A0"
+    },
+    {
+      "path": "word/document.xml/body[581]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:581:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "EB1E33E8A81B697B75855AF6BFCDBCBF7CBBDE9F94962CEAEC1ED8AF21F5A50F",
+      "after_node_sha256": "210E3B160C355818509425B9D9E9FD3EA2E287F2C43A13E5BE8817140DB0B9E6",
+      "after_node_xml_sha256": "980361276EB41B6EBB3F5D760871B822F7C3118A00386D283FB41F4DCC32F2FB"
+    },
+    {
+      "path": "word/document.xml/body[581]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:581:ИНТ:1:3"
+      ],
+      "before_node_sha256": "B17EF6D19C7A5B1EE83B907C595526DCB1EB06DB8227D650D5DDA0A9F4CE8CD9",
+      "after_node_sha256": "48449A14A4FF7D79BB7A1B6F3D488EBA397C36EF25634C111B49BAF362511AFC",
+      "after_node_xml_sha256": "B4866D3CA7F10676F517CE49541E41A1ECE77A23B4C5EAD6422A346E1EEABC6F"
+    },
+    {
+      "path": "word/document.xml/body[581]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:581:МОЩ:1:4"
+      ],
+      "before_node_sha256": "6F4B6612125FB3A0DAECD2799DFD6C9C299424FD920F9B308110A2C1FBD8F443",
+      "after_node_sha256": "1253E9373E781B7500266CAA55150E08E210BC8CD8CC70D89985E3600155E860",
+      "after_node_xml_sha256": "FAF54F76887881673615E18D127839CEBEF44D8E19D63B7CFEF748E96F0BA484"
+    },
+    {
+      "path": "word/document.xml/body[581]/tbl/tr[1]/tc[5]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:581:ЛВК:1:5"
+      ],
+      "before_node_sha256": "8527A891E224136950FF32CA212B45BC93F69FBB801C3B1EBEDAC52775F99E61",
+      "after_node_sha256": "FF5A1AE012AFA5D4C889C50AD427AAF545D31A4FAC04FFC1C4D03D403BA4250A",
+      "after_node_xml_sha256": "3E25040494F451C03F80144CC62A50276A641675CC53E8B8A604535F72189032"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:СИЛ:1:0"
+      ],
+      "before_node_sha256": "6B51D431DF5D7F141CBECECCF79EDF3DD861C3B4069F0B11661A3EEFACBBA918",
+      "after_node_sha256": "39FA9EC190EEE7B6F4DFF1100D6343E10918D044C75EAC8F9E9A2596173F80C9",
+      "after_node_xml_sha256": "7FD5B98CDD516820C88434E3EB48C17FA9C2C7F920A14FEA9F0F98C170B82CD5"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:ВЫН:1:1"
+      ],
+      "before_node_sha256": "8527A891E224136950FF32CA212B45BC93F69FBB801C3B1EBEDAC52775F99E61",
+      "after_node_sha256": "FF5A1AE012AFA5D4C889C50AD427AAF545D31A4FAC04FFC1C4D03D403BA4250A",
+      "after_node_xml_sha256": "3E25040494F451C03F80144CC62A50276A641675CC53E8B8A604535F72189032"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "4A44DC15364204A80FE80E9039455CC1608281820FE2B24F1E5233ADE6AF1DD5",
+      "after_node_sha256": "1A6562590EF19D1045D06C4055742D38288E9E6DCD71CCDE5CEE80F1D5A774EB",
+      "after_node_xml_sha256": "D36C7FDBB5425BD172B8349FF5E6DB5ABDB77F068C42860FD6C339305DA0273D"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:ИНТ:1:3"
+      ],
+      "before_node_sha256": "E629FA6598D732768F7C726B4B621285F9C3B85303900AA912017DB7617D8BDB",
+      "after_node_sha256": "F369CB89FC627E668987007D121ED1EACDC01DB9E28F8BB26F358B7D8C4F08AC",
+      "after_node_xml_sha256": "AEDD16FFB9A791260E15BC478D0E505FD0E3572BA7A3CED3234F804E8C516ED1"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:МОЩ:1:4"
+      ],
+      "before_node_sha256": "F5CA38F748A1D6EAF726B8A42FB575C3C71F1864A8143301782DE13DA2D9202B",
+      "after_node_sha256": "AD57366865126E55649ECB23AE1D48887544976EFEA46A48EB5D85A6EEB4D306",
+      "after_node_xml_sha256": "A12018E1F30A387FFE49EA3C746A0106008BC72D7B47186F9DAB5422193DE4D5"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[3]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:ЛВК:3:1"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[3]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:НАР:3:2"
+      ],
+      "before_node_sha256": "3FDBA35F04DC8C462986C992BCF875546257113072A909C162F7E470E581E278",
+      "after_node_sha256": "108C995B953C8A35561103E2014CF828EB654A99E310F87FAB94C2F4B7D2A04F",
+      "after_node_xml_sha256": "87300E87C4D98E4FE3357DB30564C181971F64DE7F4D577E8851C86D7C9A355D"
+    },
+    {
+      "path": "word/document.xml/body[589]/tbl/tr[3]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:589:ОБР:3:3"
+      ],
+      "before_node_sha256": "535FA30D7E25DD8A49F1536779734EC8286108D115DA5045D77F3B4185D8F790",
+      "after_node_sha256": "AD48FF99415B2F007DC35B7EB553FD1EB35EBFA2F2F308ACD9488EEB86F71FA8",
+      "after_node_xml_sha256": "07535436CC2651ACD5746387D1774C2FDC26C451DDB209AD8BBBE51C4BB03C98"
+    },
+    {
+      "path": "word/document.xml/body[596]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:596:СИЛ:1:0"
+      ],
+      "before_node_sha256": "C2356069E9D1E79CA924378153CFBBFB4D4416B1F99D41A2940BFDB66C5319DB",
+      "after_node_sha256": "2ABACA4911E68FA9BFBF3482EE797FD5B9045B841FDFF7253557C5FE15DE6477",
+      "after_node_xml_sha256": "764D8A6D41F6A7886780A8A399C2D3B421848D03205DF5B157365470305FEB4B"
+    },
+    {
+      "path": "word/document.xml/body[596]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:596:ВЫН:1:1"
+      ],
+      "before_node_sha256": "F5CA38F748A1D6EAF726B8A42FB575C3C71F1864A8143301782DE13DA2D9202B",
+      "after_node_sha256": "AD57366865126E55649ECB23AE1D48887544976EFEA46A48EB5D85A6EEB4D306",
+      "after_node_xml_sha256": "A12018E1F30A387FFE49EA3C746A0106008BC72D7B47186F9DAB5422193DE4D5"
+    },
+    {
+      "path": "word/document.xml/body[596]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:596:ТЕЛ:1:2"
+      ],
+      "before_node_sha256": "B17EF6D19C7A5B1EE83B907C595526DCB1EB06DB8227D650D5DDA0A9F4CE8CD9",
+      "after_node_sha256": "48449A14A4FF7D79BB7A1B6F3D488EBA397C36EF25634C111B49BAF362511AFC",
+      "after_node_xml_sha256": "B4866D3CA7F10676F517CE49541E41A1ECE77A23B4C5EAD6422A346E1EEABC6F"
+    },
+    {
+      "path": "word/document.xml/body[596]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:596:ЛВК:1:3"
+      ],
+      "before_node_sha256": "323783BE9A53A31E158EC9600626A4703E99F4E183BC1ACB8772CBDF5C3A1ECE",
+      "after_node_sha256": "D59ECED1DED07F84C145592F65BDF854358E009C5CD705F5215BF18697FED103",
+      "after_node_xml_sha256": "1A782AE09E92E71C74546A4B585A38EA538F8D1749F1F21ADBE94C8D0A1D8554"
+    },
+    {
+      "path": "word/document.xml/body[596]/tbl/tr[1]/tc[4]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:596:МОЩ:1:4"
+      ],
+      "before_node_sha256": "3514ACF61732F662DA19625F7FE781C3E483F2DCE8506012F3BB393F5003E105",
+      "after_node_sha256": "811786AD1AE74ADFDD20DD0372ABAAEBC6246E343AEBD01DA0BFC4C02BF0106C",
+      "after_node_xml_sha256": "70F494DBD96CCEBD2C4D26BB96DD44E4B483148C6D605A633505297CD8512FBE"
+    },
+    {
+      "path": "word/document.xml/body[615]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:615:СИЛ:p:p",
+        "shadows-of-leningrad-1938:615:ЛВК:p:p",
+        "shadows-of-leningrad-1938:615:ИНТ:p:p"
+      ],
+      "before_node_sha256": "FFD90357EBC5ADBF57A87E6B33123A2017ECC2C3EC01B7B9C532AADE69D7B620",
+      "after_node_sha256": "21B9DBA12FD0329A837D00BE513FEF1D4D87A7245AD84C6CD075ED5BDF675C86",
+      "after_node_xml_sha256": "E2D3AF87FFAE1B545559E9D82DB849293A1D11C34C66338259F39729BF81610D"
+    },
+    {
+      "path": "word/document.xml/body[616]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:616:ВЫН:p:p",
+        "shadows-of-leningrad-1938:616:НАР:p:p",
+        "shadows-of-leningrad-1938:616:МОЩ:p:p"
+      ],
+      "before_node_sha256": "673542D96078417F386C3F5605B1F952692BDED001157C29E73F80EAD7366DAB",
+      "after_node_sha256": "A55C6938D1CE8768E8C6E82D99349D50A1C337853F3F7384A237236F444E937C",
+      "after_node_xml_sha256": "C1A81388B65E2FFFF1952EB1E6AC3F936A10FF3330EBFA82C8A6070F947594D9"
+    },
+    {
+      "path": "word/document.xml/body[617]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:617:ТЕЛ:p:p",
+        "shadows-of-leningrad-1938:617:ОБР:p:p"
+      ],
+      "before_node_sha256": "C2454CBCD1222DB204AACD5F42F48F2124B89255F68C75897D8218320BAD1238",
+      "after_node_sha256": "2D0A764CECF1CFED892CD5067DB2857BEFA28BCB141E91D383A259207FF5F668",
+      "after_node_xml_sha256": "8B5D1FC475CD663E50C066F5B3BE0178DDD5FF26EA20A592E87D4D591575D270"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:СИЛ:1:0"
+      ],
+      "before_node_sha256": "E6813426FB3816BC05FEFC1165AC324A713BEE5193EE050E141D8E9F58899768",
+      "after_node_sha256": "F4D8C31243B9AB4D81CA90A74852A386EB2CDE1EE803633A0581E8BCFE8DD7BB",
+      "after_node_xml_sha256": "B111AF9F0563CE20D2A7D5F7B78719E4CA300C3D3B4F9758BA55889EBFF0A583"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[1]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:ЛВК:1:1"
+      ],
+      "before_node_sha256": "3ED44F9ADC9CE383165079FE5A962CE9846CF96D2824C37A64FE93F325850250",
+      "after_node_sha256": "8C895607B43844204FE2986E2A110FB313200727749B9DE10FC6018ED0D7A328",
+      "after_node_xml_sha256": "69F2497E93C7F89E5EC74AC5D430022E3BE3EDEB88C7B67FB2C080F95F30F646"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:ИНТ:1:2"
+      ],
+      "before_node_sha256": "6D7878E65ABD86DED2122F9EC788CD1D1AFC0E1CC87160536EC73402C08AD652",
+      "after_node_sha256": "E07319739934E895F1737253759143E93DDC4DE703E3E0061B6077287A9341E4",
+      "after_node_xml_sha256": "CF738399E7BAEBD7688B643ADE9364D61781055A3E6D33E744BDFADAEEADCFB9"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[2]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:ВЫН:2:0"
+      ],
+      "before_node_sha256": "E91F07B18E69FD36DC8B6C49B3E1D6C8278E5AE640BCC5D71615FD992F8B95F2",
+      "after_node_sha256": "51549C5C8E45DF112161DD4E9EDFD5F508F0FF0764183731F38F758983ADA131",
+      "after_node_xml_sha256": "20636686BEDF8FE7903A0C59EA8669002FFF9BB830FEE1A095C2B8140598AE8D"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[2]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:НАР:2:1"
+      ],
+      "before_node_sha256": "106FF6AFA738CF80A88A95EEF19DBEB0EFEE93A11C59A819ED67D0D2D88CE3B9",
+      "after_node_sha256": "1E39F63B9AD657D0C6A6D3F6A27AE5912FAE898C5F0AE01BE17FA9ACEB30ED23",
+      "after_node_xml_sha256": "B52640C254C0E14A21BAF055BC9FE773F52BBABC2A72208C973F554F4DC476FA"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[2]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:МОЩ:2:2"
+      ],
+      "before_node_sha256": "B0CE6CF01B898BB4FADF6026CD7F7CA70939AA286EC10113104FA94FB82B716E",
+      "after_node_sha256": "940C121CA2F0E4CA75272FAABCD1A806B06920F33029E7C78A883E5395F91A75",
+      "after_node_xml_sha256": "FDCB2A6BAFE1ADB98B2E025ECB37992268EBF98CFFA5C3E6377CB3066D24B3E7"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[3]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:ТЕЛ:3:0"
+      ],
+      "before_node_sha256": "D1B1CD7A95AB603DA1EC8D17F1BC8D3C9C18BD56868EC4D8CC1C233321054242",
+      "after_node_sha256": "21BC1BF01E7D1EB1B4509B9587438860383C2A40AE4DFE57782FEA337F4F8157",
+      "after_node_xml_sha256": "6F92B9306ADE74B823BC81099511CF528F0534DA23902C5D008153C58A4F3100"
+    },
+    {
+      "path": "word/document.xml/body[631]/tbl/tr[3]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:631:ОБР:3:2"
+      ],
+      "before_node_sha256": "F3584837001FE143E652355224F55FE6CA5D3B23361675839C645C181295219F",
+      "after_node_sha256": "FA8BD2FB52D935517084D0B71DC4EED159BCD93409063E7C0443F236586F05D9",
+      "after_node_xml_sha256": "E69C37B2A43767EC5759759E3A1D582587F004511C7489C3D0433276A8E1B8FF"
+    },
+    {
+      "path": "word/document.xml/body[646]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:646:СИЛ:p:p",
+        "shadows-of-leningrad-1938:646:ЛВК:p:p",
+        "shadows-of-leningrad-1938:646:ИНТ:p:p"
+      ],
+      "before_node_sha256": "276DEB5BB85DF39209CEBC374B3DE21B6948EE9876A17972120A84B751C38781",
+      "after_node_sha256": "CDC8EC85B5CB7C4A5AF1FBB1C1843A333FB5A40350786AAF40CA1EDA642F339C",
+      "after_node_xml_sha256": "903C7738CD596C2D05811884C317FC83CC50EEF33BC73A261466B372DE76120C"
+    },
+    {
+      "path": "word/document.xml/body[647]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:647:ВЫН:p:p",
+        "shadows-of-leningrad-1938:647:НАР:p:p",
+        "shadows-of-leningrad-1938:647:МОЩ:p:p"
+      ],
+      "before_node_sha256": "1BBA91312537D0EFE2B9C8BB6328B36DA4C3201964621D03F8D78980438D6015",
+      "after_node_sha256": "A09B8BD0815B315B6C115A321A9DCDE85E2E2BA5421646044EDF028BB0D21DC5",
+      "after_node_xml_sha256": "89C8CE00A04865B4E0F1324477EE22AA4F32BF17E8D7BF3C07BC42A608489BBD"
+    },
+    {
+      "path": "word/document.xml/body[648]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:648:ТЕЛ:p:p",
+        "shadows-of-leningrad-1938:648:ОБР:p:p"
+      ],
+      "before_node_sha256": "729CC65161EE0809D7CB2773380FF81DCF24D2C12412C87238B7169A75BB2B2B",
+      "after_node_sha256": "D3BDD0CAE9946975B66FE526CD0A6A1335B99754742B32FF50E5EFECBC7B1E87",
+      "after_node_xml_sha256": "877D779D21B4B2407A53D3D7F1FF1794489673F1708CB528847CFE6379EAFE66"
+    },
+    {
+      "path": "word/document.xml/body[662]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:662:СИЛ:p:p",
+        "shadows-of-leningrad-1938:662:ЛВК:p:p",
+        "shadows-of-leningrad-1938:662:ИНТ:p:p"
+      ],
+      "before_node_sha256": "E7AA7F84ACAA114C68F745D785EE295C9C3DB08512F1A630CD647177E8EF13FC",
+      "after_node_sha256": "563580A5816532DE64BC9AB7A66616BD672FAB8A0AA1C487029ADDCE77F0D1E9",
+      "after_node_xml_sha256": "106EB63F954E082792E91F2AD75BC0B9E5817C2CA47D96AC13F64650295B3D8C"
+    },
+    {
+      "path": "word/document.xml/body[662]/p/r[1]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:662:ВЫН:p:p",
+        "shadows-of-leningrad-1938:662:НАР:p:p",
+        "shadows-of-leningrad-1938:662:МОЩ:p:p"
+      ],
+      "before_node_sha256": "020DE6F6AE6457E0F274F04EB127F2068045547E963617C7EB714DE5AECE926B",
+      "after_node_sha256": "157B265D3A6DBAA4AB9F77B1C608C4A3D849E5D9F085C607445936340C738184",
+      "after_node_xml_sha256": "413FF3FA0094D094925FF484913C4BCD09C15D6CE3418B52BA9230A704ECCAA3"
+    },
+    {
+      "path": "word/document.xml/body[663]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:663:ТЕЛ:p:p",
+        "shadows-of-leningrad-1938:663:ОБР:p:p"
+      ],
+      "before_node_sha256": "7A836ED0A36873217C1C346578AA875E5694EE594ECF8324748E75597D190567",
+      "after_node_sha256": "140FD7B807E20434954E2F4F90C5915015AFD6B29356C023806B75AF407CADB2",
+      "after_node_xml_sha256": "8AD02FB6A63B5F82968B276114725B282BB6BF871CDEAD396F104A609C8EEFAC"
+    },
+    {
+      "path": "word/document.xml/body[677]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:677:СИЛ:p:p",
+        "shadows-of-leningrad-1938:677:ЛВК:p:p",
+        "shadows-of-leningrad-1938:677:ИНТ:p:p"
+      ],
+      "before_node_sha256": "E3DAEBFB0396647ABFD38FA5DA4E78A4462594BFD78BD9BF9B733A68F2E9C3AA",
+      "after_node_sha256": "94F6461B95BC65827A3DD97D79E95981CB3ED7A82749608455CAA4B645FD4BDA",
+      "after_node_xml_sha256": "A049458906ACBB48465FE250F10958ED9C8C83393CCC384C3509CC0D4D5D590B"
+    },
+    {
+      "path": "word/document.xml/body[678]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:678:ВЫН:p:p",
+        "shadows-of-leningrad-1938:678:НАР:p:p",
+        "shadows-of-leningrad-1938:678:МОЩ:p:p"
+      ],
+      "before_node_sha256": "B6476A104B76D44C835EC8197171FBDA4ACCEBB254E5F8BBFA808A66A1FDBB6B",
+      "after_node_sha256": "F30B4A4C1D2E38AA69ADEC07CC36A7815BADE6F64791F5A0640A36C7CF491616",
+      "after_node_xml_sha256": "2131C35524A5638C6EA2B7E96001BDEFD3A65E1C72315BC82690DD08495BC7CE"
+    },
+    {
+      "path": "word/document.xml/body[679]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:679:ТЕЛ:p:p",
+        "shadows-of-leningrad-1938:679:ОБР:p:p"
+      ],
+      "before_node_sha256": "D866B7A21DCE955B7D1FC261CF46F71D7FAC396110C06D38FE9992854A965513",
+      "after_node_sha256": "33DD4E3F95FCBEE0456F0C926483290C255E8D9A61AD3D4135B8525F76D3714C",
+      "after_node_xml_sha256": "0FB5E8BB318F035FE9848DC6744E279C653D4116AF9BEA5A17DEE3A0C7BF5814"
+    },
+    {
+      "path": "word/document.xml/body[401]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:401:skill:Подкрадывание:p:p"
+      ],
+      "before_node_sha256": "892048C4FA8ECE09AD64349A596826409B36D22CD02C7895BBF92C908830C15B",
+      "after_node_sha256": "4323522F92E4F835B7DFA6EA5282D302E5652E3237050904C53881EAFC82E2E0",
+      "after_node_xml_sha256": "099D448B16300A47F7420029DDD94E691665790967D601D5476CA5F698F1BEAC"
+    },
+    {
+      "path": "word/document.xml/body[536]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:536:skill:Торг:p:p",
+        "shadows-of-leningrad-1938:536:skill:Прятаться:p:p",
+        "shadows-of-leningrad-1938:v04:536:skill_label:skill:Искусство:p:p:8"
+      ],
+      "before_node_sha256": "801B1703588389645155034526DAB04677673AFC41100F803CD869C6BDAAEDDE",
+      "after_node_sha256": "B43E55EE6090349EBBC5D1F1B459B153ADFEB2260131F488E243ECF9C4AFFE3A",
+      "after_node_xml_sha256": "39557914188C8CDA2981E2B2B04A25FF14FC85BFB374FE80576AEFFBB178F14A"
+    },
+    {
+      "path": "word/document.xml/body[594]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:594:skill:Искусство (Танец):p:p"
+      ],
+      "before_node_sha256": "411762540CAFEE8751CFF8C6F2985B8D04FC2326E68F23A64FF33AF9B671C871",
+      "after_node_sha256": "4DBD32AB8DCD2DECA14D4F071F034F6C4739D8F14B15F15544B186C91179E2FF",
+      "after_node_xml_sha256": "3A8614D29A6E8E4ED8A8B20CBB092226C4467B351443BDA986F8E713F0B6A11D"
+    },
+    {
+      "path": "word/document.xml/body[621]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:621:skill:Торг:1:2"
+      ],
+      "before_node_sha256": "3161F4C77FE0A0AA1014566A2C03F59825EC666A8819521C453DC042DA9C30D3",
+      "after_node_sha256": "CA7A0126C1F6D3E45F066E52E67AF5A936D692891A5463FAB74E845AD97E3C71",
+      "after_node_xml_sha256": "0DCDEAB36C0B99FA04D23536D1176F9A2B26C3BC6B78D1DBFE9EB6307B3F8768"
+    },
+    {
+      "path": "word/document.xml/body[621]/tbl/tr[4]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:621:skill:Удар кулаком:4:2"
+      ],
+      "before_node_sha256": "FBC9E0229714343CEBDA1C7E970E941A572FBBF9DB78E4085B223D04CEB99FCA",
+      "after_node_sha256": "59DA3A78795527068B3922E9B67ECC18C9A83FF4F9B23C2C5D15A63D1D0C3B7F",
+      "after_node_xml_sha256": "A6716AFB927688730E2137603AFF79507CD28C8185C735E1210DA9A7676BBD02"
+    },
+    {
+      "path": "word/document.xml/body[621]/tbl/tr[5]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:621:skill:Пистолет:5:2"
+      ],
+      "before_node_sha256": "B790A0EA2BE39DB60C3BAB318D25DCE9D832BCDC30A449F40305CB82AF377133",
+      "after_node_sha256": "F4D0763103F26E10E07BCE058042387BF7960D6200D8D29CF00F855D26C717ED",
+      "after_node_xml_sha256": "E259FB64A5A873F14F90671F5BE1D68A3ACD8C82B39A9DC58766912A73074B7C"
+    },
+    {
+      "path": "word/document.xml/body[621]/tbl/tr[10]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:621:skill:Подкрадывание:10:0"
+      ],
+      "before_node_sha256": "22C41A49BC1B53798433793563206D6E6B7F7D42C464BA1E0C9CACC6B8989A7C",
+      "after_node_sha256": "EA1BF8D3C305CC7CC71E9FDB70209A876B181F29BBCCD9B1D90EB12084CA35EC",
+      "after_node_xml_sha256": "58BAC636FC5BC667290FE2A8AF247D320622EBCEADCE3A6B70BE0957B6CECEE6"
+    },
+    {
+      "path": "word/document.xml/body[636]/tbl/tr[4]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:636:skill:Удар кулаком:4:0"
+      ],
+      "before_node_sha256": "FBC9E0229714343CEBDA1C7E970E941A572FBBF9DB78E4085B223D04CEB99FCA",
+      "after_node_sha256": "59DA3A78795527068B3922E9B67ECC18C9A83FF4F9B23C2C5D15A63D1D0C3B7F",
+      "after_node_xml_sha256": "A6716AFB927688730E2137603AFF79507CD28C8185C735E1210DA9A7676BBD02"
+    },
+    {
+      "path": "word/document.xml/body[636]/tbl/tr[4]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:636:skill:Пистолет:4:2"
+      ],
+      "before_node_sha256": "B790A0EA2BE39DB60C3BAB318D25DCE9D832BCDC30A449F40305CB82AF377133",
+      "after_node_sha256": "F4D0763103F26E10E07BCE058042387BF7960D6200D8D29CF00F855D26C717ED",
+      "after_node_xml_sha256": "E259FB64A5A873F14F90671F5BE1D68A3ACD8C82B39A9DC58766912A73074B7C"
+    },
+    {
+      "path": "word/document.xml/body[636]/tbl/tr[8]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:636:skill:Винтовка (слоновье ружьё):8:2"
+      ],
+      "before_node_sha256": "0D44D9BDFE9101EF0FB4CCA7D268FC0B68C685A33BA49B35E47900944F50345F",
+      "after_node_sha256": "D0A799D07CBA9A4113E613CEA0BB014DDE3C49FB029F502F291D4FA132068E21",
+      "after_node_xml_sha256": "18834A7664479BB605A751C032B8E12CE9735D7F7D54ED42EEC5F12C287961D7"
+    },
+    {
+      "path": "word/document.xml/body[636]/tbl/tr[9]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:636:skill:Подкрадывание:9:0"
+      ],
+      "before_node_sha256": "22C41A49BC1B53798433793563206D6E6B7F7D42C464BA1E0C9CACC6B8989A7C",
+      "after_node_sha256": "EA1BF8D3C305CC7CC71E9FDB70209A876B181F29BBCCD9B1D90EB12084CA35EC",
+      "after_node_xml_sha256": "58BAC636FC5BC667290FE2A8AF247D320622EBCEADCE3A6B70BE0957B6CECEE6"
+    },
+    {
+      "path": "word/document.xml/body[652]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:652:skill:Искусство (Живопись):1:0"
+      ],
+      "before_node_sha256": "D28CD8E028595995C35BAF34DD252C16A4179D9104D40986C80C9CFBB63A7E2B",
+      "after_node_sha256": "C486F9E4178F8C661240F14B2A472B72BAA2C1BB9D391A46117AFD701EFD5C39",
+      "after_node_xml_sha256": "E6124C904BEBEF25EFF6A6DDB9997D8E7AF9F51A045AADE6B764A676A0E7E6B2"
+    },
+    {
+      "path": "word/document.xml/body[652]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:652:skill:Искусство (Чревовещание):1:2"
+      ],
+      "before_node_sha256": "D1680C38759F0C3B54717E0E3292FF6C1C5B7B0D5F4F94AC8973E717A500B0E4",
+      "after_node_sha256": "A0E088B03FE5A15788A7A6585056DCD3D4F5CB28E4E2DEA8E30740F8D8B22A28",
+      "after_node_xml_sha256": "1B76C0E411313CED94911B944A22D41885947240AC52EB7051B34D96248EC9FA"
+    },
+    {
+      "path": "word/document.xml/body[652]/tbl/tr[2]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:652:skill:Астрономия:2:0"
+      ],
+      "before_node_sha256": "AB1D5B2A18E244BA0E1DF89634EA9A572A950C777106487B0C53EA1000AB5A04",
+      "after_node_sha256": "F1493A3A6E504977C5BFCA95B30ADACD329A69C4BB53D7243B8C35E6DC8120B5",
+      "after_node_xml_sha256": "3AB4ED8664EAD4661E3BAC77CA52A4162A1B905A7EF35E28782253199F9E407C"
+    },
+    {
+      "path": "word/document.xml/body[652]/tbl/tr[3]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:652:skill:Удар кулаком:3:2"
+      ],
+      "before_node_sha256": "FBC9E0229714343CEBDA1C7E970E941A572FBBF9DB78E4085B223D04CEB99FCA",
+      "after_node_sha256": "59DA3A78795527068B3922E9B67ECC18C9A83FF4F9B23C2C5D15A63D1D0C3B7F",
+      "after_node_xml_sha256": "A6716AFB927688730E2137603AFF79507CD28C8185C735E1210DA9A7676BBD02"
+    },
+    {
+      "path": "word/document.xml/body[652]/tbl/tr[4]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:652:skill:Пистолет:4:0"
+      ],
+      "before_node_sha256": "B790A0EA2BE39DB60C3BAB318D25DCE9D832BCDC30A449F40305CB82AF377133",
+      "after_node_sha256": "F4D0763103F26E10E07BCE058042387BF7960D6200D8D29CF00F855D26C717ED",
+      "after_node_xml_sha256": "E259FB64A5A873F14F90671F5BE1D68A3ACD8C82B39A9DC58766912A73074B7C"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[2]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:667:skill:Сокрытие:2:0"
+      ],
+      "before_node_sha256": "2D3BA1A32B03DB25666B28BA0C058B84E0BB89D3DC351711B5D09DBD300C3581",
+      "after_node_sha256": "79F9A6630221E985458808BECA4BC440B58AB1842281D34B0A517EAAC213C4CE",
+      "after_node_xml_sha256": "C55277E1F82BCD12C2132F1414145136F686F7A8BF49BBA4B5864111DF42F5A9"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[5]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:667:skill:Удар кулаком:5:0"
+      ],
+      "before_node_sha256": "FBC9E0229714343CEBDA1C7E970E941A572FBBF9DB78E4085B223D04CEB99FCA",
+      "after_node_sha256": "59DA3A78795527068B3922E9B67ECC18C9A83FF4F9B23C2C5D15A63D1D0C3B7F",
+      "after_node_xml_sha256": "A6716AFB927688730E2137603AFF79507CD28C8185C735E1210DA9A7676BBD02"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[5]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:667:skill:Пистолет:5:2"
+      ],
+      "before_node_sha256": "B790A0EA2BE39DB60C3BAB318D25DCE9D832BCDC30A449F40305CB82AF377133",
+      "after_node_sha256": "F4D0763103F26E10E07BCE058042387BF7960D6200D8D29CF00F855D26C717ED",
+      "after_node_xml_sha256": "E259FB64A5A873F14F90671F5BE1D68A3ACD8C82B39A9DC58766912A73074B7C"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[6]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:667:skill:Прятаться:6:0"
+      ],
+      "before_node_sha256": "16086C41569BA1A46D5EDA4C2D4D16388173C9EF65FEE9104A95E2F10683411D",
+      "after_node_sha256": "EA1BF8D3C305CC7CC71E9FDB70209A876B181F29BBCCD9B1D90EB12084CA35EC",
+      "after_node_xml_sha256": "58BAC636FC5BC667290FE2A8AF247D320622EBCEADCE3A6B70BE0957B6CECEE6"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[10]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:667:skill:Фотография:10:2"
+      ],
+      "before_node_sha256": "248EEAA19216CD516ED6F6E81F22D3FB6A07CE35F4937798BB3AC937080DD90B",
+      "after_node_sha256": "8624BB1AECB82303CEAE684C1E99C03E6FE2EACC69D0D219C5F99E14B8C44C2B",
+      "after_node_xml_sha256": "062E8E5E449D6705B085AEBAE236A977A850A319D3FFBC22A6FD2EF6A72195CD"
+    },
+    {
+      "path": "word/document.xml/body[683]/tbl/tr[1]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:683:skill:Искусство (Живопись):1:0"
+      ],
+      "before_node_sha256": "D28CD8E028595995C35BAF34DD252C16A4179D9104D40986C80C9CFBB63A7E2B",
+      "after_node_sha256": "C486F9E4178F8C661240F14B2A472B72BAA2C1BB9D391A46117AFD701EFD5C39",
+      "after_node_xml_sha256": "E6124C904BEBEF25EFF6A6DDB9997D8E7AF9F51A045AADE6B764A676A0E7E6B2"
+    },
+    {
+      "path": "word/document.xml/body[683]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:683:skill:Сокрытие:1:2"
+      ],
+      "before_node_sha256": "2D3BA1A32B03DB25666B28BA0C058B84E0BB89D3DC351711B5D09DBD300C3581",
+      "after_node_sha256": "79F9A6630221E985458808BECA4BC440B58AB1842281D34B0A517EAAC213C4CE",
+      "after_node_xml_sha256": "C55277E1F82BCD12C2132F1414145136F686F7A8BF49BBA4B5864111DF42F5A9"
+    },
+    {
+      "path": "word/document.xml/body[683]/tbl/tr[3]/tc[0]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:683:skill:Удар кулаком:3:0"
+      ],
+      "before_node_sha256": "FBC9E0229714343CEBDA1C7E970E941A572FBBF9DB78E4085B223D04CEB99FCA",
+      "after_node_sha256": "59DA3A78795527068B3922E9B67ECC18C9A83FF4F9B23C2C5D15A63D1D0C3B7F",
+      "after_node_xml_sha256": "A6716AFB927688730E2137603AFF79507CD28C8185C735E1210DA9A7676BBD02"
+    },
+    {
+      "path": "word/document.xml/body[683]/tbl/tr[6]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:683:skill:Фотография:6:2"
+      ],
+      "before_node_sha256": "248EEAA19216CD516ED6F6E81F22D3FB6A07CE35F4937798BB3AC937080DD90B",
+      "after_node_sha256": "8624BB1AECB82303CEAE684C1E99C03E6FE2EACC69D0D219C5F99E14B8C44C2B",
+      "after_node_xml_sha256": "062E8E5E449D6705B085AEBAE236A977A850A319D3FFBC22A6FD2EF6A72195CD"
+    },
+    {
+      "path": "word/document.xml/body[683]/tbl/tr[7]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:683:skill:Подкрадывание:7:2"
+      ],
+      "before_node_sha256": "22C41A49BC1B53798433793563206D6E6B7F7D42C464BA1E0C9CACC6B8989A7C",
+      "after_node_sha256": "EA1BF8D3C305CC7CC71E9FDB70209A876B181F29BBCCD9B1D90EB12084CA35EC",
+      "after_node_xml_sha256": "58BAC636FC5BC667290FE2A8AF247D320622EBCEADCE3A6B70BE0957B6CECEE6"
+    },
+    {
+      "path": "word/document.xml/body[313]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:313:contextual_stealth:p:p"
+      ],
+      "before_node_sha256": "C8E1846A01DE5D3F973D6A68685AF241215AEF0CC63F33F016C3B8AA374E2C92",
+      "after_node_sha256": "5063594EFE0EAF6AA7CECE6F5D2C8AA2766E8DF6BCA93076608037581DC619B7",
+      "after_node_xml_sha256": "892C539126FDA7E7331B0D24774F37A26F40709C84473092086C953050B9308B"
+    },
+    {
+      "path": "word/document.xml/body[378]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:378:contextual_stealth:p:p"
+      ],
+      "before_node_sha256": "C8E1846A01DE5D3F973D6A68685AF241215AEF0CC63F33F016C3B8AA374E2C92",
+      "after_node_sha256": "5063594EFE0EAF6AA7CECE6F5D2C8AA2766E8DF6BCA93076608037581DC619B7",
+      "after_node_xml_sha256": "892C539126FDA7E7331B0D24774F37A26F40709C84473092086C953050B9308B"
+    },
+    {
+      "path": "word/document.xml/body[77]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:77:skill_label:skill:Подкрадывание:p:p:72"
+      ],
+      "before_node_sha256": "F177E360DFC89B544340E065E586D871C767F8A77C9FE29DAFED32DB0DF0317A",
+      "after_node_sha256": "051990C3B73BA33739399C52BF67FA7A4372D5A0BB29A5E10278BEC907E063BC",
+      "after_node_xml_sha256": "AC1BC987D3715A3D08F064A8E11D2CF30183B86245E96E9EDCD3B15CE21ED0D4"
+    },
+    {
+      "path": "word/document.xml/body[250]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:250:skill_label:skill:Сокрытие:p:p:289"
+      ],
+      "before_node_sha256": "91BFC4E25D4E2C4EB8158985027E7E6403D81E790C3DF106072E32995DE72BC1",
+      "after_node_sha256": "F9AF7FC5361887B99163ED13EFF8C0C0F52815AFDFF8435D353B187F137744E5",
+      "after_node_xml_sha256": "951DB8BBEDBDCABC31C36CCC0FAF6C0B345E9FE0B69AEB05F5E232185DE89B45"
+    },
+    {
+      "path": "word/document.xml/body[344]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:344:skill_label:skill:Сокрытие:p:p:355"
+      ],
+      "before_node_sha256": "70D0BC214BAB3736DAA8F0C871B4F4B097490F9357FF9B5F7F2A501205EC7F6F",
+      "after_node_sha256": "B8D2AB51C0DDCC12D926C3C1FD95F7B56DED7A38504CF147317AEB241E2FCD6F",
+      "after_node_xml_sha256": "9FE914B9E7BB7977FDC52F24FC91510094F414A333C15F686E4F43E3FCA76600"
+    },
+    {
+      "path": "word/document.xml/body[560]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:560:skill_label:skill:Подкрадывание:p:p:219",
+        "shadows-of-leningrad-1938:v04:560:skill_label:skill:Прятаться:p:p:397"
+      ],
+      "before_node_sha256": "3F361383388E53E18BB39517C511CE3809076CC5D193C2AC5C8A30BD8A676BC8",
+      "after_node_sha256": "4B17D1432E2D51DFB4B44C4FCE15915CFBAA83FB96593B92E6D91E3986C691BC",
+      "after_node_xml_sha256": "BE669F548A97D939D59A11981EA54E4AF6EF14AE20BFDFB96EC86D2C3DAA0255"
+    },
+    {
+      "path": "word/document.xml/body[256]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:256:prose_label:rybin_bodily_stealth:p:p:89"
+      ],
+      "before_node_sha256": "0210F94E9BE72C7C8AF36D6E2A6C7752640AC79D684148996ED1CBDD9DB61711",
+      "after_node_sha256": "8CD1F1642F6091856F0FFC5305CCF35A8FEA60E99DAA4D7C367D80CEC302F177",
+      "after_node_xml_sha256": "32D910FA6CA8844616493DEB82CBFA7F856E85BA230A8714B394509CB915990C"
+    },
+    {
+      "path": "word/document.xml/body[271]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:271:characteristic_prose:СИЛ:p:p:191"
+      ],
+      "before_node_sha256": "2163E27095EB97DB394C152FD1117D1B930EA0793FA26A662B5D21DA96CD51F6",
+      "after_node_sha256": "BC541EFA6CD15EF54A3ACE5471CB5E564740331FFD25ED0D0BE81ADE2AB02052",
+      "after_node_xml_sha256": "00DF8CEE2596D460F9C5BD7B224798A066BDFC263AE1BA8041E5BA10C53DF5D6"
+    },
+    {
+      "path": "word/document.xml/body[302]/p/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:302:characteristic_prose:СИЛ:p:p:392"
+      ],
+      "before_node_sha256": "FBFA2C3396165BCF2DEF4DA3BBFDF0DADD29B122579AE25F80A5D92F0843E8E1",
+      "after_node_sha256": "700B8C1DE72F000E78E4C161EFA3D5482466A24766B4449CCEB8C381A44DB195",
+      "after_node_xml_sha256": "B217B7985F2005B49044852CE0893C8286DF760000A0EA760BD98B847AFB5F67"
+    },
+    {
+      "path": "word/document.xml/body[636]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:636:skill_consolidation:Убеждение:1:2:0"
+      ],
+      "before_node_sha256": "3161F4C77FE0A0AA1014566A2C03F59825EC666A8819521C453DC042DA9C30D3",
+      "after_node_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "after_node_xml_sha256": "6A20DF5B96C134FB30418753EDF7C145D23D080BE2B48EB64BADD2E4B3624855"
+    },
+    {
+      "path": "word/document.xml/body[636]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:636:skill_consolidation:Убеждение:1:3:0"
+      ],
+      "before_node_sha256": "B322F5A716EBD783D166094AB1FAB818CA782F1C61AB0DD2BFF11AF2F743BDE9",
+      "after_node_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "after_node_xml_sha256": "6A20DF5B96C134FB30418753EDF7C145D23D080BE2B48EB64BADD2E4B3624855"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[1]/tc[2]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:667:skill_consolidation:Убеждение:1:2:0"
+      ],
+      "before_node_sha256": "3161F4C77FE0A0AA1014566A2C03F59825EC666A8819521C453DC042DA9C30D3",
+      "after_node_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "after_node_xml_sha256": "6A20DF5B96C134FB30418753EDF7C145D23D080BE2B48EB64BADD2E4B3624855"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[1]/tc[3]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:667:skill_consolidation:Убеждение:1:3:0"
+      ],
+      "before_node_sha256": "B322F5A716EBD783D166094AB1FAB818CA782F1C61AB0DD2BFF11AF2F743BDE9",
+      "after_node_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "after_node_xml_sha256": "6A20DF5B96C134FB30418753EDF7C145D23D080BE2B48EB64BADD2E4B3624855"
+    },
+    {
+      "path": "word/document.xml/body[667]/tbl/tr[10]/tc[1]/p[0]/r[0]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:667:skill_consolidation:Убеждение:10:1:0"
+      ],
+      "before_node_sha256": "0F16342EE1C13A8666CBEE3C66C8203A9752F46D3E256F0EB55AD613AECD9626",
+      "after_node_sha256": "B322F5A716EBD783D166094AB1FAB818CA782F1C61AB0DD2BFF11AF2F743BDE9",
+      "after_node_xml_sha256": "B4209835EB9F49930E8E208703C88ECF579E962319E967C25A4F9FF0643B0B8A"
+    },
+    {
+      "path": "word/document.xml/body[310]/p/r[2]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:katerina-strength-drain"
+      ],
+      "before_node_sha256": "C99C93A1F16D91F6FD91EB3339312D2F329437ACF93221E2BA812A0CDB4169CB",
+      "after_node_sha256": "4BB7D9040713395ACBF37797BFAF07462A71CF074EBF01F4C5AED3EBF22C89E1",
+      "after_node_xml_sha256": "24D21D6E3DE7B0FC733EFABEB12E45738B20A2F253C4A5FC79F34EE857F4F6A2"
+    },
+    {
+      "path": "word/document.xml/body[310]/p/r[3]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:katerina-strength-drain"
+      ],
+      "before_node_sha256": "3F39D5C348E5B79D06E842C114E6CC571583BBF44E4B0EBFDA1A01EC05745D43",
+      "after_node_sha256": "3F39D5C348E5B79D06E842C114E6CC571583BBF44E4B0EBFDA1A01EC05745D43",
+      "after_node_xml_sha256": "F756C3B1D90C07773327D6EAC21BABDFC25F8884617BCC23545A2D918133FC67"
+    },
+    {
+      "path": "word/document.xml/body[310]/p/r[4]/t[0]",
+      "operation_ids": [
+        "shadows-of-leningrad-1938:v04:katerina-strength-drain"
+      ],
+      "before_node_sha256": "8DBDF5072B03EE91700FFE99E67B71B2D8B3597B552929FA1E6E62BA60446463",
+      "after_node_sha256": "A141DDC3EFCA1492CAE24EB675BFB85052EB9943C19037727AA0DA1B5951FF30",
+      "after_node_xml_sha256": "700CD705E461C639C394CF1A1896C223BF89099FBEA47E4BAA76150E2DCAEE2A"
+    }
+  ],
+  "source_graphic_coverage": [],
+  "limitations": [
+    "Reviewed-artifact successor; lost upstream master lineage cannot be reconstructed.",
+    "Rendered page QA and independent release review remain pending.",
+    "Field-only pass conserves all original artwork; source-art completeness was not assessed."
+  ]
+}

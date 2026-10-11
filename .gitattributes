@@ -1,0 +1,151 @@
+* text=auto
+
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.rules text eol=lf
+*.ps1 text eol=crlf
+*.py text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.PDF binary
+
+# MinerU model payloads are intentionally versioned through Git LFS.
+MinerU/models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+MinerU/models/**/*.pth filter=lfs diff=lfs merge=lfs -text
+MinerU/models/**/*.onnx filter=lfs diff=lfs merge=lfs -text
+MinerU/models/**/*.part-* filter=lfs diff=lfs merge=lfs -text
+# This large model configuration is manifest-bound and must not be CRLF-expanded.
+MinerU/models/pipeline/models/MFR/pp_formulanet_plus_m/PP-FormulaNet_plus-M_inference.yml -text
+
+# Frozen reference policies preserve their reviewed byte identity.
+kb_creator/reference/viral/master_en/publication_config_v1.json -text
+
+# Viral production is a byte-frozen, manifest-bound example package.
+kb_creator/inputs/viral/production/** -text
+kb_creator/inputs/viral/production/Viral_RU.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Number 7 Dream production inventory is byte-frozen by its package manifest.
+kb_creator/inputs/number-7-dream/production/** -text
+kb_creator/inputs/number-7-dream/production/Number_7_Dream_RU.pdf filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/number-7-dream/review-history/** -text
+kb_creator/inputs/number-7-dream/review-history/run28/Number_7_Dream_RU.reviewed.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/number-7-dream/review-history/run29/Number_7_Dream_RU.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Complete Cursed Idol review candidates preserve manifest-bound bytes.
+kb_creator/inputs/cursed-idol/candidates/** -text -whitespace
+kb_creator/inputs/cursed-idol/candidates/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/cursed-idol/candidates/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/cursed-idol/candidates/**/*.png filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/cursed-idol/candidates/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/cursed-idol/candidates/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+# Preservation checkpoints keep source-bound data byte exact; reader binaries use LFS.
+kb_creator/reports/checkpoints/20260921-night-three-books/** -text -whitespace
+kb_creator/reports/checkpoints/20260921-night-three-books/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260921-night-three-books/**/*.png filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260921-night-three-books/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260921-night-three-books/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+# Recovery evidence and term imports include byte identities; preserve their line endings.
+kb_creator/docs/plans/20260920-night-three-books/** -text -whitespace
+CoC/Project_Reference/Terminology/CoC_Terminology_Decisions.csv -text -whitespace
+CoC/Project_Reference/Terminology/imports/** -text -whitespace
+kb_creator/tests/fixtures/reviewed_staging/** -text -whitespace
+
+# September 23 preservation: exact data bytes; large packages stored in LFS.
+kb_creator/reports/checkpoints/20260923-night-three-books/** -text -whitespace
+kb_creator/reports/checkpoints/20260923-night-three-books/**/*.zip filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260923-night-three-books/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260923-night-three-books/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260923-night-three-books/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/reports/checkpoints/20260923-night-three-books/**/*.png filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/secrets-of-the-kremlin-1931/** -text -whitespace
+kb_creator/inputs/shadows-of-leningrad-1938/** -text -whitespace
+kb_creator/inputs/secrets-of-the-kremlin-1931/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/secrets-of-the-kremlin-1931/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/secrets-of-the-kremlin-1931/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/secrets-of-the-kremlin-1931/**/*.png filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/shadows-of-leningrad-1938/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/shadows-of-leningrad-1938/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/shadows-of-leningrad-1938/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/shadows-of-leningrad-1938/**/*.png filter=lfs diff=lfs merge=lfs -text
+
+# Preserve the exact N354 reviewed implementation bytes used by recovery bindings.
+kb_creator/scripts/audit_mineru_ai_merge_fidelity.py -text
+
+kb_creator/inputs/number-7-dream/revisions/** -text
+kb_creator/inputs/number-7-dream/revisions/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/inputs/number-7-dream/revisions/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+# Latest reader deliverables only; exclude internal recovery and page QA.
+kb_creator/deliverables/latest/** -text
+kb_creator/deliverables/latest/**/*.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/deliverables/latest/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+kb_creator/deliverables/latest/**/*.png filter=lfs diff=lfs merge=lfs -text
+kb_creator/deliverables/latest/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/deliverables/latest/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+kb_creator/deliverables/latest/**/*.gif filter=lfs diff=lfs merge=lfs -text
+kb_creator/deliverables/latest/**/*.webp filter=lfs diff=lfs merge=lfs -text
+
+# Approved October 5 review corrections: preserve exact release-bound bytes.
+.gitattributes -text
+kb_creator/docs/plans/20261004-user-docx-review/** -text -whitespace
+kb_creator/docs/plans/20261005-kb-review-main-push/** -text -whitespace
+kb_creator/working/user-review-20261004/*/document.docx filter=lfs diff=lfs merge=lfs -text
+kb_creator/working/user-review-20261004/fear-source-art-v01/*.jpg filter=lfs diff=lfs merge=lfs -text
+kb_creator/working/user-review-20261004/fear-source-art-v01/*.png filter=lfs diff=lfs merge=lfs -text
+kb_creator/working/user-review-20261004/fear-source-art-v01/manifest.json -text
+kb_creator/__main__.py -text
+kb_creator/contracts/reader_fidelity_plan.v1.schema.json -text
+kb_creator/contracts/reader_fidelity_plan.v2.schema.json -text
+kb_creator/contracts/reader_fidelity_verification.v1.schema.json -text
+kb_creator/contracts/source_graphics_inventory.v1.schema.json -text
+kb_creator/contracts/source_graphics_review.v1.schema.json -text
+kb_creator/docs/five-step-usage.md -text
+kb_creator/docs/reviewed-docx-revision.md -text
+kb_creator/docs/reviewed-reader-revision.md -text
+kb_creator/pipeline/docx_continuation.py -text
+kb_creator/pipeline/docx_review_comments.py -text
+kb_creator/pipeline/edition_projection.py -text
+kb_creator/pipeline/five_step_docx.py -text
+kb_creator/pipeline/five_step_successor.py -text
+kb_creator/pipeline/five_step.py -text
+kb_creator/pipeline/publication_adapters.py -text
+kb_creator/pipeline/publication.py -text
+kb_creator/pipeline/reader_fidelity.py -text
+kb_creator/pipeline/reader_options_rebind.py -text
+kb_creator/pipeline/reviewed_docx_revision.py -text
+kb_creator/pipeline/reviewed_reader_revision.py -text
+kb_creator/pipeline/source_graphics.py -text
+kb_creator/scripts/build_bilingual_checkpoint.py -text
+kb_creator/scripts/continue_docx.py -text
+kb_creator/scripts/production_docx.py -text
+kb_creator/scripts/revise_publication_docx_package.py -text
+kb_creator/scripts/revise_reviewed_docx.py -text
+kb_creator/scripts/revise_reviewed_reader.py -text
+kb_creator/tests/fidelity_fixture.py -text
+kb_creator/tests/historical_publication_archive.py -text
+kb_creator/tests/test_docx_continuation.py -text
+kb_creator/tests/test_docx_only_output_policy.py -text
+kb_creator/tests/test_edition_projection_contract.py -text
+kb_creator/tests/test_fidelity_contract_schemas.py -text
+kb_creator/tests/test_five_step_docx.py -text
+kb_creator/tests/test_five_step_runner.py -text
+kb_creator/tests/test_five_step_successor.py -text
+kb_creator/tests/test_guarded_docx_source_fidelity.py -text
+kb_creator/tests/test_production_docx.py -text
+kb_creator/tests/test_publication_control_plane.py -text
+kb_creator/tests/test_publication_docx_adapter.py -text
+kb_creator/tests/test_publication_docx_revision.py -text
+kb_creator/tests/test_publication_html_adapter.py -text
+kb_creator/tests/test_publication_registry_e2e.py -text
+kb_creator/tests/test_reader_fidelity_plan.py -text
+kb_creator/tests/test_reviewed_docx_revision.py -text
+kb_creator/tests/test_reviewed_reader_revision.py -text
+kb_creator/tests/test_source_bound_word_fields.py -text
+kb_creator/tests/test_source_graphics_contract.py -text

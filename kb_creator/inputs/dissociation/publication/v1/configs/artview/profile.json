@@ -1,0 +1,98 @@
+{
+  "schema": "kb_creator.scenario_artview_profile.v3",
+  "scenario_id": "dissociation",
+  "output_root": "artview-build",
+  "inputs": {
+    "master_ru": {
+      "path": "source-graph.json",
+      "bytes": 770,
+      "sha256": "CB30B2059000464DA1CB8F8CE5A93E30EB86D0511D5F2A54720307D2C6F499B2"
+    },
+    "master_ru_acceptance": {
+      "path": "source-graph.json",
+      "bytes": 770,
+      "sha256": "CB30B2059000464DA1CB8F8CE5A93E30EB86D0511D5F2A54720307D2C6F499B2"
+    },
+    "master_ru_asset_manifest": {
+      "path": "source-graph.json",
+      "bytes": 770,
+      "sha256": "CB30B2059000464DA1CB8F8CE5A93E30EB86D0511D5F2A54720307D2C6F499B2"
+    },
+    "reconstruction_inventory": {
+      "path": "source-graph.json",
+      "bytes": 770,
+      "sha256": "CB30B2059000464DA1CB8F8CE5A93E30EB86D0511D5F2A54720307D2C6F499B2"
+    }
+  },
+  "excluded_source_pages": [],
+  "rows": [
+    {
+      "asset_id": "dissociation-cover",
+      "anchor": "dissociation",
+      "label": "Dissociation cover",
+      "source_page": 1,
+      "group": "frontmatter",
+      "current": {
+        "path": "assets/e30a388dc2a17e216a53a2a673ea583c3b71be6567fe97f9e35805de71e760ac.jpg",
+        "bytes": 257805,
+        "sha256": "E30A388DC2A17E216A53A2A673EA583C3B71BE6567FE97F9E35805DE71E760AC",
+        "media_type": "image/jpeg",
+        "dimensions": {
+          "width": 1526,
+          "height": 2129
+        }
+      },
+      "context": {
+        "path": "assets/e30a388dc2a17e216a53a2a673ea583c3b71be6567fe97f9e35805de71e760ac.jpg",
+        "bytes": 257805,
+        "sha256": "E30A388DC2A17E216A53A2A673EA583C3B71BE6567FE97F9E35805DE71E760AC",
+        "media_type": "image/jpeg",
+        "dimensions": {
+          "width": 1526,
+          "height": 2129
+        }
+      },
+      "alternatives": [],
+      "presentation_defaults": {
+        "width_percent": 100,
+        "alignment": "center",
+        "wrap_text": false,
+        "wrap_tables": false
+      }
+    },
+    {
+      "asset_id": "alaska-map",
+      "anchor": "laboratory",
+      "label": "Alaska map and charter handout",
+      "source_page": 5,
+      "group": "maps",
+      "current": {
+        "path": "assets/f96ad0f20513f4737474915670fe2a1f361bf60c12fd6ae0f210cf2132127de4.jpg",
+        "bytes": 236058,
+        "sha256": "F96AD0F20513F4737474915670FE2A1F361BF60C12FD6AE0F210CF2132127DE4",
+        "media_type": "image/jpeg",
+        "dimensions": {
+          "width": 1359,
+          "height": 1326
+        }
+      },
+      "context": {
+        "path": "assets/f96ad0f20513f4737474915670fe2a1f361bf60c12fd6ae0f210cf2132127de4.jpg",
+        "bytes": 236058,
+        "sha256": "F96AD0F20513F4737474915670FE2A1F361BF60C12FD6AE0F210CF2132127DE4",
+        "media_type": "image/jpeg",
+        "dimensions": {
+          "width": 1359,
+          "height": 1326
+        }
+      },
+      "alternatives": [],
+      "presentation_defaults": {
+        "width_percent": 80,
+        "alignment": "center",
+        "wrap_text": false,
+        "wrap_tables": false
+      }
+    }
+  ]
+}

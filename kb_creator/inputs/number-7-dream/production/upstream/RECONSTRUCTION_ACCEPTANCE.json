@@ -1,0 +1,52 @@
+{
+  "schema": "kb_creator.artifact_acceptance.v1",
+  "scenario_id": "number-7-dream",
+  "artifact_kind": "reconstructed_en",
+  "candidate": {
+    "path": "content/RECONSTRUCTED_EN.md",
+    "bytes": 76430,
+    "sha256": "B49F8417007425ADAD6C0ED0A1C6E6625A27ED51C182D9164C8D8AC45324DE2A"
+  },
+  "producer_stage": {
+    "path": "evidence/stages/06-materialize-candidate.stage.json",
+    "bytes": 21554,
+    "sha256": "CE40D617E822DE9FDCCAFA36CB4B50538160DB930FD7D9F32986F057F8F7B2C7"
+  },
+  "evidence": [
+    {
+      "path": "RECONSTRUCTION_INVENTORY.json",
+      "bytes": 1097,
+      "sha256": "B37142B8CFB0E85A9BFF157E1DF435D24EDEE13E1F6B755B064E2108CF4E1547"
+    },
+    {
+      "path": "RECONSTRUCTION_MANIFEST.json",
+      "bytes": 58760,
+      "sha256": "9E3D36B88FAED8E9E0845B1E432E4770E9DF863E769DC9E076A36A2CAE094118"
+    },
+    {
+      "path": "RECONSTRUCTION_QA.json",
+      "bytes": 2009,
+      "sha256": "792EE7A3C3C541C6397B908A4FC9777E3A20DD2B60934F82A0F1C7B3501270C1"
+    },
+    {
+      "path": "SOURCE_IDENTITY.json",
+      "bytes": 803,
+      "sha256": "17EA15D089FDFA672620529CAB9883E025208CF33938819A0D87F29422004432"
+    },
+    {
+      "path": "evidence/fidelity/audit.json",
+      "bytes": 2130255,
+      "sha256": "2A86B57DD4CD71D0D885D2CE8FB401C0D5940D79173E1CD6AD15F539687FF85A"
+    },
+    {
+      "path": "content/SEMANTIC_STRUCTURE.json",
+      "bytes": 37433,
+      "sha256": "49AE8683478967D5A698F6124086082960361AA082A85A7F881EB36EC8D0724C"
+    }
+  ],
+  "decision": "accepted",
+  "decision_at_utc": "2026-09-18T09:41:08.858511Z",
+  "user_decision_reference": "Codex thread user message on 2026-09-18: RECONSTRUCTED_EN.md from 20260918-cpu-replay-21 принято (repeated confirmation)",
+  "recorder_role": "main_orchestrator",
+  "receipt_sha256": "A03FA27CD6569ED4F8304BB283E049942AD2DEEC9A772DFCBE28C77E8EDE0ADF"
+}

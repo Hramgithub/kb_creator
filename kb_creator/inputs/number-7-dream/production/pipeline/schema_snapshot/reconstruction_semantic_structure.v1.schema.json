@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "kb_creator.reconstruction_semantic_structure.v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "profile", "pages", "structure_sha256", "submission_sha256", "fidelity_audit", "page_decisions"],
+  "properties": {"schema": {"const": "kb_creator.reconstruction_semantic_structure.v1"}, "profile": {"enum": ["visually_reviewed_semantic_containers_v1", "reviewed_role_outline_and_partitions_v2"]}, "pages": {"type": "array"}, "structure_sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}, "submission_sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}, "fidelity_audit": {"type": "object"}, "page_decisions": {"type": "array"}}
+}

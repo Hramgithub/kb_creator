@@ -1,0 +1,23 @@
+{
+  "schema": "kb_creator.reconstruction_source_identity.v1",
+  "scenario_id": "number-7-dream",
+  "run_identity_sha256": "25F375E1C76B0A32496C5B06BEA9939F3B1E144288A5A517F6BF324763FB4F84",
+  "contract": {
+    "basename": "number-7-dream.reconstruction.json",
+    "bytes": 2871,
+    "sha256": "A74582B223805E643EB6B7C03BD540DBB90CF2B0B124F9B1E220B6B7251B4A07",
+    "contract_revision": 1
+  },
+  "source": {
+    "basename": "Call_of_Cthulhu_Miskatonic_Repository_Modern_Number_7_Dream_2021.pdf",
+    "bytes": 2915268,
+    "sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0",
+    "page_count": 26,
+    "media_box_points": [
+      612,
+      792
+    ],
+    "rotation_degrees": 0
+  },
+  "source_identity_sha256": "DC85603DBA13EBDBDAB174389E109093B4DCD4E83C254021F301D9198C7345CC"
+}

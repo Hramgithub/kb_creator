@@ -1,0 +1,26 @@
+# Handoff receipt: Dissociation MASTER_RU P2 corrections, run04
+
+- Scope: fresh immutable publication run `20260915-publication-04`; only `submissions/master-ru/` outputs and this receipt were changed.
+- Identity evidence: copied the 8 run03 `.ru.json` batches and compared every non-`ru_text` batch/unit field against fresh run04 `.en.json` packets. Identity check passed for 8 batches / 86 units.
+- Exact changed unit IDs: `unit-00003`, `unit-00030`, `unit-00032`, `unit-00069`, `unit-00070`.
+- Corrections:
+  - `unit-00003`: `**автор: Мэттью Сандерсон**`.
+  - `unit-00030`: sentence ending is exactly `Хранителю рекомендуется показать широкий спектр реакций у неигровых персонажей.`
+  - `unit-00032`: names transliterated as requested; occupation is `Пилот`.
+  - `unit-00069`: `Джошуа Пассантино` and requested charter-hydroseaplane pilot sentence.
+  - `unit-00070`: `Пассантино`.
+- Changed `ru_text` SHA-256 values:
+  - `unit-00003`: `1A525B85D16303C12EFA93F6D4DDBCCAEAF8F204DA6C6E986B1924332F1C54BA`
+  - `unit-00030`: `52E64DCD1B536AAA473BD338B6B231B5BF94E7DC3753EF4A47561C9B29390A35`
+  - `unit-00032`: `BE668F8F8D44424196E6A11B7FD42A9DF7579DCCD4A2E5A4C97DE99D6A417EE6`
+  - `unit-00069`: `45233B4EA16D6F7F08E801015B9F2B8906569F548F3C405D40962AC1E3906C5B`
+  - `unit-00070`: `A2770BE55BF2BB820CA4439E8C02ACBA1B72C5FB2AABADE82B5D0192451B8CB4`
+- Batch structural validation: passed for all 8 run04 batches, 86 units, `findings=0`; all source fields/topology preserved.
+- Canonical author-submission: blocked before submission creation. Fresh run04 authority `authority-00.csv` requires `Pilot → Пилотирование`, but scoped P2 explicitly requires `Пилот` in units 00032 and 00069. The exact requested corrections were retained; no unrequested authority workaround was introduced.
+- validate-submission: not run because canonical author-submission did not produce a submission. No acceptance or publication resume was invoked.
+- Blocker requiring orchestrator decision: reconcile the explicit P2 `Пилот` requirement with the fresh authority requirement before author-submission can pass.
+- Scratch hygiene: no helper script or scratch file remains in the product root.
+- Timestamp: `2026-09-15` (exact wall-clock not captured in this receipt update).
+- Orchestrator policy owner: `gpt-5.6-sol` at medium; bounded execution ownership retained.
+- Assignment state: blocked on authority contradiction; exact scoped edits complete.
+- Scoped override: none.

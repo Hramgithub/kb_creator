@@ -1,0 +1,29 @@
+{
+  "schema": "nri.explicit_user_review_decisions.v1",
+  "goal_id": "20261004-user-docx-review",
+  "authority": "Exact nonempty user replies in audited reviewed DOCX; never infer approval from empty comments or Word done flags.",
+  "evidence": "comments/comments_inventory.json",
+  "inputs": {
+    "fears-sharp-little-needles": "E8505B99F81A54E02FC1AEA9777C45AE12FDE600A8AB2B2728DDE8F9C0BF8DCD",
+    "shadows-of-leningrad-1938": "3E2172AB1CC9C045F9F5F472BF6F664337A06969FEDC786BEB2D8D40459007C8"
+  },
+  "decisions": [
+    {"issue_id":"fear-cover-scenario-count","reply_id":"4","user_text":"Посчитал – 26 правильное","disposition":"replace","old":"ДВАДЦАТЬ ЧЕТЫРЕ","new":"ДВАДЦАТЬ ШЕСТЬ","scope":"exact annotated cover paragraph only; preserve original source cover image"},
+    {"issue_id":"fear-easy-track","reply_id":"305","user_text":"Оставь как есть","disposition":"keep"},
+    {"issue_id":"fear-mortuary-two-names","reply_id":"673","user_text":"Это разные неазвания","disposition":"keep","reason":"Different funeral-home names; do not unify them."},
+    {"issue_id":"fear-handgun-45-extreme","reply_id":"756","user_text":"Правильное 9","disposition":"replace","old":"45% (22/8)","new":"45% (22/9)","scope":"exact annotated handgun paragraph only"},
+    {"issue_id":"fear-pencik-timeline","reply_id":"812","user_text":"Оставь исходное","disposition":"keep"},
+    {"issue_id":"fear-amos-melling-dangling-clause","reply_id":"850","user_text":"ок","disposition":"keep","reason":"Affirms explicit original proposal: preserve source handout fragment; do not invent continuation."},
+    {"issue_id":"fear-london-accident-date","reply_id":"870","user_text":"оставь как есть","disposition":"keep"},
+    {"issue_id":"fear-camera-monitoring-hours","reply_id":"929","user_text":"думаю 6 пм","disposition":"replace","old":"с 8:00 утра до 6:00 утра","new":"с 8:00 утра до 6:00 вечера","scope":"exact annotated surveillance paragraph only"},
+    {"issue_id":"fear-ferguson-age-60-vs-55","reply_id":"934","user_text":"оставить как в харпактеристиках","disposition":"replace","old":"шестидесятилетний","new":"пятидесятипятилетний","scope":"exact annotated Ferguson description; keep printed statblock age55"},
+    {"issue_id":"fear-lori-dodge-threshold","reply_id":"1051","user_text":"ты верно заметил если число 70, то в скобках 35\\14 должно быть","disposition":"replace","old":"Уклонение 70% (70/14))","new":"Уклонение 70% (35/14)","scope":"exact annotated Lori skill only"},
+    {"issue_id":"fear-berglowe-unlabelled-13","reply_id":"1090","user_text":"это ПЗ ","disposition":"replace","old":"НАР 50 ОБР 60 РАС 65 13","new":"НАР 50 ОБР 60 РАС 65 ПЗ 13","scope":"exact annotated Sven Berglowe stat paragraph only"},
+    {"issue_id":"LEN-SOURCE-MEDALLION-DATE","reply_id":"24","user_text":"оставить","disposition":"keep"},
+    {"issue_id":"LEN-SOURCE-CURATOR-NAME","reply_id":"75","user_text":"здесь оставляем юрий","disposition":"keep","link":"same-anchor inferred; not native parent link"},
+    {"issue_id":"LEN-SOURCE-ALBION-LUCK","reply_id":"127","user_text":"оставить авторские","disposition":"keep","link":"same-anchor inferred; not native parent link","scope":"Luck75 remains explicitly accepted; unrelated newly authorized characteristic conversion is separate"},
+    {"issue_id":"LEN-SOURCE-MEMORIAL-DATE","reply_id":"134","user_text":"оставь исходный","disposition":"keep"},
+    {"issue_id":"LEN-HANDOUT-RUSSIAN","disposition":"pending_user_decision","reason":"No nonempty reply in returned DOCX; preserve existing handout, not accepted by inference."}
+  ],
+  "preservation": "Keep original user-review comment/thread parts and anchors; no automatic resolve/delete, no unlisted body changes. This is semantic decision data, not an executable Word-edit manifest."
+}

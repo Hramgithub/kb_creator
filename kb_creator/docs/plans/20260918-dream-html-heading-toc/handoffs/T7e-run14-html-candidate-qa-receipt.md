@@ -1,0 +1,32 @@
+# T7e run14 Stage 40 HTML candidate QA receipt
+
+- Goal: `20260918-dream-html-heading-toc`
+- Verdict: PASS for the assigned Stage 40 candidate checks. Candidate remains pending HTML acceptance; this receipt does not approve release or downstream production.
+- Scope: read-only verification of `kb_creator/working/number-7-dream/publication/20260918-publication-14`, through Stage 40 only.
+- Files checked: run spec; six stage manifests and their output files; run14 MASTER_EN/RU acceptance records; translation `rebind-report.json`; ArtView candidate, acceptance and apply records; HTML output, adapter receipt, production report, frontmatter manifest and effective run files.
+- Manifest/inventory verification: stages `10-master-en-candidate`, `20-master-ru-packets`, `21-master-ru-candidate`, `30-artview-bundle`, `31-artview-apply`, `40-html-candidate` all report `succeeded`. Verified each listed output's existence, byte count and SHA-256 against its stage manifest: 166 files, zero missing or mismatched. Stage reproducible SHA / output inventory SHA:
+  - Stage 10: `69D830F9528574778D317111BD25F9B8FC3A6B3E8C153F1652474C4B1DFBC940` / `57B3975D9DBEEECA46FDA286A047FE92CD4835F757E31F3EFBF46C1C574EB683` (25 files).
+  - Stage 20: `3671B13BCB98A8B5910CB7F7B6689D8818C199A31865DB3CB1AEDAF023E299E9` / `B5A16D3101FE76CEDC8710C06060954F9EB571EA251DA71569A34D425B0A85FD` (29 files).
+  - Stage 21: `ED076152E397FAC09C6487DFDBAA24824B338A45354CB41F24478E5A7B570F5E` / `C7C422310226B4DDB3056AF12DB0FA878B7CC09E7DE27AC2503F167BF73A5891` (25 files).
+  - Stage 30: `956506FAA26FD5F92EA145D8D3B56803FF82CA2BE1094C251E5461CE6082CE69` / `2C38AE3AD5EB83DAAD7559BA167677EDC338C82F092D64A74A020F870D4BB83F` (44 files).
+  - Stage 31: `AECBD70774AD3C605E7BDD0E816F99E0B8F10AC1D2D39A39B98BC6DFB03E9B12` / `E74C445BEC62DFDB720344CDFF9F572A66E3F312B1270A24393878EFB7793B3A` (23 files).
+  - Stage 40: `208C8F2A87036329D9A31B71EE8C14070B42DAA5ED761622F1FA8817551F6321` / `4330ECD3F982982C95B2287DB7CED6E25007FAD51987F0650706AE73A0552BFA` (20 files). Stage 40 manifest SHA-256: `64D09E468BBEB6ED025103822C06BDAF4C3DC09ADA2160C5140C1D73EFF07451`.
+- Authority/rebind checks:
+  - MASTER_EN candidate SHA-256 `C3B4F13E3E43B2422704F1A7BCF61A5CF1762191B474FAAE5C4C4243289367AA` equals the run14 accepted MASTER_EN hash.
+  - MASTER_RU candidate SHA-256 `904133D5057172C404D28F3BCF2A5E4C578304A59382512D1B31FC56AE0FDAB2` equals the run14 accepted MASTER_RU hash.
+  - Translation rebind report SHA-256 `5F04BADBAD2AECD48DF62A509DC0337D9CED191CB5580A9C0C0E4318DB34F36B`; 298 prior/current units, all 298 `exact_source`, zero structure-only or other transitions.
+  - ArtView acceptance is recorded for candidate manifest SHA-256 `DF548DC68DA01FEEC3DF4E092CEFC2D2B7D44D7F1C0BACA9BE8EE26C1AD31250`; acceptance evidence records 19/19 decisions equivalent. Applied result reports 19 reviewed, 19 included, zero excluded.
+- Stage 40 content checks:
+  - Frontmatter manifest SHA-256 `A324FA7CC4A11A030DBD22FE79D58563AC37445DC9F12913359B25494F535802`: flow is cover page 001 -> credits page 002 -> source TOC page 003 -> body from page 004.
+  - Source TOC has exactly 18 unique explicit links; all 18 targets resolve to HTML IDs. No Appendix C leaf heading appears in the TOC.
+  - Appendix C subtree contains exactly one H1, six H2 character headings, and twelve H3 leaf headings.
+  - Page 018 has seven neutral `section.statblock-card[data-semantic-kind="statblock"]` elements, in order: Stanwick, Elsie, regular Enlightened, heavy Enlightened, migo-man, migo, hunting horror. Each has a separate H3 name before body text. Page 018 has zero blockquotes and zero `review-callout` elements.
+  - HTML page-marker text is present only in `.page-marker` elements styled `display: none`; page identifiers in HTML comments are non-rendering source comments.
+  - HTML SHA-256 `3F77B38C477D8E137CF22867BA9713EAF6AFD19C8168C07F1E8664E1790D1E21` (155,889 bytes) matches the production report SHA. Report SHA-256 `1A1669E912016373BD33FA0C8B109AA5146D7A05D3D40B32B9EE89E5EF120DBC`, status `pass`; it reports 19 image refs, zero missing refs, seven statblock cards, zero statblock page callouts, 18 source TOC entries, and zero findings.
+  - Only six output stages and six stage manifests exist, ending at Stage 40. No Stage 50+ output or manifest exists.
+- Blockers: none for the assigned checks.
+- Next action: orchestrator may proceed with the independent Stage 40 review and present this exact HTML candidate for the user acceptance gate. Do not build or accept downstream stages based on this QA receipt.
+- Elapsed time: approximately 5 minutes.
+- Token use: unavailable to bounded QA role.
+- Timestamp: 2026-09-18 11:10 UTC.
+- Orchestrator policy owner: `gpt-5.6-sol`, medium; assignment state platform-unverified; scoped override: none. Bounded QA role: `gpt-5.6-luna`, low; assignment state matched when dispatched.

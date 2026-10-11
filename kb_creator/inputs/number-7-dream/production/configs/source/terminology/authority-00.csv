@@ -1,0 +1,102 @@
+source_term,accepted_ru,aliases,bad_ru,domain,status,source_scope,decision_rule,notes
+Keeper,Хранитель,Хранителя;Хранителю;Хранителем;Хранители;Хранителей,,role,accepted,KeeperBook glossary,official_ru_project_usage,Key GM role.
+investigator,сыщик,сыщика;сыщику;сыщиком;сыщики;сыщиков;сыщикам,исследователь,role,accepted,KeeperBook glossary,official_ru_project_usage,Default player character term.
+Cthulhu Mythos,Мифы Ктулху,Мифов Ктулху;Мифам Ктулху;Мифами Ктулху,,setting/mechanic,accepted,KeeperBook glossary,official_ru_project_usage,Skill and setting term.
+Sanity,Рассудок,РАС;Рассудка;Рассудку;Рассудком,SAN;САН;санити,mechanic,accepted,KeeperBook glossary,official_ru_project_usage,Use Russian term in prose; RAS is the accepted abbreviation.
+Sanity points,пункты рассудка,пунктов рассудка;пункт рассудка;пунктами рассудка,,mechanic,accepted,KeeperBook glossary,official_ru_project_usage,
+Magic points,пункты магии,пунктов магии;пункт магии;пунктами магии,,mechanic,accepted,KeeperBook glossary,official_ru_project_usage,
+STR,СИЛ,,STR;Сила,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation.
+SIZ,ТЕЛ,,SIZ;РАЗМ;Размер;Телосложение,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation; not РАЗМ.
+INT,ИНТ,,INT;Интеллект,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation.
+POW,МОЩ,,,characteristic,accepted,KeeperBook glossary,official_ru_project_usage,
+APP,НАР,,APP;ВНЕ;ВНЕШ;Внешность,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation; not ВНЕ or ВНЕШ.
+EDU,ОБР,,EDU;Образование,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation.
+SAN,РАС,,SAN;САН;РАССУДОК;РАССУДКА;РАССУДКУ;РАССУДКОМ,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical compact form for SAN mechanics and statblocks.
+HP,ПЗ,,HP;ЗДР;Здоровье,mechanic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation.
+MP,ПМ,,MP;МЗ,mechanic,accepted,CoC 7e statblock,python_exact_system_replacement,Canonical statblock abbreviation.
+Hit points,ПЗ,,,mechanic,accepted,KeeperBook glossary,official_ru_project_usage,
+DEX,ЛВК,,,characteristic,accepted,KeeperBook glossary,official_ru_project_usage,
+CON,ВЫН,,,characteristic,accepted,KeeperBook glossary,official_ru_project_usage,
+MOV,СКО,,,characteristic,accepted,KeeperBook glossary,official_ru_project_usage,
+Move,СКО,,Скорость;Движение;Передвижение,characteristic,accepted,CoC 7e statblock,python_exact_system_replacement,Reader-facing statblock label; apply only to a numeric statblock field.
+DB,БКУ,,DB;БУ,combat,accepted,CoC 7e statblock,python_exact_system_replacement,Compact damage-bonus statblock label.
+Build,Комплекция,Комплекции;Комплекцией,,characteristic,accepted,KeeperBook glossary,official_ru_project_usage,
+Damage bonus,бонус к урону,бонуса к урону;бонусом к урону,,combat,accepted,KeeperBook glossary,official_ru_project_usage,
+Hard success,трудный успех,трудная проверка;трудной проверки,,rules,accepted,KeeperBook glossary,contextual_success_or_check,Use success/check wording by context.
+Extreme success,чрезвычайный успех,чрезвычайная проверка;чрезвычайной проверки,,rules,accepted,KeeperBook glossary,contextual_success_or_check,Use success/check wording by context.
+Pushed roll,повторная проверка,повторной проверки;повторную проверку,,rules,accepted,KeeperBook glossary,official_ru_project_usage,
+boxed text,врезка,врезки;врезкой;врезку,,layout,accepted,KeeperBook glossary,layout_semantics,
+spell,заклинание,заклинания;заклинанием;заклинаний,,magic,accepted,KeeperBook glossary,official_ru_project_usage,
+Grimoire,Гримуар,Гримуара;Гримуаром;Гримуары,,chapter,accepted,KeeperBook glossary,official_ru_project_usage,
+artifact,артефакт,артефакта;артефактом;артефакты;артефактов,,mythos,accepted,KeeperBook glossary,official_ru_project_usage,
+Drive Auto,Вождение автомобиля,Вождению автомобиля;Вождением автомобиля,Вождение,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical skill name.
+Pilot,Пилотирование,Пилотирования;Пилотированием,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Specialization follows in parentheses.
+Ride,Верховая езда,Верховой езды;Верховую езду,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical skill name.
+Operate Heavy Machinery,Управление тяжёлыми машинами,Управление тяжелыми машинами;Управления тяжёлыми машинами,Управление тяжёлой техникой;Управление тяжелой техникой,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical skill name.
+Surprise attack,внезапная атака,внезапной атаки;внезапную атаку,,combat,accepted,KeeperBook glossary,official_ru_project_usage,
+Outnumbered,численное превосходство,численного превосходства,,combat,accepted,KeeperBook glossary,official_ru_project_usage,
+Major wound,серьёзная рана,серьезная рана;серьёзной раны;серьезной раны,,combat,accepted,KeeperBook glossary,official_ru_project_usage,
+Dying,при смерти,,,combat,accepted,KeeperBook glossary,official_ru_project_usage,
+Underlying insanity,затаённое безумие,затаенное безумие;затаённого безумия;затаенного безумия,,sanity,accepted,KeeperBook glossary,official_ru_project_usage,
+Bout of madness,приступ безумия,приступа безумия;приступом безумия,,sanity,accepted,KeeperBook glossary,official_ru_project_usage,
+phobia,фобия,фобии;фобией;фобий,,sanity,accepted,KeeperBook glossary,official_ru_project_usage,
+mania,мания,мании;манией;маний,,sanity,accepted,KeeperBook glossary,official_ru_project_usage,
+Mythos tome,книга Мифов,книги Мифов;книгу Мифов,,mythos,accepted,KeeperBook glossary,official_ru_project_usage,
+Luck roll,проверка Удачи,проверки Удачи;проверку Удачи,,rules,accepted,KeeperBook glossary,official_ru_project_usage,
+Accounting,Бухгалтерское дело,,Бухгалтерия;Бухгалтерский учёт;Бухгалтерский учет,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Anthropology,Антропология,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Appraise,Оценка,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Archaeology,Археология,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Art/Craft,Искусство/ремесло,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Specialization follows in parentheses.
+Charm,Обаяние,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Climb,Лазание,,Атлетика,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Do not generalize to athletics.
+Credit Rating,Средства,,Кредитный рейтинг;Репутация,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Disguise,Маскировка,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Dodge,Уклонение,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Electrical Repair,Электрика,,Ремонт электрооборудования,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Do not mix with Electronics.
+Fast Talk,Красноречие,,Быстрая речь,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Fighting (Brawl),Ближний бой (Драка),Драка,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Compact statblocks may use Драка.
+Firearms (Handgun),Стрельба (пистолет),,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Firearms (Rifle/Shotgun),Стрельба (винтовка/дробовик),,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+First Aid,Первая помощь,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+History,История,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Intimidate,Запугивание,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Jump,Прыжки,,Прыжок,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill uses plural.
+Language (Other),Иностранный язык,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Specify the language in parentheses.
+Language (Own),Родной язык,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Specify the language in parentheses.
+Law,Юриспруденция,,Право,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Library Use,Работа в библиотеке,,Библиотечное дело,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Listen,Слух,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Locksmith,Взлом,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Includes locks and lockpicks.
+Mechanical Repair,Механика,,Ремонт механизмов,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Medicine,Медицина,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Natural World,Естествознание,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Navigate,Ориентирование,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Occult,Оккультизм,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Persuade,Убеждение,,Уговаривание,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Psychoanalysis,Психоанализ,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Psychology,Психология,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Science,Наука,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Specialization follows in parentheses.
+Sleight of Hand,Ловкость рук,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Spot Hidden,Внимание,,Внимательность,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Stealth,Скрытность,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Survival,Выживание,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Specify the environment in parentheses.
+Swim,Плавание,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Throw,Метание,,Бросок,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Track,Чтение следов,,Слежение;Выслеживание,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Canonical character skill.
+Lockpick roll,проверка Взлома,,проверка Взлома замка,skill,accepted,CoC source normalization,python_exact_system_replacement,Nonstandard descriptive source form normalized to the canonical Locksmith skill.
+Persuasion,Убеждение,,,skill,accepted,CoC source normalization,python_exact_system_replacement,Nonstandard source name normalized to Persuade.
+Slight of Hand,Ловкость рук,,,skill,accepted,CoC source normalization,python_exact_system_replacement,Source typo normalized to Sleight of Hand.
+Brawl,,,,skill,review_required,CoC ambiguous source term,manual_source_resolution,Resolve standalone Brawl against Fighting (Brawl); do not double-match the canonical compound skill.
+Electronic Repair,,,,skill,review_required,CoC ambiguous source term,manual_source_resolution,Resolve as Electrical Repair or Electronics from source context before translation.
+Social roll,,,,skill,review_required,CoC ambiguous source term,manual_source_resolution,Not a canonical single skill; resolve to a specific social skill or an explicitly generic check.
+Language (English),,,,skill,review_required,CoC ambiguous source term,manual_source_resolution,Resolve as Own Language or Language (Other) from the character context.
+Engineering,,,,skill,review_required,CoC specialization,manual_source_resolution,Confirm whether this is Science or Art/Craft specialization before normalization.
+Astronomy,,,,skill,review_required,CoC specialization,manual_source_resolution,Confirm whether this is a Science specialization before normalization.
+Photography,,,,skill,review_required,CoC specialization,manual_source_resolution,Confirm whether this is an Art/Craft specialization before normalization.
+Animal Handling,Обращение с животными,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Additional or rare skill.
+Artillery,Артиллерия,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Additional or rare skill.
+Computer Use,Работа с компьютером,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Modern-era skill.
+Demolitions,Взрывчатка,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Additional or rare skill.
+Explosives,Взрывчатка,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Source-name variant for Demolitions.
+Electronics,Электроника,,,skill,accepted,CoC 7e character skills,python_exact_system_replacement,Modern-era skill; not Electrical Repair.

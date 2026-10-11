@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "kb_creator.ai_merge_fidelity_audit.v4",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "authorities", "policy", "pages", "semantic_structure_profile", "semantic_structure", "errors", "passed"],
+  "properties": {"schema": {"const": "kb_creator.ai-merge-fidelity-audit/v4"}, "authorities": {"type": "object"}, "policy": {"type": "object"}, "pages": {"type": "array"}, "semantic_structure_profile": {"enum": ["visually_reviewed_semantic_containers_v1", "reviewed_role_outline_and_partitions_v2"]}, "semantic_structure": {"type": "object"}, "errors": {"type": "array", "items": {"type": "string"}}, "passed": {"type": "boolean"}}
+}

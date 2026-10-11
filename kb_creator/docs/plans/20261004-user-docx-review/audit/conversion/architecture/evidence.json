@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "goal_id": "20261004-user-docx-review",
+  "step_id": "U7",
+  "scope": "architecture_only_six_current_reviewed_books_including_26_fear_stories",
+  "official_conversion_guide": {
+    "url": "https://www.chaosium.com/content/FreePDFs/CoC%207/CHA23135-Conv%20-%20Call%20of%20Cthulhu%207th%20Edition%20Conversion%20Guidelines.pdf",
+    "physical_pages": 10,
+    "inspected": "web primary parsed text, physical 3-8 / printed 390-395",
+    "local_pdf_sha256": null,
+    "local_download": "failed_connection_refused",
+    "visual_screenshot": "not_verified",
+    "skill_table_locator": {"physical_page": 5, "printed_page": 392}
+  },
+  "local_inputs": [
+    {"path": "D:/NRI/CoC/Project_Reference/CoC_7e_Statblock_Conversion.md", "sha256": "568C4BA3910E99ED7215A4551687DE9B5B8BC3034AC4053252CA4B07614B9342", "role": "working_local_reference_conflicts_audited"},
+    {"path": "D:/NRI/CoC/PROJECT_REFERENCE.md", "sha256": "E4DBED278A77BD13D9A537BEAAC9DF5F335B541F08D306DD9C2E984BDA320595", "role": "project_source_first_and_terminology_contract"},
+    {"path": "D:/NRI/CoC/Project_Reference/Terminology/CoC_Terminology_Decisions.csv", "sha256": "8F6A41A64CA5A90621F6B8C2F3B40B4FE3658D7DE88B0D0A82BF95C1F82E6800", "rows": 426, "accepted": 94, "review_required": 332, "role": "accepted_ru_targets_read_not_changed"},
+    {"path": "D:/яндекс/Yandex.Disk/НРИ/1_Зов Ктулху/temp/1938 Тени Ленинграда/5_Shadows of Leningrad, 1938.pdf", "sha256": "E8C21B6D0BFBED034E6577C7BE01EE305EBFE480C93F87225B07C12AAFD3F10A", "bytes": 2800661, "physical_pages": 49, "role": "immutable_primary_source"}
+  ],
+  "source_observations": [
+    {"physical_page": 6, "printed_page": 5, "visual_evidence": "leningrad-source-page-6.png", "facts": ["A Note on Skills explicitly discusses fifth edition", "Player Beginning explicitly mentions pregenerated characters", "Scenario modifiers include +10 and -25"]},
+    {"physical_page": 41, "printed_page": 40, "visual_evidence": "leningrad-source-page-41.png", "entity": "Albion Fitzgerald", "kind": "pregenerated_investigator", "source": {"STR":13,"CON":12,"SIZ":12,"INT":16,"POW":14,"DEX":10,"APP":14,"EDU":14,"Luck":75,"SAN":70,"HP":12,"DB":"+1D4","Conceal":20,"Sneak":40,"Fist/Punch":70}, "deterministic_characteristic_candidate": {"STR":65,"CON":60,"SIZ":60,"INT":80,"POW":70,"DEX":50,"APP":70,"EDU":70}, "protected_editorial": {"Luck":75}, "not_authorized_by_characteristic_permission": ["PC skill-pool redistribution", "NPC Punch adjustment applied to pregen investigator"]}
+  ],
+  "implementation": false,
+  "entity_inventory_owner": "U7 QA",
+  "unresolved": ["Actual entity-level collision list depends on U7 QA", "Nonstandard creature EDU and missing high-sum Build require exact source-rule binding if encountered", "Scope permission does not authorize arbitrary PC skill allocation or new creature design"],
+  "release_review": "not_performed_designer_ineligible"
+}

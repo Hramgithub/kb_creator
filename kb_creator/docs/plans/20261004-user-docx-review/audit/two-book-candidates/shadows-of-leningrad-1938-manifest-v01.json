@@ -1,0 +1,433 @@
+{
+  "schema": "kb_creator.reviewed_docx_revision.v1",
+  "provenance": "reviewed_artifact_successor",
+  "scope": "exact source-bound DOCX-only numeric/name pass; no HTML/PDF",
+  "art_scope": "preserve_original_drawings_only",
+  "inputs": {
+    "docx_sha256": "3E2172AB1CC9C045F9F5F472BF6F664337A06969FEDC786BEB2D8D40459007C8",
+    "source_pdf_sha256": "E8C21B6D0BFBED034E6577C7BE01EE305EBFE480C93F87225B07C12AAFD3F10A",
+    "authorities": [
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\operations\\U7-word-operations-v01.json",
+        "sha256": "93D25D6420A215842F781349ECBA1C798EA9C324A825930EB22A04C037AEC34A"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\source-qa\\U7-source-visual-qa-v03.json",
+        "sha256": "2790631A3F4C4514056AB565FEEC36CFCD7B37F97FC7A724B881B6B616FD1856"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\qa\\closure\\U7-two-book-closure.json",
+        "sha256": "A8ABD4ED07FA47781CD628967A2C13AC63DE4B7541397197C262417E428A310B"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\architecture\\conversion-spec.md",
+        "sha256": "F951EF728980CC790330877280F7E0E19C8039D9D60F9BC07B6926EC3CAA2B32"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-v01.json",
+        "sha256": "2C73DB781071F460231A5AE5AA33E26AFC8A9198B894B50BE9C26D71EA81F091"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-supplement-v02.json",
+        "sha256": "63400400D599D6BC3FCF8036181DC5F5BB16E2729DC0EC0CCEDE1FDEB0291B9B"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\comments\\comments_inventory.json",
+        "sha256": "18049BD014C00D30E02FB27A9EECF7DD9814B4C068D9AABDB457DAF63001185A"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\handoffs\\U5-two-book-candidate-task-v04.md",
+        "sha256": "4AAABB27420372DD8C9BE8E13429F61E2D608BDCD15097CC2E31769476E8C1B4"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\accepted-choices-v01.json",
+        "sha256": "D1D0EFCB3F93CC39166B2946AAF2182763F30052A3664ED027B1EE387F1AC059"
+      },
+      {
+        "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\accepted-choices-v02.json",
+        "sha256": "6F18B50D520674C4FC12C1B71F9BF6AEFD9294976A285EB67B61F1B8F8896E16"
+      }
+    ],
+    "original_drawing_occurrences": [
+      {
+        "sha256": "F878CC77CCA78EB020FD8B285EEC4318B281D58AE71B304DC0589938CA810A80",
+        "drawing_id": "1"
+      },
+      {
+        "sha256": "1106F72A2D671B5B3ED32A03F04E2366F9EEBF587B7ABC82A0DFBB351764D2E6",
+        "drawing_id": "2"
+      },
+      {
+        "sha256": "04E9F96481CDB4ADF02A68B600351BD740407121ACECC3CF5C9510FEECAA20BC",
+        "drawing_id": "3"
+      },
+      {
+        "sha256": "886EDD70FFCB2811C9A352331A6FC1C202674635ED850660C9E83913B356D42F",
+        "drawing_id": "4"
+      },
+      {
+        "sha256": "92535FB31BC7A1B6F654CD3E367C99499D3A1BAD03FA6707739896F9BCFCBA2B",
+        "drawing_id": "5"
+      },
+      {
+        "sha256": "D54CBD8B12E27223A07FF976616EA0C3492A834992B786EA38EAF5F2AF009FF0",
+        "drawing_id": "6"
+      },
+      {
+        "sha256": "0F04AA068E73BC5F6E84C5A4E17F0A398B5BAE56E64F94A5CB49E53A43A50B5E",
+        "drawing_id": "7"
+      },
+      {
+        "sha256": "6E4B5A88E6FB73A065965DE3A40B603AAE86115E8DBD5BD913334C2D4AD03FD5",
+        "drawing_id": "8"
+      },
+      {
+        "sha256": "E869D9DC7D3B0B26E071AB6069E19CDE21C50BE02206CDC9BC0CCD2DEBE2D2ED",
+        "drawing_id": "9"
+      },
+      {
+        "sha256": "0E42151B874A464EF1E23D122C9A94DBC027AD09E38D75C4888C8637CE16D2DB",
+        "drawing_id": "10"
+      },
+      {
+        "sha256": "5CB5155B2506DC248567C38E3429DEACC854D104543566A1A14F552C577626CB",
+        "drawing_id": "11"
+      },
+      {
+        "sha256": "769C021A7C47473242D53550A5AA2833DD7B95CBA230DCC0264BA49B5AB594EB",
+        "drawing_id": "12"
+      },
+      {
+        "sha256": "3F2BDFAE307FDECD03D825939E1047367C7506DC3B9FE3AA77A6C03AB84D4B87",
+        "drawing_id": "13"
+      },
+      {
+        "sha256": "87699AA98501AA93B9AE7AFE4CB5CD6D506059DAE6571430E1B851732037D28A",
+        "drawing_id": "14"
+      },
+      {
+        "sha256": "5FF3D9498C63B307EB1D46DACF584FDE8897DA29F80746E53FF2BD846EECC062",
+        "drawing_id": "15"
+      },
+      {
+        "sha256": "86512D680380D73BF17FD9CFDCA40C6BBB789E5D92FB5180304EB8BD22024169",
+        "drawing_id": "16"
+      },
+      {
+        "sha256": "86512D680380D73BF17FD9CFDCA40C6BBB789E5D92FB5180304EB8BD22024169",
+        "drawing_id": "17"
+      },
+      {
+        "sha256": "2685F42A1AA8A7A7367F6D654074878C1CAE9BCDC7DCE3548BF74423A5975DEC",
+        "drawing_id": "18"
+      },
+      {
+        "sha256": "71EBFA2822A41C51E1F88CAB6B7816BB4C06BAE6AB5A14AA173107279073CE36",
+        "drawing_id": "19"
+      },
+      {
+        "sha256": "60071129DFF0E195A7933574981CCCAE5767AF5D8E5EDD1CFDED16931D3EC187",
+        "drawing_id": "20"
+      },
+      {
+        "sha256": "4A6ED4FFFD21E13B41AF147B1A6A86F9786D7FF2F5C86A2EADCDB6F4BEF00D9C",
+        "drawing_id": "21"
+      },
+      {
+        "sha256": "4A6ED4FFFD21E13B41AF147B1A6A86F9786D7FF2F5C86A2EADCDB6F4BEF00D9C",
+        "drawing_id": "22"
+      },
+      {
+        "sha256": "CDCA586BC916C52806559D1B7C7EF383D2C0DE56496C1A8128249753A058245A",
+        "drawing_id": "23"
+      },
+      {
+        "sha256": "205B4E3BFF542556CA055942388F9F9B0F3E0C5F36C79787B7E7A0176D5FFE51",
+        "drawing_id": "24"
+      },
+      {
+        "sha256": "313D9C1FF08DA42DBDF04324F61D97F250C6EA50BBCFECD1F0E2DADD96AACC70",
+        "drawing_id": "25"
+      },
+      {
+        "sha256": "0D967E9A5DC0C055DDD9C9F9E1B233795CB5BEBAA3B3EF3A97C8B5D55A996AD6",
+        "drawing_id": "26"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "story_id": "whole_book",
+      "word_bookmark": "nri_13a87efbbfc67813027174c73ff4ec20"
+    }
+  ],
+  "source_graphic_ids": [],
+  "source_graphics": [],
+  "operations": [
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "LEN-SOURCE-MEDALLION-DATE",
+      "story_id": "whole_book",
+      "word_bookmark": "nri_13a87efbbfc67813027174c73ff4ec20",
+      "comment_id": "23",
+      "expected_text": "Те, кто внимательно осмотрит медальон (История или Искусство, −10%), узнают в нём древнюю реликвию Дальнего Востока, возможно, из Гималаев. Если использована История, сыщик определит, что медальон изготовлен примерно в IX веке. Более опытный взгляд (Мифы Ктулху) распознает в нём символ Итакуа.",
+      "expected_text_sha256": "2FE82A894FC414F310B27DAA037C80B32949725A38D535C0FCAE1608CD85C3F6",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "оставить"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "LEN-SOURCE-CURATOR-NAME",
+      "story_id": "whole_book",
+      "word_bookmark": "nri_13a87efbbfc67813027174c73ff4ec20",
+      "comment_id": "74",
+      "expected_text": "В картонном тубусе находится незаконченная работа Шарлотты под названием «Трещины во времени», проданная музею Аркхэма в Соединённых Штатах. На ней изображены сломанные часы с кукушкой, из растрескавшегося корпуса которых выползают тысячи пауков. Стрелки показывают без двух минут полночь. Если попросить, Юрий охотно достанет рисунок из ещё не запечатанного тубуса и покажет его сыщикам.",
+      "expected_text_sha256": "5475939956DE1CE61D81219394A5E5A093F1709AE9229F2CBC183BABEC96B208",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "здесь оставляем юрий"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "LEN-SOURCE-ALBION-LUCK",
+      "story_id": "whole_book",
+      "word_bookmark": "nri_13a87efbbfc67813027174c73ff4ec20",
+      "comment_id": "126",
+      "expected_text": "ВЫН: 12 НАР: 14 МОЩ: 14 Проверка Удачи: 75%",
+      "expected_text_sha256": "835F011C1FF57DD64FF4D34EA660BD33E0C558CF49FC0A35D40A3C044B0DF037",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "оставить авторские"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "LEN-SOURCE-MEMORIAL-DATE",
+      "story_id": "whole_book",
+      "word_bookmark": "nri_13a87efbbfc67813027174c73ff4ec20",
+      "comment_id": "133",
+      "expected_text": "Поминальная служба по миссис Орконовой состоится в воскресенье, 21 ноября, в Ленинграде. В наших краях семья Джеффри проведёт поминальную службу в Инсмуте в эти выходные.",
+      "expected_text_sha256": "D767A485115B42056A33F0E0959130FE40A243A9A14AEED845A73C9BD16A8F18",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "оставь исходный"
+    },
+    {
+      "kind": "keep",
+      "disposition": "keep",
+      "issue_id": "LEN-HANDOUT-RUSSIAN",
+      "story_id": "whole_book",
+      "word_bookmark": "nri_13a87efbbfc67813027174c73ff4ec20",
+      "comment_id": "141",
+      "expected_text": "Один счастливые семьи",
+      "expected_text_sha256": "E52D75B4DB2A1D22A18C0CFF1628B88F6F750DE403312E42D4960D69B13C120A",
+      "selector": {
+        "kind": "exact_paragraph",
+        "expected_matches": 1,
+        "ordinal": 0
+      },
+      "reason": "Preserve original Russian quotations including Один счастливые семьи and ОНИ ЖИВУТ В КАРТИН; do not correct the image or textual quoted version."
+    }
+  ],
+  "source_bound_fields": {
+    "book_id": "shadows-of-leningrad-1938",
+    "ledger": {
+      "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\two-book-candidates\\approved-word-operations-v01.json",
+      "sha256": "FA9581763BE7B2FC7182882D00DBB8E818CCAC84CCC86DBE40D46AD2DFF17B7D"
+    },
+    "choices": {
+      "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\two-book-candidates\\accepted-choices-combined-v01.json",
+      "sha256": "67993DBE6EAAB47AD57585F76AA2BD06843F6A6078187A89B70D2F42915D080F"
+    },
+    "conversion_spec": {
+      "path": "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\architecture\\conversion-spec.md",
+      "sha256": "F951EF728980CC790330877280F7E0E19C8039D9D60F9BC07B6926EC3CAA2B32"
+    },
+    "operation_ids": [
+      "shadows-of-leningrad-1938:79:СИЛ:1:0",
+      "shadows-of-leningrad-1938:79:ВЫН:1:1",
+      "shadows-of-leningrad-1938:79:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:79:ЛВК:1:3",
+      "shadows-of-leningrad-1938:79:МОЩ:1:4",
+      "shadows-of-leningrad-1938:152:СИЛ:1:0",
+      "shadows-of-leningrad-1938:152:ВЫН:1:1",
+      "shadows-of-leningrad-1938:152:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:152:ЛВК:1:3",
+      "shadows-of-leningrad-1938:152:МОЩ:1:4",
+      "shadows-of-leningrad-1938:278:СИЛ:1:0",
+      "shadows-of-leningrad-1938:278:ВЫН:1:1",
+      "shadows-of-leningrad-1938:278:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:278:ЛВК:1:3",
+      "shadows-of-leningrad-1938:278:МОЩ:1:4",
+      "shadows-of-leningrad-1938:306:СИЛ:1:0",
+      "shadows-of-leningrad-1938:306:ВЫН:1:1",
+      "shadows-of-leningrad-1938:306:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:306:ИНТ:1:3",
+      "shadows-of-leningrad-1938:306:ЛВК:1:4",
+      "shadows-of-leningrad-1938:306:МОЩ:1:5",
+      "shadows-of-leningrad-1938:372:СИЛ:1:0",
+      "shadows-of-leningrad-1938:372:ВЫН:1:1",
+      "shadows-of-leningrad-1938:372:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:372:ЛВК:1:3",
+      "shadows-of-leningrad-1938:372:МОЩ:1:4",
+      "shadows-of-leningrad-1938:396:СИЛ:1:0",
+      "shadows-of-leningrad-1938:396:ВЫН:1:1",
+      "shadows-of-leningrad-1938:396:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:396:ЛВК:1:3",
+      "shadows-of-leningrad-1938:396:МОЩ:1:4",
+      "shadows-of-leningrad-1938:451:СИЛ:1:0",
+      "shadows-of-leningrad-1938:451:ВЫН:1:1",
+      "shadows-of-leningrad-1938:451:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:451:ИНТ:1:3",
+      "shadows-of-leningrad-1938:451:МОЩ:1:4",
+      "shadows-of-leningrad-1938:451:ЛВК:1:5",
+      "shadows-of-leningrad-1938:478:СИЛ:1:0",
+      "shadows-of-leningrad-1938:478:ВЫН:1:1",
+      "shadows-of-leningrad-1938:478:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:478:ИНТ:1:3",
+      "shadows-of-leningrad-1938:478:МОЩ:1:4",
+      "shadows-of-leningrad-1938:478:ЛВК:1:5",
+      "shadows-of-leningrad-1938:508:СИЛ:1:0",
+      "shadows-of-leningrad-1938:508:ВЫН:1:1",
+      "shadows-of-leningrad-1938:508:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:508:ИНТ:1:3",
+      "shadows-of-leningrad-1938:508:МОЩ:1:4",
+      "shadows-of-leningrad-1938:508:ЛВК:1:5",
+      "shadows-of-leningrad-1938:532:СИЛ:0:0",
+      "shadows-of-leningrad-1938:532:ВЫН:0:1",
+      "shadows-of-leningrad-1938:532:ТЕЛ:0:2",
+      "shadows-of-leningrad-1938:532:ИНТ:0:3",
+      "shadows-of-leningrad-1938:532:МОЩ:0:4",
+      "shadows-of-leningrad-1938:532:ЛВК:2:1",
+      "shadows-of-leningrad-1938:532:НАР:2:2",
+      "shadows-of-leningrad-1938:532:ОБР:2:3",
+      "shadows-of-leningrad-1938:571:СИЛ:1:0",
+      "shadows-of-leningrad-1938:571:ВЫН:1:1",
+      "shadows-of-leningrad-1938:571:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:571:ИНТ:1:3",
+      "shadows-of-leningrad-1938:571:МОЩ:1:4",
+      "shadows-of-leningrad-1938:571:ЛВК:1:5",
+      "shadows-of-leningrad-1938:581:СИЛ:1:0",
+      "shadows-of-leningrad-1938:581:ВЫН:1:1",
+      "shadows-of-leningrad-1938:581:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:581:ИНТ:1:3",
+      "shadows-of-leningrad-1938:581:МОЩ:1:4",
+      "shadows-of-leningrad-1938:581:ЛВК:1:5",
+      "shadows-of-leningrad-1938:589:СИЛ:1:0",
+      "shadows-of-leningrad-1938:589:ВЫН:1:1",
+      "shadows-of-leningrad-1938:589:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:589:ИНТ:1:3",
+      "shadows-of-leningrad-1938:589:МОЩ:1:4",
+      "shadows-of-leningrad-1938:589:ЛВК:3:1",
+      "shadows-of-leningrad-1938:589:НАР:3:2",
+      "shadows-of-leningrad-1938:589:ОБР:3:3",
+      "shadows-of-leningrad-1938:596:СИЛ:1:0",
+      "shadows-of-leningrad-1938:596:ВЫН:1:1",
+      "shadows-of-leningrad-1938:596:ТЕЛ:1:2",
+      "shadows-of-leningrad-1938:596:ЛВК:1:3",
+      "shadows-of-leningrad-1938:596:МОЩ:1:4",
+      "shadows-of-leningrad-1938:615:СИЛ:p:p",
+      "shadows-of-leningrad-1938:615:ЛВК:p:p",
+      "shadows-of-leningrad-1938:615:ИНТ:p:p",
+      "shadows-of-leningrad-1938:616:ВЫН:p:p",
+      "shadows-of-leningrad-1938:616:НАР:p:p",
+      "shadows-of-leningrad-1938:616:МОЩ:p:p",
+      "shadows-of-leningrad-1938:617:ТЕЛ:p:p",
+      "shadows-of-leningrad-1938:617:ОБР:p:p",
+      "shadows-of-leningrad-1938:631:СИЛ:1:0",
+      "shadows-of-leningrad-1938:631:ЛВК:1:1",
+      "shadows-of-leningrad-1938:631:ИНТ:1:2",
+      "shadows-of-leningrad-1938:631:ВЫН:2:0",
+      "shadows-of-leningrad-1938:631:НАР:2:1",
+      "shadows-of-leningrad-1938:631:МОЩ:2:2",
+      "shadows-of-leningrad-1938:631:ТЕЛ:3:0",
+      "shadows-of-leningrad-1938:631:ОБР:3:2",
+      "shadows-of-leningrad-1938:646:СИЛ:p:p",
+      "shadows-of-leningrad-1938:646:ЛВК:p:p",
+      "shadows-of-leningrad-1938:646:ИНТ:p:p",
+      "shadows-of-leningrad-1938:647:ВЫН:p:p",
+      "shadows-of-leningrad-1938:647:НАР:p:p",
+      "shadows-of-leningrad-1938:647:МОЩ:p:p",
+      "shadows-of-leningrad-1938:648:ТЕЛ:p:p",
+      "shadows-of-leningrad-1938:648:ОБР:p:p",
+      "shadows-of-leningrad-1938:662:СИЛ:p:p",
+      "shadows-of-leningrad-1938:662:ЛВК:p:p",
+      "shadows-of-leningrad-1938:662:ИНТ:p:p",
+      "shadows-of-leningrad-1938:662:ВЫН:p:p",
+      "shadows-of-leningrad-1938:662:НАР:p:p",
+      "shadows-of-leningrad-1938:662:МОЩ:p:p",
+      "shadows-of-leningrad-1938:663:ТЕЛ:p:p",
+      "shadows-of-leningrad-1938:663:ОБР:p:p",
+      "shadows-of-leningrad-1938:677:СИЛ:p:p",
+      "shadows-of-leningrad-1938:677:ЛВК:p:p",
+      "shadows-of-leningrad-1938:677:ИНТ:p:p",
+      "shadows-of-leningrad-1938:678:ВЫН:p:p",
+      "shadows-of-leningrad-1938:678:НАР:p:p",
+      "shadows-of-leningrad-1938:678:МОЩ:p:p",
+      "shadows-of-leningrad-1938:679:ТЕЛ:p:p",
+      "shadows-of-leningrad-1938:679:ОБР:p:p",
+      "shadows-of-leningrad-1938:401:skill:Подкрадывание:p:p",
+      "shadows-of-leningrad-1938:536:skill:Торг:p:p",
+      "shadows-of-leningrad-1938:536:skill:Прятаться:p:p",
+      "shadows-of-leningrad-1938:594:skill:Искусство (Танец):p:p",
+      "shadows-of-leningrad-1938:621:skill:Торг:1:2",
+      "shadows-of-leningrad-1938:621:skill:Удар кулаком:4:2",
+      "shadows-of-leningrad-1938:621:skill:Пистолет:5:2",
+      "shadows-of-leningrad-1938:621:skill:Подкрадывание:10:0",
+      "shadows-of-leningrad-1938:636:skill:Удар кулаком:4:0",
+      "shadows-of-leningrad-1938:636:skill:Пистолет:4:2",
+      "shadows-of-leningrad-1938:636:skill:Винтовка (слоновье ружьё):8:2",
+      "shadows-of-leningrad-1938:636:skill:Подкрадывание:9:0",
+      "shadows-of-leningrad-1938:652:skill:Искусство (Живопись):1:0",
+      "shadows-of-leningrad-1938:652:skill:Искусство (Чревовещание):1:2",
+      "shadows-of-leningrad-1938:652:skill:Астрономия:2:0",
+      "shadows-of-leningrad-1938:652:skill:Удар кулаком:3:2",
+      "shadows-of-leningrad-1938:652:skill:Пистолет:4:0",
+      "shadows-of-leningrad-1938:667:skill:Сокрытие:2:0",
+      "shadows-of-leningrad-1938:667:skill:Удар кулаком:5:0",
+      "shadows-of-leningrad-1938:667:skill:Пистолет:5:2",
+      "shadows-of-leningrad-1938:667:skill:Прятаться:6:0",
+      "shadows-of-leningrad-1938:667:skill:Фотография:10:2",
+      "shadows-of-leningrad-1938:683:skill:Искусство (Живопись):1:0",
+      "shadows-of-leningrad-1938:683:skill:Сокрытие:1:2",
+      "shadows-of-leningrad-1938:683:skill:Удар кулаком:3:0",
+      "shadows-of-leningrad-1938:683:skill:Фотография:6:2",
+      "shadows-of-leningrad-1938:683:skill:Подкрадывание:7:2",
+      "shadows-of-leningrad-1938:313:contextual_stealth:p:p",
+      "shadows-of-leningrad-1938:378:contextual_stealth:p:p",
+      "shadows-of-leningrad-1938:v04:77:skill_label:skill:Подкрадывание:p:p:72",
+      "shadows-of-leningrad-1938:v04:250:skill_label:skill:Сокрытие:p:p:289",
+      "shadows-of-leningrad-1938:v04:344:skill_label:skill:Сокрытие:p:p:355",
+      "shadows-of-leningrad-1938:v04:560:skill_label:skill:Подкрадывание:p:p:219",
+      "shadows-of-leningrad-1938:v04:560:skill_label:skill:Прятаться:p:p:397",
+      "shadows-of-leningrad-1938:v04:256:prose_label:rybin_bodily_stealth:p:p:89",
+      "shadows-of-leningrad-1938:v04:536:skill_label:skill:Искусство:p:p:8",
+      "shadows-of-leningrad-1938:v04:271:characteristic_prose:СИЛ:p:p:191",
+      "shadows-of-leningrad-1938:v04:302:characteristic_prose:СИЛ:p:p:392",
+      "shadows-of-leningrad-1938:v04:636:skill_consolidation:Убеждение:1:2:0",
+      "shadows-of-leningrad-1938:v04:636:skill_consolidation:Убеждение:1:3:0",
+      "shadows-of-leningrad-1938:v04:667:skill_consolidation:Убеждение:1:2:0",
+      "shadows-of-leningrad-1938:v04:667:skill_consolidation:Убеждение:1:3:0",
+      "shadows-of-leningrad-1938:v04:667:skill_consolidation:Убеждение:10:1:0"
+    ],
+    "expression_ids": [
+      "shadows-of-leningrad-1938:v04:katerina-strength-drain"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "kb_creator.accepted_cleaned_delta.v1",
+  "generated_at_utc": "2026-07-30T16:16:11.844664+00:00",
+  "status": "pass",
+  "input": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_cleaned_v1.md",
+  "output": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_accepted_cleaned_v1.md",
+  "input_sha256": "1e62a519b8d7d9eba3e5ba4034581b69cfa05113d014c53f32cdb6e2599adddb",
+  "output_sha256": "d46dd93ba58731027aab4e35ad290f12f2b86ee9e347cf0e29c8097ca98bf178",
+  "applied": [
+    {
+      "code": "restore_evening_second_day",
+      "count": 1
+    },
+    {
+      "code": "remove_page_007_ocr_noise",
+      "count": 1
+    },
+    {
+      "code": "join_bazzledon_leader_line",
+      "count": 1
+    },
+    {
+      "code": "remove_page_008_ocr_noise",
+      "count": 1
+    },
+    {
+      "code": "restore_playing_the_hero_reference",
+      "count": 1
+    },
+    {
+      "code": "repair_patty_statline_spacing",
+      "count": 1
+    },
+    {
+      "code": "repair_patty_traits_bullet",
+      "count": 1
+    },
+    {
+      "code": "remove_page_037_ocr_noise",
+      "count": 1
+    },
+    {
+      "code": "repair_quechua",
+      "count": 1
+    }
+  ]
+}

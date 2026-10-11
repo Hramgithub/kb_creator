@@ -1,0 +1,123 @@
+{
+  "schema": "kb_creator.reviewed_docx_revision_report.v1",
+  "status": "validated_candidate",
+  "accepted": false,
+  "provenance": "reviewed_artifact_successor",
+  "inputs": {
+    "manifest_sha256": "5A7D8E43EBE7D751C5AFFA53E5AE573EAA516AE845E4B9076F877C756B24B458",
+    "docx_sha256": "6C110ED5E62F29E3FACF97AE3B2D8E515B0066CC1B9F48CCC4D45F09FB3B81A0",
+    "source_pdf_sha256": "F42B054BB94378A7206CF6688CF6B6CF079606C6F24EE74D2EE5EC8A09C62CA0",
+    "authorities": {
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\operations\\U7-word-operations-v01.json": "93D25D6420A215842F781349ECBA1C798EA9C324A825930EB22A04C037AEC34A",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\source-qa\\U7-source-visual-qa-v03.json": "2790631A3F4C4514056AB565FEEC36CFCD7B37F97FC7A724B881B6B616FD1856",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\qa\\closure\\U7-two-book-closure.json": "A8ABD4ED07FA47781CD628967A2C13AC63DE4B7541397197C262417E428A310B",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\architecture\\conversion-spec.md": "F951EF728980CC790330877280F7E0E19C8039D9D60F9BC07B6926EC3CAA2B32",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-v01.json": "2C73DB781071F460231A5AE5AA33E26AFC8A9198B894B50BE9C26D71EA81F091",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\review-decisions-supplement-v02.json": "63400400D599D6BC3FCF8036181DC5F5BB16E2729DC0EC0CCEDE1FDEB0291B9B",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\comments\\comments_inventory.json": "18049BD014C00D30E02FB27A9EECF7DD9814B4C068D9AABDB457DAF63001185A",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\handoffs\\U5-two-book-candidate-task-v04.md": "4AAABB27420372DD8C9BE8E13429F61E2D608BDCD15097CC2E31769476E8C1B4",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\accepted-choices-v01.json": "D1D0EFCB3F93CC39166B2946AAF2182763F30052A3664ED027B1EE387F1AC059",
+      "D:\\NRI\\kb_creator\\docs\\plans\\20261004-user-docx-review\\audit\\conversion\\accepted-choices-v02.json": "6F18B50D520674C4FC12C1B71F9BF6AEFD9294976A285EB67B61F1B8F8896E16"
+    }
+  },
+  "output": {
+    "docx_sha256": "5573888152F7EDAB32D483E4D652FD465694BFBF1764CC708C3EF7C042AA87D8",
+    "path": "D:/NRI/kb_creator/working/user-review-20261004/kremlin-reader-v01/document.docx"
+  },
+  "preservation": {
+    "old_drawing_occurrences": 14,
+    "old_media_parts": 14,
+    "old_comment_thread_parts": [],
+    "bookmarks": 55,
+    "hyperlinks": 30
+  },
+  "operations": [],
+  "source_bound_field_nodes": [
+    {
+      "path": "word/document.xml/body[236]/p/r[0]/t[0]",
+      "operation_ids": [
+        "secrets-of-the-kremlin-1931:236:СИЛ:p:p",
+        "secrets-of-the-kremlin-1931:236:ИНТ:p:p",
+        "secrets-of-the-kremlin-1931:236:ОБР:p:p",
+        "secrets-of-the-kremlin-1931:236:ВЫН:p:p",
+        "secrets-of-the-kremlin-1931:236:ЛВК:p:p",
+        "secrets-of-the-kremlin-1931:236:ХАР:p:p",
+        "secrets-of-the-kremlin-1931:236:МОЩ:p:p",
+        "secrets-of-the-kremlin-1931:236:ТЕЛ:p:p"
+      ],
+      "before_node_sha256": "8E8F3FE0EDC80F6CF6CFA78E7586604DD1DFB6495910101BFC4CA57B09983507",
+      "after_node_sha256": "DD1E48FAE5454AF026B4DA7EB8CE44E4672BEBE832A8B92140CA07EA98C165B0",
+      "after_node_xml_sha256": "4588D24814511D27526542A5217F5382E9C6CEF39C423AE9D7426969288F3A27"
+    },
+    {
+      "path": "word/document.xml/body[241]/p/r[0]/t[0]",
+      "operation_ids": [
+        "secrets-of-the-kremlin-1931:241:СИЛ:p:p",
+        "secrets-of-the-kremlin-1931:241:ИНТ:p:p",
+        "secrets-of-the-kremlin-1931:241:ОБР:p:p",
+        "secrets-of-the-kremlin-1931:241:ВЫН:p:p",
+        "secrets-of-the-kremlin-1931:241:ЛВК:p:p",
+        "secrets-of-the-kremlin-1931:241:ХАР:p:p",
+        "secrets-of-the-kremlin-1931:241:МОЩ:p:p",
+        "secrets-of-the-kremlin-1931:241:ТЕЛ:p:p"
+      ],
+      "before_node_sha256": "F8B0D1B1708E0E630333D886FC1077AAECC81A6CDF29A48DB91C3FD4A71B5812",
+      "after_node_sha256": "BEE6B987A54AB1F45822C0B7BD622BD54FA18F315C5C3847E4C5A65BD82B63BA",
+      "after_node_xml_sha256": "CC2493A2548387C1355C4209007A0F4B6630822568666426D20B98C3F1A1DD60"
+    },
+    {
+      "path": "word/document.xml/body[246]/p/r[0]/t[0]",
+      "operation_ids": [
+        "secrets-of-the-kremlin-1931:246:СИЛ:p:p",
+        "secrets-of-the-kremlin-1931:246:ИНТ:p:p",
+        "secrets-of-the-kremlin-1931:246:ОБР:p:p",
+        "secrets-of-the-kremlin-1931:246:ВЫН:p:p",
+        "secrets-of-the-kremlin-1931:246:ЛВК:p:p",
+        "secrets-of-the-kremlin-1931:246:ХАР:p:p",
+        "secrets-of-the-kremlin-1931:246:МОЩ:p:p",
+        "secrets-of-the-kremlin-1931:246:ТЕЛ:p:p"
+      ],
+      "before_node_sha256": "E07085B66A053BF8795356F7694FC5FE6A6DB2A0BB76CCD52AE343A28F90B085",
+      "after_node_sha256": "2FEEA908D8D77124F15D9A9FBF523C16C6395A1666D97554E0E1CA75A6E62109",
+      "after_node_xml_sha256": "BC66D681CE377DCA4CAA01FA736C8EA474BD5C8B1080620BDE827398451A7244"
+    },
+    {
+      "path": "word/document.xml/body[237]/p/r[0]/t[0]",
+      "operation_ids": [
+        "secrets-of-the-kremlin-1931:v04:237:user_label:language:p:p:8",
+        "secrets-of-the-kremlin-1931:v04:237:user_label:language:p:p:27",
+        "secrets-of-the-kremlin-1931:v04:237:user_label:language:p:p:48",
+        "secrets-of-the-kremlin-1931:v04:237:user_label:architecture:p:p:67"
+      ],
+      "before_node_sha256": "98D3A2D9A8C9ABC18486EDC962D60BEDE175752A33F59FE90E502074C49EC8B0",
+      "after_node_sha256": "008266425A5E42CC5C67BECD5163B336EAF40E6438C3124A0483CF75990B3B6E",
+      "after_node_xml_sha256": "7E87CEAD88C47D09A234D7E5F2BAB7982C9CF895E04875A78CA4C0AA6F1D0229"
+    },
+    {
+      "path": "word/document.xml/body[242]/p/r[0]/t[0]",
+      "operation_ids": [
+        "secrets-of-the-kremlin-1931:v04:242:user_label:language:p:p:8",
+        "secrets-of-the-kremlin-1931:v04:242:user_label:language:p:p:27"
+      ],
+      "before_node_sha256": "FC202F00BBE0DE4C699E928B72452A36F307CDB6DB4E7900124FCBFC619E0CD6",
+      "after_node_sha256": "04BC65D6AF826B43AD32B874E8B8181CE78F068E0695E548077FD5521FF29919",
+      "after_node_xml_sha256": "0FF809986FD09939B8261DEC85AA47E39DB22143674F2A3BDF88307D9F54923A"
+    },
+    {
+      "path": "word/document.xml/body[247]/p/r[0]/t[0]",
+      "operation_ids": [
+        "secrets-of-the-kremlin-1931:v04:247:user_label:language:p:p:8",
+        "secrets-of-the-kremlin-1931:v04:247:user_label:language:p:p:27"
+      ],
+      "before_node_sha256": "8D04C2F4A9B111A5094C042FB96DA33655079F0071C042C525ACA6B9B438AEB3",
+      "after_node_sha256": "C295CE5F343C681B24D52FBA9B9201BD8FF69F6D810CF23D354A256FB1F1B315",
+      "after_node_xml_sha256": "A961E926B08D7D6F2AA95703ADCA654A1F4FBB4854273646A75E685C05A174A1"
+    }
+  ],
+  "source_graphic_coverage": [],
+  "limitations": [
+    "Reviewed-artifact successor; lost upstream master lineage cannot be reconstructed.",
+    "Rendered page QA and independent release review remain pending.",
+    "Field-only pass conserves all original artwork; source-art completeness was not assessed."
+  ]
+}

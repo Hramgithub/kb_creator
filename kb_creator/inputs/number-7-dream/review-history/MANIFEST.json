@@ -1,0 +1,73 @@
+{
+  "format": "kb_creator.review_history_inventory.v1",
+  "scenario_id": "number-7-dream",
+  "authority": "historical_evidence_only",
+  "files": [
+    {
+      "archive_path": "run06/artview-decisions.accepted.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-06/submissions/artview/artview-decisions.accepted.json",
+      "bytes": 7057,
+      "sha256": "6A1326CABEE791FA321E0D2D2651CB1C7BAE9E716D90EB6D492EF54333649F24"
+    },
+    {
+      "archive_path": "run06/artview.acceptance.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-06/acceptance/artview.acceptance.json",
+      "bytes": 1060,
+      "sha256": "D965045F24C28D5E7E54DB934FCB68582E94B68EDA1861DB31DB24AE733FC239"
+    },
+    {
+      "archive_path": "run18/artview-decisions.accepted.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-18/submissions/artview/artview-decisions.accepted.json",
+      "bytes": 8304,
+      "sha256": "8504FE1DF206A25FA30B7EEAE90F0ED6FFFD6CF0F7A8408BE5146C19D86F07B0"
+    },
+    {
+      "archive_path": "run18/artview.acceptance.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-18/acceptance/artview.acceptance.json",
+      "bytes": 1145,
+      "sha256": "E9DAB2A4F8756C7E3F0BED8DB984113A4C9CBFE18256B7178539DA0DF3B9B5E1"
+    },
+    {
+      "archive_path": "run25/artview-decisions.accepted.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-25/submissions/artview/artview-decisions.accepted.json",
+      "bytes": 8304,
+      "sha256": "6EE7217A9B995EC3143A022ED6D6D3360CD19F3AB44C7A8169CE6222DA875BED"
+    },
+    {
+      "archive_path": "run25/artview.acceptance.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-25/acceptance/artview.acceptance.json",
+      "bytes": 1231,
+      "sha256": "E1FB0AE8235A681B73B83FF043430BE5235834346A561977A08C71C7E64BCA19"
+    },
+    {
+      "archive_path": "run25/html.acceptance.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260918-publication-25/acceptance/html.acceptance.json",
+      "bytes": 1159,
+      "sha256": "D2E06E332A3C6FC3C316F69D0A8B8F56BBFF005A1C04EBBC6B03DB18A2FCF8B0"
+    },
+    {
+      "archive_path": "run28/Number_7_Dream_RU.reviewed.docx",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260919-publication-28/submissions/docx/Number_7_Dream_RU.reviewed.docx",
+      "bytes": 5349133,
+      "sha256": "C29A5569820A3D2734F28089619F1BC273E1013A8CD040439C3F58899CE9F5BE"
+    },
+    {
+      "archive_path": "run28/docx.acceptance.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260919-publication-28/acceptance/docx.acceptance.json",
+      "bytes": 1192,
+      "sha256": "B7669AA66631A1021C659FE4089B04870E062A2C17A0DDFCCEDCA57D6A086CE3"
+    },
+    {
+      "archive_path": "run29/Number_7_Dream_RU.pdf",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260919-publication-29/outputs/60-pdf-candidate/artifacts/Number_7_Dream_RU.pdf",
+      "bytes": 2914792,
+      "sha256": "B39214DD4CCD084A0867697F883E7B08CEEBAD6EF3B66D5CC5EB04C41D399EBD"
+    },
+    {
+      "archive_path": "run29/pdf.acceptance.json",
+      "source_path": "kb_creator/working/number-7-dream/publication/20260919-publication-29/acceptance/pdf.acceptance.json",
+      "bytes": 1127,
+      "sha256": "B52BA2F6F0204384655BA846DD5A5508ACBA0A134D44277618F49A34F7ED8BB9"
+    }
+  ]
+}

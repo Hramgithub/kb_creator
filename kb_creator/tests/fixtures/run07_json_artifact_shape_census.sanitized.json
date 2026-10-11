@@ -1,0 +1,24 @@
+{
+  "schema": "kb_creator.replay_json_artifact_shape_census.v1",
+  "source_run_id": "20260915-cpu-first-07",
+  "scope": "outputs/stages-01-through-04/json-only/read-only",
+  "total_json_files": 33,
+  "typed_wrapper_count": 13,
+  "path_neutral_payload_count": 20,
+  "classes": [
+    {"class_id": "typed_command", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 3, "bearing_fields": ["argv", "environment"]},
+    {"class_id": "typed_view_set", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 1, "bearing_fields": ["run_identity_sha256", "views[].receipt.path", "views[].receipt.sha256"]},
+    {"class_id": "typed_view", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 5, "bearing_fields": ["run_identity_sha256", "artifact_root", "output_inventory[].path", "output_inventory[].sha256"]},
+    {"class_id": "typed_comparison", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 1, "bearing_fields": ["run_identity_sha256", "manifest.path", "view_set.path", "views.*.root"]},
+    {"class_id": "typed_visual_execution", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 1, "bearing_fields": ["commands", "output_inventory[].path", "output_inventory[].sha256"]},
+    {"class_id": "typed_geometry", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 1, "bearing_fields": ["run_identity_sha256", "comparison.path_hint", "rendered_pages[].path"]},
+    {"class_id": "typed_visual_manifest", "authority_kind": "typed_wrapper", "top_level": "object", "observed_count": 1, "bearing_fields": ["inputs.*.path", "layouts.*.path", "files[].path"]},
+    {"class_id": "prepared_manifest", "authority_kind": "path_neutral_payload", "top_level": "object", "observed_count": 1, "bearing_fields": ["source.path_name", "outputs.raster_pdf.sha256"]},
+    {"class_id": "mineru_content_list", "authority_kind": "path_neutral_payload", "top_level": "array", "observed_count": 3, "bearing_fields": ["[].img_path"]},
+    {"class_id": "mineru_content_list_v2", "authority_kind": "path_neutral_payload", "top_level": "array", "observed_count": 3, "bearing_fields": ["[][].content.image_source.path"]},
+    {"class_id": "mineru_middle", "authority_kind": "path_neutral_payload", "top_level": "object", "observed_count": 3, "bearing_fields": ["pdf_info[].*.image_path"]},
+    {"class_id": "mineru_model", "authority_kind": "path_neutral_payload", "top_level": "array", "observed_count": 3, "bearing_fields": []},
+    {"class_id": "merge_index", "authority_kind": "path_neutral_payload", "top_level": "object", "observed_count": 1, "bearing_fields": []},
+    {"class_id": "merge_packet", "authority_kind": "path_neutral_payload", "top_level": "object", "observed_count": 6, "bearing_fields": []}
+  ]
+}

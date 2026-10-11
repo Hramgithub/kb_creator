@@ -1,0 +1,19 @@
+{
+  "schema": "synthetic.mechanical_manifest_pointer.v1",
+  "source_sha256": "81CA83FD84B06B8B6337687488CD2F9BFEE028139608EC5D2026043320D410FC",
+  "pages": [
+    {
+      "source_page": 1,
+      "candidate": {
+        "path": "candidate-page-001.json",
+        "bytes": 9879,
+        "sha256": "387F11D3EC239C64FABE4D479F105239D58216B2B65BAC9D953CB73904D75C68"
+      },
+      "packet": {
+        "path": "packet-page-001.json",
+        "bytes": 4770,
+        "sha256": "7BF4B9DC1EF5CE28693BB5E0F0EFD93B578E50AECD6BCEBA77CF4B990F7A2CAD"
+      }
+    }
+  ]
+}

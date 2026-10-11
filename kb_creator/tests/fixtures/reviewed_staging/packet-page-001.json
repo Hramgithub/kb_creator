@@ -1,0 +1,222 @@
+{
+  "schema": "kb_creator.mineru_merge_packet.v1",
+  "source_page": 1,
+  "semantic_role": "body",
+  "views": {
+    "original_pipeline_txt": {
+      "blocks": [
+        {
+          "raw_index": 0,
+          "type": "text",
+          "text": "Synthetic paragraph",
+          "bbox": [
+            0,
+            0,
+            100,
+            8
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        },
+        {
+          "raw_index": 1,
+          "type": "text",
+          "text": "Alpha",
+          "bbox": [
+            0,
+            10,
+            100,
+            18
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        },
+        {
+          "raw_index": 2,
+          "type": "text",
+          "text": "",
+          "bbox": [
+            0,
+            20,
+            100,
+            28
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        }
+      ]
+    },
+    "original_pipeline_ocr": {
+      "blocks": [
+        {
+          "raw_index": 0,
+          "type": "text",
+          "text": "Synthetic paragraph",
+          "bbox": [
+            0,
+            0,
+            100,
+            8
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        },
+        {
+          "raw_index": 1,
+          "type": "text",
+          "text": "Beta",
+          "bbox": [
+            0,
+            10,
+            100,
+            18
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        },
+        {
+          "raw_index": 2,
+          "type": "text",
+          "text": "",
+          "bbox": [
+            0,
+            20,
+            100,
+            28
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        }
+      ]
+    },
+    "raster_pipeline_ocr": {
+      "blocks": [
+        {
+          "raw_index": 0,
+          "type": "text",
+          "text": "Synthetic paragraph",
+          "bbox": [
+            0,
+            0,
+            100,
+            8
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        },
+        {
+          "raw_index": 1,
+          "type": "text",
+          "text": "Gamma",
+          "bbox": [
+            0,
+            10,
+            100,
+            18
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        },
+        {
+          "raw_index": 2,
+          "type": "text",
+          "text": "",
+          "bbox": [
+            0,
+            20,
+            100,
+            28
+          ],
+          "assets": [],
+          "semantic_evidence": {
+            "text_level": null
+          }
+        }
+      ]
+    }
+  },
+  "pairwise": {
+    "original_pipeline_txt__vs__original_pipeline_ocr": {
+      "bbox_matches": [
+        {
+          "left_raw_index": 0,
+          "right_raw_index": 0,
+          "bbox_iou": 1.0
+        },
+        {
+          "left_raw_index": 1,
+          "right_raw_index": 1,
+          "bbox_iou": 1.0
+        },
+        {
+          "left_raw_index": 2,
+          "right_raw_index": 2,
+          "bbox_iou": 1.0
+        }
+      ],
+      "left_unmatched": [],
+      "right_unmatched": [],
+      "semantic_conflicts": []
+    },
+    "original_pipeline_txt__vs__raster_pipeline_ocr": {
+      "bbox_matches": [
+        {
+          "left_raw_index": 0,
+          "right_raw_index": 0,
+          "bbox_iou": 1.0
+        },
+        {
+          "left_raw_index": 1,
+          "right_raw_index": 1,
+          "bbox_iou": 1.0
+        },
+        {
+          "left_raw_index": 2,
+          "right_raw_index": 2,
+          "bbox_iou": 1.0
+        }
+      ],
+      "left_unmatched": [],
+      "right_unmatched": [],
+      "semantic_conflicts": []
+    },
+    "original_pipeline_ocr__vs__raster_pipeline_ocr": {
+      "bbox_matches": [
+        {
+          "left_raw_index": 0,
+          "right_raw_index": 0,
+          "bbox_iou": 1.0
+        },
+        {
+          "left_raw_index": 1,
+          "right_raw_index": 1,
+          "bbox_iou": 1.0
+        },
+        {
+          "left_raw_index": 2,
+          "right_raw_index": 2,
+          "bbox_iou": 1.0
+        }
+      ],
+      "left_unmatched": [],
+      "right_unmatched": [],
+      "semantic_conflicts": []
+    }
+  }
+}

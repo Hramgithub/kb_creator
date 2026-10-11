@@ -1,0 +1,42 @@
+{
+  "candidate_inventory_sha256": "44BA578421ACFD95884E635DE89CB13D57C4A9259A9E0E63D96699106F802268",
+  "candidate_metrics": {
+    "events": 1216,
+    "excluded_advertising_pages": 2,
+    "master_bytes": 351318,
+    "reader_assets": 93,
+    "reader_pages": 122,
+    "source_pages_audited": 124,
+    "visual_review_units": {
+      "count": 441,
+      "declaration_sha256": "C2DD2A3DD78C6F20B793C94D6FF98EA607E0236BF8AF3D52FF1B7D6F97B2C3F9",
+      "groups": [
+        "outline",
+        "reader_assets",
+        "structured",
+        "xref_recovery"
+      ],
+      "priority_total": 193
+    }
+  },
+  "candidate_root_name": "viral-master-en-candidate-20260902-d",
+  "inventory_file_sha256": "B4D991FFF923C18313153C61EEB5DFFEFE838003CF4781F0125AA31346A1AB11",
+  "publication_config_sha256": "5006322FB83CC5A93C4625E07FCC1E3D926663A7ACED24451DD77464CCC8DB52",
+  "reconstruction_inventory_sha256": "68C17FB765A89C6146398868E61F1F6EB7B2FE4EAFBA8C2C2C8F42260BBDBA83",
+  "review_units": {
+    "count": 441,
+    "declaration_sha256": "C2DD2A3DD78C6F20B793C94D6FF98EA607E0236BF8AF3D52FF1B7D6F97B2C3F9",
+    "groups": [
+      "outline",
+      "reader_assets",
+      "structured",
+      "xref_recovery"
+    ],
+    "priority_total": 193
+  },
+  "scenario_id": "viral",
+  "schema": "kb_creator.master_en_verification.v2",
+  "source_pdf_sha256": "0A80B6F389821B87553D26746D2BE171B4482BA9BBC6E3EB3FEC26274EDBED05",
+  "status": "verified_v2_candidate",
+  "verifier_script_sha256": "AD92F77E9167BBC6BFED39FC07CAAF2EFA29DFE0A42E781B5EC75623A2173038"
+}

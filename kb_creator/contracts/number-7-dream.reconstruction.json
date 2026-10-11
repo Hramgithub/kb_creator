@@ -1,0 +1,34 @@
+{
+  "schema": "kb_creator.scenario_reconstruction_contract.v1",
+  "contract_revision": 1,
+  "scenario": {"id": "number-7-dream", "title": "Number 7 Dream"},
+  "source": {
+    "sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0",
+    "byte_count": 2915268,
+    "page_count": 26,
+    "media_box_points": [612, 792],
+    "rotation_degrees": 0
+  },
+  "scope": {
+    "mode": "all_source_pages",
+    "first_page": 1,
+    "last_page": 26,
+    "required_entities": {"numbered_player_handouts": 5}
+  },
+  "page_roles": [
+    {"role": "cover", "first_page": 1, "last_page": 1, "content_mode": "visual", "traits": ["full_page_art", "low_text"], "strategies": ["embedded_text", "visual_preserve"]},
+    {"role": "front_matter", "first_page": 2, "last_page": 3, "content_mode": "text", "traits": ["credits", "table_of_contents"], "strategies": ["embedded_text", "reading_order"]},
+    {"role": "scenario_body", "first_page": 4, "last_page": 7, "content_mode": "mixed", "traits": ["multi_column", "illustrations"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "scenario_body", "first_page": 8, "last_page": 8, "content_mode": "mixed", "traits": ["multi_column", "floorplan"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "scenario_body", "first_page": 9, "last_page": 10, "content_mode": "mixed", "traits": ["multi_column", "embedded_handout"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "scenario_body", "first_page": 11, "last_page": 11, "content_mode": "mixed", "traits": ["multi_column", "floorplan"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "scenario_body", "first_page": 12, "last_page": 14, "content_mode": "mixed", "traits": ["multi_column", "embedded_handout"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "scenario_body", "first_page": 15, "last_page": 15, "content_mode": "mixed", "traits": ["multi_column", "floorplan"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "scenario_body", "first_page": 16, "last_page": 17, "content_mode": "mixed", "traits": ["multi_column", "illustrations"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]},
+    {"role": "character_statistics", "first_page": 18, "last_page": 18, "content_mode": "text", "traits": ["multi_column", "statblocks"], "strategies": ["embedded_text", "reading_order"]},
+    {"role": "player_handouts", "first_page": 19, "last_page": 20, "content_mode": "mixed", "traits": ["facsimile_text", "five_numbered_handouts", "mixed_typography"], "strategies": ["embedded_text", "reading_order", "ocr_region", "visual_preserve"]},
+    {"role": "pregenerated_characters", "first_page": 21, "last_page": 26, "content_mode": "mixed", "traits": ["character_sheets", "portraits", "six_player_characters"], "strategies": ["embedded_text", "reading_order", "visual_preserve"]}
+  ],
+  "reconstruction": {"strategies": ["embedded_text", "reading_order", "ocr_region", "visual_preserve"], "required_review": true},
+  "acceptance": {"approval_authority": "configured_reconstruction_review"}
+}

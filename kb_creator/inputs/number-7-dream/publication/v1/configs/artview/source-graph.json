@@ -1,0 +1,159 @@
+{
+  "schema": "kb_creator.scenario_artview_source_graph.v1",
+  "scenario_id": "number-7-dream",
+  "artifacts": [
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-004-023.jpg",
+      "source_page": 4,
+      "path": "assets/55ca597755b7df71c1e3699353265ee4ad9771ebbdb920410317e7073f6284fe.jpg",
+      "bytes": 49023,
+      "sha256": "55CA597755B7DF71C1E3699353265EE4AD9771EBBDB920410317E7073F6284FE"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-005-051.jpg",
+      "source_page": 5,
+      "path": "assets/8fc42816bf72beda6938faad5a1aff6dea6de1bef286ee8d8822a8dac55bbbd6.jpg",
+      "bytes": 49082,
+      "sha256": "8FC42816BF72BEDA6938FAAD5A1AFF6DEA6DE1BEF286EE8D8822A8DAC55BBBD6"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-006-066.jpg",
+      "source_page": 6,
+      "path": "assets/d546ef251ace98df9136ea8c332883b06594c7082d32ed1ac80c4dbd915d9523.jpg",
+      "bytes": 31076,
+      "sha256": "D546EF251ACE98DF9136EA8C332883B06594C7082D32ED1AC80C4DBD915D9523"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-007-072.jpg",
+      "source_page": 7,
+      "path": "assets/ffd474f4a049b1968c6f7b5f9068019b5cdec558e69b9a1e995aa21663395857.jpg",
+      "bytes": 30984,
+      "sha256": "FFD474F4A049B1968C6F7B5F9068019B5CDEC558E69B9A1E995AA21663395857"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-007-074.jpg",
+      "source_page": 7,
+      "path": "assets/8d4e75a0cd6c3098cfd7b84b4fb603395e7269ec4249b8ab05734751a58edd70.jpg",
+      "bytes": 59762,
+      "sha256": "8D4E75A0CD6C3098CFD7B84B4FB603395E7269EC4249B8AB05734751A58EDD70"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-008-087.jpg",
+      "source_page": 8,
+      "path": "assets/456c573fb9955c8a3312cadf47a7559255d3416427b764e874d8d8d7d2b6a35c.jpg",
+      "bytes": 77664,
+      "sha256": "456C573FB9955C8A3312CADF47A7559255D3416427B764E874D8D8D7D2B6A35C"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-009-107.jpg",
+      "source_page": 9,
+      "path": "assets/833474cc789c6f5e00034fe72dd8ad95c5c148dd553d5451056a0be134473525.jpg",
+      "bytes": 48035,
+      "sha256": "833474CC789C6F5E00034FE72DD8AD95C5C148DD553D5451056A0BE134473525"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-011-142.jpg",
+      "source_page": 11,
+      "path": "assets/ba5b7c947407c8409b5353e7a25196a98be9e9dc47a786ee0376cd8bc23348b4.jpg",
+      "bytes": 117658,
+      "sha256": "BA5B7C947407C8409B5353E7A25196A98BE9E9DC47A786EE0376CD8BC23348B4"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-013-175.jpg",
+      "source_page": 13,
+      "path": "assets/f16bfb5bbc3e13437865969cf46fecb192edeeab07978a0e1dabf1c60ed8345b.jpg",
+      "bytes": 110551,
+      "sha256": "F16BFB5BBC3E13437865969CF46FECB192EDEEAB07978A0E1DABF1C60ED8345B"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-014-197.jpg",
+      "source_page": 14,
+      "path": "assets/5f84fc66111294af52199ed1c80e48d71f9f8ddb412d52ee2cf42d04e31f7e4d.jpg",
+      "bytes": 163279,
+      "sha256": "5F84FC66111294AF52199ED1C80E48D71F9F8DDB412D52EE2CF42D04E31F7E4D"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-015-200.jpg",
+      "source_page": 15,
+      "path": "assets/9f377a1d675ff226c5405c3a6968540b6a32221c151152c82e7770a708f2b981.jpg",
+      "bytes": 65579,
+      "sha256": "9F377A1D675FF226C5405C3A6968540B6A32221C151152C82E7770A708F2B981"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-017-247.jpg",
+      "source_page": 17,
+      "path": "assets/2e39199dc3787b0600ac4f9843fd02de5f88dfb05be59acd833b9a17b5735421.jpg",
+      "bytes": 207987,
+      "sha256": "2E39199DC3787B0600AC4F9843FD02DE5F88DFB05BE59ACD833B9A17B5735421"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-020-301.jpg",
+      "source_page": 20,
+      "path": "assets/7d73dfea3baa03b388a63f836c0ca43f9238efee255ab26ffcdb49bfacf79890.jpg",
+      "bytes": 179661,
+      "sha256": "7D73DFEA3BAA03B388A63F836C0CA43F9238EFEE255AB26FFCDB49BFACF79890"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-021-311.jpg",
+      "source_page": 21,
+      "path": "assets/f21773feb120405acf2244939ea196833341dd24a2933ab9f08424aa1e44e5ac.jpg",
+      "bytes": 45533,
+      "sha256": "F21773FEB120405ACF2244939EA196833341DD24A2933AB9F08424AA1E44E5AC"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-022-326.jpg",
+      "source_page": 22,
+      "path": "assets/8cc466f9543ad6eb3be419b505950eb16cd7b0cf0b3b33cfa0162bfa0f4c97a9.jpg",
+      "bytes": 40846,
+      "sha256": "8CC466F9543AD6EB3BE419B505950EB16CD7B0CF0B3B33CFA0162BFA0F4C97A9"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-023-340.jpg",
+      "source_page": 23,
+      "path": "assets/f51f17c46ef8227af096809e89eb784e968a715088739dc2b0b7f5778076e743.jpg",
+      "bytes": 38341,
+      "sha256": "F51F17C46EF8227AF096809E89EB784E968A715088739DC2B0B7F5778076E743"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-024-355.jpg",
+      "source_page": 24,
+      "path": "assets/6f1393bc7dc691b0b8f2a2039d1c502aea957d8b8b5617deb0e1a2a8cd804165.jpg",
+      "bytes": 36852,
+      "sha256": "6F1393BC7DC691B0B8F2A2039D1C502AEA957D8B8B5617DEB0E1A2A8CD804165"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-025-370.jpg",
+      "source_page": 25,
+      "path": "assets/30f29ef0afd70573f4f5411b933170a0faaafec268e1842bb6ded414c7ad1f95.jpg",
+      "bytes": 41174,
+      "sha256": "30F29EF0AFD70573F4F5411B933170A0FAAAFEC268E1842BB6DED414C7AD1F95"
+    },
+    {
+      "role": "accepted_reconstruction_asset",
+      "logical_name": "page-026-380.jpg",
+      "source_page": 26,
+      "path": "assets/a334e31185e6dcb3c4ca4ff2f900efff0f4e77d7cd0c446fd7e4ba0392c35e1a.jpg",
+      "bytes": 40683,
+      "sha256": "A334E31185E6DCB3C4CA4FF2F900EFFF0F4E77D7CD0C446FD7E4BA0392C35E1A"
+    }
+  ]
+}
+

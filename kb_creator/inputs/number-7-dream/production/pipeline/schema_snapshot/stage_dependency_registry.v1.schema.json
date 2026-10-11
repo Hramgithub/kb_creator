@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.stage_dependency_registry.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "registry_version", "supported_run_schemas", "supported_source_stage_schemas", "fixed_graph", "stages", "closed_selectors", "registry_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.reconstruction_stage_dependency_registry.v1"},
+    "registry_version": {"const": 1},
+    "supported_run_schemas": {"const": ["kb_creator.run_spec.v2"]},
+    "supported_source_stage_schemas": {"const": ["kb_creator.stage_manifest.v1", "kb_creator.stage_manifest.v2"]},
+    "fixed_graph": {"const": ["01-prepare-inputs", "02-mineru-three-view", "03-compare-views", "04-visual-merge-bundle"]},
+    "stages": {
+      "type": "array", "minItems": 4, "maxItems": 4,
+      "items": {"$ref": "#/$defs/stage"}
+    },
+    "closed_selectors": {
+      "type": "object", "additionalProperties": false,
+      "required": ["run_fields", "tools", "providers", "output_validators", "argv_recipes"],
+      "properties": {
+        "run_fields": {"type": "array", "uniqueItems": true, "items": {"enum": ["target", "profile", "contract", "source", "scope", "options", "execution_boundary", "view_plan", "capability_snapshot", "provider_profiles"]}},
+        "tools": {"type": "array", "uniqueItems": true, "items": {"enum": ["common_tools", "toolchain"]}},
+        "providers": {"type": "array", "uniqueItems": true, "items": {"enum": ["capability_snapshot", "provider_profiles"]}},
+        "output_validators": {"type": "array", "uniqueItems": true, "items": {"enum": ["cpu_first_prepare_inputs_v1", "cpu_first_mineru_three_view_v1", "cpu_first_compare_views_v1", "cpu_first_visual_merge_bundle_v1"]}},
+        "argv_recipes": {"type": "array", "uniqueItems": true, "items": {"enum": ["prepare_inputs_v1", "mineru_three_view_v1", "compare_views_v1", "visual_merge_bundle_v1"]}}
+      }
+    },
+    "registry_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[A-F0-9]{64}$"},
+    "path": {"type": "string", "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*[\\\\:*?\"<>|])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"},
+    "stage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["stage_id", "stage_name", "direct_upstream", "run_field_selectors", "implementation_paths", "tool_selectors", "provider_selectors", "output_validator", "argv_recipe"],
+      "properties": {
+        "stage_id": {"enum": ["01-prepare-inputs", "02-mineru-three-view", "03-compare-views", "04-visual-merge-bundle"]},
+        "stage_name": {"enum": ["prepare_inputs", "mineru_three_view", "compare_views", "visual_merge_bundle"]},
+        "direct_upstream": {"type": "array", "uniqueItems": true, "items": {"enum": ["01-prepare-inputs", "02-mineru-three-view", "03-compare-views"]}},
+        "run_field_selectors": {"type": "array", "uniqueItems": true, "items": {"enum": ["target", "profile", "contract", "source", "scope", "options", "execution_boundary", "view_plan", "capability_snapshot", "provider_profiles"]}},
+        "implementation_paths": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/path"}},
+        "tool_selectors": {"type": "array", "uniqueItems": true, "items": {"enum": ["common_tools", "toolchain"]}},
+        "provider_selectors": {"type": "array", "uniqueItems": true, "items": {"enum": ["capability_snapshot", "provider_profiles"]}},
+        "output_validator": {"enum": ["cpu_first_prepare_inputs_v1", "cpu_first_mineru_three_view_v1", "cpu_first_compare_views_v1", "cpu_first_visual_merge_bundle_v1"]},
+        "argv_recipe": {"enum": ["prepare_inputs_v1", "mineru_three_view_v1", "compare_views_v1", "visual_merge_bundle_v1"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "config_sha256": "26A4DC155A131088CDE649F3497F31217A50AFC3D3CBDE4503469C0CF3748710",
+  "decision_bindings": {
+    "candidate_files_inventory_sha256": "CC7161005A1D88E6D6F97477839DF6511BC12A24BD1FEBBF19EE4760FF8EABFA",
+    "candidate_manifest_sha256": "A1045CBD368B57D4766F1E978E0315E78D33F37859119369AA0B69909BAD04C1",
+    "master_ru_acceptance_sha256": "648307536F72A08463F77964EA501EA44BD3130602D01FC814ABD96B30EAC12D",
+    "master_ru_asset_manifest_sha256": "A12565F3B3EC1BE3047C9E660438275E857E1371C502557ABC27EAA18E3B56AD",
+    "master_ru_sha256": "904133D5057172C404D28F3BCF2A5E4C578304A59382512D1B31FC56AE0FDAB2",
+    "profile_sha256": "F9DB1D10F8024B9A48CDAF3C64CB7461775C27B94D55AB5A6AFC885837379357",
+    "reconstruction_inventory_sha256": "B37142B8CFB0E85A9BFF157E1DF435D24EDEE13E1F6B755B064E2108CF4E1547",
+    "source_identity_sha256": "17EA15D089FDFA672620529CAB9883E025208CF33938819A0D87F29422004432",
+    "source_pdf_sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0"
+  },
+  "rows": [
+    {
+      "asset_id": "pdf-page-001-cover",
+      "output_path": "assets/pdf-page-001-cover.png",
+      "placement_id": "source-cover-page-001",
+      "placement_target": "source_page_cover",
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 100,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "required": true,
+      "review_id": "pdf-page-001-cover",
+      "semantic_role": "cover",
+      "source_page": 1
+    },
+    {
+      "asset_id": "page-004-xref-80-gen-0-resource-image100",
+      "output_path": "assets/page-004-xref-80-gen-0-resource-image100.jpg",
+      "placement_id": "master-page-004-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-004-xref-80-gen-0-resource-image100",
+      "semantic_role": "scenario_body",
+      "source_page": 4
+    },
+    {
+      "asset_id": "page-005-xref-80-gen-0-resource-image100",
+      "output_path": "assets/page-005-xref-80-gen-0-resource-image100.jpg",
+      "placement_id": "master-page-005-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-005-xref-80-gen-0-resource-image100",
+      "semantic_role": "scenario_body",
+      "source_page": 5
+    },
+    {
+      "asset_id": "page-006-xref-15-gen-0-resource-image110",
+      "output_path": "assets/page-006-xref-15-gen-0-resource-image110.jpg",
+      "placement_id": "master-page-006-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-006-xref-15-gen-0-resource-image110",
+      "semantic_role": "scenario_body",
+      "source_page": 6
+    },
+    {
+      "asset_id": "page-007-xref-19-gen-0-resource-image112",
+      "output_path": "assets/page-007-xref-19-gen-0-resource-image112.jpg",
+      "placement_id": "master-page-007-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-007-xref-19-gen-0-resource-image112",
+      "semantic_role": "scenario_body",
+      "source_page": 7
+    },
+    {
+      "asset_id": "page-007-xref-21-gen-0-resource-image115",
+      "output_path": "assets/page-007-xref-21-gen-0-resource-image115.jpg",
+      "placement_id": "master-page-007-asset-002",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-007-xref-21-gen-0-resource-image115",
+      "semantic_role": "scenario_body",
+      "source_page": 7
+    },
+    {
+      "asset_id": "page-008-xref-24-gen-0-resource-image118",
+      "output_path": "assets/page-008-xref-24-gen-0-resource-image118.jpg",
+      "placement_id": "master-page-008-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "required": false,
+      "review_id": "page-008-xref-24-gen-0-resource-image118",
+      "semantic_role": "scenario_body",
+      "source_page": 8
+    },
+    {
+      "asset_id": "page-009-xref-80-gen-0-resource-image100",
+      "output_path": "assets/page-009-xref-80-gen-0-resource-image100.jpg",
+      "placement_id": "master-page-009-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-009-xref-80-gen-0-resource-image100",
+      "semantic_role": "scenario_body",
+      "source_page": 9
+    },
+    {
+      "asset_id": "page-011-xref-31-gen-0-resource-image149",
+      "output_path": "assets/page-011-xref-31-gen-0-resource-image149.jpg",
+      "placement_id": "master-page-011-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "required": false,
+      "review_id": "page-011-xref-31-gen-0-resource-image149",
+      "semantic_role": "scenario_body",
+      "source_page": 11
+    },
+    {
+      "asset_id": "page-013-xref-36-gen-0-resource-image152",
+      "output_path": "assets/page-013-xref-36-gen-0-resource-image152.jpg",
+      "placement_id": "master-page-013-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-013-xref-36-gen-0-resource-image152",
+      "semantic_role": "scenario_body",
+      "source_page": 13
+    },
+    {
+      "asset_id": "page-014-xref-39-gen-0-resource-image159",
+      "output_path": "assets/page-014-xref-39-gen-0-resource-image159.jpg",
+      "placement_id": "master-page-014-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-014-xref-39-gen-0-resource-image159",
+      "semantic_role": "scenario_body",
+      "source_page": 14
+    },
+    {
+      "asset_id": "page-015-xref-42-gen-0-resource-image161",
+      "output_path": "assets/page-015-xref-42-gen-0-resource-image161.jpg",
+      "placement_id": "master-page-015-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "center",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "required": false,
+      "review_id": "page-015-xref-42-gen-0-resource-image161",
+      "semantic_role": "scenario_body",
+      "source_page": 15
+    },
+    {
+      "asset_id": "page-017-xref-47-gen-0-resource-image164",
+      "output_path": "assets/page-017-xref-47-gen-0-resource-image164.jpg",
+      "placement_id": "master-page-017-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-017-xref-47-gen-0-resource-image164",
+      "semantic_role": "scenario_body",
+      "source_page": 17
+    },
+    {
+      "asset_id": "master-page-020-asset-001",
+      "output_path": "assets/master-page-020-asset-001.jpg",
+      "placement_id": "master-page-020-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": false,
+        "wrap_text": false
+      },
+      "required": false,
+      "review_id": "master-page-020-asset-001",
+      "semantic_role": "player_handouts",
+      "source_page": 20
+    },
+    {
+      "asset_id": "page-021-xref-58-gen-0-resource-image171",
+      "output_path": "assets/page-021-xref-58-gen-0-resource-image171.jpg",
+      "placement_id": "master-page-021-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-021-xref-58-gen-0-resource-image171",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 21
+    },
+    {
+      "asset_id": "page-022-xref-61-gen-0-resource-image174",
+      "output_path": "assets/page-022-xref-61-gen-0-resource-image174.jpg",
+      "placement_id": "master-page-022-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-022-xref-61-gen-0-resource-image174",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 22
+    },
+    {
+      "asset_id": "page-023-xref-64-gen-0-resource-image177",
+      "output_path": "assets/page-023-xref-64-gen-0-resource-image177.jpg",
+      "placement_id": "master-page-023-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-023-xref-64-gen-0-resource-image177",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 23
+    },
+    {
+      "asset_id": "page-024-xref-67-gen-0-resource-image180",
+      "output_path": "assets/page-024-xref-67-gen-0-resource-image180.jpg",
+      "placement_id": "master-page-024-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-024-xref-67-gen-0-resource-image180",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 24
+    },
+    {
+      "asset_id": "page-025-xref-70-gen-0-resource-image183",
+      "output_path": "assets/page-025-xref-70-gen-0-resource-image183.jpg",
+      "placement_id": "master-page-025-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-025-xref-70-gen-0-resource-image183",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 25
+    },
+    {
+      "asset_id": "page-026-xref-73-gen-0-resource-image186",
+      "output_path": "assets/page-026-xref-73-gen-0-resource-image186.jpg",
+      "placement_id": "master-page-026-asset-001",
+      "placement_target": "markdown_asset",
+      "presentation": {
+        "alignment": "right",
+        "width_percent": 25,
+        "wrap_tables": true,
+        "wrap_text": true
+      },
+      "required": false,
+      "review_id": "page-026-xref-73-gen-0-resource-image186",
+      "semantic_role": "pregenerated_characters",
+      "source_page": 26
+    }
+  ],
+  "scenario_id": "number-7-dream",
+  "schema": "kb_creator.scenario_artview_effective_visual_config.v3"
+}

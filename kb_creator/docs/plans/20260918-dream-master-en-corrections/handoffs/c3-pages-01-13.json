@@ -1,0 +1,463 @@
+{
+  "schema": "kb_creator.dream_semantic_authoring_fragment.v1",
+  "scope": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "baseline": "20260917-cpu-replay-16-decisions-v27",
+    "fresh_source": "20260918-cpu-replay-17"
+  },
+  "pages": [
+    {
+      "source_page": 1,
+      "units": [
+        {
+          "id": "dream-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            0,
+            1
+          ],
+          "start": "# Number 7 Dream",
+          "heading_level": 1
+        }
+      ]
+    },
+    {
+      "source_page": 2,
+      "units": [
+        {
+          "id": "credits-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            5
+          ],
+          "start": "# CREDITS",
+          "heading_level": 1
+        }
+      ]
+    },
+    {
+      "source_page": 3,
+      "units": []
+    },
+    {
+      "source_page": 4,
+      "units": [
+        {
+          "id": "glitches-list-part-1",
+          "kind": "list",
+          "representation": "unordered_list",
+          "raw_indices": [
+            30,
+            31,
+            32
+          ],
+          "start": "- The investigators are running away",
+          "end": "- Someone is seen walking down the side",
+          "item_count": 3
+        }
+      ]
+    },
+    {
+      "source_page": 5,
+      "units": [
+        {
+          "id": "glitches-list-part-2",
+          "kind": "list",
+          "representation": "unordered_list",
+          "raw_indices": [
+            34,
+            35,
+            36
+          ],
+          "start": "- One of the characters wakes",
+          "end": "- When walking into a room",
+          "continuation_of": "glitches-list-part-1",
+          "item_count": 3
+        },
+        {
+          "id": "dreams-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            37
+          ],
+          "start": "## DREAMS",
+          "heading_level": 2
+        },
+        {
+          "id": "dream-boardroom-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            41
+          ],
+          "start": "### The Boardroom",
+          "semantic_parent": "dreams-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "dream-janitor-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            43
+          ],
+          "start": "### The Janitor",
+          "semantic_parent": "dreams-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "dream-monolith-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            45
+          ],
+          "start": "### The Monolith",
+          "semantic_parent": "dreams-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "dream-monster-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            47
+          ],
+          "start": "### The Monster",
+          "semantic_parent": "dreams-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "dream-canisters-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            49
+          ],
+          "start": "### The Canisters",
+          "semantic_parent": "dreams-heading",
+          "heading_level": 3
+        }
+      ]
+    },
+    {
+      "source_page": 6,
+      "units": [
+        {
+          "id": "dramatis-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            64
+          ],
+          "start": "## DRAMATIS PERSONAE",
+          "heading_level": 2
+        },
+        {
+          "id": "stanwick-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            65
+          ],
+          "start": "### STANWICK WEBB",
+          "semantic_parent": "dramatis-heading",
+          "heading_level": 3
+        }
+      ]
+    },
+    {
+      "source_page": 7,
+      "units": [
+        {
+          "id": "elsie-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            71
+          ],
+          "start": "### ELSIE WEBB",
+          "semantic_parent": "dramatis-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "beginning-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            75
+          ],
+          "start": "## BEGINNING THE ADVENTURE",
+          "heading_level": 2
+        },
+        {
+          "id": "handout-1-body",
+          "kind": "handout",
+          "representation": "blockquote",
+          "raw_indices": [
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "start": "> Sorry for the group email",
+          "end": "> Stanwicks Books Christmas Steps Bristol"
+        },
+        {
+          "id": "email-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            82
+          ],
+          "start": "### AN EMAIL OUT OF THE BLUE",
+          "semantic_parent": "beginning-heading",
+          "heading_level": 3
+        }
+      ]
+    },
+    {
+      "source_page": 8,
+      "units": [
+        {
+          "id": "bookshop-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            86
+          ],
+          "start": "## STANWICKS BOOKSHOP",
+          "heading_level": 2
+        },
+        {
+          "id": "shopper-heading-p8",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            89
+          ],
+          "start": "### THE SHOPPER",
+          "semantic_parent": "bookshop-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "upstairs-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            91
+          ],
+          "start": "### UPSTAIRS",
+          "semantic_parent": "bookshop-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "stanwick-knows-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            94
+          ],
+          "start": "### WHAT STANWICK KNOWS",
+          "semantic_parent": "bookshop-heading",
+          "heading_level": 3
+        }
+      ]
+    },
+    {
+      "source_page": 9,
+      "units": [
+        {
+          "id": "handout-2-body",
+          "kind": "handout",
+          "representation": "blockquote",
+          "raw_indices": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106
+          ],
+          "start": "> Dad",
+          "end": "> Handout 2 – Number 7 Dream"
+        },
+        {
+          "id": "leaving-bookshop-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            108
+          ],
+          "start": "## LEAVING STANWICKS BOOKSHOP",
+          "heading_level": 2
+        },
+        {
+          "id": "faceless-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            109
+          ],
+          "start": "### THE FACELESS MAN",
+          "semantic_parent": "leaving-bookshop-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "shopper-heading-p9",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            111
+          ],
+          "start": "### THE SHOPPER",
+          "semantic_parent": "leaving-bookshop-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "elsies-flat-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            113
+          ],
+          "start": "### ELSIE’S FLAT",
+          "semantic_parent": "leaving-bookshop-heading",
+          "heading_level": 3
+        },
+        {
+          "id": "elsies-diary-heading",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            116
+          ],
+          "start": "### ELSIE’S DIARY",
+          "semantic_parent": "leaving-bookshop-heading",
+          "heading_level": 3
+        }
+      ]
+    },
+    {
+      "source_page": 10,
+      "units": [
+        {
+          "id": "handout-3-body",
+          "kind": "handout",
+          "representation": "blockquote",
+          "raw_indices": [
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "start": "> # THE ENLIGHTENED",
+          "end": "> Handout 3 – Number 7 Dream"
+        },
+        {
+          "id": "handout-3-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            119
+          ],
+          "start": "> # THE ENLIGHTENED",
+          "container_parent": "handout-3-body",
+          "heading_level": 1
+        },
+        {
+          "id": "handout-4-body",
+          "kind": "handout",
+          "representation": "blockquote",
+          "raw_indices": [
+            126,
+            127,
+            128,
+            129,
+            130
+          ],
+          "start": "> ## Summary of Elsie's Journal",
+          "end": "> Handout 4 – Number 7 Dream"
+        },
+        {
+          "id": "handout-4-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            126
+          ],
+          "start": "> ## Summary of Elsie's Journal",
+          "container_parent": "handout-4-body",
+          "heading_level": 2
+        }
+      ],
+      "patches": [
+        {
+          "before": "## THE ENLIGHTENEDWEBSITE",
+          "after": "## THE ENLIGHTENED WEBSITE"
+        },
+        {
+          "before": "## THE ENLIGHTENEDWELLNESS CENTRE",
+          "after": "## THE ENLIGHTENED WELLNESS CENTRE"
+        }
+      ],
+      "review_notes_append": [
+        "text correction: THE ENLIGHTENEDWEBSITE -> THE ENLIGHTENED WEBSITE; reason: Stage 02 middle lines and the bound Stage 04 visual confirm the word boundary",
+        "title evidence confirmation: original_pipeline_txt:137 -> THE ENLIGHTENED WEBSITE; reason: Stage 02 middle lines and the bound Stage 04 visual confirm the exact heading",
+        "text correction: THE ENLIGHTENEDWELLNESS CENTRE -> THE ENLIGHTENED WELLNESS CENTRE; reason: Stage 02 middle lines and the bound Stage 04 visual confirm the word boundary",
+        "title evidence confirmation: original_pipeline_txt:139 -> THE ENLIGHTENED WELLNESS CENTRE; reason: Stage 02 middle lines and the bound Stage 04 visual confirm the exact heading"
+      ]
+    },
+    {
+      "source_page": 11,
+      "units": [
+        {
+          "id": "wellness-events-list",
+          "kind": "list",
+          "representation": "unordered_list",
+          "raw_indices": [
+            145,
+            146,
+            147,
+            148
+          ],
+          "start": "- Transhumanism",
+          "end": "- Dreaming",
+          "item_count": 4
+        }
+      ]
+    },
+    {
+      "source_page": 12,
+      "units": []
+    },
+    {
+      "source_page": 13,
+      "units": []
+    }
+  ]
+}

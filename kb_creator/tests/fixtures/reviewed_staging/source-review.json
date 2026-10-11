@@ -1,0 +1,12 @@
+{
+  "schema": "synthetic.source_review.v1",
+  "source_page": 1,
+  "region": [
+    0,
+    10,
+    100,
+    18
+  ],
+  "verdict": "OCR Beta matches synthetic reviewed source; fixture assertion only",
+  "selected_text": "Beta"
+}

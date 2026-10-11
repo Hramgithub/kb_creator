@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.reader_fidelity_verification.v1",
+  "title": "Reopened actual DOCX observations pending bound output visual review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "source_pdf", "inventory", "review", "plan", "docx", "verifier", "graphics", "text", "render_pages", "discrepancies", "mechanical_state", "semantic_state", "verification_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.reader_fidelity_verification.v1"},
+    "source_pdf": {"$ref": "#/$defs/pdf"},
+    "inventory": {"$ref": "#/$defs/file"}, "review": {"$ref": "#/$defs/file"},
+    "plan": {"$ref": "#/$defs/file"}, "docx": {"$ref": "#/$defs/file"},
+    "verifier": {"type": "object", "additionalProperties": false, "required": ["implementation_sha256"], "properties": {
+      "implementation_sha256": {"$ref": "#/$defs/sha"}
+    }},
+    "graphics": {"type": "array", "items": {"$ref": "#/$defs/graphic"}},
+    "text": {"type": "array", "items": {"$ref": "#/$defs/text"}},
+    "render_pages": {"type": "array", "items": {"$ref": "#/$defs/file"}},
+    "discrepancies": {"type": "array", "maxItems": 0},
+    "mechanical_state": {"const": "closed"},
+    "semantic_state": {"const": "needs_output_review"},
+    "verification_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {
+      "path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 0}, "sha256": {"$ref": "#/$defs/sha"}
+    }},
+    "pdf": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "page_count"], "properties": {
+      "path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1},
+      "sha256": {"$ref": "#/$defs/sha"}, "page_count": {"type": "integer", "minimum": 1}
+    }},
+    "graphic": {"type": "object", "additionalProperties": false, "required": ["placement_id", "graphic_id", "story_id", "paragraph_index", "media_sha256", "extent", "crop"], "properties": {
+      "placement_id": {"type": "string", "minLength": 1}, "graphic_id": {"type": "string", "minLength": 1},
+      "story_id": {"type": "string", "minLength": 1}, "paragraph_index": {"type": "integer", "minimum": 0},
+      "media_sha256": {"$ref": "#/$defs/sha"},
+      "extent": {"type": "object", "additionalProperties": false, "required": ["width_emu", "height_emu"], "properties": {
+        "width_emu": {"type": "integer", "minimum": 1}, "height_emu": {"type": "integer", "minimum": 1}
+      }},
+      "crop": {"type": "object", "additionalProperties": false, "required": ["left", "top", "right", "bottom"], "properties": {
+        "left": {"type": "number", "minimum": 0}, "top": {"type": "number", "minimum": 0},
+        "right": {"type": "number", "minimum": 0}, "bottom": {"type": "number", "minimum": 0}
+      }}
+    }},
+    "text": {"type": "object", "additionalProperties": false, "required": ["kind", "occurrence_id", "paragraph", "after_sha256"], "properties": {
+      "kind": {"enum": ["edition", "terminology"]}, "occurrence_id": {"type": "string", "minLength": 1},
+      "paragraph": {"type": "integer", "minimum": 0}, "after_sha256": {"$ref": "#/$defs/sha"}
+    }}
+  }
+}

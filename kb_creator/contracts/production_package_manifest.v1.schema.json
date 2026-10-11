@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "kb_creator.production_package_manifest.v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "scenario_id", "package_state", "release_state", "publication_run_identity_sha256", "roles", "inventory", "stage_manifests", "acceptance_receipts", "config_inventory", "pipeline_snapshot", "upstream", "manifest_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.production_package_manifest.v1"}, "scenario_id": {"type": "string", "minLength": 1},
+    "package_state": {"const": "candidate_for_release_review"}, "release_state": {"const": "not_reviewed"}, "publication_run_identity_sha256": {"$ref": "#/$defs/sha256"},
+    "roles": {"type": "array", "minItems": 22, "maxItems": 22, "uniqueItems": true, "items": {"$ref": "#/$defs/role"}},
+    "inventory": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file"}},
+    "stage_manifests": {"type": "array", "minItems": 8, "maxItems": 8, "uniqueItems": true, "items": {"$ref": "#/$defs/file"}}, "acceptance_receipts": {"type": "array", "minItems": 6, "maxItems": 6, "uniqueItems": true, "items": {"$ref": "#/$defs/file"}},
+    "config_inventory": {"type": "array", "minItems": 5, "uniqueItems": true, "items": {"$ref": "#/$defs/file"}}, "pipeline_snapshot": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/file"}},
+    "upstream": {"type": "object", "additionalProperties": false, "required": ["reconstruction_inventory", "reconstruction_acceptance", "source_identity"], "properties": {"reconstruction_inventory": {"$ref": "#/$defs/file"}, "reconstruction_acceptance": {"$ref": "#/$defs/file"}, "source_identity": {"$ref": "#/$defs/file"}}},
+    "manifest_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 0}, "sha256": {"$ref": "#/$defs/sha256"}}},
+    "role": {"type": "object", "additionalProperties": false, "required": ["role", "path"], "properties": {"role": {"enum": ["master_en", "master_en_acceptance", "master_ru", "master_ru_acceptance", "artview_bundle", "artview_candidate_manifest", "artview_decisions", "artview_application", "artview_effective_config", "artview_acceptance", "html", "html_acceptance", "docx", "docx_acceptance", "pdf", "pdf_acceptance", "source_configs", "effective_config", "stage_evidence", "pipeline_snapshot", "schema_snapshot", "offline_verifier"]}, "path": {"type": "string", "minLength": 1}}}
+  }
+}

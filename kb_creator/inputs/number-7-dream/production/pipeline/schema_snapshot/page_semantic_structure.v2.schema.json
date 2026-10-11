@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.page_semantic_structure.v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "profile", "role_contract", "review", "units"],
+  "properties": {
+    "schema": {"const": "kb_creator.page_semantic_structure.v2"},
+    "profile": {"const": "reviewed_role_outline_and_partitions_v2"},
+    "role_contract": {"type": "object"},
+    "review": {"type": "object"},
+    "units": {"type": "array", "items": {"type": "object"}}
+  }
+}

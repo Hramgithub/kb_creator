@@ -1,0 +1,132 @@
+{
+  "schema": "kb_creator.production_docx_config.v1",
+  "page": {
+    "width_mm": 210,
+    "height_mm": 297,
+    "orientation": "portrait"
+  },
+  "margins": {
+    "top_mm": 15,
+    "bottom_mm": 15,
+    "left_mm": 17,
+    "right_mm": 17
+  },
+  "fonts": {
+    "body": "Times New Roman",
+    "title": "Times New Roman",
+    "headings": "Times New Roman",
+    "footer": "Times New Roman"
+  },
+  "sizes": {
+    "body_pt": 10.5,
+    "title_pt": 22,
+    "footer_pt": 9
+  },
+  "spacing": {
+    "body_after_pt": 4,
+    "body_line": 1.05
+  },
+  "headings": {
+    "1": {
+      "size_pt": 18,
+      "bold": true,
+      "space_before_pt": 10,
+      "space_after_pt": 4
+    },
+    "2": {
+      "size_pt": 15,
+      "bold": true,
+      "space_before_pt": 10,
+      "space_after_pt": 4
+    },
+    "3": {
+      "size_pt": 12.5,
+      "bold": true,
+      "space_before_pt": 7,
+      "space_after_pt": 4
+    },
+    "4": {
+      "size_pt": 11.5,
+      "bold": false,
+      "space_before_pt": 7,
+      "space_after_pt": 4
+    },
+    "5": {
+      "size_pt": 10.5,
+      "bold": false,
+      "space_before_pt": 7,
+      "space_after_pt": 4
+    },
+    "6": {
+      "size_pt": 10.5,
+      "bold": false,
+      "space_before_pt": 7,
+      "space_after_pt": 4
+    }
+  },
+  "footer": {
+    "page_numbers": true
+  },
+  "metadata": {
+    "title": "KB Creator — документ для вычитки",
+    "subject": "Документ",
+    "author": "NRI",
+    "keywords": "",
+    "comments": "five_step_docx_v1"
+  },
+  "figures": {
+    "default": {
+      "max_width_mm": 80,
+      "max_height_mm": 100,
+      "keep_with_next": false
+    },
+    "overrides": {}
+  },
+  "statblocks": {
+    "keep_together": true
+  },
+  "typography": {
+    "table_body": {
+      "font": "Times New Roman",
+      "size_pt": 10,
+      "space_before_pt": 0,
+      "space_after_pt": 2,
+      "line_spacing": 1.05
+    },
+    "table_header": {
+      "font": "Times New Roman",
+      "size_pt": 10,
+      "space_before_pt": 0,
+      "space_after_pt": 2,
+      "line_spacing": 1.05
+    },
+    "caption": {
+      "font": "Times New Roman",
+      "size_pt": 9,
+      "space_before_pt": 0,
+      "space_after_pt": 2,
+      "line_spacing": 1.05
+    },
+    "statblock": {
+      "font": "Times New Roman",
+      "size_pt": 10.5,
+      "space_before_pt": 0,
+      "space_after_pt": 2,
+      "line_spacing": 1.05
+    },
+    "toc": {
+      "font": "Times New Roman",
+      "size_pt": 10,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "line_spacing": 1.05
+    },
+    "quote": {
+      "font": "Times New Roman",
+      "size_pt": 10.5,
+      "space_before_pt": 0,
+      "space_after_pt": 2,
+      "line_spacing": 1.05
+    }
+  }
+}

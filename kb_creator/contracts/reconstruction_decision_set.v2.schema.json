@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.reconstruction_decision_set.v2",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "review_queue_sha256", "contract_sha256", "source_sha256", "decisions", "reviewed_allowlist", "semantic_structure_profile", "submission_state"],
+  "properties": {
+    "schema": {"const": "kb_creator.reconstruction_decision_set.v2"},
+    "review_queue_sha256": {"$ref": "#/$defs/sha"}, "contract_sha256": {"$ref": "#/$defs/sha"}, "source_sha256": {"$ref": "#/$defs/sha"},
+    "decisions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/decision"}},
+    "reviewed_allowlist": {"$ref": "#/$defs/reviewed_allowlist"},
+    "semantic_structure_profile": {"enum": ["visually_reviewed_semantic_containers_v1", "reviewed_role_outline_and_partitions_v2"]},
+    "submission_state": {"const": "submitted_for_validation"}
+  },
+  "$defs": {"sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"}, "decision": {"type": "object", "additionalProperties": false, "required": ["source_page", "path", "bytes", "sha256"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "path": {"type": "string", "pattern": "^pages/page-[0-9]{3,}\\.json$"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}}, "reviewed_allowlist": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}}}
+}

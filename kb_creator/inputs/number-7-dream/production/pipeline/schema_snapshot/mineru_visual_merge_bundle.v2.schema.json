@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.mineru_visual_merge_bundle.v2",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "inputs", "layouts", "execution", "counts", "inventory_scope", "inventory_exclusions", "files", "geometry_plan", "manifest_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.mineru_visual_merge_bundle.v2"},
+    "inputs": {"type": "object", "additionalProperties": false, "required": ["raw_receipt", "source", "comparison", "raw_root", "dpi", "preparation_manifest"], "properties": {"raw_receipt": {"$ref": "#/$defs/input_identity"}, "source": {"$ref": "#/$defs/input_identity"}, "comparison": {"$ref": "#/$defs/input_identity"}, "raw_root": {"type": "string", "minLength": 1}, "dpi": {"type": "integer", "minimum": 1}, "preparation_manifest": {"$ref": "#/$defs/input_identity"}, "reconstruction_contract": {"$ref": "#/$defs/input_identity"}}},
+    "layouts": {"type": "object", "minProperties": 3, "maxProperties": 5, "additionalProperties": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha"}}}},
+    "execution": {"type": "object", "additionalProperties": false, "required": ["commands", "pdftoppm_version"], "properties": {"commands": {"type": "array", "minItems": 3, "maxItems": 5, "items": {"type": "array", "minItems": 9, "items": {"type": "string"}}}, "pdftoppm_version": {"type": "string", "minLength": 1}}},
+    "counts": {"type": "object", "additionalProperties": false, "required": ["rendered_pages", "triptychs", "contact_sheets", "merge_packets", "optional_companions"], "properties": {"rendered_pages": {"type": "integer", "minimum": 3}, "triptychs": {"type": "integer", "minimum": 1}, "contact_sheets": {"type": "integer", "minimum": 1}, "merge_packets": {"type": "integer", "minimum": 1}, "optional_companions": {"type": "integer", "minimum": 0}}},
+    "inventory_scope": {"const": "all generated files except the three explicitly listed adapter/self-referential records"}, "inventory_exclusions": {"const": ["visual/visual_manifest.json", "evidence/execution.json", "command.json"]},
+    "files": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/file"}},
+    "geometry_plan": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "plan_sha256"], "properties": {"path": {"const": "visual/geometry_plan.json"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}, "plan_sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"}}},
+    "manifest_sha256": {"$ref": "#/$defs/sha"}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "input_identity": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha"}}},
+    "file": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}, "dimensions": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 1}, {"type": "integer", "minimum": 1}], "items": false}}}
+  }
+}

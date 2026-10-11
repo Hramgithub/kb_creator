@@ -1,0 +1,181 @@
+{
+  "artview": {
+    "application_receipt": "kb_creator/inputs/viral/production/ARTVIEW_APPLIED.json",
+    "candidate_manifest": "kb_creator/inputs/viral/production/ARTVIEW_CANDIDATE_MANIFEST.json",
+    "config": "kb_creator/inputs/viral/production/ARTVIEW_CONFIG.json",
+    "counts": {
+      "exclude": 28,
+      "inserted": 0,
+      "keep_current": 3,
+      "use_candidate": 63
+    },
+    "decisions": "kb_creator/inputs/viral/production/ARTVIEW_DECISIONS.accepted.json",
+    "render_markdown": "kb_creator/inputs/viral/production/ARTVIEW_RENDER_RU.md",
+    "state": "accepted_decisions_applied"
+  },
+  "handout_heading_policy": {
+    "expected_blocks": 41,
+    "heading": "numbered_h3",
+    "source": "appendix_navigation",
+    "title": "plain_paragraph_after_heading"
+  },
+  "layout_reference": {
+    "inherited": [
+      "A4 palette and framing",
+      "single-column print body",
+      "typography",
+      "statblock cards",
+      "art sizing",
+      "full-page art isolation and heading binding"
+    ],
+    "package": "kb_creator/inputs/innsmouth/production",
+    "profile": "accepted_20260830_r7"
+  },
+  "package_root": "kb_creator/inputs/viral/production",
+  "production_docx": {
+    "output_docx": "kb_creator/inputs/viral/production/Viral_RU.docx",
+    "profile": "editable_production_projection_v1",
+    "source_html": "kb_creator/inputs/viral/production/Viral_RU.html"
+  },
+  "production_docx_semantics": {
+    "body_links": 44,
+    "bookmarks": 86,
+    "callout_fill": "F0DFBD",
+    "callout_left_border": "8F3D19",
+    "callouts_applied": 112,
+    "callouts_missing_from_docx": 1,
+    "mode": "ooxml_in_place_preserving_user_edits",
+    "toc_links": 52
+  },
+  "production_html": {
+    "allow_long_callout_page_breaks": true,
+    "allow_statblock_flow_beside_body_art": true,
+    "avoid_single_column_fragmentation_context": true,
+    "bind_section_heading_into_first_card_anchor_ids": [
+      "viral-pregenerated-investigators"
+    ],
+    "keep_full_page_art_with_heading": true,
+    "landing_asset": {
+      "replaces_body_image_refs": [
+        "assets/viral-render-cover-front.png"
+      ],
+      "show_titles": false,
+      "src": "kb_creator/inputs/viral/production/assets/viral-render-cover-front.png"
+    },
+    "output_html": "kb_creator/inputs/viral/production/Viral_RU.html",
+    "page_break_before_anchor_ids": [
+      "viral-player-handouts",
+      "viral-keeper-maps"
+    ],
+    "print_columns": 1,
+    "report": "production_html_report.json",
+    "required_gates": [
+      "master_ru_user_accepted",
+      "visual_assets_accepted"
+    ],
+    "source_markdown": "kb_creator/inputs/viral/production/ARTVIEW_RENDER_RU.md",
+    "statblock_section_policy": {
+      "heading_ids": [
+        "pozhiratel-aspekt-hastalika",
+        "proklyatye-chumnye-zombi"
+      ]
+    },
+    "suppress_figure_captions": [
+      "Illustration",
+      "Иллюстрация"
+    ],
+    "suppress_heading_ids": [
+      "virus"
+    ],
+    "suppress_section_navigation_after_anchor_ids": [
+      "viral-player-handouts",
+      "viral-keeper-maps",
+      "viral-pregenerated-investigators"
+    ],
+    "toc_policy": {
+      "columns": 2,
+      "exclude_heading_id_prefixes": [
+        "viral-handout-",
+        "viral-pregen-",
+        "viral-keeper-map-"
+      ],
+      "exclude_heading_ids": [
+        "ipad-y-hena"
+      ],
+      "exclude_source_anchor_prefixes": [
+        "viral-handout-",
+        "viral-pregen-",
+        "viral-keeper-map-"
+      ],
+      "exclude_titles": [
+        "Содержание",
+        "Оглавление",
+        "Вирус",
+        "iPad’ы Хёна"
+      ],
+      "manual_toc_titles": [
+        "Содержание",
+        "Оглавление"
+      ],
+      "max_heading_level": 3,
+      "mode": "generated",
+      "replace_manual_toc_sections": true,
+      "root_heading_level": 2
+    },
+    "typography": {
+      "body_font_family": "Georgia, \"Times New Roman\", serif",
+      "body_font_size": "12pt",
+      "body_line_height": "1.45",
+      "print_body_font_size": "9.75pt",
+      "print_body_line_height": "1.24"
+    }
+  },
+  "production_pdf": {
+    "engine_command": [
+      "{browser_executable}",
+      "--headless=new",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--no-first-run",
+      "--no-pdf-header-footer",
+      "--user-data-dir={temp_dir}",
+      "--print-to-pdf={output_pdf}",
+      "{source_html_uri}"
+    ],
+    "engine_timeout_seconds": 240,
+    "final_artifact": {
+      "output": "kb_creator/inputs/viral/production/Viral_RU.pdf",
+      "post_export_content_edits": false,
+      "route": "microsoft_word_export_as_fixed_format_pdf_with_heading_bookmarks",
+      "source": "kb_creator/inputs/viral/production/Viral_RU.docx"
+    },
+    "report": "production_pdf_report.json",
+    "require_variant": true,
+    "required_gates": [
+      "production_html_built"
+    ],
+    "selected_variant": "innsmouth",
+    "source_html": "kb_creator/inputs/viral/production/Viral_RU.html",
+    "variants": {
+      "innsmouth": {
+        "art_policy": "atomic_or_float_by_manifest",
+        "avoid_single_column_fragmentation_context": true,
+        "layout_mode": "single_column_flow",
+        "output_pdf": "kb_creator/inputs/viral/production/Viral_RU.pdf",
+        "print_columns": 1,
+        "report": "production_pdf_report.json"
+      }
+    }
+  },
+  "project_key": "viral_production",
+  "scenario_gates": {
+    "master_ru_user_accepted": true,
+    "production_html_built": true,
+    "visual_assets_accepted": true
+  },
+  "scenario_title_en": "Viral",
+  "scenario_title_ru": "Вирус",
+  "schema": "translator_package.v1",
+  "workbench_qa_root": "QA",
+  "workbench_root": "kb_creator/inputs/viral/production"
+}

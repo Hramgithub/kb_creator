@@ -1,0 +1,1383 @@
+{
+  "schema": "innsmouth.recovery_v6_source_cleanup_report.v1",
+  "generated_at_utc": "2026-07-30T16:16:11.839760+00:00",
+  "status": "candidate_created",
+  "input": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_raw_v6.md",
+  "input_sha256": "02af4ff1a155fe0360a6a52eb4168ccda678e9e01267eceac03140c38f4040fb",
+  "output": "kb_creator/working/innsmouth_full_dry_run/The_Innsmouth_Terror_Source_Text_Full_EN_kb_full_dry_run_cleaned_v1.md",
+  "output_sha256": "1e62a519b8d7d9eba3e5ba4034581b69cfa05113d014c53f32cdb6e2599adddb",
+  "clean_config": "kb_creator/reports/innsmouth_full_dry_run/source_cleanup/the_innsmouth_terror.full_dry_run_cleaned.package.json",
+  "source_manifest": "kb_creator/reports/innsmouth_full_dry_run/source_cleanup/source_block_manifest.cleaned.v2.json",
+  "candidate_manifest": "kb_creator/reports/innsmouth_full_dry_run/source_cleanup/candidate_block_manifest.cleaned.v2.json",
+  "counts": {
+    "pages": 46,
+    "pages_changed": 46,
+    "lines_removed": 198,
+    "lines_normalized": 35,
+    "actions": {
+      "arrival_decorative_noise_removed": 1,
+      "bullet_glyph_normalized": 19,
+      "cave_decorative_noise_removed": 1,
+      "decorative_line_removed": 133,
+      "epilogue_decorative_noise_removed": 2,
+      "finale_decorative_noise_removed": 7,
+      "glyph_orphan_removed": 2,
+      "handout_2_ocr_noise_removed": 17,
+      "inline_ocr_noise_removed": 4,
+      "known_word_repaired": 14,
+      "known_word_repaired,known_word_repaired": 2,
+      "leading_ocr_noise_removed": 1,
+      "page_reference_reconstruction": 20,
+      "page_reference_reconstruction_with_reading_order_repair": 2,
+      "page_reference_reconstruction_with_stat_value_repair": 1,
+      "pregen_ocr_garbage_removed": 2,
+      "producer_office_decorative_noise_removed": 3,
+      "section_reordered_reference_reconstruction": 1,
+      "tiny_orphan_removed": 8,
+      "trailing_bullet_glyph_removed": 2,
+      "trailing_epilogue_noise_removed": 15
+    }
+  },
+  "pages": [
+    {
+      "page": "001",
+      "changes": [
+        {
+          "action": "visual_or_nonsemantic_page_excluded_from_translation",
+          "before": "raw_page_sha256=f5a1437d24455cc3f30f05c06df00c475fcf68233437328d8cde6f0fce4b9c10",
+          "after": "<!-- visual-or-nonsemantic-page-excluded-from-translation -->"
+        }
+      ]
+    },
+    {
+      "page": "002",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=751ac2a36b7c53cca608d4f55226eab6223cf38e5ee561b68af11affbef65963",
+          "after": "reference_v2_page_sha256=06e3f7fa9535a8b118077b2059317a66a8d2a533560dc221dfe555609c6cdf0f"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "This scenario can be run as a stand alone, or as a sequel to Stage Fright at the",
+          "after": "This scenario can be run as a stand-alone, or as a sequel to Stage Fright at the"
+        }
+      ]
+    },
+    {
+      "page": "003",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=25c982be7d7e883c7c5bfd40229a3187bbf533422f55bc5fe9bff8d3a9e8478e",
+          "after": "reference_v2_page_sha256=5fa87732f031b693bd76645b56478ccc100854ac826137ef6d419a0ec39214ce"
+        }
+      ]
+    },
+    {
+      "page": "004",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=1eb68f686f25f8894f2c07a4fd8cc89a676e71db2a79e59ef0e92969263ed1f7",
+          "after": "reference_v2_page_sha256=eecbb43ba8964c862dda3c48924bfbb2e8413282123bc4e541ce507bb007cb65"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "1"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "1"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "3"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "3"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "5"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "5"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "6"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "6"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "6"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "7"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "7"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "8"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "9"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "11"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "11"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "12"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "12"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "13"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "13"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "14"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "14"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "15"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "16"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "17"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "18"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "18"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "18"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "20"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "21"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "22"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "22"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "23"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "24"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "24"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "25"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "25"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "27"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "28"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "28"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "29"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "32"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "38"
+        }
+      ]
+    },
+    {
+      "page": "005",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=2fbc9f6e8959612fabc064e9b3b58853653b598d6c87550bd775112d23feb891",
+          "after": "reference_v2_page_sha256=90fd611811a15824d7944b33580f7912e9c962212518ef969864894436444948"
+        }
+      ]
+    },
+    {
+      "page": "006",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=0ae96186b5e1b9c660b519ae8d3a8b7c7ae47fdf38d8aeef04046a2d25ef5c9c",
+          "after": "reference_v2_page_sha256=f8ac51ba6fd77abf4fd3c27c93aa49a9b12c56c8eef9535aab6ba001d5676dd2"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "1922"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Now"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "2nd day"
+        }
+      ]
+    },
+    {
+      "page": "007",
+      "changes": [
+        {
+          "action": "known_word_repaired",
+          "before": "Many ofthe finer details of the movie, such as the appearance of",
+          "after": "Many of the finer details of the movie, such as the appearance of"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ When the investigators arrive, filming is taking place",
+          "after": "- When the investigators arrive, filming is taking place"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ During the investigation, filming moves into the caves of",
+          "after": "- During the investigation, filming moves into the caves of"
+        },
+        {
+          "action": "trailing_bullet_glyph_removed",
+          "before": "Madness. ¢.",
+          "after": "Madness."
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "2 Se Se Se So So Ge Ke Ee AC"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "2 a i SS nS)"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "the main library of the University, loaned out one ofits treasured",
+          "after": "the main library of the University, loaned out one of its treasured"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "el = Po"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "omy a.) Bary"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "P| ee AV AY"
+        }
+      ]
+    },
+    {
+      "page": "008",
+      "changes": [
+        {
+          "action": "tiny_orphan_removed",
+          "before": ". »"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4 f"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "am"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "y"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "vi"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "i Y - i*) :"
+        }
+      ]
+    },
+    {
+      "page": "009",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=579911d03c74be4cad3e764d30b36dac3b6d66a7d2a4a5e7259861178681b49a",
+          "after": "reference_v2_page_sha256=35b7fa560d740e64a12f994a18084cf39ee507fee0e4fc4d0b8e76289ca685c4"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "under a flat cap, Christoper McGuire is an awkward soul who",
+          "after": "under a flat cap, Christopher McGuire is an awkward soul who"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "starring roles go to elegant, blond-haired bombshells, not solidlooking farm girls with dark brown skin and acne scars.",
+          "after": "starring roles go to elegant, blond-haired bombshells, not solid-looking farm girls with dark brown skin and acne scars."
+        }
+      ]
+    },
+    {
+      "page": "010",
+      "changes": [
+        {
+          "action": "leading_ocr_noise_removed",
+          "before": "Xe< 9 8 oe od OD od Sed 2 od gd O38 2 ©"
+        },
+        {
+          "action": "inline_ocr_noise_removed",
+          "before": "anf"
+        },
+        {
+          "action": "inline_ocr_noise_removed",
+          "before": "q i 7 ’"
+        },
+        {
+          "action": "inline_ocr_noise_removed",
+          "before": "@ ( \\ |"
+        },
+        {
+          "action": "inline_ocr_noise_removed",
+          "before": "Sammy Brewster ce"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "Aperfectly pleasant young white man from a rich family, Sammy",
+          "after": "A perfectly pleasant young white man from a rich family, Sammy"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "ae"
+        }
+      ]
+    },
+    {
+      "page": "011",
+      "changes": [
+        {
+          "action": "arrival_decorative_noise_removed",
+          "before": "co)"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "e"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "sy"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "5"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "S| ,"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "i] q"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "="
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "3 4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "8 i"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "a"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ". y"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4 :"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Ha 3"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Ve . ="
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": ": &"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Ss"
+        }
+      ]
+    },
+    {
+      "page": "012",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=3ed75c860a873dfd658c031e06ef006de7c2fb73c889b74f8542e5ebd78549ec",
+          "after": "reference_v2_page_sha256=99c00360d9d69d481540724d2509e9f51c05b0f7ce16e6988a9147f3f5b248e9"
+        }
+      ]
+    },
+    {
+      "page": "013",
+      "changes": [
+        {
+          "action": "producer_office_decorative_noise_removed",
+          "before": "gies..."
+        },
+        {
+          "action": "producer_office_decorative_noise_removed",
+          "before": "j Braye."
+        },
+        {
+          "action": "producer_office_decorative_noise_removed",
+          "before": "— yy iY"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "G Sas So So Se Se So Se So Se Se Ee A"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "<== a5)"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "oA a"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "i"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "aes i}"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "_ 3"
+        }
+      ]
+    },
+    {
+      "page": "014",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=ef0509fa19cc120fac07c840830e4f8cd57069119d11b5e52368bbbecf36160e",
+          "after": "reference_v2_page_sha256=8da2e3d6b60130145cfc865ee0cc0a46be167d580c6d7a84acde59b0909511d4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Handout 1-a: letter"
+        }
+      ]
+    },
+    {
+      "page": "015",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=10d234b331171750871fdb15af945aac413678625d7df1394c72983a0fc00b38",
+          "after": "reference_v2_page_sha256=7584d0c39ab1061bada88688f54f6ff7693adf1dd45301820f3b40a222e06b9b"
+        }
+      ]
+    },
+    {
+      "page": "016",
+      "changes": [
+        {
+          "action": "section_reordered_reference_reconstruction",
+          "before": "raw_page_sha256=10c328896f479a9ac88f3e1aa0d9feb06f03bb2e4444f5a369c633b81a8580c6",
+          "after": "reference_sections_sha256=5e6bed0027978b4f5a8363e0f3cf5e43276e800273e497cb19b50c50008dee09"
+        }
+      ]
+    },
+    {
+      "page": "017",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=802f0a9adfbaaa85f2a9504891b1e27d2bf44bc22521c66318cbd3aaee70ec7a",
+          "after": "reference_v2_page_sha256=39e1b5ee13c1df7816c69e92141c853de68d3beb18f60f2a660f89a83d0b4a83"
+        }
+      ]
+    },
+    {
+      "page": "018",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=79d2382d5d2dbe27b1826225c3bd6c4f1a0a0448ccad984e12fc9b50568dd61a",
+          "after": "reference_v2_page_sha256=e7aa8650bf2894a5374f953df1409a83ec3176df9661f8a873f521243163c96a"
+        }
+      ]
+    },
+    {
+      "page": "019",
+      "changes": [
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "6:"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "“"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "mn"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "were” the off"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "h up? dor"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "+e ci retake *"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "—__ 2: note"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "a S08]"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "¢"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "‘"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "2"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "\\ i 4 (aid |"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "ott"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "2 o"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "\\"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "S :"
+        },
+        {
+          "action": "handout_2_ocr_noise_removed",
+          "before": "ts"
+        }
+      ]
+    },
+    {
+      "page": "020",
+      "changes": [
+        {
+          "action": "decorative_line_removed",
+          "before": "~ ~"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "> Ne ="
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ". ="
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "F ,"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ";"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "SN a"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Ya 4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "~e-"
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": "¥ '"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "oe ~ 1"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "J"
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": "¥"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ". ="
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "\\"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "\\"
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": "i ¥"
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": "¥"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "."
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "we"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "\\ -"
+        }
+      ]
+    },
+    {
+      "page": "021",
+      "changes": [
+        {
+          "action": "trailing_bullet_glyph_removed",
+          "before": "genuinely be a little disturbed by it. ¢.",
+          "after": "genuinely be a little disturbed by it."
+        }
+      ]
+    },
+    {
+      "page": "022",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=3ac57b61668bc3dce0ef15ce7ff35becdf51a093f4f5ab0691c2d2cb005a1ccf",
+          "after": "reference_v2_page_sha256=f34afc92a61cdd1430590e7796252ca102f63bfd84e2391b665d766f23b5d04a"
+        }
+      ]
+    },
+    {
+      "page": "023",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=c616ddbe9bcb980c497ebb11aa016bdc53831b721b3740b9fb6acfc21cfebaf5",
+          "after": "reference_v2_page_sha256=83ce03b10730eb60324cfd4f379ef68e2d177dfc82d938f0fcab3587272ad182"
+        }
+      ]
+    },
+    {
+      "page": "024",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=01885afa936326c07a6ccb0a1e331f4efaae944a5a362b80ea5ad011a2f0fb4e",
+          "after": "reference_v2_page_sha256=5e73feab83d4286dbfde0851abbbbff8aa6c903a98400b26959fee5a40cf9533"
+        }
+      ]
+    },
+    {
+      "page": "025",
+      "changes": [
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "‘ ete rr Sa Se V"
+        },
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "» on a] - hte"
+        },
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "ae 4 & es ay i. ‘"
+        },
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "Sine i ‘oF"
+        },
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "es ato: j ?"
+        },
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "a wees. \" =, Pe cw ?"
+        },
+        {
+          "action": "finale_decorative_noise_removed",
+          "before": "a Ter a 4 ‘"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Hk Se"
+        },
+        {
+          "action": "glyph_orphan_removed",
+          "before": "¥ i» Beh"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "N 1 ERA 4 fa et"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "leer | Sa S - ;"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "ai"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "2 SS: SS So S: SS Ge Se So 7 S/O"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "Ifthey have recovered the Jewel, the investigators can brandish",
+          "after": "If they have recovered the Jewel, the investigators can brandish"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "Ifthe investigators accuse Ginny of the theft, she makes a large",
+          "after": "If the investigators accuse Ginny of the theft, she makes a large"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "{"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "5 he j SF. c ed | }"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ". go ) ae A"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ")"
+        }
+      ]
+    },
+    {
+      "page": "026",
+      "changes": [
+        {
+          "action": "cave_decorative_noise_removed",
+          "before": "H%* =D bbb rr ere"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "a"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "4 ae): f"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "\\ ee AN"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "+ Ifthe investigators want to know more about Innsmouth,",
+          "after": "+ If the investigators want to know more about Innsmouth,"
+        }
+      ]
+    },
+    {
+      "page": "027",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=27dcb3e943a2a5a7d9463a3ed1527385ddd7b5fb8e253b83f7372fdaa6043abd",
+          "after": "reference_v2_page_sha256=c1c63e3da4fd60cc8e05f8d8e8fbb0b49858cadc0381531ed631771c9a30042d"
+        }
+      ]
+    },
+    {
+      "page": "028",
+      "changes": [
+        {
+          "action": "decorative_line_removed",
+          "before": "b, eagees } | Le"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Fe Bis } } he"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "7 e r 4"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "S ne So Se So So So Ge So eo I] S/O"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Hero (page 27) outcome."
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ")"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "f"
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": "” ("
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "|"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "("
+        },
+        {
+          "action": "tiny_orphan_removed",
+          "before": "| ‘"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "i WN"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "| ("
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "an gE"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "ae bs }"
+        }
+      ]
+    },
+    {
+      "page": "029",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction_with_reading_order_repair",
+          "before": "raw_page_sha256=1ed6e4e3622e4ba639e98631bbcb62f38548a0a382efc276a4ada78ff229141d",
+          "after": "reference_v2_page_sha256=4b12fd4d99a747e440bad30487e88c7a932a52759b1ace297fa2205cfe3c2538"
+        }
+      ]
+    },
+    {
+      "page": "030",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=9650d7df666e295c079c2ae410253ce66b66e5146cac3f923261a8ed7e7c25a8",
+          "after": "reference_v2_page_sha256=e3bd77363c0474afce9ae28d31ecd97d9dbd5ef7fe5d0b3e27a5b0e377b8deb1"
+        }
+      ]
+    },
+    {
+      "page": "031",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction_with_reading_order_repair",
+          "before": "raw_page_sha256=6a9ac29b229aa865911f2f4b79b15bc616798c524857aab99c1932ee25204400",
+          "after": "reference_v2_page_sha256=3ef4c4d19e672bf53f7e1dbe6fd16172d3526f20211d9d0005ac04b5bd0bb272"
+        }
+      ]
+    },
+    {
+      "page": "032",
+      "changes": [
+        {
+          "action": "epilogue_decorative_noise_removed",
+          "before": "a ail ll i itt i lil"
+        },
+        {
+          "action": "epilogue_decorative_noise_removed",
+          "before": "SS: S82 $2 SSS Ge Se So 2 7).3)"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "“ . |"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "m"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "j"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": ": ‘ ("
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "{"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": ")"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "("
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "3 4 ("
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "‘"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "("
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "("
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "/"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "{"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "{"
+        },
+        {
+          "action": "trailing_epilogue_noise_removed",
+          "before": "{"
+        }
+      ]
+    },
+    {
+      "page": "033",
+      "changes": [
+        {
+          "action": "decorative_line_removed",
+          "before": "NN ),9"
+        }
+      ]
+    },
+    {
+      "page": "034",
+      "changes": [
+        {
+          "action": "known_word_repaired",
+          "before": "APP 80 POW60 EDU60 SAN4o HP13",
+          "after": "APP 80 POW60 EDU60 SAN 40 HP13"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "APP 40 POW40 EDU75 SAN4o HP 10",
+          "after": "APP 40 POW40 EDU75 SAN 40 HP 10"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "APP 45 POW50 EDU70 SANO HP 10",
+          "after": "APP 45 POW50 EDU70 SAN 0 HP 10"
+        },
+        {
+          "action": "known_word_repaired,known_word_repaired",
+          "before": "APP 20 POW1i00 EDU50 SANO HP 17",
+          "after": "APP 20 POW 100 EDU50 SAN 0 HP 17"
+        }
+      ]
+    },
+    {
+      "page": "035",
+      "changes": [
+        {
+          "action": "decorative_line_removed",
+          "before": ": mo Soo So So So So Ge Se ee 7) SY 5}"
+        }
+      ]
+    },
+    {
+      "page": "036",
+      "changes": [
+        {
+          "action": "known_word_repaired",
+          "before": "diminutive height, Shrimpy is well-dressed and wellkept.",
+          "after": "diminutive height, Shrimpy is well-dressed and well-kept."
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Traits: tends to assume folk will fawn over him and gets",
+          "after": "- Traits: tends to assume folk will fawn over him and gets"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Injuries & Scars: Shrimpy’s leg was badly broken as a",
+          "after": "- Injuries & Scars: Shrimpy’s leg was badly broken as a"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Significant People: Mummy, Daddy, and Nanny.",
+          "after": "- Significant People: Mummy, Daddy, and Nanny."
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Meaningful Locations: he rather likes the United",
+          "after": "- Meaningful Locations: he rather likes the United"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Treasured Possessions: his grandfather’s pocket",
+          "after": "- Treasured Possessions: his grandfather’s pocket"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": ". }"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "oS"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "| Ag"
+        }
+      ]
+    },
+    {
+      "page": "037",
+      "changes": [
+        {
+          "action": "decorative_line_removed",
+          "before": "gv OE ee)"
+        },
+        {
+          "action": "known_word_repaired,known_word_repaired",
+          "before": "APP20 POW40 EDU67 SAN4o HP1i2",
+          "after": "APP20 POW40 EDU67 SAN 40 HP 12"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Personal Description: brown hair, brown eyes and a",
+          "after": "- Personal Description: brown hair, brown eyes and a"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ — Traits: direct and forceful. Patty Gillian can challenge a",
+          "after": "- — Traits: direct and forceful. Patty Gillian can challenge a"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Ideology & Beliefs: the world has been incredibly",
+          "after": "- Ideology & Beliefs: the world has been incredibly"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Significant People: Patty has never really had the",
+          "after": "- Significant People: Patty has never really had the"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Phobias & Manias: capiophobia—the fear of getting",
+          "after": "- Phobias & Manias: capiophobia—the fear of getting"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Meaningful Locations: ‘her’ dorm room is the first",
+          "after": "- Meaningful Locations: ‘her’ dorm room is the first"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "5 om"
+        }
+      ]
+    },
+    {
+      "page": "038",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=afbb79e93d0c04f3aa5a1104910b751c5f275ee59486158a06b2fde8cdc263b0",
+          "after": "reference_v2_page_sha256=08306f4a72b90cb53d54158b2e5c082f66aef337820c056d4084867dd1545018"
+        }
+      ]
+    },
+    {
+      "page": "039",
+      "changes": [
+        {
+          "action": "pregen_ocr_garbage_removed",
+          "before": "a 2° S° Se SS Se Se So he So So Ge Ke ee TAC"
+        },
+        {
+          "action": "pregen_ocr_garbage_removed",
+          "before": "A Pil"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "gv OE ee)"
+        },
+        {
+          "action": "known_word_repaired",
+          "before": "APP60 POW40 EDU67 SAN4o HP12",
+          "after": "APP60 POW40 EDU67 SAN 40 HP12"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "aS a5)"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Personal Description: cute and smiley. With a wide",
+          "after": "- Personal Description: cute and smiley. With a wide"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Traits: Tiff has never 100% gotten the hang of ‘people’",
+          "after": "- Traits: Tiff has never 100% gotten the hang of ‘people’"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Ideology & Beliefs: Tiff wants to be the main",
+          "after": "- Ideology & Beliefs: Tiff wants to be the main"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Significant People: a little estranged from her family,",
+          "after": "- Significant People: a little estranged from her family,"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Meaningful Locations: Tiff lives off-campus with her",
+          "after": "- Meaningful Locations: Tiff lives off-campus with her"
+        },
+        {
+          "action": "bullet_glyph_normalized",
+          "before": "¢ Treasured Possessions: a colorful alpaca wool",
+          "after": "- Treasured Possessions: a colorful alpaca wool"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "a ~"
+        },
+        {
+          "action": "glyph_orphan_removed",
+          "before": "© ae"
+        },
+        {
+          "action": "decorative_line_removed",
+          "before": "Ba"
+        }
+      ]
+    },
+    {
+      "page": "040",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction_with_stat_value_repair",
+          "before": "raw_page_sha256=0f66b4f4b23930dc3345d20c2920cce849633bcfb546cff8b13e6da2b34bed5d",
+          "after": "reference_v2_page_sha256=97ff2fbe8964dd1fe0d6e84a7c764ea90d51293b0ad2cceead020d6d03494a74"
+        }
+      ]
+    },
+    {
+      "page": "041",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=9f00a6acac68328628944e35c146acacbfdd5e72d64a3fabc66716c3ac7034a4",
+          "after": "reference_v2_page_sha256=ef861155f20663ea334899abeaeb87890d786d8fc1fe7c0fe1ca1a5883e41d1f"
+        }
+      ]
+    },
+    {
+      "page": "042",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=e32d49fa98e7ea98c413ac0cca300526ac22b61c876a85dc133ebfa3b7b35c28",
+          "after": "reference_v2_page_sha256=0941e2cb2c2347efca049db48923a3c80ecd32f23f720ef7abf7b9ef4487b28a"
+        }
+      ]
+    },
+    {
+      "page": "043",
+      "changes": [
+        {
+          "action": "page_reference_reconstruction",
+          "before": "raw_page_sha256=43827cd8db4dafb8857b9daa4ba32e13025ad4fea180530fa67604a8a2b1d822",
+          "after": "reference_v2_page_sha256=6f6ba46e10120cefe3f45384e3bc332cdc02c9415bf99bb1c90ee2ba68845526"
+        }
+      ]
+    },
+    {
+      "page": "044",
+      "changes": [
+        {
+          "action": "visual_or_nonsemantic_page_excluded_from_translation",
+          "before": "raw_page_sha256=6288dd9baa3949cb01b6d3d091fb1871693ff7725ea7bc720a0f30fea1ff03c6",
+          "after": "<!-- visual-or-nonsemantic-page-excluded-from-translation -->"
+        }
+      ]
+    },
+    {
+      "page": "045",
+      "changes": [
+        {
+          "action": "visual_or_nonsemantic_page_excluded_from_translation",
+          "before": "raw_page_sha256=f5a1437d24455cc3f30f05c06df00c475fcf68233437328d8cde6f0fce4b9c10",
+          "after": "<!-- visual-or-nonsemantic-page-excluded-from-translation -->"
+        }
+      ]
+    },
+    {
+      "page": "046",
+      "changes": [
+        {
+          "action": "visual_or_nonsemantic_page_excluded_from_translation",
+          "before": "raw_page_sha256=f5a1437d24455cc3f30f05c06df00c475fcf68233437328d8cde6f0fce4b9c10",
+          "after": "<!-- visual-or-nonsemantic-page-excluded-from-translation -->"
+        }
+      ]
+    }
+  ],
+  "decision": "cleaned_candidate_requires_source_quality_audit_and_review_before_acceptance"
+}

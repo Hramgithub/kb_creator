@@ -1,0 +1,2585 @@
+{
+  "schema": "kb_creator.semantic_unit_review.v2",
+  "reviewer": "nri-engineer-gpt-5.6-terra-medium",
+  "input_identities": {
+    "pages_tree_sha256": "9A5E21124F232E842024039531C82EA3CF834484EE791DD9D7AD0769C1B722DB",
+    "user_registry_sha256": "D20414D48405A761ADD31E538B6940F8A3E0F1FB11044AF73EAD122D96C616E8",
+    "frozen_config_sha256": "C16DFA975F3F05DFCE923CDD54A56B1069B9A8337C70809B0DC99771CDF63B30"
+  },
+  "decisions": [
+    {
+      "candidate_id": "viral-composite_web_panel-p002-l071",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p003-l011",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p003-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p005-l077",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p005-l079",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p005-l115",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p005-l147",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p007-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p008-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p008-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p008-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p008-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p008-l055",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p009-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p009-l035",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p009-l055",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p010-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p010-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p010-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p010-l055",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p011-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p011-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p012-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p012-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p012-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p012-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p012-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p012-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p012-l043",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p012-l059",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p013-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p014-l011",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p014-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p014-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p014-l039",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p014-l055",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p014-l067",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p014-l083",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p014-l095",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p014-l111",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p014-l115",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p014-l123",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p015-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p016-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p016-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l043",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p016-l055",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p016-l071",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p017-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p017-l035",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p018-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p018-l047",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p018-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p018-l067",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p018-l071",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p019-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p019-l039",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p020-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l025",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l026",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l028",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p020-l029",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l029",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l030",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p020-l032",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l043",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l047",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l055",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l059",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p021-l067",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p022-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p022-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p022-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p022-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p022-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p023-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p024-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p024-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p024-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p024-l075",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p025-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p027-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-stream_schedule-p027-l055",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-stream_schedule-p027-l063",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p028-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p028-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p028-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p028-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p028-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p029-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p029-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p029-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p029-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p030-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p030-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p030-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p030-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p030-l055",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p031-l023",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p031-l031",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p032-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p032-l043",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p032-l059",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p032-l059",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p032-l067",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p033-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p033-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p033-l051",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p034-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p034-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p034-l009",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p034-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p034-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l028",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l029",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l030",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l032",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p034-l033",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p035-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p035-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p035-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p035-l063",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p036-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p036-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l043",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l047",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p036-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p037-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p037-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p037-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p037-l035",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p037-l047",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p037-l047",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p037-l051",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p037-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p037-l067",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p038-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p038-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p038-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p038-l039",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p038-l047",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p038-l047",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p038-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p038-l059",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p038-l063",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p039-l058",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p039-l066",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p039-l082",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p039-l090",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p039-l094",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p039-l098",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p039-l102",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p039-l106",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p039-l110",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p040-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p040-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p040-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p040-l047",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p040-l059",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l059",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p041-l067",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l071",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p041-l087",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l007",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l043",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l051",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l055",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l059",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l067",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l071",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l075",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l083",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p042-l087",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p042-l095",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p043-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p043-l035",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l047",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p043-l059",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l063",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l067",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p043-l071",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p044-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p044-l011",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l025",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l029",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p044-l033",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l025",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l033",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l037",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p045-l039",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p045-l045",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p045-l045",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p045-l047",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p045-l055",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p046-l011",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p046-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p046-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p046-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p046-l029",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p046-l039",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p047-l011",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p047-l019",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p047-l029",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p048-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p048-l017",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p048-l035",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p049-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p049-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-sight_panel-p049-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p049-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p050-l009",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p050-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p050-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p051-l017",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p054-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p054-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p055-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p055-l025",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l036",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l037",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l038",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l040",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l041",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p055-l042",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p055-l044",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p056-l005",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p057-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p058-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p058-l017",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p059-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p059-l033",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p061-l037",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l018",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l020",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l022",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l024",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l025",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l026",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p062-l028",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p063-l025",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p064-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p064-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-appearance_variant-p065-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-creature_statblock-p065-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-creature_statblock-p066-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l022",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l023",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l024",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l025",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l026",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l028",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l029",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l030",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l032",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l033",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l034",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l035",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l036",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l037",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l038",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l039",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l040",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-logical_table-p067-l041",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-advice_callout-p068-l027",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p069-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p070-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p071-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p072-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p072-l023",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p073-l009",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p073-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p073-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p074-l017",
+      "decision": "reject",
+      "reason": "OUT-008_nonblocking_deferred",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p074-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p075-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p075-l031",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p076-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p077-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p077-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p078-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p078-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p078-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p078-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p079-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p079-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p082-l015",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p082-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p082-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p084-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p087-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p087-l007",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p089-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p090-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p091-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p093-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p104-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p104-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p105-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p105-l015",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l008",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l009",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l010",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l012",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l014",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l016",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l017",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l018",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l019",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l021",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l022",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l026",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l027",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p106-l030",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l006",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l011",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l012",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l013",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l014",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p109-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p109-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p109-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p110-p111",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p110-l005",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p112-p113",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p112-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p112-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p112-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p114-p115",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p114-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p114-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p114-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p116-p117",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p116-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p116-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p116-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p116-l058",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p118-p119",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p118-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p118-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p118-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p120-p121",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p120-l003",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p120-l003",
+      "decision": "confirm",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p120-l031",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p120-l058",
+      "decision": "adjusted_boundary",
+      "reason": "closed_candidate_first_registry_review",
+      "review_provenance": "USER_REVIEW_TYPICAL_PROBLEMS_20260902"
+    }
+  ]
+}

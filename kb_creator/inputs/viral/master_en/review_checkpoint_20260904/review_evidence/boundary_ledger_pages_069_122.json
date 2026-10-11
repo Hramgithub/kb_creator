@@ -1,0 +1,1069 @@
+{
+  "schema": "kb_creator.viral.boundary_ledger.v2",
+  "range": {
+    "source_pages": [
+      69,
+      122
+    ],
+    "reader_end_page": 122,
+    "excluded_outside_packet": [
+      123,
+      124
+    ]
+  },
+  "input_identities": {
+    "pages_tree_sha256": "9A5E21124F232E842024039531C82EA3CF834484EE791DD9D7AD0769C1B722DB",
+    "user_registry_sha256": "D20414D48405A761ADD31E538B6940F8A3E0F1FB11044AF73EAD122D96C616E8",
+    "frozen_config_sha256": "C16DFA975F3F05DFCE923CDD54A56B1069B9A8337C70809B0DC99771CDF63B30"
+  },
+  "units": [
+    {
+      "id": "viral-map-ground-floor-basement-p106-p107",
+      "registry_refs": [
+        "OUT-024",
+        "PROC-024"
+      ],
+      "kind": "full_page_map",
+      "family": "full_page_map_handout",
+      "segments": [
+        {
+          "page": 106,
+          "path": "page-106.md",
+          "start_line": 1,
+          "end_line": 34,
+          "start_text": "<!-- source-page-106 -->",
+          "end_text": "Legend: Important Areas; Dangerous Areas; Secret Rooms; Chapel Ruins; Crypt. Scale: 0–100 feet.",
+          "sha256_lf_lines": "D472CA0DD89F3E34EEFA13E10C2FB55F66FDBB970501C8D7990AABAE544A7F21"
+        },
+        {
+          "page": 107,
+          "path": "page-107.md",
+          "start_line": 1,
+          "end_line": 3,
+          "start_text": "<!-- source-page-107 -->",
+          "end_text": "![Continuation of the ground-floor and basement plan, including the East Wing, chapel ruins, staff dormitory, infirmary, morgue, catacombs, and ancient altar](../assets/e1c168ca34db2f98a27391e749f08a0fcdda832034d68e5fd0fbc38b00f584dc.jpg)",
+          "sha256_lf_lines": "9AE25C96DD1454B736EBEBA3578513043F0221C12960F45CF6B21EDFDAFDFC77"
+        }
+      ],
+      "owner": "Keeper Maps",
+      "outline_representation": "none",
+      "title": "Ground Floor & Basement",
+      "termination": "end_of_page_107",
+      "structured": {
+        "key": "A-V",
+        "key_entries": 22,
+        "legend": [
+          "Important Areas",
+          "Dangerous Areas",
+          "Secret Rooms",
+          "Chapel Ruins",
+          "Crypt"
+        ],
+        "scale": "0-100 feet"
+      },
+      "order_key": [
+        106,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_map",
+        "placement": "ordered_pages_106_107",
+        "binary_quality": "provisional_step7_only",
+        "child_crops": "evidence_only"
+      }
+    },
+    {
+      "id": "viral-pregen-111-112",
+      "registry_refs": [
+        "OUT-025",
+        "PROC-025"
+      ],
+      "kind": "physical_page_pair",
+      "family": "pregen_character_sheet_pair",
+      "segments": [
+        {
+          "page": 111,
+          "path": "page-111.md",
+          "start_line": 1,
+          "end_line": 5,
+          "start_text": "<!-- source-page-111 -->",
+          "end_text": "![Complete front page of Marco Proudfoot's pre-generated investigator sheet](../assets/74f6d8049985378c8c5cc3f846b06982da3a39de05975dc31880f024e649d7a6.jpg)",
+          "sha256_lf_lines": "8D861EDB5A80F2D7E2910C7D970D2804A7C83FBEFB47A71D3DBCEC732472B53E"
+        },
+        {
+          "page": 112,
+          "path": "page-112.md",
+          "start_line": 1,
+          "end_line": 59,
+          "start_text": "<!-- source-page-112 -->",
+          "end_text": "Marco is the primary voice and face of the Spektral Krew. He handles all of the intros and outros, provides primary commentary and direction for the investigation, and makes the big decisions about every aspect of the show. He actively encourages live disagreements on the air as he is well aware that this is something that his audience loves.",
+          "sha256_lf_lines": "8AF91291D462562E3A572A92ADF331BE1110AE048755D3EA0637E6CEA0A72C22"
+        }
+      ],
+      "owner": "Marco Proudfoot",
+      "outline_representation": "heading_then_internal_pair",
+      "title": "Marco Proudfoot",
+      "termination": "end_of_page_112",
+      "structured": {
+        "full_page_sides": 2,
+        "reverse_text": "separately_translatable",
+        "child_crops": "evidence_only"
+      },
+      "order_key": [
+        111,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_pair",
+        "placement": "111_then_112",
+        "binary_quality": "provisional_step7_only"
+      }
+    },
+    {
+      "id": "viral-pregen-113-114",
+      "registry_refs": [
+        "OUT-025",
+        "PROC-025"
+      ],
+      "kind": "physical_page_pair",
+      "family": "pregen_character_sheet_pair",
+      "segments": [
+        {
+          "page": 113,
+          "path": "page-113.md",
+          "start_line": 1,
+          "end_line": 5,
+          "start_text": "<!-- source-page-113 -->",
+          "end_text": "![Complete front page of Corrina Trench's pre-generated investigator sheet](../assets/00f35cb2535f45bfce6b8cc61c4bbf9fd5a493f2f63995a5608f14edfabfb782.jpg)",
+          "sha256_lf_lines": "1F4AB6EFECDB931B3414EF8A7627FD49E5F8BC695D0F4C91C985A6F55DAFA042"
+        },
+        {
+          "page": 114,
+          "path": "page-114.md",
+          "start_line": 1,
+          "end_line": 58,
+          "start_text": "<!-- source-page-114 -->",
+          "end_text": "Every good ghost hunting show needs a psychic, and that's Corrina. She gets the second most amount of camera time after Marco, and he always calls her in to ramp up the creepiness and drama. She's the one who operates the Spirit Box, and often performs seances, dowsing, and of course uses her Witch Board to communicate with the dead. This latter item she bought on Etsy.",
+          "sha256_lf_lines": "132CAC2E137A6E8DDA3D839F48058FD99B8C613A1C9B8CC2FBDDBC8534202E8F"
+        }
+      ],
+      "owner": "Corrina Trench",
+      "outline_representation": "heading_then_internal_pair",
+      "title": "Corrina Trench",
+      "termination": "end_of_page_114",
+      "structured": {
+        "full_page_sides": 2,
+        "reverse_text": "separately_translatable",
+        "child_crops": "evidence_only"
+      },
+      "order_key": [
+        113,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_pair",
+        "placement": "113_then_114",
+        "binary_quality": "provisional_step7_only"
+      }
+    },
+    {
+      "id": "viral-pregen-115-116",
+      "registry_refs": [
+        "OUT-025",
+        "PROC-025"
+      ],
+      "kind": "physical_page_pair",
+      "family": "pregen_character_sheet_pair",
+      "segments": [
+        {
+          "page": 115,
+          "path": "page-115.md",
+          "start_line": 1,
+          "end_line": 5,
+          "start_text": "<!-- source-page-115 -->",
+          "end_text": "![Complete front page of Enoch Jeremiah Eakins's pre-generated investigator sheet](../assets/ee6f908e8a15d1ee0f9f8a976427f1050ceef9810642f5ddfe1d172a0189bc3c.jpg)",
+          "sha256_lf_lines": "3B266EDAA556CEE55469AA1FF25A1F2E050A032C2F9818075A3F84BD728D1E94"
+        },
+        {
+          "page": 116,
+          "path": "page-116.md",
+          "start_line": 1,
+          "end_line": 58,
+          "start_text": "<!-- source-page-116 -->",
+          "end_text": "Officially, Enoch is basically the Krew's 'roadie' who moves all of the heavier equipment, sets up gear, and ensures that everyone is safe. Enoch also serves as the secondary camera operator, and usually focuses on Corrina. Unofficially, Enoch is Marco's personal bodyguard. And of course, Enoch has strange powers that he keeps to himself.",
+          "sha256_lf_lines": "0E0A3CFEF02394359660E9296EB8F9BD8CA9F6AE62129B230981ECF00C2E62B7"
+        }
+      ],
+      "owner": "Enoch Jeremiah Eakins",
+      "outline_representation": "heading_then_internal_pair",
+      "title": "Enoch Jeremiah Eakins",
+      "termination": "end_of_page_116",
+      "structured": {
+        "full_page_sides": 2,
+        "reverse_text": "separately_translatable",
+        "child_crops": "evidence_only"
+      },
+      "order_key": [
+        115,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_pair",
+        "placement": "115_then_116",
+        "binary_quality": "provisional_step7_only"
+      }
+    },
+    {
+      "id": "viral-pregen-117-118",
+      "registry_refs": [
+        "OUT-025",
+        "PROC-025"
+      ],
+      "kind": "physical_page_pair",
+      "family": "pregen_character_sheet_pair",
+      "segments": [
+        {
+          "page": 117,
+          "path": "page-117.md",
+          "start_line": 1,
+          "end_line": 5,
+          "start_text": "<!-- source-page-117 -->",
+          "end_text": "![Complete front page of Peter Wharton's pre-generated investigator sheet](../assets/9407122d0650698a811b6096285828cf7fbe43efe74d3476c51995efec9dca01.jpg)",
+          "sha256_lf_lines": "EB4076D223485BDCDEAD45B01D2C6A473BD9C9551689F103E7F894C1355385C1"
+        },
+        {
+          "page": 118,
+          "path": "page-118.md",
+          "start_line": 1,
+          "end_line": 62,
+          "start_text": "<!-- source-page-118 -->",
+          "end_text": "While many cameras are used to capture all the action, the primary camera is operated by Peter and he tries to make sure that Marco always looks awesome to the audience. His secondary responsibilities include taking EM readings, and acting as a sounding board for Marco, so he's not just talking to himself. Peter rarely appears on camera, but does show up occasionally on the secondary cameras and some of the FLIR footage.",
+          "sha256_lf_lines": "33EA46E9292CAF1D974CD1880DAAAF0A230A3A30600BB604AA8F6266B8B3E564"
+        }
+      ],
+      "owner": "Peter Wharton",
+      "outline_representation": "heading_then_internal_pair",
+      "title": "Peter Wharton",
+      "termination": "end_of_page_118",
+      "structured": {
+        "full_page_sides": 2,
+        "reverse_text": "separately_translatable",
+        "child_crops": "evidence_only"
+      },
+      "order_key": [
+        117,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_pair",
+        "placement": "117_then_118",
+        "binary_quality": "provisional_step7_only"
+      }
+    },
+    {
+      "id": "viral-pregen-119-120",
+      "registry_refs": [
+        "OUT-025",
+        "PROC-025"
+      ],
+      "kind": "physical_page_pair",
+      "family": "pregen_character_sheet_pair",
+      "segments": [
+        {
+          "page": 119,
+          "path": "page-119.md",
+          "start_line": 1,
+          "end_line": 5,
+          "start_text": "<!-- source-page-119 -->",
+          "end_text": "![Complete front-page investigator sheet for Ku Hyeon](../assets/36e2c03c86a9b35dab62baf48f2e1d2e4fc0f77811173ca7acf8d7c44944d070.jpg)",
+          "sha256_lf_lines": "1B29C19EC3AB6F1342BA1ADB71F9AB2BF074E7265D8968F379F453AAD584BB1C"
+        },
+        {
+          "page": 120,
+          "path": "page-120.md",
+          "start_line": 1,
+          "end_line": 62,
+          "start_text": "<!-- source-page-120 -->",
+          "end_text": "Hyeon also records EVP, which is always running while filming, and he can play back the feed anytime.",
+          "sha256_lf_lines": "280B3EB4403459F5B091BA52970907735216A278D5A902A66CF850123209ED00"
+        }
+      ],
+      "owner": "Ku Hyeon",
+      "outline_representation": "heading_then_internal_pair",
+      "title": "Ku Hyeon",
+      "termination": "end_of_page_120",
+      "structured": {
+        "full_page_sides": 2,
+        "reverse_text": "separately_translatable",
+        "child_crops": "evidence_only"
+      },
+      "order_key": [
+        119,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_pair",
+        "placement": "119_then_120",
+        "binary_quality": "provisional_step7_only"
+      }
+    },
+    {
+      "id": "viral-pregen-121-122",
+      "registry_refs": [
+        "OUT-025",
+        "PROC-025",
+        "OUT-026"
+      ],
+      "kind": "physical_page_pair",
+      "family": "pregen_character_sheet_pair",
+      "segments": [
+        {
+          "page": 121,
+          "path": "page-121.md",
+          "start_line": 1,
+          "end_line": 5,
+          "start_text": "<!-- source-page-121 -->",
+          "end_text": "![Complete blank front-page investigator template](../assets/4b6c6dc23113457bf08f7aacf67bb8f009ab2aa193fbce921509695a6e261f5a.jpg)",
+          "sha256_lf_lines": "3D587400E9482E0CAFE4672939772313473B2D11994D6DCCEC14A12D8915A417"
+        },
+        {
+          "page": 122,
+          "path": "page-122.md",
+          "start_line": 1,
+          "end_line": 52,
+          "start_text": "<!-- source-page-122 -->",
+          "end_text": "![Blank fellow-investigators relationship diagram](../assets/dcf1f2f6dd9540217155f01d5b03d965aedef98d965c2a33e987f0f5996eb166.jpg)",
+          "sha256_lf_lines": "A1B870D97C49DB42F77AA7CF8A1B5DBF1B142F6F14D9648D47B4AE5E2AB65B0C"
+        }
+      ],
+      "owner": "final pre-generated investigator",
+      "outline_representation": "heading_then_internal_pair",
+      "title": "final pre-generated investigator",
+      "termination": "reader_end_page_122",
+      "structured": {
+        "full_page_sides": 2,
+        "reverse_text": "separately_translatable",
+        "child_crops": "evidence_only"
+      },
+      "order_key": [
+        121,
+        1
+      ],
+      "asset": {
+        "role": "reader_full_page_pair",
+        "placement": "121_then_122",
+        "binary_quality": "provisional_step7_only"
+      }
+    },
+    {
+      "id": "viral-keepers-notes-hyeon-ipads-p082-l015-l017",
+      "registry_refs": [
+        "OUT-011",
+        "PROC-015"
+      ],
+      "kind": "callout",
+      "family": "keepers_notes",
+      "segments": [
+        {
+          "page": 82,
+          "path": "page-082.md",
+          "start_line": 15,
+          "end_line": 17,
+          "start_text": "Keeper's Notes",
+          "end_text": "These handouts are limited since the Investigators' actions are very unpredictable. It is suggested that the Keeper make additional chat handouts as needed based on the situation. Even better would be to use some sort of electronic feed such as phone texts or private messages to feed the information to the player running Hyeon to help with the immersion, while limiting the chances that they're just parroting what the Keeper describes.",
+          "sha256_lf_lines": "BD9F95B30B12156B03339F2B19B1F0EBF9139F984B418948793FB71D87E7B103"
+        }
+      ],
+      "owner": "Hyeon’s iPads / The Stream Begins",
+      "outline_representation": "none",
+      "title": "Keeper's Notes",
+      "termination": "before_page_082_line_19_illustration_text",
+      "structured": {
+        "callout_blocks": 1,
+        "contains_source_lines": [
+          15,
+          17
+        ]
+      },
+      "order_key": [
+        82,
+        15
+      ],
+      "asset": {
+        "role": "none",
+        "placement": "after_parent_prose_before_illustration",
+        "binary_quality": "not_applicable",
+        "child_crops": "evidence_only"
+      }
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "candidate_id": "viral-full_page_map_handout-p069-l007",
+      "family": "full_page_map_handout",
+      "page": 69,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p070-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 70,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p071-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 71,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p072-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 72,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p072-l023",
+      "family": "equipment_card",
+      "page": 72,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p073-l009",
+      "family": "equipment_card",
+      "page": 73,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p073-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 73,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p073-l015",
+      "family": "equipment_card",
+      "page": 73,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-composite_web_panel-p074-l017",
+      "family": "composite_web_panel",
+      "page": 74,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p074-l017",
+      "family": "full_page_map_handout",
+      "page": 74,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p075-l027",
+      "family": "hospital_group_or_run_in",
+      "page": 75,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p075-l031",
+      "family": "full_page_map_handout",
+      "page": 75,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p076-l009",
+      "family": "full_page_map_handout",
+      "page": 76,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p077-l005",
+      "family": "full_page_map_handout",
+      "page": 77,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p077-l007",
+      "family": "full_page_map_handout",
+      "page": 77,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p078-l005",
+      "family": "hospital_group_or_run_in",
+      "page": 78,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p078-l007",
+      "family": "full_page_map_handout",
+      "page": 78,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p078-l015",
+      "family": "full_page_map_handout",
+      "page": 78,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p078-l015",
+      "family": "hospital_group_or_run_in",
+      "page": 78,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p079-l011",
+      "family": "hospital_group_or_run_in",
+      "page": 79,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p079-l017",
+      "family": "hospital_group_or_run_in",
+      "page": 79,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-keepers_notes-p082-l015",
+      "family": "keepers_notes",
+      "page": 82,
+      "disposition": "materialized",
+      "target_unit_id": "viral-keepers-notes-hyeon-ipads-p082-l015-l017",
+      "evidence": "critic P1: bounded Keeper’s Notes callout, lines 15-17; closes before line 19 illustration text"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p082-l019",
+      "family": "hospital_group_or_run_in",
+      "page": 82,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p082-l021",
+      "family": "hospital_group_or_run_in",
+      "page": 82,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p084-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 84,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p087-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 87,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p087-l007",
+      "family": "hospital_group_or_run_in",
+      "page": 87,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p089-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 89,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p090-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 90,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p091-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 91,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p093-l031",
+      "family": "equipment_card",
+      "page": 93,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p104-l003",
+      "family": "full_page_map_handout",
+      "page": 104,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p104-l005",
+      "family": "full_page_map_handout",
+      "page": 104,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p105-l009",
+      "family": "hospital_group_or_run_in",
+      "page": 105,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p105-l015",
+      "family": "full_page_map_handout",
+      "page": 105,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l008",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l009",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l010",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l011",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l012",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l014",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l016",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l017",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l018",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l019",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l021",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l022",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l026",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p106-l027",
+      "family": "hospital_group_or_run_in",
+      "page": 106,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p106-l030",
+      "family": "full_page_map_handout",
+      "page": 106,
+      "disposition": "materialized",
+      "target_unit_id": "viral-map-ground-floor-basement-p106-p107",
+      "evidence": "OUT-024 exact p106/p107 full-page map unit"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l006",
+      "family": "hospital_group_or_run_in",
+      "page": 108,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l011",
+      "family": "hospital_group_or_run_in",
+      "page": 108,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l012",
+      "family": "hospital_group_or_run_in",
+      "page": 108,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l013",
+      "family": "hospital_group_or_run_in",
+      "page": 108,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p108-l014",
+      "family": "hospital_group_or_run_in",
+      "page": 108,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p109-l003",
+      "family": "hospital_group_or_run_in",
+      "page": 109,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p109-l005",
+      "family": "full_page_map_handout",
+      "page": 109,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-hospital_group_or_run_in-p109-l005",
+      "family": "hospital_group_or_run_in",
+      "page": 109,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p110-p111",
+      "family": "pregen_character_sheet_pair",
+      "page": 110,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-full_page_map_handout-p110-l005",
+      "family": "full_page_map_handout",
+      "page": 110,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p112-p113",
+      "family": "pregen_character_sheet_pair",
+      "page": 112,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-111-112",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p112-l003",
+      "family": "equipment_card",
+      "page": 112,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p112-l003",
+      "family": "pregen_character_sheet_pair",
+      "page": 112,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-111-112",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p112-l031",
+      "family": "equipment_card",
+      "page": 112,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p114-p115",
+      "family": "pregen_character_sheet_pair",
+      "page": 114,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-113-114",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p114-l003",
+      "family": "equipment_card",
+      "page": 114,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p114-l003",
+      "family": "pregen_character_sheet_pair",
+      "page": 114,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-113-114",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p114-l031",
+      "family": "equipment_card",
+      "page": 114,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p116-p117",
+      "family": "pregen_character_sheet_pair",
+      "page": 116,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-115-116",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p116-l003",
+      "family": "equipment_card",
+      "page": 116,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p116-l003",
+      "family": "pregen_character_sheet_pair",
+      "page": 116,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-115-116",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p116-l031",
+      "family": "equipment_card",
+      "page": 116,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p116-l058",
+      "family": "equipment_card",
+      "page": 116,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p118-p119",
+      "family": "pregen_character_sheet_pair",
+      "page": 118,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-117-118",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p118-l003",
+      "family": "equipment_card",
+      "page": 118,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p118-l003",
+      "family": "pregen_character_sheet_pair",
+      "page": 118,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-117-118",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p118-l031",
+      "family": "equipment_card",
+      "page": 118,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p120-p121",
+      "family": "pregen_character_sheet_pair",
+      "page": 120,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-119-120",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p120-l003",
+      "family": "equipment_card",
+      "page": 120,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-pregen_character_sheet_pair-p120-l003",
+      "family": "pregen_character_sheet_pair",
+      "page": 120,
+      "disposition": "absorbed",
+      "target_unit_id": "viral-pregen-119-120",
+      "evidence": "absorbed by exact reviewed physical pair"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p120-l031",
+      "family": "equipment_card",
+      "page": 120,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    },
+    {
+      "candidate_id": "viral-equipment_card-p120-l058",
+      "family": "equipment_card",
+      "page": 120,
+      "disposition": "rejected",
+      "target_unit_id": null,
+      "evidence": "broad lexical matcher is not geometry or semantic-unit proof"
+    }
+  ],
+  "summary": {
+    "broad_candidates_in_range": 82,
+    "materialized_candidates": 2,
+    "absorbed_candidates": 10,
+    "rejected_candidates": 70,
+    "materialized_units": 8,
+    "unresolved_blocking_candidates": [],
+    "unresolved_blocking_count": 0,
+    "step_8a_binary_choices": "not_made",
+    "critic_p1_remediation": "materialized viral-keepers_notes-p082-l015"
+  }
+}

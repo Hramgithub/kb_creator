@@ -1,0 +1,1100 @@
+{
+  "assets": [
+    {
+      "asset_id": "viral-accepted-ed4012725c597dbcf6fca51e55faeb883a53f6f1d2c9ee7496c667460d37c860",
+      "bytes": 46729,
+      "output_path": "assets/ed4012725c597dbcf6fca51e55faeb883a53f6f1d2c9ee7496c667460d37c860.jpg",
+      "placement": {
+        "before_event": "text:span-p003-b000169"
+      },
+      "reader_value": true,
+      "sha256": "ED4012725C597DBCF6FCA51E55FAEB883A53F6F1D2C9EE7496C667460D37C860"
+    },
+    {
+      "asset_id": "viral-accepted-4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137",
+      "bytes": 208435,
+      "output_path": "assets/4592e580aba8b9bad7a83eb2acf44e0480005e48b034ecd1ac436860efdbd137.jpg",
+      "placement": {
+        "before_event": "text:span-p006-b000293"
+      },
+      "reader_value": true,
+      "sha256": "4592E580ABA8B9BAD7A83EB2ACF44E0480005E48B034ECD1AC436860EFDBD137"
+    },
+    {
+      "asset_id": "viral-accepted-aa51315c65b2339c22c6928a566dd2ade498b2afc817f9632cf30c09c5def4df",
+      "bytes": 120840,
+      "output_path": "assets/aa51315c65b2339c22c6928a566dd2ade498b2afc817f9632cf30c09c5def4df.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-marco-proudfoot-maglioni"
+      },
+      "reader_value": true,
+      "sha256": "AA51315C65B2339C22C6928A566DD2ADE498B2AFC817F9632CF30C09C5DEF4DF"
+    },
+    {
+      "asset_id": "viral-accepted-d65de690f2341a83f4360d658e72d5fb916e7ae5bae952e366262017959f7fa6",
+      "bytes": 59071,
+      "output_path": "assets/d65de690f2341a83f4360d658e72d5fb916e7ae5bae952e366262017959f7fa6.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-corrina-trench"
+      },
+      "reader_value": true,
+      "sha256": "D65DE690F2341A83F4360D658E72D5FB916E7AE5BAE952E366262017959F7FA6"
+    },
+    {
+      "asset_id": "viral-accepted-2a4ae067e92473cdad591d86e4d67066cb82094fc1251c23223a9c6561fb7089",
+      "bytes": 47336,
+      "output_path": "assets/2a4ae067e92473cdad591d86e4d67066cb82094fc1251c23223a9c6561fb7089.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-enoch-jeremiah-eakins"
+      },
+      "reader_value": true,
+      "sha256": "2A4AE067E92473CDAD591D86E4D67066CB82094FC1251C23223A9C6561FB7089"
+    },
+    {
+      "asset_id": "viral-accepted-1ae78ddfdbcbd36dda84dcf3e34852206355f15827052b2714401493c4765bcb",
+      "bytes": 80659,
+      "output_path": "assets/1ae78ddfdbcbd36dda84dcf3e34852206355f15827052b2714401493c4765bcb.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-enoch-jeremiah-eakins"
+      },
+      "reader_value": true,
+      "sha256": "1AE78DDFDBCBD36DDA84DCF3E34852206355F15827052B2714401493C4765BCB"
+    },
+    {
+      "asset_id": "viral-accepted-a5a54caa96d84e7f6df573ce0c5faa2e52e03213b89f22da03d043087b797201",
+      "bytes": 62263,
+      "output_path": "assets/a5a54caa96d84e7f6df573ce0c5faa2e52e03213b89f22da03d043087b797201.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-peter-wharton"
+      },
+      "reader_value": true,
+      "sha256": "A5A54CAA96D84E7F6DF573CE0C5FAA2E52E03213B89F22DA03D043087B797201"
+    },
+    {
+      "asset_id": "viral-accepted-739a84561947691338ea011d7950446144e6156a4b5aba7924ab24a13b2c6d5f",
+      "bytes": 60245,
+      "output_path": "assets/739a84561947691338ea011d7950446144e6156a4b5aba7924ab24a13b2c6d5f.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-ku-hyeon"
+      },
+      "reader_value": true,
+      "sha256": "739A84561947691338EA011D7950446144E6156A4B5ABA7924AB24A13B2C6D5F"
+    },
+    {
+      "asset_id": "viral-accepted-f76ae66f2313c44b030bb9cacce1023a95663ed4072a2d93ef8feca74c829004",
+      "bytes": 58479,
+      "output_path": "assets/f76ae66f2313c44b030bb9cacce1023a95663ed4072a2d93ef8feca74c829004.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-maya-adeduwon"
+      },
+      "reader_value": true,
+      "sha256": "F76AE66F2313C44B030BB9CACCE1023A95663ED4072A2D93EF8FECA74C829004"
+    },
+    {
+      "asset_id": "viral-accepted-cfb0587698f77c07987b9d5d50de4bf64d42b0bd5fa13e7276a5163ba787faf1",
+      "bytes": 46056,
+      "output_path": "assets/cfb0587698f77c07987b9d5d50de4bf64d42b0bd5fa13e7276a5163ba787faf1.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-emily-em-lavigne"
+      },
+      "reader_value": true,
+      "sha256": "CFB0587698F77C07987B9D5D50DE4BF64D42B0BD5FA13E7276A5163BA787FAF1"
+    },
+    {
+      "asset_id": "viral-accepted-44587a041b63942e4703761b2c3065f459e5637a06e790447d0e0899c1d9a3f6",
+      "bytes": 67499,
+      "output_path": "assets/44587a041b63942e4703761b2c3065f459e5637a06e790447d0e0899c1d9a3f6.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-emily-em-lavigne"
+      },
+      "reader_value": true,
+      "sha256": "44587A041B63942E4703761B2C3065F459E5637A06E790447D0E0899C1D9A3F6"
+    },
+    {
+      "asset_id": "viral-accepted-9bd48830bceb21ed805a645dbeeff5c19b748ac1aecd5336836bb192b12ad746",
+      "bytes": 128901,
+      "output_path": "assets/9bd48830bceb21ed805a645dbeeff5c19b748ac1aecd5336836bb192b12ad746.jpg",
+      "placement": {
+        "before_event": "heading:viral-spektral-krew-gear"
+      },
+      "reader_value": true,
+      "sha256": "9BD48830BCEB21ED805A645DBEEFF5C19B748AC1AECD5336836BB192B12AD746"
+    },
+    {
+      "asset_id": "viral-accepted-7ad2d1b6d60fff832a4fce5ffa008151db46260faa9b29ec8db01d62fdaa1208",
+      "bytes": 43517,
+      "output_path": "assets/7ad2d1b6d60fff832a4fce5ffa008151db46260faa9b29ec8db01d62fdaa1208.jpg",
+      "placement": {
+        "before_event": "heading:viral-timeline"
+      },
+      "reader_value": true,
+      "sha256": "7AD2D1B6D60FFF832A4FCE5FFA008151DB46260FAA9B29EC8DB01D62FDAA1208"
+    },
+    {
+      "asset_id": "viral-accepted-46fe7137e80db64fce723c0f4eede22b676faedca5f1f476e964b8709ccf1449",
+      "bytes": 66491,
+      "output_path": "assets/46fe7137e80db64fce723c0f4eede22b676faedca5f1f476e964b8709ccf1449.jpg",
+      "placement": {
+        "before_event": "heading:viral-history"
+      },
+      "reader_value": true,
+      "sha256": "46FE7137E80DB64FCE723C0F4EEDE22B676FAEDCA5F1F476E964B8709CCF1449"
+    },
+    {
+      "asset_id": "viral-accepted-290e0d241064519a8e796429310676557b8a7e50bd2224341c7ba3d3de96ec54",
+      "bytes": 159536,
+      "output_path": "assets/290e0d241064519a8e796429310676557b8a7e50bd2224341c7ba3d3de96ec54.jpg",
+      "placement": {
+        "before_event": "heading:viral-one-night-in-perla"
+      },
+      "reader_value": true,
+      "sha256": "290E0D241064519A8E796429310676557B8A7E50BD2224341C7BA3D3DE96EC54"
+    },
+    {
+      "asset_id": "viral-accepted-0964f307aef670888c91bfe78498d19a3f55cdd749f113d610a5b68bc64cf070",
+      "bytes": 95598,
+      "output_path": "assets/0964f307aef670888c91bfe78498d19a3f55cdd749f113d610a5b68bc64cf070.jpg",
+      "placement": {
+        "before_event": "text:span-p019-b000134"
+      },
+      "reader_value": true,
+      "sha256": "0964F307AEF670888C91BFE78498D19A3F55CDD749F113D610A5B68BC64CF070"
+    },
+    {
+      "asset_id": "viral-accepted-327bcc22a7c9781d732803ea2fc0e492113453b1a130ab655debb0a1c4c4b24f",
+      "bytes": 51315,
+      "output_path": "assets/327bcc22a7c9781d732803ea2fc0e492113453b1a130ab655debb0a1c4c4b24f.jpg",
+      "placement": {
+        "before_event": "heading:viral-one-night-in-perla-exploring"
+      },
+      "reader_value": true,
+      "sha256": "327BCC22A7C9781D732803EA2FC0E492113453B1A130AB655DEBB0A1C4C4B24F"
+    },
+    {
+      "asset_id": "viral-accepted-16f390d7a4c0fc8856f4a878a164b11ec4e922c7df6fbb002e41e285a781d2a3",
+      "bytes": 171051,
+      "output_path": "assets/16f390d7a4c0fc8856f4a878a164b11ec4e922c7df6fbb002e41e285a781d2a3.jpg",
+      "placement": {
+        "before_event": "structure:viral-table-signs"
+      },
+      "reader_value": true,
+      "sha256": "16F390D7A4C0FC8856F4A878A164B11EC4E922C7DF6FBB002E41E285A781D2A3"
+    },
+    {
+      "asset_id": "viral-accepted-207028087cb3e99a6c0dbe99049ecb40bbd982de2906e0210baf884e95a11d3d",
+      "bytes": 141252,
+      "output_path": "assets/207028087cb3e99a6c0dbe99049ecb40bbd982de2906e0210baf884e95a11d3d.jpg",
+      "placement": {
+        "before_event": "heading:viral-one-night-in-perla-burning-of-the-disease"
+      },
+      "reader_value": true,
+      "sha256": "207028087CB3E99A6C0DBE99049ECB40BBD982DE2906E0210BAF884E95A11D3D"
+    },
+    {
+      "asset_id": "viral-accepted-29f2728884eee4feeed62b6ce0e488219c96a5933f9f4cd30a3c46ce56ae0804",
+      "bytes": 73117,
+      "output_path": "assets/29f2728884eee4feeed62b6ce0e488219c96a5933f9f4cd30a3c46ce56ae0804.jpg",
+      "placement": {
+        "before_event": "heading:viral-one-night-in-perla-npcs"
+      },
+      "reader_value": true,
+      "sha256": "29F2728884EEE4FEEED62B6CE0E488219C96A5933F9F4CD30A3C46CE56AE0804"
+    },
+    {
+      "asset_id": "viral-accepted-4fd93a36f8650d97b80a9bde287442646eb741abefad7f520761332c4ec28834",
+      "bytes": 98757,
+      "output_path": "assets/4fd93a36f8650d97b80a9bde287442646eb741abefad7f520761332c4ec28834.jpg",
+      "placement": {
+        "before_event": "heading:viral-one-night-in-perla-npcs-santina-maria-salvatore"
+      },
+      "reader_value": true,
+      "sha256": "4FD93A36F8650D97B80A9BDE287442646EB741ABEFAD7F520761332C4EC28834"
+    },
+    {
+      "asset_id": "viral-accepted-bc2ae2b3751eaf9754f625794f2d4648a03308dc3dc1042add097cc3649306b0",
+      "bytes": 65328,
+      "output_path": "assets/bc2ae2b3751eaf9754f625794f2d4648a03308dc3dc1042add097cc3649306b0.jpg",
+      "placement": {
+        "before_event": "heading:viral-one-night-in-perla-npcs-padre-angelo"
+      },
+      "reader_value": true,
+      "sha256": "BC2AE2B3751EAF9754F625794F2D4648A03308DC3DC1042ADD097CC3649306B0"
+    },
+    {
+      "asset_id": "viral-accepted-360213a4168164f71a9ff8980d5099fb9e2feccdd37c8f10abef0f67e9e107a1",
+      "bytes": 42394,
+      "output_path": "assets/360213a4168164f71a9ff8980d5099fb9e2feccdd37c8f10abef0f67e9e107a1.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-di-malamente"
+      },
+      "reader_value": true,
+      "sha256": "360213A4168164F71A9FF8980D5099FB9E2FECCDD37C8F10ABEF0F67E9E107A1"
+    },
+    {
+      "asset_id": "viral-accepted-b90cb9a3752383888c733905588e9c3859b113e47f1f457057c72e33689a7585",
+      "bytes": 52437,
+      "output_path": "assets/b90cb9a3752383888c733905588e9c3859b113e47f1f457057c72e33689a7585.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-prologue"
+      },
+      "reader_value": true,
+      "sha256": "B90CB9A3752383888C733905588E9C3859B113E47F1F457057C72E33689A7585"
+    },
+    {
+      "asset_id": "viral-accepted-da0cac1c9c0c880a75d3be69c59e965d0b7b0f223f16a077072786c8af30083e",
+      "bytes": 23278,
+      "output_path": "assets/da0cac1c9c0c880a75d3be69c59e965d0b7b0f223f16a077072786c8af30083e.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-prologue"
+      },
+      "reader_value": true,
+      "sha256": "DA0CAC1C9C0C880A75D3BE69C59E965D0B7B0F223F16A077072786C8AF30083E"
+    },
+    {
+      "asset_id": "viral-accepted-b8b06ff00c57b039a57df97d088b2b256c0cdd6da30e1d8dc2a3629a5d42355c",
+      "bytes": 59407,
+      "output_path": "assets/b8b06ff00c57b039a57df97d088b2b256c0cdd6da30e1d8dc2a3629a5d42355c.jpg",
+      "placement": {
+        "before_event": "text:span-p033-b004074"
+      },
+      "reader_value": true,
+      "sha256": "B8B06FF00C57B039A57DF97D088B2B256C0CDD6DA30E1D8DC2A3629A5D42355C"
+    },
+    {
+      "asset_id": "viral-accepted-10c6ced92d46c2b55ec18eb2c0fba3a1c39fcb1bb29c39a8fce8ef24fad8f7a1",
+      "bytes": 37011,
+      "output_path": "assets/10c6ced92d46c2b55ec18eb2c0fba3a1c39fcb1bb29c39a8fce8ef24fad8f7a1.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-location-03-the-weeping-bridge"
+      },
+      "reader_value": true,
+      "sha256": "10C6CED92D46C2B55EC18EB2C0FBA3A1C39FCB1BB29C39A8FCE8EF24FAD8F7A1"
+    },
+    {
+      "asset_id": "viral-accepted-222ccd9a31a25cadc0bfab40f4e037eb55b91ca7ee523fc5d9784f30407e4bfa",
+      "bytes": 28404,
+      "output_path": "assets/222ccd9a31a25cadc0bfab40f4e037eb55b91ca7ee523fc5d9784f30407e4bfa.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-location-04-the-lemon-grove"
+      },
+      "reader_value": true,
+      "sha256": "222CCD9A31A25CADC0BFAB40F4E037EB55B91CA7EE523FC5D9784F30407E4BFA"
+    },
+    {
+      "asset_id": "viral-accepted-694c04bf754533fd1ce84a80eb659bbcc7b0a9c314a1102ae0188eb2278618cf",
+      "bytes": 78473,
+      "output_path": "assets/694c04bf754533fd1ce84a80eb659bbcc7b0a9c314a1102ae0188eb2278618cf.jpg",
+      "placement": {
+        "before_event": "text:span-p040-b000157"
+      },
+      "reader_value": true,
+      "sha256": "694C04BF754533FD1CE84A80EB659BBCC7B0A9C314A1102AE0188EB2278618CF"
+    },
+    {
+      "asset_id": "viral-accepted-b2744fe4663d98385eaee75a7b134b506b652617dd76356cf2bf717b9a90d152",
+      "bytes": 48066,
+      "output_path": "assets/b2744fe4663d98385eaee75a7b134b506b652617dd76356cf2bf717b9a90d152.jpg",
+      "placement": {
+        "before_event": "heading:viral-hospital-ground-floor-secret-rooms"
+      },
+      "reader_value": true,
+      "sha256": "B2744FE4663D98385EAEE75A7B134B506B652617DD76356CF2BF717B9A90D152"
+    },
+    {
+      "asset_id": "viral-accepted-7a9686ecb0457b695002ce7b7daddcb9598b27e0d1501e10155e0c51f4eac85b",
+      "bytes": 34452,
+      "output_path": "assets/7a9686ecb0457b695002ce7b7daddcb9598b27e0d1501e10155e0c51f4eac85b.jpg",
+      "placement": {
+        "before_event": "structure:viral-keepers-notes-series-p041-p061:13"
+      },
+      "reader_value": true,
+      "sha256": "7A9686ECB0457B695002CE7B7DADDCB9598B27E0D1501E10155E0C51F4EAC85B"
+    },
+    {
+      "asset_id": "viral-accepted-f0ecf36564122d99452b953117ef61c8ae8aeb306459fd2ea1a2a9934d97c60e",
+      "bytes": 21227,
+      "output_path": "assets/f0ecf36564122d99452b953117ef61c8ae8aeb306459fd2ea1a2a9934d97c60e.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-location-07-cremation-pit"
+      },
+      "reader_value": true,
+      "sha256": "F0ECF36564122D99452B953117EF61C8AE8AEB306459FD2EA1A2A9934D97C60E"
+    },
+    {
+      "asset_id": "viral-accepted-1627aa2f652faf9837044b35d8e54bd7ddfc6b6716e7e8141363b65a83f12c4f",
+      "bytes": 32395,
+      "output_path": "assets/1627aa2f652faf9837044b35d8e54bd7ddfc6b6716e7e8141363b65a83f12c4f.jpg",
+      "placement": {
+        "before_event": "text:span-p048-b000054"
+      },
+      "reader_value": true,
+      "sha256": "1627AA2F652FAF9837044B35D8E54BD7DDFC6B6716E7E8141363B65A83F12C4F"
+    },
+    {
+      "asset_id": "viral-accepted-87d8a9e48a47663469f8ae771e291ed10f27cb13f6533d80bd3b569ad7c73ffd",
+      "bytes": 39753,
+      "output_path": "assets/87d8a9e48a47663469f8ae771e291ed10f27cb13f6533d80bd3b569ad7c73ffd.jpg",
+      "placement": {
+        "before_event": "heading:viral-isola-hastalyk-awakens"
+      },
+      "reader_value": true,
+      "sha256": "87D8A9E48A47663469F8AE771E291ED10F27CB13F6533D80BD3B569AD7C73FFD"
+    },
+    {
+      "asset_id": "viral-accepted-15de2b653d40f0f520a14e685938d7d58b3bb4c6d5db2f6e420b03d88ed360b0",
+      "bytes": 44408,
+      "output_path": "assets/15de2b653d40f0f520a14e685938d7d58b3bb4c6d5db2f6e420b03d88ed360b0.jpg",
+      "placement": {
+        "before_event": "text:span-p052-b000028"
+      },
+      "reader_value": true,
+      "sha256": "15DE2B653D40F0F520A14E685938D7D58B3BB4C6D5DB2F6E420B03D88ED360B0"
+    },
+    {
+      "asset_id": "viral-accepted-1a47e9a1f4a4ef0aba87607b159b901cc1c3898e5bd3a995ea0341d4f52e7cbd",
+      "bytes": 146312,
+      "output_path": "assets/1a47e9a1f4a4ef0aba87607b159b901cc1c3898e5bd3a995ea0341d4f52e7cbd.jpg",
+      "placement": {
+        "before_event": "heading:viral-epilogue-cinematic-ending"
+      },
+      "reader_value": true,
+      "sha256": "1A47E9A1F4A4EF0ABA87607B159B901CC1C3898E5BD3A995EA0341D4F52E7CBD"
+    },
+    {
+      "asset_id": "viral-accepted-2ebda31f091167d0746cefffb0ba817e95c00683579e25b8ff124275717688ec",
+      "bytes": 163067,
+      "output_path": "assets/2ebda31f091167d0746cefffb0ba817e95c00683579e25b8ff124275717688ec.jpg",
+      "placement": {
+        "before_event": "heading:viral-epilogue-cinematic-ending"
+      },
+      "reader_value": true,
+      "sha256": "2EBDA31F091167D0746CEFFFB0BA817E95C00683579E25B8FF124275717688EC"
+    },
+    {
+      "asset_id": "viral-accepted-29e9a40a1748fbb06877c65bfbd3c16682e154a09d72a746b2432bdc3c8114f7",
+      "bytes": 92149,
+      "output_path": "assets/29e9a40a1748fbb06877c65bfbd3c16682e154a09d72a746b2432bdc3c8114f7.jpg",
+      "placement": {
+        "before_event": "heading:viral-epilogue-cinematic-ending"
+      },
+      "reader_value": true,
+      "sha256": "29E9A40A1748FBB06877C65BFBD3C16682E154A09D72A746B2432BDC3C8114F7"
+    },
+    {
+      "asset_id": "viral-accepted-ba787578df65b06580708e25f66e319a5d76a80ff5717b05392d2c1c4470b394",
+      "bytes": 26580,
+      "output_path": "assets/ba787578df65b06580708e25f66e319a5d76a80ff5717b05392d2c1c4470b394.jpg",
+      "placement": {
+        "before_event": "heading:viral-epilogue-expanded-ending"
+      },
+      "reader_value": true,
+      "sha256": "BA787578DF65B06580708E25F66E319A5D76A80FF5717B05392D2C1C4470B394"
+    },
+    {
+      "asset_id": "viral-accepted-c708f914e6ddda12e62831135072daa4458f2c87c1a967527e91f55bec2e9591",
+      "bytes": 76947,
+      "output_path": "assets/c708f914e6ddda12e62831135072daa4458f2c87c1a967527e91f55bec2e9591.jpg",
+      "placement": {
+        "before_event": "heading:viral-epilogue-expanded-ending"
+      },
+      "reader_value": true,
+      "sha256": "C708F914E6DDDA12E62831135072DAA4458F2C87C1A967527E91F55BEC2E9591"
+    },
+    {
+      "asset_id": "viral-accepted-70a9e13d96917244309a9a76922f8ba27b551040a27811beecf83f3e180016be",
+      "bytes": 67513,
+      "output_path": "assets/70a9e13d96917244309a9a76922f8ba27b551040a27811beecf83f3e180016be.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix"
+      },
+      "reader_value": true,
+      "sha256": "70A9E13D96917244309A9A76922F8BA27B551040A27811BEECF83F3E180016BE"
+    },
+    {
+      "asset_id": "viral-accepted-53643514b43e23269335df5656ebce5e201bf98fc34591b1211e50e38301f35d",
+      "bytes": 98122,
+      "output_path": "assets/53643514b43e23269335df5656ebce5e201bf98fc34591b1211e50e38301f35d.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-encounters-catacomb"
+      },
+      "reader_value": true,
+      "sha256": "53643514B43E23269335DF5656EBCE5E201BF98FC34591B1211E50E38301F35D"
+    },
+    {
+      "asset_id": "viral-accepted-d03da367941f779022bca6764b8bb259602fbaf7ccb50ea2ba30d7e150ad3279",
+      "bytes": 33243,
+      "output_path": "assets/d03da367941f779022bca6764b8bb259602fbaf7ccb50ea2ba30d7e150ad3279.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-rules-the-taint"
+      },
+      "reader_value": true,
+      "sha256": "D03DA367941F779022BCA6764B8BB259602FBAF7CCB50EA2BA30D7E150AD3279"
+    },
+    {
+      "asset_id": "viral-accepted-baa904e61a23aecf4b6f667d035c9755ff6321c6205caa0d97977704378464aa",
+      "bytes": 39269,
+      "output_path": "assets/baa904e61a23aecf4b6f667d035c9755ff6321c6205caa0d97977704378464aa.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-rules-insanity-and-bouts-of-madness"
+      },
+      "reader_value": true,
+      "sha256": "BAA904E61A23AECF4B6F667D035C9755FF6321C6205CAA0D97977704378464AA"
+    },
+    {
+      "asset_id": "viral-accepted-cca3f437517c905396426e243323b562cfce53af5f2f4ba92a1399c733065124",
+      "bytes": 57599,
+      "output_path": "assets/cca3f437517c905396426e243323b562cfce53af5f2f4ba92a1399c733065124.jpg",
+      "placement": {
+        "before_event": "structure:viral-appropriate-phobias-callout-p064:00"
+      },
+      "reader_value": true,
+      "sha256": "CCA3F437517C905396426E243323B562CFCE53AF5F2F4BA92A1399C733065124"
+    },
+    {
+      "asset_id": "viral-accepted-2ff7daab27132cad277a1f7e73464f1fd79c9745ca924d91bf4acced6f2f1c6e",
+      "bytes": 10471,
+      "output_path": "assets/2ff7daab27132cad277a1f7e73464f1fd79c9745ca924d91bf4acced6f2f1c6e.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-mythos-horrors"
+      },
+      "reader_value": true,
+      "sha256": "2FF7DAAB27132CAD277A1F7E73464F1FD79C9745CA924D91BF4ACCED6F2F1C6E"
+    },
+    {
+      "asset_id": "viral-accepted-8e99d6929ef4aa5cc62d603b24317a4c65b22fd9551a8c37c5cfff9aa239436d",
+      "bytes": 68506,
+      "output_path": "assets/8e99d6929ef4aa5cc62d603b24317a4c65b22fd9551a8c37c5cfff9aa239436d.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-mythos-horrors-hastalyk"
+      },
+      "reader_value": true,
+      "sha256": "8E99D6929EF4AA5CC62D603B24317A4C65B22FD9551A8C37C5CFFF9AA239436D"
+    },
+    {
+      "asset_id": "viral-accepted-81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677",
+      "bytes": 84304,
+      "output_path": "assets/81953e331e0b27630c228051831a510c123801aa360c1f6d0fa82d66516ee677.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-mythos-horrors-plague-monk"
+      },
+      "reader_value": true,
+      "sha256": "81953E331E0B27630C228051831A510C123801AA360C1F6D0FA82D66516EE677"
+    },
+    {
+      "asset_id": "viral-accepted-6e1d78ee26178218de74fd8203ef772eb3e8f4951ea6e419a0a00e25051b8237",
+      "bytes": 61618,
+      "output_path": "assets/6e1d78ee26178218de74fd8203ef772eb3e8f4951ea6e419a0a00e25051b8237.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-mythos-horrors-reliquae"
+      },
+      "reader_value": true,
+      "sha256": "6E1D78EE26178218DE74FD8203EF772EB3E8F4951EA6E419A0A00E25051B8237"
+    },
+    {
+      "asset_id": "viral-accepted-2fbd31994da00cc5320dccf115f2aae8da89b5e5997e93ad5f853afbf13bad03",
+      "bytes": 18818,
+      "output_path": "assets/2fbd31994da00cc5320dccf115f2aae8da89b5e5997e93ad5f853afbf13bad03.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-mythos-tome-iuramentum-corruptionis"
+      },
+      "reader_value": true,
+      "sha256": "2FBD31994DA00CC5320DCCF115F2AAE8DA89B5E5997E93AD5F853AFBF13BAD03"
+    },
+    {
+      "asset_id": "viral-accepted-dbe93023f78f2a8181d333207f407d3ada63c8f33a6f53889b4f3df7bc76a416",
+      "bytes": 43428,
+      "output_path": "assets/dbe93023f78f2a8181d333207f407d3ada63c8f33a6f53889b4f3df7bc76a416.jpg",
+      "placement": {
+        "before_event": "heading:viral-appendix-new-mythos-tome-iuramentum-corruptionis"
+      },
+      "reader_value": true,
+      "sha256": "DBE93023F78F2A8181D333207F407D3ADA63C8F33A6F53889B4F3DF7BC76A416"
+    },
+    {
+      "asset_id": "viral-accepted-9cddc3fc484dffdcce7654b3ebc058b362dbb265508a64d64d7485b33dc600c8",
+      "bytes": 129525,
+      "output_path": "assets/9cddc3fc484dffdcce7654b3ebc058b362dbb265508a64d64d7485b33dc600c8.jpg",
+      "placement": {
+        "before_event": "text:span-p070-b000045"
+      },
+      "reader_value": true,
+      "sha256": "9CDDC3FC484DFFDCCE7654B3EBC058B362DBB265508A64D64D7485B33DC600C8"
+    },
+    {
+      "asset_id": "viral-accepted-9ee3d23cac4831e4230386f671d228d7a53b336310983f967eada4f3d2677ad8",
+      "bytes": 152496,
+      "output_path": "assets/9ee3d23cac4831e4230386f671d228d7a53b336310983f967eada4f3d2677ad8.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-06"
+      },
+      "reader_value": true,
+      "sha256": "9EE3D23CAC4831E4230386F671D228D7A53B336310983F967EADA4F3D2677AD8"
+    },
+    {
+      "asset_id": "viral-accepted-b1b7888cf28240790d1fd7fdc5621da9fe159c9442ec0f3bfa7f45243319cfea",
+      "bytes": 114237,
+      "output_path": "assets/b1b7888cf28240790d1fd7fdc5621da9fe159c9442ec0f3bfa7f45243319cfea.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-06"
+      },
+      "reader_value": true,
+      "sha256": "B1B7888CF28240790D1FD7FDC5621DA9FE159C9442EC0F3BFA7F45243319CFEA"
+    },
+    {
+      "asset_id": "viral-accepted-f796716cd86ee8580b1d2cd8552d89cbf29f989bc8eae6be386ffa2528dc078b",
+      "bytes": 138318,
+      "output_path": "assets/f796716cd86ee8580b1d2cd8552d89cbf29f989bc8eae6be386ffa2528dc078b.jpg",
+      "placement": {
+        "before_event": "text:span-p076-b000044"
+      },
+      "reader_value": true,
+      "sha256": "F796716CD86EE8580B1D2CD8552D89CBF29F989BC8EAE6BE386FFA2528DC078B"
+    },
+    {
+      "asset_id": "viral-accepted-2a60f183499c0a1a5f3bd353949a7efc2a389d5fbd98782e79e53d346d9c390f",
+      "bytes": 147291,
+      "output_path": "assets/2a60f183499c0a1a5f3bd353949a7efc2a389d5fbd98782e79e53d346d9c390f.jpg",
+      "placement": {
+        "before_event": "text:span-p076-b000044"
+      },
+      "reader_value": true,
+      "sha256": "2A60F183499C0A1A5F3BD353949A7EFC2A389D5FBD98782E79E53D346D9C390F"
+    },
+    {
+      "asset_id": "viral-accepted-8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e",
+      "bytes": 121188,
+      "output_path": "assets/8dcb6eee3da06a699ff2ac68c0b32338209a8abad3327bf0c8e246c2722dc76e.jpg",
+      "placement": {
+        "before_event": "text:span-p077-b000044"
+      },
+      "reader_value": true,
+      "sha256": "8DCB6EEE3DA06A699FF2AC68C0B32338209A8ABAD3327BF0C8E246C2722DC76E"
+    },
+    {
+      "asset_id": "viral-accepted-826e5103327297822e6270444f8d57d02a135ffbc2d246ffbdb5788d297fd55a",
+      "bytes": 254973,
+      "output_path": "assets/826e5103327297822e6270444f8d57d02a135ffbc2d246ffbdb5788d297fd55a.jpg",
+      "placement": {
+        "before_event": "text:span-p078-b000045"
+      },
+      "reader_value": true,
+      "sha256": "826E5103327297822E6270444F8D57D02A135FFBC2D246FFBDB5788D297FD55A"
+    },
+    {
+      "asset_id": "viral-accepted-8dfcf412070881aa81b8933eeb329d7409edbe1316329701bb605c9dab835d65",
+      "bytes": 177108,
+      "output_path": "assets/8dfcf412070881aa81b8933eeb329d7409edbe1316329701bb605c9dab835d65.jpg",
+      "placement": {
+        "before_event": "text:span-p078-b000130"
+      },
+      "reader_value": true,
+      "sha256": "8DFCF412070881AA81B8933EEB329D7409EDBE1316329701BB605C9DAB835D65"
+    },
+    {
+      "asset_id": "viral-accepted-5246e2c434242d2ddea6226d861d9608f5b6afa86230da5ad3b6d01553bb4ca5",
+      "bytes": 125366,
+      "output_path": "assets/5246e2c434242d2ddea6226d861d9608f5b6afa86230da5ad3b6d01553bb4ca5.jpg",
+      "placement": {
+        "before_event": "heading:viral-handouts-hyeons-ipads"
+      },
+      "reader_value": true,
+      "sha256": "5246E2C434242D2DDEA6226D861D9608F5B6AFA86230DA5AD3B6D01553BB4CA5"
+    },
+    {
+      "asset_id": "viral-accepted-2e49f854b389f6c5cf89bced8318e197b6e79fd53d47dfa5dd64b0dcd697bbcc",
+      "bytes": 77303,
+      "output_path": "assets/2e49f854b389f6c5cf89bced8318e197b6e79fd53d47dfa5dd64b0dcd697bbcc.jpg",
+      "placement": {
+        "before_event": "text:span-p083-b000045"
+      },
+      "reader_value": true,
+      "sha256": "2E49F854B389F6C5CF89BCED8318E197B6E79FD53D47DFA5DD64B0DCD697BBCC"
+    },
+    {
+      "asset_id": "viral-accepted-06a2c68cc38d4904595e16d0153d127eb08ae61c189a613f269a120de5233201",
+      "bytes": 126927,
+      "output_path": "assets/06a2c68cc38d4904595e16d0153d127eb08ae61c189a613f269a120de5233201.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-29"
+      },
+      "reader_value": true,
+      "sha256": "06A2C68CC38D4904595E16D0153D127EB08AE61C189A613F269A120DE5233201"
+    },
+    {
+      "asset_id": "viral-accepted-affb03a14eabd3ce60d78047279316ebde282a079528b6e00067698ebed92715",
+      "bytes": 86844,
+      "output_path": "assets/affb03a14eabd3ce60d78047279316ebde282a079528b6e00067698ebed92715.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-30"
+      },
+      "reader_value": true,
+      "sha256": "AFFB03A14EABD3CE60D78047279316EBDE282A079528B6E00067698EBED92715"
+    },
+    {
+      "asset_id": "viral-accepted-373a4c9272242f27df9f3410b860e7bc5af602f17d1f08115649653754aad884",
+      "bytes": 298360,
+      "output_path": "assets/373a4c9272242f27df9f3410b860e7bc5af602f17d1f08115649653754aad884.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-31"
+      },
+      "reader_value": true,
+      "sha256": "373A4C9272242F27DF9F3410B860E7BC5AF602F17D1F08115649653754AAD884"
+    },
+    {
+      "asset_id": "viral-accepted-5c03c3f42abbf1962a78d589d00014a6aac425db8b061cce69995930bd33d8b4",
+      "bytes": 240940,
+      "output_path": "assets/5c03c3f42abbf1962a78d589d00014a6aac425db8b061cce69995930bd33d8b4.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-32"
+      },
+      "reader_value": true,
+      "sha256": "5C03C3F42ABBF1962A78D589D00014A6AAC425DB8B061CCE69995930BD33D8B4"
+    },
+    {
+      "asset_id": "viral-accepted-217633ad4ab84de07789ba9c47d7c00ee382de486902cf967330d5d94061e8b5",
+      "bytes": 98873,
+      "output_path": "assets/217633ad4ab84de07789ba9c47d7c00ee382de486902cf967330d5d94061e8b5.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-33"
+      },
+      "reader_value": true,
+      "sha256": "217633AD4AB84DE07789BA9C47D7C00EE382DE486902CF967330D5D94061E8B5"
+    },
+    {
+      "asset_id": "viral-accepted-c34aabc5bd16dfcb318cad3a11df583f9f15d4778f488832af69d182dc9d8201",
+      "bytes": 68405,
+      "output_path": "assets/c34aabc5bd16dfcb318cad3a11df583f9f15d4778f488832af69d182dc9d8201.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-34"
+      },
+      "reader_value": true,
+      "sha256": "C34AABC5BD16DFCB318CAD3A11DF583F9F15D4778F488832AF69D182DC9D8201"
+    },
+    {
+      "asset_id": "viral-accepted-faaf56706aeb8cc15c6cfeb89bf7731b313ccdfde78f28b12da65b123d355bcd",
+      "bytes": 140777,
+      "output_path": "assets/faaf56706aeb8cc15c6cfeb89bf7731b313ccdfde78f28b12da65b123d355bcd.jpg",
+      "placement": {
+        "after_event": "heading:viral-handout-34"
+      },
+      "reader_value": true,
+      "sha256": "FAAF56706AEB8CC15C6CFEB89BF7731B313CCDFDE78F28B12DA65B123D355BCD"
+    },
+    {
+      "asset_id": "viral-accepted-84f3fbba13df63026fc147880fa903b708f67969bb85a2e8ffd7ae95bc921172",
+      "bytes": 48631,
+      "output_path": "assets/84f3fbba13df63026fc147880fa903b708f67969bb85a2e8ffd7ae95bc921172.jpg",
+      "placement": {
+        "after_event": "heading:viral-handout-35"
+      },
+      "reader_value": true,
+      "sha256": "84F3FBBA13DF63026FC147880FA903B708F67969BB85A2E8FFD7AE95BC921172"
+    },
+    {
+      "asset_id": "viral-accepted-d18f3a9358fcdda6d5f56178aa99b37609c72d286a380e71c4189337c1a9c5ae",
+      "bytes": 163254,
+      "output_path": "assets/d18f3a9358fcdda6d5f56178aa99b37609c72d286a380e71c4189337c1a9c5ae.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-37"
+      },
+      "reader_value": true,
+      "sha256": "D18F3A9358FCDDA6D5F56178AA99B37609C72D286A380E71C4189337C1A9C5AE"
+    },
+    {
+      "asset_id": "viral-accepted-4e663526a507696636fce7c8f25dcc41586197a215cf2137955b498fc82ca76c",
+      "bytes": 50443,
+      "output_path": "assets/4e663526a507696636fce7c8f25dcc41586197a215cf2137955b498fc82ca76c.jpg",
+      "placement": {
+        "before_event": "heading:viral-handout-38"
+      },
+      "reader_value": true,
+      "sha256": "4E663526A507696636FCE7C8F25DCC41586197A215CF2137955B498FC82CA76C"
+    },
+    {
+      "asset_id": "viral-accepted-76216221d1c4ed443deccf0a9e64c82ea0084ffc07ae033af3b43e69242b1b84",
+      "bytes": 101261,
+      "output_path": "assets/76216221d1c4ed443deccf0a9e64c82ea0084ffc07ae033af3b43e69242b1b84.jpg",
+      "placement": {
+        "after_event": "heading:viral-handout-38"
+      },
+      "reader_value": true,
+      "sha256": "76216221D1C4ED443DECCF0A9E64C82EA0084FFC07AE033AF3B43E69242B1B84"
+    },
+    {
+      "asset_id": "viral-accepted-bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba",
+      "bytes": 102428,
+      "output_path": "assets/bbcf13fecd9ade245d04db78356787f798176f58c9eb9b69c27d4936f6e888ba.jpg",
+      "placement": {
+        "before_event": "heading:viral-keeper-maps"
+      },
+      "reader_value": true,
+      "sha256": "BBCF13FECD9ADE245D04DB78356787F798176F58C9EB9B69C27D4936F6E888BA"
+    },
+    {
+      "asset_id": "viral-accepted-2594c936ac511e9594fccbbc79e2a9acdb7ad0475baec5fbf0640a4dfb24ea91",
+      "bytes": 159246,
+      "output_path": "assets/2594c936ac511e9594fccbbc79e2a9acdb7ad0475baec5fbf0640a4dfb24ea91.jpg",
+      "placement": {
+        "before_event": "anchor:viral-keeper-map-isola-location"
+      },
+      "reader_value": true,
+      "sha256": "2594C936AC511E9594FCCBBC79E2A9ACDB7AD0475BAEC5FBF0640A4DFB24EA91"
+    },
+    {
+      "asset_id": "viral-accepted-b29535e0fb701c4072cd0198c39ef9f101871c5817bdf5b96e42794a14b18335",
+      "bytes": 361961,
+      "output_path": "assets/b29535e0fb701c4072cd0198c39ef9f101871c5817bdf5b96e42794a14b18335.jpg",
+      "placement": {
+        "before_event": "heading:viral-keeper-map-ground-floor-basement"
+      },
+      "reader_value": true,
+      "sha256": "B29535E0FB701C4072CD0198C39EF9F101871C5817BDF5B96E42794A14B18335"
+    },
+    {
+      "asset_id": "viral-accepted-9edcd9b27c46e8d689d4baeff43a55497376a581d87cf1e9ad8a0ea9dd63c28a",
+      "bytes": 163452,
+      "output_path": "assets/9edcd9b27c46e8d689d4baeff43a55497376a581d87cf1e9ad8a0ea9dd63c28a.jpg",
+      "placement": {
+        "after_event": "heading:viral-keeper-map-second-third-floors"
+      },
+      "reader_value": true,
+      "sha256": "9EDCD9B27C46E8D689D4BAEFF43A55497376A581D87CF1E9AD8A0EA9DD63C28A"
+    },
+    {
+      "asset_id": "viral-accepted-00d84a08f0f7ef0b634da16d22f1832b3e099350a451425c5b2642428fe8f4b9",
+      "bytes": 240269,
+      "output_path": "assets/00d84a08f0f7ef0b634da16d22f1832b3e099350a451425c5b2642428fe8f4b9.jpg",
+      "placement": {
+        "after_event": "heading:viral-keeper-map-administrators-house-east-wing-attic"
+      },
+      "reader_value": true,
+      "sha256": "00D84A08F0F7EF0B634DA16D22F1832B3E099350A451425C5B2642428FE8F4B9"
+    },
+    {
+      "asset_id": "viral-accepted-7eb3303bc8a34e16d5891aa781a21297a022e028c029fa8e0d0549f445703fe5",
+      "bytes": 293225,
+      "output_path": "assets/7eb3303bc8a34e16d5891aa781a21297a022e028c029fa8e0d0549f445703fe5.jpg",
+      "placement": {
+        "after_event": "heading:viral-keeper-map-secret-underground"
+      },
+      "reader_value": true,
+      "sha256": "7EB3303BC8A34E16D5891AA781A21297A022E028C029FA8E0D0549F445703FE5"
+    },
+    {
+      "asset_id": "viral-accepted-74f6d8049985378c8c5cc3f846b06982da3a39de05975dc31880f024e649d7a6",
+      "bytes": 475565,
+      "output_path": "assets/74f6d8049985378c8c5cc3f846b06982da3a39de05975dc31880f024e649d7a6.jpg",
+      "placement": {
+        "before_event": "structure:viral-pregen-111-112"
+      },
+      "reader_value": true,
+      "sha256": "74F6D8049985378C8C5CC3F846B06982DA3A39DE05975DC31880F024E649D7A6"
+    },
+    {
+      "asset_id": "viral-accepted-00f35cb2535f45bfce6b8cc61c4bbf9fd5a493f2f63995a5608f14edfabfb782",
+      "bytes": 469069,
+      "output_path": "assets/00f35cb2535f45bfce6b8cc61c4bbf9fd5a493f2f63995a5608f14edfabfb782.jpg",
+      "placement": {
+        "before_event": "structure:viral-pregen-113-114"
+      },
+      "reader_value": true,
+      "sha256": "00F35CB2535F45BFCE6B8CC61C4BBF9FD5A493F2F63995A5608F14EDFABFB782"
+    },
+    {
+      "asset_id": "viral-accepted-ee6f908e8a15d1ee0f9f8a976427f1050ceef9810642f5ddfe1d172a0189bc3c",
+      "bytes": 476311,
+      "output_path": "assets/ee6f908e8a15d1ee0f9f8a976427f1050ceef9810642f5ddfe1d172a0189bc3c.jpg",
+      "placement": {
+        "before_event": "structure:viral-pregen-115-116"
+      },
+      "reader_value": true,
+      "sha256": "EE6F908E8A15D1EE0F9F8A976427F1050CEEF9810642F5DDFE1D172A0189BC3C"
+    },
+    {
+      "asset_id": "viral-accepted-9407122d0650698a811b6096285828cf7fbe43efe74d3476c51995efec9dca01",
+      "bytes": 468278,
+      "output_path": "assets/9407122d0650698a811b6096285828cf7fbe43efe74d3476c51995efec9dca01.jpg",
+      "placement": {
+        "before_event": "structure:viral-pregen-117-118"
+      },
+      "reader_value": true,
+      "sha256": "9407122D0650698A811B6096285828CF7FBE43EFE74D3476C51995EFEC9DCA01"
+    },
+    {
+      "asset_id": "viral-accepted-36e2c03c86a9b35dab62baf48f2e1d2e4fc0f77811173ca7acf8d7c44944d070",
+      "bytes": 474537,
+      "output_path": "assets/36e2c03c86a9b35dab62baf48f2e1d2e4fc0f77811173ca7acf8d7c44944d070.jpg",
+      "placement": {
+        "before_event": "structure:viral-pregen-119-120"
+      },
+      "reader_value": true,
+      "sha256": "36E2C03C86A9B35DAB62BAF48F2E1D2E4FC0F77811173CA7ACF8D7C44944D070"
+    },
+    {
+      "asset_id": "viral-accepted-4b6c6dc23113457bf08f7aacf67bb8f009ab2aa193fbce921509695a6e261f5a",
+      "bytes": 429148,
+      "output_path": "assets/4b6c6dc23113457bf08f7aacf67bb8f009ab2aa193fbce921509695a6e261f5a.jpg",
+      "placement": {
+        "before_event": "structure:viral-pregen-121-122"
+      },
+      "reader_value": true,
+      "sha256": "4B6C6DC23113457BF08F7AACF67BB8F009AB2AA193FBCE921509695A6E261F5A"
+    },
+    {
+      "asset_id": "viral-render-cover-front",
+      "bytes": 2184151,
+      "output_path": "assets/viral-render-cover-front.png",
+      "placement": {
+        "before_event": "heading:viral"
+      },
+      "reader_value": true,
+      "sha256": "DC3580F378E28B719F9F9167B5689BCD546F8D56191F7219BE1907E25AA4284B"
+    },
+    {
+      "asset_id": "viral-provisional-map-ground-floor-basement-page-106",
+      "bytes": 2862726,
+      "output_path": "assets/viral-provisional-map-ground-floor-basement-page-106.png",
+      "placement": {
+        "before_event": "structure:viral-map-ground-floor-basement-p106-p107"
+      },
+      "reader_value": true,
+      "sha256": "62095E2E04BAB48FBB10633A8A4549A711FEE1C3312BEB7D3976EB6CC5ACED8F"
+    },
+    {
+      "asset_id": "viral-provisional-map-ground-floor-basement-page-107",
+      "bytes": 2608219,
+      "output_path": "assets/viral-provisional-map-ground-floor-basement-page-107.png",
+      "placement": {
+        "before_event": "structure:viral-map-ground-floor-basement-p106-p107"
+      },
+      "reader_value": true,
+      "sha256": "2EC97E386817AA4FD83F1385069274807467117D2EAF8E85AAE040E5774E4601"
+    },
+    {
+      "asset_id": "viral-provisional-pregen-marco-back-page-112",
+      "bytes": 3131308,
+      "output_path": "assets/viral-provisional-pregen-marco-back-page-112.png",
+      "placement": {
+        "before_event": "structure:viral-pregen-111-112"
+      },
+      "reader_value": true,
+      "sha256": "796F365FC3E787C543FDE1A35B3EC08AC28A75B77E2C9A9E155C54403419F39C"
+    },
+    {
+      "asset_id": "viral-provisional-pregen-corrina-back-page-114",
+      "bytes": 3134700,
+      "output_path": "assets/viral-provisional-pregen-corrina-back-page-114.png",
+      "placement": {
+        "before_event": "structure:viral-pregen-113-114"
+      },
+      "reader_value": true,
+      "sha256": "393A1B010C7BF23904640E247E0C46AA46252E870FA642459C20E5EBF2BB9FC6"
+    },
+    {
+      "asset_id": "viral-provisional-pregen-enoch-back-page-116",
+      "bytes": 3038192,
+      "output_path": "assets/viral-provisional-pregen-enoch-back-page-116.png",
+      "placement": {
+        "before_event": "structure:viral-pregen-115-116"
+      },
+      "reader_value": true,
+      "sha256": "0D8E80D5B45718D87176B455AF53941DB1CA8098254151B0DF46BA5787587096"
+    },
+    {
+      "asset_id": "viral-provisional-pregen-peter-back-page-118",
+      "bytes": 3179655,
+      "output_path": "assets/viral-provisional-pregen-peter-back-page-118.png",
+      "placement": {
+        "before_event": "structure:viral-pregen-117-118"
+      },
+      "reader_value": true,
+      "sha256": "B1111A56321D82EEC8089CECBA8F2365EA3FB096226F951297D295CA95221510"
+    },
+    {
+      "asset_id": "viral-provisional-pregen-ku-hyeon-back-page-120",
+      "bytes": 2952071,
+      "output_path": "assets/viral-provisional-pregen-ku-hyeon-back-page-120.png",
+      "placement": {
+        "before_event": "structure:viral-pregen-119-120"
+      },
+      "reader_value": true,
+      "sha256": "38E7DE66F7334A2FCDD61EE662BA4028BC8275A07BC97021ECE2964AC282762C"
+    },
+    {
+      "asset_id": "viral-provisional-pregen-blank-back-page-122",
+      "bytes": 1880895,
+      "output_path": "assets/viral-provisional-pregen-blank-back-page-122.png",
+      "placement": {
+        "before_event": "structure:viral-pregen-121-122"
+      },
+      "reader_value": true,
+      "sha256": "E03C12177B904D124F685AACA1C07A1DB1E8A56CEDC93A85B0D14CCB2AD69D4A"
+    },
+    {
+      "asset_id": "viral-accepted-e1e2aa6964b45037691d92e4faf91dba6bbd411e409dc49c237f6b0e71e6ce85",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-a1d83a711a4b7962110b1ba158b2d610043f1fa836e06458e675373094acd6c1",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-6acc049ed2ad40ebed064312a87ddfce5a404f4fc2487ea1721c656ed541c419",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-647b583cd53fbfdaab7ac6d9643a81bbd5145c125d628c7074b02db0c9f7888b",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-eda9c6f6d6ef94ed41034cd12401547ed37101ef2f8b1ebf30d9602b87db71ab",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-21704f0d57843965013f5eccfa36bcd64321dcc1513cd7d99dead8627d58994e",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-b2ba43b7e57f4c9972780be961deab50d72ea311f795285da15712ba29b6e30e",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-af48429e4ab502e7fc33a545039dab60a3e4e28a8c03a29f56ff57b9280cdd12",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-7c83b1d4c5f1a22f691eb9d0cbe19c82392bd9144d6e60d5654ce4aed160a712",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-98252d0b2a10de10cb22e3ef50f6de0261b8c7ef0b4ec4f4a3911abb064e2cf2",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-5d704eecea2fd918c2d47310fb1a6095a34df16dd3866e218edace6c3f4147d1",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-309b53074a068f89a601dce791376410b5ed348ca1073928019d49d74ef96dd4",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-5623aa0891db1ac91963f27adb4c7f69f46cc3a60d6fee09267ef2f5cac8d7d4",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-6877882f32d30021fa519a58f1ca4227258db799b33ee28e8a64dd07e88981b2",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-0c41d57b4240303a0fc7b83715a7476b6cc294857da88b24a0200fe71c7d2dbf",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-ffcd5ab4e6d1d1c53dcf5089955a6124d6e4951e63c941140b3204db1c7d733a",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-adb4ff51bd5ebff464834e0fb324310c281eb20d2c4b0f4e82d1fbaf3ef72541",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-f7ce778cc1eb05cb6fef0f26457d06e68019ee30c76a5723f259dc82b89b321d",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-e1c168ca34db2f98a27391e749f08a0fcdda832034d68e5fd0fbc38b00f584dc",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-5d2410afd9a6593cdce0d7f0d411835cf4a726551a1b1e18b6f79d04ed42230b",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-53c2775488f57c8e41f9d42648ecb8a1d30e9a1ce0de8d4108b7926ee26a3595",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-331f4d575265e02a4ba97b4e204dbbb20b648e9b62d44eb47ea11ab6998c00d3",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-89e3eae7390f0ae27a8069bcf2d2aa2956a21047eeb7168a3fd49b0b7cbfc297",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-92c65562fe49c02049e4b40e4a278b667e1361568455fdd89a724389a8d01d50",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-66088dd8192e2a93f140eb9e11fadfed92b3869c509490199a35d272197ebfcb",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-07982af9981b82074567f2fa5d976b00cb40a0331f01438352f9fd59fc864aa4",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-fe4c839c1ff9b15dc4a9136f6969271a7a465fe642c77b38f456aa2af38fe0c3",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-9d7ebb95113ecd5d9114224cff873b14f2db563d61015978164a78e4ff05953f",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-df1e018979c88b0737200c349889745eadfa119466dc40fb024779a0f8eb4730",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-1ae1543b9ff31ba9d7c4271ae01d86f05fb722c00e9f7851ce1dffc820aee3b8",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-dd0c2d51431a4945f9f7d8293bc7b0b5e870f891dbe31d18c931926bffbb8d8b",
+      "placement": null,
+      "reader_value": false
+    },
+    {
+      "asset_id": "viral-accepted-dcf1f2f6dd9540217155f01d5b03d965aedef98d965c2a33e987f0f5996eb166",
+      "placement": null,
+      "reader_value": false
+    }
+  ],
+  "schema": "kb_creator.master_en_asset_manifest.v2",
+  "summary": {
+    "reader": 93,
+    "suppressed": 32,
+    "total": 125
+  }
+}

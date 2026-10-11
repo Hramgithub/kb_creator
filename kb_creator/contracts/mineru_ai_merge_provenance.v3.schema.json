@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.mineru_ai_merge_provenance.v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "status", "run_identity_sha256", "bridge_sha256", "submission", "comparison", "fidelity_audit", "pages", "acceptance_inferred"],
+  "properties": {
+    "schema": {"const": "kb_creator.mineru_ai_merge_provenance.v3"},
+    "status": {"enum": ["candidate_ready_for_reconstruction_qa", "candidate_needs_review"]},
+    "run_identity_sha256": {"$ref": "#/$defs/sha"},
+    "bridge_sha256": {"$ref": "#/$defs/sha"},
+    "submission": {"$ref": "#/$defs/submission"},
+    "comparison": {"$ref": "#/$defs/ref"},
+    "fidelity_audit": {"$ref": "#/$defs/ref"},
+    "pages": {"type": "array", "items": {"$ref": "#/$defs/page"}},
+    "acceptance_inferred": {"const": false}
+  },
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "ref": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}}},
+    "submission": {"type": "object", "additionalProperties": false, "required": ["path", "bytes", "sha256", "submission_sha256"], "properties": {"path": {"type": "string"}, "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha"}, "submission_sha256": {"$ref": "#/$defs/sha"}}},
+    "selected": {"type": "object", "additionalProperties": false, "required": ["view", "raw_index"], "properties": {"view": {"type": "string"}, "raw_index": {"type": "integer", "minimum": 0}}},
+    "page": {"type": "object", "additionalProperties": false, "required": ["source_page", "semantic_role", "packet", "packet_sha256", "decision_sha256", "selected_blocks", "unresolved"], "properties": {"source_page": {"type": "integer", "minimum": 1}, "semantic_role": {"type": "string"}, "packet": {"type": "string"}, "packet_sha256": {"$ref": "#/$defs/sha"}, "decision_sha256": {"$ref": "#/$defs/sha"}, "selected_blocks": {"type": "array", "items": {"$ref": "#/$defs/selected"}}, "unresolved": {"type": "array", "items": {"type": "string"}}}}
+  }
+}

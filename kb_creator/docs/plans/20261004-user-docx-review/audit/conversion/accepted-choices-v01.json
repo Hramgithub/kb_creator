@@ -1,0 +1,33 @@
+{
+  "schema": "nri.user_conversion_choices.v1",
+  "goal_id": "20261004-user-docx-review",
+  "authority": "Direct user answers to three finite questions on 5 October 2026",
+  "decisions": [
+    {
+      "id": "len-stealth-context-values",
+      "entities": ["Катерина, маленький вампир", "3 зачарованных питона"],
+      "old": "Бесшумное передвижение 90%, Укрытие 75%",
+      "new": "Скрытность: 90% при передвижении, 75% при укрытии",
+      "user_answer": "Скрытность: 90% при передвижении, 75% при укрытии — сохранить авторские значения",
+      "disposition": "approved_contextual_compatibility",
+      "limitation": "Conditional source percentages retained; no skill-point allocation redesign. Exact occurrences must be bound before editing."
+    },
+    {
+      "id": "kremlin-chr-app-crosswalk",
+      "entities": ["Евгений Потапов", "Иван", "Николай"],
+      "field_map": "CHR/ХАР -> APP/НАР",
+      "values": [{"old": 8, "new": 40}, {"old": 5, "new": 25}, {"old": 12, "new": 60}],
+      "user_answer": "Да, адаптировать ХАР к НАР и умножить на 5",
+      "disposition": "approved_reader_adaptation",
+      "limitation": "User-approved field crosswalk, not a claim source abbreviation unambiguously meant APP. Immutable original stays unchanged."
+    },
+    {
+      "id": "len-rybin-bodily-conceal",
+      "context": "Bodily unnoticed entry into Rybin room; source/current Conceal/Сокрытие +10",
+      "target_skill": "Скрытность",
+      "user_answer": "Скрытность — по действию в сцене",
+      "disposition": "approved_contextual_skill_mapping",
+      "limitation": "Approves skill label, not an invented bonus-die conversion of +10. Exact occurrence must be bound."
+    }
+  ]
+}

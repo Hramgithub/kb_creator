@@ -1,0 +1,337 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.mineru_three_view_inputs.v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "mode",
+    "source",
+    "ordered_pages",
+    "render",
+    "outputs",
+    "raster_pdf_verification",
+    "tool_versions"
+  ],
+  "properties": {
+    "schema": {
+      "const": "kb_creator.mineru_three_view_inputs.v3"
+    },
+    "mode": {
+      "const": "raster_only"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "bytes",
+        "sha256",
+        "page_count",
+        "path_name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-F]{64}$"
+        },
+        "page_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "path_name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "ordered_pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sample_page",
+          "source_page"
+        ],
+        "properties": {
+          "sample_page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source_page": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "render": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "geometry_policy",
+        "dpi",
+        "source_box",
+        "raster_has_text_layer",
+        "page_geometry"
+      ],
+      "properties": {
+        "geometry_policy": {
+          "const": "source_displayed_mediabox_v1"
+        },
+        "dpi": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_box": {
+          "const": "MediaBox"
+        },
+        "raster_has_text_layer": {
+          "const": false
+        },
+        "page_geometry": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/page_geometry"
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raster_pdf"
+      ],
+      "properties": {
+        "raster_pdf": {
+          "$ref": "#/$defs/file"
+        }
+      }
+    },
+    "raster_pdf_verification": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/verification"
+      }
+    },
+    "tool_versions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "python",
+        "pypdf",
+        "pymupdf",
+        "reportlab"
+      ],
+      "properties": {
+        "python": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pypdf": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pymupdf": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reportlab": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$defs": {
+    "pair": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      ],
+      "items": false
+    },
+    "quad": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "items": false
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "bytes",
+        "sha256"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-F]{64}$"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sample_page",
+        "media_box_coordinates",
+        "crop_box_coordinates",
+        "displayed_page_size_points",
+        "rotation_degrees",
+        "user_unit",
+        "image_count",
+        "image_pixel_dimensions",
+        "has_text_layer"
+      ],
+      "properties": {
+        "sample_page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "media_box_coordinates": {
+          "$ref": "#/$defs/quad"
+        },
+        "crop_box_coordinates": {
+          "$ref": "#/$defs/quad"
+        },
+        "displayed_page_size_points": {
+          "$ref": "#/$defs/pair"
+        },
+        "rotation_degrees": {
+          "const": 0
+        },
+        "user_unit": {
+          "const": 1.0
+        },
+        "image_count": {
+          "const": 1
+        },
+        "image_pixel_dimensions": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "integer",
+              "minimum": 1
+            }
+          ],
+          "items": false
+        },
+        "has_text_layer": {
+          "const": false
+        }
+      }
+    },
+    "page_geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_page",
+        "media_box_coordinates",
+        "crop_box_coordinates",
+        "source_rotation_degrees",
+        "source_user_unit",
+        "displayed_page_size_points",
+        "raster_pixel_dimensions",
+        "raster_pdf_page_size_points",
+        "raster_pdf_rotation_degrees",
+        "raster_pdf_user_unit"
+      ],
+      "properties": {
+        "source_page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "media_box_coordinates": {
+          "$ref": "#/$defs/quad"
+        },
+        "crop_box_coordinates": {
+          "$ref": "#/$defs/quad"
+        },
+        "source_rotation_degrees": {
+          "enum": [
+            0,
+            90,
+            180,
+            270
+          ]
+        },
+        "source_user_unit": {
+          "const": 1.0
+        },
+        "displayed_page_size_points": {
+          "$ref": "#/$defs/pair"
+        },
+        "raster_pixel_dimensions": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "integer",
+              "minimum": 1
+            }
+          ],
+          "items": false
+        },
+        "raster_pdf_page_size_points": {
+          "$ref": "#/$defs/pair"
+        },
+        "raster_pdf_rotation_degrees": {
+          "const": 0
+        },
+        "raster_pdf_user_unit": {
+          "const": 1.0
+        }
+      }
+    }
+  }
+}

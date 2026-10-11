@@ -1,0 +1,23 @@
+# U4 bounded engineering task
+
+- Goal/step: `20261004-user-docx-review` / U4.
+- Policy orchestrator: main `/root`, gpt-6-sol / medium; actual platform assignment unavailable, no override.
+- Contributor: engineering gpt-6-sol / high; implementation only, no release decision.
+- Inputs: current plan/context, U3 report under `audit/art/report.md`, U2 inventories under `audit/comments/` and `audit/terminology/`, existing `pipeline/docx_review_comments.py` and its tests, current reader DOCX/HTML/assets (read only). Original PDF paths are in context.
+- Ownership: new reusable module `kb_creator/pipeline/reviewed_reader_revision.py`, thin CLI `kb_creator/scripts/revise_reviewed_reader.py`, dedicated tests `kb_creator/tests/test_reviewed_reader_revision.py`, documentation `kb_creator/docs/reviewed-reader-revision.md`, engineering evidence only under goal `audit/engineering/`, immutable receipt `handoffs/U4-engineer-v01.md`.
+- Forbidden: all original/user DOCX/PDF/assets, canonical CSV, unrelated reusable code/tests, `.git`, root plans/status/context, other contributor files. You are not alone; preserve others' edits and dirty state. Do not run a real book successor until main freezes decision data.
+
+## Accepted scope
+
+Old masters/replay no longer exist. No OCR and no new translation. Implement a reusable explicit, hash-bound reviewed-artifact successor route, labelled as such, not a native source/master rebuild. Preserve original translation, existing63 images, styles, bookmarks, hyperlinks and native review-thread parts. Apply only explicit exact text edits and inspected source-art insertions from a supplied versioned manifest. Main owns book decisions/art selection; do not invent them.
+
+## Required behavior
+
+1. Fail closed on changed input DOCX/HTML/source PDF/image identities, aliased/preexisting output paths, missing/ambiguous anchors, ambiguous exact text, changed context, unsafe asset paths or incomplete required-art coverage. Preserve all inputs; write new output root only after preflight.
+2. Manifest binds source DOCX/HTML/PDF hashes, existing image inventory, per-operation issue/graphic id, exact story/reader bookmark/HTML anchor, expected paragraph text and replacement, or exact native artwork bytes/hash/dimensions/source page and insertion position. An unchanged issue records explicit keep disposition; no empty/deleted comment is approval.
+3. OOXML-level minimal edits are preferable. Text edits must preserve runs/formatting and comment ranges; reject unsupported complex topology instead of flattening arbitrary paragraphs. Artwork insertion must be in the named story, maintain aspect ratio/no crop, use fresh valid relationship/drawing ids, and retain every preexisting media part and native comment/thread payload. HTML successor must receive the same text/art edits and preserve readable structure plus original assets. Do not resolve/remove review comments automatically.
+4. Source-art coverage is an independent required domain: a self-consistent63-image master is insufficient. Required graphics must each have a verified HTML and Word occurrence in the correct anchor; reference_only cannot satisfy must_include. Support existing retained openings plus23 new entries, without deduplicating repeated occurrences by image hash. Deliberate exclusions must be explicit reviewed ledger rows. Report source physical page separately from reader placement.
+5. Emit a machine-readable input/output/operation/coverage/preservation report, exact successor hashes and limitations. Post-write validation checks old media identities, old comments/thread parts, bookmark/hyperlink conservation, unchanged paragraphs except declared operations, image dimensions/placement, HTML–Word operation agreement and full ledger coverage. Any failure must not replace inputs or label output accepted.
+6. Tests: changed source/hash; output alias/collision; ambiguous/unsupported text anchor; missing required source graphic despite internally consistent output; reference_only vs must_include; repeated same-binary occurrences; misplaced art; source/image hash drift; conservation of existing art/comments and rich formatting; two story anchors with text+image successor happy path. Use existing helpers where safe, but no unrelated refactor.
+
+Read applicable AGENTS and documents skill fully before authoring/handling DOCX; use bundled Python (`-X utf8`), follow artifact-operation marker requirements, and no user desktop LibreOffice. No real book rendering or release claim in this bounded task. Return compact result/blockers/changed paths/tests plus immutable receipt with role/effort, assignment state, timestamp/elapsed and tokens or unavailable.

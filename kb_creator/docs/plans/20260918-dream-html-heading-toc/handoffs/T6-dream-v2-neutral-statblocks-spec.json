@@ -1,0 +1,506 @@
+{
+  "semantic_structure_profile": "reviewed_role_outline_and_partitions_v2",
+  "pages": [
+    {
+      "source_page": 1,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "cover",
+        "group_id": "dream-page-001-cover"
+      }
+    },
+    {
+      "source_page": 2,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "front_matter",
+        "group_id": "dream-page-002-front-matter"
+      }
+    },
+    {
+      "source_page": 3,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "front_matter",
+        "group_id": "dream-page-003-front-matter"
+      }
+    },
+    {
+      "source_page": 4,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-004-body"
+      }
+    },
+    {
+      "source_page": 5,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-005-body"
+      }
+    },
+    {
+      "source_page": 6,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-006-body"
+      }
+    },
+    {
+      "source_page": 7,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-007-body"
+      }
+    },
+    {
+      "source_page": 8,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-008-body"
+      }
+    },
+    {
+      "source_page": 9,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-009-body"
+      }
+    },
+    {
+      "source_page": 10,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-010-body"
+      }
+    },
+    {
+      "source_page": 11,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-011-body"
+      }
+    },
+    {
+      "source_page": 12,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-012-body"
+      }
+    },
+    {
+      "source_page": 13,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-013-body"
+      }
+    },
+    {
+      "source_page": 14,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-014-body"
+      }
+    },
+    {
+      "source_page": 15,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-015-body"
+      }
+    },
+    {
+      "source_page": 16,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-016-body"
+      }
+    },
+    {
+      "source_page": 17,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "scenario_body",
+        "group_id": "dream-page-017-body"
+      }
+    },
+    {
+      "source_page": 18,
+      "patches": [
+        {
+          "before": "> ### STANWICK WEBB\n> STR 60 CON 50 SIZ 80 DEX 55 INT 65 APP 70 POW 35 EDU 55 SAN 65 HP9 DB: 1d4 Build: 1 Move: 4 MP:7 Luck: 45\n> Brawl 55% (17/7), damage 1D3 + 1d4 Shotgun 12-gauge 65% (20/8), (damage 4D6/2D6/1D6) Browning HP pistol 65%, (damage 1d10, Range 15, ROF 2)\n> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 55%, Mechanical Repair 65%, Survival 70%, Listen 55%, Spot Hidden 50%\n\n> ### ELSIE WEBB\n> STR 30 APP 60 CON 60 POW 85 SIZ 55 EDU 65 DEX70 SAN 65 INT 90 HP9 Luck: 85\n> DB: 0 Build: 0 Move: 8 MP: 17\n> Brawl 35% (17/7), damage 1D3 40% (20/8), (damage 4D6/2D6/1D6)\n> Shotgun 12-gauge\n> Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%\n\n> ### ENLIGHTENED (REGULAR)\n> STR 60 APP 55 DB: 0 CON 65 POW 50 Build: 0 SIZ 60 EDU 55 Move: 8 DEX 25 SAN 45 MP: 17 INT 60 HP 12 Luck:50\n> Brawl 35% (17/7), damage 1D3\n> Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Dodge 10%\n\n> ### ENLIGHTENED (HEAVY)\n> STR 55 APP 75 CON 35 POW 45 Build: 1 SIZ70 EDU 60 Move: 7 DEX 55 SAN 45 MP: 9 INT 65 HP 10 Luck: 45\n> DB: 1D4\n> 35% (17/7), damage 1D3 + 1D4\n> Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Survival 40%, Dodge 25%\n\n> ### THE MIGO MAN\n> The migo-man is part of the construct and is essentially godlike within it, although he will behave as much like a human as possible. He will avoid all contact with the investigators until the end.\n> STR 99 APP 75 CON 35 POW 99 Build: 1 SIZ 70 EDU 99 DEX 99 SAN 0 MP: n/a INT 99 HP 10\n> DB: 1D4 Move: 7 Luck: 99\n> Brawl 99% (17/7), damage 1D3 + 1D4\n> Skills: Library Use 99%, Computer Use 99%, Electrical Repair 99%, Spot Hidden 99%, Listen 99%, Survival 99%, Dodge 99%, Do Anything 99%\n\n> ### MIGO\n> The investigators may encounter some migo at the Institute.\n> STR 55 CON 45 SIZ 35 DEX 60 INT 75 APP 0 POW 40 EDU 0 SAN 0 HP 8 DB: 0 Build: 0 MP: 6 Luck: N/A\n> Attacks per round: 2   \n> Move: 7/13 Flying   \n> Fighting: 45% Damage: 1D6   \n> Seize: (mnvr) will fly victim and drop from great height or   \n> suffocate from lack of oxygen\n> Armor: 0\n> Skills: Dodge 35% Sanity Loss: 0/1D6\n\n> ### HUNTING HORROR\n> STR 170 CON 65 SIZ 140 DEX 60 INT 85 APP 0 POW 115 EDU 0 SAN 0 HP 20 DB: 3D6 Build: 4 MP: 23 Luck:N/A\n> Attacks per round: 2   \n> Move: 7/13 Flying   \n> Fighting: 45% Damage: 1D6   \n> Seize: (mnvr) will fly victim and drop from great height or   \n> suffocate from lack of oxygen\n> Armor: 0 Skills: Dodge 35% Sanity Loss: 0/1D6",
+          "after": "### STANWICK WEBB\nSTR 60 CON 50 SIZ 80 DEX 55 INT 65 APP 70 POW 35 EDU 55 SAN 65 HP9 DB: 1d4 Build: 1 Move: 4 MP:7 Luck: 45\nBrawl 55% (17/7), damage 1D3 + 1d4 Shotgun 12-gauge 65% (20/8), (damage 4D6/2D6/1D6) Browning HP pistol 65%, (damage 1d10, Range 15, ROF 2)\nSkills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 55%, Mechanical Repair 65%, Survival 70%, Listen 55%, Spot Hidden 50%\n\n### ELSIE WEBB\nSTR 30 APP 60 CON 60 POW 85 SIZ 55 EDU 65 DEX70 SAN 65 INT 90 HP9 Luck: 85\nDB: 0 Build: 0 Move: 8 MP: 17\nBrawl 35% (17/7), damage 1D3 40% (20/8), (damage 4D6/2D6/1D6)\nShotgun 12-gauge\nSkills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%\n\n### ENLIGHTENED (REGULAR)\nSTR 60 APP 55 DB: 0 CON 65 POW 50 Build: 0 SIZ 60 EDU 55 Move: 8 DEX 25 SAN 45 MP: 17 INT 60 HP 12 Luck:50\nBrawl 35% (17/7), damage 1D3\nSkills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Dodge 10%\n\n### ENLIGHTENED (HEAVY)\nSTR 55 APP 75 CON 35 POW 45 Build: 1 SIZ70 EDU 60 Move: 7 DEX 55 SAN 45 MP: 9 INT 65 HP 10 Luck: 45\nDB: 1D4\n35% (17/7), damage 1D3 + 1D4\nSkills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Survival 40%, Dodge 25%\n\n### THE MIGO MAN\nThe migo-man is part of the construct and is essentially godlike within it, although he will behave as much like a human as possible. He will avoid all contact with the investigators until the end.\nSTR 99 APP 75 CON 35 POW 99 Build: 1 SIZ 70 EDU 99 DEX 99 SAN 0 MP: n/a INT 99 HP 10\nDB: 1D4 Move: 7 Luck: 99\nBrawl 99% (17/7), damage 1D3 + 1D4\nSkills: Library Use 99%, Computer Use 99%, Electrical Repair 99%, Spot Hidden 99%, Listen 99%, Survival 99%, Dodge 99%, Do Anything 99%\n\n### MIGO\nThe investigators may encounter some migo at the Institute.\nSTR 55 CON 45 SIZ 35 DEX 60 INT 75 APP 0 POW 40 EDU 0 SAN 0 HP 8 DB: 0 Build: 0 MP: 6 Luck: N/A\nAttacks per round: 2   \nMove: 7/13 Flying   \nFighting: 45% Damage: 1D6   \nSeize: (mnvr) will fly victim and drop from great height or   \nsuffocate from lack of oxygen\nArmor: 0\nSkills: Dodge 35% Sanity Loss: 0/1D6\n\n### HUNTING HORROR\nSTR 170 CON 65 SIZ 140 DEX 60 INT 85 APP 0 POW 115 EDU 0 SAN 0 HP 20 DB: 3D6 Build: 4 MP: 23 Luck:N/A\nAttacks per round: 2   \nMove: 7/13 Flying   \nFighting: 45% Damage: 1D6   \nSeize: (mnvr) will fly victim and drop from great height or   \nsuffocate from lack of oxygen\nArmor: 0 Skills: Dodge 35% Sanity Loss: 0/1D6"
+        }
+      ],
+      "review_notes_remove": [
+        "title downgrade: Armor: 0; representation: blockquote; reason: the source visual shows this line as a stat-block field and the alternate title classification is an OCR error"
+      ],
+      "review_notes_append": [
+        "title downgrade: Armor: 0; representation: semantic_span; reason: the source visual shows this line as a stat-block field and the alternate title classification is an OCR error",
+        "Reviewed statblock transport: all seven visually bounded statblocks use plain Markdown; exact boundaries remain sealed only in semantic_span sidecar units."
+      ],
+      "role_contract": {
+        "role": "character_statistics",
+        "group_id": "dream-appendix-a-character-statistics",
+        "statblock_ids": [
+          "stanwick-statblock",
+          "elsie-statblock",
+          "regular-statblock",
+          "heavy-statblock",
+          "migo-man-statblock",
+          "migo-statblock",
+          "hunting-horror-statblock"
+        ],
+        "title_heading_ids": [
+          "stanwick-statblock-title",
+          "elsie-statblock-title",
+          "regular-statblock-title",
+          "heavy-statblock-title",
+          "migo-man-statblock-title",
+          "migo-statblock-title",
+          "hunting-horror-statblock-title"
+        ]
+      },
+      "units": [
+        {
+          "id": "stanwick-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            252,
+            253,
+            254
+          ],
+          "start": "### STANWICK WEBB",
+          "end": "Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 55%, Mechanical Repair 65%, Survival 70%, Listen 55%, Spot Hidden 50%"
+        },
+        {
+          "id": "stanwick-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            251
+          ],
+          "start": "### STANWICK WEBB",
+          "container_parent": "stanwick-statblock",
+          "heading_level": 3
+        },
+        {
+          "id": "elsie-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            255,
+            256,
+            257
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 255,
+              "start": 10,
+              "end": 85
+            }
+          ],
+          "start": "### ELSIE WEBB",
+          "end": "Skills: Appraise 40%, Library Use 70%, Computer Use 55%, Electrical Repair 45%, Mechanical Repair 45%, Survival 65%, Hypnosis 85%, Psychology 95%, Listen 65%, Spot Hidden 60%"
+        },
+        {
+          "id": "elsie-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            255
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 255,
+              "start": 0,
+              "end": 10
+            }
+          ],
+          "start": "### ELSIE WEBB",
+          "container_parent": "elsie-statblock",
+          "heading_level": 3
+        },
+        {
+          "id": "regular-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            258,
+            259,
+            260
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 258,
+              "start": 21,
+              "end": 128
+            }
+          ],
+          "start": "### ENLIGHTENED (REGULAR)",
+          "end": "Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Dodge 10%"
+        },
+        {
+          "id": "regular-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            258
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 258,
+              "start": 0,
+              "end": 21
+            }
+          ],
+          "start": "### ENLIGHTENED (REGULAR)",
+          "container_parent": "regular-statblock",
+          "heading_level": 3
+        },
+        {
+          "id": "heavy-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            261,
+            278,
+            262
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 261,
+              "start": 19,
+              "end": 119
+            }
+          ],
+          "start": "### ENLIGHTENED (HEAVY)",
+          "end": "Skills: Library Use 60%, Computer Use 55%, Electrical Repair 45%, Spot Hidden 50%, Listen 50%, Survival 40%, Dodge 25%"
+        },
+        {
+          "id": "heavy-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            261
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 261,
+              "start": 0,
+              "end": 19
+            }
+          ],
+          "start": "### ENLIGHTENED (HEAVY)",
+          "container_parent": "heavy-statblock",
+          "heading_level": 3
+        },
+        {
+          "id": "migo-man-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            264,
+            265,
+            266,
+            267
+          ],
+          "source_fragments": [],
+          "start": "### THE MIGO MAN",
+          "end": "Skills: Library Use 99%, Computer Use 99%, Electrical Repair 99%, Spot Hidden 99%, Listen 99%, Survival 99%, Dodge 99%, Do Anything 99%"
+        },
+        {
+          "id": "migo-man-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            263
+          ],
+          "start": "### THE MIGO MAN",
+          "container_parent": "migo-man-statblock",
+          "heading_level": 3
+        },
+        {
+          "id": "migo-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            269,
+            270,
+            271,
+            272,
+            273
+          ],
+          "start": "### MIGO",
+          "end": "Skills: Dodge 35% Sanity Loss: 0/1D6",
+          "start_line": 35,
+          "end_line": 44
+        },
+        {
+          "id": "migo-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            268
+          ],
+          "start": "### MIGO",
+          "start_line": 35,
+          "end_line": 35,
+          "container_parent": "migo-statblock",
+          "heading_level": 3
+        },
+        {
+          "id": "hunting-horror-statblock",
+          "kind": "statblock",
+          "representation": "semantic_span",
+          "raw_indices": [
+            274,
+            275,
+            276
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 274,
+              "start": 14,
+              "end": 116
+            }
+          ],
+          "start": "### HUNTING HORROR",
+          "end": "Armor: 0 Skills: Dodge 35% Sanity Loss: 0/1D6"
+        },
+        {
+          "id": "hunting-horror-statblock-title",
+          "kind": "heading",
+          "representation": "atx_heading",
+          "raw_indices": [
+            274
+          ],
+          "source_fragments": [
+            {
+              "raw_index": 274,
+              "start": 0,
+              "end": 14
+            }
+          ],
+          "start": "### HUNTING HORROR",
+          "container_parent": "hunting-horror-statblock",
+          "heading_level": 3
+        }
+      ]
+    },
+    {
+      "source_page": 19,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "player_handouts",
+        "group_id": "dream-page-019-handouts"
+      }
+    },
+    {
+      "source_page": 20,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "player_handouts",
+        "group_id": "dream-page-020-handouts"
+      }
+    },
+    {
+      "source_page": 21,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "pregenerated_characters",
+        "group_id": "dream-appendix-c-pregenerated",
+        "root_heading_id": "appendix-c-heading",
+        "record_heading_id": "jocelyn-eaves-character-heading",
+        "leaf_heading_ids": [
+          "jocelyn-eaves-background-heading",
+          "jocelyn-eaves-knowledge-heading"
+        ]
+      }
+    },
+    {
+      "source_page": 22,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "pregenerated_characters",
+        "group_id": "dream-appendix-c-pregenerated",
+        "root_heading_id": null,
+        "record_heading_id": "milton-lowe-character-heading",
+        "leaf_heading_ids": [
+          "milton-lowe-background-heading",
+          "milton-lowe-knowledge-heading"
+        ]
+      }
+    },
+    {
+      "source_page": 23,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "pregenerated_characters",
+        "group_id": "dream-appendix-c-pregenerated",
+        "root_heading_id": null,
+        "record_heading_id": "augustine-fraser-character-heading",
+        "leaf_heading_ids": [
+          "augustine-fraser-background-heading",
+          "augustine-fraser-knowledge-heading"
+        ]
+      }
+    },
+    {
+      "source_page": 24,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "pregenerated_characters",
+        "group_id": "dream-appendix-c-pregenerated",
+        "root_heading_id": null,
+        "record_heading_id": "ainsley-hammond-character-heading",
+        "leaf_heading_ids": [
+          "ainsley-hammond-background-heading",
+          "ainsley-hammond-knowledge-heading"
+        ]
+      }
+    },
+    {
+      "source_page": 25,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "pregenerated_characters",
+        "group_id": "dream-appendix-c-pregenerated",
+        "root_heading_id": null,
+        "record_heading_id": "vincent-tenny-character-heading",
+        "leaf_heading_ids": [
+          "vincent-tenny-background-heading",
+          "vincent-tenny-knowledge-heading"
+        ]
+      }
+    },
+    {
+      "source_page": 26,
+      "inherit_units_from_baseline": true,
+      "role_contract": {
+        "role": "pregenerated_characters",
+        "group_id": "dream-appendix-c-pregenerated",
+        "root_heading_id": null,
+        "record_heading_id": "camelia-brown-character-heading",
+        "leaf_heading_ids": [
+          "camelia-brown-background-heading",
+          "camelia-brown-knowledge-heading"
+        ]
+      }
+    }
+  ]
+}

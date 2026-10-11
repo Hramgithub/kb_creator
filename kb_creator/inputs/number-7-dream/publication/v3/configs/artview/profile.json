@@ -1,0 +1,41 @@
+{
+  "schema": "kb_creator.scenario_artview_profile.v4",
+  "scenario_id": "number-7-dream",
+  "output_root": "artview-build",
+  "inputs": {
+    "master_ru": {
+      "path": "runtime-authority-placeholder.json",
+      "bytes": 3,
+      "sha256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    },
+    "master_ru_acceptance": {
+      "path": "runtime-authority-placeholder.json",
+      "bytes": 3,
+      "sha256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    },
+    "master_ru_asset_manifest": {
+      "path": "runtime-authority-placeholder.json",
+      "bytes": 3,
+      "sha256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    },
+    "reconstruction_inventory": {
+      "path": "runtime-authority-placeholder.json",
+      "bytes": 3,
+      "sha256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    },
+    "source_pdf": {
+      "path": "runtime-authority-placeholder.json",
+      "bytes": 3,
+      "sha256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    },
+    "source_identity": {
+      "path": "runtime-authority-placeholder.json",
+      "bytes": 3,
+      "sha256": "CA3D163BAB055381827226140568F3BEF7EAAC187CEBD76878E0B63E9E442356"
+    }
+  },
+  "render": {
+    "dpi": 200,
+    "format": "png"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kb_creator.reconstruction_upstream_inventory.v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "scenario_id", "reconstruction_contract_sha256", "artifacts", "inventory_sha256"],
+  "properties": {
+    "schema": {"const": "kb_creator.reconstruction_upstream_inventory.v1"},
+    "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "reconstruction_contract_sha256": {"$ref": "#/$defs/sha256"},
+    "artifacts": {
+      "type": "array", "minItems": 4, "maxItems": 4, "uniqueItems": true,
+      "allOf": [
+        {"contains": {"properties": {"role": {"const": "reconstructed_en"}, "path": {"const": "content/RECONSTRUCTED_EN.md"}}, "required": ["role", "path"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"properties": {"role": {"const": "reconstruction_manifest"}, "path": {"const": "RECONSTRUCTION_MANIFEST.json"}}, "required": ["role", "path"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"properties": {"role": {"const": "reconstruction_qa"}, "path": {"const": "RECONSTRUCTION_QA.json"}}, "required": ["role", "path"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"properties": {"role": {"const": "source_identity"}, "path": {"const": "SOURCE_IDENTITY.json"}}, "required": ["role", "path"]}, "minContains": 1, "maxContains": 1}
+      ],
+      "items": {"$ref": "#/$defs/artifact"}
+    },
+    "inventory_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "artifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["role", "path", "bytes", "sha256"],
+      "properties": {
+        "role": {"enum": ["reconstructed_en", "reconstruction_manifest", "reconstruction_qa", "source_identity"]},
+        "path": {
+          "allOf": [
+            {"$ref": "#/$defs/relative_path"},
+            {"enum": ["content/RECONSTRUCTED_EN.md", "RECONSTRUCTION_MANIFEST.json", "RECONSTRUCTION_QA.json", "SOURCE_IDENTITY.json"]}
+          ]
+        },
+        "bytes": {"type": "integer", "minimum": 1}, "sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "relative_path": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s)(?!.*\\s$)(?!/)(?!.*//)(?!.*(?:^|/)\\.\\.?(?:/|$))(?!.*[:\\\\\\u0000])(?!.*(?:^|/)(?:[cC][oO][nN]|[pP][rR][nN]|[aA][uU][xX]|[nN][uU][lL]|[cC][oO][mM][1-9]|[lL][pP][tT][1-9])(?:\\.|/|$))(?!.*[ .](?:/|$))[^/]+(?:/[^/]+)*$"
+    }
+  }
+}

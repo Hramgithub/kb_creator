@@ -1,0 +1,783 @@
+{
+  "schema": "nri.u7_derived_diagnostics.v1",
+  "records": [
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Пётр Дацюк",
+      "entity_kind": "human_npc",
+      "source_physical_page": 7,
+      "entity_anchor": {
+        "body_index": 78,
+        "text": "Пётр Дацюк",
+        "text_sha256": "3E7501FC4926188858EA4014CC9CC43A1D1B7C6008F4A6022CEADDED7426187D",
+        "bookmarks": [
+          "nri_ffe398693974dda7cf7a8514dbed5705"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 14,
+        "ВЫН": 13,
+        "ТЕЛ": 15,
+        "ЛВК": 11,
+        "МОЩ": 9
+      },
+      "planned_characteristics": {
+        "СИЛ": 70,
+        "ВЫН": 65,
+        "ТЕЛ": 75,
+        "ЛВК": 55,
+        "МОЩ": 45
+      },
+      "source_hp": 14,
+      "nominal_7e_hp_arithmetic_only": 14,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 9,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Джона",
+      "entity_kind": "creature",
+      "source_physical_page": 12,
+      "entity_anchor": {
+        "body_index": 151,
+        "text": "Джона",
+        "text_sha256": "DB690A32D4D0B43E651D7C7F5424E5F75324408E9BD75376F3B847A8CDCCA8AA",
+        "bookmarks": [
+          "nri_8fe96234e5bf34880ffe52e3dd58f49d"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 24,
+        "ВЫН": 20,
+        "ТЕЛ": 18,
+        "ЛВК": 18,
+        "МОЩ": 12
+      },
+      "planned_characteristics": {
+        "СИЛ": 120,
+        "ВЫН": 100,
+        "ТЕЛ": 90,
+        "ЛВК": 90,
+        "МОЩ": 60
+      },
+      "source_hp": 19,
+      "nominal_7e_hp_arithmetic_only": 19,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 12,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Четверо переодетых культистов",
+      "entity_kind": "human_npc",
+      "source_physical_page": 19,
+      "entity_anchor": {
+        "body_index": 277,
+        "text": "Четверо переодетых культистов",
+        "text_sha256": "5AA10369708DADCA9245A0CD845B1EC822EA3581EC63EAB95474199E5D85AE8A",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 14,
+        "ВЫН": 15,
+        "ТЕЛ": 12,
+        "ЛВК": 8,
+        "МОЩ": 9
+      },
+      "planned_characteristics": {
+        "СИЛ": 70,
+        "ВЫН": 75,
+        "ТЕЛ": 60,
+        "ЛВК": 40,
+        "МОЩ": 45
+      },
+      "source_hp": 13,
+      "nominal_7e_hp_arithmetic_only": 13,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 9,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Катерина, маленький вампир",
+      "entity_kind": "creature",
+      "source_physical_page": 20,
+      "entity_anchor": {
+        "body_index": 305,
+        "text": "Катерина, маленький вампир",
+        "text_sha256": "D1999243979A1096C562CEABCCAD5AECB02462E5F12B597E900AED9E72E7B869",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 22,
+        "ВЫН": 13,
+        "ТЕЛ": 8,
+        "ИНТ": 15,
+        "ЛВК": 13,
+        "МОЩ": 10
+      },
+      "planned_characteristics": {
+        "СИЛ": 110,
+        "ВЫН": 65,
+        "ТЕЛ": 40,
+        "ИНТ": 75,
+        "ЛВК": 65,
+        "МОЩ": 50
+      },
+      "source_hp": 13,
+      "nominal_7e_hp_arithmetic_only": 10,
+      "hp_delta_source_minus_nominal": 3,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "3 зачарованных питона",
+      "entity_kind": "creature",
+      "source_physical_page": 24,
+      "entity_anchor": {
+        "body_index": 371,
+        "text": "3 зачарованных питона",
+        "text_sha256": "7C8EE246C94B8465F75F712F1D0650C3BDDC72C28C117BFE029D406E394D78B5",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 22,
+        "ВЫН": 13,
+        "ТЕЛ": 18,
+        "ЛВК": 13,
+        "МОЩ": 10
+      },
+      "planned_characteristics": {
+        "СИЛ": 110,
+        "ВЫН": 65,
+        "ТЕЛ": 90,
+        "ЛВК": 65,
+        "МОЩ": 50
+      },
+      "source_hp": 15,
+      "nominal_7e_hp_arithmetic_only": 15,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Гаст",
+      "entity_kind": "creature",
+      "source_physical_page": 25,
+      "entity_anchor": {
+        "body_index": 395,
+        "text": "Гаст",
+        "text_sha256": "37A91FCAF70326034F743577A015D4F04CF48832070CC558DC7F85CD47A7B005",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 22,
+        "ВЫН": 14,
+        "ТЕЛ": 26,
+        "ЛВК": 13,
+        "МОЩ": 10
+      },
+      "planned_characteristics": {
+        "СИЛ": 110,
+        "ВЫН": 70,
+        "ТЕЛ": 130,
+        "ЛВК": 65,
+        "МОЩ": 50
+      },
+      "source_hp": 20,
+      "nominal_7e_hp_arithmetic_only": 20,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "3 зомби",
+      "entity_kind": "creature",
+      "source_physical_page": 28,
+      "entity_anchor": {
+        "body_index": 450,
+        "text": "3 зомби",
+        "text_sha256": "2BA174FD62CB1D303DA95E40A85529428FE9D99E3E84D431342963DF2897EB27",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 17,
+        "ВЫН": 17,
+        "ТЕЛ": 13,
+        "ИНТ": 13,
+        "МОЩ": 1,
+        "ЛВК": 7
+      },
+      "planned_characteristics": {
+        "СИЛ": 85,
+        "ВЫН": 85,
+        "ТЕЛ": 65,
+        "ИНТ": 65,
+        "МОЩ": 5,
+        "ЛВК": 35
+      },
+      "source_hp": 14,
+      "nominal_7e_hp_arithmetic_only": 15,
+      "hp_delta_source_minus_nominal": -1,
+      "nominal_7e_max_mp_arithmetic_only": 1,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Лунный зверь",
+      "entity_kind": "creature",
+      "source_physical_page": 30,
+      "entity_anchor": {
+        "body_index": 477,
+        "text": "Лунный зверь",
+        "text_sha256": "2FB7F2A976A40D05C17A157318C274EA91A4939A47621327915DE60112651B37",
+        "bookmarks": [
+          "nri_33bb49b5a62e3c10440208c314580e07"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 17,
+        "ВЫН": 13,
+        "ТЕЛ": 21,
+        "ИНТ": 16,
+        "МОЩ": 10,
+        "ЛВК": 10
+      },
+      "planned_characteristics": {
+        "СИЛ": 85,
+        "ВЫН": 65,
+        "ТЕЛ": 105,
+        "ИНТ": 80,
+        "МОЩ": 50,
+        "ЛВК": 50
+      },
+      "source_hp": 14,
+      "nominal_7e_hp_arithmetic_only": 17,
+      "hp_delta_source_minus_nominal": -3,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "4 безумных культиста",
+      "entity_kind": "human_npc",
+      "source_physical_page": 31,
+      "entity_anchor": {
+        "body_index": 507,
+        "text": "4 безумных культиста",
+        "text_sha256": "D9A9BB62AE7282980BCF52BE34DACA66E989F5F4D2FEE4F3D6456208F6829567",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 14,
+        "ВЫН": 12,
+        "ТЕЛ": 13,
+        "ИНТ": 9,
+        "МОЩ": 10,
+        "ЛВК": 11
+      },
+      "planned_characteristics": {
+        "СИЛ": 70,
+        "ВЫН": 60,
+        "ТЕЛ": 65,
+        "ИНТ": 45,
+        "МОЩ": 50,
+        "ЛВК": 55
+      },
+      "source_hp": 14,
+      "nominal_7e_hp_arithmetic_only": 12,
+      "hp_delta_source_minus_nominal": 2,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Борис Чурин",
+      "entity_kind": "human_npc",
+      "source_physical_page": 33,
+      "entity_anchor": {
+        "body_index": 531,
+        "text": "Борис Чурин",
+        "text_sha256": "1E4B2B4BB1F316963B2D76F68E9D4A5253D3C6077B7343D147FFBE14C7E95C89",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 14,
+        "ВЫН": 14,
+        "ТЕЛ": 12,
+        "ИНТ": 15,
+        "МОЩ": 20,
+        "ЛВК": 13,
+        "НАР": 13,
+        "ОБР": 10
+      },
+      "planned_characteristics": {
+        "СИЛ": 70,
+        "ВЫН": 70,
+        "ТЕЛ": 60,
+        "ИНТ": 75,
+        "МОЩ": 100,
+        "ЛВК": 65,
+        "НАР": 65,
+        "ОБР": 50
+      },
+      "source_hp": 14,
+      "nominal_7e_hp_arithmetic_only": 13,
+      "hp_delta_source_minus_nominal": 1,
+      "nominal_7e_max_mp_arithmetic_only": 20,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Итакуа",
+      "entity_kind": "deity",
+      "source_physical_page": 35,
+      "entity_anchor": {
+        "body_index": 570,
+        "text": "Итакуа",
+        "text_sha256": "1E4770F00BC8BBE0AA0CACBDA04695980BC668AA3CEDDEBF789552B429E28176",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 50,
+        "ВЫН": 150,
+        "ТЕЛ": 100,
+        "ИНТ": 10,
+        "МОЩ": 35,
+        "ЛВК": 30
+      },
+      "planned_characteristics": {
+        "СИЛ": 250,
+        "ВЫН": 750,
+        "ТЕЛ": 500,
+        "ИНТ": 50,
+        "МОЩ": 175,
+        "ЛВК": 150
+      },
+      "source_hp": 125,
+      "nominal_7e_hp_arithmetic_only": 125,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 35,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "До 3 гноф-кехов",
+      "entity_kind": "creature",
+      "source_physical_page": 36,
+      "entity_anchor": {
+        "body_index": 580,
+        "text": "До 3 гноф-кехов",
+        "text_sha256": "3A01CBC5F61F7675DCB174C14E54EE921AA497F10053FDBACBF65DD915388983",
+        "bookmarks": [
+          "nri_33597b18b863da05eafafee0ae07adc3"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 31,
+        "ВЫН": 22,
+        "ТЕЛ": 31,
+        "ИНТ": 16,
+        "МОЩ": 21,
+        "ЛВК": 14
+      },
+      "planned_characteristics": {
+        "СИЛ": 155,
+        "ВЫН": 110,
+        "ТЕЛ": 155,
+        "ИНТ": 80,
+        "МОЩ": 105,
+        "ЛВК": 70
+      },
+      "source_hp": 27,
+      "nominal_7e_hp_arithmetic_only": 26,
+      "hp_delta_source_minus_nominal": 1,
+      "nominal_7e_max_mp_arithmetic_only": 21,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Елена Орконова",
+      "entity_kind": "human_npc",
+      "source_physical_page": 36,
+      "entity_anchor": {
+        "body_index": 588,
+        "text": "Елена Орконова",
+        "text_sha256": "B2136741FE7E03861D7323DAE011B5B21152732D4C951FA95DE859FA7C6C140D",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 12,
+        "ВЫН": 14,
+        "ТЕЛ": 10,
+        "ИНТ": 15,
+        "МОЩ": 20,
+        "ЛВК": 13,
+        "НАР": 13,
+        "ОБР": 23
+      },
+      "planned_characteristics": {
+        "СИЛ": 60,
+        "ВЫН": 70,
+        "ТЕЛ": 50,
+        "ИНТ": 75,
+        "МОЩ": 100,
+        "ЛВК": 65,
+        "НАР": 65,
+        "ОБР": 95
+      },
+      "source_hp": 12,
+      "nominal_7e_hp_arithmetic_only": 12,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 20,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "2 слуги-йети",
+      "entity_kind": "creature",
+      "source_physical_page": 36,
+      "entity_anchor": {
+        "body_index": 595,
+        "text": "2 слуги-йети",
+        "text_sha256": "328BD34F02CB2204B6E3F512F2CE99C7489FC44E6FA704782089613914CB923C",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 24,
+        "ВЫН": 20,
+        "ТЕЛ": 16,
+        "ЛВК": 8,
+        "МОЩ": 9
+      },
+      "planned_characteristics": {
+        "СИЛ": 120,
+        "ВЫН": 100,
+        "ТЕЛ": 80,
+        "ЛВК": 40,
+        "МОЩ": 45
+      },
+      "source_hp": 18,
+      "nominal_7e_hp_arithmetic_only": 18,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 9,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Реджинальд Мастерс",
+      "entity_kind": "pregen_investigator",
+      "source_physical_page": 37,
+      "entity_anchor": {
+        "body_index": 611,
+        "text": "Имя: Реджинальд Мастерс",
+        "text_sha256": "BD16D2F8F3C318D7581F2BD1A39FE286A9B1F80758FB4952847805791C9B6E00",
+        "bookmarks": [
+          "nri_44027661ca5870c3d98e7bf7796d6e17",
+          "nri_469fe00e4c4c82397c8cca5cd2b30f18"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 15,
+        "ЛВК": 12,
+        "ИНТ": 16,
+        "ВЫН": 10,
+        "НАР": 10,
+        "МОЩ": 10,
+        "ТЕЛ": 10,
+        "ОБР": 23
+      },
+      "planned_characteristics": {
+        "СИЛ": 75,
+        "ЛВК": 60,
+        "ИНТ": 80,
+        "ВЫН": 50,
+        "НАР": 50,
+        "МОЩ": 50,
+        "ТЕЛ": 50,
+        "ОБР": 95
+      },
+      "source_hp": 10,
+      "nominal_7e_hp_arithmetic_only": 10,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Леон Стерндейл",
+      "entity_kind": "pregen_investigator",
+      "source_physical_page": 38,
+      "entity_anchor": {
+        "body_index": 627,
+        "text": "Имя: Леон Стерндейл",
+        "text_sha256": "2B6814696DB4248336FA95C4B903813FC1C6CC2457866A44A3237917AB1C8DDB",
+        "bookmarks": [
+          "nri_81eea0204fbe395be7a22cdd09ed2215",
+          "nri_1a4541839824cc2adc610db81daebe1b"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 11,
+        "ЛВК": 12,
+        "ИНТ": 12,
+        "ВЫН": 13,
+        "НАР": 10,
+        "МОЩ": 12,
+        "ТЕЛ": 10,
+        "ОБР": 14
+      },
+      "planned_characteristics": {
+        "СИЛ": 55,
+        "ЛВК": 60,
+        "ИНТ": 60,
+        "ВЫН": 65,
+        "НАР": 50,
+        "МОЩ": 60,
+        "ТЕЛ": 50,
+        "ОБР": 70
+      },
+      "source_hp": 12,
+      "nominal_7e_hp_arithmetic_only": 11,
+      "hp_delta_source_minus_nominal": 1,
+      "nominal_7e_max_mp_arithmetic_only": 12,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Майкрофт Бут",
+      "entity_kind": "pregen_investigator",
+      "source_physical_page": 39,
+      "entity_anchor": {
+        "body_index": 642,
+        "text": "Имя: Майкрофт Бут",
+        "text_sha256": "9BA8B72BCD39D1A7C20C0552F6857C90E7A440386188E71BE87651E8260686D9",
+        "bookmarks": [
+          "nri_95f175321fd7f92d4f3c81315083d06e",
+          "nri_f57245bf47fc2b95c08d6c83359862e7"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 15,
+        "ЛВК": 11,
+        "ИНТ": 12,
+        "ВЫН": 12,
+        "НАР": 13,
+        "МОЩ": 12,
+        "ТЕЛ": 10,
+        "ОБР": 20
+      },
+      "planned_characteristics": {
+        "СИЛ": 75,
+        "ЛВК": 55,
+        "ИНТ": 60,
+        "ВЫН": 60,
+        "НАР": 65,
+        "МОЩ": 60,
+        "ТЕЛ": 50,
+        "ОБР": 92
+      },
+      "source_hp": 11,
+      "nominal_7e_hp_arithmetic_only": 11,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 12,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Коллин Палмер",
+      "entity_kind": "pregen_investigator",
+      "source_physical_page": 40,
+      "entity_anchor": {
+        "body_index": 658,
+        "text": "Имя: Коллин Палмер",
+        "text_sha256": "23CA491398948F75259929381F5C6B6EDF73BD6BE08FDC27D951E02051471715",
+        "bookmarks": [
+          "nri_a0e16f3f7de0bc630f95758dd3ab903b",
+          "nri_96f5739341683e96733ec9da764962bc"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 10,
+        "ЛВК": 10,
+        "ИНТ": 15,
+        "ВЫН": 11,
+        "НАР": 13,
+        "МОЩ": 7,
+        "ТЕЛ": 9,
+        "ОБР": 17
+      },
+      "planned_characteristics": {
+        "СИЛ": 50,
+        "ЛВК": 50,
+        "ИНТ": 75,
+        "ВЫН": 55,
+        "НАР": 65,
+        "МОЩ": 35,
+        "ТЕЛ": 45,
+        "ОБР": 85
+      },
+      "source_hp": 10,
+      "nominal_7e_hp_arithmetic_only": 10,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 7,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "entity_id": "Альбион Фицджеральд",
+      "entity_kind": "pregen_investigator",
+      "source_physical_page": 41,
+      "entity_anchor": {
+        "body_index": 673,
+        "text": "Имя: Альбион Фицджеральд",
+        "text_sha256": "FD64969EE4F8D6467F7B7B0FCB3EE244934F4BBA90D49319C21ACC0CFB3EB9D8",
+        "bookmarks": [
+          "nri_8aa663093d8746e8d29b2ffa0fc9c456",
+          "nri_f9c8671da69e6b15bf0b9ba33512cfb9"
+        ]
+      },
+      "old_characteristics": {
+        "СИЛ": 13,
+        "ЛВК": 10,
+        "ИНТ": 16,
+        "ВЫН": 12,
+        "НАР": 14,
+        "МОЩ": 14,
+        "ТЕЛ": 12,
+        "ОБР": 14
+      },
+      "planned_characteristics": {
+        "СИЛ": 65,
+        "ЛВК": 50,
+        "ИНТ": 80,
+        "ВЫН": 60,
+        "НАР": 70,
+        "МОЩ": 70,
+        "ТЕЛ": 60,
+        "ОБР": 70
+      },
+      "source_hp": 12,
+      "nominal_7e_hp_arithmetic_only": 12,
+      "hp_delta_source_minus_nominal": 0,
+      "nominal_7e_max_mp_arithmetic_only": 14,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "secrets-of-the-kremlin-1931",
+      "entity_id": "Евгений Потапов",
+      "entity_kind": "human_npc",
+      "source_physical_page": 16,
+      "entity_anchor": {
+        "body_index": 235,
+        "text": "ИМЯ: Евгений Потапов",
+        "text_sha256": "B7B7863EBB7C08E3A60D976BD19F087CB3A9B7D5765819C78BCF706DAC26843E",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 10,
+        "ИНТ": 17,
+        "ОБР": 18,
+        "ВЫН": 13,
+        "ЛВК": 10,
+        "ХАР": 8,
+        "МОЩ": 16,
+        "ТЕЛ": 10
+      },
+      "planned_characteristics": {
+        "СИЛ": 50,
+        "ИНТ": 85,
+        "ОБР": 90,
+        "ВЫН": 65,
+        "ЛВК": 50,
+        "НАР": 40,
+        "МОЩ": 80,
+        "ТЕЛ": 50
+      },
+      "source_hp": null,
+      "nominal_7e_hp_arithmetic_only": 11,
+      "hp_delta_source_minus_nominal": null,
+      "nominal_7e_max_mp_arithmetic_only": 16,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "secrets-of-the-kremlin-1931",
+      "entity_id": "Иван",
+      "entity_kind": "human_npc",
+      "source_physical_page": 16,
+      "entity_anchor": {
+        "body_index": 240,
+        "text": "ИМЯ: Иван",
+        "text_sha256": "4F1BDB97D9117AB43B8245DD6DA6EB41CB0F15F00E708D6265856B302BF0F919",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 14,
+        "ИНТ": 15,
+        "ОБР": 17,
+        "ВЫН": 17,
+        "ЛВК": 14,
+        "ХАР": 5,
+        "МОЩ": 17,
+        "ТЕЛ": 12
+      },
+      "planned_characteristics": {
+        "СИЛ": 70,
+        "ИНТ": 75,
+        "ОБР": 85,
+        "ВЫН": 85,
+        "ЛВК": 70,
+        "НАР": 25,
+        "МОЩ": 85,
+        "ТЕЛ": 60
+      },
+      "source_hp": null,
+      "nominal_7e_hp_arithmetic_only": 14,
+      "hp_delta_source_minus_nominal": null,
+      "nominal_7e_max_mp_arithmetic_only": 17,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    },
+    {
+      "book_id": "secrets-of-the-kremlin-1931",
+      "entity_id": "Николай",
+      "entity_kind": "human_npc",
+      "source_physical_page": 16,
+      "entity_anchor": {
+        "body_index": 245,
+        "text": "ИМЯ: Николай",
+        "text_sha256": "9FBCF2D10B3C7A77E8BAB7A413B0AB457686D2605E2A93BD15389E9CA63C8D66",
+        "bookmarks": []
+      },
+      "old_characteristics": {
+        "СИЛ": 8,
+        "ИНТ": 13,
+        "ОБР": 15,
+        "ВЫН": 11,
+        "ЛВК": 14,
+        "ХАР": 12,
+        "МОЩ": 10,
+        "ТЕЛ": 4
+      },
+      "planned_characteristics": {
+        "СИЛ": 40,
+        "ИНТ": 65,
+        "ОБР": 75,
+        "ВЫН": 55,
+        "ЛВК": 70,
+        "НАР": 60,
+        "МОЩ": 50,
+        "ТЕЛ": 20
+      },
+      "source_hp": null,
+      "nominal_7e_hp_arithmetic_only": 7,
+      "hp_delta_source_minus_nominal": null,
+      "nominal_7e_max_mp_arithmetic_only": 10,
+      "disposition": "no derived-field operation; preserve source HP/MP/DB/MOV/SAN/Luck/skills/age/damage"
+    }
+  ],
+  "note": "Arithmetic comparisons are diagnostics only, not authorized edits. Current/depleted MP, creature exceptions and absent fields are not inferred."
+}

@@ -1,0 +1,1090 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Ужас Иннсмута</title>
+  <style>
+@page { size: A4; margin: 14mm 13mm 16mm; }
+body { margin: 0; background: #eee2ca; color: #25160f; font: 12pt/1.45 Georgia, "Times New Roman", serif; }
+main { max-width: 940px; margin: 0 auto; padding: 32px 30px 64px; background: #fffaf0; }
+h1, h2, h3, h4, h5, h6 { color: #6b2d12; line-height: 1.16; margin: 1.1em 0 .35em; break-after: avoid; page-break-after: avoid; }
+h1 { font-size: 2rem; border-bottom: 2px solid #9a4b24; padding-bottom: .15em; text-transform: uppercase; font-weight: 700; }
+h2 { font-size: 1.42rem; border-bottom: 1px solid #c7a675; padding-bottom: .12em; text-transform: none; font-weight: 700; }
+h3, h4, h5, h6 { font-size: 1.16rem; text-transform: none; font-weight: 400; }
+a { color: #7a3214; }
+.toc { padding: 34px 40px 62px; margin: 0 0 30px; background: #f2e2c2 center/cover no-repeat; border: 0; break-after: page; page-break-after: always; box-sizing: border-box; min-height: 236mm; overflow: hidden; }
+.toc-frame { background: rgba(255,250,240,.86); border: 3px solid rgba(96,75,49,.72); padding: 22px 30px; min-height: 210mm; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(255,250,240,.7) inset; }
+.toc h1 { margin: 0; padding: 0 0 5px; text-align: center; font-size: 1.45rem; letter-spacing: .08em; border-bottom: 1px solid rgba(96,75,49,.72); }
+.toc ol { columns: var(--toc-columns, 2); column-fill: var(--toc-column-fill, auto); column-gap: var(--toc-column-gap, normal); margin-top: 20px; padding-left: 24px; padding-top: 0; max-height: 190mm; overflow: hidden; font-size: var(--toc-font-size, inherit); line-height: var(--toc-line-height, inherit); }
+.toc li { break-inside: avoid; margin: 0 0 var(--toc-item-gap, 6px); color: #4c2413; }
+.toc a { text-decoration: none; }
+.toc .toc-level-1 { margin-left: 0; font-weight: 700; text-transform: uppercase; letter-spacing: .01em; }
+.toc .toc-level-2 { margin-left: .85em; font-weight: 500; text-transform: none; }
+.toc .toc-level-3,
+.toc .toc-level-4,
+.toc .toc-level-5,
+.toc .toc-level-6 { margin-left: 1.7em; font-size: .92em; font-weight: 400; text-transform: none; }
+.hard-page-break { display: block; height: 0; margin: 0; padding: 0; break-after: page; page-break-after: always; }
+.production-landing {
+  margin: 0 0 28px;
+  padding: 0 0 18px;
+  border-bottom: 1px solid #d7c59e;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center 56%;
+  background-size: contain;
+  min-height: 72vh;
+  display: block;
+}
+.production-landing-title { position: absolute; top: 25%; left: 0; transform: translateY(-50%); width: 100%; margin: 0; text-align: center; color: #5c2610; text-shadow: 0 1px 0 #fffaf0, 0 -1px 0 #fffaf0, 1px 0 0 #fffaf0, -1px 0 0 #fffaf0; }
+.production-landing-title-en { font-size: 2.1rem; line-height: 1.05; font-weight: 700; text-transform: uppercase; }
+.production-landing-title-ru { margin-top: 5px; font-size: 1.38rem; line-height: 1.12; font-weight: 700; }
+.production-landing-figure { display: none; margin: 0; text-align: center; }
+.production-landing .art-cover { break-before: auto; break-after: auto; }
+.production-landing-figure img { width: 100%; max-height: 250mm; object-fit: contain; }
+.production-page { padding: 18px 0 34px; border-bottom: 1px solid #d7c59e; }
+.production-page.page-type-cover { min-height: 236mm; background: #2b170d center/cover no-repeat; padding: 0; box-sizing: border-box; break-after: page; page-break-after: always; position: relative; overflow: hidden; }
+.production-page.page-type-cover h1,
+.production-page.page-type-cover h2,
+.production-page.page-type-cover p { position: relative; z-index: 1; margin-left: auto; margin-right: auto; max-width: 72%; text-align: center; color: #f7ead2; font-family: Georgia, "Times New Roman", serif; text-shadow: 0 2px 5px rgba(0,0,0,.85); border-bottom-color: rgba(247,234,210,.6); }
+.production-page.page-type-cover h1:first-of-type { padding-top: 28mm; margin-top: 0; }
+.production-page.page-type-cover h1 { font-size: 2.35rem; letter-spacing: .06em; }
+.production-page.page-type-cover h2 { font-size: 1.35rem; }
+.production-page.page-type-cover p { font-size: 1rem; font-weight: 700; letter-spacing: .04em; }
+.production-page.page-type-cover figure,
+.production-page.page-type-cover figure.keeper-art-block,
+.production-page.page-type-cover figure.art-cover,
+.production-page.page-type-cover figure.art-full-page { display: block; width: 100%; max-width: 100%; margin: 0 auto; text-align: center; break-before: auto; break-after: auto; }
+.production-page.page-type-cover figure img { width: 100%; max-width: 100%; max-height: 250mm; object-fit: contain; }
+.production-page.page-type-credits { padding: 34px 40px 62px; margin: 0; background: #f2e2c2 center/cover no-repeat; border: 0; box-sizing: border-box; min-height: 236mm; overflow: hidden; break-after: page; page-break-after: always; }
+.production-page.page-type-credits .credits-frame { background: rgba(255,250,240,.86); border: 3px solid rgba(96,75,49,.72); padding: 22px 30px; min-height: 210mm; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(255,250,240,.7) inset; }
+.credits-page-boundary { display: block; height: 0; margin: 0; padding: 0; column-span: all; break-before: page; page-break-before: always; }
+.production-page.page-type-credits h1 { text-align: center; border-bottom: 0; letter-spacing: .08em; margin: 0 0 .9em; }
+.production-page.page-type-credits h2 { font-size: 1.08rem; margin: .65em 0 .35em; break-after: avoid; page-break-after: avoid; }
+.production-page.page-type-credits .credits-columns { columns: var(--credits-columns, 2); column-gap: var(--credits-column-gap, 9mm); font-size: var(--credits-font-size, 10pt); line-height: var(--credits-line-height, 1.15); overflow-wrap: anywhere; }
+.production-page.page-type-credits .credit-item { break-inside: avoid; margin: 0 0 .48em; text-align: center; }
+.production-page.page-type-credits .credit-role { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid #8c775b; padding-bottom: 1px; margin-bottom: 1px; }
+.production-page.page-type-credits .credit-names { font-weight: 600; }
+.production-page.page-type-quote-art { min-height: 236mm; background: #2b170d center/cover no-repeat; color: #fff8e7; padding: 70mm 28mm 0; box-sizing: border-box; break-after: page; page-break-after: always; text-align: center; }
+.production-page.page-type-quote-art h1,
+.production-page.page-type-quote-art h2 { color: #fff8e7; border-color: rgba(255,248,231,.72); text-shadow: 0 2px 5px rgba(0,0,0,.85); }
+.production-page.page-type-quote-art h1 { margin: 0 auto .7em; max-width: 72%; letter-spacing: .14em; }
+.production-page.page-type-quote-art p { max-width: 62%; color: #fff8e7; background: transparent; padding: 0; margin: .25em auto; font-style: italic; text-shadow: 0 2px 5px rgba(0,0,0,.9); }
+.page-marker { display: none; }
+blockquote.review-callout { margin: 1.2em 0; padding: .8em 1em; border-left: 5px solid #8f3d19; background: #f0dfbd; }
+.statblock-card { break-inside: avoid; page-break-inside: avoid; margin: .75em 0 1em; }
+.statblock-card h2, .statblock-card h3 { margin-top: 0; }
+.statblock-card p:last-child { margin-bottom: 0; }
+.statblock-card table.has-index-column th:first-child,
+.statblock-card table.has-index-column td:first-child { width: 2.2em; min-width: 2.2em; max-width: 2.2em; text-align: center; white-space: nowrap; }
+.table-wrap { overflow-x: auto; margin: 1em 0; break-inside: avoid; page-break-inside: avoid; }
+table { width: 100%; max-width: 100%; border-collapse: collapse; font-size: .9em; }
+th, td { border: 1px solid #c7a675; padding: 6px 8px; vertical-align: top; }
+th { background: #e8d4ad; text-align: left; }
+figure { margin: 1.2em 0; text-align: center; break-inside: avoid; page-break-inside: avoid; }
+figure img { max-width: 100%; height: auto; }
+figcaption { color: #6f5b3c; font-size: .88em; margin-top: .35em; }
+.art-full-page, .art-cover, .art-pregen-fullpage { break-before: page; break-after: page; margin: 0; text-align: center; }
+.art-full-page img, .art-cover img, .art-pregen-fullpage img { width: 100%; max-height: 250mm; object-fit: contain; }
+.art-full-width { width: 100%; clear: both; }
+.art-float-right, .art-scenario-right { float: right; width: min(48%, 82mm); margin: .15em 0 .65em 1em; text-align: right; }
+.art-float-right.art-scale-30, .art-scenario-right.art-scale-30 { width: min(30%, 54mm); }
+.art-scenario-compact, .art-flow-compact { width: min(44%, 76mm); }
+.art-flow-half { width: min(50%, 86mm); }
+.art-compact-sheet { width: min(38%, 64mm); }
+.art-scale-50 img { max-width: 50%; }
+.art-scale-100 img { max-width: 100%; }
+.art-scale-90 img { max-width: 90%; }
+.art-scale-80 img { max-width: 80%; }
+.art-scale-70 img { max-width: 70%; }
+.art-source-excluded-note, .art-technical-caption { display: none; }
+code { background: #f0e4cf; padding: 1px 4px; border-radius: 2px; }
+@media print {
+  body { background: #fff; font-size: 9.75pt; line-height: 1.24; }
+  main { max-width: none; padding: 0; background: #fff; column-count: 1; column-gap: 0; }
+  .production-landing {
+    column-span: all;
+    break-after: page;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+    position: relative;
+    min-height: 267mm;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center 56%;
+    background-size: 100% auto;
+  }
+  .production-landing-title { top: 25%; margin-bottom: 0; }
+  .production-landing-title-en { font-size: 28pt; }
+  .production-landing-title-ru { font-size: 17pt; }
+  .production-landing-figure { display: none; }
+  .production-landing .art-cover { break-before: auto; break-after: auto; }
+  .production-landing-figure img { width: 100%; max-height: 220mm; object-fit: contain; }
+  .toc { column-span: all; break-after: page; page-break-after: always; min-height: 267mm; box-sizing: border-box; font-size: 12pt; padding: 16mm 18mm; }
+  .toc-frame { min-height: 230mm; }
+  .toc a { text-decoration: none; }
+  .production-page { padding: 0 0 10px; border-bottom: 0; break-inside: auto; page-break-inside: auto; }
+  .production-page.page-type-cover { column-span: all; min-height: 267mm; break-before: page; break-after: page; page-break-before: always; page-break-after: always; }
+  .production-page.page-type-cover h1:first-of-type { padding-top: 34mm; }
+  .production-page.page-type-cover h1 { font-size: 28pt; }
+  .production-page.page-type-cover h2 { font-size: 17pt; }
+  .production-page.page-type-cover p { font-size: 11pt; }
+  .production-page.page-type-cover figure,
+  .production-page.page-type-cover figure.keeper-art-block,
+  .production-page.page-type-cover figure.art-cover,
+  .production-page.page-type-cover figure.art-full-page {
+    column-span: all !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    break-before: auto !important;
+    page-break-before: auto !important;
+    break-after: auto !important;
+    page-break-after: auto !important;
+  }
+  .production-page.page-type-cover figure img {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 252mm !important;
+    object-fit: contain !important;
+  }
+  .production-page.page-type-credits,
+  .production-page.page-type-quote-art { column-span: all; min-height: 267mm; break-after: page; page-break-after: always; }
+  .production-page.page-type-credits { padding: 16mm 18mm; background-repeat: no-repeat; background-position: center; background-size: cover; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .production-page.page-type-credits .credits-frame { min-height: 230mm; padding: 10mm 11mm; background: rgba(255,250,240,.86); border: 2px solid rgba(96,75,49,.72); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .credits-page-boundary { display: block; height: 0; margin: 0; padding: 0; column-span: all; break-before: page; page-break-before: always; }
+  .production-page.page-type-credits h1 { margin: 0 0 4mm; font-size: 16pt; }
+  .production-page.page-type-credits h2 { font-size: 16pt; margin: 0 0 4mm; text-align: center; }
+  .production-page.page-type-credits .credits-columns { columns: var(--credits-columns, 2); column-gap: var(--credits-column-gap, 9mm); font-size: var(--credits-font-size, 10pt); line-height: var(--credits-line-height, 1.15); overflow-wrap: anywhere; }
+  .production-page.page-type-credits .credit-item { margin-bottom: 1.4mm; }
+  .production-page.page-type-quote-art p { max-width: 64%; font-size: 11pt; }
+  body.print-columns-2 .production-page:not(.page-type-cover):not(.page-type-credits):not(.page-type-source-toc):not(.page-type-quote-art):not(.page-type-full-art):not(.page-type-statblock-card) { display: contents; }
+  h1 { font-size: 1.35rem; }
+  h2 { font-size: 1.08rem; }
+  h3 { font-size: .98rem; }
+  body.print-columns-2 h1 { column-span: all; }
+  body.print-columns-2 h2,
+  body.print-columns-2 h3,
+  body.print-columns-2 h4,
+  body.print-columns-2 h5,
+  body.print-columns-2 h6 { column-span: none; }
+  h1, h2, h3, h4, h5, h6 { margin: .75em 0 .25em; }
+  p { margin: .38em 0; }
+  ul, ol { margin: .38em 0 .38em 1.1em; padding-left: .8em; }
+  figure, .table-wrap, blockquote.review-callout { break-inside: avoid; page-break-inside: avoid; }
+
+  #diane-loring-50-let-bibliotekar-spravochnogo-otdela,
+  #genevieve-ginny-dubois-25-let-soblaznitelnaya-kinozvezda,
+  #sammy-brewster-21-god-lyubyaschii-brat,
+  #shoggot,
+  #hugo-shrimpy-hargreaves {
+    font-size: 12pt;
+  }
+
+  .table-wrap { overflow: visible; }
+  .statblock-card { font-size: 12pt; }
+  .statblock-card { break-inside: avoid; page-break-inside: avoid; }
+  .statblock-card .table-wrap { margin: .45em 0; overflow: visible; max-width: 100%; }
+  .statblock-card table { table-layout: auto; width: 100%; max-width: 100%; font-size: .6em; }
+  .statblock-card table.statblock-attributes-table { font-size: .56em; }
+  .statblock-card table.statblock-derived-table { font-size: .58em; }
+  .statblock-card table.statblock-actions-table { font-size: .6em; }
+  .statblock-card table.statblock-dune-drives-table,
+  .statblock-card table.statblock-dune-skills-table { font-size: .64em; }
+  .statblock-card table.has-index-column th:first-child,
+  .statblock-card table.has-index-column td:first-child { width: 1.8em; min-width: 1.8em; max-width: 1.8em; padding-left: 1px; padding-right: 1px; text-align: center; white-space: nowrap; }
+  .statblock-card th,
+  .statblock-card td { padding: 1px 2px; overflow-wrap: normal; word-break: normal; white-space: normal; }
+  body.print-columns-2 blockquote.review-callout { column-span: all; columns: 2; column-gap: 8mm; break-inside: auto; page-break-inside: auto; }
+  body.print-columns-2 blockquote.review-callout p { break-inside: auto; }
+  figure { margin: .55em 0; }
+  figure img { max-height: 120mm; object-fit: contain; }
+  body.print-columns-2 figure.art-full-width { column-span: all; width: 100%; clear: both; margin: .55em 0 .8em; break-inside: avoid; page-break-inside: avoid; }
+  body.print-columns-2 figure.art-full-width img { width: 100%; max-height: 92mm; object-fit: contain; }
+  .art-full-page, .art-cover, .art-pregen-fullpage { break-before: page; break-after: page; column-span: all; }
+  .art-full-page img, .art-cover img, .art-pregen-fullpage img { max-height: 252mm; }
+  .art-float-right, .art-scenario-right { float: right; width: 46%; margin: .1em 0 .45em .75em; }
+  .art-float-right.art-scale-30, .art-scenario-right.art-scale-30 { width: 30%; }
+  .art-scenario-compact, .art-flow-compact { width: 42%; }
+  .art-compact-sheet { width: 36%; }
+  figcaption { font-size: .72em; }
+  table { font-size: .68em; line-height: 1.16; }
+  th, td { padding: 2px 3px; }
+}
+</style>
+
+<style id="innsmouth-presentation-r7">
+.title-page { position: relative; isolation: isolate; clear: both; width: 100%; aspect-ratio: 210 / 297; margin: 0 0 2rem; overflow: hidden; background: #161321; color: #fff; }
+.title-page figure.art-title-cover { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; margin: 0; overflow: hidden; }
+.title-page figure.art-title-cover img { width: 100%; height: 100%; max-width: none; max-height: none !important; object-fit: cover; }
+.title-page figure.art-title-cover::before { content: ""; position: absolute; z-index: 1; inset: 0 0 auto; height: 38%; background: #161321; }
+.title-page figure.art-title-cover::after { content: ""; position: absolute; z-index: 1; inset: auto 0 0; height: 14%; background: linear-gradient(to bottom, rgba(22, 19, 33, .72), #161321 35%); }
+.title-page .title-overlay { position: absolute; z-index: 3; top: 7%; left: 6%; right: 6%; margin: 0; padding: .7em .5em; color: #f8f3e9; background: rgba(22, 19, 33, .78); border: 2px solid rgba(248, 243, 233, .62); text-align: center; font-size: clamp(2rem, 6.5vw, 5rem); line-height: .95; letter-spacing: .035em; text-shadow: 0 3px 5px #09070d; }
+.source-toc-section { clear: both; margin: 1.5rem 0 2rem; }
+.source-toc-columns { columns: 2; column-gap: 3rem; column-fill: balance; }
+.source-toc-group { display: inline-block; width: 100%; break-inside: avoid; margin: 0 0 .8rem; }
+.source-toc-group h2 { margin: 0 0 .35rem; }
+.source-toc-group p { margin: .2rem 0; }
+figure.art-float-right { float: right; clear: right; width: 48%; max-width: none; margin: .2rem 0 1rem 1.25rem; text-align: right; }
+figure.art-float-right img { width: 100%; max-width: 100%; height: auto; }
+figure.art-full-width { clear: both; width: 100%; margin: .8rem 0 1.2rem; }
+figure.art-full-width img { width: 100%; max-width: 100%; height: auto; }
+.statblock-card::after { content: ""; display: block; clear: both; }
+#soderzhanie, #personazhi-i-chudovischa, #razdatochnye-materialy { clear: both; }
+@media (max-width: 820px) {
+  .source-toc-columns { columns: 1; }
+  figure.art-float-right { float: none; clear: both; width: 100%; margin: .8rem 0 1.2rem; text-align: center; }
+}
+@media print {
+  .source-toc-columns { columns: 2; }
+  .title-page { height: 257mm; aspect-ratio: auto; margin: 0; break-after: page; page-break-after: always; }
+  .title-page .title-overlay { font-size: 34pt; }
+  figure.art-float-right { float: right !important; clear: right !important; width: 48% !important; max-width: none !important; margin: .2rem 0 1rem 1.25rem !important; text-align: right !important; }
+}
+</style>
+</head>
+<body class="print-columns-1">
+<main>
+
+
+
+<section id="title-page" class="title-page production-page page-type-title">
+<figure class="art-title-cover art-full-width"><img src="assets/source_cover_page_01.jpg" alt=""></figure>
+<h1 id="uzhas-innsmuta" class="title-overlay">УЖАС ИННСМУТА</h1>
+</section>
+<figure class="art-full-width"><img src="assets/c68b102eb549eaa684f8fb5a3637bc8acd12f8f123cdf8aa4b79bb5b19de103c.jpg" alt=""></figure>
+<p>Свет, камера, мотор! На дворе 1923 год, и эпоха немого кино в самом разгаре. «Ужас Иннсмута» станет полнометражным трёхактным фильмом о гламурной даме, похищенной щупальцевидным чудовищем. В техноколоре!</p>
+<p>«Ужас Иннсмута» — классический сценарий 1920-х годов для 7-й редакции «Зова Ктулху», идеально подходящий тем, кто ищет готовое приключение в окрестностях Аркхэма. Он рассчитан на трёх–пятерых игроков и проходится за одну-две сессии (4–8 часов).</p>
+<h2 id="v-buklete-soderzhatsya">В буклете содержатся:</h2>
+<ul>
+<li>Сценарий для игроков любого уровня опыта;</li>
+<li>Советы по проведению на конвентах;</li>
+<li>Полноцветные раздаточные материалы;</li>
+<li>Пять готовых сыщиков;</li>
+<li>Дополнительная версия, удобная для печати.</li>
+</ul>
+<p>Этот сценарий можно провести самостоятельно или как продолжение «Испуг на сцене» того же автора.</p>
+<section id="source-toc" class="source-toc-section">
+<h1 id="soderzhanie">СОДЕРЖАНИЕ</h1>
+<div class="source-toc-columns">
+<section class="source-toc-group">
+<h2 id="vvedenie-nri-h-1e7c84a4e9f5927381bc3dd4"><a href="#nri-h-1e7c84a4e9f5927381bc3dd4">ВВЕДЕНИЕ</a></h2>
+<p><a href="#nri-h-47551367143746af596d3df2">Подготовка к игре</a></p>
+<p><a href="#nri-h-e1e4abee7d665d664b579640">Ужас Иннсмута</a></p>
+<p><a href="#nri-h-5a1d3f11fa74d5bae7cbc1e7">Привлечение сыщиков</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="deistvuyuschie-litsa-nri-h-b1afc3d2767828f22a3d7b87"><a href="#nri-h-b1afc3d2767828f22a3d7b87">ДЕЙСТВУЮЩИЕ ЛИЦА</a></h2>
+<p><a href="#nri-h-88dac050ed1ec36f91e4b6fe">Genevieve &#x27;Ginny&#x27; Dubois</a></p>
+<p><a href="#nri-h-4ad8df2678e05f458f288662">P.A. Bazzledon</a></p>
+<p><a href="#nri-h-cd6a958ad9223013558284e5">Anna Díaz</a></p>
+<p><a href="#nri-h-96bc6a07453b7b19ecf06440">Christopher McGuire</a></p>
+<p><a href="#nri-h-e0857213264e131c714fa054">Sammy Brewster</a></p>
+<p><a href="#nri-h-eb898a1c80749cbdbb6a2241">Съёмочная группа</a></p>
+<p><a href="#nri-h-bf21a56d117d74edde8c045e">Второстепенные НИП</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="nachalo-arkhem-nri-h-29da96049102775b4dcc2b3a"><a href="#nri-h-29da96049102775b4dcc2b3a">НАЧАЛО: АРКХЭМ</a></h2>
+<p><a href="#nri-h-0712e7e461fd02534398a35f">Библиотека Орна</a></p>
+<p><a href="#nri-h-f81478a90f8941232106712e">«Аркхэм Адвертайзер»</a></p>
+<p><a href="#nri-h-27b1ad17b7316f09136b83bc">Мискатоникский театр</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="innsmut-nri-h-640be35ee56417677f8750f5"><a href="#nri-h-640be35ee56417677f8750f5">ИННСМУТ</a></h2>
+<p><a href="#nri-h-e6c805ba31dc84425c90fbc6">Прибытие</a></p>
+<p><a href="#nri-h-591edd5bcf58d378b27f28cc">Отель «Гилман-хаус»</a></p>
+<p><a href="#nri-h-a6cc5383a39e0ec74e8769a8">Съёмочный вагон</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="rassledovanie-nri-h-579f6cee9279aa85f459d268"><a href="#nri-h-579f6cee9279aa85f459d268">РАССЛЕДОВАНИЕ</a></h2>
+<p><a href="#nri-h-988fb78c5b2cac516d5570bf">Кабинет продюсера</a></p>
+<p><a href="#nri-h-62a8c5d75b10782b4e475a55">Вокруг поезда</a></p>
+<p><a href="#nri-h-1e72d19ab832ccee9c380a67">Кабинет Bazzledon</a></p>
+<p><a href="#nri-h-9af9701e3f85a91ab3b92009">Трейлер Ginny</a></p>
+<p><a href="#nri-h-7eae4a85cb793259eb9ed053">Лаборатория McGuire</a></p>
+<p><a href="#nri-h-4a3bb4ef4c7d762c63fef3b4">На съёмочной площадке</a></p>
+<p><a href="#nri-h-6e9d2e67b27162302be156fe">Железнодорожный вход</a></p>
+<p><a href="#nri-h-0377b0cfaf5eda9da814e2d8">Система пещер</a></p>
+<p><a href="#nri-h-d5b878609b4bc64831d97150">Переход через пещеры</a></p>
+<p><a href="#nri-h-f6184124151c4142421b1af0">Дом Brewster</a></p>
+<p><a href="#nri-h-b741e3b3e62d814b592d4419">Случайное появление на площадке</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="v-innsmut-nri-h-1e82f0c963d8a023793fa18e"><a href="#nri-h-1e82f0c963d8a023793fa18e">В ИННСМУТ</a></h2>
+<p><a href="#nri-h-d012304a399a1e520aefdba5">Универсальный магазин</a></p>
+<p><a href="#nri-h-1b70234c4ece0af6255492e8">Пожарная станция</a></p>
+<p><a href="#nri-h-04a91268c2b7afffd26817db">Эзотерический орден Дагона</a></p>
+<p><a href="#nri-h-03dd1ed10876ac8ee6d9eb7e">Вход через пещеры</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="epicheskii-final-nri-h-9e45e6c31b8f513fdfc0cbcb"><a href="#nri-h-9e45e6c31b8f513fdfc0cbcb">ЭПИЧЕСКИЙ ФИНАЛ</a></h2>
+<p><a href="#nri-h-7b4e91617daf61336c70a8cf">Последний поезд из Иннсмута</a></p>
+<p><a href="#nri-h-db7abf043f1d139a51dd4c3f">Игра в героя</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="epilog-nri-h-784561a8c2d6538c46980f3f"><a href="#nri-h-784561a8c2d6538c46980f3f">ЭПИЛОГ</a></h2>
+<p><a href="#nri-h-ee0dadea1c956d399c954d44">Награды</a></p>
+</section>
+<section class="source-toc-group">
+<h2 id="personazhi-i-chudovischa-nri-h-216abf1f13f006ed96ddabfd"><a href="#nri-h-216abf1f13f006ed96ddabfd">ПЕРСОНАЖИ И ЧУДОВИЩА</a></h2>
+</section>
+<section class="source-toc-group">
+<h2 id="gotovye-syschiki-nri-h-cef5699cd74c24cd894040ee"><a href="#nri-h-cef5699cd74c24cd894040ee">ГОТОВЫЕ СЫЩИКИ</a></h2>
+</section>
+<section class="source-toc-group">
+<h2 id="razdatochnye-materialy-nri-h-9eb21ebd1012f4d0e1572e0a"><a href="#nri-h-9eb21ebd1012f4d0e1572e0a">РАЗДАТОЧНЫЕ МАТЕРИАЛЫ</a></h2>
+</section>
+</div>
+</section>
+<h1 id="uzhas-innsmuta-2">УЖАС ИННСМУТА</h1>
+<p>«Мы поплывём к мрачному рифу в море и нырнём сквозь чёрные бездны к многоколонному циклопическому Y&#x27;ha-nthlei, и в логове Глубоководных будем вечно жить среди чудес и славы».</p>
+<p>—Г. Ф. Лавкрафта, «Тень над Иннсмутом»</p>
+<a id="nri-h-1e7c84a4e9f5927381bc3dd4"></a>
+<h2 id="vvedenie">ВВЕДЕНИЕ</h2>
+<p>Свет, камера, мотор! На дворе 1923 год, и эпоха немого кино в самом разгаре. «Ужас Иннсмута» станет полнометражным трёхактным фильмом о гламурной даме, похищенной щупальцевидным чудовищем. В техноколоре!</p>
+<p>Но когда кинокомпании одалживают ценную тиару, а затем она бесцеремонно её теряет, сыщиков отправляют на поиски. Они встречают лишённую всякого воодушевления съёмочную группу, которую преследуют задержки, нервную старлетку, отчаянно желающую закончить съёмки, и новомодную камеру, постоянно выходящую из строя. По мере того как съёмочная группа не находит в скрипучем городе Иннсмуте ни веселья, ни развлечений, растут скука и раздражение. Вокруг — лишь море невозмутимых, пропахших солью, презрительных лиц, желающих, чтобы эти городские убрались и оставили их в покое.</p>
+<p>Сумеют ли сыщики раскрыть правду, прежде чем ставки повысятся, а «Ужас Иннсмута» превратится во что-то более страшное, чем то, что запечатлевает объектив камеры?</p>
+<a id="nri-h-47551367143746af596d3df2"></a>
+<h3 id="podgotovka-k-igre">ПОДГОТОВКА К ИГРЕ</h3>
+<p>«Ужас Иннсмута» во многом опирается на рассказ Г. Ф. Лавкрафта «Тень над Иннсмутом» (1936) и использует некоторые элементы расширенного мира из «Побег из Иннсмута» (1992) издательства Chaosium. Однако знакомство с этими книгами не требуется ни для игры, ни для проведения этого расследования.</p>
+<p>Этот сценарий задуман как продолжение сценария «Испуг на сцене», который сам является продолжением «Грани тьмы». Однако он вполне самостоятелен; его можно считать происходящим в одной вселенной и с некоторыми общими НИП, а не прямым продолжением.</p>
+<p>Мало времени? Расследование можно начать в Иннсмуте (раздел «Расследование», <a href="#nri-h-579f6cee9279aa85f459d268">ссылка</a>). Нужно лишь вкратце объяснить, как сыщики оказались в этой точке.</p>
+<figure class="art-full-width"><img src="assets/6beb2e37b45a8f10d343b3f191ab143a3fa115b8234399d6e87a0eea8757f2d5.jpg" alt=""></figure>
+<h3 id="informatsiya-dlya-hranitelya">ИНФОРМАЦИЯ ДЛЯ ХРАНИТЕЛЯ</h3>
+<p>Город Иннсмут — странное место. Общество Новой Англии изо всех сил старалось игнорировать и забыть эту обветшалую приморскую деревню. Когда-то это был процветающий порт, но теперь гавань занесена илом, и лишь местные рыбацкие лодки приходят и уходят с приливом. Вскоре после открытия железнодорожное сообщение забросили: операторы назвали линию «наименее прибыльной» из всех обслуживаемых. Никто не хотел ехать в Иннсмут. И, казалось, никто никогда не уезжал.</p>
+<p>В 1830-х годах капитан Obed Marsh из Иннсмута заключил сделку с существами, живущими под Дьявольским рифом — опасным мелководьем у побережья. Существа снабжали его безделушками из золотого сплава в обмен на стеклянные и резиновые украшения. Marsh переплавлял безделушки и продавал чистое золото, обогащая город и делая семью Marsh богатой и влиятельной. Выгодополучатели золотой торговли основали церковь, названную Эзотерическим орденом Дагона, культ, поклоняющийся Дагону, богу моря. Орден постепенно захватил Иннсмут, изгоняя или обращая всех жителей. Но загнанные в угол власти дали отпор, заключив Obed Marsh и его учеников в тюрьму. Тогда существа, известные как Глубоководные, пришли защищать своих поклонников, убили местных представителей закона и закрепили за Obed Marsh негласное лидерство в Иннсмуте. За эту поддержку пришлось платить, и члены ордена были вынуждены принести три клятвы:</p>
+<p>Первая клятва: <em>«Iä! Дагон! Я, (имя говорящего), торжественно клянусь не вмешиваться в дела Глубоководных и не доносить об их деятельности. Iä! Дагон!»</em></p>
+<p>Вторая клятва: <em>«Iä! Дагон! Я, (имя говорящего), торжественно клянусь, что по требованию окажу Глубоководным посильную помощь в любой необходимой форме. Iä! Дагон!»</em></p>
+<p>Третья клятва: <em>«Iä! Дагон! Я, (имя говорящего), торжественно клянусь взять это существо [Глубоководного] в жёны/мужья, привести его в свой дом и вместе с ним стремиться зачать и вырастить детей, чтобы народ и вера продолжали процветать. Iä! Дагон! Iä! Гидра!»</em></p>
+<p>Так, благодаря третьей клятве, появились Гибриды — потомки союза Глубоководного и человека. При рождении Гибриды выглядят полностью людьми, но по мере взросления приобретают черты Глубоководных: увеличенные глаза, перепончатые пальцы и другие признаки наследия. Это обычно называют «иннсмутским обликом». Со временем большинство Гибридов учится дышать под водой, уходит в море и присоединяется к своему народу в глубинах.</p>
+<p><strong>Ginny Dubois</strong> (урождённая Ginny Brewster, <a href="#nri-h-88dac050ed1ec36f91e4b6fe">ссылка</a>) — одна из таких детей. Будучи, как многие дети, своенравной и неразумной, Ginny сбежала изучать театр. Тем самым она установила новый стандарт возмутительно плохой игры. Ginny — типичная старлетка: она покупала роли на украденные семейные деньги, но в конце концов даже этого не хватило, чтобы режиссёры подпустили её к платящей публике.</p>
+<p>На дворе 1923 год, и Ginny снова повезло. Она сыграет главную роль в новом экспериментальном фильме «Ужас Иннсмута» — и он сделает её звездой! Правда, ради съёмок ей придётся вернуться домой, но она уже внесла в сценарий изменения, чтобы посмеяться над своей отсталой деревушкой и её отсталыми обычаями.</p>
+<p>Когда на площадке появился артефакт Глубоководных, Ginny попросили надеть его как часть костюма. Испытывая отвращение к этой мысли, Ginny украла его и спрятала в своей старой спальне в Иннсмуте.</p>
+<p>Ginny не знает, что режиссёр фильма, <strong>P.A. Bazzledon</strong> (<a href="#nri-h-4ad8df2678e05f458f288662">ссылка</a>), сам состоит в сговоре с Матерью Гидрой. Он нанял Ginny не ради её внешности, денег или таланта. Она нужна ему как жертва звёздному отродью божественного императора Ктулху перед всеми жителями Иннсмута — невольная участница ужасающего ритуала и наглядное предупреждение о судьбе тех, кто нарушает свои клятвы.</p>
+<p><strong>Таблица 1: хронология событий</strong></p>
+<div class="table-wrap raw-html-table"><table><tr><td>1922</td><td>Мать Гидра является во сне P.A. Bazzledon и гонит его в Аркхэм.</td></tr><tr><td>3 недели назад</td><td>P.A Bazzledon прибывает в Аркхэм.</td></tr><tr><td>2 недели назад</td><td>P.A Bazzledon убеждает Henry Armitage отдать ему Атлантийскую драгоценность.</td></tr><tr><td>10 дней назад</td><td>Съёмочная группа отправляется поездом в Иннсмут.</td></tr><tr><td>9 дней назад</td><td>Начинаются съёмки, но камеру преследуют неисправности.</td></tr><tr><td>3 дня назад</td><td>Ginny Dubois крадёт драгоценность из лаборатории McGuire.</td></tr><tr><td>Сейчас</td><td>Сыщиков отправляют в Иннсмут вернуть драгоценность.</td></tr><tr><td>Вечер второго дня</td><td>Начинаются съёмки эпического финала.</td></tr></table></div>
+<h3 id="uzhas-innsmuta-3">УЖАС ИННСМУТА</h3>
+<p>Технологии стремительно меняются! Кинематограф — новейшее великое увлечение, и все спешат разработать цветную плёнку. Хотя раскрашивание после съёмки существует давно, мечтой всегда была запись цвета в реальном времени. В 1923 году техноколор — это призменная система разделения луча, где одновременно записываются две чёрно-белые плёнки: одна за красным фильтром, другая за зелёным. Процесс сложен, плёнки легко сбиваются с совмещения и в лучшем случае капризны. Съёмки постоянно останавливаются, пока инженер чинит и настраивает единственную способную на это камеру.</p>
+<p>Рабочее название фильма — «Ужас Иннсмута». По сюжету юная девушка (её играет Ginny Dubois) бежит от жестокой семьи. Драматично перебегая поле, она оказывается схвачена злобными лягушкоподобными существами. Лягушкоподобные люди запирают её в пещере и издеваются над ней, а затем пытаются скормить гигантскому щупальцевому чудовищу. К счастью, в последний момент находчивый юноша в котелке спасает девушку, бросив монстру в глотку пакетик Tum-Eez — средства от изжоги.</p>
+<p>Многие детали фильма, например внешний вид лягушкоподобных людей, Ginny изменила так, чтобы особенно оскорбить жителей Иннсмута. Те заметили, что дешёвые костюмы лягушколюдей подозрительно напоминают Глубоководных.</p>
+<p>В ходе сценария съёмки последовательно проходят через фильм:</p>
+<ul>
+<li>Когда прибывают сыщики, съёмки идут на живописном поле у железнодорожных путей, сразу за Иннсмутом.</li>
+<li>Во время расследования съёмки перемещаются в пещеры Иннсмута, где снимают сцену в тюрьме.</li>
+<li>В финале съёмки проходят на утёсе прямо над Иннсмутом, где на глазах у всех жителей призывают звёздное отродье.</li>
+</ul>
+<p><strong>Примечание Хранителю:</strong> «Ужас Иннсмута» не станет «говорящим фильмом». Это немое кино. Стремление добавить в кино цвет и звук возникло примерно одновременно, но совместить их? Безумие.</p>
+<a id="nri-h-5a1d3f11fa74d5bae7cbc1e7"></a>
+<h3 id="privlechenie-syschikov">ПРИВЛЕЧЕНИЕ СЫЩИКОВ</h3>
+<figure data-layout-owner="privlechenie-syschikov" class="art-float-right art-inline-half"><img src="assets/82307baffee51be33d6bf8b95723fbf46d0e34e1a22fd13adc8cb598c8f82172.jpg" alt=""></figure>
+<p>Сыщики получают письмо от вице-канцлера Мискатоникского университета: библиотека Орна, главная библиотека университета, одолжила компании Bazzledon Productions один из ценных артефактов для экспериментального фильма. Однако в приморском городе Иннсмуте производственная компания потеряла артефакт и подозревает кражу. Сыщикам поручено вернуть украшение и собрать любые улики против виновника, чтобы передать их местной полиции (<a href="#nri-h-94205138fca7aa22510e0aca"><strong>Раздаточный материал 1-a</strong></a>: письмо).</p>
+<a id="nri-h-e1e4abee7d665d664b579640"></a>
+<p>«Ужас Иннсмута» предполагает, что сыщики состоят в Обществе исследования необъяснимого (SEU) и являются студентами или сотрудниками Мискатоникского университета. Однако они могут быть профессионалами или другой группой, нанятой университетом; Хранителю достаточно использовать <a href="#nri-h-f8e3b2764c3b8f24c4c83bfa"><strong>Раздаточный материал 1-b</strong></a> (письмо).</p>
+<p><strong>Примечание Хранителю:</strong> Общество исследования необъяснимого (SEU) — неформальное объединение студентов и профессоров Мискатоникского университета. Оно описано в стартовом наборе «Зова Ктулху». Каждый раз, обнаружив интересное направление для исследования, SEU выбирает участников, наиболее способных разгадать тайну. SEU собирается раз в месяц в отдельной читальной комнате библиотеки Орна.</p>
+
+<a id="nri-h-b1afc3d2767828f22a3d7b87"></a>
+<h2 id="deistvuyuschie-litsa">ДЕЙСТВУЮЩИЕ ЛИЦА</h2>
+<a id="nri-h-88dac050ed1ec36f91e4b6fe"></a>
+<h3 id="genevieve-ginny-dubois-25-let-starletka">Genevieve &#x27;Ginny&#x27; Dubois, 25 лет, старлетка</h3>
+<figure data-layout-owner="genevieve-ginny-dubois-25-let-starletka" class="art-float-right art-inline-half"><img src="assets/81240de97cfb63a63694e28b512857f6b072aa8ed012610a5884923d8d0baffa.jpg" alt=""><figcaption>Genevieve &#x27;Ginny&#x27; Dubois</figcaption></figure>
+<p>При плохом освещении широкие глаза и растянутая улыбка Ginny могут показаться невинной красотой. Но под светом прожекторов и перед работающими камерами лишь толстый грим и выразительные ракурсы скрывают её медленное превращение в гибрида. Она решительно намерена «добиться успеха» прежде, чем превращение завершится, и пойдёт ради этого на всё. В 1897 году она родилась в Иннсмуте у любящей матери и пугающего отца-Глубоководного. Предполагалось, что однажды Ginny присоединится к братьям и сёстрам внизу. Но у Ginny были другие планы. Сбежав с семейным золотом изучать театр, она купила себе участие в постановках Мискатоникского театра, спонсируя их в обмен на главную роль. Однако все спектакли провалились. Теперь она добилась главной роли в «Ужасе Иннсмута».</p>
+<p>У Ginny молочно-белая кожа, и она носит слишком много грима. Обесцвеченные светлые волосы уложены в локоны; ярко-красное платье совпадает цветом с помадой, а сама она слегка пахнет лавандой. При ближайшем рассмотрении заметны чуть широко посаженные глаза, слегка потрескавшаяся кожа и немного увеличенные зубы.</p>
+
+<a id="nri-h-4ad8df2678e05f458f288662"></a>
+<h3 id="p-a-bazzledon-40-let-rezhisser-i-moshennik">P.A. Bazzledon, 40 лет, режиссёр и мошенник</h3>
+<figure data-layout-owner="p-a-bazzledon-40-let-rezhisser-i-moshennik" class="art-float-right art-inline-half"><img src="assets/89042f940a05158789c1f01803732eea3a0a1d6b8dd02bd8284872c23d84147e.jpg" alt=""><figcaption>P.A. Bazzledon</figcaption></figure>
+<p>Phineas Arthur Bazzledon — начинающий режиссёр из самого Нью-Йорка. Или, по крайней мере, так он утверждает. В сшитом на заказ костюме, блестящем цилиндре и амарантовом жилете он выделяется в толпе. Это белый мужчина с безупречно ухоженными усами над сильной квадратной челюстью, обычно ассоциирующейся с властью и лидерством. Лёгкая седина лишь добавляет ему непринуждённой изысканности. Несколько недель назад он прибыл в Аркхэм и начал разбрасываться деньгами среди местных актёров. Вскоре вся театральная сцена закружилась вокруг него в смертельной спирали преданности. Объявив о планах снять цветной немой фильм, он получил возможность выбирать местные таланты.</p>
+<p>Bazzledon не тот, за кого себя выдаёт. В молодости мошенник вступил в культ, поклонявшийся Дагону, рассчитывая быстро разбогатеть. Но обнаружил, что клятвы Дагону не так легко нарушить. По ночам его мучают сны о Матери Гидре, предводительнице Глубоководных. Она велела ему вернуть Ginny Brewster в Иннсмут и принести её в жертву над городом. Кредитная линия, за счёт которой он финансирует съёмки, полностью фиктивна, и вскоре один из многочисленных ростовщиков, чьими услугами он пользовался, начнёт на него охоту. Но к тому времени он планирует уже двигаться к следующему городу, следующей жертве и следующему мошенничеству.</p>
+
+<a id="nri-h-cd6a958ad9223013558284e5"></a>
+<h3 id="anna-d-az-26-let-prodyuser">Anna Díaz, 26 лет, продюсер</h3>
+<figure data-layout-owner="anna-d-az-26-let-prodyuser" class="art-float-right art-inline-half"><img src="assets/5deabcfccfe44c4186745c57d25dc5e989dbadc549266836391b49ed3179f285.jpg" alt=""><figcaption>Anna Díaz</figcaption></figure>
+<p>Технически блестящая, весёлая, начитанная и трудолюбивая актриса Anna давно отказалась от надежды добиться успеха. Главные роли достаются элегантным эффектным элегантным блондинкам, а не крепким деревенским девушкам с тёмно-коричневой кожей и шрамами от акне.</p>
+<p>Однако почти энциклопедическое знание Anna об аркхемской сцене и способность уладить почти что угодно сделали её идеальным продюсером «Ужаса Иннсмута». Правда, раньше Anna никогда не продюсировала фильм, но поставила множество спектаклей — неужели это так уж отличается?</p>
+<p>Именно Anna нашла старый вагон, в котором живёт группа. Она приобрела его за бесценок, и он гораздо удобнее палаток, где группа обычно спит на площадке. Теперь, когда съёмки тянутся день за днём, вагон стал настоящим спасением: приличных отелей в Иннсмуте нет.</p>
+<p>Работать с «кинематографическим гением» вроде Bazzledon трудно для Anna. Его требования часто неожиданны и не похожи ни на что, что она могла представить. Но Anna рада учиться у человека с таким опытом. В основном она осваивает всё прямо на работе, разбираясь сама — даже если учиться приходится совсем не тому, чего она ожидала.</p>
+<p>Anna добилась своего, хватаясь за каждую возможность, поэтому она сделает эту постановку успешной, даже если придётся тащить её к финишу пинками и воплями.</p>
+
+<a id="nri-h-96bc6a07453b7b19ecf06440"></a>
+<h3 id="christopher-mcguire-37-let-inzhener">Christopher McGuire, 37 лет, инженер</h3>
+<figure data-layout-owner="christopher-mcguire-37-let-inzhener" class="art-float-right art-inline-half"><img src="assets/f03a1d401aabe96c7433f2775daa155f8e0bdfa17a2bf233ee902fe070c88f91.jpg" alt=""><figcaption>Christopher McGuire</figcaption></figure>
+<p>Высокий нескладный белый мужчина с рыжими кудрями под кепкой, Christoper McGuire — неловкий человек, оживающий лишь за работой с техникой. Чрезвычайно высокий и постоянно склонённый над камерой, он владеет маленькой мастерской рядом с территорией Мискатоникского университета. Иногда он читает гостевые лекции инженерному факультету, хотя в последнее время реже: учёные не вполне понимают, чем он занят.</p>
+<p>Именно McGuire предложил Bazzledon снимать в техноколоре вскоре после его приезда в Аркхэм. Bazzledon ухватился за эту идею как за идеальную основу долгой аферы.</p>
+<p>К сожалению, технология ещё не готова для полнометражного фильма — её даже рано выносить из лаборатории. Камера постоянно ломается, из-за чего съёмки останавливаются на много часов. McGuire делает всё возможное, чтобы процесс продолжался.</p>
+<p>McGuire отчаянно хочет, чтобы фильм получился, и вложил в это дело все свои сбережения. Фильм необходимо закончить, и он будет держать камеру включённой до самого конца.</p>
+
+<a id="nri-h-e0857213264e131c714fa054"></a>
+<h3 id="sammy-brewster-21-god-diletant-i-brat">Sammy Brewster, 21 год, дилетант и брат</h3>
+<figure data-layout-owner="sammy-brewster-21-god-diletant-i-brat" class="art-float-right art-inline-half"><img src="assets/b2b7cdbff504429a3705ad93671f6a1a2267237071ad085ad02723e658be80b4.jpg" alt=""><figcaption>Sammy Brewster</figcaption></figure>
+<p>Приятный молодой белый мужчина из богатой семьи, Sammy лишь начинает приобретать знаменитый иннсмутский облик: слишком большие глаза и слегка рыбьи черты делают его скорее мальчишкой, чем красавцем; приглаженные светлые волосы выглядят немного… влажными.</p>
+<p>Sammy ошивается в съёмочном лагере, пытаясь поговорить с сестрой Ginny. Пару дней назад его поймала съёмочная группа и поставила ему фингал, который теперь красуется под правым глазом. Ginny не предприняла попытки связаться с ним. Ей просто неинтересно.</p>
+
+<a id="nri-h-eb898a1c80749cbdbb6a2241"></a>
+<h3 id="semochnaya-gruppa">СЪЁМОЧНАЯ ГРУППА</h3>
+<p>Непокорная толпа грузных мужчин и женщин, занимающихся переноской, организацией и иногда исполняющих второстепенные роли вроде «Страшного рыболюда номер 2». Обычно их можно найти у съёмочного поезда или за разными делами на площадке. Бесконечно взаимозаменяемые и неопределённые числом, члены группы любят напиваться и вечерами сидеть у костра. Между группой и жителями Иннсмута тлеет напряжение, и между ними уже вспыхивала не одна драка.</p>
+<a id="nri-h-bf21a56d117d74edde8c045e"></a>
+<h2 id="vtorostepennye-nip">ВТОРОСТЕПЕННЫЕ НИП</h2>
+<h3 id="diane-loring">Diane Loring</h3>
+<p>Прилежная руководительница исследовательского отдела библиотеки Орна. Она помогает сыщикам искать сведения в архивах и направляет их в «Аркхэм Адвертайзер». Это серьёзная темнокожая женщина под пятьдесят, с естественно седеющими волосами. Diane Loring вежлива с сыщиками, но дружелюбной её не назовёшь. Студенты знают о её суровой репутации. Она всегда готова помочь с серьёзными вопросами, но не терпит шума и осложнений в библиотеке.</p>
+<h3 id="henry-armitage">Henry Armitage</h3>
+<p>Знаменитый главный библиотекарь библиотеки Орна может быть уже знаком сыщикам. Он может помочь им вместо Diane Loring.</p>
+<h3 id="karen-jeffries">Karen Jeffries</h3>
+<p>Немного раздражительная, самоуверенная и властная руководительница «Аркхэм Адвертайзер», Karen убеждена, что люди никогда не проявляют к ней достаточно уважения, и совершенно не расположена тратить время на сыщиков, считающих своё расследование важнее новостей. Но если польстить ей или показаться полезными, она из кожи вон вылезет, чтобы помочь.</p>
+<h3 id="franc-turner">Franc Turner</h3>
+<p>Уборщик недавно закрывшегося Мискатоникского театра. Franc — темнокожий мужчина со слегка поседевшими волосами, в синих комбинезонах и с впечатляющими усами. Он высок и широкоплеч, так что едва помещается в рубашке.</p>
+<h3 id="jeremiah-brewster">Jeremiah Brewster</h3>
+<p>Второй по рангу жрец Эзотерического ордена Дагона. Он крепко держит жителей города под контролем, чтобы не тревожить Глубоководных. Его превращение в Глубоководного почти завершено.</p>
+<h3 id="pete">Pete</h3>
+<p>Владелец универсальный магазин Иннсмута. Он жизнерадостен и дружелюбен с сыщиками. Дела у него явно идут неважно, поэтому он рад новым лицам.</p>
+<h3 id="zadok-allen">Zadok Allen</h3>
+<p>Знаменитый пьяница из «Тени над Иннсмутом». Он знает всю историю Obed Marsh, его сделки с Глубоководными и трёх клятв, которые жители Иннсмута были вынуждены принести.</p>
+<a id="nri-h-29da96049102775b4dcc2b3a"></a>
+<h2 id="nachalo-arkhem">НАЧАЛО: АРКХЕМ</h2>
+<a id="nri-h-0712e7e461fd02534398a35f"></a>
+<h3 id="biblioteka-orna-miskatonikskii-universitet">БИБЛИОТЕКА ОРНА (МИСКАТОНИКСКИЙ УНИВЕРСИТЕТ)</h3>
+<figure data-layout-owner="biblioteka-orna-miskatonikskii-universitet" class="art-float-right art-inline-half"><img src="assets/d29dd78603767844a3d3811902958043a3a67dfd0fa809603b1926066c706531.jpg" alt=""><figcaption>Diane Loring</figcaption></figure>
+<figure data-layout-owner="biblioteka-orna-miskatonikskii-universitet" class="art-float-right art-inline-half"><img src="assets/5534eb2d722a751816b5c0181ca3fdf4fff79073e34dc5ccac9bfeb646faeb7c.jpg" alt=""><figcaption>Dr. Henry Armitage</figcaption></figure>
+<p>Наша история начинается в тихих стенах библиотеки Орна при Мискатоникском университете. Обычно Общество исследования необъяснимого (SEU) собирается в отдельной читальной комнате лишь раз в месяц, но внеплановую встречу спешно созвали по запросу самого вице-канцлера Мискатоникского университета! Вице-канцлер просит помочь вернуть Атлантийскую драгоценность — необычную тиару из золотого сплава (<a href="#nri-h-94205138fca7aa22510e0aca"><strong>Раздаточный материал 1-a</strong></a>: письмо). Она единственная в своём роде и представляет археологическую ценность. В записке совета мало сказано, кроме совета обратиться к Diane Loring за дополнительными сведениями.</p>
+<p>Как выяснилось, главный библиотекарь Henry Armitage просто открыл стеклянный шкаф и передал артефакт P.A. Bazzledon после предъявления подписанной записки вице-канцлера, разрешавшей забрать предмет. Разумеется, записка была поддельной. Внутреннее расследование установит, что Armitage обманом заставили выдать артефакт, и удержит с него недельную зарплату. Сыщики могут попытаться узнать, кто отвечал за передачу драгоценности Bazzledon, но сотрудники университета окажутся крайне неразговорчивы: Armitage любят, а его подчинённые яростно его защищают.</p>
+<p>Вероятнее всего, первым делом сыщики обратятся к Diane Loring, прилежной руководительнице исследовательского отдела, работающей за главным столом.</p>
+<p>Loring объясняет, что Атлантийская драгоценность — сокровище, которое надёжно хранилось за толстым стеклом в библиотеке Орна. Его точная история и происхождение вызывают жаркие споры в археологических кругах. Большинство учёных считает, что тиару выковала древняя ныне исчезнувшая цивилизация, отсюда и довольно невдохновляющее название артефакта. Его «ошибочно» одолжили кинокомпании для экспериментального фильма. Съёмки, похоже, идут в Иннсмуте, небольшом городе к северо-востоку от Ипсуич. К городу не ведут крупные дороги, а единственную железнодорожную линию через Роули закрыли несколько лет назад. Loring считает, что автобус в Иннсмут отправляется с Дайер-стрит в 21:00.</p>
+<ul>
+<li>На вопросы о том, как артефакт покинул библиотеку, Loring отвечает пренебрежительным взглядом. Она объясняет, что, по её мнению, важному сотруднику библиотеки предъявили поддельные документы, и он добросовестно передал артефакт.</li>
+<li>Если спросить, как университет узнал о краже, Loring отвечает, что продюсер Anna Díaz сообщила ему об исчезновении драгоценности.</li>
+</ul>
+
+
+<p><strong>Примечание Хранителю:</strong> сыщики часто придумывают сложные теории и задают вопросы, не предусмотренные сценарием. Если они зададут вопрос без очевидного ответа, импровизируйте — желательно так, чтобы вернуть их к важной для сценария информации.</p>
+<ul>
+<li>При успешной проверке Археологии сыщики узнают от Loring немного больше. Это тиара из необычного золотого сплава, который современная наука не способна воспроизвести. Рыбаки иногда поднимают подобные сокровища со дна моря и затем продают их. Эта тиара смутно связана с Иннсмутом, поэтому, вероятно, её и забрали.</li>
+<li>Loring ничего не знает о фильме и его съёмочной группе и советует обратиться в местную газету «Аркхэм Адвертайзер» (рядом), чтобы узнать больше. Она также напоминает, что при необходимости сыщики могут пользоваться ресурсами библиотеки Орна.</li>
+</ul>
+<p>Исследуя библиотеку Орна, сыщики могут выбрать разные направления. Для общих сведений об Иннсмуте и артефакте они могут пройти обычную проверку Работы в библиотеке. Разные направления также позволяют сделать общие выводы о краже:</p>
+<p>При успешной проверке Оккультизма сыщики знают, что подобные артефакты высоко ценятся культами и тайными организациями, почитающими реликвии исчезнувших культур.</p>
+<p>При успешной проверке Антропологии сыщики понимают: вероятнее всего культурное сокровище украдут те, кому оно изначально принадлежало. Такие люди придерживаются довольно необычной мысли, будто сокровище каким-то образом принадлежит им.</p>
+<p>При успешной проверке Юриспруденции сыщики решают, что лучше всего проследить за деньгами. Кто такие Bazzledon Productions? Получат ли они выгоду от продажи предмета?</p>
+<p>За более свежими сведениями придётся поговорить с людьми или посетить «Аркхэм Адвертайзер» (рядом).</p>
+<p><strong>Примечание Хранителю:</strong> описание драгоценности будет знакомо любому игроку, читавшему «Тень над Иннсмутом», поэтому Хранитель может довольно открыто дать понять, что тиара явно связана с Иннсмутом. Драгоценность изготовили Глубоководные и передали жителям Иннсмута в рамках давней сделки. Тиары, подобные Атлантийской драгоценности, часто носят жрецы Ордена Дагона либо переплавляют их ради золота.</p>
+<a id="nri-h-f81478a90f8941232106712e"></a>
+<h3 id="arkhem-advertaizer">«АРКХЭМ АДВЕРТАЙЗЕР»</h3>
+<figure data-layout-owner="arkhem-advertaizer" class="art-float-right art-inline-half"><img src="assets/497dc1045aa4f06805e86552e2de0207bf15bfbc65856c747e7a88d375212a67.jpg" alt=""><figcaption>Karen Jeffries</figcaption></figure>
+<p>Хотя библиотека Орна идеально подходит для изучения прошлого, для свежих новостей и городских сплетен ничто не сравнится с бойкой «Аркхэм Адвертайзер». Её владелица Karen Jeffries, пожалуй, самая самовлюблённая сплетница города. Если сыщики приходят днём, в редакции кипит работа: Jeffries и сотрудники сидят вокруг одного большого стола, возбуждённо говорят по телефонам, курят одну сигарету за другой, передают записки и время от времени печатают на машинках. Здесь шумно и оживлённо. Попытавшиеся прервать Jeffries до того, как она будет готова говорить, получат нагоняй и указание ждать в стороне на крайне неудобных зелёных стульях. Но если терпеливо ждать, Jeffries обратит на них внимание спустя, кажется, целую вечность.</p>
+<p><strong>Примечание Хранителю:</strong> если сыщики уже встречались с Karen, она может отреагировать на них иначе. Лучше всего предложить крупную сумму на поддержку работы «Аркхэм Адвертайзер». В противном случае стоит помнить, что Karen довольно поверхностна и благосклонна к людям с высоким Кредитным рейтингом или ВНЕ.</p>
+
+<p>Karen не станет помогать сыщикам просто так: её нужно убедить успешной проверкой Обаяния или Убеждения. Исключение — если они принесут ей эксклюзивную историю о том, как библиотека Орна потеряла бесценный артефакт. Это сразу вызывает её интерес, и она готова рассказать всё, что знает об участниках дела, если сыщики дадут анонимную цитату, способную опорочить великий Мискатоникский университет.</p>
+<p>Когда Karen всё же начинает говорить, её буквально переполняют сплетни об «Ужасе Иннсмута».</p>
+<ul>
+<li>Режиссёр P.A Bazzledon появился в Аркхэме около трёх недель назад. Он приехал из Нью-Йорка, где его имя связывают с несколькими успешными внебродвейскими постановками. Похоже, это восходящая звезда.</li>
+<li>Bazzledon буквально сорит деньгами. Jeffries очень хотела бы узнать, откуда его состояние: она написала несколько статей о таинственных источниках дохода этого театрального дилетанта, и слухов ходит множество — от семейных денег и пиратства до золотой жилы на Западе. Однако сам он остаётся загадкой.</li>
+<li>Проект якобы будут снимать в «Техниколоре», который, по словам создателей, даёт настоящий цвет! Недавно Jeffries опубликовала материал об изобретателе Christopher McGuire. Это чудак, время от времени работающий с университетом.</li>
+<li>Главную роль исполняет Ginny Dubois, недавно сыгравшая в нескольких спектаклях Мискатоникского театра (рядом), прежде чем тот сгорел при загадочных обстоятельствах. Её актёрские способности «ограниченны», но Jeffries к ней благоволит. При успешной проверке Психологии сыщики понимают, что Ginny пожертвовала деньги «Адвертайзер» в обмен на хорошие отзывы. Впрочем, при провале это тоже довольно очевидно.</li>
+<li>Продюсер купила старый спальный железнодорожный вагон и перегнала его на заброшенную ветку между Иннсмутом и Роули. В нём живёт вся съёмочная группа, поскольку в Иннсмуте, по слухам, нет гостиниц приемлемого качества.</li>
+</ul>
+<p>При упоминании Иннсмута Jeffries морщится. По её словам, за сто лет там не произошло ничего важного. Единственная местная газета, «Иннсмут Курьер», закрылась ещё в 1840-х. Она считает разговор об этом городе почти ниже своего достоинства. Впрочем, понизив голос до шёпота, Jeffries добавляет: ходят слухи, что звезда Ginny Dubois на самом деле родом из Иннсмута, хотя сама утверждает, что из Ньюберипорта.</p>
+<a id="nri-h-27b1ad17b7316f09136b83bc"></a>
+<h3 id="miskatonikskii-teatr">МИСКАТОНИКСКИЙ ТЕАТР</h3>
+<figure data-layout-owner="miskatonikskii-teatr" class="art-float-right art-inline-half"><img src="assets/d58d77c8f9d78a6f7a243191794a958376eb72a3685fb1e86c7814690cecf6f8.jpg" alt=""><figcaption>Ryan Turner</figcaption></figure>
+<p>Сыщики могли связать Ginny Dubois с театром и отправиться туда на поиски улик. К сожалению, Мискатоникский театр сгорел. Пока сыщики стоят среди руин некогда гордого здания, виден только пожилой темнокожий мужчина, убирающий обломки. Это Franc Turner, смотритель театра.</p>
+<p>Franc помнит Ginny Dubois как звезду спектакля. Он называет её «проблемой» и рад, что избавился от неё. Ginny преследовала одну цель — попасть в Голливуд и стать звездой. Ей было безразлично, кто и почему встанет на пути. При успешной проверке Общения с Franc он признаётся, что слышал: все её деньги от семьи, и родственники прислали юриста, чтобы вернуть их.</p>
+<p><strong>Заметка Хранителя:</strong> если Мискатоникский театр не сгорел в вашей игре «Испуг на сцене», вскоре он всё равно сгорит из-за другой случайности. Не бойтесь: его быстро восстановят!</p>
+
+<figure class="art-full-width"><img src="assets/ec8e821fae101fc7196af0b1afb9d74f00377479b0ba7d1a1dc4b8e8f57516b7.jpg" alt=""></figure>
+<a id="nri-h-640be35ee56417677f8750f5"></a>
+<h2 id="innsmut">ИННСМУТ</h2>
+<a id="nri-h-e6c805ba31dc84425c90fbc6"></a>
+<h3 id="pribytie">ПРИБЫТИЕ</h3>
+<p>Сыщики могут сесть на автобус до Иннсмута в 9 часов вечера на Дайер-стрит. Билет стоит 40 центов, поездка длится чуть больше 45 минут. Автобус дряхлый и медленный, но высаживает их на площади Нью-Таун. Имеющие автомобиль могут поехать с комфортом, однако дорога узкая, ухабистая и плохо содержится. Водитель должен пройти проверку Вождения автомобиля, иначе слишком разгонится и сломает заднюю ось по пути. Тогда всё равно придётся пересесть на автобус.</p>
+<p><strong>Заметка Хранителя:</strong> лучше, если у сыщиков не будет автомобиля: это ограничит их возможность быстро покинуть происходящее в городе.</p>
+<p>Когда сыщики прибывают в город, уже поздно. Автобус въезжает, и их чувства захлёстывает характерный рыбный запах. В центре он неприятен и вездесущ, а по мере приближения к гавани усиливается. Запах смешивается с постоянно гуляющим морским бризом. Фонари не горят; ночь освещают лишь оранжевые фары автобуса. По всему городу слышен грохот многочисленных водопадов, заглушающий странные звуки из тёмных разрушенных домов.</p>
+<p>Заранее забронировать номера по телефону нельзя: в Иннсмуте нет телефонной линии. Водитель тихо каркает, что в отеле «Гилман-хаус» (<a href="#nri-h-591edd5bcf58d378b27f28cc">ссылка</a>) всегда есть места, и указывает на здание возле площади. Из окна первого этажа льётся свет, входные двери открыты. Если немного прищуриться, оно почти кажется гостеприимным.</p>
+<p>Сыщики могут остановиться в отеле «Гилман-хаус» или заметить огонь на окраине города. Это производственный вагон (<a href="#nri-h-a6cc5383a39e0ec74e8769a8">ссылка</a>), где Anna Díaz найдёт для них кровати.</p>
+<a id="nri-h-591edd5bcf58d378b27f28cc"></a>
+<h3 id="otel-gilman-haus">ОТЕЛЬ «ГИЛМАН-ХАУС»</h3>
+<p>«Гилман-хаус» — знаменитый отель из рассказа Г. Ф. Лавкрафта «Тень над Иннсмутом». Одни группы направятся прямо туда в ожидании ужаса, другие постараются его избежать.</p>
+<p>Так или иначе, этот когда-то фешенебельный отель построен в 1830-х и теперь заметно состарился. Скрипучие половицы и пыльные ковры встречают сыщиков; мерцающие газовые лампы освещают стойку. Приятный добродушный регистратор записывает их имена и выдаёт «самые свежие» номера на верхнем этаже. Улыбаясь, он объясняет, что верхние этажи обычно отдают «приезжим»: там тише, а «запах» «не такой сильный». К нему нужно привыкнуть.</p>
+<p>В отеле нет даже подобия консьерж-службы, а преклонный возраст регистратора подсказывает: багаж придётся самим тащить в темноте по скрипучей лестнице наверх. Если попросить, регистратор выдаёт запасной фонарь. Он сообщает, что в каждой комнате есть фонарь и «ночной горшок» под кроватью. (Настоящие туалеты находятся в дальнем конце коридора.)</p>
+<p>Поднимаясь по лестнице, все сыщики должны пройти проверку Слуха. Успех позволяет услышать странные хрипы, карканье, вздохи и один приглушённый крик с нижних этажей. Услышавший проходит проверку Рассудка (потеря 0/1).</p>
+<p>В комнатах их ждёт простое, хотя слегка устаревшее убранство. У окна стоит ведро свежей воды, есть небольшой письменный стол и одна кровать. Комнаты сыщиков разбросаны по зданию, не рядом друг с другом. Щеколды хлипкие и почти бесполезные.</p>
+<p>При успешной проверке Внимательности сыщики замечают, что в каждой комнате есть дверь в соседнюю. Две или более комнаты можно объединить в небольшой номер. Более подозрительный сыщик поймёт, что кто-то легко войдёт, даже если дверь заперта.</p>
+<p>В этот момент многие сыщики могут решить бежать из отеля «Гилман-хаус». Ничто не мешает им извиниться и уйти. Если они остаются на ночь, сыщик с наименьшей Удачей около 3 часов просыпается от попытки открыть дверь. Если дверь не заперта, он вместо этого слышит, как она тихо закрывается, будто кто-то наблюдал за его сном.</p>
+<a id="nri-h-a6cc5383a39e0ec74e8769a8"></a>
+<h3 id="semochnyi-vagon">СЪЁМОЧНЫЙ ВАГОН</h3>
+<figure data-layout-owner="semochnyi-vagon" class="art-float-right art-inline-half"><img src="assets/74aa40aa2039e4cf4eab3fa6ff9618cdfd16778994bf6bf03c6b4ed5aa0550d6.jpg" alt=""></figure>
+<p>На северо-западной окраине Иннсмута мерцает огонь. Это единственный свет, видимый в сонном ночном городе: большинство окон закрыто плотными шторами, удерживающими свет и звук. Следующие за огнём сыщики быстро находят заброшенные пути и идут по ним к производственному вагону.</p>
+<p>Сыщики могут прибыть к производственному вагону поздним вечером или ранним утром после тревожной бессонной ночи в отеле «Гилман-хаус».</p>
+<p>Если они приходят вечером, то видят членов группы у огня: те рассказывают истории, пьют и смеются. Одна крепко сложенная женщина встаёт их приветствовать. Это продюсер Anna Díaz. Она представляется, но быстро отправляет их отдыхать в спальный вагон, обещая ответить на вопросы утром. Их размещают в маленькой, но удивительно удобной комнате с кроватями для всей группы. Они засыпают под едва слышные смех и веселье.</p>
+
+<a id="nri-h-579f6cee9279aa85f459d268"></a>
+<h2 id="rassledovanie">РАССЛЕДОВАНИЕ</h2>
+<a id="nri-h-988fb78c5b2cac516d5570bf"></a>
+<h3 id="kabinet-prodyusera">КАБИНЕТ ПРОДЮСЕРА</h3>
+<p>Раннее утро; солнце пытается пробиться сквозь туман, но пройдут часы, прежде чем оно рассеет туман, накрывший долину Мануксета. Анна Díaz сидит за загромождённым столом, устроенным в переоборудованном спальном купе Производственного поезда. Комнату наполняет запах свежего кофе, окно открыто, а вдали слышно пение птиц. Сыщики тесно устраиваются в оставшемся пространстве. Места, чтобы сесть всем, не хватает, и есть только ещё один стул.</p>
+<p>Díaz благодарит сыщиков за визит и снова извиняется за утрату Атлантийской драгоценности. Она понимает, что это сокровище огромной ценности, и отмечает, как невероятно благодарна съёмочная группа Университету, согласившемуся вообще поделиться им.</p>
+<p>Как только она поняла, что драгоценность пропала, она уведомила Университет и устроила тщательный обыск. Теперь ей неловко признаться, что первым делом она заподозрила съёмочную группу. Это не слишком свидетельствует о её классовом сознании. Она велела членам группы обыскать личные вещи друг друга и разбила их на пары для осмотра всего поезда. Драгоценность ведь не маленькая. Поэтому она почти уверена, что в вагоне её нет.</p>
+<p>Díaz не знает, откуда именно забрали драгоценность, и, похоже, никто не знает, где она хранилась. Bazzledon считал, что она была в лаборатории McGuire. McGuire думал, что её держали в сейфе в кабинете Bazzledon.</p>
+<p>Díaz не хочет предвосхищать выводы сыщиков и предлагает рассмотреть все варианты. При этом есть всего три места, которые ей не удалось обыскать:</p>
+<ul>
+<li>кабинет P.A. Bazzledon: «Но зачем ему красть драгоценность? Он в ярости из-за её пропажи, да и именно он так старался раздобыть её для съёмок».</li>
+<li>трейлер Ginny Dubois: «Она буквально родилась с деньгами. Не могу придумать ни одной причины, по которой она занялась бы мелким воровством».</li>
+<li>лаборатория Christopher McGuire: «Он категорически запрещает кому-либо входить туда. И не без причины. Там хранится вся хрупкая техника».</li>
+</ul>
+<p>Единственная другая зацепка — молодой человек из Иннсмута, который крутится возле площадки. Большинство местных держится подальше от съёмок, но этого уже не раз замечали среди вагонов. Несколько членов группы прогнали его пару ночей назад. Díaz подозревает, что это их лучшая зацепка.</p>
+<p>Разумеется, сыщики также могут поговорить со всеми членами группы. Сегодня утром они переснимают несколько сцен в поле возле железнодорожных путей, так что все будут в одном месте.</p>
+<p>Díaz открыто помогает сыщикам, внимательна к деталям и совершенно с ними честна. Она сделает всё разумное, что в её силах, чтобы помочь расследованию. При успешной проверке Общения сыщики могут даже убедить её «случайно» оставить на столе запасные ключи от разных вагонов, когда она выйдет. В противном случае они могут попытаться выхватить их проверкой Ловкости рук или прокрасться обратно в кабинет и забрать их при успешной проверке Скрытности.</p>
+<figure class="art-full-width"><img src="assets/20cc7e0f3485214dd933ad3996f0ea5a6866b23db12cd22ffa113bfe9314b125.jpg" alt=""></figure>
+<a id="nri-h-62a8c5d75b10782b4e475a55"></a>
+<h3 id="vokrug-poezda">ВОКРУГ ПОЕЗДА</h3>
+<p>Рядом со спальным вагоном, прицепленным к древнему паровозу, вагон-ресторан наскоро переоборудовали в несколько больших помещений. Вход со стороны паровоза ведёт в кабинет Bazzledon (ниже), из центра можно попасть в трейлер Ginny (<a href="#nri-h-9af9701e3f85a91ab3b92009">ссылка</a>), а на дальнем конце устроен небольшой пандус в лабораторию McGuire (<a href="#nri-h-7eae4a85cb793259eb9ed053">ссылка</a>). Все три двери заперты: нужны ключи или успешная проверка Взлома. Получив доступ в одно помещение, сыщики обнаруживают, что стены тонкие, как картон, и их можно отогнуть, переходя между трейлерами.</p>
+<a id="nri-h-1e72d19ab832ccee9c380a67"></a>
+<h3 id="kabinet-bazzledon">Кабинет Bazzledon</h3>
+<figure data-layout-owner="kabinet-bazzledon" class="art-float-right art-inline-half"><img src="assets/9ded43678da7bb047cacb1b2ffe80cda584e20341949989a19348595670daa5f.jpg" alt=""></figure>
+<p>В кабинете небрежно задёрнуты шторы, и резкие лучи света прорезают тусклую пыльную дымку. Обычно Bazzledon не бывает здесь: он постоянно на площадке, отдаёт распоряжения, строит планы и работает над финальной сценой — кульминацией своих замыслов.</p>
+<p>В одном углу спутанная груда простыней обозначает кровать. Рядом красуются большой сундук с одеждой и огромное зеркало. Возле него лежит холодное железо. Перед зеркалом аккуратно выстроено полдюжины флаконов с гримом, гелями и мазями. Его стол сделан из старого вагонного столика и покрыт бумагами. В другой части комнаты стоят два удобных на вид кресла, а между ними — маленький столик с несколькими дорогими бутылками спиртного.</p>
+<p>В этой комнате сыщики могут вести расследование разными способами и узнавать разные сведения:</p>
+<p>Бумаги на столе ошеломляют своим количеством, и при беглом просмотре плотных листов с цифрами и словами ничего ценного обнаружить не удаётся.</p>
+<ul>
+<li>При успешной проверке Бухгалтерского дела сыщики понимают, что цифры Bazzledon не сходятся. Он не пытался составить бюджет или прогноз расходов на фильм. Какова бы ни была причина создания картины, дело не в деньгах.</li>
+<li>Успешная проверка Внимания позволяет обнаружить смятый и выброшенный в урну лист. Это письмо от некоего Fat Tony, в котором тот вежливо объясняет Bazzledon, что знает о его переезде в Аркхэм, и если деньги Tony не вернутся к нему до конца месяца, ему придётся предпринять «прискорбные шаги», чтобы защитить свои вложения.</li>
+<li>Изучая сценарии, сыщики могут проверкой Язык (английский) или Работы в библиотеке просмотреть разные черновики, брошенные в стопке. Становится ясно, что в ранних версиях похищение должны были совершить люди-культисты, а не лягушколюди. Лягушачьи элементы, похоже, добавила Ginny Dubois.</li>
+<li>Читая переписку, любой узнаёт о торгах между компаниями, желавшими спонсировать фильм. Крупная компания по производству сиропа от кашля предложила \$6000 после выхода картины, а новая компания по производству антацидов Tum-Eez — \$4000 вперёд. Похоже, Bazzledon выбрал меньшую сумму и забрал деньги.</li>
+</ul>
+<ul>
+<li>Пытаясь понять Bazzledon, сыщики могут проверить Психология или Психоанализ, осматривая его комнату. При успехе они замечают запущенность и беспорядок в его личных делах и сравнивают их с тщательностью, с которой он следит за внешностью и гримом. Этот человек заботится о том, как его воспринимают, и ухаживает за гримом так же внимательно, как мастер — за инструментами.</li>
+<li>Сыщики, заинтересовавшиеся гримом, могут пройти проверку Маскировки и понять, что это инструменты человека, регулярно меняющего внешность, а не просто шоумена, который любит хорошо выглядеть.</li>
+</ul>
+<p>В конце концов сыщики замечают запертый напольный сейф под скрипучей половицей. Чтобы вскрыть его, нужна успешная проверка Взлома. Можно также открутить его при успешной проверке Ремонта механизмов. Внутри сыщики находят \$4000 наличными и старый пистолет дерринджер. Но тиары нет.</p>
+<p>Тщательный обыск кабинета Bazzledon не даёт сыщикам доказательств, что именно он забрал тиару. Также они не находят ничего, связывающего его с Мать Гидра: он получает указания во сне и никогда их не записывает.</p>
+
+<a id="nri-h-9af9701e3f85a91ab3b92009"></a>
+<h3 id="treiler-ginny">Трейлер Ginny</h3>
+<p>В трейлере Ginny светло, окна открыты и впускают морской бриз, смешанный с рыбным запахом, который, кажется, преследует всё в Иннс-муте. К знакомым запахам примешиваются резкие всплески духов. Сначала сыщики могут подумать, что здесь всё перевернули вверх дном. Одежда покрывает каждую поверхность, а единственное свободное место на полу — возле большого зеркала, окружённого лампами накаливания. Даже там в беспорядке навалены выброшенные щётки для туши и засохшие губки для грима. Место кровати можно лишь угадывать: фактически это куча одежды в дальнем конце комнаты, почти гнездо.</p>
+<p>Под беспорядком видны обломки розовых кружевных подушек и кроваво-красных покрывал, небрежно разложенных на современной дорогой мебели. Пробираясь среди вещей, сыщики предпочитают встать у окон и осмотреть комнату: смесь запахов невыносимо неприятна.</p>
+<p>Сыщики, пытающиеся распахнуть окна шире, или успешно прошедшие проверку Внимания находят на раме записку (<a href="#nri-h-1701b4c74a5e58fac76c83d3"><strong>раздаточный материал 2</strong></a>: записка).</p>
+<p>Если сыщики не находят записку на подоконнике, во время обыска они обнаруживают <a href="#nri-h-1701b4c74a5e58fac76c83d3"><strong>раздаточный материал 2</strong></a>, брошенный в урну в углу.</p>
+<p>Кроме одежды, в гримёрной есть лишь несколько фотографий Ginny с мелкими местными знаменитостями и газетная статья в рамке из «Аркхэм Адвертайзер» о «трагическом» пожаре в Мискатоникском театре, оборвавшем прославленную (три звезды) постановку «Женщина в бронзе» с «восходящей звездой» Ginny Dubois.</p>
+<p>Сыщики могут осмотреть стену между комнатами Ginny и McGuire. При успешной проверке Чтения следов они замечают лёгкие следы и сгибы на картоне: стену уже отгибали. Трудно понять, с какой стороны появились следы.</p>
+<p>Больше в комнате нет ничего ценного или интересного, и сыщики могут быстро уйти.</p>
+<p>Если сыщики не станут обыскивать трейлер или не смогут войти, проходя мимо, они замечают <a href="#nri-h-1701b4c74a5e58fac76c83d3"><strong>раздаточный материал 2</strong></a>, хлопающий на оконной раме.</p>
+<a id="nri-h-7eae4a85cb793259eb9ed053"></a>
+<h3 id="laboratoriya-mcguire">Лаборатория McGuire</h3>
+<figure data-layout-owner="laboratoriya-mcguire" class="art-float-right art-inline-half"><img src="assets/page19_film_reel.png" alt=""></figure>
+<p>Деревянные лабораторные столы занимают всю длину комнаты, а на противоположной стене торчат штыри, на которых висят тяжёлые рулоны плёнки. Плёнка разбросана повсюду, словно паутина пьяного паука, окна скрыты плотными шторами. Рабочее место McGuire освещают две резкие лампы накаливания без абажуров. На верстаке лежит частично разобранная камера. Сыщик, успешно прошедший Естественные науки (инженерное дело) или Электроника, восхищается качеством её изготовления. Это по-настоящему передовая технология: призма разделяет свет надвое, а фильтры позволяют одновременно записывать две одинаковые сцены.</p>
+<p>Хотя в лаборатории беспорядок, спрятаться здесь негде, и ни один ящик не заперт. Сыщики находят множество небезопасных химикатов, но не обнаруживают тайных сокровищ.</p>
+<p>На столе McGuire они находят небольшой план системы пещер. Он начерчен линейкой и множеством прямых углов и скорее похож на схематическую карту. Однако, похоже, карта ведёт… куда-то.</p>
+<p>Это может показаться подозрительным, но на деле это просто указания, как добраться до пещеры, где позже сегодня снимут сцену в тюрьме. Несколько дней назад McGuire и Bazzledon исследовали пещеры и выбрали отличное место. Следуя карте, сыщики неожиданно выходят на съёмочную площадку (<a href="#nri-h-b741e3b3e62d814b592d4419">ссылка</a>).</p>
+<p><strong>Заметка Хранителя:</strong> ни один из этих химикатов не горит хорошо, а самый опасный — всего лишь слабая кислота. Однако они токсичны, чувствительны к свету и дороги. А плёнка? На основе нитрата и невероятно огнеопасна.</p>
+
+<a id="nri-h-4a3bb4ef4c7d762c63fef3b4"></a>
+<h3 id="na-semochnoi-ploschadke">На съёмочной площадке</h3>
+<p>Во время первоначального расследования все участники съёмок работают на большом открытом поле возле заброшенных железнодорожных путей. Сегодня погода впечатляющая: грозовые тучи обещают позднее грозу, но пока дует лишь лёгкий ветерок.</p>
+<p>Вероятно, это первая возможность сыщиков осмотреть впечатляющий пейзаж Иннсмута. Долина внизу похожа на сплошное болото, а зубчатые вершины и утёсы над дальней окраиной города создают ощущение замкнутости и изоляции. Трудно представить, что этот затерянный участок побережья находится всего в 45 минутах езды на автобусе от Аркхэма. Поистине, современные технологии — чудо.</p>
+<p>P.A. Bazzledon и Christopher McGuire тихо спорят о технических деталях возле камеры. Тем временем Ginny Dubois отдыхает в складном кресле под огромной норковой шубой, в тёмных очках и с мундштуком для сигареты. Двое крупных членов группы сидят рядом на земле и играют в кости «Двадцать шесть». Они наполовину облачены в костюмы «лягушачьих созданий»: ноги загримированы чешуйчатыми и неправильными. Рядом с ними лежит пластиковая форма, похожая на оболочку для туловища, рук и головы, превращающая человека в пластмассовое лягушкоподобное существо. На первый взгляд это пугающая спутанная масса пластика, брошенная на земле. Только когда члены группы встают и начинают готовиться к сцене, сыщики понимают, что это часть костюма.</p>
+<p><strong>Заметка Хранителя:</strong> современному человеку пластиковые костюмы могут напомнить устаревшие фильмы категории B или повторы «Доктора Кто», но для публики 1920-х сложные костюмы в новинку и непривычны, поэтому сыщики вправе искренне немного обеспокоиться.</p>
+<p>Сыщики могут некоторое время наблюдать за съёмками, но ничего интересного не происходит. Ginny плохая актриса и ужасно переигрывает. Снимаемая сцена немногим больше, чем её медленный бег по полю, пока два неуклюжих лягушачьих существа преследуют её. Прошедшие проверку Внимания сыщики замечают отблеск света от груды камней у путей по дороге в город.</p>
+<p>Похоже, во время съёмок на площадке ни у кого нет на них времени. Сыщики могут осмотреть камни у путей и отправиться ко входу на железную дорогу (<a href="#nri-h-6e9d2e67b27162302be156fe">ссылка</a>). Либо они могут направиться в Иннсмут (<a href="#nri-h-1e82f0c963d8a023793fa18e">ссылка</a>) и начать расспросы там.</p>
+<p>В остальном площадка представляет собой пустое поле. Скрипучее чугунное здание старой железнодорожной станции находится примерно в пятистах ярдах. Если сыщики направятся к станции, они замечают зловещую щель между камнями у путей.</p>
+<p>Сначала Bazzledon встречает сыщиков очень кратко и горячо благодарит за согласие помочь «разобраться с этой маленькой проблемой». Он обходителен, но извиняется и говорит, что сейчас важнее фильм; McGuire так же отмахивается от сыщиков без интереса.</p>
+<p>До начала съёмок сыщики могут подойти к Ginny. Она принимает их за поклонников и, конечно, заявляет, что даст автограф. Суетясь, она требует ручку и бумагу, сама всё организует и выводит замысловатую подпись с сердечком над i. Сыщики, прервавшие этот ритуал или объяснившие, что они не поклонники, получают штрафной кубик на все будущие проверки Общения с Ginny.</p>
+<ul>
+<li>На вопрос о драгоценности Ginny отвечает, что понятия не имеет, где она оказалась. Может, просто затерялась в поезде. Эта девушка Díaz всё-таки немного пустоголова.</li>
+<li>Если спросить о <a href="#nri-h-1701b4c74a5e58fac76c83d3"><strong>раздаточном материале 2</strong></a>, Ginny его не узнаёт, но тревожится, что это послание одного из её поклонников. Некоторые из них бывают слишком настойчивы. Не то что милые сыщики — они кажутся очаровательными.</li>
+<li>О других актёрах Ginny восторженно хвалит Bazzledon («Какой великий ум!»), немного холоднее отзывается о McGuire («Почему он не может заставить эту проклятую машину работать?»), но самую язвительную критику оставляет Díaz («Она какая-то заносчивая, понимаете? Будто не знает своего места»).</li>
+<li>Об Иннсмуте в целом Ginny говорит с восхищением, называя его милым городком и добавляя, что здесь впервые, но ей гораздо больше по душе суета Аркхэма.</li>
+</ul>
+<p>Ответы Ginny явно театральны; прошедший Психология сыщик понимает, что о драгоценности, записке или Иннсмуте она знает гораздо больше, чем говорит. Но времени прижать её к деталям нет.</p>
+<p>После нескольких вопросов к Ginny раздаётся жужжание: McGuire починил камеру. Ginny немедленно ускользает от расспросов и выходит перед камерой. Двое членов группы начинают облачаться и внезапно превращаются в ужасных лягушачьих существ, а Bazzledon кричит: «Свет, камера, мотор!»</p>
+<p><strong>Заметка Хранителя:</strong> встречались ли сыщики с Ginny раньше, проходя «Испуг на сцене»? Не беспокойтесь. Она совершенно их не помнит и обращается с ними точно так же.</p>
+<a id="nri-h-6e9d2e67b27162302be156fe"></a>
+<h3 id="vhod-na-zheleznuyu-dorogu">Вход на железную дорогу</h3>
+<p>Зловеще острые камни навалены друг на друга, образуя природную арку. За ней небольшая травянистая площадка с едва заметной тропой ведёт к узкой щели, спускающейся в естественные туннели. Если на съёмочной площадке сыщики заметили отблеск (<a href="#nri-h-4a3bb4ef4c7d762c63fef3b4">ссылка</a>), они сразу видят разбитый бинокль на камне. Иначе нужна проверка Внимания.</p>
+<p>Если сыщики нашли <a href="#nri-h-1701b4c74a5e58fac76c83d3"><strong>раздаточный материал 2</strong></a>, отсюда они могут следовать указаниям через систему пещер (ниже). Те приведут к резиденции Brewster (<a href="#nri-h-f6184124151c4142421b1af0">ссылка</a>). Если указаний нет, но они всё равно входят в пещеры, то выходят через заброшенный дом в центре Иннсмута.</p>
+<a id="nri-h-0377b0cfaf5eda9da814e2d8"></a>
+<h3 id="sistema-pescher">СИСТЕМА ПЕЩЕР</h3>
+<p>Под городом Иннсмутом и окружающими его утёсами пролегает лабиринт туннелей, которым поколения контрабандистов и глубинных обитателей пользовались, чтобы оставаться незамеченными. Передвигаться по пещерам трудно. Указателей нет — лишь крупные зубчатые камни, местами расчищенные в грубые тропы. Вырубленные упоры и редкие лестницы подсказывают путь, но частые обвалы означают, что не всякая тропа безопасна или вообще куда-то ведёт.</p>
+<p>Сыщики, знающие направление, могут пройти проверку Ориентирования, чтобы попытаться добраться туда через пещеры. При успехе они прибывают куда хотели. При провале оказываются совсем не там (обычно в заброшенном доме Иннсмута).</p>
+<p>В течение сценария сыщики могут много раз возвращаться в систему пещер. Пещеры ведут к резиденции Brewster (<a href="#nri-h-f6184124151c4142421b1af0">ссылка</a>), неожиданной встрече со съёмками (<a href="#nri-h-b741e3b3e62d814b592d4419">ссылка</a>), Иннсмуту (<a href="#nri-h-1e82f0c963d8a023793fa18e">ссылка</a>) и Эзотерическому ордену Дагона (<a href="#nri-h-04a91268c2b7afffd26817db">ссылка</a>).</p>
+<p>Хранители должны помнить, каким источником света пользуются сыщики (вероятно, у них есть фонарь), кто его держит и в каком порядке они идут по пещерам.</p>
+<a id="nri-h-d5b878609b4bc64831d97150"></a>
+<h3 id="peremeschenie-po-pescheram">Перемещение по пещерам</h3>
+<p>Каждый раз, когда сыщики перемещаются по пещерам, пусть бросают 1d100 и используют таблицу 2 (<a href="#nri-t-tbl-p022-001">ссылка</a>) для определения встречи. За один проход по пещерам бросайте не менее двух раз. Если выпал тот же результат, используйте следующую строку таблицы.</p>
+<p>Обычно сыщики попадают в систему пещер, найдя вход возле железнодорожных путей.</p>
+<p>Однако входов в пещеры много, и Хранителю стоит помнить: найденный вход — отличный способ продвинуть действие, если расследование пошло необычным путём. В таком случае сыщики могут выйти на сцену неожиданной встречи со съёмками (<a href="#nri-h-b741e3b3e62d814b592d4419">ссылка</a>).</p>
+<figure class="art-full-width"><img src="assets/2a77226d3427fb03aa422fdfa6f5876f584609b3876e26ac83487a67f6759e33.jpg" alt=""></figure>
+<h3 id="tablitsa-2-vstrechi-v-pescherah">Таблица 2: встречи в пещерах</h3>
+<a id="nri-t-tbl-p022-001"></a>
+<div class="table-wrap raw-html-table"><table><tr><td>1D100</td><td>Описание</td></tr><tr><td>1-5</td><td>Вот это удача: сыщики находят быстрый и лёгкий путь туда, куда направляются. Кажется, будто они весело скачут между камнями.</td></tr><tr><td>6-10</td><td>Следы: сыщики замечают свежие следы. При успешной проверке Чтения следов ясно, что их оставил кто-то в женской обуви, вероятно, телосложения Ginny или Anna.</td></tr><tr><td>11-20</td><td>Осколок разгадки: сыщики находят на земле кусок металла. Очистив его от пыли, они видят блеск, похожий на изображения драгоценности, но форма не та. При успешной проверке Оценки они определяют золотой сплав, вероятно ценный.</td></tr><tr><td>21-30</td><td>Зловещий берег: сыщики сбиваются с пути и выходят к мрачному берегу. Погода ухудшается; над наполовину затопленным островом у берега Иннсмута собирается буря. Нужно бросить снова.</td></tr><tr><td>31-40</td><td>Дыра в стене: в стене есть отверстие, за которым тускло светится. Оно достаточно велико, чтобы заглянуть одним глазом. Взглянувший видит незабываемое смешение глаз, щупалец и зубов — спутанное и ужасающее; требуется проверка Рассудка (1/1D4).</td></tr><tr><td>41-50</td><td>Заваленный путь: проход вперёд завален. Сыщики с ТЕЛ меньше 60 могут проползти, более крупные должны пройти проверку ЛВК или получить 1D4 урона от острого камня.</td></tr><tr><td>51-60</td><td>Обрушенная пещера: в полу зияет щель, из неё пахнет рыбой. Она слишком мала, чтобы пролезть, но сыщик может застрять. Нужно пройти проверку Прыжков или Лазания, иначе можно упасть. Помощь друг другу даёт бонусный кубик. Застрявший получает 1D3 урона.</td></tr><tr><td>61-70</td><td>Гнилостный запах: туннель наполняет ужасная вонь — яйца, плесень и смерть перехватывают дыхание. Нужно пройти проверку ВЫН или получить 1D3 урона от кашля.</td></tr><tr><td>71-80</td><td>Отвратительные звуки: сквозь стены слышно, как нечто неестественное громко ест, словно рвёт плоть с костей. Требуется проверка Рассудка (0/1D2).</td></tr><tr><td>81-90</td><td>Внезапный удар: из ниоткуда между камнями выстреливает длинное скользкое нечто и бьёт по источнику света. Всё погружается во тьму; требуется проверка Рассудка (0/1D3). Держащий свет получает штрафной кубик.</td></tr><tr><td>91-95</td><td>Следящие глаза: сыщик в конце группы клянётся, что видел светящиеся глаза в тени. Он проходит проверку Рассудка (0/1D4), пытаясь убедить остальных, что за ними следят.</td></tr><tr><td>96-100</td><td>Близкая встреча: выйдя на уступ, сыщики видят, что пещеру внизу заполняет вода. Там лениво плывёт какое-то существо. Нужно тихо перейти уступ, не потревожив Глубоководного. Один сыщик проходит проверку Скрытности за группу, иначе ищите другой путь и бросайте снова. При провале из воды выходит Глубоководный и пытается съесть сыщиков.</td></tr></table></div>
+<a id="nri-h-f6184124151c4142421b1af0"></a>
+<h3 id="rezidentsiya-brewster">РЕЗИДЕНЦИЯ BREWSTER</h3>
+<p>Сыщики могут попасть в резиденцию Brewster, выйдя из системы пещер. Выход находится в обычном садовом сарае во дворе. Либо адрес можно узнать после разговора с Zadok Allen (пожарная станция, <a href="#nri-h-1b70234c4ece0af6255492e8">ссылка</a>).</p>
+<p>Перед ними стоит слегка обветшавший, но явно обитаемый трёхэтажный дом. Сад зарос и запущен. При успешной проверке Чтения следов сыщики замечают слабую тропу от сарая к заднему окну, которое плохо закрывается. Окно ведёт в старую комнату Ginny.</p>
+<p>На стук в дверь отвечает молодой человек. У него тот самый рыбоподобный иннсмутский вид, что у многих жителей, хотя черты не настолько заметны, чтобы он выглядел чужим в университетском кампусе. Это Sammy Brewster. Вокруг одного глаза у него сходят синяки.</p>
+<p>Sammy вежлив, искренен и совершенно честен с сыщиками. Пригласив их внутрь, он извиняется и говорит, что отец недоступен. Затем довольно неумело пытается приготовить и подать чай в гостиной. Внутри на удивление чисто, хотя некоторые углы и ниши отданы гнили и пыли. Дом строился для большой семьи и двух постоянных слуг, живших в просторном подвале. Теперь здесь остались только Sammy и его отец Jeremiah.</p>
+<p>Jeremiah Brewster проводит дни в Эзотерическом ордене Дагона (<a href="#nri-h-04a91268c2b7afffd26817db">ссылка</a>), где совмещает роли религиозного лидера и мафиозного босса, крепко удерживая жителей под контролем, чтобы не тревожить Глубоководных. Jeremiah знает о приказе Матери Гидры принести дочь в жертву и долго убеждал её вернуться домой, где мог бы хотя бы сделать смерть быстрой и безболезненной. Но когда приходит время, он возглавляет песнопение, гремящее по городу, пока жители Иннсмута славят осколок бога-императора Ктулху.</p>
+<p>Sammy ничего этого не знает. Для него сестра вернулась в город, и он надеется с ней повидаться. Когда она уехала, ему было всего одиннадцать, а отец не счёл нужным рассказать, что Ginny украла у семьи. Он пошёл к поезду, но группа перехватила его и прогнала. Sammy оставлял ей записки, но, похоже, она их не получила. Его главная цель — просто снова её увидеть.</p>
+<p>Беседуя с Sammy, сыщики видят дружелюбного, честного и искреннего юношу. Положение отца оградило его от мрачных сторон истории города; он спокоен и искренне ждёт будущего под водой. Почему бы и нет? Его жизнь в городе всегда была прекрасной, а недавние встречи с обычными людьми оказались неприятными и лишь укрепили его верность.</p>
+<ul>
+<li>Если спросить Sammy о Ginny, он подтверждает, что она его старшая сестра и что «папа» хочет, чтобы она вернулась домой. Он говорит, что она не была дома уже десять лет — с тех пор как уехала учиться театральному искусству. Папа постоянно жалуется на это, но Sammy знает, что его сестра всегда была романтичной натурой, и полагает, что она вернётся, «когда будет готова».</li>
+<li>Если спросить об Атлантийской драгоценности, Sammy подтверждает, что не видел её. Однако по описанию он замечает, что она очень похожа на вещь, которую «папа» надевает во время церемоний. О местной религии он знает немного, но участвует в самых «важных» событиях.</li>
+</ul>
+<p>Больше Sammy почти ничего добавить не может. Если сыщики добры и разумны, он поможет им чем сможет.</p>
+<p>Если сыщики решат пошарить по резиденции Brewster до или после разговора с Sammy, они увидят обветшавший дом, где используется лишь несколько комнат. Остальное покрыто пылью. Слишком любопытные рискуют разбудить шоггота в подвале (<a href="#nri-h-f1f10a91537c50581b8ff2a6">ссылка</a>) и вынуждены спасаться бегством.</p>
+<p>Осматривая первый этаж, сыщики попадают в розовую комнату с оборками, дорогой красной мебелью и удобной кроватью в углу. Шкаф открыт, одежда покрывает маленький диван и кровать, будто кто-то недавно всё перерыл. Это старая комната Ginny. Под кроватью сыщики находят Атлантийскую драгоценность.</p>
+<p>Вблизи драгоценность поражает взгляд. Странный, несочетающийся узор переплетённых золотых линий складывается в высокую тиару. На вершине сидит светлый камень. Это не похоже на человеческую работу, хотя смутно напоминает сыщикам море.</p>
+<p>Если сыщики находят драгоценность в присутствии Sammy, он тревожится и говорит, что она «наверное, принадлежит папе». Затем он пытается выхватить её и убежать. Держащий её сыщик должен пройти трудную проверку ЛВК, чтобы остановить его. Sammy убегает в пещеры, начиная погоню, которая может привести к Эпическому финалу (<a href="#nri-h-9e45e6c31b8f513fdfc0cbcb">ссылка</a>).</p>
+<p>Иначе сыщики могут снова войти в пещеры и пережить сцену неожиданной встречи со съёмками (<a href="#nri-h-b741e3b3e62d814b592d4419">ссылка</a>); если они уже были там, буря достигает пика, они сбиваются с пути и выходят в центре города к Эпическому финалу (<a href="#nri-h-9e45e6c31b8f513fdfc0cbcb">ссылка</a>).</p>
+<p><strong>Примечание Хранителю:</strong> в большинстве случаев сыщики найдут Атлантийскую драгоценность, уже зная, что её украла Ginny. Однако они могут вернуть драгоценность, всё ещё не понимая, кто был вором — Sammy или Ginny. В таком случае расследование может продолжиться сценой «Случайно на съёмочной площадке». Но как только виновник установлен, должна начаться сцена «Эпический финал».</p>
+<a id="nri-h-b741e3b3e62d814b592d4419"></a>
+<h3 id="neozhidannaya-vstrecha-so-semkami">НЕОЖИДАННАЯ ВСТРЕЧА СО СЪЁМКАМИ</h3>
+<p>Яркий свет режет глаза сыщикам, когда за поворотом они попадают в царящую вокруг сцену хаоса.</p>
+<p>Перед ними Bazzledon выкрикивает распоряжения, а McGuire вращает рычаг камеры, записывая плёнку. За деревянными прутьями, которые при плохом освещении можно принять за решётку камеры, Ginny драматично играет, пока лягушкоподобные существа тыкают в неё примитивными копьями. Сцена дезориентирует сыщиков: глазам нужно привыкнуть к яркому свету.</p>
+<p>Bazzledon отчаянно пытается заставить Ginny смотреть в камеру и изображать страх. Ginny, напротив, хочет отвернуться и соблазнительно покачивать бёдрами перед камерой. После нескольких компромиссов камера внезапно хлопает, плёнка взлетает в воздух, а McGuire пытается её поймать.</p>
+<p>Напряжение в комнате спадает. Bazzledon опускается в режиссёрское кресло, Ginny сердито уходит в тихий угол, а группа ловко снимает лягушачьи костюмы и садится играть в кости. Камера ломается не впервые, и все знают, что предстоит долго ждать, пока McGuire её починит.</p>
+<p>Теперь у сыщиков есть время опросить разных НИП, задать вопросы и попытаться получить полезные сведения. Если они всё ещё выясняют, кто и зачем украл драгоценность, они могут допросить подозреваемых и установить, где каждый находился в момент кражи.</p>
+<ul>
+<li>Bazzledon утверждает, что обычно драгоценность лежала в его кабинете, но, уходя в магазин, он оставил её McGuire «на хранение». На самом деле он был в Иннсмуте и разговаривал с членами Эзотерического ордена Дагона.</li>
+<li>Ginny утверждает, что драгоценность всегда хранилась в кабинете Bazzledon и она её не видела. На самом деле она украла её из лаборатории McGuire, пробравшись через стену.</li>
+<li>McGuire не помнит, приходил ли Bazzledon в тот день, и не может сказать наверняка. Он также не слышал ничего необычного ночью: просто не обращает внимания.</li>
+</ul>
+<p>На самом деле Bazzledon оставил драгоценность у McGuire. Ginny украла её из лаборатории и отнесла в свою старую комнату в резиденции Brewster (<a href="#nri-h-f6184124151c4142421b1af0">ссылка</a>), потому что не хотела носить её.</p>
+<p>У сыщиков могут быть другие вопросы; Хранителю следует обратиться к разделу «Действующие лица» за подробностями о каждом НИП и возможными ответами. Важно помнить: Bazzledon и Ginny часто и легко лгут.</p>
+<p>Если сыщики нашли драгоценность, они могут поднять её и получить от Bazzledon бурю похвал и обещание «великой» награды; он попытается забрать её. Если сыщики удержат драгоценность, это вызовет противостояние с группой. Они могут бежать в туннели или отдать её. Если вернуть драгоценность здесь, Bazzledon наденет её во время Эпического финала.</p>
+<p>Если сыщики обвинят Ginny в краже, она устроит сцену и закричит на них, спровоцировав противостояние с группой, которая в конце концов уведёт сыщиков — добровольно или силой. Если обвинить Sammy, все согласятся, что виноват «иннсмутский мальчик», и поблагодарят сыщиков за возвращение драгоценности.</p>
+<p>В конце концов McGuire снова запускает плёнку, и НИП больше не могут разговаривать с сыщиками. Наблюдать за съёмками можно, но ничего интересного не происходит.</p>
+<p><strong>Примечание Хранителю:</strong> если сыщики лишь недавно покинули жилой вагон съёмочной группы, сцена «Случайно на съёмочной площадке» может показаться преждевременной. В таком случае сначала выведите сыщиков в Иннсмут, а к этой сцене вернитесь позже.</p>
+<figure class="art-full-width"><img src="assets/a824d214f9bbc53324ee4903be7b21d1d86252d2d2d6700ea6807ac1a572b8ed.jpg" alt=""></figure>
+<a id="nri-h-1e82f0c963d8a023793fa18e"></a>
+<h2 id="v-innsmut">В ИННСМУТ</h2>
+<figure data-layout-owner="v-innsmut" class="art-float-right art-inline-half"><img src="assets/d2556e32e67e388fe5878fcd43a1d50ba5ed1df9e099f3533f4b4b3ec4390d02.jpg" alt=""><figcaption>Pete</figcaption></figure>
+<p>Рано или поздно сыщики начинают задавать вопросы об Иннсмуте. Они могут расспрашивать о Sammy или пытаться окончательно связать Ginny с городом. Либо они ищут культы и другие зловещие силы, заинтересованные в краже драгоценности.</p>
+<p>Иннсмут — неприветливый город. Увидев сыщиков, местные избегают выходить на улицу, а многие дороги кажутся совершенно заброшенными. Передвигаясь по городу, сыщики не могут избавиться от ощущения, что за ними следят; иногда из тёмных окон на них смотрят странные светящиеся глаза.</p>
+<p>Каков бы ни был их подход, Хранитель может предложить начать с универсального магазина напротив отеля «Гилман-хаус» (<a href="#nri-h-591edd5bcf58d378b27f28cc">ссылка</a>).</p>
+
+<a id="nri-h-d012304a399a1e520aefdba5"></a>
+<h3 id="universalnyi-magazin">Универсальный магазин</h3>
+<p>Универсальный магазин принадлежит известной сети и устроен точно так же, как аналогичный магазин в Аркхэме, хотя ассортимент здесь беднее. Магазин подчёркивает странность Иннсмута и даёт сыщикам глоток обыденности посреди хаоса.</p>
+<p>За прилавком сидит единственный служащий — молодой человек из Аркхэма по имени Pete. Он весел и дружелюбен с сыщиками. Покупателей явно мало, поэтому новым лицам он рад.</p>
+<p>Pete охотно сплетничает об Иннсмуте и его странностях. Однако он почти ничего не знает о городе и ездит на работу из соседнего Ньюберипорта. Для Pete Иннсмут — захолустный городок, который умирает, потому что не может или не хочет приспособиться к современности. Рыба здесь водится, но маленькие лодки не соперничают с современными траулерами крупных портов. Он слышал о болезни или эпидемии поколение назад и думает, что поэтому многие здесь выглядят «немного странно». Но ему платят почасово, работа лёгкая, и никто его не беспокоит и не пытается обратить в местную веру.</p>
+<ul>
+<li>Pete не знает никого по имени Sammy или Ginny. Он признаётся, что почти никого не знает в городе.</li>
+<li>Если сыщикам нужно спиртное, Pete с улыбкой направляет их в соседнюю лачугу, где у старухи с рыбьим лицом можно купить сносный виски. Она закутана в одеяла.</li>
+<li>Об Иннсмуте в целом Pete говорит, что местные поклоняются какому-то рыбьему богу. Это похоже на христианство, а штаб находится в старой масонской ложе. По его мнению, люди поклоняются тому, кто приносит им пользу, например богу, посылающему больше рыбы. Он никого не осуждает.</li>
+<li>Если сыщики хотят узнать больше, Pete советует поговорить со стариком Zadok Allen. Это пьяница, но один из немногих общительных жителей, которым интересно разговаривать. Почти каждое утро он заходит и полчаса прожужжит Pete уши, а затем уходит заработать на бутылку виски. Обычно Zadok можно найти на пожарной станции (<a href="#nri-h-1b70234c4ece0af6255492e8">ссылка</a>), где он либо греется на солнце, либо прячется от непогоды.</li>
+</ul>
+<a id="nri-h-1b70234c4ece0af6255492e8"></a>
+<h3 id="pozharnaya-stantsiya">Пожарная станция</h3>
+<figure data-layout-owner="pozharnaya-stantsiya" class="art-float-right art-inline-half"><img src="assets/f23271b212f11039d58ab81421a36b5f12a0b2f72d8cdb020562cad6fcf872a6.jpg" alt=""><figcaption>Zadok Allen</figcaption></figure>
+<figure data-layout-owner="pozharnaya-stantsiya" class="art-float-right art-inline-half"><img src="assets/3ce72daa90f87b979a5bca105e7cd898e130574d0e230e2ba87a5c9a65472782.jpg" alt=""><figcaption>Jeremiah Brewster</figcaption></figure>
+<p>Пожарная станция находится на Пейн-стрит, 100, недалеко от железной дороги. Добраться до неё сразу нельзя: сыщики сталкиваются с опасным мостом из гнилого дерева, который выглядит ненадёжным. По одному переходить можно, но любой с ТЕЛ выше 70 должен пройти проверку Удачи, иначе доски ломаются, сыщик падает в реку Мануксет, получает 1D6 урона и оказывается в трёх кварталах ниже по течению. Мост не выдержал бы ни автомобиль, ни единственную работающую пожарную машину, подвергая город большой опасности, если понадобится пожарная служба (хотя влажная гнилая древесина Иннсмута всё равно горела бы плохо).</p>
+<p>Сыщики находят Zadok Allen здесь, прислонившимся к каменной наружной стене станции. Похоже, сегодня никто не дежурит, и он совсем один.</p>
+<p>Сначала Zadok ворчлив, неприветлив и не хочет разговаривать с незнакомцами. Чтобы развязать ему язык, нужна бутылка виски. Если сыщики угощают его, он уводит их со станции в уютный укрытый дом на окраине, откуда видны утёсы.</p>
+<p>Zadok Allen — знаменитый пьяница из «Тени над Иннсмутом». Он знает всю историю Obed Marsh, его сделки с Глубоководными и трёх клятв, которые жители Иннсмута были вынуждены принести. Он рассказывает сыщикам обрывочную, путаную историю, словно Хранитель «Зова Ктулху» пересказывает «Тень над Иннсмутом» по памяти.</p>
+<ul>
+<li>Рассказывая об Иннсмуте, Zadok подчёркивает: Глубоководные карают тех, кто, по их мнению, нарушил клятвы. По городу ходят слухи, что сегодня с нарушителем клятвы случится «что-то большое».</li>
+<li>На вопрос о Sammy или Ginny он отвечает: «Дети Jeremiah? Sammy и Ginny Brewster, верно? Хорошие дети. Хорошая семья». Он упоминает таунхаус у Лафайет-стрит — резиденцию Brewster.</li>
+<li>Если сыщики описывают Атлантийскую драгоценность, он заставляет их замолчать и говорит не обсуждать святые символы Эзотерического ордена Дагона на людях. «Они» могут слушать.</li>
+</ul>
+<p>В конце концов Zadok становится слишком нервным, глядя на море. Когда Хранитель сочтёт момент подходящим, Zadok кричит: «Они нас услышали!» — и убегает. Если сыщики следуют за ним, то находят его в разрушенном доме недалеко от пожарной станции: он плачет и не реагирует.</p>
+
+
+<a id="nri-h-04a91268c2b7afffd26817db"></a>
+<h3 id="ezotericheskii-orden-dagona">Эзотерический орден Дагона</h3>
+<p>Разговор с Sammy или Zadok может заставить сыщиков поверить, что драгоценность связана с Эзотерическим орденом Дагона. Это неверно, но если сыщики зацепились за эту версию, Хранитель может поддержать её и направить их в орден.</p>
+<p>Это неоклассическое здание заметно стоит на Федерал-стрит в центре города. Главный вход обрамляют четыре греческие колонны, а побелка выцвела до тускло-серого цвета. Над дверью на фасаде красуется крупная каменная надпись «Эзотерический орден Дагона». Здание переделано из масонского храма и, безусловно, является самым величественным в Иннсмуте.</p>
+<p>У входа бездельничают четыре массивных Гибрида. Если сыщики попытаются подойти прямо к двери, они их остановят. У Гибридов ярко выраженный «иннсмутский вид», и они быстро отвешивают пощёчину или удар в живот тем, кто слишком настойчиво расспрашивает о храме.</p>
+<p>Обойдя здание, сыщики понимают, что окон и других дверей, кроме парадного входа, нет. При успешной проверке Естествознания они замечают: за храмом расположение камней указывает на возможный вход через пещеры. Решившие наблюдать за зданием должны пройти проверку Скрытности, чтобы бдительные Гибриды их не прогнали. Если наблюдение удастся, они заметят одного и того же человека, дважды подряд выходящего из здания с интервалом около часа. Значит, существует другой вход.</p>
+<p>Если сыщики хотят попасть внутрь, но не могут, Хранитель может предложить проверку Знания, чтобы направить их в систему пещер на поиски другого входа.</p>
+<a id="nri-h-03dd1ed10876ac8ee6d9eb7e"></a>
+<h3 id="vhod-cherez-peschery">Вход через пещеры</h3>
+<p>Подземный вход в Эзотерический орден Дагона через систему пещер не охраняется. В основном им пользуются Глубоководные, чтобы быстро входить в храм и выходить из него, не показываясь снаружи; они не считают нужным охранять свои пути.</p>
+<p>Когда сыщики выходят на подвальный уровень, маленькая каменная комната оказывается пустой, кроме нескольких ящиков. Протухший запах рыбы и водорослей почти заставляет их давиться. Из-за двери доносится кваканье, похожее на песню. При успешной проверке Слуха они слышат слова: «Ктулху fhtagn!», повторяемые снова и снова.</p>
+<p>Выглянув из двери, сыщики видят большой зал для богослужений, похожий на знакомые им церкви. Впереди стоят три статуи. Самая крупная, в центре, изображает Ктулху — безумную голову со щупальцами, пронзительными глазами и непостижимо огромными крыльями, словно охватывающими всё здание. По бокам стоят меньшие статуи Дагона и Матери Гидры (рыбоподобные четвероногие существа с ужасными зубами: один сложен как боец, у другого широкие бёдра и материнская фигура).</p>
+<p>Рыбоподобный мужчина (Jeremiah Brewster) молится и поёт услышанную песню. На его голове сидит тиара из золотого сплава, совершенно такая же, как драгоценность.</p>
+<p>Терпеливые сыщики могут сесть и наблюдать. Через пять минут Jeremiah заканчивает пение и направляется к комнате, где находятся сыщики. В этот момент или пока он поёт его легко застать врасплох. Однако Jeremiah — могущественный колдун, и любой шум привлечёт внимание десятков Гибридов.</p>
+<p>Если сыщики проигрывают бой, им необязательно умирать. Их могут оглушить; они очнутся связанными для Эпического финала (<a href="#nri-h-9e45e6c31b8f513fdfc0cbcb">ссылка</a>) на вершине утёса — исход «Игра в героя» (<a href="#nri-h-db7abf043f1d139a51dd4c3f">ссылка</a>).</p>
+<figure class="art-full-width"><img src="assets/3371d3857129bfbbc48063eaed6e62df90ee0b93f54c98e776c49f57b045c38f.jpg" alt=""></figure>
+<a id="nri-h-9e45e6c31b8f513fdfc0cbcb"></a>
+<h2 id="epicheskii-final">ЭПИЧЕСКИЙ ФИНАЛ</h2>
+<p>Когда расследование подходит к концу и сыщики понимают, что виновна Ginny Dubois, начинается Эпический финал. Это может произойти где угодно в окрестностях Иннсмута, но лучше всего, если сыщики в этот момент находятся в городе.</p>
+<p><strong>Заметка Хранителю:</strong> сыщики не смогли установить, что виновница — Ginny, и не заметили всех ваших замечательных подсказок? Или они разозлили местных и попались? Не волнуйтесь — всё равно начинайте Эпический финал.</p>
+<p>Обещанный шторм наконец обрушивается на Иннсмут, и дождь хлещет по полуразвалившимся зданиям. Оставшееся солнце скрывают густые чёрные облака, и вокруг сыщиков заметно темнеет. Взглянув на скалы над Иннсмутом, сыщики видят камеру, направленную на женщину, одетую во всё белое. Ginny Dubois словно привязана к большому камню у самого края утёса; её руки связаны над головой, так что белое тело образует заметную X-образную фигуру на потемневшем камне.</p>
+<p>В сонном Иннсмуте жители высыпают на улицы. Ещё несколько мгновений назад улицы были пусты, а теперь толпа заполнила их, и все смотрят на склон утёса. Обычные люди стоят плечом к плечу с искалеченными гибридами и полностью преобразившимися Глубоководными. Тем временем на мелководье бухты бушуют волны, и сыщики видят сотни жёлтых глаз, выглядывающих из-под воды. Взгляд каждого человека прикован к белой X над скалами. Это требует проверки Рассудка (1/1D8). Сошедшие здесь с ума сыщики могут бросить по обычной таблице приступа безумия или поддаться моменту и присоединиться к толпе, глядя и распевая вместе с ней.</p>
+<p>Начинается медленное песнопение. Сначала его слышат те, кто стоит ближе всего к Эзотерическому ордену Дагона, а затем оно постепенно распространяется по всему Иннсмуту.</p>
+<p>&quot;Ph&#x27;nglui mglw&#x27;nafh Ктулху R&#x27;lyeh wgah&#x27;nagl fhtagn Iä! Iä! Ктулху fhtagn&quot;</p>
+<p>Если сыщики продолжают наблюдать, клубящиеся облака над мелким рифом у гавани Иннсмута становятся всё гуще. И вдруг, словно благодаря игре света, облака превращаются в массу щупалец с пронзительными глазами в центре. Над бухтой зависает Звёздное отродье Ктулху. Каждый житель Иннсмута опускается на колени в безмолвной молитве этому осколку божества.</p>
+<p>Лик Звёздного отродья скрыт облаками, а сыщики, возможно, уже решили бежать, поэтому вряд ли до конца понимают, что скрывается в облаках. Однако если они продолжают вглядываться сквозь облака (и ещё не сошли с ума), прямой взгляд на Звёздное отродье требует проверки Рассудка (1D6/1D20).</p>
+<p>На этом этапе сыщики могут выбрать множество разных направлений. Ниже приведены некоторые возможные развязки, но если сыщики выберут другой путь, события всё равно продолжат разворачиваться вокруг них.</p>
+<a id="nri-h-7b4e91617daf61336c70a8cf"></a>
+<h3 id="poslednii-poezd-iz-innsmuta">Последний поезд из Иннсмута</h3>
+<p>На сыщиков, решивших бежать через толпу или нижние пещеры, обращается взгляд Звёздного отродья. Оно пытается схватить их, посылая жителей и свои псевдоподии на их захват.</p>
+<p>Если они бегут через толпу, со всех сторон к ним тянутся руки, и напор людей быстро прижимает их, лишая воздуха. Их связывают и приносят Звёздному отродью в качестве новых жертв. Перейдите к разделу «Игра в героя» (<a href="#nri-h-db7abf043f1d139a51dd4c3f">ссылка</a>).</p>
+<p>Если сыщики направляются в пещеры, их преследуют безмозглые щупальцевые существа, быстро ползущие по туннелям. Преследование длится три раунда. Если сыщики проваливают проверку ЛВК, их атакуют 1D3 щупалец (Драка 50%, урон 1D3). По мере спешки через тёмные опасные пещеры сыщики могут обосновать и другие проверки.</p>
+<p>Выбравшись на окраину города, сыщики видят Anna Díaz и троих уцелевших членов съёмочной группы: те торопливо собирают вещи и грузят их в поезд. Ветер уже достиг штормовой силы, и все они упорно не смотрят на юго-восток, где находится звёздное отродье. Когда сыщики приближаются, Díaz перекрикивает ветер и спрашивает, умеет ли кто-нибудь из них управлять поездом.</p>
+<p>Топка поезда поддерживается горящей, и ещё недавно член экипажа готовил яйца на раскалённом металле. Сыщики, успешно прошедшие проверку Управления тяжёлой техникой или Механики, понимают, что нужно восстановить давление в котле, повернув краны цилиндров и осторожно открыв регулятор. Для этого сыщики должны пройти три проверки СИЛ и три проверки ЛВК за три раунда. В конце третьего раунда толпа жителей Иннсмута обрушивается на вагон и быстро одолевает всех.</p>
+<p>Если сыщикам удаётся запустить поезд, он издаёт пронзительный свисток и медленно набирает ход по древнему пути. Последний поезд из Иннсмута увозит выживших сыщиков и членов экипажа.</p>
+<p>Вместо этого поезд можно повредить, пытаясь остановить наступающих чудовищ, или направить прямо в приближающуюся толпу (см. врезку, <a href="#nri-c-227220bed3222454225d739d">ссылка</a>).</p>
+<figure class="art-full-width"><img src="assets/9c85f20d6de3aceaeb294aaf3b6af38ba32d23ee36466d875d292db0f373cf0a.jpg" alt=""></figure>
+<a id="nri-c-227220bed3222454225d739d"></a>
+<h3 id="parovoz-mvr-klassa-b1-olmstead">Паровоз MVR класса B1 «Olmstead»</h3>
+<p>СКО: 11</p>
+<p>Комплекция: 10</p>
+<p>Броня для людей: 1</p>
+<p>Колеи: стандартная (4 фута 8 1/2 дюйма)</p>
+<p>Давление в котле: 110 psi</p>
+<p>Максимальная скорость: 70 миль/ч (110 км/ч)</p>
+<p>Для управления поездом требуется успешная проверка Вождения поезда или Управления тяжёлой техникой. Если комплекция снижена до нуля, поезд выходит из строя. Каждые полные 10 пунктов урона уменьшают комплекцию поезда на 1 (округляя вниз); урон менее 10 пунктов игнорируется.</p>
+<p>Если комплекция поезда снижена до половины исходного значения (округляя вниз) или ниже, он повреждён; ко всем проверкам Вождения поезда (или подходящего навыка) добавляется один штрафной кубик.</p>
+<p>Если поезд получает за один инцидент урон, равный его полной комплекции, вагон впечатляющим образом полностью разбивается. Он может взорваться, загореться, перевернуться или сочетать всё это. Все, кто находится на площадке машиниста, проходят проверку Удачи. При успехе находят достаточно останков, чтобы опознать их. Все в пределах 50 м (165 футов) от двигателя получают 6D10 урона. Находящиеся за пределами этой зоны и не укрытые проходят проверку Уклонения. Провал означает попадание высокоскоростными обломками (2D4 урона). Такой взрыв также можно вызвать опасным повышением давления в котле при успешной проверке Вождения поезда, Управления тяжёлой техникой или Точных наук (физика).</p>
+<p>Если комплекция поезда иным образом снижена до нуля накопленным уроном (то есть порциями меньше исходной комплекции), поезд становится неуправляемым и останавливается. В зависимости от обстоятельств (и, возможно, проверки Удачи) это может привести к аварии, наносящей 1D10 урона водителю и каждому пассажиру.</p>
+<figure class="art-full-width"><img src="assets/86daf1c4fa06068c8d767a83fc2951ca012be3189880157167903da715219893.jpg" alt=""></figure>
+<a id="nri-h-db7abf043f1d139a51dd4c3f"></a>
+<h3 id="igra-v-geroya">Игра в героя</h3>
+<p>Сыщики, решительно поднимающиеся к месту жертвоприношения на утёсах, не встречают сопротивления со стороны звёздного отродья. Напротив, дорога перед ними расчищается, пока они спешат по извилистой тропе к кульминации. Те же события разворачиваются, если сыщиков схватили и привели сюда против их воли.</p>
+<p>Приблизившись, они видят, как Christopher McGuire медленно вращает рукоятку камеры. Его взгляд мутен, он совершенно не реагирует. Ginny сорвана со скалы, к которой была привязана; на камне осталась пентаграмма, явно выведенная размазанной кровью. Теперь она в щупальцах над головой и кричит о помощи. Вокруг лежат расчленённые тела нескольких членов экипажа: похоже, щупальца разорвали их на части, когда они пытались её спасти.</p>
+<a id="nri-s-f6b536b49f6dbbac4907bda0"></a>
+<p>Bazzledon стоит на коленях и выкрикивает слова в такт песнопению, доносящемуся из города. При появлении сыщиков его глаза распахиваются. Он бросается к тому из них, кто больше всего похож на стереотипного героя-спасителя. Если такого нет, он выбирает сыщика с наибольшей ВНЕ и накладывает заклинание «Мысленное внушение» (<a href="#nri-s-f6b536b49f6dbbac4907bda0">ссылка</a>).</p>
+<p>«Ты ведь всегда мечтал попасть на большой экран, правда? Я знаю, малыш. Это твой звёздный час, пора блистать. Ты станешь кинозвездой. Возьми это…» Он вручает сыщику упаковку антацида Tum-Eez. «…взберись по тому щупальцу и брось таблетки твари в пасть. Ей станет плохо, и она вернётся в свою водяную могилу».</p>
+<p>Чтобы побороть желание в точности исполнить предложение Bazzledon, сыщик должен пройти проверку МОЩ. Остальные сыщики также могут попытаться остановить его, вступив с ним в борьбу. При провале проверки сыщик бросается к звёздному отродью и пытается взобраться по одному из щупалец к чудовищной пасти.</p>
+<p>Предложите сыщику трудную проверку ЛВК или Метания, чтобы определить, успеет ли он бросить Tum-Eez в пасть существа, прежде чем звёздное отродье разорвёт и сожрёт его. При провале Bazzledon поворачивается к следующему сыщику и дословно повторяет:</p>
+<p>«Ты ведь всегда мечтал попасть на большой экран, правда? Я знаю, малыш…»</p>
+<p>Даже при успехе чудовище, к сожалению, всё равно разрывает сыщика на части: оказывается, антациды никак не действуют на звёздное отродье. Однако последний кадр снят, фильм завершён, и Bazzledon перерезает горло McGuire, после чего скрывается в глуши с плёнкой под мышкой.</p>
+<p>Сыщики, преодолевшие чары Bazzledon, видят его истинную сущность — безумца, посылающего невинных на смерть. Когда они поворачивают, чтобы бежать, шторм внезапно стихает, и песнопение прекращается. С криком отчаяния Ginny Brewster разрывают на части на глазах у молчаливых жителей Иннсмута. Её тело небрежно сбрасывают в океан, даже не удостаивая чести стать пищей осколка божества. Это требует проверки Рассудка (1/1D6).</p>
+<p>Сыщики могут бежать от Иннсмута по открытой местности или спуститься к поезду и обнаружить всех мёртвыми, разорванными на части в доблестной попытке спастись от чудовища в поезде. Так или иначе выжившие сыщики возвращаются в Аркхэм.</p>
+<a id="nri-h-784561a8c2d6538c46980f3f"></a>
+<h2 id="epilog">ЭПИЛОГ</h2>
+<h3 id="udalos-li-syschikam-sbezhat-s-atlantiiskoi-dragotsennostyu">Удалось ли сыщикам сбежать с Атлантийской драгоценностью?</h3>
+<p>Если да, Мискатоникский университет чрезвычайно доволен Обществом. Университет заранее утверждает финансирование на следующие 12 месяцев. Кроме того, Обществу предлагают гораздо более уютную комнату для будущих собраний — с камином и удобными креслами, обычно предназначенными для преподавателей.</p>
+<p>Если нет, для Общества это начало конца. После очередного провала важной миссии Университет начинает пересматривать свою многолетнюю поддержку. Возможно, пора привлечь специалистов, а не доверять группе любителей.</p>
+<p>Через несколько недель после окончания расследования внутренняя проверка удерживает с Dr. Henry Armitage недельную зарплату за «неспособность должным образом проверить документы кандидата», и вопрос закрывают.</p>
+<h3 id="snyali-li-finalnuyu-stsenu-filma">Сняли ли финальную сцену фильма?</h3>
+<p>P.A Bazzledon лихорадочно перебирает остатки своего кабинета, достаёт тайный сейф (если тот ещё на месте) и забирает содержимое. Он запихивает всё в карман, хватает портфель и убегает.</p>
+<p>Снаружи из Нью-Йорка подъезжает группа суровых головорезов. Проследить путь Bazzledon до Иннсмута было нетрудно: они знают, что деньги у него, и хотят лишь немного его проучить. Пока Bazzledon крадётся прочь и скрывается в лабиринте пещер Иннсмута, остаётся вопрос: несёт ли он под мышкой черновой монтаж фильма или плёнка отправится на пол монтажной?</p>
+<p>Если фильм выходит, сыщики со временем слышат слухи о новом хите, покорившем преступный мир. Эффекты настолько реалистичны, что можно поклясться: девушку действительно разорвали на части. И всё это в техноколоре! Чудеса современной эпохи...</p>
+<a id="nri-h-ee0dadea1c956d399c954d44"></a>
+<h3 id="nagrady">Награды</h3>
+<p>После завершения сценария выжившим сыщикам следует предоставить фазу развития.</p>
+<ul>
+<li>Подробное описание этапа развития сыщика см. в разделе «Награды за опыт: этап развития сыщика», страница 94, «Зов Ктулху: Книга Хранителя».</li>
+<li>Правила лечения ран см. в разделах «Восстановление после обычного урона» и «Восстановление после серьёзной раны», страница 121, «Зов Ктулху: Книга Хранителя».</li>
+<li>Правила восстановления пунктов рассудка за время, проведённое с элементом предыстории, см. в разделе «Самопомощь», страница 167, «Зов Ктулху: Книга Хранителя».</li>
+</ul>
+<p>Помимо потерь Рассудка, описанных в других местах сценария, примените следующие изменения Рассудка:</p>
+<ul>
+<li>За возвращение Атлантийской драгоценности: +1D6 пунктов Рассудка.</li>
+<li>За спасение Díaz и выжившего экипажа: +1D6 пунктов Рассудка.</li>
+<li>За попытку спасти Ginny и провал: -1D6 пунктов Рассудка.</li>
+<li>Если фильм выпущен: -1D4 пунктов Рассудка.</li>
+</ul>
+<figure class="art-full-width"><img src="assets/2f0e82f6dd6f5a9a0ad377a9ad3f34075fda71abbea8f34b8a7401b66eab7f35.jpg" alt=""></figure>
+<a id="nri-h-216abf1f13f006ed96ddabfd"></a>
+<h2 id="personazhi-i-chudovischa">ПЕРСОНАЖИ И ЧУДОВИЩА</h2>
+<h2 id="zhiteli-arkhema">ЖИТЕЛИ АРКХЭМА</h2>
+<div class="statblock-card">
+<h3 id="diane-loring-50-let-bibliotekar-spravochnogo-otdela">Diane Loring, 50 лет, библиотекарь справочного отдела</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 50</td><td>ВЫН 70</td><td>ТЕЛ 50</td><td>ЛВК 55</td><td>ИНТ 80</td></tr><tr><td>ВНЕ 65</td><td>МОЩ 50</td><td>ОБР 70</td><td>РАС 50</td><td>ПЗ 12</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 7</td><td>ПМ: 10</td><td></td></tr></table></div>
+<h4 id="boi">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>27% (13/5)</td></tr></table></div>
+<h4 id="navyki">Навыки</h4>
+<p>Искусство/Ремесло (Десятичная классификация Дьюи) 90%, Работа в библиотеке 95%, История 65%, Оккультизм 25%, Психология 60%, Внимание 90%, Ношение кардиганов 80%.</p>
+<p>Языки: английский 70%, французский 60%, латынь 60%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="dr-henry-armitage-65-let-glavnyi-bibliotekar">Dr. Henry Armitage, 65 лет, главный библиотекарь</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 55</td><td>ВЫН 40</td><td>ТЕЛ 60</td><td>ЛВК 50</td><td>ИНТ 90</td></tr><tr><td>ВНЕ 65</td><td>МОЩ 80</td><td>ОБР 99</td><td>РАС 55</td><td>ПЗ 10</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 6</td><td>ПМ: 16</td><td></td></tr></table></div>
+<h4 id="boi-2">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>25% (12/5)</td></tr></table></div>
+<h4 id="navyki-2">Навыки</h4>
+<p>Искусство/Ремесло (Ораторское искусство) 55%, Мифы Ктулху 18%, Работа в библиотеке 95%, История 65%, Оккультизм 25%, Психология 48%, Наука (Криптография) 75%, Наука (Средневековая метафизика) 60%.</p>
+<p>Языки: английский 99%, французский 80%, немецкий 70%, греческий 68%, латынь 75%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="karen-jeffries-45-let-redaktor-gazety">Karen Jeffries, 45 лет, редактор газеты</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 55</td><td>ВЫН 60</td><td>ТЕЛ 65</td><td>ЛВК 55</td><td>ИНТ 70</td></tr><tr><td>ВНЕ 70</td><td>МОЩ 65</td><td>ОБР 70</td><td>РАС 60</td><td>ПЗ 13</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 7</td><td>ПМ: 13</td><td></td></tr></table></div>
+<h4 id="boi-3">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>45% (22/9), урон 1D3+1D4</td></tr><tr><td>Уклонение</td><td>27% (13/5)</td></tr></table></div>
+<h4 id="navyki-3">Навыки</h4>
+<p>Средства 65%, Красноречие 75%, Работа в библиотеке 45%, Запугивание 80%, Фотография 15%, Психология 55%, Внимание 65%.</p>
+<p>Языки: английский 75%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="franc-turner-45-let-rabochii-stseny">Franc Turner, 45 лет, рабочий сцены</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 80</td><td>ВЫН 60</td><td>ТЕЛ 70</td><td>ЛВК 55</td><td>ИНТ 60</td></tr><tr><td>ВНЕ 60</td><td>МОЩ 50</td><td>ОБР 40</td><td>РАС 80</td><td>ПЗ 13</td></tr><tr><td>БУ: 1D4</td><td>Комплекция: 1</td><td>СКО: 7</td><td>ПМ: 10</td><td></td></tr></table></div>
+<h4 id="boi-4">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>45% (22/9), урон 1D3+1D4</td></tr><tr><td>Уклонение</td><td>27% (13/5)</td></tr></table></div>
+<h4 id="navyki-4">Навыки</h4>
+<p>Искусство/Ремесло (Уборка) 55%, Слух 40%, Оккультизм 5%, Психология 40%, Красноречие 45%.</p>
+<p>Языки: английский 45%.</p>
+</div>
+<h2 id="semochnaya-gruppa-2">СЪЁМОЧНАЯ ГРУППА</h2>
+<div class="statblock-card">
+<h3 id="genevieve-ginny-dubois-25-let-soblaznitelnaya-kinozvezda">Genevieve &#x27;Ginny&#x27; Dubois, 25 лет, соблазнительная кинозвезда</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 75</td><td>ВЫН 60</td><td>ТЕЛ 45</td><td>ЛВК 60</td><td>ИНТ 55</td></tr><tr><td>ВНЕ 50</td><td>МОЩ 90</td><td>ОБР 45</td><td>РАС 80</td><td>ПЗ 9</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 7</td><td>ПМ: 18</td><td></td></tr></table></div>
+<h4 id="boi-5">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Когтеподобные ногти</td><td>45% (22/9), урон 1D6</td></tr><tr><td>Уклонение</td><td>30% (15/6)</td></tr></table></div>
+<h4 id="navyki-5">Навыки</h4>
+<p>Искусство/Ремесло (Актёрское мастерство) 30%, Обаяние 60%, Мифы Ктулху 20%, Оккультизм 40%, Психология 30%, Красноречие 45%, Маскировка 40%.</p>
+<p>Языки: английский 45%.</p>
+<h4 id="zaklinaniya">Заклинания</h4>
+<p>Дыхание глубин</p>
+<p>Стоимость: 8 пунктов магии. Заклинатель должен выиграть встречную проверку МОЩ против цели. При успехе лёгкие цели наполняются морской водой, и она получает 1D8 урона за раунд, пока не пройдёт чрезвычайную проверку ВЫН.</p>
+</div>
+<div class="statblock-card">
+<h3 id="anna-d-az-26-let-sposobnyi-prodyuser">Anna Díaz, 26 лет, способный продюсер</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 55</td><td>ВЫН 65</td><td>ТЕЛ 55</td><td>ЛВК 45</td><td>ИНТ 80</td></tr><tr><td>ВНЕ 40</td><td>МОЩ 45</td><td>ОБР 75</td><td>РАС 45</td><td>ПЗ 12</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 8</td><td>ПМ: 9</td><td></td></tr></table></div>
+<h4 id="boi-6">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>30% (15/6)</td></tr></table></div>
+<h4 id="navyki-6">Навыки</h4>
+<p>Искусство/Ремесло (Актёрское мастерство) 70%, Обаяние 45%, Маскировка 40%.</p>
+<p>Языки: английский 75%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="p-a-bazzledon-40-let-moshennik-stavshii-rezhisserom">P.A. Bazzledon, 40 лет, мошенник, ставший режиссёром</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 50</td><td>ВЫН 70</td><td>ТЕЛ 65</td><td>ЛВК 60</td><td>ИНТ 80</td></tr><tr><td>ВНЕ 80</td><td>МОЩ 60</td><td>ОБР 60</td><td>РАС 40</td><td>ПЗ 13</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 7</td><td>ПМ: 12</td><td></td></tr></table></div>
+<h4 id="boi-7">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>30% (15/6)</td></tr></table></div>
+<h4 id="navyki-7">Навыки</h4>
+<p>Оценка 50%, Обаяние 70%, Средства 65%, Маскировка 60%, Красноречие 80%, Слух 45%, Психология 60%.</p>
+<p>Языки: английский 60%.</p>
+<h4 id="zaklinaniya-2">Заклинания</h4>
+<p>Мысленное внушение</p>
+<p>Стоимость: 5 пунктов магии. Заклинатель внушает цели определённую мысль. Цель должна пройти проверку МОЩ, иначе выполнит указание.</p>
+</div>
+<div class="statblock-card">
+<h3 id="christopher-mcguire-37-let-inzhener-i-kinooperator">Christopher McGuire, 37 лет, инженер и кинооператор</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 40</td><td>ВЫН 45</td><td>ТЕЛ 60</td><td>ЛВК 75</td><td>ИНТ 85</td></tr><tr><td>ВНЕ 40</td><td>МОЩ 40</td><td>ОБР 75</td><td>РАС 40</td><td>ПЗ 10</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 8</td><td>ПМ: 8</td><td></td></tr></table></div>
+<h4 id="boi-8">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>40% (20/8)</td></tr></table></div>
+<h4 id="navyki-8">Навыки</h4>
+<p>Инженерное дело 80%, Убеждение 10%, Психология 5%, Наука (Физика) 70%, Наука (Химия) 70%.</p>
+<p>Языки: английский 75%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="obychnyi-chlen-semochnoi-gruppy-krepkii-muzhchina-ili-zhenschina">Обычный член съёмочной группы, крепкий мужчина или женщина</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 70</td><td>ВЫН 60</td><td>ТЕЛ 70</td><td>ЛВК 50</td><td>ИНТ 50</td></tr><tr><td>ВНЕ 50</td><td>МОЩ 50</td><td>ОБР 30</td><td>РАС 50</td><td>ПЗ 13</td></tr><tr><td>БУ: 1D4</td><td>Комплекция: 1</td><td>СКО: 8</td><td>ПМ: 8</td><td></td></tr></table></div>
+<h4 id="boi-9">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>50% (25/10), урон 1D3+1D4</td></tr><tr><td>Уклонение</td><td>45% (22/9)</td></tr></table></div>
+<h4 id="navyki-9">Навыки</h4>
+<p>Переноска вещей 75%, Игра в кости 30%, Угрожающий вид 40%.</p>
+<p>Языки: разные 30%.</p>
+</div>
+<h2 id="zhiteli-innsmuta">ЖИТЕЛИ ИННСМУТА</h2>
+<div class="statblock-card">
+<h3 id="sammy-brewster-21-god-lyubyaschii-brat">Sammy Brewster, 21 год, любящий брат</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 65</td><td>ВЫН 65</td><td>ТЕЛ 45</td><td>ЛВК 70</td><td>ИНТ 65</td></tr><tr><td>ВНЕ 45</td><td>МОЩ 50</td><td>ОБР 70</td><td>РАС 0</td><td>ПЗ 10</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 8</td><td>ПМ: 10</td><td></td></tr></table></div>
+<h4 id="boi-10">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>45% (22/9), урон 1D3</td></tr><tr><td>Уклонение</td><td>30% (15/6)</td></tr></table></div>
+<h4 id="navyki-10">Навыки</h4>
+<p>Астрономия 30%, Оккультизм 30%, Убеждение 40%, Ловкость рук 50%, Скрытность 50%.</p>
+<p>Языки: английский 70%, р&#x27;льехский 30%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="jeremiah-brewster-47-let-svyaschennik">Jeremiah Brewster, 47 лет, священник</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 80</td><td>ВЫН 90</td><td>ТЕЛ 80</td><td>ЛВК 60</td><td>ИНТ 75</td></tr><tr><td>ВНЕ 20</td><td>МОЩ 100</td><td>ОБР 50</td><td>РАС 0</td><td>ПЗ 17</td></tr><tr><td>БУ: 1D4</td><td>Комплекция: 1</td><td>СКО: 8</td><td>ПМ: 20</td><td></td></tr></table></div>
+<h4 id="boi-11">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Когти</td><td>75% (22/9), урон 1D6+1D4</td></tr><tr><td>Уклонение</td><td>45% (22/9)</td></tr></table></div>
+<p>Броня: 1 пункт за кожу и чешую.</p>
+<h4 id="navyki-11">Навыки</h4>
+<p>Астрономия 30%, Мифы Ктулху 60%, Маскировка 40%, Оккультизм 60%, Убеждение 60%, Психология 50%.</p>
+<p>Языки: английский 75%, р&#x27;льехский 75%.</p>
+<h4 id="zaklinaniya-3">Заклинания</h4>
+<p>Дыхание глубин, Контакт с Глубоководными, Контакт с Ктулху, Призыв звёздного отродья, Поглощение силы, Иссушение.</p>
+<h4 id="rassudok">Рассудок</h4>
+<p>Jeremiah почти полностью превратился в Глубоководного, поэтому его вид считается встречей с Глубоководным и вызывает потерю Рассудка (0/1D6).</p>
+</div>
+<div class="statblock-card">
+<h3 id="zadok-allen-66-let-gorodskoi-pyanitsa">Zadok Allen, 66 лет, городской пьяница</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 40</td><td>ВЫН 30</td><td>ТЕЛ 60</td><td>ЛВК 40</td><td>ИНТ 50</td></tr><tr><td>ВНЕ 45</td><td>МОЩ 60</td><td>ОБР 30</td><td>РАС 60</td><td>ПЗ 9</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 7</td><td>ПМ: 12</td><td></td></tr></table></div>
+<h4 id="boi-12">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>20% (10/4), урон 1D3</td></tr><tr><td>Уклонение</td><td>40% (20/8)</td></tr></table></div>
+<h4 id="navyki-12">Навыки</h4>
+<p>Выпивка 75%, Безумные истории 85%.</p>
+<p>Языки: английский 30%.</p>
+</div>
+<div class="statblock-card">
+<h3 id="obychnyi-zhitel-innsmuta-chelovek">Обычный житель Иннсмута, человек</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 55</td><td>ВЫН 50</td><td>ТЕЛ 55</td><td>ЛВК 50</td><td>ИНТ 50</td></tr><tr><td>ВНЕ 50</td><td>МОЩ 50</td><td>ОБР 60</td><td>РАС 50</td><td>ПЗ 10</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 8</td><td>ПМ: 10</td><td></td></tr></table></div>
+<h4 id="boi-13">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>25% (12/5)</td></tr></table></div>
+</div>
+<div class="statblock-card">
+<h3 id="obychnyi-zhitel-innsmuta-gibrid">Обычный житель Иннсмута, гибрид</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 65</td><td>ВЫН 65</td><td>ТЕЛ 50</td><td>ЛВК 65</td><td>ИНТ 65</td></tr><tr><td>ВНЕ 20</td><td>МОЩ 50</td><td>ОБР 60</td><td>РАС —</td><td>ПЗ 11</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>СКО: 8</td><td>ПМ: 10</td><td></td></tr></table></div>
+<h4 id="boi-14">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>45% (22/9), урон 1D3+1D4</td></tr><tr><td>Уклонение</td><td>32% (17/6)</td></tr></table></div>
+</div>
+<h2 id="chudovischa">ЧУДОВИЩА</h2>
+<a id="nri-h-f1f10a91537c50581b8ff2a6"></a>
+<div class="statblock-card">
+<h3 id="shoggot">Шоггот</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 315</td><td>ВЫН 210</td><td>ТЕЛ 420</td><td>ЛВК 15</td><td>ИНТ 35</td></tr><tr><td>ВНЕ —</td><td>МОЩ 50</td><td>ОБР —</td><td>РАС —</td><td>ПЗ 63</td></tr><tr><td>БУ: 8D6</td><td>Комплекция: 9</td><td>СКО: 10</td><td>ПМ: 10</td><td></td></tr></table></div>
+<h4 id="boi-15">Бой</h4>
+<p>Атак за раунд: 2</p>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>70% (35/14), урон 8D6</td></tr><tr><td>Поглощение</td><td>Поглощённый шогготом человек должен выиграть встречную проверку СИЛ, иначе в конце следующего хода шоггота его разорвёт на части. Находясь внутри шоггота, жертвы всё ещё могут наносить ему урон. Если за один раунд они нанесут урон, равный половине оставшихся ПЗ чудовища, шоггот выплюнет их. Шоггот может поглотить сколько угодно сыщиков, пока сумма их ТЕЛ меньше его ТЕЛ.</td></tr><tr><td>Уклонение</td><td>8% (4/1)</td></tr></table></div>
+<p>Броня: отсутствует, но огонь и электричество наносят лишь половину урона, обычное оружие — только 1 пункт урона за попадание; кроме того, шоггот восстанавливает 2 ПЗ за раунд.</p>
+<h4 id="rassudok-2">Рассудок</h4>
+<p>Потеря 1D6/1D20 Рассудка при виде шоггота.</p>
+<p>Примечание автора: короче говоря, увидев шоггота, сыщики должны бежать.</p>
+</div>
+<div class="statblock-card">
+<h3 id="zvezdnoe-otrode-ktulhu">Звёздное отродье Ктулху</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 350</td><td>ВЫН 260</td><td>ТЕЛ 525</td><td>ЛВК 50</td><td>ИНТ 105</td></tr><tr><td>ВНЕ —</td><td>МОЩ 105</td><td>ОБР —</td><td>РАС —</td><td>ПЗ 78</td></tr><tr><td>БУ: 10D6</td><td>Комплекция: 11</td><td>СКО: 15</td><td>ПМ: 21</td><td></td></tr></table></div>
+<h4 id="boi-16">Бой</h4>
+<p>Атак за раунд: 4</p>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>80% (40/16), урон 10D6<br>Звёздное отродье может атаковать или хватать щупальцами. Схватив противника, оно поднимает его в воздух. Если противник нанесёт звёздному отродью более 10 пунктов урона, пробив его броню, щупальце отпустит жертву, хотя та вряд ли переживёт падение.</td></tr><tr><td>Уклонение</td><td>26% (13/5)</td></tr></table></div>
+<p>Броня: 10 пунктов за шкуру и жировой слой; восстанавливает 3 ПЗ за раунд.</p>
+<h4 id="rassudok-3">Рассудок</h4>
+<p>Потеря 1D6/1D20 Рассудка при виде звёздного отродья Ктулху.</p>
+<p>Примечание автора: хочу предельно ясно сказать, что брошенный в пасть звёздного отродья Tum-Eez совершенно на него не действует.</p>
+</div>
+<div class="statblock-card">
+<h3 id="glubokovodnyi">Глубоководный</h3>
+<div class="table-wrap raw-html-table"><table><tr><td>СИЛ 70</td><td>ВЫН 60</td><td>ТЕЛ 80</td><td>ЛВК 50</td><td>ИНТ 70</td></tr><tr><td>ВНЕ —</td><td>МОЩ 50</td><td>ОБР —</td><td>РАС —</td><td>ПЗ 15</td></tr><tr><td>БУ: 1D4</td><td>Комплекция: 1</td><td>СКО: 8</td><td>ПМ: 20</td><td></td></tr></table></div>
+<h4 id="boi-17">Бой</h4>
+<p>Атак за раунд: 1</p>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>45% (12/9), урон 1D3+1D4</td></tr><tr><td>Копьё</td><td>45% (12/9), урон 1D8+1D4</td></tr><tr><td>Уклонение</td><td>27% (13/5)</td></tr></table></div>
+<p>Броня: 1 пункт за кожу и чешую.</p>
+<h4 id="rassudok-4">Рассудок</h4>
+<p>Потеря 0/1D6 Рассудка при виде Глубоководного.</p>
+<a id="nri-h-cef5699cd74c24cd894040ee"></a>
+</div>
+<h2 id="predgenerirovannye-syschiki">ПРЕДГЕНЕРИРОВАННЫЕ СЫЩИКИ</h2>
+<div class="statblock-card">
+<h3 id="hugo-shrimpy-hargreaves">HUGO «SHRIMPY» HARGREAVES</h3>
+<figure data-layout-owner="hugo-shrimpy-hargreaves" class="art-float-right art-inline-half"><img src="assets/4c93bb273638108e23cb17b05c30d7026cae7e27769e66ffb7026ae6e87c9bd7.jpg" alt=""></figure>
+<div class="table-wrap raw-html-table"><table><tr><td colspan="2">Возраст: 27</td><td colspan="3">Занятие: студент / джентльмен</td></tr><tr><td>STR 45</td><td>CON 55</td><td>SIZ 45</td><td>DEX 45</td><td>INT 65</td></tr><tr><td>APP 70</td><td>POW 60</td><td>EDU 70</td><td>SAN 60</td><td>HP 10</td></tr><tr><td>DB: 0</td><td>Комплекция: 0</td><td>Перемещение: 8</td><td>MP: 12</td><td>Удача: (3D6)x5</td></tr></table></div>
+<h4 id="navyki-13">Навыки</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Бухгалтерское дело</td><td>36% (18/7)</td></tr><tr><td>Искусство/Ремесло (Публичные выступления)</td><td>45% (22/9)</td></tr><tr><td>Обаяние</td><td>60% (30/12)</td></tr><tr><td>Средства</td><td>80% (40/16)</td></tr><tr><td>Красноречие</td><td>21% (10/4)</td></tr><tr><td>История</td><td>30% (15/6)</td></tr><tr><td>Язык (английский)</td><td>70% (35/14)</td></tr><tr><td>Язык (латынь)</td><td>45% (22/9)</td></tr><tr><td>Слух</td><td>45% (22/9)</td></tr><tr><td>Верховая езда</td><td>25% (12/5)</td></tr><tr><td>Наука (ботаника)</td><td>15% (7/3)</td></tr><tr><td>Ловкость рук</td><td>55% (27/11)</td></tr></table></div>
+<h4 id="boi-18">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>40% (20/8), урон 1D3</td></tr><tr><td>Охотничья винтовка*</td><td>35% (17/7), урон 1D10</td></tr><tr><td>Уклонение</td><td>22% (11/4)</td></tr></table></div>
+<p>*надёжно хранится в оружейном сейфе в его студенческом общежитии</p>
+<h4 id="predystoriya">Предыстория</h4>
+<p>Hugo никогда не нравилось его имя, поэтому, когда школьные друзья прозвали его Shrimpy за невысокий рост, он решил оставить это прозвище. Мать Shrimpy, отчаянно желавшая дать ему хорошее образование, решила отправить его в Америку, подальше от этих проклятых друзей. Но прозвище он всё равно сохранил.</p>
+<p>Shrimpy фактически купил себе место в Обществе исследования необъяснимого, обеспечивая всех угощениями и улаживая проблемы с двойным бронированием комнаты. Он надеется, что эта «хорошая» работа поможет ему приобрести друзей.</p>
+<ul>
+<li>Описание: невысокий, привлекательный мужчина, Shrimpy хорошо одет и ухожен.</li>
+<li>Черты: склонен считать, что люди будут им восхищаться, и немного теряется, когда этого не происходит.</li>
+<li>Идеология и убеждения: на этом этапе он не вполне понимает, кто он, поскольку лишь недавно получил достаточно свободы для поисков. Поэтому он исследует собственную личность.</li>
+<li>Раны и шрамы: в детстве Shrimpy сильно повредил ногу на матче по регби. Он так и не восстановился полностью и иногда хромает в дождь.</li>
+<li>Значимые люди: мама, папа и няня.</li>
+<li>Значимые места: ему скорее нравятся Соединённые Штаты, потому что это не Blighty. Для него этого вполне достаточно.</li>
+<li>Ценные вещи: карманные часы его деда.</li>
+</ul>
+<p>Другой сценарий с участием Shrimpy — «Дракон из Уонтли» авторства SR Sellens.</p>
+
+</div>
+<div class="statblock-card">
+<h3 id="patty-gillian">PATTY GILLIAN</h3>
+<figure data-layout-owner="patty-gillian" class="art-float-right art-inline-half"><img src="assets/6303e327b95dd1d5484282e977bb4ba379617e0cbc47505906af6e54c2697e1d.jpg" alt=""></figure>
+<div class="table-wrap raw-html-table"><table><tr><td>Возраст: 24</td><td colspan="4">Занятие: студентка / преступница</td></tr><tr><td>STR 50</td><td>CON 55</td><td>SIZ 65</td><td>DEX 75</td><td>INT 70</td></tr><tr><td>APP 20</td><td>POW 40</td><td>EDU 67</td><td>SAN 40</td><td>HP 12</td></tr><tr><td>DB: 0</td><td>Комплекция: 0</td><td>Перемещение: 8</td><td>MP: 8</td><td>Удача: (3D6)x5</td></tr></table></div>
+<h4 id="navyki-14">Навыки</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Бухгалтерское дело</td><td>15% (7/3)</td></tr><tr><td>Оценка</td><td>20% (10/4)</td></tr><tr><td>Обаяние</td><td>25% (12/5)</td></tr><tr><td>Лазание</td><td>30% (15/6)</td></tr><tr><td>Средства</td><td>10% (5/2)</td></tr><tr><td>Красноречие</td><td>44% (22/8)</td></tr><tr><td>Запугивание</td><td>35% (17/7)</td></tr><tr><td>Прыжки</td><td>25% (12/5)</td></tr><tr><td>Язык (английский)</td><td>65% (32/13)</td></tr><tr><td>Слух</td><td>60% (30/12)</td></tr><tr><td>Взлом</td><td>45% (22/9)</td></tr><tr><td>Механика</td><td>35% (17/7)</td></tr><tr><td>Психология</td><td>30% (15/6)</td></tr><tr><td>Ловкость рук</td><td>65% (32/13)</td></tr><tr><td>Внимание</td><td>70% (35/14)</td></tr><tr><td>Скрытность</td><td>65% (32/13)</td></tr></table></div>
+<h4 id="boi-19">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>30% (15/6), урон 1D3</td></tr><tr><td>Уклонение</td><td>37% (18/7)</td></tr></table></div>
+<h4 id="predystoriya-2">Предыстория</h4>
+<p>Patty формально не должна быть студенткой Университета. Впрочем, никто из её однокурсников этого не понимает. Она посещает лекции и живёт в одном из студенческих общежитий. Она воровка и мошенница, которая проскользнула в мир MU сквозь щели и обнаружила, что никто не ставит под сомнение её право находиться здесь. При таких темпах в следующем году она получит диплом по криминологии.</p>
+<p>Patty решила, что Общество исследования необъяснимого может стать хорошим способом заполучить дорогую добычу: они ведь ищут по-настоящему странные и необычные происшествия. Но пока это в основном скучные собрания с необычно хорошим вином.</p>
+<ul>
+<li>Описание: каштановые волосы, карие глаза и ничем не примечательное лицо. Patty трудно заметить, если не сосредоточиться на ней.</li>
+<li>Черты: прямая и напористая. Patty Gillian может потребовать у мужчины отдать кошелёк так, что он решит, будто сам этого захотел.</li>
+<li>Идеология и убеждения: мир был невероятно несправедлив ко мне, поэтому я не против брать вещи, когда представляется хоть малейшая возможность.</li>
+<li>Значимые люди: Patty никогда не позволяла себе роскошь иметь друзей.</li>
+<li>Фобии и мании: капиофобия — страх быть арестованной. Звук полицейской сирены приводит её в ужас, и она с трудом сдерживает реакцию.</li>
+<li>Значимые места: «её» комната в общежитии — первый постоянный дом в её жизни.</li>
+</ul>
+<p>Другой сценарий с участием Patty — «Тайный Санта» авторства TA Newman.</p>
+
+</div>
+<div class="statblock-card">
+<h3 id="ian-torres">IAN TORRES</h3>
+<figure data-layout-owner="ian-torres" class="art-float-right art-inline-half"><img src="assets/8270a8298d11dc6be7a1086e0d891c57982032180c0eeb0ab67e58509d784269.jpg" alt=""></figure>
+<p>Возраст: 23 Занятие: футболист / студент</p>
+<div class="table-wrap raw-html-table"><table><tr><td>STR 70</td><td>CON 50</td><td>SIZ 80</td><td>DEX 60</td><td>INT 50</td></tr><tr><td>APP 75</td><td>POW 40</td><td>EDU 55</td><td>SAN 55</td><td>HP 13</td></tr><tr><td>БУ: 1D4</td><td>Комплекция: 1</td><td>Перемещение: 7</td><td>ПМ: 11</td><td>Удача: (3D6)x5</td></tr></table></div>
+<h4 id="navyki-15">Навыки</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Антропология</td><td>27% (13/5)</td></tr><tr><td>Обаяние</td><td>65% (32/13)</td></tr><tr><td>Средства</td><td>10% (5/2)</td></tr><tr><td>Прыжки</td><td>45% (22/9)</td></tr><tr><td>Язык (английский)</td><td>50% (25/10)</td></tr><tr><td>Язык (испанский)</td><td>55% (27/11)</td></tr><tr><td>Юриспруденция</td><td>26% (13/5)</td></tr><tr><td>Работа в библиотеке</td><td>42% (21/8)</td></tr><tr><td>Взлом</td><td>60% (30/12)</td></tr><tr><td>Медицина</td><td>38% (19/7)</td></tr><tr><td>Метание</td><td>60% (30/12)</td></tr></table></div>
+<h4 id="boi-20">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>55% (12/5), урон 1D3 +1D4</td></tr><tr><td>Уклонение</td><td>45% (22/9)</td></tr></table></div>
+<h4 id="predystoriya-3">Предыстория</h4>
+<p>Ian приехал в Мискатоникский университет по футбольной стипендии: рекрутеры забрали его из сонного родного города Кабо-Рохо, желая развивать этот спорт. Ian отличается лёгким характером. К сожалению, из-за сломанной ноги он пропустил сезон. Ian усерден и по возможности посещает самые разные занятия, но без футбола, который направляет его вперёд, чувствует себя немного вялым.</p>
+<p>Он пришёл в общество в поисках места, куда можно направить свою безграничную энергию.</p>
+<ul>
+<li>Описание: высокий, смуглый и красивый. Ian возвышается над сверстниками. Без футбольной формы его обычно можно увидеть в белой футболке и синих джинсах — воплощённой американской мечте.</li>
+<li>Черты: Ian знает не так много, зато умеет усердно работать. Именно этим он и занимается: почти каждое утро ходит в спортзал, уделяя внимание восстановлению, прилежно посещает лекции, делает подробные записи и вечерами тренирует навыки. Он неплохо открывает замки и видит в них маленькие забавные головоломки.</li>
+<li>Идеология и убеждения: Ian верит в Бога, потому что так сказала мама. Честно говоря, дальше он об этом не размышляет.</li>
+<li>Значимые люди: мама, дедушка, дяди и тёти, живущие на той же улице в его родном городе.</li>
+<li>Значимые места: футбольное поле в его родном городе.</li>
+<li>Ценные вещи: его первый кожаный футбольный мяч, подаренный бабушкой и дедушкой.</li>
+</ul>
+
+</div>
+<div class="statblock-card">
+<h3 id="tiffany-quispe">TIFFANY QUISPE</h3>
+<figure data-layout-owner="tiffany-quispe" class="art-float-right art-inline-half"><img src="assets/c4124729ab42077a516b69c66ecb3ae88171353f5deaedc865b8f332a32afa91.jpg" alt=""></figure>
+<div class="table-wrap raw-html-table"><table><tr><td>Возраст: 22</td><td colspan="4">Занятие: студентка-археолог</td></tr><tr><td>STR 45</td><td>CON 40</td><td>SIZ 65</td><td>DEX 75</td><td>INT 70</td></tr><tr><td>APP 60</td><td>POW 40</td><td>EDU 67</td><td>SAN 40</td><td>HP 12</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>Перемещение: 8</td><td>ПМ: 8</td><td>Удача: (3D6)x5</td></tr></table></div>
+<h4 id="navyki-16">Навыки</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Бухгалтерское дело</td><td>15% (7/3)</td></tr><tr><td>Оценка</td><td>20% (10/4)</td></tr><tr><td>Обаяние</td><td>25% (12/5)</td></tr><tr><td>Лазание</td><td>30% (15/6)</td></tr><tr><td>Средства</td><td>10% (5/2)</td></tr><tr><td>Красноречие</td><td>44% (22/8)</td></tr><tr><td>Запугивание</td><td>35% (17/7)</td></tr><tr><td>Прыжки</td><td>25% (12/5)</td></tr><tr><td>Язык (английский)</td><td>65% (32/13)</td></tr><tr><td>Слух</td><td>60% (30/12)</td></tr><tr><td>Взлом</td><td>45% (22/9)</td></tr><tr><td>Механика</td><td>35% (17/7)</td></tr><tr><td>Психология</td><td>30% (15/6)</td></tr><tr><td>Ловкость рук</td><td>65% (32/13)</td></tr><tr><td>Внимание</td><td>70% (35/14)</td></tr><tr><td>Скрытность</td><td>65% (32/13)</td></tr></table></div>
+<h4 id="boi-21">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>25% (12/5), урон 1D3</td></tr><tr><td>Уклонение</td><td>45% (22/9)</td></tr></table></div>
+<h4 id="predystoriya-4">Предыстория</h4>
+<p>Tiff кажется, что ей приходится бороться, чтобы мир воспринимал её всерьёз. Все постоянно называют её «милой» или «приятной», хотя она хотела бы, чтобы говорили, что она «умелая» и «трудолюбивая». Она пыталась начать всё заново, меняла причёску, работала над публичными выступлениями, но всё это, похоже, почти ничего не изменило.</p>
+<p>Она вступила в общество, желая внести свой вклад. Сделать что-нибудь полезное, чтобы люди считали её важной. Она лишь надеется, что вскоре её выберут для задания.</p>
+<ul>
+<li>Описание: милая и улыбчивая. У Tiff широкий нос и медно-коричневая кожа, унаследованная от народа кечуа; она одевается элегантно и профессионально, но одежда никогда не сидит на ней как следует.</li>
+<li>Черты: Tiff так и не научилась на 100% понимать «людей» и кажется окружающим типичным нелюдимым учёным. Но сама она считает себя гораздо более значимой.</li>
+<li>Идеология и убеждения: Tiff хочет быть главным персонажем собственной истории и мечтает об экзотических раскопках в удивительных местах.</li>
+<li>Значимые люди: Tiff немного отдалилась от семьи и живёт со своей партнёршей Susan. Tiff боготворит идею брака, хотя знает, что таким людям, как она, он недоступен.</li>
+<li>Значимые места: Tiff живёт за пределами кампуса с партнёршей, в переоборудованной мансарде, где очень уютно.</li>
+<li>Ценные вещи: разноцветное пончо из шерсти альпаки, которое принадлежало её отцу.</li>
+</ul>
+
+</div>
+<div class="statblock-card">
+<h3 id="margaret-maggie-myers">MARGARET &#x27;MAGGIE&#x27; MYERS</h3>
+<figure data-layout-owner="margaret-maggie-myers" class="art-float-right art-inline-half"><img src="assets/203c6dcff8d86c53d99721ad4448caeba0ecb0ecaf129ddefcd3b6811c54c32f.jpg" alt=""></figure>
+<div class="table-wrap raw-html-table"><table><tr><td>Возраст: 25</td><td colspan="4">Занятие: студентка-криминолог</td></tr><tr><td>STR 45</td><td>CON 60</td><td>SIZ 45</td><td>DEX 60</td><td>INT 65</td></tr><tr><td>APP 50</td><td>POW 55</td><td>EDU 70</td><td>SAN 55</td><td>HP 8</td></tr><tr><td>БУ: 0</td><td>Комплекция: 0</td><td>Перемещение: 8</td><td>ПМ: 11</td><td>Удача: (3D6)x5</td></tr></table></div>
+<h4 id="navyki-17">Навыки</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Оценка</td><td>50% (25/10)</td></tr><tr><td>Археология</td><td>61% (30/12)</td></tr><tr><td>Средства</td><td>25% (12/5)</td></tr><tr><td>Язык (английский)</td><td>60% (30/12)</td></tr><tr><td>Язык (испанский)</td><td>70% (35/14)</td></tr><tr><td>Язык (кечуа)</td><td>70% (35/14)</td></tr><tr><td>Работа в библиотеке</td><td>45% (22/9)</td></tr><tr><td>Слух</td><td>50% (25/10)</td></tr><tr><td>Механика</td><td>45% (22/9)</td></tr><tr><td>Ориентирование</td><td>55% (27/11)</td></tr><tr><td>Психология</td><td>30% (15/6)</td></tr><tr><td>Оккультизм</td><td>45% (22/9)</td></tr><tr><td>Внимание</td><td>60% (30/12)</td></tr><tr><td>Скрытность</td><td>40% (20/8)</td></tr></table></div>
+<h4 id="boi-22">Бой</h4>
+<div class="table-wrap raw-html-table"><table><tr><td>Драка</td><td>45% (22/9), урон 1D3</td></tr><tr><td>Уклонение</td><td>35% (17/7)</td></tr></table></div>
+<h4 id="predystoriya-5">Предыстория</h4>
+<p>Maggie — младшая дочь Patricia и George Myers. Её отец — бостонский юрист и филантроп, открывший собственную практику, чтобы помогать рабочему классу. Будучи младшей из трёх сестёр, Maggie регулярно ввязывалась в драки и рано научилась защищать себя. Соперничество с сёстрами подстёгивало её добиваться успехов в школе, где она получала высшие оценки.</p>
+<p>Maggie окончила Бостонский университет, изучая криминологию и право, однако решила, что её настоящие способности и интересы лежат в естественных науках. В декабре прошлого года она поступила в Мискатоникский университет в магистратуру, где изучает патологию и криминологию. Общество исследования необъяснимого стало для неё приятным развлечением.</p>
+<ul>
+<li>Описание: элегантно одетая и привлекательная, Margaret грациозно движется и притягивает внимание. Никогда не скажешь, что она отлично умеет драться.</li>
+<li>Черты: Margaret стала бы прекрасным политиком. Она умеет располагать к себе людей, но при необходимости бывает безжалостной.</li>
+<li>Идеология и убеждения: Margaret всегда заступается за слабых и считает, что справедливость достаётся тем, кто за неё борется.</li>
+<li>Значимые люди: её старшие сёстры Harriet и Esme.</li>
+<li>Значимые места: её семейный дом в Бостоне.</li>
+<li>Ценные вещи: медальон с фотографией её родителей.</li>
+</ul>
+<p>Другой сценарий с участием Maggie — «Телесные раны» авторства Pete Burgess.</p>
+
+<a id="nri-h-9eb21ebd1012f4d0e1572e0a"></a>
+</div>
+<h2 id="razdatochnye-materialy">РАЗДАТОЧНЫЕ МАТЕРИАЛЫ</h2>
+<a id="nri-h-94205138fca7aa22510e0aca"></a>
+<h3 id="kantselyariya-vitse-kantslera">КАНЦЕЛЯРИЯ ВИЦЕ-КАНЦЛЕРА</h3>
+<p>МИСКАТОНИКСКИЙ УНИВЕРСИТЕТ Аркхэм, Массачусетс</p>
+<p>Дорогие студенты.</p>
+<p>Для Общества исследования необъяснимого не станет сюрпризом, что Совет заинтересовался его работой, а любознательность и дух приключений Общества хорошо соответствуют ценностям Мискатоникского университета. Именно поэтому Совет всегда гордился тем, что поддерживает работу Общества. Однако теперь мы должны кое о чём попросить Общество.</p>
+<p>Бесценный артефакт — Атлантийская драгоценность — был передан местной кинокомпании Bazzledon Productions. Внутреннее расследование должно выяснить, как именно киностудия получила этот предмет. Однако вам не стоит об этом беспокоиться. Продюсер компании с сожалением сообщил, что в начале этой недели драгоценность исчезла со съёмочной площадки. Мы поручаем Обществу расследовать случившееся и вернуть артефакт. Кроме того, Общество должно собрать любые сведения о возможном виновнике, чтобы передать их местной полиции.</p>
+<p>Мы чрезвычайно впечатлены работой Общества на данный момент. Надеемся, что вы не подведёте нас в этом важном деле. Выбранные представители Общества могут обратиться к Diane Loring в библиотеке Орна за дополнительной информацией. С уважением,</p>
+<p>Профессор Neil Arthur Tepp Вице-канцлер Мискатоникский университет</p>
+<p><strong>Раздаточный материал 1-a</strong>: письмо (внутреннее)</p>
+<a id="nri-h-f8e3b2764c3b8f24c4c83bfa"></a>
+<h3 id="kantselyariya-vitse-kantslera-2">КАНЦЕЛЯРИЯ ВИЦЕ-КАНЦЛЕРА</h3>
+<p>МИСКАТОНИКСКИЙ УНИВЕРСИТЕТ Аркхэм, Массачусетс</p>
+<p>Дорогие сыщики.</p>
+<p>Совет благодарит вас за быстрый ответ на наше письмо. Нам неприятно признавать, что нам срочно требуется помощь со стороны, и мы надеемся, что не прервали ничего важного нашим поспешным вызовом.</p>
+<p>Несколько дней назад бесценный артефакт — Атлантийская драгоценность — был передан местной кинокомпании Bazzledon Productions. Внутреннее расследование должно выяснить, как именно киностудия получила этот предмет. Однако вам не стоит об этом беспокоиться. Продюсер компании с сожалением сообщил, что в начале этой недели драгоценность исчезла со съёмочной площадки. Мы поручаем вам расследовать случившееся и вернуть артефакт. Кроме того, просим вас собрать любые сведения о возможном виновнике, чтобы передать их местной полиции.</p>
+<p>Каждый из вас рекомендован нам и обладает превосходной репутацией благодаря умению действовать быстро и незаметно. Надеемся, что вы не подведёте нас в этом важном деле. При первой возможности обратитесь к Diane Loring в библиотеке Орна за дополнительной информацией.</p>
+<p>С уважением,</p>
+<p><strong>Раздаточный материал 1-b</strong>: письмо (внешнее)</p>
+<a id="nri-h-1701b4c74a5e58fac76c83d3"></a>
+<h3 id="razdatochnyi-material-2-zapiska">Раздаточный материал 2: записка</h3>
+<p>Привет, G,</p>
+<p>Хотел заглянуть и повидаться с тобой, но твоя компания была не в восторге от моего присутствия. Если хочешь встретиться, старый путь через туннель перекрыт, так что придётся сделать крюк. Это LLFRFL.</p>
+<p>Sammy</p>
+<p><strong>Заметка Хранителя:</strong> LLFRFL — указания (налево, налево, прямо, направо, прямо, налево), по которым нужно идти через пещеры. Если сыщики войдут через туннель у железнодорожной станции, эти указания приведут их к выходу возле резиденции Brewster (<a href="#nri-h-f6184124151c4142421b1af0">ссылка</a>).</p>
+</main>
+</body>
+</html>

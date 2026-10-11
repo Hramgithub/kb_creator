@@ -1,0 +1,30 @@
+# Batch 02 Translation Receipt
+
+- goal id: `20260730-innsmouth-source-to-artifacts`
+- step id: `5. Execute accepted RU translation/proofread stage`
+- role: `gpt-5.5 orchestrator acting as bounded translator`
+- model: `gpt-5`
+- effort: `medium`
+- scope: translate `batch_02.en.json` to `batch_02.ru.json` using only `source_text` from the input batch; preserve `unit_id`, `page`, `source_hash`, structure, lists, page refs, and CoC mechanics/terms
+- result: `completed`
+- files checked:
+  - `kb_creator/README.md`
+  - `kb_creator/PROJECT_STATUS.md`
+  - `kb_creator/docs/governance/nri_goal_governance.md`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/plan.md`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/context.md`
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_02.en.json`
+- files changed:
+  - `kb_creator/working/innsmouth_source_to_artifacts/runs/20260730T210831Z/Translation_Work/RU_Batches/batch_02.ru.json`
+  - `kb_creator/docs/plans/20260730-innsmouth-source-to-artifacts/handoffs/batch_02.translation.md`
+- verification/evidence:
+  - output JSON written with schema `kb_creator.translation_batch_ru.v1`
+  - translated units: `5`
+  - all `ru_text` fields filled
+  - source metadata keys `unit_id`, `page`, and `source_hash` preserved for every unit
+  - translation used only batch `source_text`; no Yandex reference artifacts consulted as source
+- blockers: `none`
+- next action: merge `batch_02.ru.json` into the accepted RU master assembly flow after remaining batches and proofreading are complete
+- elapsed time: `unavailable`
+- token use: `unavailable`
+- timestamp: `2026-07-30`

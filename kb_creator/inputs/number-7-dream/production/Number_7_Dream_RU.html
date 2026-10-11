@@ -1,0 +1,887 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Сон № 7</title>
+  <style>
+@page { size: A4; margin: 14mm 13mm 16mm; }
+body { margin: 0; background: #eee2ca; color: #25160f; font: 11.5pt/1.42 Georgia, "Times New Roman", serif; font-variant-numeric: lining-nums; }
+main { max-width: 940px; margin: 0 auto; padding: 32px 30px 64px; background: #fffaf0; }
+h1, h2, h3, h4, h5, h6 { color: #6b2d12; line-height: 1.16; margin: 1.1em 0 .35em; break-after: avoid; page-break-after: avoid; }
+h1, h2, h3, h4 { clear: both; }
+h1 { font-size: 2rem; border-bottom: 2px solid #9a4b24; padding-bottom: .15em; text-transform: uppercase; font-weight: 700; }
+h2 { font-size: 1.42rem; border-bottom: 1px solid #c7a675; padding-bottom: .12em; text-transform: none; font-weight: 700; }
+h3, h4, h5, h6 { font-size: 1.16rem; text-transform: none; font-weight: 400; }
+a { color: #7a3214; }
+.toc { padding: 34px 40px 62px; margin: 0 0 30px; background: #f2e2c2 center/cover no-repeat; border: 0; break-after: page; page-break-after: always; box-sizing: border-box; min-height: 236mm; overflow: hidden; }
+.toc-frame { background: rgba(255,250,240,.86); border: 3px solid rgba(96,75,49,.72); padding: 22px 30px; min-height: 210mm; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(255,250,240,.7) inset; }
+.toc h1 { margin: 0; padding: 0 0 5px; text-align: center; font-size: 1.45rem; letter-spacing: .08em; border-bottom: 1px solid rgba(96,75,49,.72); }
+.toc ol, .toc ul.toc-root { columns: var(--toc-columns, 2); column-fill: var(--toc-column-fill, auto); column-gap: var(--toc-column-gap, normal); margin-top: 20px; padding-left: 24px; padding-top: 0; max-height: 190mm; overflow: hidden; font-size: var(--toc-font-size, inherit); line-height: var(--toc-line-height, inherit); }
+.toc li { break-inside: avoid; margin: 0 0 var(--toc-item-gap, 6px); color: #4c2413; }
+.toc a { text-decoration: none; }
+.toc .toc-level-1 { margin-left: 0; font-weight: 700; text-transform: uppercase; letter-spacing: .01em; }
+.toc[data-toc-layout="flat"] .toc-level-1 { font-weight: 500; text-transform: none; letter-spacing: normal; }
+.toc .toc-level-2 { margin-left: .85em; font-weight: 500; text-transform: none; }
+.toc .toc-level-3,
+.toc .toc-level-4,
+.toc .toc-level-5,
+.toc .toc-level-6 { margin-left: 1.7em; font-size: .92em; font-weight: 400; text-transform: none; }
+.toc-hierarchical ul { list-style: none; }
+.toc-hierarchical ul.toc-root { padding-left: 0; }
+.toc-hierarchical .toc-group { break-inside: avoid; page-break-inside: avoid; font-weight: 400; text-transform: none; }
+.toc-hierarchical .toc-group > a { display: block; font-weight: 700; text-transform: none; }
+.toc-hierarchical .toc-children { margin: .28em 0 0 1.2em; padding: 0; font-weight: 400; }
+.toc-hierarchical .toc-children > li { margin: 0 0 var(--toc-item-gap, 6px); font-weight: 400; text-transform: none; }
+.hard-page-break { display: block; height: 0; margin: 0; padding: 0; break-after: page; page-break-after: always; }
+.production-landing {
+  margin: 0 0 28px;
+  padding: 0 0 18px;
+  border-bottom: 1px solid #d7c59e;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center 56%;
+  background-size: contain;
+  min-height: 72vh;
+  display: block;
+}
+.production-landing-title { position: absolute; top: 25%; left: 0; transform: translateY(-50%); width: 100%; margin: 0; text-align: center; color: #5c2610; text-shadow: 0 1px 0 #fffaf0, 0 -1px 0 #fffaf0, 1px 0 0 #fffaf0, -1px 0 0 #fffaf0; }
+.production-landing-title-en { font-size: 2.1rem; line-height: 1.05; font-weight: 700; text-transform: uppercase; }
+.production-landing-title-ru { margin-top: 5px; font-size: 1.38rem; line-height: 1.12; font-weight: 700; }
+.production-landing-figure { display: none; margin: 0; text-align: center; }
+.production-landing .art-cover { break-before: auto; break-after: auto; }
+.production-landing-figure img { width: 100%; max-height: 250mm; object-fit: contain; }
+.production-page { padding: 18px 0 34px; border-bottom: 1px solid #d7c59e; }
+.production-page.page-type-cover { min-height: 236mm; background: #2b170d center/cover no-repeat; padding: 0; box-sizing: border-box; break-after: page; page-break-after: always; position: relative; overflow: hidden; }
+.production-page.page-type-cover h1,
+.production-page.page-type-cover h2,
+.production-page.page-type-cover p { position: relative; z-index: 1; margin-left: auto; margin-right: auto; max-width: 72%; text-align: center; color: #f7ead2; font-family: Georgia, "Times New Roman", serif; text-shadow: 0 2px 5px rgba(0,0,0,.85); border-bottom-color: rgba(247,234,210,.6); }
+.production-page.page-type-cover h1:first-of-type { padding-top: 28mm; margin-top: 0; }
+.production-page.page-type-cover h1 { font-size: 2.35rem; letter-spacing: .06em; }
+.production-page.page-type-cover h2 { font-size: 1.35rem; }
+.production-page.page-type-cover p { font-size: 1rem; font-weight: 700; letter-spacing: .04em; }
+.production-page.page-type-cover figure,
+.production-page.page-type-cover figure.keeper-art-block,
+.production-page.page-type-cover figure.art-cover,
+.production-page.page-type-cover figure.art-full-page { display: block; width: 100%; max-width: 100%; margin: 0 auto; text-align: center; break-before: auto; break-after: auto; }
+.production-page.page-type-cover figure img { width: 100%; max-width: 100%; max-height: 250mm; object-fit: contain; }
+.production-page.page-type-credits { padding: 34px 40px 62px; margin: 0; background: #f2e2c2 center/cover no-repeat; border: 0; box-sizing: border-box; min-height: 236mm; overflow: hidden; break-after: page; page-break-after: always; }
+.production-page.page-type-credits .credits-frame { background: rgba(255,250,240,.86); border: 3px solid rgba(96,75,49,.72); padding: 22px 30px; min-height: 210mm; box-sizing: border-box; box-shadow: 0 0 0 1px rgba(255,250,240,.7) inset; }
+.credits-page-boundary { display: block; height: 0; margin: 0; padding: 0; column-span: all; break-before: page; page-break-before: always; }
+.production-page.page-type-credits h1 { text-align: center; border-bottom: 0; letter-spacing: .08em; margin: 0 0 .9em; }
+.production-page.page-type-credits h2 { font-size: 1.08rem; margin: .65em 0 .35em; break-after: avoid; page-break-after: avoid; }
+.production-page.page-type-credits .credits-columns { columns: var(--credits-columns, 2); column-gap: var(--credits-column-gap, 9mm); font-size: var(--credits-font-size, 10pt); line-height: var(--credits-line-height, 1.15); overflow-wrap: anywhere; }
+.production-page.page-type-credits .credits-grid { columns: auto; display: grid; grid-template-columns: repeat(var(--credits-columns, 2), minmax(0, 1fr)); align-content: start; gap: var(--credits-column-gap, 9mm); height: auto; overflow: visible; }
+.production-page.page-type-credits .credit-item { break-inside: avoid; margin: 0 0 .48em; text-align: center; }
+.production-page.page-type-credits .credit-role { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid #8c775b; padding-bottom: 1px; margin-bottom: 1px; }
+.production-page.page-type-credits .credit-names { font-weight: 600; }
+.production-page.page-type-quote-art { min-height: 236mm; background: #2b170d center/cover no-repeat; color: #fff8e7; padding: 70mm 28mm 0; box-sizing: border-box; break-after: page; page-break-after: always; text-align: center; }
+.production-page.page-type-quote-art h1,
+.production-page.page-type-quote-art h2 { color: #fff8e7; border-color: rgba(255,248,231,.72); text-shadow: 0 2px 5px rgba(0,0,0,.85); }
+.production-page.page-type-quote-art h1 { margin: 0 auto .7em; max-width: 72%; letter-spacing: .14em; }
+.production-page.page-type-quote-art p { max-width: 62%; color: #fff8e7; background: transparent; padding: 0; margin: .25em auto; font-style: italic; text-shadow: 0 2px 5px rgba(0,0,0,.9); }
+.page-marker { display: none; }
+blockquote.review-callout { margin: 1.2em 0; padding: .8em 1em; border-left: 5px solid #8f3d19; background: #f0dfbd; }
+.statblock-card { break-inside: avoid; page-break-inside: avoid; margin: .75em 0 1em; line-height: 1.12; }
+.statblock-card h2, .statblock-card h3 { margin-top: 0; }
+.statblock-card p { margin: .2em 0; }
+.statblock-card p:last-child { margin-bottom: 0; }
+.statblock-card table.has-index-column th:first-child,
+.statblock-card table.has-index-column td:first-child { width: 2.2em; min-width: 2.2em; max-width: 2.2em; text-align: center; white-space: nowrap; }
+.table-wrap { overflow-x: auto; margin: 1em 0; break-inside: avoid; page-break-inside: avoid; }
+table { width: 100%; max-width: 100%; border-collapse: collapse; font-size: .9em; }
+th, td { border: 1px solid #c7a675; padding: 6px 8px; vertical-align: top; }
+th { background: #e8d4ad; text-align: left; }
+figure { margin: 1.2em 0; text-align: center; break-inside: avoid; page-break-inside: avoid; }
+figure img { max-width: 100%; height: auto; }
+.art-inline { width: min(48%, 82mm); margin-left: auto; margin-right: auto; }
+.art-inline img { max-width: 100%; }
+figcaption { color: #6f5b3c; font-size: .88em; margin-top: .35em; }
+.art-body-right { float: right; width: 25%; max-width: 320px; margin: .1em 0 .55em .85em; text-align: right; clear: right; }
+.art-body-right img { width: 100%; max-height: 105mm; object-fit: contain; }
+figure.art-body-right + h3,
+figure.art-body-right + a + h3,
+figure.art-body-right + h4,
+figure.art-body-right + a + h4,
+figure.art-float-right + h3,
+figure.art-float-right + a + h3,
+figure.art-float-right + h4,
+figure.art-float-right + a + h4,
+figure.art-scenario-right + h3,
+figure.art-scenario-right + a + h3,
+figure.art-scenario-right + h4,
+figure.art-scenario-right + a + h4 { clear: none; }
+.art-handout-page { width: 80%; max-width: 80%; margin: .4em auto; text-align: center; break-inside: avoid; page-break-inside: avoid; }
+.art-handout-page img { width: 100%; max-height: 205mm; object-fit: contain; }
+.artview-decision.artview-width-25 { width: 25%; }
+.artview-decision.artview-width-80 { width: 80%; max-width: 80%; }
+.artview-decision.artview-width-100 { width: 100%; max-width: 100%; }
+.artview-decision.artview-align-center { float: none; clear: both; margin-left: auto; margin-right: auto; text-align: center; }
+.artview-decision.artview-align-right.artview-wrap-text { float: right; clear: right; margin-left: .85em; margin-right: 0; text-align: right; }
+.art-full-page, .art-cover, .art-pregen-fullpage { break-before: page; break-after: page; margin: 0; text-align: center; }
+.art-full-page img, .art-cover img, .art-pregen-fullpage img { width: 100%; max-height: 250mm; object-fit: contain; }
+.art-full-width { width: 100%; clear: both; }
+.art-float-right, .art-scenario-right { float: right; width: min(48%, 82mm); margin: .15em 0 .65em 1em; text-align: right; }
+.art-float-right.art-scale-30, .art-scenario-right.art-scale-30 { width: min(30%, 54mm); }
+.art-scenario-compact, .art-flow-compact { width: min(44%, 76mm); }
+.art-flow-half { width: min(50%, 86mm); }
+.art-compact-sheet { width: min(38%, 64mm); }
+.art-scale-50 img { max-width: 50%; }
+.art-scale-100 img { max-width: 100%; }
+.art-scale-90 img { max-width: 90%; }
+.art-scale-80 img { max-width: 80%; }
+.art-scale-70 img { max-width: 70%; }
+.art-source-excluded-note, .art-technical-caption { display: none; }
+code { background: #f0e4cf; padding: 1px 4px; border-radius: 2px; }
+@media print {
+  body { background: #fff; font-size: 9.75pt; line-height: 1.24; }
+  main { max-width: none; padding: 0; background: #fff; column-count: auto; column-gap: 0; }
+  .production-landing {
+    column-span: all;
+    break-after: page;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+    position: relative;
+    min-height: 267mm;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center 56%;
+    background-size: 100% auto;
+  }
+  .production-landing-title { top: 25%; margin-bottom: 0; }
+  .production-landing-title-en { font-size: 28pt; }
+  .production-landing-title-ru { font-size: 17pt; }
+  .production-landing-figure { display: none; }
+  .production-landing .art-cover { break-before: auto; break-after: auto; }
+  .production-landing-figure img { width: 100%; max-height: 220mm; object-fit: contain; }
+  .toc { column-span: all; break-after: page; page-break-after: always; min-height: 267mm; box-sizing: border-box; font-size: 12pt; padding: 16mm 18mm; }
+  .toc-frame { min-height: 230mm; }
+  .toc a { text-decoration: none; }
+  .production-page { padding: 0 0 10px; border-bottom: 0; break-inside: auto; page-break-inside: auto; }
+  .production-page.page-type-cover { column-span: all; min-height: 267mm; break-before: page; break-after: page; page-break-before: always; page-break-after: always; }
+  .production-page.page-type-cover h1:first-of-type { padding-top: 34mm; }
+  .production-page.page-type-cover h1 { font-size: 28pt; }
+  .production-page.page-type-cover h2 { font-size: 17pt; }
+  .production-page.page-type-cover p { font-size: 11pt; }
+  .production-page.page-type-cover figure,
+  .production-page.page-type-cover figure.keeper-art-block,
+  .production-page.page-type-cover figure.art-cover,
+  .production-page.page-type-cover figure.art-full-page {
+    column-span: all !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    break-before: auto !important;
+    page-break-before: auto !important;
+    break-after: auto !important;
+    page-break-after: auto !important;
+  }
+  .production-page.page-type-cover figure img {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 252mm !important;
+    object-fit: contain !important;
+  }
+  .production-page.page-type-credits,
+  .production-page.page-type-quote-art { column-span: all; min-height: 267mm; break-after: page; page-break-after: always; }
+  .production-page.page-type-credits { padding: 16mm 18mm; background-repeat: no-repeat; background-position: center; background-size: cover; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .production-page.page-type-credits .credits-frame { min-height: 230mm; padding: 10mm 11mm; background: rgba(255,250,240,.86); border: 2px solid rgba(96,75,49,.72); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .credits-page-boundary { display: block; height: 0; margin: 0; padding: 0; column-span: all; break-before: page; page-break-before: always; }
+  .production-page.page-type-credits h1 { margin: 0 0 4mm; font-size: 16pt; }
+  .production-page.page-type-credits h2 { font-size: 16pt; margin: 0 0 4mm; text-align: center; }
+  .production-page.page-type-credits .credits-columns { columns: var(--credits-columns, 2); column-fill: balance; column-gap: var(--credits-column-gap, 9mm); height: 194mm; font-size: var(--credits-font-size, 10pt); line-height: var(--credits-line-height, 1.15); overflow: hidden; overflow-wrap: anywhere; }
+  .production-page.page-type-credits .credits-grid { columns: auto; display: grid; grid-template-columns: repeat(var(--credits-columns, 2), minmax(0, 1fr)); align-content: start; gap: var(--credits-column-gap, 9mm); height: auto; overflow: visible; }
+  .production-page.page-type-credits .credit-item { margin-bottom: 1.4mm; }
+  body.print-columns-1 .production-landing,
+  body.print-columns-1 .toc,
+  body.print-columns-1 .production-page.page-type-credits,
+  body.print-columns-1 .production-page.page-type-quote-art,
+  body.print-columns-1 .credits-page-boundary { column-span: none !important; }
+  body.print-columns-1 .credits-page-boundary { display: none !important; break-before: auto; page-break-before: auto; }
+  .production-page.page-type-quote-art p { max-width: 64%; font-size: 11pt; }
+  body.print-columns-2 .production-page:not(.page-type-cover):not(.page-type-credits):not(.page-type-source-toc):not(.page-type-quote-art):not(.page-type-full-art):not(.page-type-statblock-card) { display: contents; }
+  h1 { font-size: 1.35rem; }
+  h2 { font-size: 1.08rem; }
+  h3 { font-size: .98rem; }
+  body.print-columns-2 h1 { column-span: all; }
+  body.print-columns-2 h2,
+  body.print-columns-2 h3,
+  body.print-columns-2 h4,
+  body.print-columns-2 h5,
+  body.print-columns-2 h6 { column-span: none; }
+  h1, h2, h3, h4, h5, h6 { margin: .75em 0 .25em; }
+  p { margin: .38em 0; }
+  ul, ol { margin: .38em 0 .38em 1.1em; padding-left: .8em; }
+  figure, .table-wrap, blockquote.review-callout { break-inside: avoid; page-break-inside: avoid; }
+
+  .table-wrap { overflow: visible; }
+  .statblock-card { font-size: 12pt; }
+  .statblock-card { break-inside: avoid; page-break-inside: avoid; }
+  .statblock-card .table-wrap { margin: .45em 0; overflow: visible; max-width: 100%; }
+  .statblock-card table { table-layout: auto; width: 100%; max-width: 100%; font-size: .6em; }
+  .statblock-card table.statblock-attributes-table { font-size: .56em; }
+  .statblock-card table.statblock-derived-table { font-size: .58em; }
+  .statblock-card table.statblock-actions-table { font-size: .6em; }
+  .statblock-card table.statblock-dune-drives-table,
+  .statblock-card table.statblock-dune-skills-table { font-size: .64em; }
+  .statblock-card table.has-index-column th:first-child,
+  .statblock-card table.has-index-column td:first-child { width: 1.8em; min-width: 1.8em; max-width: 1.8em; padding-left: 1px; padding-right: 1px; text-align: center; white-space: nowrap; }
+  .statblock-card th,
+  .statblock-card td { padding: 1px 2px; overflow-wrap: normal; word-break: normal; white-space: normal; }
+  body.print-columns-2 blockquote.review-callout { column-span: all; columns: 2; column-gap: 8mm; break-inside: auto; page-break-inside: auto; }
+  body.print-columns-2 blockquote.review-callout p { break-inside: auto; }
+  figure { margin: .55em 0; }
+  figure img { max-height: 120mm; object-fit: contain; }
+  figure.art-inline { width: 25%; max-width: 42mm; margin-left: auto; margin-right: auto; }
+  figure.art-inline img { width: 100%; max-height: 72mm; object-fit: contain; }
+  figure.art-body-right { float: right; width: 25%; max-width: 42mm; margin: .1em 0 .45em .75em; clear: right; }
+  figure.art-body-right img { width: 100%; max-height: 72mm; object-fit: contain; }
+  figure.art-handout-page { float: none; width: 80%; max-width: 80%; margin: .4em auto; break-before: auto; page-break-before: auto; break-after: auto; page-break-after: auto; }
+  figure.art-handout-page img { width: 100%; max-height: 205mm; object-fit: contain; }
+  figure.artview-decision.artview-width-25 { width: 25%; max-width: 42mm; }
+  figure.artview-decision.artview-width-80 { width: 80%; max-width: 80%; }
+  figure.artview-decision.artview-width-100 { width: 100%; max-width: 100%; }
+  figure.artview-decision.artview-align-center { float: none; clear: both; margin-left: auto; margin-right: auto; }
+  figure.artview-decision.artview-align-right.artview-wrap-text { float: right; clear: right; margin-left: .75em; margin-right: 0; }
+  body.print-columns-2 figure.art-full-width { column-span: all; width: 100%; clear: both; margin: .55em 0 .8em; break-inside: avoid; page-break-inside: avoid; }
+  body.print-columns-2 figure.art-full-width img { width: 100%; max-height: 92mm; object-fit: contain; }
+  .art-full-page, .art-cover, .art-pregen-fullpage { break-before: page; break-after: page; column-span: all; }
+  body.print-columns-1 .art-full-page,
+  body.print-columns-1 .art-cover,
+  body.print-columns-1 .art-pregen-fullpage {
+    break-before: auto; page-break-before: auto;
+    break-after: auto; page-break-after: auto;
+    column-span: none;
+  }
+  .art-full-page img, .art-cover img, .art-pregen-fullpage img { max-height: 252mm; }
+  .art-float-right, .art-scenario-right { float: right; width: 46%; margin: .1em 0 .45em .75em; }
+  .art-float-right.art-scale-30, .art-scenario-right.art-scale-30 { width: 30%; }
+  .art-scenario-compact, .art-flow-compact { width: 42%; }
+  .art-compact-sheet { width: 36%; }
+  figcaption { font-size: .72em; }
+  table { font-size: .68em; line-height: 1.16; }
+  th, td { padding: 2px 3px; }
+
+
+  body.print-columns-1 .full-page-art-card {
+    display: block;
+    box-sizing: border-box;
+    break-before: page;
+    page-break-before: always;
+    break-after: page;
+    page-break-after: always;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  body.print-columns-1 .full-page-art-card figure.art-full-page,
+  body.print-columns-1 .full-page-art-card figure.art-handout-page,
+  body.print-columns-1 .full-page-art-card figure.art-pregen-fullpage {
+    break-before: auto;
+    page-break-before: auto;
+    break-after: auto;
+    page-break-after: auto;
+  }
+  body.print-columns-1 .full-page-art-card + p,
+  body.print-columns-1 .full-page-art-card + h1,
+  body.print-columns-1 .full-page-art-card + h2,
+  body.print-columns-1 .full-page-art-card + h3,
+  body.print-columns-1 .full-page-art-card + h4,
+  body.print-columns-1 .full-page-art-card + a + h1,
+  body.print-columns-1 .full-page-art-card + a + h2,
+  body.print-columns-1 .full-page-art-card + a + h3,
+  body.print-columns-1 .full-page-art-card + a + h4,
+  body.print-columns-1 .full-page-art-card + .full-page-art-card {
+    break-before: page !important;
+    page-break-before: always !important;
+  }
+  body.print-columns-1 h1:has(+ figure.art-full-page),
+  body.print-columns-1 h2:has(+ figure.art-full-page),
+  body.print-columns-1 h3:has(+ figure.art-full-page),
+  body.print-columns-1 h4:has(+ figure.art-full-page),
+  body.print-columns-1 h1:has(+ p + figure.art-full-page),
+  body.print-columns-1 h2:has(+ p + figure.art-full-page),
+  body.print-columns-1 h3:has(+ p + figure.art-full-page),
+  body.print-columns-1 h4:has(+ p + figure.art-full-page) {
+    break-before: page;
+    page-break-before: always;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  body.print-columns-1 h1:has(+ p + figure.art-full-page) + p,
+  body.print-columns-1 h2:has(+ p + figure.art-full-page) + p,
+  body.print-columns-1 h3:has(+ p + figure.art-full-page) + p,
+  body.print-columns-1 h4:has(+ p + figure.art-full-page) + p {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  body.print-columns-1 h1 + figure.art-full-page img,
+  body.print-columns-1 h2 + figure.art-full-page img,
+  body.print-columns-1 h3 + figure.art-full-page img,
+  body.print-columns-1 h4 + figure.art-full-page img,
+  body.print-columns-1 p + figure.art-full-page img {
+    max-height: 242mm;
+  }
+  body.print-columns-1 .handout-art-card {
+    min-height: 0 !important;
+  }
+  body.print-columns-1 .handout-art-card figure.art-handout-page img {
+    max-height: 205mm;
+  }
+  body.print-columns-1 .pregen-art-card {
+    min-height: 266mm;
+  }
+  body.print-columns-1 .pregen-art-card figure.art-pregen-fullpage img {
+    max-height: 252mm;
+  }
+
+
+  body.print-columns-1 blockquote.review-callout:not(.callout-keep-together):not([data-break-policy="keep_together"]) {
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+
+}
+</style>
+</head>
+<body class="print-columns-1 normal-single-column-flow">
+<main>
+
+<!-- pdf-page-001 -->
+<section class="production-page page-type-cover" id="page-001" data-page="001">
+<div class="page-marker">page 001</div>
+<figure><img src="assets/pdf-page-001-cover.png" alt="Cover"></figure>
+</section>
+<section class="production-page page-type-credits" id="page-002" data-page="002">
+<div class="page-marker">page 002</div>
+<h1 id="avtory-i-sozdateli">АВТОРЫ И СОЗДАТЕЛИ</h1>
+<p>Текст: Джеймс Киллик. Фотографии и иллюстрации: Джеймс Киллик</p>
+<p>«Сон № 7» © 2021 Джеймс Киллик</p>
+<p>Особая благодарность команде плейтестеров «Сна № 1»: Корнелиусу Буту, Аманде Хорлок и Джейми Стюарту</p>
+</section>
+<nav id="toc" class="toc" data-toc-origin="source" data-toc-layout="flat" data-toc-columns="2" style="--toc-columns: 2; --toc-font-size: 9.5pt; --toc-line-height: 1.18; --toc-item-gap: 3px; --toc-column-fill: balance; --toc-column-gap: 7mm;"><div class="toc-frame"><h1>СОДЕРЖАНИЕ</h1><ol>
+<li class="toc-level-1"><a href="#vvedenie">Введение</a></li>
+<li class="toc-level-1"><a href="#predystoriya">Предыстория</a></li>
+<li class="toc-level-1"><a href="#chto-sluchilos-s-syschikami">Что случилось с сыщиками?</a></li>
+<li class="toc-level-1"><a href="#konstrukt-7">Конструкт 7</a></li>
+<li class="toc-level-1"><a href="#prosvetlennye">Просветлённые</a></li>
+<li class="toc-level-1"><a href="#deistvuyuschie-litsa">Действующие лица</a></li>
+<li class="toc-level-1"><a href="#nachalo-priklyucheniya">Начало приключения</a></li>
+<li class="toc-level-1"><a href="#knizhnaya-lavka-stenvika">Книжная лавка Стэнвика</a></li>
+<li class="toc-level-1"><a href="#kvartira-elsi">Квартира Элси</a></li>
+<li class="toc-level-1"><a href="#sait-prosvetlennyh">Сайт «Просветлённых»</a></li>
+<li class="toc-level-1"><a href="#hizhina-v-lesu">Лесная хижина</a></li>
+<li class="toc-level-1"><a href="#vstrecha-s-elsi">Встреча с Элси</a></li>
+<li class="toc-level-1"><a href="#pobeg">Побег</a></li>
+<li class="toc-level-1"><a href="#institut">Институт</a></li>
+<li class="toc-level-1"><a href="#finalnaya-vstrecha">Заключительная конференция</a></li>
+<li class="toc-level-1"><a href="#prilozhenie-a-harakteristiki-personazhei">Приложение A — характеристики персонажей</a></li>
+<li class="toc-level-1"><a href="#prilozhenie-b-razdatochnye-materialy">Приложение B — раздаточные материалы</a></li>
+<li class="toc-level-1"><a href="#prilozhenie-c-zaranee-sozdannye-personazhi-igrokov">Приложение C — готовые персонажи игроков</a></li>
+</ol></div></nav>
+
+<!-- pdf-page-002 -->
+
+<!-- pdf-page-004 -->
+<section class="production-page page-type-body" id="page-004" data-page="004">
+<div class="page-marker">page 004</div>
+<h2 id="vvedenie">ВВЕДЕНИЕ</h2>
+<h2 id="vse-li-chto-my-vidim-ili-voobrazhaem-lish-son-vnutri-sna-son-vo-sne-edgar-allan-po">Всё ли, что мы видим или воображаем, — лишь сон внутри сна? «Сон во сне», Эдгар Аллан По</h2>
+<p>Мозг каждого сыщика заключён в мозговую капсулу ми-го. К счастью, они об этом не подозревают — по крайней мере пока: ми-го хотят узнать кое-что известное сыщикам, но забытое ими, — где находится некая Элси Уэбб.</p>
+<p>Ми-го разработали «машины памяти»: они погружают законсервированные мозги в состояние сна и создают виртуальный конструкт, где человеческий разум может исследовать свои воспоминания, словно переживая их заново. Ми-го способны добавлять в конструкт искусственные элементы, чтобы влиять на действия сыщиков и наблюдать за ними. Именно в таком конструкте — Конструкте 7 — сыщики оказались, сами того не зная.</p>
+<p>Приключение рассчитано на 2–5 игроков. В конце сценария приведены шесть готовых персонажей игроков. Каждый из них так или иначе связан с Элси и/или её отцом Стэнвиком.</p>
+<p>В этом приключении сыщики уже обречены, поэтому оно плохо подходит для включения в существующую кампанию. Жестокий Хранитель может предложить игрокам создать собственных сыщиков, если они захотят, но перед началом игры рекомендуется связать их со Стэнвиком.</p>
+<p>Формально действие происходит около 2020 года в английском городе Бристоле, однако Хранитель без труда может изменить место и время.</p>
+<h2 id="predystoriya">ПРЕДЫСТОРИЯ</h2>
+<p>Ми-го десятилетиями похищали человеческие разумы и создали подставную «оздоровительную» организацию, чтобы прикрыть свою деятельность на Земле. Элси — глубоко сопереживающая, склонная к ярким снам гипнотизёрша, которая постоянно страдала за других, — вступила в эту организацию, «Просветлённые», надеясь обрести душевный покой. Благодаря своим способностям она быстро заинтересовала ми-го, которые очень хотели поставить на ней опыты.</p>
+<p>Элси узнала, чем на самом деле занимаются «Просветлённые», прежде чем они успели извлечь её мозг, и скрылась. Она никому не сказала, где находится, даже собственному отцу. Элси знает, что ми-го способны против воли извлекать из мозга людей знания — даже те, о которых сами люди не подозревают.</p>
+<p>Сыщики уже пережили это приключение, просто не помнят его. Ми-го собираются помочь им вспомнить.</p>
+<figure><img src="assets/page-004-xref-80-gen-0-resource-image100.jpg" alt="Исходное изображение со страницы 4"></figure>
+<h2 id="chto-sluchilos-s-syschikami">ЧТО СЛУЧИЛОСЬ С СЫЩИКАМИ?</h2>
+<p>До того как ми-го схватили сыщиков, их нанял Стэнвик, отец Элси, чтобы найти его дочь. Начав с книжной лавки Стэнвика, сыщики затем посетили квартиру Элси и, расследовав деятельность «Просветлённых», обнаружили, что она скрывается. Элси рассказала им правду о «Просветлённых» и сообщила, что настоящий центр их деятельности — место под названием «Институт». Согласившись на гипноз Элси, чтобы в случае пленения не выдать её местонахождение, сыщики силой проникли в Институт. Там они раскрыли ужасающую правду о том, как ми-го собирают человеческие мозги. Ми-го схватили сыщиков, и, поскольку те знали слишком много, чтобы просто отпустить их, оставили в живых и извлекли их мозги. Теперь они находятся в мозговых капсулах, подключённых к Конструкту 7.</p>
+<h2 id="konstrukt-7">КОНСТРУКТ 7</h2>
+<p>Конструкт 7 построен из воспоминаний сыщиков и дополнен как их подсознанием, действующим внутри конструкта, так и вмешательством ми-го. Поэтому в конструкте могут происходить похожие на сны сцены и странные, нереальные события, которые встревожат сыщиков и приведут к потере Рассудка.</p>
+<h2 id="sboi">СБОИ</h2>
+<p>Конструкт пытается дополнить воспоминания сыщиков реалистичными подробностями, основываясь на представлениях ми-го о том, как устроены мир и человеческое общество. Неудивительно, что это не всегда удаётся: то, что ми-го считают человеческим поведением, людям покажется глубоко странным. В конструкте могут встречаться нелепо немодная одежда, странные ответы на вопросы, повторяющиеся замечания, бессмысленные фразы и причудливая мимика. Возможны и технические сбои: конструкт может зависнуть, как компьютерная игра, начать тормозить или повторять сцены. Хранитель может использовать такие явления, чтобы тревожить сыщиков, но не должен переусердствовать и отвлекать от основного сюжета. Начинайте с малого и постепенно усиливайте сбои по мере развития истории. Примеры сбоев конструкта:</p>
+<ul>
+<li>Сыщики убегают от чего-то — возможно, участвуют в погоне, — и вдруг земля становится густой, липкой, словно желе, замедляя их. При любой физической активности применяется штрафная кость.</li>
+</ul>
+<ul>
+<li>Кто-то идёт по небу или по воде, а затем внезапно начинают действовать привычные законы физики, и он падает на землю совершенно невредимым. Потеря Рассудка 1/1d6.</li>
+</ul>
+<ul>
+<li>Кто-то идёт по стене вниз. Кажется, будто гравитация тянет его вниз, но словно подошвы приклеены к стене. Он доходит до окна и проваливается сквозь него. Потеря Рассудка 1/1d6.</li>
+</ul>
+</section>
+<!-- pdf-page-005 -->
+<section class="production-page page-type-body" id="page-005" data-page="005">
+<div class="page-marker">page 005</div>
+<ul>
+<li>Один из персонажей просыпается посреди ночи и видит маленького ребёнка, сидящего на краю кровати на корточках. Ребёнок поворачивается к нему, его лицо тает, а затем он исчезает. Потеря Рассудка 1/1d6.</li>
+</ul>
+<ul>
+<li>Персонажи идут или едут по улице/дороге, а через несколько секунд обнаруживают, что снова оказались на том же самом отрезке пути, который уже преодолели. Потеря Рассудка 0/1d4.</li>
+</ul>
+<ul>
+<li>Войдя в комнату или заговорив с кем-то, сыщик испытывает сильное дежавю — ему кажется, что он уже здесь бывал, и это действительно так. Потеря Рассудка 0/1.</li>
+</ul>
+<h2 id="sny">СНЫ</h2>
+<p>Большая часть Конструкта 7 создана из воспоминаний сыщиков о расследовании и потому обладает сновидческим оттенком. Как и сбои конструкта, сны могут использоваться Хранителем, чтобы тревожить игроков.</p>
+<p>Когда сыщики «спят» внутри конструкта, им снятся сны. Это сочетание отражений того, что происходит или происходило в «реальном» мире — например, того, что они видят, находясь в мозговых капсулах, или видели до пленения, — и попыток подсознания осмыслить происходящее. Каждый раз, когда сыщики засыпают, попросите их совершить проверку Идеи. Успешно прошедший её вспоминает сон.</p>
+<p>Эти сны должны предвещать истинное положение сыщиков. Хранитель может зачитать их, описать своими словами или раздать игрокам в виде материалов.</p>
+<h3 id="zal-zasedanii">Зал заседаний</h3>
+<p>Вы сидите за столом в большом, чистом зале заседаний корпорации. Вы удивлены, что оказались здесь. Одна стена целиком стеклянная; за ней с высоты виден городской пейзаж. Сразу не понять, какой это город — возможно, Нью-Йорк? Вид потрясающий. Вы оглядываетесь и видите за столом остальных сыщиков; они так же растеряны, как и вы. Во главе стола стоит мужчина. На нём серый костюм, белая рубашка и красный галстук. Он поворачивается к вам и улыбается, но улыбка искажена, похожа на застывший оскал. Его голова яростно, судорожно трясётся, а затем раскалывается надвое, и изнутри появляется нечто — грибной нарост. Споры разлетаются, пока плоть на лице мужчины гниёт и отпадает, образуя новую отвратительную грибную голову. Вы бросаетесь к двери, но она заперта. Вам не выбраться. Потеря РАС 0/1.</p>
+<h3 id="sanitar">Санитар</h3>
+<p>Вы приходите в себя лёжа. Открыв глаза, вы видите, как мимо проплывают стены. Вас куда-то везут; слышен скрип колёс и шаги того, кто — или что — толкает вашу каталку. На самой границе зрения шевелятся тёмные силуэты, но стоит взглянуть на них — они уползают прочь. Коридор освещён странным тусклым коричневым светом. Вы пытаетесь встать, но не можете пошевелиться. Вы смотрите вниз, туда, где должны быть ноги, но не видите их. Пытаетесь позвать на помощь, но у вас нет рта. Пытаетесь закричать, но вас никто не слышит. Потеря РАС 0/1.</p>
+<h3 id="monolit">Монолит</h3>
+<p>Вы просыпаетесь в своей спальне, но у изножья кровати стоит огромная чёрная фигура. От монолита тянется органическая зелёная сеть, ползущая по постельному белью к вам. По чудовищу течёт зелёная кровь; она пульсирует в его полупрозрачных венах. Странный узор — возможно, руна, похожая на цифру «7», — ритмично бьётся, словно сердце, в такт пульсации зелёной жидкости, пока сеть смыкается вокруг вашего горла. Вы пытаетесь вырваться, но вас сковал страх, тело не слушается. Вы неподвижно лежите, пока жизнь покидает вас. Потеря РАС 0/1d3.</p>
+<h3 id="chudovische">Чудовище</h3>
+<p>Вы идёте по улицам знакомого, но неузнаваемого города. Здесь странно тихо — не слышно уличного шума. Вы понимаете, что все вокруг — безликие манекены, движущиеся по рельсам. Они останавливаются и поворачиваются к вам; их гладкие лица похожи на тканевые маски, туго натянутые на человеческие головы. Вдруг их тела начинают трескаться, извиваться и ломаться, словно невидимые руки переламывают им конечности. Хруст костей вызывает тошноту. Вы хотите бежать, но не знаете куда: вас окружают корчащиеся манекены. Теперь у них отрастают новые конечности, тела принимают всё более странные очертания. В ушах звучит оглушительное какофоническое жужжание, будто в голове роится стая гигантских мух. Манекены превратились в неуклюжих громадных насекомых, которые дёргаются и беспомощно бьются о мостовую. Потеря РАС 0/1.</p>
+<h3 id="kapsuly">Капсулы</h3>
+<p>Вы находитесь в комнате, полной консервных банок с едой, и почему-то чувствуете непреодолимое желание открыть их все. В первой — приятные, освежающие персики, и вы съедаете их, но вкус у них какой-то неправильный. Вам нужно есть, поэтому вы открываете следующую банку, а в ней говяжья солонина, уже испортившаяся. Вы продолжаете вскрывать банки, и содержимое становится всё отвратительнее: мясо, кишащее личинками, тухлые сырые потроха. Банки делаются всё больше, а вы не можете перестать их открывать: вам необходимо что-то найти. Вы добираетесь до последней банки и открываете её. Сначала непонятно, что внутри: большая розовая мясистая цветная капуста. Потом вы понимаете, что это мозг крупного животного. Вы с отвращением отворачиваетесь и видите в тени мужчину в сером костюме. Потеря РАС 0/1.</p>
+<figure><img src="assets/page-005-xref-80-gen-0-resource-image100.jpg" alt="Исходное изображение со страницы 5"></figure>
+</section>
+<!-- pdf-page-006 -->
+<section class="production-page page-type-body" id="page-006" data-page="006">
+<div class="page-marker">page 006</div>
+<h2 id="mi-go">МИ-ГО</h2>
+<p>Ми-го наблюдают за сыщиками внутри Конструкта. Они пытаются выяснить, помнят ли сыщики, где находится Элси, чтобы найти её в реальном мире. В Конструкте их представляет один персонаж — мужчина, которого ми-го создали таким, каким сами считают неприметного человека. На деле он сразу бросается в глаза, поскольку ми-го совершенно не уловили человеческие тонкости стиля, манер и поведения. Человек-ми-го будет одет в элегантный, слегка устаревший серый костюм, белую рубашку и красный галстук; волосы у него коротко подстрижены. Сыщики начнут замечать этого человека: обычно он наблюдает за ними из недоступных мест.</p>
+<p>Ми-го также могут изменять Конструкт, помогая сыщикам найти Элси: они хотят, чтобы те преуспели. Поэтому ми-го не дают сыщикам оказаться «при смерти» в конструкте. Это происходит в результате слегка странных, но объяснимых событий: полиция как нельзя кстати прибывает им на помощь, случайный прохожий вмешивается, при падении вдруг появляется матрас и тому подобное.</p>
+<p>Ми-го узнают тайну местонахождения Элси, только если сыщики найдут её в Конструкте и навестят. Если сыщики догадаются или вычислят, где она, но не отправятся туда, ми-го не смогут узнать её местоположение.</p>
+<h2 id="zamechaniya-dlya-hranitelya">ЗАМЕЧАНИЯ ДЛЯ ХРАНИТЕЛЯ</h2>
+<p>Сыщики могут испытывать дежавю или видеть вспышки воспоминаний, но не подозревают, что расследуют это дело не впервые. Ведите приключение так, словно всё происходит впервые. Вскоре сыщики и так узнают, в каком на самом деле положении оказались.</p>
+<p>Не страшно, если сыщики не «переживут» расследование в точности так, как оно происходило в реальном мире. Память никогда не бывает абсолютно точной; к тому же Элси и ми-го намеренно пытались стереть некоторые воспоминания. Элси загипнотизировала сыщиков, чтобы они забыли её местонахождение, а ми-го постарались заставить их забыть о пленении. Именно местоположение Элси ми-го хотят узнать, и им это не удастся, если сыщики слишком рано поймут, что происходит на самом деле.</p>
+<h2 id="prosvetlennye">ПРОСВЕТЛЁННЫЕ</h2>
+<p>«Просветлённые» служат прикрытием для сбора ми-го человеческих мозгов. Для большинства посетителей это просто возможность поговорить, обменяться идеями и поддержать друг друга в псевдорелигиозной обстановке. Человек может провести там немало времени, посещать встречи и так и не узнать, что происходит на самом деле.</p>
+<p>Ми-го и их человеческие союзники используют центры, чтобы выявлять два типа людей: тех, кто станет преданными союзниками, и тех, чьи умственные способности интересны ми-го. Такое случается реже, чем можно подумать, по двум причинам. Во-первых, массовые исчезновения трудно скрыть. Во-вторых, разумов, достаточно выдающихся, чтобы заинтересовать ми-го, не так уж много.</p>
+<p>Ми-го особенно интересуются людьми с необычными когнитивными способностями — например, предвидением, ясновидением, эмпатией и способностью влиять на разум, — а не людьми с высоким IQ или большими академическими успехами. В иерархии «Просветлённых» четыре ступени: «потенциальные», «учёные», «всеведущие» и «просветлённые». Только третья ступень — «всеведущие» — знакомится с инопланетной сущностью организации. Для извлечения мозга (таких людей называют «вознесёнными») могут выбрать человека с любой ступени — добровольно или против его воли — и ускоренно приблизить его судьбу.</p>
+<h2 id="deistvuyuschie-litsa">ДЕЙСТВУЮЩИЕ ЛИЦА</h2>
+<h3 id="stenvik-uebb">СТЭНВИК УЭББ</h3>
+<figure><img src="assets/page-006-xref-15-gen-0-resource-image110.jpg" alt="Исходное изображение со страницы 6"></figure>
+<p>Отец Элси, ему чуть за пятьдесят. В молодости служил в британской армии, побывал в Северной Ирландии и Боснии, где получил пулю в колено. Он выздоровел, но с возрастом ходить ему становилось всё больнее, и теперь он в основном передвигается на инвалидной коляске. Стэнвик владеет книжной лавкой. Живёт тихо, почти ни с кем не общается.</p>
+<p>После Боснии Стэнвик изменился. Раньше он был уверен, что добро и зло чётко различимы, а человечеству в основе своей свойственно добро. Увиденные зверства изменили его. Теперь он заботится только о себе и близких — а близкий у него, по сути, один: дочь Элси. После увольнения Стэнвика из армии его отношения с матерью Элси испортились, и они развелись, когда Элси была совсем маленькой.</p>
+</section>
+<!-- pdf-page-007 -->
+<section class="production-page page-type-body" id="page-007" data-page="007">
+<div class="page-marker">page 007</div>
+<p>Стэнвик склонен к апокалиптическим взглядам. Он считает, что общественный порядок рано или поздно рухнет, а человечество одичает. В его загородном доме в Южном Глостершире хранятся нелегальные огнестрельные ружья, которые он раздобыл в Боснии. У него запас консервов и бутилированной воды на две недели. С тех пор как он получил письмо от Элси, он в загородный дом не возвращался.</p>
+<h3 id="elsi-uebb">ЭЛСИ УЭББ</h3>
+<figure><img src="assets/page-007-xref-19-gen-0-resource-image112.jpg" alt="Исходное изображение со страницы 7"></figure>
+<p>Двадцатипятилетняя дочь Стэнвика и Джослин. Она редко видится с матерью из-за её пристрастия к алкоголю. Элси не против выпить, но встречи с матерью всегда сопровождаются выпивкой и часто заканчиваются взаимными упрёками и гневом. Недавно Элси уволилась с работы социального работника. Благодаря врождённой сильной эмпатии она остро переживает страдания людей, которым помогает, и сильно из-за этого нервничает. Отчасти поэтому она вступила в «Просветлённых» в поисках душевного покоя. Элси самостоятельно научилась гипнозу и всегда интересовалась духовной стороной жизни. Она настолько хорошо чувствует других, что тем, кто с ней встречается, порой кажется, будто она читает мысли.</p>
+<figure><img src="assets/page-007-xref-21-gen-0-resource-image115.jpg" alt="Исходное изображение со страницы 7"></figure>
+<h2 id="nachalo-priklyucheniya">НАЧАЛО ПРИКЛЮЧЕНИЯ</h2>
+<blockquote class="review-callout"><p>Простите за письмо всем сразу и за то, что объявляюсь без предупреждения. Некоторых из вас я не видел годами, но мне нужны люди, которым я могу доверять. Так или иначе, это вы.</p>
+<p>Поверьте, дело срочное и важное. Я бы не стал этого делать, если бы не считал необходимым. Если коротко, Элси ушла «в тень». Думаю, физически с ней всё в порядке, но она чувствует, что ей грозит опасность. Она не говорит, где находится, и настаивает, что так будет безопаснее и для меня, и для неё.</p>
+<p>Она всегда была девочкой мечтательной и впечатлительной. Уверен, она что-то неправильно поняла, но что бы ни случилось, я не хочу, чтобы она справлялась с этим одна. Если бы не это проклятое кресло, я бы уже сам отправился её искать.</p>
+<p>Если сможете, приходите завтра в лавку. Я буду вас ждать. Пожалуйста, приходите все вместе; не звоните мне без крайней необходимости. Общайтесь как можно меньше. Пока не выясним обратного, лучше считать, что ситуация опасна.</p>
+<p>Стэнвик Уэбб</p>
+<p>Книжная лавка Стэнвика, Кристмас-Степс, Бристоль</p></blockquote>
+<p>Иллюстрация 1. Раздаточный материал 1 — «Сон № 7»</p>
+<h3 id="neozhidannoe-pismo">НЕОЖИДАННОЕ ПИСЬМО</h3>
+<p>Однажды вечером все сыщики получают письмо от Стэнвика Уэбба, которого все они так или иначе знают; подробности их знакомства указаны в листах готовых персонажей. В письме указаны адреса всех сыщиков, чтобы они могли связаться друг с другом, обменяться номерами и, если захотят, договориться о поездке на следующий день. Однако ехать сегодня уже слишком поздно, так что любые планы придётся отложить до утра.</p>
+<p>Если кто-то из сыщиков совершит проверку Идеи за ночь, ему приснится зал заседаний, и он запомнит этот сон.</p>
+</section>
+<!-- pdf-page-008 -->
+<section class="production-page page-type-body" id="page-008" data-page="008">
+<div class="page-marker">page 008</div>
+<h2 id="knizhnaya-lavka-stenvika">КНИЖНАЯ ЛАВКА СТЭНВИКА</h2>
+<figure><img src="assets/page-008-xref-24-gen-0-resource-image118.jpg" alt="Исходное изображение со страницы 8"></figure>
+<p>Книжная лавка Стэнвика занимает трёхэтажное здание в небольшом ряду домов в старой части города, называемой Кристмас-Степс. Спереди одна дверь и одно окно. Бокового и заднего входа нет, хотя позади здания есть небольшой двор, окружённый высокими стенами.</p>
+<h3 id="pokupatel">ПОКУПАТЕЛЬ</h3>
+<p>На двери лавки висит табличка «закрыто», но дверь не заперта. Войдя, сыщики увидят мужчину с книгой в руках. Он скажет, что ждёт продавца, но никого вокруг нет, и спросит, когда вернётся хозяин. Затем он оставит книгу на прилавке и скажет, что зайдёт за ней в другой день. Успешная проверка Идеи вызовет сильное дежавю.</p>
+<h3 id="verhnie-etazhi">ВЕРХНИЕ ЭТАЖИ</h3>
+<p>На втором этаже находится кабинет Стэнвика. В стороне от лестничной площадки — единственная дверь, к которой приколота бумага со странным символом. Это знак, который прислала Элси и попросила его использовать. Если сыщики спросят о нём Стэнвика, он всё объяснит. Сам он не верит, что знак действует, но любит и доверяет дочери, поэтому использует его хотя бы ради неё.</p>
+<p>Если сыщики позовут с лестничной площадки, Стэнвик отзовётся и пригласит их войти. Успешная проверка «Внимание» позволит заметить на его шее небольшой кулон с тем же символом. Это ещё одна вещь, присланная Элси.</p>
+<h3 id="chto-znaet-stenvik">ЧТО ЗНАЕТ СТЭНВИК</h3>
+<p>Стэнвик отправил сыщикам письмо на следующий день после того, как получил письмо от Элси. Он пытался позвонить ей и на домашний, и на мобильный телефон, но оба сразу переключаются на голосовую почту.</p>
+<p>Стэнвик охотно покажет сыщикам письмо Элси. Он выполнил её просьбу насчёт странных символов, которые она ему прислала. Он очень беспокоится за Элси и хочет, чтобы сыщики выяснили, где она, и привели её к нему или, по крайней мере, убедились, что она в безопасности, и помогли ей чем смогут. Он также хочет узнать, кто эти «плохие люди». Элси всегда была мечтательной девочкой, и он надеется, что она неверно поняла ситуацию. Однако, работая социальным работником, она сталкивалась с плохими людьми, и он задаётся вопросом, не они ли втянули её в это дело.</p>
+</section>
+<!-- pdf-page-009 -->
+<section class="production-page page-type-body" id="page-009" data-page="009">
+<div class="page-marker">page 009</div>
+<p>У Стэнвика есть ключ от квартиры Элси. Он отдаст его сыщикам и предложит начать поиски оттуда. Если сыщики спросят, когда он в последний раз разговаривал с Элси, он ответит: около двух недель назад. Тогда она уволилась с работы социального работника и с воодушевлением говорила о будущем. Если в группе есть Джослин, Стэнвик попросит её забрать из квартиры всё, что может иметь для них эмоциональную ценность. Он даст сыщикам свой номер мобильного, если они ещё его не знают.</p>
+<blockquote class="review-callout"><p>Папа,</p>
+<p>Я связалась с плохими людьми. Я уехала туда, где они меня не найдут, но боюсь, что они могут добраться до тебя. Они умеют узнавать, что известно людям, поэтому я не могу сказать, где нахожусь.</p>
+<p>Я предупредила хозяина квартиры, что съезжаю. Аренда оплачена ещё на месяц, но возвращаться я не буду. На следующей неделе я договорилась о вывозе вещей. Всё необходимое у меня с собой. Меня там нет, не ищи меня. Возможно, за квартирой следят.</p>
+<p>Я собираю доказательства, чтобы разоблачить их — через СМИ или по закону, а если материалов хватит, то и тем и другим способом. Я бы рассказала больше, но знаю, что ты попытаешься всё исправить. Только на этот раз, папочка, боюсь, тебе это не под силу.</p>
+<p>Я прислала тебе талисманы на удачу: один носи на шее, а другой приколи к стене или двери комнаты, где находишься. Знаю, ты не веришь в духовное, но поверь: они работают. Ты всегда говорил, что необязательно понимать, как действует инструмент, если он делает своё дело. Примени этот принцип и здесь. Если не можешь, сделай это потому, что любишь меня и я тебя попросила.</p>
+<p>Пожалуйста, береги себя. Скоро напишу снова. Люблю тебя.</p>
+<p>Элси xxx</p>
+<p>Раздаточный материал 2 — «Сон № 7»</p></blockquote>
+<figure><img src="assets/page-009-xref-80-gen-0-resource-image100.jpg" alt="Исходное изображение со страницы 9"></figure>
+<h2 id="uhod-iz-knizhnoi-lavki-stenvika">УХОД ИЗ КНИЖНОЙ ЛАВКИ СТЭНВИКА</h2>
+<h3 id="bezlikii-muzhchina">БЕЗЛИКИЙ МУЖЧИНА</h3>
+<p>Покидая книжную лавку Стэнвика, сыщики при успешной проверке «Внимание» заметят в верхнем окне человека, похожего на того, кто выглядывает из-за чулочной маски, натянутой на лицо. Когда они посмотрят снова, у мужчины действительно будет лицо; он кивнёт в знак приветствия и отойдёт от окна. Если осмотреть все здания вдоль лестницы Кристмас с верхних этажей, из множества окон будут выглядывать люди. Стоит посмотреть ещё раз — и они исчезнут. Потеря РАС: 0/1.</p>
+<h3 id="pokupatel-2">ПОКУПАТЕЛЬ</h3>
+<p>Мужчина, стоявший в книжной лавке, окажется снаружи, на ступенях. Невзначай он спросит сыщиков, не вернулся ли хозяин лавки. Ответить ему или нет — решает сам сыщик.</p>
+<h3 id="kvartira-elsi">КВАРТИРА ЭЛСИ</h3>
+<p>Квартира Элси находится на Глостер-роуд. Это однокомнатная квартира над прачечной самообслуживания. Дверь почти незаметна сбоку здания, где расположена прачечная. Если у сыщиков есть ключ Стэнвика, они войдут без происшествий, хотя в прачечной сидят двое Просветлённых и ждут, не вернётся ли Элси. Успешная проверка «Внимание» одного из сыщиков позволит заметить, что кто-то (не из Просветлённых) снова и снова опускает монету в один из сушильных барабанов. Он прекратит, когда сыщики войдут в прачечную. Если спросить его, зачем он постоянно бросал монеты в сушилку, мужчина ответит, что клал лишь необходимое количество; поступить иначе было бы неприлично. Ответ покажется странным. Просветлённые не обратят внимания на сыщиков, пока те не войдут в квартиру Элси; тогда они проявят к ним живой интерес.</p>
+<p>В квартире Элси есть небольшая кухня-столовая-гостиная открытой планировки, ванная и двуспальная спальня в задней части. Все коммунальные услуги ещё подключены, включая стационарный телефон и Wi-Fi. В спальне стоит письменный стол, рядом с ним — корзина для бумаг. В корзине лежит листовка — передайте сыщикам раздаточный материал 3.</p>
+<h3 id="dnevnik-elsi">ДНЕВНИК ЭЛСИ</h3>
+<p>Дневник Элси спрятан под матрасом. Она слишком поздно поняла, что в спешке забыла его, но не считает его настолько важным, чтобы рисковать и возвращаться. Это скорее личный журнал, чем дневник: записи есть не за каждый день. На чтение уйдёт пара часов. Поначалу Элси записывала мысли и рассказывала о работе социального работника. Очевидно, работа угнетала её. Она с большим сочувствием пишет о своих подопечных — настолько, что чувствует их боль.</p>
+</section>
+<!-- pdf-page-010 -->
+<section class="production-page page-type-body" id="page-010" data-page="010">
+<div class="page-marker">page 010</div>
+<blockquote class="review-callout"><h2>ПРОСВЕТЛЁННЫЕ</h2>
+<p><em>Просветлённые при жизни, достойные после смерти</em></p>
+<p>Вам кажется, что мир вас не понимает? Что судьба не исполнилась? Вы ищете высшую цель?</p>
+<p>Тогда приходите в один из наших центров благополучия и начните путь к новой версии себя.</p>
+<p>ПРОСВЕТЛЁННЫЕ — ярким умам открыты яркие перспективы. Начните свой путь сегодня.</p>
+<p>www.looktothestars.co.uk</p>
+<p>Раздаточный материал 3 — «Сон № 7»</p></blockquote>
+<blockquote class="review-callout"><h3>Краткое содержание дневника Элси</h3>
+<p>В начале дневника Элси пишет о своих мыслях и работе социального работника. Работа вызывает у неё сильный стресс. Она с большим сочувствием относится к подопечным — настолько, что буквально разделяет их боль. В этот период она несколько раз упоминает посещения своего «тайного места», которое находится «возле дома папы».</p>
+<p>Элси решает уйти с работы и в конце концов увольняется после нескольких занятий в центре благополучия: там ей помогли открыть своё «истинное я». Она решила проводить консультации, самостоятельно выбирая клиентов и избегая особенно тяжёлых случаев, а при необходимости применять гипнотерапию. Похоже, она стала гораздо счастливее.</p>
+<p>Элси воодушевлена, когда старший член организации приглашает её в руководящий комитет. Она узнаёт, что туда берут лишь тех, кто проявил выдающиеся интеллектуальные способности. Её необычайная эмпатия выделила её среди прочих. Дела идут хорошо, и ей предлагают работу на полный день. В последней записи она рассказывает о посещении места под названием Институт.</p>
+<p>Раздаточный материал 4 — «Сон № 7»</p></blockquote>
+<p>Если дневник прочитает Милтон и успешно пройдёт проверку «Идея», он вспомнит место неподалёку от коттеджа Стэнвика в Южном Глостершире, куда Элси однажды его водила. Может быть, она скрывается там?</p>
+<h2 id="uhod-iz-kvartiry-elsi">УХОД ИЗ КВАРТИРЫ ЭЛСИ</h2>
+<h2 id="boifrend">Бойфренд</h2>
+<p>Когда сыщики выйдут из квартиры (или раньше, если Хранитель захочет ускорить события), в коридоре окажутся двое Просветлённых — Джонатан и Дэвид. Оставили ли сыщики дверь открытой? Джонатан заявит, что он бойфренд Элси, и спросит, друзья ли сыщики Элси и не знают ли, где она. Оба будут вежливы и приветливы, но успешная проверка «Психология» против Джонатана покажет, что он скорее злится из-за исчезновения Элси, чем переживает. Сыщики сами решат, как отделаться от Дэвида и Джонатана. Джонатан настоит на том, чтобы дать им свой номер мобильного телефона.</p>
+<h2 id="avtobus">Автобус</h2>
+<p>Когда сыщики выйдут из квартиры Элси, мимо проедет автобус. Лица всех пассажиров покажутся размытыми и бесформенными, словно они в масках; их головы будут странно вибрировать. Когда автобус проедет, в заднем окне сыщики увидят мужчину в сером костюме, белой рубашке и красном галстуке, который смотрит прямо на них. Это «человек-ми-го», следящий за ними внутри Конструкта.</p>
+<h2 id="sait-prosvetlennyh">САЙТ ПРОСВЕТЛЁННЫХ</h2>
+<p>Сайт Просветлённых (www.looktothestars.co.uk) очень хорошо оформлен: чистая графика, спокойные цвета, но почти нет содержимого — по сути, там повторяется информация из листовки. Перечислены все центры благополучия: большинство находятся в городах Великобритании, но некоторые — за рубежом. Среди них Лондон, Бирмингем, Кардифф, Глазго, Манчестер, Лидс, Ноттингем, Лиссабон, Хьюстон и Нью-Йорк. Игроков может удивить, сколько таких центров существует. Особый интерес для сыщиков представляет филиал в Бристоле — именно его посещала Элси.</p>
+<h2 id="tsentr-blagopoluchiya-prosvetlennyh">ЦЕНТР БЛАГОПОЛУЧИЯ ПРОСВЕТЛЁННЫХ</h2>
+<p>Бристольский филиал Просветлённых скрывается у всех на виду на Колстон-авеню в Старом городе: неоклассическое здание зажато между более современными офисными постройками. Раньше это была церковь; Просветлённые купили её для своих «служб». Придут ли сыщики к центру днём или ночью, стоит им поднять взгляд — у окна они увидят человека-ми-го, поправляющего галстук. Он посмотрит в сторону сыщиков, но не подаст виду, что заметил их.</p>
+</section>
+<!-- pdf-page-011 -->
+<section class="production-page page-type-body" id="page-011" data-page="011">
+<div class="page-marker">page 011</div>
+<figure><img src="assets/page-011-xref-31-gen-0-resource-image149.jpg" alt="Исходное изображение со страницы 11"></figure>
+<p>Проверка «Взлом» позволит открыть железную калитку перед входной дверью, которую запирают по ночам; калитку также можно взломать подходящим инструментом или перелезть через неё, пройдя проверку «Лазание». Чтобы открыть входную дверь, потребуется проверка «Взлом»; выбить её можно успешной трудной проверкой СИЛЫ. Центр благополучия выходит на оживлённую дорогу, поэтому сыщикам важно не попасться на глаза.</p>
+<p>В рабочие часы и во время вечерних собраний любой желающий может войти в здание. Приветливый администратор охотно поделится листовками Просветлённых и ответит на вопросы. Администратор всегда принадлежит к ступени «учёный» и искренне увлечён группой. На стене висит расписание мероприятий; сыщиков будут приглашать на встречи под следующими заголовками:</p>
+<ul>
+<li>Трансгуманизм — может ли человеческий разум существовать без биологического носителя?</li>
+</ul>
+<ul>
+<li>Нейронные связи — почему памяти нельзя доверять.</li>
+</ul>
+<ul>
+<li>Гипнотерапия — раскройте свой потенциал, избирательно редактируя собственное сознание.</li>
+</ul>
+<ul>
+<li>Сновидения — так ли реальны миры снов, как мир бодрствования?</li>
+</ul>
+<p>Администратор предложит записать сыщиков на мероприятия и попросит их имена и контактные данные. Возможно, это заставит сыщиков нервничать.</p>
+<p>Сыщики могут свободно осмотреть первый этаж: там есть библиотека, комната отдыха и кафе. Если они попытаются подняться выше, их вежливо остановят. На настойчивое или агрессивное поведение отреагирует охрана.</p>
+<p>На втором этаже находится библиотека с более интересными книгами, некоторые из них посвящены мифам Ктулху, а также читальный зал с баром. Там есть и запертый кабинет. В нём хранится информация о 4 ступенях организации и об ускоренном «вознесении». Упоминается место под названием Институт в Уилтшире, похоже, своего рода главный офис. Тех, кого выбрали для вознесения (в списке таких людей сыщики найдут имя Элси), отправляют на оценку в Институт. Некоторое время Элси была единственной избранной.</p>
+<p>На второй этаж допускают только тех, кто достиг как минимум статуса «всезнающий»; у сыщиков нет времени получить его. Другой способ попасть туда — проникнуть внутрь: можно перелезть через трёхметровую стену позади здания и взломать боковую дверь. У двери 20 ПЗ; её можно открыть проверкой навыка «Взлом» или выбить при трудной сложности. Задней двери не видно с улицы, так что сыщики смогут действовать без помех.</p>
+</section>
+<!-- pdf-page-012 -->
+<section class="production-page page-type-body" id="page-012" data-page="012">
+<div class="page-marker">page 012</div>
+<h2 id="kottedzh-stenvika">КОТТЕДЖ СТЭНВИКА</h2>
+<p>Коттедж Стэнвика находится в Южном Глостершире, меньше чем в часе езды от Бристоля. Это дом с двумя спальнями на участке площадью два акра. Участок окружён густой изгородью из огнецвета; к воротам в конце дорожки ведёт проезд. После получения письма Элси Стэнвик сюда не возвращался. Цепь, которой обычно запирают ворота, аккуратно перекушена, а сами ворота открыты. У дома припаркован чёрный Ford Mondeo; внутри сидят двое Просветлённых. Они скажут, что дружат со Стэнвиком, и спросят сыщиков, не знают ли они, где он. Просветлённые неизменно вежливы и уйдут, если их попросить. Они всего лишь ищут Элси. Отъехав, они попробуют следить за сыщиками в бинокль — успешная проверка «Внимание» позволит это заметить. Если сыщики хотят действовать незаметно, им придётся дождаться темноты или разобраться с людьми Просветлённых более решительно.</p>
+<p>Стэнвик жил почти как отшельник, готовый к выживанию в дикой местности. На кухне достаточно консервов и бутилированной воды, чтобы прожить месяц. Земля вокруг коттеджа — слегка заросший луг. Стэнвик подстригает траву бензиновой газонокосилкой с сиденьем; она стоит в сарае вместе с несколькими канистрами топлива. Возле коттеджа есть огород: там растут морковь, лук, картофель и вьющаяся фасоль. В теплице Стэнвик выращивает помидоры и зелень.</p>
+<p>В запертой металлической коробке в дальней комнате лежат незарегистрированный дробовик и самозарядный пистолет Browning Hi-Power, добытые через армейские связи. Если сыщики захотят, они смогут некоторое время отсидеться здесь. Ключ найдётся в кувшине на кухне: для этого нужно обыскать помещение и успешно пройти проверку «Внимание». Коробку также можно открыть проверкой «Взлом».</p>
+<h2 id="hizhina-v-lesu">ХИЖИНА В ЛЕСУ</h2>
+<p>Укрытие Элси можно найти, обыскав поля возле коттеджа Стэнвика, или вспомнив о нём благодаря Милтону. Элси живёт в палатке неподалёку от заброшенной хижины в лесу — это место она нашла ещё девочкой. Если почувствует угрозу, она соберёт палатку и снаряжение и уйдёт.</p>
+<p>Милтон может вспомнить заброшенную лесную хижину. Если же сыщики всерьёз возьмутся за поиски на полях вокруг коттеджа Стэнвика, проверки навыков «Чтение следов», «Выживание» или «Внимание» приведут их в лес примерно в полутора километрах от коттеджа. До этого места не доехать на машине — путь придётся проделать пешком.</p>
+<p>Глядя на лес, сыщики заметят тонкую струйку дыма. Это дым от костра Элси, но позвольте сыщикам самим сделать выводы. Подойдя к лесу, они увидят фигуру в капюшоне, которая идёт им навстречу. Она движется судорожно и с огромным трудом, словно борется с тяжёлым увечьем. В ней есть нечто глубоко нечеловеческое. Сыщики не поймут, что так их предупреждает подсознание. Успешные проверки «Внимание» позволят заметить, что человек-ми-го наблюдает за ними с далёкого холма.</p>
+<h2 id="peremotka">ПЕРЕМОТКА</h2>
+<p>Подсознание сыщиков знает: в лес идти нельзя. Там они вспомнят, что Элси загипнотизировала их и заставила забыть, а воспоминание выдаст ми-го её укрытие. Ми-го уже направляют Зачарованных всезнающих головорезов в район отцовской хижины Элси, опираясь на воспоминания сыщиков из Конструкта 7. В реальном мире сыщики опасно близки к тому, чтобы привести Просветлённых прямо к Элси.</p>
+<p>Где-то в глубине сознания сыщики это знают, даже если не помнят почему, и все вместе попытаются проснуться. Им покажется, будто они потеряли сознание. Успешные проверки «Идея» позволят вспомнить «сон» из реального мира — прочтите или раздайте один из ещё не пережитых ими снов. Хорошо подойдут «Уборщик» или «Монолит».</p>
+<p>Конструкт «перезапустит» сыщиков и вернёт их к тому, чем они занимались до того, как пошли по тропе в лес.</p>
+<h2 id="poslednee-preduprezhdenie">ПОСЛЕДНЕЕ ПРЕДУПРЕЖДЕНИЕ</h2>
+<p>Если сыщики продолжат путь и снова направятся к лесу, хромой мужчина опять подойдёт к ним. Он откинет капюшон: лица у него нет, словно он носит плотно прилегающую маску. Маска примет черты одного из сыщиков, затем по очереди — каждого из них, включая знакомое им лицо Элси, и будет постоянно меняться. «Не ходите в лес», — донесётся издалека голос фигуры, полный боли и усилия. «Вам нельзя идти в лес!» Наконец лицо примет облик человека-ми-го. Тело фигуры сведёт судорогой, затем оно начнёт неудержимо вибрировать и в конце концов исчезнет в одно мгновение. Эта фигура — подсознание сыщиков, пытающееся не дать им вспомнить, что Элси в лесу, прежде чем ми-го заметят аномалию и удалят её из Конструкта.</p>
+</section>
+<!-- pdf-page-013 -->
+<section class="production-page page-type-body" id="page-013" data-page="013">
+<div class="page-marker">page 013</div>
+<h2 id="zhit-ili-umeret">ЖИТЬ ИЛИ УМЕРЕТЬ</h2>
+<p>Возможно, сыщики не поймут, что перед ними важный выбор. Если они решат не идти в лес, то дадут Элси шанс избежать лап Просветлённых в реальном мире. Они снова потеряют сознание и очнутся в своей машине; при них будут несколько улик от Элси. Именно так всё произошло в реальности после гипноза: она оставила им необходимые сведения, но не сказала, где находится.</p>
+<p>Если они пойдут в лес, то получат те же улики, но «вспомнят» то, что пытались забыть, и тем самым выдадут Просветлённым местонахождение Элси.</p>
+<h2 id="vstrecha-s-elsi">ВСТРЕЧА С ЭЛСИ</h2>
+<p>Если сыщики не попытаются скрытно пробраться в лес, Элси услышит их приближение и постарается уйти. Сыщики найдут хижину, но Элси скроется среди деревьев, опасаясь, что её схватят Просветлённые. Если они позовут её или она их узнает, её можно убедить выйти и поговорить — но при одном условии: все согласятся, что после разговора она загипнотизирует их, чтобы они не запомнили, где её нашли. «Они умеют вытягивать знания», — скажет Элси. Возможно, сыщики поймут, что зря пришли, и согласятся на гипноз, но будет уже поздно. Раньше этот план срабатывал, однако теперь сыщики находятся в Конструкте 7, и ми-го с союзниками уже знают, где они нашли Элси, и немедленно отправляют туда людей в реальном мире.</p>
+<p>Элси украла у Зачарованных книгу и научилась создавать Старший знак. По просьбе сыщиков она покажет им, как сотворить это заклинание.</p>
+<figure><img src="assets/page-013-xref-36-gen-0-resource-image152.jpg" alt="Исходное изображение со страницы 13"></figure>
+<h2 id="chto-sluchilos-s-elsi">Что случилось с Элси</h2>
+<p>Элси охотно расскажет всё, что знает о Просветлённых и Институте, но сперва её придётся убедить, что сыщики поверят её словам: «Вы решите, что я сумасшедшая, если я вам расскажу». Когда сыщики её успокоят, она объяснит, что Просветлённые служат прикрытием для куда более зловещей организации. Элси сочли человеком, заслуживающим особого внимания, и быстро провели по ступеням Просветлённых. Её успокаивали и поручали читать лекции о её эмпатических способностях и гипнотерапии. Элси обрела цель и признание, которых, насколько она помнила, ей давно не хватало. Её спросили, хочет ли она войти в «руководящий комитет» группы, а затем отвезли в Институт, где мужчина в сером костюме незаметно провёл оценку. Естественно, мужчина проявил к ней большой интерес, и её отметили для «вознесения». Той ночью Элси тревожило, что она никак не могла понять человека в костюме, а также страх и ужас, которые ощущала в здании. Она тайком вышла из комнаты и исследовала здание, где обнаружила «операционную» и ужасную правду: людям вырезали мозг. В детстве Элси ненавидела лагеря, куда её возил отец, но навыки выживания и уклонения, которым он её научил, оказались бесценны: она сбежала из Института и скрылась.</p>
+<p>Элси попросит сыщиков сделать всё возможное, чтобы помешать этой организации. У Просветлённых много центров благополучия, но штаб-квартира находится в Институте. Она просит сыщиков отправиться туда, собрать улики и спасти тех несчастных, которых собираются прооперировать. Элси не станет призывать их нарушать закон, но и отговаривать не будет, если сыщики к этому склонны. Она поддержит любые действия, мешающие работе Института и Просветлённых в целом, срывающие её или уничтожающие.</p>
+<p>Если сыщики расскажут о странных событиях, которые с ними произошли, Элси обеспокоится, пристально посмотрит одному из них в глаза и поймёт, что его тревожит. Она скажет, что в последнее время ему пришлось нелегко: поручение отца вернуло неприятные воспоминания, а в состоянии стресса разум способен сыграть злую шутку. Элси надеется, что теперь, когда сыщики её нашли и смогут заверить отца, что с ней всё хорошо и она ведёт себя разумно, все они обретут душевный покой.</p>
+<h2 id="uhod-ot-elsi">УХОД ОТ ЭЛСИ</h2>
+<p>Сыщики могут решить остаться с Элси и защитить её. Она отговорит их: в одиночестве ей проще не попасться. Сыщики могут предложить ей перебраться в другое место. Элси готова выслушать предложения, но хорошо знает эти края и здесь умеет действовать лучше всего. Успешная проверка «Убеждение» может заставить её уйти. Помните: всё это происходит в Конструкте, поэтому уговоры не повлияют на её действия в реальном мире.</p>
+</section>
+<!-- pdf-page-014 -->
+<section class="production-page page-type-body" id="page-014" data-page="014">
+<div class="page-marker">page 014</div>
+<p>Если сыщики настоят на том, чтобы остаться, ночью нападут Зачарованные. Огнестрельного оружия у них не будет; они будут одеты в чёрное и балаклавы. Насколько известно сыщикам, в реальности этого не происходило, хотя из-за того, что сыщики выдали местонахождение Элси своими воспоминаниями, там вполне может происходить нечто подобное. Просветлённые потребуют выдать Элси и заявят, что не хотят причинять вреда. Вероятно, сыщики откажутся. Начнётся нападение. Оно будет напоминать кошмар: это воплощение худших опасений сыщиков о будущем, созданное их общим подсознанием. Пусть сцена разыграется до конца — в Конструкте сыщики не могут по-настоящему «умереть». В конце концов с неба прилетит Охотничий ужас и утащит Элси. Сыщики могут надеяться отыскать её в Институте.</p>
+<p>Если сыщики согласятся уйти и пройти гипноз, Элси усадит их перед собой и поднимет палец. Она попросит следить за пальцем и постарается их расслабить: пусть представят, будто спускаются по длинной лестнице в место, где им будет совершенно спокойно. Голос Элси мягок и умиротворяет. Несмотря на всё случившееся, сыщики начнут расслабляться и представят, что спускаются до конца лестницы. Затем они очнутся в машине — предположительно там, где оставили её у коттеджа Стэнвика.</p>
+<h2 id="pobeg">ПОБЕГ</h2>
+<p>Сыщики могут вернуться к машине разными способами: они подошли к лесу, поняли предупреждения и ушли; решили уйти после «Перемотки»; или нашли Элси, и она загипнотизировала их. Если сыщики не входили в лес и тем самым не выдали ми-го местонахождение Элси, Конструкт будет куда настойчивее мешать им выбраться. В бардачке машины они найдут письмо от Элси и подвеску из тростника на кожаном шнурке.</p>
+<blockquote class="review-callout"><p>Не тревожьтесь, если вам кажется, что в памяти есть пробел. Вы согласились позволить мне загипнотизировать вас, чтобы вы не запомнили, где меня нашли. Но вы всё же меня нашли — живой и невредимой. И я многое вам рассказала. Вот краткое содержание:</p>
+<ul>
+<li>Просветлённые служат прикрытием для жестоких экспериментов над людьми с выдающимися умственными способностями. Они хотели поставить такой эксперимент на мне.</li>
+<li>Их штаб-квартира находится в месте под названием Институт в Уилтшире, SN13 6PG. Там проводят эксперименты.</li>
+<li>Разоблачите их, сорвите их планы, сделайте всё возможное, но не недооценивайте их. Они гораздо опаснее, чем кажутся.</li>
+<li>Скажите отцу, что я в безопасности и что он хорошо меня всему научил.</li>
+</ul>
+<p>Удачи!</p>
+<p>Элси Уэбб</p>
+<p>Раздаточный материал 5 — «Сон № 7»</p></blockquote>
+<h2 id="podveska-so-starshim-znakom">Подвеска со Старшим знаком</h2>
+<p>На кожаном шнурке висит небольшая звёздчатая подвеска из высушенного тростника. Решает Хранитель, работает ли она в Конструкте.</p>
+<figure><img src="assets/page-014-xref-39-gen-0-resource-image159.jpg" alt="Исходное изображение со страницы 14"></figure>
+</section>
+<!-- pdf-page-015 -->
+<section class="production-page page-type-body" id="page-015" data-page="015">
+<div class="page-marker">page 015</div>
+<h2 id="institut">ИНСТИТУТ</h2>
+<figure><img src="assets/page-015-xref-42-gen-0-resource-image161.jpg" alt="Исходное изображение со страницы 15"></figure>
+<blockquote class="review-callout"><h3>ПРИМЕЧАНИЕ ХРАНИТЕЛЮ</h3>
+<p>Сыщики прибудут в Институт независимо от того, выдали они местонахождение Элси или нет. Ми-го не интересует эта часть их путешествия по Конструкту, поэтому весь эпизод пройдёт в точности так, как сыщики его помнят, но будет искажён и дополнен так, как способно только человеческое подсознание. Их не покинут дурные предчувствия и страх; происходящее будет казаться сном, потому что в глубине души — даже если они этого не помнят — сыщики точно знают, что им предстоит увидеть.</p></blockquote>
+<h2 id="osmotr-instituta">ОСМОТР ИНСТИТУТА</h2>
+<p>Институт занимает неоготическое здание, содержание которого, должно быть, требует немалых затрат. Оно расположено в живописной сельской местности, в конце подъездной дороги длиной около полумили. Здание окружено неприметной, но надёжной стеной и оградой. Днём его видно сквозь деревья, а ночью оно залито прожекторами. На первый взгляд подойти к нему трудно, но осторожность и хитрость помогут игрокам проникнуть внутрь, если они решат действовать скрытно.</p>
+<p>У въезда в конце дороги стоит сторожка, где сидит охранник. Он откроет ворота всем, у кого есть уважительная причина посетить Институт, — в том числе сыщикам, если те сумеют придумать правдоподобное объяснение. Он откроет ворота даже при неправдоподобном объяснении, но сыщики об этом не знают.</p>
+<p>Как бы сыщики ни подъехали к Институту и в какое бы время ни пришли, в окне одного из верхних этажей они увидят человека-ми-го. Он пьёт чай и смотрит прямо на сыщиков. Поставив чашку на подоконник, он поправит галстук и скроется из виду.</p>
+<h2 id="pervyi-etazh">Первый этаж</h2>
+<h2 id="vhod">Вход</h2>
+<p>Входные двери открыты. Здесь никого нет. На столе лежат материалы «Просветлённых» — сыщики наверняка уже видели подобные в Центре здоровья.</p>
+<h2 id="komnaty-ozhidaniya">Комнаты ожидания</h2>
+<p>Это уютные гостиные, где кандидаты на Вознесение — сознательно или нет — ждут своей участи. Здесь никого не будет.</p>
+<h2 id="chitalnyi-zal">Читальный зал</h2>
+<p>В читальном зале много книг по науке, математике, биологии и антропологии. Возможно, удивительно, но томов о мифах здесь нет. «Просветлённым» не нужны бредни пророков и безумцев: лучшие знатоки мифов — Ми-го с Юггота.</p>
+</section>
+<!-- pdf-page-016 -->
+<section class="production-page page-type-body" id="page-016" data-page="016">
+<div class="page-marker">page 016</div>
+<h2 id="podgotovitelnaya">Подготовительная</h2>
+<p>Посреди комнаты стоит нечто похожее на стоматологическое кресло, но на подлокотниках и подножках есть ремни, и даже отдельный ремень для головы. Здесь готовят к путешествию тех, кому повезло быть избранным для Вознесения. Одни приходят добровольно, иногда загипнотизированные Ми-го; других двое крепких санитаров силой усаживают в кресло и пристёгивают. Затем им вводят сильные парализующие препараты, чтобы полностью обездвижить мышцы, но, к несчастью, не избавить от боли. Проверка навыка Медицина раскроет природу препаратов. Узнав правду, потеряйте 0/1d4 Рассудка.</p>
+<h2 id="operatsionnaya">Операционная</h2>
+<p>Операционная устроена так, чтобы Ми-го было удобно работать, поэтому её размеры покажутся сыщикам странными. Рабочие поверхности широкие и низкие, но прежде всего сыщики заметят обнажённые человеческие тела, висящие в воздухе, будто ни на чём не держась. Это вознесённые, чьи мозги уже находятся в контейнерах в Машинном зале. Хирургические разрезы невозможно обнаружить: по неизвестной причине пришельцы безупречно восстановили макушки несчастных. Тела чистые, без малейших признаков разложения. Однако сыщиков совершенно потрясёт то, что тела выглядят точь-в-точь как их собственные. Увидев это, потеряйте 1/1D6 РАС. Так подсознание сыщиков пытается сообщить им, что происходит на самом деле.</p>
+<p>Двери в Зал Врат и Машинный зал отличаются от всех остальных дверей в доме: они многоугольные, с маленькими шестиугольными окошками из прозрачной керамики, сквозь которые можно различить очертания и движение, но не более того. Под окнами — странное выпуклое скопление проводов. Если дотронуться до них, двери разъедутся; за вошедшими они закроются.</p>
+<h2 id="mashinnyi-zal">Машинный зал</h2>
+<p>Попасть в Машинный зал можно только из Операционной. Здесь очень темно — примерно как в полдень на Плутоне. Сыщики кое-как смогут что-то разглядеть, но им пригодился бы источник света. Из середины комнаты, где находится Конструкт 7, доносится тихое, почти неразличимое гудение.</p>
+<p>В сердце Конструкта 7 стоит чёрный монолит размером примерно с мейнфрейм, но на этом сходство заканчивается. Его поверхность из странного керамического вещества, по-видимому, бесшовна; по ней постоянно пробегают зелёные огни, складываясь в многоугольные линии. На монолите есть буква, символ или руна, пульсирующая, словно медленный удар сердца; она похожа на цифру «7». Монолит оплетает подобная живому организму паутина из светящейся зелёной слизи, которая прилипнет к человеческой коже при прикосновении. Конструкт питается человеческой биомассой. Её запас содержится в большом яйцевидном резервуаре из того же органического зелёного вещества, которым покрыт монолит; резервуар соединён с ним. Если сыщики проткнут мешок, на пол выплеснутся разжиженные части человеческих тел, что вызовет потерю 1/1d4 РАС.</p>
+<p>К Конструкту подсоединены контейнеры с мозгами Ми-го; они лежат на передвижных столах вроде больничных каталок, по одному на каждого сыщика. На контейнерах появились вполне человеческие этикетки с фамилиями сыщиков. В реальном мире сыщики обнаружили Конструкт, но этикетки — порождение их собственного сознания, вновь пытающегося истолковать этот кошмар. Увидев этикетки, потеряйте 1/1d8 РАС. Пусть сыщики сами сделают выводы. Человек-ми-го ждёт наверху, чтобы всё объяснить, когда придёт время.</p>
+<h2 id="zal-vrat">Зал Врат</h2>
+<p>В комнате нет ничего, кроме огромного круга на дальней стене, напротив входа. Внутри круга — самая чёрная тьма, какую сыщики когда-либо видели. Круг — врата на планету Юггот.</p>
+<p>Если кто-нибудь просунет сквозь врата руку (или другую часть тела), он почувствует леденящий, ошеломительный холод и сразу потеряет 1 ПЗ; потеря будет повторяться каждый раунд. Если оставить руку во вратах надолго, она вмёрзнет, и персонаж лишится конечности. Инстинкт подскажет ему отдёрнуть её. Если просунуть лицо, персонаж ощутит убийственный холод и ветер скоростью более 200 миль/ч, начнёт задыхаться из-за отсутствия кислорода и потеряет 1d3 ПЗ. Он быстро умрёт, если не отдёрнет лицо. Если открыть глаза, просунув голову во врата, можно ненадолго увидеть поверхность Юггота. Сыщики не могут попасть туда, если только они не находятся в контейнере для мозга. Вероятность увидеть Ми-го на поверхности планеты — 30%; это вызовет соответствующую потерю РАС. Если персонаж сойдёт с ума, он останется неподвижным и умрёт от удушья, а его лицо замёрзнет. Товарищи могут спасти его, если достаточно быстро вытащат обратно.</p>
+<h2 id="koridor">Коридор</h2>
+<p>Сзади здания есть наружная дверь и лестница, ведущая на второй этаж.</p>
+<h2 id="vtoroi-etazh">Второй этаж</h2>
+<h2 id="spalni">Спальни</h2>
+<p>В этих комнатах могут останавливаться гости и сотрудники Института.<br>
+Сыщики не найдут здесь ничего интересного.</p>
+<h2 id="komnata-personala">Комната персонала</h2>
+<p>Люди-союзники Ми-го и руководители «Просветлённых» могут при необходимости пользоваться этой комнатой.</p>
+<h2 id="kamery-s-myagkimi-stenami">Камеры с мягкими стенами</h2>
+<p>Сейчас эти комнаты пусты, но к стенам камер прикреплены ремни и фиксаторы. Потенциальных кандидатов с необычными склонностями ума, которые при этом могут быть опасны, удерживают здесь до Вознесения.</p>
+<h2 id="komnata-doprosov">Комната допросов</h2>
+<p>В комнате стоит кресло, похожее на кресло в Подготовительной. На столах вокруг разложен внушительный набор орудий для пыток. Сыщики заметят, что пол выложен плиткой и наклонён к стоку, чтобы кровь и другие жидкости тела можно было легко смыть.</p>
+</section>
+<!-- pdf-page-017 -->
+<section class="production-page page-type-body" id="page-017" data-page="017">
+<div class="page-marker">page 017</div>
+<h2 id="finalnaya-vstrecha">ФИНАЛЬНАЯ ВСТРЕЧА</h2>
+<p>Эта сцена произойдёт, если сыщик войдёт в конференц-зал Института после посещения Операционной и Машинного зала, либо в любой момент, когда Хранитель сочтёт это уместным. Сыщики окажутся в большой комнате, которую сразу узнает каждый, кому снилась Конференц-комната. Они увидят человека в костюме, который следил за ними. Он стоит к ним спиной, смотрит в окно и пьёт чай. Кажется, время остановилось: двигаться и говорить может только мужчина в сером костюме. Он ставит чашку и поворачивается к сыщикам, говоря странно модулированным голосом с необычными ударениями и паузами.</p>
+<blockquote class="review-callout"><p>«Наконец-то мы встретились. Или, пожалуй, „впервые“. А может, правильнее сказать: „впервые и в последний раз“. Наверное, вы задаётесь вопросом, кто я. Но важнее не то, кто я, а то, где вы находитесь и что знаете. Именно это очень интересует моих нанимателей. Всё это — способ добраться до понимания. Ничего из происходящего нельзя назвать физическим. Всё здесь — у вас в голове, лишь немного обогащённой моими нанимателями. Всё, что вы помните, и то, чего не помните. Всё, что вам снилось и что вы воображали. Решать вам, что реально, а что нет».</p></blockquote>
+<p>Если сыщики раскрыли местонахождение Элси:</p>
+<blockquote class="review-callout"><p>«Мы хотим поблагодарить вас за то, что вы нашли человека, представляющего большой интерес для моих нанимателей. Вы могли бы многого добиться, если бы только сумели освободить разум от тела, а мы можем вам в этом помочь. Но теперь вам придётся ненадолго уйти. Скорее всего, вы даже этого не заметите. До тех пор, пока снова не сможете нам помочь».</p></blockquote>
+<p>Если сыщики не раскрыли местонахождение Элси:</p>
+<blockquote class="review-callout"><p>«На этот раз вы не смогли нам помочь. Нам придётся повторять всё снова и снова, сколько потребуется, пока мои наниматели не будут удовлетворены. Вы могли бы многого добиться, если бы только сумели освободить разум от тела, и мои наниматели пытаются вам помочь. Буду ждать возможности снова за вами понаблюдать».</p></blockquote>
+<p>В обоих случаях мир погружается во тьму. Сыщики видят лишь человека в костюме, стоящего словно в пустоте. Он разворачивается и уходит вдаль, пока не превращается в крошечную точку, которая гаснет, как изображение на старом телевизоре.</p>
+<figure><img src="assets/page-017-xref-47-gen-0-resource-image164.jpg" alt="Исходное изображение со страницы 17"></figure>
+</section>
+<!-- pdf-page-018 -->
+<section class="production-page page-type-body" id="page-018" data-page="018">
+<div class="page-marker">page 018</div>
+<h1 id="prilozhenie-a-harakteristiki-personazhei">ПРИЛОЖЕНИЕ A — ХАРАКТЕРИСТИКИ ПЕРСОНАЖЕЙ</h1>
+<p>Эти персонажи основаны на подсознательных воспоминаниях о людях, которых сыщики встречали или знали в реальном мире, либо созданы Ми-го виртуально. Хранитель может менять эти характеристики по своему усмотрению; они приведены лишь для удобства.</p>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="stanwick-statblock"><h3>СТЭНВИК УЭББ</h3>
+<p>СИЛ 60 ВЫН 50 ТЕЛ 80 ЛВК 55 ИНТ 65 НАР 70 МОЩ 35 ОБР 55 РАС 65 ПЗ 9 БКУ: 1d4 Комплекция: 1 СКО: 4 ПМ:7 Удача: 45<br>
+Драка 55% (17/7), урон 1D3 + 1d4. Дробовик 12-го калибра 65% (20/8), (урон 4D6/2D6/1D6). Пистолет Browning Hi-Power 65%, (урон 1d10, дистанция 15, скорострельность 2)<br>
+Навыки: Оценка 40%, Работа в библиотеке 70%, Работа с компьютером 55%, Электрика 55%, Механика 65%, Выживание 70%, Слух 55%, Внимание 50%</p></section>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="elsie-statblock"><h3>ЭЛСИ УЭББ</h3>
+<p>СИЛ 30 НАР 60 ВЫН 60 МОЩ 85 ТЕЛ 55 ОБР 65 ЛВК 70 РАС 65 ИНТ 90 ПЗ 9 Удача: 85<br>
+БКУ: 0 Комплекция: 0 СКО: 8 ПМ: 17<br>
+Драка 35% (17/7), урон 1D3 40% (20/8), (урон 4D6/2D6/1D6)<br>
+Дробовик 12-го калибра<br>
+Навыки: Оценка 40%, Работа в библиотеке 70%, Работа с компьютером 55%, Электрика 45%, Механика 45%, Выживание 65%, Гипноз 85%, Психология 95%, Слух 65%, Внимание 60%</p></section>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="regular-statblock"><h3>ПРОСВЕТЛЁННЫЙ (ОБЫЧНЫЙ)</h3>
+<p>СИЛ 60 НАР 55 БКУ: 0 ВЫН 65 МОЩ 50 Комплекция: 0 ТЕЛ 60 ОБР 55 СКО: 8 ЛВК 25 РАС 45 ПМ: 17 ИНТ 60 ПЗ 12 Удача: 50<br>
+Драка 35% (17/7), урон 1D3<br>
+Навыки: Работа в библиотеке 60%, Работа с компьютером 55%, Электрика 45%, Внимание 50%, Слух 50%, Уклонение 10%</p></section>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="heavy-statblock"><h3>ПРОСВЕТЛЁННЫЙ (СИЛОВИК)</h3>
+<p>СИЛ 55 НАР 75 ВЫН 35 МОЩ 45 Комплекция: 1 ТЕЛ 70 ОБР 60 СКО: 7 ЛВК 55 РАС 45 ПМ: 9 ИНТ 65 ПЗ 10 Удача: 45<br>
+БКУ: 1D4<br>
+35% (17/7), урон 1D3 + 1D4<br>
+Навыки: Работа в библиотеке 60%, Работа с компьютером 55%, Электрика 45%, Внимание 50%, Слух 50%, Выживание 40%, Уклонение 25%</p></section>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="migo-man-statblock"><h3>ЧЕЛОВЕК-МИ-ГО</h3>
+<p>Человек-ми-го — часть Конструкта и внутри него практически всемогущ, хотя старается вести себя как можно более по-человечески. До самого конца он будет избегать любых контактов с сыщиками.<br>
+СИЛ 99 НАР 75 ВЫН 35 МОЩ 99 Комплекция: 1 ТЕЛ 70 ОБР 99 ЛВК 99 РАС 0 ПМ: нет данных ИНТ 99 ПЗ 10<br>
+БКУ: 1D4 СКО: 7 Удача: 99<br>
+Драка 99% (17/7), урон 1D3 + 1D4<br>
+Навыки: Работа в библиотеке 99%, Работа с компьютером 99%, Электрика 99%, Внимание 99%, Слух 99%, Выживание 99%, Уклонение 99%, Делай что угодно 99%</p></section>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="migo-statblock"><h3>МИ-ГО</h3>
+<p>В Институте сыщики могут встретить Ми-го.<br>
+СИЛ 55 ВЫН 45 ТЕЛ 35 ЛВК 60 ИНТ 75 НАР 0 МОЩ 40 ОБР 0 РАС 0 ПЗ 8 БКУ: 0 Комплекция: 0 ПМ: 6 Удача: нет данных<br>
+Атаки за раунд: 2<br>
+СКО: 7/13 в полёте<br>
+Ближний бой: 45% Урон: 1D6<br>
+Захват: (манёвр) уносит жертву и сбрасывает с большой высоты или<br>
+душит из-за недостатка кислорода<br>
+Броня: 0<br>
+Навыки: Уклонение 35% Потеря РАС: 0/1D6</p></section>
+<section class="statblock-card" data-semantic-kind="statblock" data-semantic-id="hunting-horror-statblock"><h3>УЖАС-ОХОТНИК</h3>
+<p>СИЛ 170 ВЫН 65 ТЕЛ 140 ЛВК 60 ИНТ 85 НАР 0 МОЩ 115 ОБР 0 РАС 0 ПЗ 20 БКУ: 3D6 Комплекция: 4 ПМ: 23 Удача: нет данных<br>
+Атаки за раунд: 2<br>
+СКО: 7/13 в полёте<br>
+Ближний бой: 45% Урон: 1D6<br>
+Захват: (манёвр) уносит жертву и сбрасывает с большой высоты или<br>
+душит из-за недостатка кислорода<br>
+Броня: 0 Навыки: Уклонение 35% Потеря РАС: 0/1D6</p></section>
+</section>
+<!-- pdf-page-019 -->
+<section class="production-page page-type-body" id="page-019" data-page="019">
+<div class="page-marker">page 019</div>
+<h1 id="prilozhenie-b-razdatochnye-materialy">ПРИЛОЖЕНИЕ B — РАЗДАТОЧНЫЕ МАТЕРИАЛЫ</h1>
+<blockquote class="review-callout"><p>Простите за групповое письмо и внезапное обращение ко всем. Некоторых из вас я не видел годами, но мне нужны люди, которым я могу доверять, и так уж вышло, что это вы.</p>
+<p>Поверьте, это срочно и важно; я бы не стал этим заниматься, если бы не считал необходимым. Короче говоря, Элси ушла «в подполье». Думаю, физически с ней всё в порядке, но она чувствует опасность. Она не говорит, где находится, и настаивает, что так безопаснее и для меня, и для неё.</p>
+<p>Она всегда была мечтательной и впечатлительной девушкой. Уверен, она что-то неправильно поняла, но что бы там ни случилось, я не хочу, чтобы она разбиралась с этим одна. Если бы не это проклятое кресло, я бы уже отправился на поиски.</p>
+<p>Если можете, приходите завтра в магазин. Я буду вас там ждать. Пожалуйста, приходите все вместе; не звоните, если только это действительно не понадобится. Общайтесь как можно меньше. Пока не выясним обратное, лучше считать, что ситуация враждебная. Стэнвик Уэбб</p>
+<p>Книжный магазин Стэнвика, Кристмас-Степс, Бристоль</p>
+<p>Иллюстрация 2. Раздаточный материал 1 — «Сон № 7»</p></blockquote>
+<blockquote class="review-callout"><h3>ПРОСВЕТЛЁННЫЕ</h3>
+<p><em>Просветлённые при жизни, достойные в смерти</em></p>
+<p>Вам кажется, что мир вас не понимает? Чувствуете, что ваше предназначение не исполнено? Ищете высшую цель?</p>
+<p>Тогда посетите один из наших Центров здоровья и начните путь к новой версии себя.</p>
+<p>ПРОСВЕТЛЁННЫЕ — где светлые умы создают</p>
+<p>светлое будущее. Начните свой путь сегодня.</p>
+<p>www.looktothestars.co.uk</p>
+<p>Раздаточный материал 3 — «Сон № 7»</p></blockquote>
+<blockquote class="review-callout"><p>Не тревожьтесь, если чувствуете пробел в памяти. Вы согласились позволить мне загипнотизировать вас, чтобы вы не запомнили, где меня нашли, — но всё же нашли меня, живую и невредимую. Я многое вам рассказала; вот краткое изложение:</p>
+<ul>
+<li>«Просветлённые» служат прикрытием для жестоких экспериментов над людьми с выдающимися умственными способностями. Они хотели поставить опыты на мне.</li>
+<li>Их руководитель операций находится в месте под названием Институт, в Уилтшире, SN13 6PG. Там проводят эксперименты.</li>
+<li>Разоблачите их, сорвите их планы, сделайте всё, что сможете, но не недооценивайте их. Они куда опаснее, чем кажутся.</li>
+<li>Скажите отцу, что я в безопасности и что он хорошо меня воспитал.</li>
+</ul>
+<p>Удачи!</p>
+<p>Элси Уэбб</p></blockquote>
+</section>
+<!-- pdf-page-020 -->
+<section class="production-page page-type-body" id="page-020" data-page="020">
+<div class="page-marker">page 020</div>
+<figure><img src="assets/master-page-020-asset-001.jpg" alt="Исходное изображение со страницы 20"></figure>
+<p>Раздаточный материал 2 — «Сон № 7»</p>
+<h2 id="kratkoe-soderzhanie-dnevnika-elsi">Краткое содержание дневника Элси</h2>
+<p>В начале дневника Элси пишет о своей работе социальным работником, которая вызывает у неё сильный стресс. Она с большим сочувствием говорит о подопечных, настолько, что буквально разделяет их боль. В этот период она несколько раз упоминает посещения своего «тайного места», которое находится «недалеко от папиного дома».</p>
+<p>Она решает, что ей нужно уйти с этой работы, и в конце концов увольняется после нескольких сеансов в Центре благополучия, которые помогли ей открыть своё «истинное я». Она решила проводить консультации, самостоятельно выбирая, с кем работать, избегая случаев, которые вызывают глубокое душевное потрясение, и при необходимости применяя гипнотерапию. Кажется, теперь она гораздо счастливее.</p>
+<p>Она приходит в восторг, когда старший сотрудник организации приглашает её в руководящий комитет, и узнаёт, что туда приглашают только людей с выдающимися интеллектуальными способностями. Её исключительная эмпатия выделила её среди остальных. Всё складывается удачно, и ей предлагают работу на полную ставку. В последней записи она рассказывает о визите в место под названием Институт.</p>
+</section>
+<!-- pdf-page-021 -->
+<section class="production-page page-type-body" id="page-021" data-page="021">
+<div class="page-marker">page 021</div>
+<h1 id="prilozhenie-c-zaranee-sozdannye-personazhi-igrokov">ПРИЛОЖЕНИЕ C — ЗАРАНЕЕ СОЗДАННЫЕ ПЕРСОНАЖИ ИГРОКОВ</h1>
+<h2 id="dzhoselin-iivs-pisatelnitsa-49-let">ДЖОСЕЛИН ИЙВС — ПИСАТЕЛЬНИЦА, 49 ЛЕТ</h2>
+<figure><img src="assets/page-021-xref-58-gen-0-resource-image171.jpg" alt="Исходное изображение со страницы 21"></figure>
+<p>СИЛ: 45 ВЫН: 50 ТЕЛ: 55 ЛВК: 50 НАР: 30 ОБР: 65 ИНТ: 70 МОЩ: 50 РАС: 50<br>
+Удача: 50<br>
+ПЗ: 10<br>
+ПМ: 10<br>
+Бонус к урону: 0<br>
+Комплекция: 0<br>
+СКО: 7</p>
+<p>Навыки: Бухгалтерское дело 15%, Археология 55%, Искусство/ремесло (литература) 60%, Работа с компьютером 15%, Средства 25%, Первая помощь 40%, История 50%, Работа в библиотеке 65%, Механика 25%, Оккультизм 40%, Убеждение 40%, Психология 55%, Психоанализ 25%, Внимание 45%</p>
+<h3 id="predystoriya-2">Предыстория</h3>
+<p>У тебя есть дочь Элси, но много лет назад ты развелась с её отцом Стэнвиком — после того, как он вернулся из Боснии совсем другим человеком. Он утратил всякую веру в человечество и стал вести себя как помешанный выживальщик: постоянно настаивал, чтобы дома был запас как минимум на две недели нескоропортящихся продуктов и бутилированной воды. Ты отчасти верила, что ранение, из-за которого его комиссовали в Боснии, он нанёс себе сам: тебе всегда казалось, что его неприступная внешность — своего рода защитный механизм. Элси навещает тебя не так часто, как тебе хотелось бы. После пары выпитых бокалов вы неизменно ссоритесь. Наверное, тебе стоит немного умерить выпивку: ты ведь выпиваешь не меньше бутылки вина в день. Ты могла бы бросить в любой момент. Конечно, могла бы, но пока не сейчас. После пары бокалов ты гораздо больше похожа на себя.</p>
+<h3 id="chto-ty-znaesh-o-stenvike">Что ты знаешь о Стэнвике</h3>
+<p>Стэнвику принадлежит книжный магазин на улице Кристмас-Степс в Бристоле. Ещё у него есть коттедж в глуши, в Южном Глостершире; если постараться, ты, наверное, сумеешь его найти. Адрес у тебя всё равно где-то записан. Со Стэнвиком вы всегда общаетесь учтиво. С тех пор как Элси выросла, ты не так уж часто с ним видишься, но тебя раздражает, что она, похоже, предпочитает отца тебе, и ты не понимаешь почему — особенно учитывая, что она постоянно на него жалуется. Ты признаёшь, что он её очень любит.</p>
+</section>
+<!-- pdf-page-022 -->
+<section class="production-page page-type-body" id="page-022" data-page="022">
+<div class="page-marker">page 022</div>
+<h2 id="milton-lou-programmist-24-goda">МИЛТОН ЛОУ — ПРОГРАММИСТ, 24 ГОДА</h2>
+<figure><img src="assets/page-022-xref-61-gen-0-resource-image174.jpg" alt="Исходное изображение со страницы 22"></figure>
+<p>СИЛ: 60 ВЫН: 40 ТЕЛ: 55 ЛВК: 70 НАР: 50 ОБР: 65 ИНТ: 45 МОЩ: 50 РАС: 50<br>
+Удача: 45<br>
+ПЗ: 9<br>
+ПМ: 10<br>
+Бонус к урону: 0<br>
+Комплекция: 0<br>
+СКО: 9</p>
+<p>Навыки: Работа с компьютером: 60%, Электроника 55%, Математика: 45%, Внимание: 55%, Работа в библиотеке: 65%, Слух: 50%, Механика: 20%, Электрика 50% Лазание 50%, Средства 60%</p>
+<h3 id="predystoriya-3">Предыстория</h3>
+<p>Ты всё никак не можешь забыть свою бывшую девушку Элси Уэбб. Она винила в вашем расставании твою героиновую зависимость, но ты считаешь, что дело скорее в том, что она поступила в университет и познакомилась с людьми, у которых якобы идеи о жизни поважнее твоих. К тому же теперь ты завязал. Почти. Ты неплохо зарабатываешь на ИТ-контрактах, и хорошо то, что они никогда не бывают постоянными: если сорвёшься, это не станет большой проблемой. Раньше ты занимался скалолазанием в ущелье Эйвон, но в последнее время уже не так часто.</p>
+<h3 id="chto-ty-znaesh-o-stenvike-2">Что ты знаешь о Стэнвике</h3>
+<p>Стэнвик тебе нравится. Жаль, что твой отец не такой, как он. Стэнвик держит книжный магазин на Кристмас-Степс в Бристоле; там довольно много военных книг, которые тебе по душе, ведь раньше ты занимался военно-историческими варгеймами, пока наркотики не стали интереснее. Ты пару раз бывал у него дома в Южном Глостершире. Хорошее место. Ты и сам хотел бы жить в таком доме, а не в съёмной квартире, если бы когда-нибудь смог накопить на первоначальный взнос.</p>
+</section>
+<!-- pdf-page-023 -->
+<section class="production-page page-type-body" id="page-023" data-page="023">
+<div class="page-marker">page 023</div>
+<h2 id="ogustin-freizer-chastnyi-syschik-52-goda">ОГУСТИН ФРЕЙЗЕР — ЧАСТНЫЙ СЫЩИК, 52 ГОДА</h2>
+<figure><img src="assets/page-023-xref-64-gen-0-resource-image177.jpg" alt="Исходное изображение со страницы 23"></figure>
+<p>СИЛ: 60 ВЫН: 35 ТЕЛ: 50 ЛВК: 60 НАР: 50 ОБР: 55 ИНТ: 60 МОЩ: 45 РАС: 37<br>
+Удача: 85<br>
+ПЗ: 8<br>
+ПМ: 9<br>
+Бонус к урону: 0<br>
+Комплекция: 0<br>
+СКО: 9</p>
+<p>Навыки: Фотография 60%, Обаяние 55%, Ближний бой (Драка) 45%, Первая помощь 60%, Запугивание 55%, Юриспруденция 35%, Работа в библиотеке 60%, Работа с компьютером 40%, Взлом 70%, Внимание 65%, Вождение автомобиля 75%, Средства 45%</p>
+<h3 id="predystoriya-4">Предыстория</h3>
+<p>Ты частный сыщик, и это не так интересно, как всем кажется. Чаще всего ты расследуешь страховое мошенничество, разыскиваешь должников или ищешь доказательства супружеской измены. Приходится делать то, что приходится, с тех пор как тебя выгнали из полиции. Ты каждый день видишь того мальчика — его маленькое тело в луже крови перед машиной. Да, в обед ты выпил пару рюмок — кто тогда не пил? — и вообще, ты участвовал в скоростной погоне. Но нет ни дня, чтобы ты не жалел, что откликнулся на тот вызов. Надо было позволить кому-нибудь другому заняться этим. Теперь тебе нести это бремя всю жизнь.</p>
+<h3 id="chto-ty-znaesh-o-stenvike-3">Что ты знаешь о Стэнвике</h3>
+<p>Ты кое-что сделал для Стэнвика после кражи со взломом в его магазине на Кристмас-Степс. Он не доверял полиции, но почему-то доверился тебе. Кажется, ты ему понравился. Бог знает почему. Так или иначе, ты выполнил его просьбу, и он остался доволен. Настолько, что иногда соглашался выпить с тобой. Похоже, теперь ему трудно ходить. Говорят, много лет назад, когда он служил в армии, его подстрелили в Боснии. В последний раз, когда вы виделись, у него было инвалидное кресло. Но он, похоже, не хотел им пользоваться.</p>
+</section>
+<!-- pdf-page-024 -->
+<section class="production-page page-type-body" id="page-024" data-page="024">
+<div class="page-marker">page 024</div>
+<h2 id="kapitan-einsli-hemmond-otstavnoi-ofitser-53-goda">КАПИТАН ЭЙНСЛИ ХЭММОНД — ОТСТАВНОЙ ОФИЦЕР, 53 ГОДА</h2>
+<figure><img src="assets/page-024-xref-67-gen-0-resource-image180.jpg" alt="Исходное изображение со страницы 24"></figure>
+<p>СИЛ: 40 ВЫН: 45 ТЕЛ: 70 ЛВК: 50 НАР: 45 ОБР: 70 ИНТ: 70 МОЩ: 40 РАС: 31<br>
+Удача: 65<br>
+ПЗ: 11<br>
+ПМ: 8<br>
+Бонус к урону: 0<br>
+Комплекция: 0<br>
+СКО: 7</p>
+<p>Навыки: Стрельба (пистолет) 60%, Стрельба (винтовка/дробовик) 55%, Первая помощь 40%, Запугивание 45%, Ориентирование 50%, Психология 50%, Скрытность 50%, Чтение следов 65%, Выживание 50%, Слух 50%, Внимание 45%, Азартные игры 35%, Средства 0%</p>
+<h3 id="predystoriya-5">Предыстория</h3>
+<p>Ты недавно ушёл в отставку из своего полка — Чеширского полка. Уже ходят разговоры, что любимый тобой полк объединят с другим из-за сокращения государственного финансирования. Правительству и людям, похоже, нет дела до жертв, на которые мы с моими солдатами пошли ради так называемой безопасности, но всё же я скучаю по службе. С тех пор как дети поступили в университет, заняться особо нечем. Мне не хватает определённости военной жизни. Единственное, что снова заставляет меня почувствовать себя живым, — азартные игры. Я пристрастился к ним ещё в полку, но в последнее время всё стало гораздо хуже. Я пытался отыграться после пары крупных проигрышей, но ничего не вышло. Почти весь мой пенсионный фонд проигран, а обслуживание взятых кредитов обходится в целое состояние. Джанет, моя жена, ничего не знает. Я не могу ей рассказать. Да она всё равно не поймёт.</p>
+<h3 id="chto-ty-znaesh-o-stenvike-4">Что ты знаешь о Стэнвике</h3>
+<p>Когда-то ты служил со Стэнвиком в Боснии. Он получил пулю в колено, и на этом его военная карьера закончилась. Он был убит горем, но теперь ты ему почти завидуешь. Он ушёл из армии и был вынужден строить жизнь за её пределами. Где-то в Бристоле у него книжный магазин. Вы изредка переписываетесь по электронной почте, но не виделись много лет. И всё же он боевой товарищ, и если бы он попросил, ты сделал бы для него всё.</p>
+</section>
+<!-- pdf-page-025 -->
+<section class="production-page page-type-body" id="page-025" data-page="025">
+<div class="page-marker">page 025</div>
+<h2 id="vinsent-tenni-vyshibala-34-goda">ВИНСЕНТ ТЕННИ — ВЫШИБАЛА, 34 ГОДА</h2>
+<figure><img src="assets/page-025-xref-70-gen-0-resource-image183.jpg" alt="Исходное изображение со страницы 25"></figure>
+<p>СИЛ: 55 ВЫН: 50 ТЕЛ: 75 ЛВК: 35 НАР: 25 ОБР: 75 ИНТ: 50 МОЩ: 45 РАС: 45<br>
+ПЗ: 12<br>
+ПМ: 9<br>
+Бонус к урону: 1d4<br>
+Комплекция: 0<br>
+СКО: 7</p>
+<p>Навыки: Средства 10%, Ближний бой (Драка) 75%, Запугивание 65%, Прыжки 50%, Психология 40%, Внимание 75%, Механика 85%, Метание 45%, Уклонение 67%, Средства 35%</p>
+<h3 id="predystoriya-6">Предыстория</h3>
+<p>Ты работаешь в охране, в основном вышибалой в городских барах. Кроме того, ты подрабатывал у человека по имени Гас Фрейзер, когда ему требовалось немного «внушительности», как он это называет. Тебе очень хотелось бы стать кем-то большим, но ты так и не смог осилить курс Открытого университета, который начал. Как люди вообще читают эту ерунду? Ничего ведь не понятно. С возрастом ты начал колоть стероиды: поддерживать мышечную массу становится всё труднее. Но ты никому об этом не рассказываешь.</p>
+<h3 id="chto-ty-znaesh-o-stenvike-5">Что ты знаешь о Стэнвике</h3>
+<p>Ты познакомился со Стэнвиком, когда попытался не пустить его в бар. Уже не помнишь почему — возможно, просто выдался скверный день. Дальше стало только хуже. Стэнвик уложил тебя на землю так, как это умеет только боевой ветеран. Впечатляюще. Потом ты разыскал его и спросил, не научит ли он тебя паре приёмов. Старик согласился и с тех пор стал тебе почти единственным другом.</p>
+</section>
+<!-- pdf-page-026 -->
+<section class="production-page page-type-body" id="page-026" data-page="026">
+<div class="page-marker">page 026</div>
+<h2 id="kameliya-braun-ofitsiantka-23-goda">КАМЕЛИЯ БРАУН — ОФИЦИАНТКА, 23 ГОДА</h2>
+<figure><img src="assets/page-026-xref-73-gen-0-resource-image186.jpg" alt="Исходное изображение со страницы 26"></figure>
+<p>СИЛ: 45 ВЫН: 40 ТЕЛ: 40 ЛВК: 30 НАР: 65 ОБР: 55 ИНТ: 70 МОЩ: 45 РАС: 45<br>
+Удача: 55<br>
+ПЗ: 8<br>
+ПМ: 9<br>
+Бонус к урону: 0<br>
+Комплекция: 0<br>
+СКО: 8</p>
+<p>Навыки: Бухгалтерское дело 25%, Искусство/ремесло (актёрское мастерство) 45%, Уклонение 65%, Слух 50%, Обаяние 45%, Убеждение 55%, Психология 50%, Работа в библиотеке 50%, Работа с компьютером 50%, Ближний бой (Драка) 65%</p>
+<h3 id="predystoriya-7">Предыстория</h3>
+<p>Ты давняя школьная подруга дочери Стэнвика, Элси. Стэнвик не знает, что вы с Камелией поссорились и до сих пор не помирились. Недавно ты рассталась с мужем после двух лет брака, узнав, что он заводил одну интрижку за другой. Когда ты обсуждала это с Элси, тебя раздражали её сочувствие и понимание — тебе нужна была подруга, которая разозлится на него. Ты удивилась собственной реакции на Элси и думаешь, не связана ли она с чувством вины за то, что когда-то провела ночь с Милтоном, тогдашним парнем Элси. Ты так и не простила себе этот поступок. Элси всё равно рассталась с Милтоном, но всё же ты рада, что он никогда об этом не заговаривал, и стараешься забыть случившееся. Ты училась драматическому искусству в театральной школе Бристоль-Олд-Вик, но после выпуска ничего не добилась и была вынуждена подрабатывать официанткой, чтобы сводить концы с концами. На тебя накатывают приступы депрессии; сейчас ты принимаешь прозак, который помогает с ней справляться, хотя с тех пор, как ты начала пить таблетки, у тебя появились проблемы со сном. Ты не хочешь отказываться от лекарства, потому что с ним тебе и правда намного лучше. Ты очень скучаешь по Элси и жалеешь, что так ужасно с ней обошлась.</p>
+<h3 id="chto-ty-znaesh-o-stenvike-6">Что ты знаешь о Стэнвике</h3>
+<p>Ты знаешь, что у Стэнвика есть книжный магазин в Бристоле. Он всегда очень мил с тобой, но даже не подозревает о половине того, что происходит между тобой и Элси. Он считает, что ты любишь её и вы очень близкие подруги. И он прав — просто сейчас между вами почти ничего нет. Ты хотела бы получить возможность всё исправить. Ты не знаешь, как Стэнвик отреагировал бы, узнав о том, что произошло между тобой и Элси.</p>
+</section>
+</main>
+</body>
+</html>

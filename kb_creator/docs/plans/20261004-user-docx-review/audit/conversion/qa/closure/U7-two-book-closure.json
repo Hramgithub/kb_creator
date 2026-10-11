@@ -1,0 +1,111 @@
+{
+  "schema": "nri.u7_two_book_closure_qa.v1",
+  "goal_id": "20261004-user-docx-review",
+  "assignment": "U7v02 bounded read-only QA; no conversion implemented",
+  "authority": {
+    "conversion_spec": "audit/conversion/architecture/conversion-spec.md",
+    "user_choices": "audit/conversion/accepted-choices-v01.json",
+    "orchestrator_policy_owner": "gpt-6-sol / medium; actual platform unverified; scoped override none"
+  },
+  "inputs": {
+    "shadows-of-leningrad-1938": {
+      "docx": "kb_creator/deliverables/latest/shadows-of-leningrad-1938/document.docx",
+      "docx_sha256": "3E2172AB1CC9C045F9F5F472BF6F664337A06969FEDC786BEB2D8D40459007C8",
+      "source_pdf": "D:/яндекс/Yandex.Disk/НРИ/1_Зов Ктулху/temp/1938 Тени Ленинграда/5_Shadows of Leningrad, 1938.pdf",
+      "source_bytes": 2800661,
+      "source_sha256": "E8C21B6D0BFBED034E6577C7BE01EE305EBFE480C93F87225B07C12AAFD3F10A",
+      "source_pages": 49,
+      "edition": "5th edition, explicit source evidence already recorded in U7-qa-v01"
+    },
+    "secrets-of-the-kremlin-1931": {
+      "docx": "kb_creator/deliverables/latest/secrets-of-the-kremlin-1931/document.docx",
+      "docx_sha256": "6C110ED5E62F29E3FACF97AE3B2D8E515B0066CC1B9F48CCC4D45F09FB3B81A",
+      "source_pdf": "D:/яндекс/Yandex.Disk/НРИ/1_Зов Ктулху/temp/тайны кремля 1931/2_Secrets of the Kremlin, 1931.pdf",
+      "source_bytes": 978872,
+      "source_sha256": "F42B054BB94378A7206CF6688CF6B6CF079606C6F24EE74D2EE5EC8A09C62CA0",
+      "source_pages": 21,
+      "edition": "No precise 5e/6e label confirmed; physical page 16 crosswalk establishes all three current cards preserve source 3-18 values. Exact edition label is not a scale blocker."
+    }
+  },
+  "coverage": {
+    "method": "Extracted every DOCX body paragraph from word/document.xml, scanned current DOCX and available HTML text for skill/characteristic terms and source PDF extracted text for indexed legacy terms. Cross-referenced known page spans and all structured card records to the prior U7 statblock inventory. This is a targeted semantic closure, not OCR or visual review.",
+    "leningrad": {"docx_paragraphs_scanned": 1156, "source_physical_pages": "1-49", "html_page_domain": "001-049", "noncard_characteristic_dependent_prose_occurrences": 2, "card_inventory_duplicated": false},
+    "kremlin": {"docx_body_paragraphs_scanned": 275, "source_physical_pages": "1-21", "html_page_domain": "001-021", "source_crosswalk_page": 16, "noncard_characteristic_dependent_prose_occurrences": 1, "card_inventory_duplicated": false},
+    "limits": ["PDF text extraction returned no hits for these Russian terms; PDF crosswalk evidence uses previously inspected physical pages and exact matching source values, not OCR restarted here.", "No page render/visual QA was performed.", "Skill enumeration is limited to actual skill/stat contexts; ordinary narrative homonyms such as ‘силы культа’, ‘фотография’ as a story object, and ‘поторговаться’ narrative prose are excluded."]
+  },
+  "prose_mechanics": [
+    {
+      "id": "len-door-strength-10",
+      "docx_paragraph": 305,
+      "html_source_page": "018",
+      "source_pdf_physical_page": 18,
+      "source_pdf_printed_page": 17,
+      "exact_current_text": "Проходя мимо двери этой комнаты, сыщики могут услышать доносящиеся изнутри приглушённые крики (Слух −10%). Дверь заперта. Её можно открыть исподтишка (Взлом +10%) или выбить сильным толчком: СИЛ двери равна 10, и для её взлома силой сыщики должны пройти проверку по Таблице сопротивления.",
+      "source_correspondence": "Source p18/printed p17 describes the same locked door and Strength 10 threshold.",
+      "classification": "old characteristic resistance threshold in prose",
+      "deterministic_candidate": "10 × 5 = 50; resolve using 7e opposed STR check per conversion guide, not a resistance-table target",
+      "status": "source-grounded QA candidate; no edit performed"
+    },
+    {
+      "id": "len-door-strength-16",
+      "docx_paragraph": 347,
+      "html_source_page": "020",
+      "source_pdf_physical_page": 20,
+      "source_pdf_printed_page": 19,
+      "exact_current_text": "При таком развитии событий оба боя продолжаются десять раундов, прежде чем прибегут другие врачи и настоящие санитары, откроют двери и разнимут дерущихся. Всё, что произойдёт за эти раунды, может оказаться для сыщиков смертельным. Чтобы выбраться из запертой палаты, им понадобятся и умение, и удача. Вскрыть замок изнутри чрезвычайно трудно (Взлом −15%), а если сыщики решат выбивать дверь, её СИЛ составляет 16.",
+      "source_correspondence": "Source p20/printed p19 describes the ward door with Strength 16.",
+      "classification": "old characteristic door-strength threshold in prose; source sentence does not repeat a Resistance Table instruction",
+      "deterministic_candidate": "16 × 5 = 80; opposed STR check is the guide route, with the prose's implied door-breaking context preserved",
+      "status": "source-grounded QA candidate; no edit performed"
+    },
+    {
+      "id": "kremlin-potapov-pow-times-3",
+      "docx_paragraph": 146,
+      "html_source_page": "006",
+      "source_pdf_physical_page": 6,
+      "source_pdf_printed_page": 5,
+      "exact_current_text": "Для получения аккредитации игроки должны совершить броски. Каждый выбирает издание, от которого хочет поехать, а затем проходит проверку МОЩ. При успехе персонаж получает аккредитацию от этого издания. При неудаче он должен выбрать другое и продолжать бросать, пока результат не окажется равен МОЩ или ниже; для каждого нового броска требуется новое издание. От этого правила освобождаются лишь газетные репортёры, которые уже работают в штате ежедневной газеты: они получают аккредитацию автоматически.",
+      "classification": "legacy POW roll-under skill-like check; not a current characteristic value field",
+      "conversion_spec_route": "if confirmed as ordinary old POW×3 check, convert to hard POW check rather than multiply printed threshold; source text here says roll-under POW but does not itself state ×3",
+      "status": "needs source-rule/edition binding; do not infer ×3 from this paragraph alone"
+    }
+  ],
+  "approved_choice_bindings": [
+    {"choice_id": "kremlin-chr-app-crosswalk", "entities": ["Евгений Потапов", "Иван", "Николай"], "docx_paragraphs": [264, 269, 274], "source_page": 16, "old_to_current": ["ХАР8→НАР40", "ХАР5→НАР25", "ХАР12→НАР60"], "status": "user-approved field adaptation; source abbreviation alone is not asserted to mean APP"},
+    {"choice_id": "len-stealth-context-values", "entities": ["Катерина, маленький вампир", "3 зачарованных питона"], "docx_paragraphs": [371, 447], "source_pages": [20, 24], "old": "Бесшумное передвижение 90%, Укрытие 75%", "approved_target": "Скрытность: 90% при передвижении, 75% при укрытии", "status": "preserve both distinct conditional scores; no allocation redesign"},
+    {"choice_id": "len-rybin-bodily-conceal", "entity": "Sleuths entering Dr Rybin's office unnoticed", "docx_paragraph": 290, "source_page": 17, "old": "Сокрытие +10%", "approved_target": "Скрытность +10%", "status": "label approved by scene action; retain +10 modifier, no bonus-die substitution"}
+  ],
+  "legacy_skill_occurrences": [
+    {"book": "shadows-of-leningrad-1938", "entity": "Peter scene check", "docx": "p89", "page": 7, "exact": "Подкрадывание −20%", "route": "Sneak→Stealth/Скрытность", "disposition": "direct label map; retain −20% modifier"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Morozov's coroner document", "docx": "p284", "page": 17, "exact": "Сокрытие −10%", "route": "Conceal→Sleight of Hand/Ловкость рук (hidden taking of a document)", "disposition": "direct contextual mapping; retain −10% modifier"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Dr Rybin office entry", "docx": "p290", "page": 17, "exact": "Сокрытие +10%", "route": "approved contextual Stealth/Скрытность", "disposition": "user choice len-rybin-bodily-conceal; retain +10%"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Vladimir's desk items", "docx": "p402", "page": 22, "exact": "Сокрытие −10%", "route": "Conceal→Sleight of Hand/Ловкость рук (pick up items unnoticed)", "disposition": "direct contextual mapping; retain −10% modifier"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Elena's ruins approach and cover", "docx": "p693", "page": 34, "exact": "Подкрадывание +10%; Прятаться +10%", "route": "Sneak and Hide→Stealth/Скрытность", "disposition": "map both checks to same canonical skill but preserve distinct situation, trigger, and +10% modifiers; do not consolidate"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Katerina", "docx": "p371", "page": 20, "exact": "Бесшумное передвижение 90%, Укрытие 75%", "route": "user-approved contextual Stealth", "disposition": "approved choice; preserve condition-tagged values"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Three enchanted pythons", "docx": "p447", "page": 24, "exact": "Бесшумное передвижение 90%, Укрытие 75%", "route": "user-approved contextual Stealth", "disposition": "approved choice; preserve condition-tagged values"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Ghast", "docx": "p481", "page": 25, "exact": "Подкрадывание 70%", "route": "Sneak→Stealth/Скрытность", "disposition": "direct label mapping; retain 70%"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Boris Churin", "docx": "p669", "page": 33, "exact": "Искусство 50%; Торг 30%; Прятаться 20%", "route": "Art/Craft; Bargain→Persuade/Убеждение; Hide→Stealth/Скрытность", "disposition": "direct label mappings; preserve each percentage"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Investigator sheet — Reginald Masters", "docx": ["p816 Торг / p817 71%", "p828 Удар кулаком / p829 55%", "p840 Естествознание / p841 75%", "p850 Подкрадывание / p851 20%"], "page": 37, "route": "Persuade; Fighting(Brawl); Natural World; Stealth", "disposition": "direct label mappings; preserve source values; no skill-pool redesign"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Investigator sheet — Leon Sterndale", "docx": ["p889 Торг / p890 40%", "p899 Удар кулаком / p900 50%", "p919 Подкрадывание / p920 30%"], "page": 38, "route": "Persuade; Fighting(Brawl); Stealth", "disposition": "direct label mappings; preserve source values; no skill-pool redesign"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Investigator sheet — Mycroft Boothe", "docx": ["p946 Искусство (Живопись) / p947 85%", "p948 Искусство (Чревовещание) / p949 30%", "p956 Удар кулаком / p957 55%"], "page": 39, "route": "Art/Craft specialties; Fighting(Brawl)", "disposition": "direct label mappings; preserve source values"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Investigator sheet — Colleen Palmer", "docx": ["p994 Торг / p995 40%", "p996 Сокрытие / p997 25%", "p1008 Удар кулаком / p1009 55%", "p1012 Прятаться / p1013 30%", "p1030 Фотография / p1031 13%"], "page": 40, "route": "Persuade; Conceal→Sleight of Hand (sheet context); Fighting(Brawl); Hide→Stealth; official Art/Craft(Photography)", "disposition": "direct official correspondence; preserve source values and skill-pool limitation; local standalone Photography row remains review_required without blocking this task mapping"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Investigator sheet — Albion Fitzgerald", "docx": ["p1055 Искусство (Живопись) / p1056 85%", "p1057 Сокрытие / p1058 20%", "p1063 Удар кулаком / p1064 70%", "p1077 Фотография / p1078 30%", "p1081 Подкрадывание / p1082 40%"], "page": 41, "route": "Art/Craft; Conceal→Sleight of Hand; Fighting(Brawl); official Art/Craft(Photography); Stealth", "disposition": "direct official correspondence; preserve source values and skill-pool limitation; local standalone Photography row remains review_required without blocking this task mapping"},
+    {"book": "shadows-of-leningrad-1938", "entity": "Elena Orkonova", "docx": "p770", "page": 36, "exact": "Оружие: удар кулаком 40%, урон 1D3; удар ногой 60%; удар головой 50%; захват 35%; посох 45%", "route": "combat attack list, not investigator skill-pool label repair", "disposition": "retain attack names/rates; official NPC combat-balancing requirements are not inferred without entity-specific authority"},
+    {"book": "secrets-of-the-kremlin-1931", "entity": "Evgeny Potapov", "docx": "p265", "page": 16, "exact": "Русский язык 100%; Английский язык 80%; Немецкий язык 70%; Архитектура 90%", "route": "Languages need own/other language field classification; Architecture has local review_required row and needs scoped target confirmation", "disposition": "unresolved; preserve values/labels until decision"},
+    {"book": "secrets-of-the-kremlin-1931", "entity": "Ivan", "docx": "p270", "page": 16, "exact": "Русский язык 100%; Английский язык 70%", "route": "Own/other language parent fields unresolved", "disposition": "unresolved; preserve values/labels"},
+    {"book": "secrets-of-the-kremlin-1931", "entity": "Nikolai", "docx": "p275", "page": 16, "exact": "Русский язык 100%; Английский язык 60%", "route": "Own/other language parent fields unresolved", "disposition": "unresolved; preserve values/labels"}
+  ],
+  "nonissues_and_limits": [
+    "Кремлёвские stats: all 8 current characteristic fields in each of three cards crosswalk to physical source PDF page 16; source/current values prove old 3-18 scale. The user-approved ХАР→НАР mapping is reflected above; other characteristic candidates are already in U7-statblock-inventory.json, not duplicated here.",
+    "Kremlin p146 uses a direct roll-under-POW check, without the ×3 multiplier stated in the paragraph. Do not replace with ×3/hard until source-rule context is verified.",
+    "Leningrad p368–369 vampire 1D6 STR drain and POW resistance checks occur inside the existing inventory's card text; no duplication. Preserve 1D6 STR exact distribution under the conversion spec; POW resistance becomes opposed only through the bound conversion rules.",
+    "Investigator-sheet Idea/Luck/Knowledge percentages are check fields, not additional characteristics. Not converted.",
+    "Percentile modifiers −20%, −15%, −10%, +10% remain numerical skill modifiers; this audit does not redesign difficulty into bonus/penalty dice.",
+    "Ordinary narrative uses of сила/фотография/торг are not mechanically labeled skill or characteristic occurrences."
+  ],
+  "grouped_unresolved": [
+    {"id": "kremlin-language-fields", "question": "Which current fields should be own language versus other languages for these Russian NPCs?", "occurrences": ["Potapov Russian100/English80/German70 p265", "Ivan Russian100/English70 p270", "Nikolai Russian100/English60 p275"], "default": "preserve exact labels and rates until specific own/other assignments are decided"},
+    {"id": "kremlin-architecture", "question": "What accepted seventh-edition target should be used for Architecture90?", "occurrence": "Potapov p265", "default": "preserve source label/rate pending scoped decision; local glossary row is review_required"}
+  ],
+  "mutations": []
+}

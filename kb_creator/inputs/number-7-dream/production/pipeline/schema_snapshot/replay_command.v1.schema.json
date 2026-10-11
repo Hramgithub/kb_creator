@@ -1,0 +1,6 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"kb_creator.replay_command.v1","type":"object","additionalProperties":false,
+  "required":["schema","stage_id","run_identity_sha256","producer_invoked","inputs","output","origin_command","transformer","command_sha256"],
+  "properties":{"schema":{"const":"kb_creator.replay_command.v1"},"stage_id":{"enum":["01-prepare-inputs","02-mineru-three-view","03-compare-views","04-visual-merge-bundle"]},"run_identity_sha256":{"$ref":"#/$defs/sha"},"producer_invoked":{"const":false},"inputs":{"const":[]},"output":{"type":"object","additionalProperties":false,"required":["base","path"],"properties":{"base":{"enum":["stage_01_root","stage_02_root","stage_03_root","stage_04_root"]},"path":{"const":"command.json"}}},"origin_command":{"type":"object"},"transformer":{"const":"replay_command_v1"},"command_sha256":{"$ref":"#/$defs/sha"}},
+  "$defs":{"sha":{"type":"string","pattern":"^[A-F0-9]{64}$"}}
+}

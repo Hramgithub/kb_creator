@@ -27,6 +27,9 @@ MinerU/models/pipeline/models/MFR/pp_formulanet_plus_m/PP-FormulaNet_plus-M_infe
 # Frozen reference policies preserve their reviewed byte identity.
 kb_creator/reference/viral/master_en/publication_config_v1.json -text
 
+# Accepted Innsmouth RU release PDF: same LFS policy as the other frozen RU PDFs.
+kb_creator/inputs/innsmouth/pdf/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+
 # Viral production is a byte-frozen, manifest-bound example package.
 kb_creator/inputs/viral/production/** -text
 kb_creator/inputs/viral/production/Viral_RU.pdf filter=lfs diff=lfs merge=lfs -text

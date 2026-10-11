@@ -1,0 +1,79 @@
+{
+  "schema": "kb_creator.source_registry.v1",
+  "note": "English source PDFs are not stored in Git (decision D7). library_path is relative to the owner's local CoC library root (Yandex.Disk 'НРИ/1_Зов Ктулху'); pipelines must verify bytes and sha256 before use. Not yet consumed by code.",
+  "verified_at": "2026-10-11",
+  "sources": [
+    {
+      "book_id": "innsmouth",
+      "title": "The Innsmouth Terror",
+      "file_name": "The Innsmouth terror.pdf",
+      "library_path": "english/7th Edition Call of Cthulhu/Adventures/1923_The Innsmouth Terror/The Innsmouth terror.pdf",
+      "bytes": 71396612,
+      "sha256": "CFD72DD3B8702C07750DCBB9F721A704793D6D474167B288922E6F7EBEEA561F",
+      "repo_evidence": "kb_creator/reports/innsmouth_full_dry_run/full_dry_run_report.json"
+    },
+    {
+      "book_id": "viral",
+      "title": "Viral",
+      "file_name": "Call_of_Cthulhu_Viral.pdf",
+      "library_path": "english/7th Edition Call of Cthulhu/Adventures/Call_of_Cthulhu_Viral.pdf",
+      "bytes": 20718150,
+      "sha256": "0A80B6F389821B87553D26746D2BE171B4482BA9BBC6E3EB3FEC26274EDBED05",
+      "repo_evidence": "kb_creator/contracts/viral.json"
+    },
+    {
+      "book_id": "dissociation",
+      "title": "Dissociation",
+      "file_name": "Dissociation.PDF",
+      "library_path": "temp/маленькие иголочки страха/Dissociation.PDF",
+      "bytes": 2159317,
+      "sha256": "01855CD1AA2E3F90C31B572AA01D2643FC862935B892FD7D49A7530CAACD947B",
+      "repo_evidence": "kb_creator/contracts/dissociation.reconstruction.json"
+    },
+    {
+      "book_id": "number-7-dream",
+      "title": "Number 7 Dream",
+      "file_name": "Call_of_Cthulhu_Miskatonic_Repository_Modern_Number_7_Dream_2021.pdf",
+      "library_path": "english/7th Edition Call of Cthulhu/Adventures/Call_of_Cthulhu_Miskatonic_Repository_Modern_Number_7_Dream_2021.pdf",
+      "bytes": 2915268,
+      "sha256": "C03AD05644C5B7438E4FAB750557EB8098E637492242D21969C5C4110FBF97D0",
+      "repo_evidence": "kb_creator/contracts/number-7-dream.reconstruction.json"
+    },
+    {
+      "book_id": "cursed-idol",
+      "title": "The Cursed Idol of Manco Capác",
+      "file_name": "The_Cursed_Idol_of_Manco_Capác_A_Classic_Call_of_Cthulhu_Scenario.pdf",
+      "library_path": "temp/идол манко/The_Cursed_Idol_of_Manco_Capác_A_Classic_Call_of_Cthulhu_Scenario.pdf",
+      "bytes": 50385015,
+      "sha256": "36C3F74EB3B488ED68ADB5DE0AF226BCD814D310BDCD388FCC03F9FDEA7CB2E8",
+      "repo_evidence": "kb_creator/docs/plans/20260919-cursed-idol-pilot/context.md"
+    },
+    {
+      "book_id": "fears-sharp-little-needles",
+      "title": "Fear's Sharp Little Needles",
+      "file_name": "Call Of Cthulhu 7ed - Fear's Sharp Little Needles.pdf",
+      "library_path": "english/7th Edition Call of Cthulhu/Adventures/Call Of Cthulhu 7ed - Fear's Sharp Little Needles.pdf",
+      "bytes": 69575583,
+      "sha256": "49CDBAD99DDF5535E5911DBB89D11E2E1D0FC7BABD69DADBCE28A80EC9586888",
+      "repo_evidence": "kb_creator/docs/plans/20261004-user-docx-review/plan.md"
+    },
+    {
+      "book_id": "shadows-of-leningrad-1938",
+      "title": "Shadows of Leningrad, 1938",
+      "file_name": "5_Shadows of Leningrad, 1938.pdf",
+      "library_path": "1_Сценарии/Ваншоты/Серия СССР/1938 Тени Ленинграда/5_Shadows of Leningrad, 1938.pdf",
+      "bytes": 2800661,
+      "sha256": "E8C21B6D0BFBED034E6577C7BE01EE305EBFE480C93F87225B07C12AAFD3F10A",
+      "repo_evidence": "kb_creator/docs/plans/20261004-user-docx-review/plan.md"
+    },
+    {
+      "book_id": "secrets-of-the-kremlin-1931",
+      "title": "Secrets of the Kremlin, 1931",
+      "file_name": "2_Secrets of the Kremlin, 1931.pdf",
+      "library_path": "1_Сценарии/Ваншоты/Серия СССР/1931 Тайны Кремля/2_Secrets of the Kremlin, 1931.pdf",
+      "bytes": 978872,
+      "sha256": "F42B054BB94378A7206CF6688CF6B6CF079606C6F24EE74D2EE5EC8A09C62CA0",
+      "repo_evidence": "kb_creator/docs/plans/20260920-night-three-books/queue.json"
+    }
+  ]
+}
